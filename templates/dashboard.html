@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PocketTellerMachine Dashboard</title>
+    <link id="google-font-link" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Montserrat|Oswald|Lobster|Open+Sans|Inconsolata&display=swap">
+    <style>
+        /* USE THE EXACT SAME CSS BLOCK FROM ABOVE! */
+    </style>
+</head>
+<body>
+<div class="dashboard-container">
+    <button id="theme-toggle" class="dashboard-btn button-ripple button-neon button-bounce button-gradient" style="max-width: 220px; margin: 0 auto 1em auto;">
+        Switch Theme
+    </button>
+    <div class="headline glow-headline" id="headline">
+        PocketTellerMachine Dashboard
+    </div>
+    <div class="soft-shadow">
+        Your AI-powered trading command center is coming alive.
+    </div>
+    <button class="dashboard-btn button-ripple button-neon button-bounce button-gradient">Trade History</button>
+    <button class="dashboard-btn button-ripple button-neon button-bounce button-gradient">Export Data</button>
+    <button class="dashboard-btn button-ripple button-neon button-bounce button-gradient">Settings</button>
+</div>
+<script>
+    // Same JavaScript as above, just replace .home-btn with .dashboard-btn where needed!
+    const settings = {{ settings|tojson }};
+    function setGoogleFont(family) {
+        document.getElementById("google-font-link").href =
+            "https://fonts.googleapis.com/css?family=" + family.replace(" ", "+") + "&display=swap";
+    }
+    function applyUserStyles() {
+        if (settings.headline_font) {
+            setGoogleFont(settings.headline_font);
+            document.getElementById("headline").style.fontFamily = settings.headline_font + ", sans-serif";
+        }
+        if (settings.headline_size) {
+            document.getElementById("headline").style.fontSize = settings.headline_size + "em";
+        }
+        if (settings.button_font) {
+            setGoogleFont(settings.button_font);
+            document.querySelectorAll('.dashboard-btn').forEach(btn => {
+                btn.style.fontFamily = settings.button_font + ", sans-serif";
+            });
+        }
+        if (settings.button_size) {
+            document.querySelectorAll('.dashboard-btn').forEach(btn => {
+                btn.style.fontSize = settings.button_size + "em";
+            });
+        }
+    }
+    window.onload = applyUserStyles;
+
+    const themeToggle = document.getElementById('theme-toggle');
+    function setTheme(theme) {
+        document.body.setAttribute('data-theme', theme);
+        localStorage.setItem('ptm_theme', theme);
+        themeToggle.textContent = theme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode';
+    }
+    const userPref = localStorage.getItem('ptm_theme');
+    if (userPref) {
+        setTheme(userPref);
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        setTheme('dark');
+    } else {
+        setTheme('light');
+    }
+    themeToggle.addEventListener('click', () => {
+        setTheme(document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+    });
+
+    document.querySelectorAll('.button-ripple').forEach(btn => {
+        btn.addEventListener('click', function(e) {
+            const ripple = document.createElement('span');
+            ripple.className = 'ripple';
+            const rect = btn.getBoundingClientRect();
+            ripple.style.left = `${e.clientX - rect.left}px`;
+            ripple.style.top = `${e.clientY - rect.top}px`;
+            btn.appendChild(ripple);
+            setTimeout(() => ripple.remove(), 500);
+        });
+    });
+</script>
+</body>
+</html>

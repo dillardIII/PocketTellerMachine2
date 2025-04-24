@@ -1,0 +1,39 @@
+{
+  "personas": {
+    "mo_cash": {
+      "mood_bias": "neutral",
+      "trades": [
+        {
+          "strategy": "covered_call",
+          "outcome": "win"
+        }
+      ],
+      "wins": 1,
+      "losses": 0
+    }
+  },
+  "strategy_stats": {
+    "covered_call": {
+      "used": 1,
+      "wins": 1,
+      "losses": 0
+    }
+  },
+  "mood_effects": {
+    "confident": {
+      "risk_multiplier": 1.2
+    },
+    "aggressive": {
+      "risk_multiplier": 1.5
+    },
+    "cautious": {
+      "risk_multiplier": 0.8
+    },
+    "neutral": {
+      "risk_multiplier": 1.0
+    },
+    "happy": {
+      "risk_multiplier": 1.0
+    }
+  }
+}

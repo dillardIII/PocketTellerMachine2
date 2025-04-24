@@ -1,0 +1,86 @@
+{
+  "drill_instructor": {
+    "male": {
+      "default": "21m00Tcm4TlvDq8ikWAM",
+      "southern": "TxGEqnHWrfWFTfGW9XjX",
+      "black": "yoZ06aMxZJJ28mfd3POQ",
+      "midwest": "MF3mGyEYCl7XYWbV9V6O",
+      "international": "pNInz6obpgDQGcFmaJgB"
+    },
+    "female": {
+      "default": "AZnzlk1XvdvUeBnXmlld",
+      "southern": "EXAVITQu4vr4xnSDxMaL",
+      "black": "LcfcDJNUP1GQjkzn1xUU",
+      "nyc": "N4MJ8GRb9cIxw7qb2jwL",
+      "international": "flq6f7yk4E4fJM5XTYuZ"
+    }
+  },
+  "mo_cash": {
+    "male": {
+      "default": "yoZ06aMxZJJ28mfd3POQ",
+      "nyc": "N4MJ8GRb9cIxw7qb2jwL",
+      "latino": "jBpfuIE2acCO8z3wKNLl",
+      "southern": "TxGEqnHWrfWFTfGW9XjX"
+    },
+    "female": {
+      "default": "LcfcDJNUP1GQjkzn1xUU",
+      "black": "yoZ06aMxZJJ28mfd3POQ",
+      "latina": "flq6f7yk4E4fJM5XTYuZ",
+      "sassy": "EXAVITQu4vr4xnSDxMaL"
+    }
+  },
+  "malik": {
+    "male": {
+      "default": "pNInz6obpgDQGcFmaJgB",
+      "smooth": "MF3mGyEYCl7XYWbV9V6O"
+    },
+    "female": {
+      "default": "AZnzlk1XvdvUeBnXmlld",
+      "calm": "bVMeCyTHy58xNoL34UHO",
+      "international": "flq6f7yk4E4fJM5XTYuZ"
+    }
+  },
+  "comedian": {
+    "male": {
+      "default": "yoZ06aMxZJJ28mfd3POQ",
+      "raspy": "N4MJ8GRb9cIxw7qb2jwL",
+      "latino": "jBpfuIE2acCO8z3wKNLl"
+    },
+    "female": {
+      "default": "LcfcDJNUP1GQjkzn1xUU",
+      "sassy": "EXAVITQu4vr4xnSDxMaL"
+    }
+  },
+  "og": {
+    "male": {
+      "default": "TxGEqnHWrfWFTfGW9XjX",
+      "gritty": "pNInz6obpgDQGcFmaJgB",
+      "black": "yoZ06aMxZJJ28mfd3POQ"
+    },
+    "female": {
+      "default": "AZnzlk1XvdvUeBnXmlld",
+      "wise": "bVMeCyTHy58xNoL34UHO",
+      "latina": "flq6f7yk4E4fJM5XTYuZ"
+    }
+  },
+  "strategist": {
+    "male": {
+      "default": "MF3mGyEYCl7XYWbV9V6O"
+    },
+    "female": {
+      "default": "AZnzlk1XvdvUeBnXmlld",
+      "european": "21m00Tcm4TlvDq8ikWAM",
+      "black": "LcfcDJNUP1GQjkzn1xUU"
+    }
+  },
+  "analyst": {
+    "male": {
+      "default": "MF3mGyEYCl7XYWbV9V6O",
+      "british": "21m00Tcm4TlvDq8ikWAM"
+    },
+    "female": {
+      "default": "AZnzlk1XvdvUeBnXmlld",
+      "korean": "flq6f7yk4E4fJM5XTYuZ"
+    }
+  }
+}

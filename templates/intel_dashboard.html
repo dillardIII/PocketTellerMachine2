@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ghost Intel Dashboard</title>
+  <style>
+    :root {
+      --bg-color: #111;
+      --text-color: #f5f5f5;
+      --card-bg: #1a1a1a;
+      --accent: #00c87c;
+    }
+
+    .light-mode {
+      --bg-color: #f5f5f5;
+      --text-color: #111;
+      --card-bg: #ffffff;
+      --accent: #009f5c;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: monospace;
+      padding: 30px;
+    }
+
+    /* Mood Themes */
+    body.mood-neutral { --bg-color: #111; --accent: #00c87c; }
+    body.mood-cautious { --bg-color: #1c1c00; --accent: #ffcc00; }
+    body.mood-confident { --bg-color: #001a26; --accent: #00bfff; }
+    body.mood-aggressive { --bg-color: #200000; --accent: #ff004c; }
+
+    h1 { text-align: center; }
+
+    form {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    input[type="text"] {
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 6px;
+      border: none;
+      width: 200px;
+    }
+
+    input[type="submit"], .clear-button, .audio-button, #themeToggle {
+      padding: 10px 16px;
+      font-weight: bold;
+      background: var(--accent);
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      color: #000;
+    }
+
+    .intel-box {
+      background: var(--card-bg);
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #444;
+      max-width: 800px;
+      margin: 30px auto;
+    }
+
+    .ticker { font-size: 18px; margin-bottom: 10px; }
+
+    .clear-form {
+      text-align: right;
+      margin-top: -20px;
+      margin-bottom: 10px;
+    }
+
+    .card-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .intel-card {
+      background: var(--card-bg);
+      border: 1px solid #333;
+      border-radius: 10px;
+      width: 320px;
+      margin: 10px;
+      padding: 15px;
+      box-shadow: 0 0 8px #000;
+      color: var(--text-color);
+    }
+
+    .intel-card pre {
+      white-space: pre-wrap;
+      font-size: 13px;
+      color: var(--text-color);
+    }
+
+    .intel-card .meta {
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+
+    .intel-card .mood {
+      float: right;
+      background: #222;
+      border: 1px solid #555;
+      border-radius: 4px;
+      padding: 2px 6px;
+      color: var(--accent);
+      font-size: 12px;
+    }
+
+    @keyframes pulseAlert {
+      0% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.1); opacity: 0.6; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Mood Spike Alert -->
+  <div id="moodAlert" style="display:none; text-align:center; margin-bottom:15px;">
+    <span id="moodAlertText" style="
+      background: #ff004c;
+      padding: 12px 20px;
+      border-radius: 10px;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      animation: pulseAlert 1.5s ease-in-out infinite;
+    ">
+      Mood Spike Detected!
+    </span>
+  </div>
+
+  <h1>Ghost Intel Dashboard</h1>
+
+  <div style="text-align:center; margin-bottom: 20px;">
+    <button id="themeToggle" onclick="toggleTheme()">Toggle Theme</button>
+  </div>
+
+  <form method="POST" action="/intel-dashboard">
+    <input type="text" name="ticker" placeholder="Enter Ticker..." />
+    <input type="submit" value="Get Intel" />
+  </form>
+
+  <div class="intel-box">
+    <div class="ticker">Malik's Ghost Intel on: <strong>{{ ticker }}</strong></div>
+    <pre>{{ response }}</pre>
+    <audio id="malik_audio" src="/static/voices/intel_malik.mp3"></audio>
+    <button class="audio-button" onclick="document.getElementById('malik_audio').play()">
+      Play Malik's Voice
+    </button>
+  </div>
+
+  <div class="intel-box">
+    <div class="clear-form">
+      <form method="POST" action="/clear-intel">
+        <input type="submit" value="Clear History" class="clear-button" />
+      </form>
+    </div>
+
+    <h3 style="text-align: center;">Intel History</h3>
+
+    <div class="card-grid">
+      {% for item in history %}
+        <div class="intel-card">
+          <div class="meta">
+            <strong>{{ item.ticker }}</strong> —
+            <span class="timestamp">{{ item.timestamp }}</span>
+            <span class="mood">{{ item.mood }}</span>
+          </div>
+          <pre>{{ item.message }}</pre>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- Mood Spike Log Section -->
+  <div class="intel-box">
+    <h3 style="text-align:center;">Mood Spike Log</h3>
+    {% if mood_spike_log %}
+      <ul style="list-style:none; padding:0;">
+        {% for entry in mood_spike_log %}
+          <li style="margin-bottom:10px; border-bottom:1px solid #444; padding-bottom:6px;">
+            <strong>{{ entry.timestamp }}</strong> — 
+            <span style="color:#00c87c;">{{ entry.from }}</span> → 
+            <span style="color:#ff004c;">{{ entry.to }}</span> 
+            on <strong>{{ entry.ticker }}</strong>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p style="text-align:center;">No mood spikes detected yet.</p>
+    {% endif %}
+  </div>
+
+  <!-- Charts -->
+  <div class="intel-box" style="margin-top: 40px;">
+    <h3 style="text-align:center;">Mood Trends</h3>
+    <canvas id="moodChart" height="100"></canvas>
+  </div>
+
+  <div class="intel-box" style="margin-top: 40px;">
+    <h3 style="text-align:center;">Ticker Frequency</h3>
+    <canvas id="tickerChart" height="100"></canvas>
+  </div>
+
+  <audio id="moodReactionAudio" src="" preload="auto"></audio>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    const moodValues = [
+      {% for item in history %}
+        {% if item.mood == "Aggressive" %} 3
+        {% elif item.mood == "Confident" %} 2
+        {% elif item.mood == "Cautious" %} 1
+        {% else %} 0
+        {% endif %},
+      {% endfor %}
+    ];
+
+    const moodData = {
+      labels: [{% for item in history %}"{{ item.timestamp }}",{% endfor %}],
+      datasets: [{
+        label: 'Mood Level',
+        borderColor: '#00c87c',
+        backgroundColor: '#004d3d',
+        fill: true,
+        tension: 0.3,
+        data: moodValues
+      }]
+    };
+
+    const moodConfig = {
+      type: 'line',
+      data: moodData,
+      options: {
+        responsive: true,
+        scales: {
+          y: {
+            ticks: {
+              callback: function(value) {
+                return ['Neutral', 'Cautious', 'Confident', 'Aggressive'][value];
+              }
+            },
+            title: { display: true, text: 'Mood' },
+            min: 0,
+            max: 3
+          },
+          x: {
+            ticks: { autoSkip: true, maxTicksLimit: 5 }
+          }
+        }
+      }
+    };
+
+    new Chart(document.getElementById('moodChart'), moodConfig);
+
+    const tickerData = {
+      labels: [{% for key in ticker_counts.keys() %}"{{ key }}",{% endfor %}],
+      datasets: [{
+        label: 'Ticker Count',
+        data: [{% for val in ticker_counts.values() %}{{ val }},{% endfor %}],
+        backgroundColor: '#00c87c',
+        borderRadius: 5
+      }]
+    };
+
+    const tickerConfig = {
+      type: 'bar',
+      data: tickerData,
+      options: {
+        responsive: true,
+        indexAxis: 'y',
+        scales: {
+          x: { beginAtZero: true }
+        }
+      }
+    };
+
+    new Chart(document.getElementById('tickerChart'), tickerConfig);
+
+    function toggleTheme() {
+      document.body.classList.toggle("light-mode");
+      const newMode = document.body.classList.contains("light-mode") ? "light" : "dark";
+      localStorage.setItem("theme", newMode);
+    }
+
+    function applyMoodTheme() {
+      const moods = ['neutral', 'cautious', 'confident', 'aggressive'];
+      const latest = moods[moodValues[0]];
+      document.body.classList.add(`mood-${latest}`);
+    }
+
+    function checkMoodSpike() {
+      if (moodValues.length < 2) return;
+      const last = moodValues[0];
+      const previous = moodValues[1];
+      const moods = ['Neutral', 'Cautious', 'Confident', 'Aggressive'];
+
+      if (Math.abs(last - previous) >= 2) {
+        document.getElementById("moodAlert").style.display = "block";
+        document.getElementById("moodAlertText").innerText = `Mood Spike: ${moods[previous]} → ${moods[last]}`;
+
+        const fromMood = moods[previous].toLowerCase();
+        const toMood = moods[last].toLowerCase();
+        const voiceFile = `mood_${fromMood}_to_${toMood}.mp3`;
+
+        const audioPlayer = document.getElementById("moodReactionAudio");
+        audioPlayer.src = `/static/voices/${voiceFile}`;
+        audioPlayer.play().catch(err => console.warn("Missing audio:", voiceFile));
+
+        document.body.classList.remove("mood-neutral", "mood-cautious", "mood-confident", "mood-aggressive");
+        document.body.classList.add(`mood-${toMood}`);
+      }
+    }
+
+    window.onload = () => {
+      if (localStorage.getItem("theme") === "light") {
+        document.body.classList.add("light-mode");
+      }
+      checkMoodSpike();
+      applyMoodTheme();
+    };
+  </script>
+
+</body>
+</html>

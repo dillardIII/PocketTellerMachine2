@@ -1,0 +1,28 @@
+{
+  "current": "marines",
+  "branches": {
+    "marines": {
+      "title": "Marine Corps Drill Instructor",
+      "quote": "Get in gear, Devil Dog. This market ain't gonna wait for you!",
+      "avatar": "marine.png",
+      "voices": {
+        "male": {
+          "default": "MARINE_MALE_DEFAULT_ID",
+          "southern": "MARINE_MALE_SOUTHERN_ID",
+          "nyc": "MARINE_MALE_NYC_ID",
+          "black": "MARINE_MALE_BLACK_ID",
+          "midwest": "MARINE_MALE_MIDWEST_ID",
+          "international": "MARINE_MALE_FOREIGN_ID"
+        },
+        "female": {
+          "default": "MARINE_FEMALE_DEFAULT_ID",
+          "southern": "MARINE_FEMALE_SOUTHERN_ID",
+          "nyc": "MARINE_FEMALE_NYC_ID",
+          "black": "MARINE_FEMALE_BLACK_ID",
+          "midwest": "MARINE_FEMALE_MIDWEST_ID",
+          "international": "MARINE_FEMALE_FOREIGN_ID"
+        }
+      }
+    }
+  }
+}

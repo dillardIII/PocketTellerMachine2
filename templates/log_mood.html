@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Log Mood Spike</title>
+  <style>
+    body {
+      background-color: {{ 'black' if settings.theme == 'dark' else '#f4f4f4' }};
+      color: {{ 'white' if settings.theme == 'dark' else '#333' }};
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    input, select, button {
+      padding: 10px;
+      margin: 8px;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #4dc3ff;
+      border: none;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      color: #4dc3ff;
+      text-decoration: none;
+    }
+
+    .toggle-theme {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="toggle-theme">
+    <button onclick="toggleTheme()">Toggle {{ 'Light' if settings.theme == 'dark' else 'Dark' }} Mode</button>
+  </div>
+
+  <h1>Log Mood Spike</h1>
+
+  <form action="/submit_mood" method="post">
+    <label>Mood:</label>
+    <select name="mood">
+      <option value="">-- Select Mood --</option>
+      <option value="Confident">Confident</option>
+      <option value="Aggressive">Aggressive</option>
+      <option value="Cautious">Cautious</option>
+      <option value="Neutral">Neutral</option>
+      <option value="Happy">Happy</option>
+    </select><br>
+
+    <label>Voice:</label><br>
+    <input type="text" name="voice" placeholder="e.g. Mo Cash"><br>
+
+    <label>Trigger:</label><br>
+    <input type="text" name="trigger" placeholder="What caused this mood?"><br>
+
+    <button type="submit">Submit Mood Spike</button>
+  </form>
+
+  <a href="/">Back to Home</a>
+  <a href="/mood_spike_dashboard">Mood Dashboard</a>
+
+  <script>
+    function toggleTheme() {
+      fetch("/toggle_theme", { method: "POST" }).then(() => location.reload());
+    }
+  </script>
+</body>
+</html>

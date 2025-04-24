@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PTM Trade Dashboard 4</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #111; color: #eee; padding: 20px; }
+    h1, h2 { color: #fff; }
+    input, button, textarea {
+      padding: 8px; margin: 5px 0; width: 100%; border-radius: 6px; border: none; box-sizing: border-box;
+    }
+    button {
+      background-color: #4caf50; color: white; font-weight: bold; cursor: pointer; transition: 0.2s;
+    }
+    button:hover { background-color: #45a049; }
+    textarea { resize: vertical; }
+    .box {
+      background: #222; padding: 15px; margin-bottom: 25px; border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    }
+    code {
+      background: #333; padding: 3px 6px; border-radius: 4px;
+    }
+    #moCashRecap {
+      position: fixed; bottom: 30px; left: -300px; width: 280px; background: #222;
+      border: 2px solid #4caf50; padding: 10px 20px; border-radius: 15px; color: white;
+      font-weight: bold; font-size: 16px; display: none; z-index: 9999;
+      transition: left 2s ease-in-out; text-align: center;
+    }
+    #moCashImage {
+      width: 100%; border-radius: 15px; margin-bottom: 10px;
+      box-shadow: 0 0 8px rgba(0, 255, 100, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <h1>PTM Trade Dashboard 4</h1>
+
+  <!-- Trade Brain Summary Panel -->
+  <div class="box">
+    <h2>Trade Brain Summary</h2>
+    <pre id="brain_summary">Loading...</pre>
+    <button onclick="loadSummary()">Refresh Summary</button>
+  </div>
+
+  <!-- Create New Trade Section -->
+  <div class="box">
+    <h2>Create New Trade</h2>
+    <input id="symbol" placeholder="Symbol (e.g., AAPL)" />
+    <input id="strategy" placeholder="Strategy (e.g., Covered Call)" />
+    <input id="buy_price" type="number" placeholder="Buy Price" />
+    <input id="quantity" type="number" placeholder="Quantity" />
+    <textarea id="notes" placeholder="Notes"></textarea>
+    <button onclick="createTrade()">Submit Trade</button>
+  </div>
+
+  <!-- Sell Trade Section -->
+  <div class="box">
+    <h2>Sell Trade</h2>
+    <input id="sell_trade_id" placeholder="Trade ID to Close" />
+    <input id="sell_price" type="number" placeholder="Sell Price" />
+    <input id="result" placeholder="Result (Win/Loss/Break-even)" />
+    <textarea id="sell_notes" placeholder="Closing Notes"></textarea>
+    <button onclick="sellTrade()">Close Trade</button>
+  </div>
+
+  <!-- All Trades Section -->
+  <div class="box">
+    <h2>All Trades</h2>
+    <button onclick="loadTrades()">Refresh</button>
+    <button onclick="filterTrades('all')">All</button>
+    <button onclick="filterTrades('open')">Open</button>
+    <button onclick="filterTrades('closed')">Closed</button>
+    <a href="/export_csv" target="_blank"><button>Download CSV</button></a>
+    <div id="trades_display">Loading...</div>
+  </div>
+
+  <!-- Recap Box -->
+  <div id="moCashRecap">
+    <img src="/static/avatars/mo_cash_avatar.png" id="moCashImage" />
+    <div id="moCashRecapText"></div>
+  </div>
+
+  <script>
+    let allTrades = [];
+
+    // --- Brain Summary ---
+    async function loadSummary() {
+      const res = await fetch("/brain_summary");
+      const text = await res.text();
+      document.getElementById("brain_summary").textContent = text;
+    }
+    loadSummary();
+
+    // --- Persona Logic ---
+    function getRecapPersona(result) {
+      result = result.toLowerCase();
+      if (result.includes("win")) {
+        return {
+          name: "MoCash",
+          line: `Let's go! You bagged a win. Big moves!`,
+          img: "/static/avatars/mo_cash_avatar.png",
+          boxShadow: "0 0 15px rgba(0, 255, 100, 0.6)",
+          pitch: 1.1
+        };
+      } else if (result.includes("loss")) {
+        return {
+          name: "Drill Instructor",
+          line: `Loss logged. Shake it off, Marine. Tighten up for the next strike.`,
+          img: "/static/avatars/drill_avatar.png",
+          boxShadow: "0 0 15px rgba(255, 60, 60, 0.6)",
+          pitch: 0.9
+        };
+      } else {
+        return {
+          name: "Malik Steele",
+          line: `You broke even. Calculated, clean. Stay sharp.`,
+          img: "/static/avatars/malik_avatar.png",
+          boxShadow: "0 0 10px rgba(160,160,160,0.4)",
+          pitch: 1.0
+        };
+      }
+    }
+
+    function playRecap(symbol, result) {
+      const recapBox = document.getElementById("moCashRecap");
+      const recapText = document.getElementById("moCashRecapText");
+      const moCashImage = document.getElementById("moCashImage");
+      const persona = getRecapPersona(result);
+      const fullLine = `${persona.name} here. ${persona.line} (${symbol})`;
+
+      recapText.innerText = fullLine;
+      recapBox.style.boxShadow = persona.boxShadow;
+      moCashImage.src = persona.img;
+      recapBox.style.display = "block";
+      recapBox.style.left = "20px";
+
+      const msg = new SpeechSynthesisUtterance(fullLine);
+      msg.voice = speechSynthesis.getVoices().find(v => v.name.includes("Google") || v.name.includes("Male"));
+      msg.pitch = persona.pitch;
+      msg.rate = 1;
+
+      msg.onend = () => {
+        recapBox.style.left = "-300px";
+        setTimeout(() => {
+          recapBox.style.display = "none";
+          recapBox.style.boxShadow = "";
+        }, 2000);
+      };
+
+      speechSynthesis.speak(msg);
+    }
+
+    // --- Trade Logic ---
+    async function createTrade() {
+      const data = {
+        symbol: document.getElementById("symbol").value,
+        strategy: document.getElementById("strategy").value,
+        buy_price: parseFloat(document.getElementById("buy_price").value),
+        quantity: parseInt(document.getElementById("quantity").value),
+        notes: document.getElementById("notes").value
+      };
+      const res = await fetch("/new_trade", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+      });
+      const json = await res.json();
+      alert(json.message);
+      loadTrades();
+      loadSummary();
+    }
+
+    async function sellTrade() {
+      const data = {
+        trade_id: document.getElementById("sell_trade_id").value,
+        sell_price: parseFloat(document.getElementById("sell_price").value),
+        result: document.getElementById("result").value,
+        notes: document.getElementById("sell_notes").value
+      };
+      const res = await fetch("/sell_trade", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+      });
+      const json = await res.json();
+      alert(json.message);
+      loadTrades();
+      loadSummary();
+    }
+
+    async function saveTrade(tradeId) {
+      const updates = {
+        notes: document.getElementById(`notes_${tradeId}`).value,
+        result: document.getElementById(`result_${tradeId}`).value,
+        strategy: document.getElementById(`strategy_${tradeId}`).value
+      };
+      const res = await fetch("/edit_trade", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ trade_id: tradeId, updates })
+      });
+      const json = await res.json();
+      alert(json.message);
+      loadTrades();
+      loadSummary();
+    }
+
+    async function loadTrades() {
+      const res = await fetch("/trades");
+      allTrades = await res.json();
+      renderTrades(allTrades);
+    }
+
+    function filterTrades(status) {
+      let filtered = allTrades;
+      if (status === "open") filtered = allTrades.filter(t => t.status === "open");
+      if (status === "closed") filtered = allTrades.filter(t => t.status === "closed");
+      renderTrades(filtered);
+    }
+
+    function renderTrades(trades) {
+      const container = document.getElementById("trades_display");
+      container.innerHTML = "";
+      trades.forEach(trade => {
+        const div = document.createElement("div");
+        div.className = "box";
+        div.innerHTML = `
+          <strong>Symbol:</strong> ${trade.symbol}<br/>
+          <strong>Strategy:</strong> <input id="strategy_${trade.id}" value="${trade.strategy || ""}" /><br/>
+          <strong>Status:</strong> ${trade.status}<br/>
+          <strong>Buy Price:</strong> $${trade.buy_price}<br/>
+          ${trade.sell_price ? `<strong>Sell Price:</strong> $${trade.sell_price}<br/>` : ""}
+          <strong>Trade ID:</strong> <code>${trade.id}</code>
+          <button onclick="copyToClipboard('${trade.id}')">Copy</button><br/>
+          <label>Notes:</label>
+          <textarea id="notes_${trade.id}">${trade.notes || ""}</textarea><br/>
+          <label>Result:</label>
+          <input id="result_${trade.id}" value="${trade.result || ""}" /><br/>
+          <button onclick="saveTrade('${trade.id}')">Save Edits</button>
+          ${trade.status === "closed" ? `<button onclick="playRecap('${trade.symbol}', '${trade.result}')">Play Recap</button>` : ""}
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text).then(() => alert("Trade ID copied!"));
+    }
+
+    window.speechSynthesis.onvoiceschanged = () => {};
+    loadTrades();
+  </script>
+</body>
+</html>

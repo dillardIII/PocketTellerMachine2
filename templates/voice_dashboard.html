@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Voice Dashboard</title>
+  <style>
+    body {
+      background: #121212;
+      color: #f0f0f0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background: #1e1e1e;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 15px;
+      display: inline-block;
+      width: 320px;
+      box-shadow: 0 0 10px #000;
+    }
+
+    select, button {
+      margin: 8px;
+      padding: 6px 12px;
+      border-radius: 5px;
+      border: none;
+      font-weight: bold;
+    }
+
+    button {
+      background-color: #00c87c;
+      color: black;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Voice Customization Dashboard</h1>
+
+  {% for assistant in assistants %}
+    <div class="card">
+      <h2>{{ assistant.id.replace('_', ' ').title() }}</h2>
+
+      <label>Gender:</label>
+      <select id="gender_{{ assistant.id }}">
+        {% for gender in assistant.genders %}
+          <option value="{{ gender }}">{{ gender.title() }}</option>
+        {% endfor %}
+      </select><br/>
+
+      <label>Style:</label>
+      <select id="style_{{ assistant.id }}">
+        {% for style in assistant.styles %}
+          <option value="{{ style }}">{{ style.title() }}</option>
+        {% endfor %}
+      </select><br/>
+
+      <button onclick="playVoice('{{ assistant.id }}')">Play Voice</button>
+    </div>
+  {% endfor %}
+
+  <script>
+    async function playVoice(id) {
+      const gender = document.getElementById("gender_" + id).value;
+      const style = document.getElementById("style_" + id).value;
+
+      const res = await fetch(`/get_voice?persona=${id}&gender=${gender}&style=${style}`);
+      const data = await res.json();
+
+      if (data.audio_url) {
+        const audio = new Audio(data.audio_url);
+        audio.play();
+      } else {
+        alert(data.error || "Voice preview not found.");
+      }
+    }
+  </script>
+</body>
+</html>

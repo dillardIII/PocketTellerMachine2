@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PocketTellerMachine Home</title>
+    <link id="google-font-link" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Montserrat|Oswald|Lobster|Open+Sans|Inconsolata&display=swap">
+    <style>
+    :root {
+        --ptm-bg: linear-gradient(-45deg, #21f1ff, #38f9a6, #6c47ff, #fc5c7d);
+        --ptm-container-bg: rgba(255,255,255,0.15);
+        --ptm-headline: #fff;
+        --ptm-btn-bg: linear-gradient(90deg, #21f1ff 0%, #38f9a6 100%);
+        --ptm-btn-text: #141414;
+    }
+    body, .main-container, .dashboard-container, .assistants-container {
+        transition: background 0.4s, color 0.4s, font-family 0.3s;
+    }
+    body[data-theme="dark"] {
+        --ptm-bg: linear-gradient(-45deg, #121c34, #0f2823, #2a1456, #22031d);
+        --ptm-container-bg: rgba(16,24,40,0.60);
+        --ptm-headline: #fff;
+        --ptm-btn-bg: linear-gradient(90deg, #134e5e 0%, #71b280 100%);
+        --ptm-btn-text: #eafaff;
+    }
+    body[data-theme="light"] {
+        --ptm-bg: linear-gradient(-45deg, #21f1ff, #38f9a6, #6c47ff, #fc5c7d);
+        --ptm-container-bg: rgba(255,255,255,0.15);
+        --ptm-headline: #222;
+        --ptm-btn-bg: linear-gradient(90deg, #21f1ff 0%, #38f9a6 100%);
+        --ptm-btn-text: #141414;
+    }
+    body {
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        background: var(--ptm-bg);
+        background-size: 400% 400%;
+        animation: gradientBG 13s ease infinite;
+        color: var(--ptm-headline);
+    }
+    @keyframes gradientBG {
+        0% {background-position: 0% 50%;}
+        50% {background-position: 100% 50%;}
+        100% {background-position: 0% 50%;}
+    }
+    .main-container {
+        max-width: 700px;
+        margin: 2em auto;
+        background: var(--ptm-container-bg);
+        box-shadow: 0 8px 32px 0 rgba(31,38,135,0.18);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        border-radius: 18px;
+        border: 1px solid rgba(255,255,255,0.18);
+        padding: 2em;
+    }
+    .headline.glow-headline {
+        color: var(--ptm-headline);
+        font-weight: bold;
+        margin-bottom: 0.5em;
+        text-align: center;
+        text-shadow:
+          0 0 8px #39ff14,
+          0 0 12px #39ff14,
+          0 0 20px #21f1ff;
+        animation: glow-flicker 2s infinite alternate;
+    }
+    @keyframes glow-flicker {
+        0%   { text-shadow: 0 0 8px #39ff14, 0 0 12px #39ff14, 0 0 20px #21f1ff; }
+        30%  { text-shadow: 0 0 18px #21f1ff, 0 0 36px #39ff14, 0 0 12px #21f1ff; }
+        100% { text-shadow: 0 0 8px #39ff14, 0 0 40px #21f1ff, 0 0 18px #39ff14; }
+    }
+    .soft-shadow {
+        text-shadow: 0 2px 12px rgba(0,0,0,0.22), 0 1px 1px #fff;
+        color: var(--ptm-headline);
+        text-align: center;
+        margin-bottom: 1em;
+        font-size: 1.08em;
+    }
+    .home-btn {
+        display: block;
+        width: 100%;
+        margin: 0.8em 0;
+        padding: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 14px;
+        cursor: pointer;
+        transition: background 0.25s, color 0.25s, font-family 0.3s, box-shadow 0.25s, filter 0.18s;
+        background: var(--ptm-btn-bg);
+        color: var(--ptm-btn-text);
+    }
+    .button-ripple {
+        position: relative;
+        overflow: hidden;
+    }
+    .button-ripple .ripple {
+        position: absolute;
+        border-radius: 50%;
+        background: rgba(255,255,255,0.36);
+        animation: ripple 0.5s linear;
+        pointer-events: none;
+        width: 120px;
+        height: 120px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 0.7;
+        z-index: 2;
+    }
+    @keyframes ripple {
+        to {
+            transform: translate(-50%, -50%) scale(2.3);
+            opacity: 0;
+        }
+    }
+    .button-neon:hover {
+        box-shadow: 0 0 14px #39ff14, 0 0 34px #39ff14;
+        filter: brightness(1.10);
+    }
+    .button-bounce:active {
+        transform: scale(0.96);
+        transition: transform 0.10s;
+    }
+    .button-gradient {
+        background: var(--ptm-btn-bg);
+        color: var(--ptm-btn-text);
+    }
+    .button-gradient:hover {
+        background: linear-gradient(90deg, #38f9a6 0%, #21f1ff 100%);
+        color: #000;
+    }
+    </style>
+</head>
+<body>
+<div class="main-container">
+    <button id="theme-toggle" class="home-btn button-ripple button-neon button-bounce button-gradient" style="max-width: 220px; margin: 0 auto 1em auto;">
+        Switch Theme
+    </button>
+    <div class="headline glow-headline" id="headline">
+        PocketTellerMachine
+    </div>
+    <div class="soft-shadow">
+        Your AI-powered trading command center is coming alive.
+    </div>
+    <button class="home-btn button-ripple button-neon button-bounce button-gradient">Meet the Assistants</button>
+    <button class="home-btn button-ripple button-neon button-bounce button-gradient">Log a Mood Spike</button>
+    <button class="home-btn button-ripple button-neon button-bounce button-gradient">Mood Spike Dashboard</button>
+    <button class="home-btn button-ripple button-neon button-bounce button-gradient">View Trade History</button>
+    <button class="home-btn button-ripple button-neon button-bounce button-gradient">Go to Trade Dashboard</button>
+</div>
+<script>
+    // Style settings from Flask
+    const settings = {{ settings|tojson }};
+    function setGoogleFont(family) {
+        document.getElementById("google-font-link").href =
+            "https://fonts.googleapis.com/css?family=" + family.replace(" ", "+") + "&display=swap";
+    }
+    function applyUserStyles() {
+        if (settings.headline_font) {
+            setGoogleFont(settings.headline_font);
+            document.getElementById("headline").style.fontFamily = settings.headline_font + ", sans-serif";
+        }
+        if (settings.headline_size) {
+            document.getElementById("headline").style.fontSize = settings.headline_size + "em";
+        }
+        if (settings.button_font) {
+            setGoogleFont(settings.button_font);
+            document.querySelectorAll('.home-btn').forEach(btn => {
+                btn.style.fontFamily = settings.button_font + ", sans-serif";
+            });
+        }
+        if (settings.button_size) {
+            document.querySelectorAll('.home-btn').forEach(btn => {
+                btn.style.fontSize = settings.button_size + "em";
+            });
+        }
+    }
+    window.onload = applyUserStyles;
+
+    // Theme switching logic
+    const themeToggle = document.getElementById('theme-toggle');
+    function setTheme(theme) {
+        document.body.setAttribute('data-theme', theme);
+        localStorage.setItem('ptm_theme', theme);
+        themeToggle.textContent = theme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode';
+    }
+    const userPref = localStorage.getItem('ptm_theme');
+    if (userPref) {
+        setTheme(userPref);
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        setTheme('dark');
+    } else {
+        setTheme('light');
+    }
+    themeToggle.addEventListener('click', () => {
+        setTheme(document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+    });
+
+    // Ripple effect JavaScript
+    document.querySelectorAll('.button-ripple').forEach(btn => {
+        btn.addEventListener('click', function(e) {
+            const ripple = document.createElement('span');
+            ripple.className = 'ripple';
+            const rect = btn.getBoundingClientRect();
+            ripple.style.left = `${e.clientX - rect.left}px`;
+            ripple.style.top = `${e.clientY - rect.top}px`;
+            btn.appendChild(ripple);
+            setTimeout(() => ripple.remove(), 500);
+        });
+    });
+</script>
+</body>
+</html>

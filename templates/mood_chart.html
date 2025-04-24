@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mood Spike Timeline</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@1.28.0/build/global/luxon.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon@1.1.0"></script>
+
+  <style>
+    body {
+      background-color: {{ 'black' if settings.theme == 'dark' else '#f4f4f4' }};
+      color: {{ 'white' if settings.theme == 'dark' else '#333' }};
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      text-align: center;
+    }
+
+    canvas {
+      background: #222;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    a {
+      color: #4dc3ff;
+      text-decoration: none;
+      margin: 20px 10px;
+      display: inline-block;
+      font-weight: bold;
+    }
+
+    .toggle-theme {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="toggle-theme">
+    <button onclick="toggleTheme()">Toggle {{ 'Light' if settings.theme == 'dark' else 'Dark' }} Mode</button>
+  </div>
+
+  <h1>Mood Spike Timeline</h1>
+  <canvas id="moodChart" width="1000" height="400"></canvas>
+
+  <a href="/">Back to Home</a>
+  <a href="/log_mood">Log Mood</a>
+  <a href="/mood_spike_dashboard">Mood Dashboard</a>
+
+  <script>
+    const moodData = {{ moods|tojson }};
+    const moodColors = {
+      "Confident": "#4dc3ff",
+      "Aggressive": "#ff5c5c",
+      "Cautious": "#ffc107",
+      "Neutral": "#aaa",
+      "Happy": "#00ff99"
+    };
+
+    const chartConfig = {
+      type: 'line',
+      data: {
+        datasets: [{
+          label: "Mood Spikes",
+          data: moodData.map(entry => ({
+            x: entry.timestamp,
+            y: entry.mood,
+            voice: entry.voice,
+            trigger: entry.trigger
+          })),
+          borderColor: "#4dc3ff",
+          backgroundColor: moodData.map(p => moodColors[p.mood] || "#888"),
+          pointRadius: 6,
+          pointHoverRadius: 8,
+          showLine: false
+        }]
+      },
+      options: {
+        plugins: {
+          tooltip: {
+            callbacks: {
+              label: context => {
+                const p = context.raw;
+                return `Mood: ${p.y}, Voice: ${p.voice}, Trigger: ${p.trigger}`;
+              }
+            }
+          }
+        },
+        scales: {
+          x: {
+            type: 'time',
+            time: {
+              tooltipFormat: 'yyyy-MM-dd HH:mm',
+              unit: 'minute'
+            },
+            title: {
+              display: true,
+              text: 'Timestamp'
+            },
+            ticks: { color: "#ccc" }
+          },
+          y: {
+            title: {
+              display: true,
+              text: 'Mood'
+            },
+            ticks: { color: "#ccc" }
+          }
+        }
+      }
+    };
+
+    new Chart(document.getElementById("moodChart"), chartConfig);
+
+    function toggleTheme() {
+      fetch("/toggle_theme", { method: "POST" }).then(() => location.reload());
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "background": "default",
+  "color": "#000000",
+  "animation": "none",
+  "font": {
+    "style": "normal",
+    "color": "#ffffff"
+  },
+  "theme": "dark"
+}

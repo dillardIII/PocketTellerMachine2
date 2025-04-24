@@ -1,4 +1,7 @@
-entrypoint = "main.py"
+language = "python3"
+entrypoint = "app.py"
+
+run = "flask run --host=0.0.0.0 --port=3000"
 modules = ["python-3.11"]
 
 [nix]
@@ -11,5 +14,9 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "main.py"]
+run = ["flask", "run", "--host=0.0.0.0", "--port=3000"]
 deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 3000
+externalPort = 80

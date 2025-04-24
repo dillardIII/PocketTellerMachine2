@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Voice Preview</title>
+  <style>
+    body {
+      background-color: #101010;
+      color: white;
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    .voice-box {
+      background-color: #1e1e1e;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 8px #222;
+    }
+    audio {
+      width: 100%;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Preview ElevenLabs Voices</h2>
+  {% for voice in voices %}
+    <div class="voice-box">
+      <strong>{{ voice['name'] }}</strong> — {{ voice['labels'].accent or 'Standard' }}
+      <br>
+      <audio controls>
+        <source src="{{ url_for('static', filename='voice_previews/' + voice['preview']) }}" type="audio/mpeg">
+      </audio>
+    </div>
+  {% endfor %}
+</body>
+</html>

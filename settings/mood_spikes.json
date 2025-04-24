@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-04-18T17:00:00Z",
+    "mood": "Confident",
+    "trigger": "Win on iron condor",
+    "voice": "Malik"
+  },
+  {
+    "timestamp": "2025-04-18T17:05:00Z",
+    "mood": "Aggressive",
+    "trigger": "Multiple green candles in a row",
+    "voice": "Mo Cash"
+  },
+  {
+    "timestamp": "2025-04-18T17:15:00Z",
+    "mood": "Cautious",
+    "trigger": "Unusual volume detected",
+    "voice": "Mentor"
+  },
+  {
+    "mood": "Confident",
+    "voice": "Mo Cash",
+    "trigger": "uncertainty in the market ",
+    "timestamp": "2025-04-18T23:12:34.365887Z"
+  }
+]

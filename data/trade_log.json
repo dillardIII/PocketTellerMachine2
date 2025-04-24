@@ -1,0 +1,28 @@
+[
+  {
+    "id": "a7136d58-ffac-42b1-a8bc-919f8c25d166",
+    "symbol": "AAPL",
+    "strategy": "covered call",
+    "buy_price": 150,
+    "quantity": 10,
+    "status": "closed",
+    "opened_at": "",
+    "notes": "First Test Win",
+    "sell_price": 165,
+    "result": "WIN",
+    "closed_at": "2025-04-23 01:41:01"
+  },
+  {
+    "id": "2d9e0ca4-b840-4dab-82e1-39f06b009000",
+    "symbol": "TSLA",
+    "strategy": "put spread",
+    "buy_price": 200,
+    "quantity": 5,
+    "status": "closed",
+    "opened_at": "",
+    "notes": "First Test LOSS",
+    "sell_price": 180,
+    "result": "LOSS",
+    "closed_at": "2025-04-23 01:46:17"
+  }
+]
