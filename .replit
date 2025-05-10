@@ -1,22 +1,22 @@
-language = "python3"
-entrypoint = "app.py"
-
-run = "flask run --host=0.0.0.0 --port=3000"
+language = "python"
+entrypoint = "main.py"
 modules = ["python-3.11"]
 
-[nix]
-channel = "stable-24_05"
+[env]
+FLASK_ENV = "development"
 
 [unitTest]
-language = "python3"
+language = "python"
 
-[gitHubImport]
-requiredFiles = [".replit", "replit.nix"]
+[run]
+# Primary run command using Poetry (if using poetry to manage dependencies)
+command = "poetry run flask run --host=0.0.0.0 --port=5000"
 
-[deployment]
-run = ["flask", "run", "--host=0.0.0.0", "--port=3000"]
-deploymentTarget = "cloudrun"
+[nix]
+channel = "stable"
+packages = ["cairo", "ffmpeg-full", "freetype", "ghostscript", "gobject-introspection", "gtk3", "pkg-config", "qhull", "tcl", "tk"]
 
 [[ports]]
-localPort = 3000
+localPort = 5000
 externalPort = 80
+exposeLocalhost = true
