@@ -1,5 +1,3 @@
-# === FILE: app.py ===
-
 from flask import Flask, jsonify, request, redirect, url_for, render_template
 from threading import Thread
 import os
@@ -267,7 +265,7 @@ def status():
         "trading_loop": "active"
     }
 
-# === Launch App ===
+# === Final Launch for Render ===
 if __name__ == "__main__":
     print("[PTM App] Launching Flask app with autonomy loops...")
-    app.run(debug=True, use_reloader=False)
+    app.run(host="0.0.0.0", port=10000)
