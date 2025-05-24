@@ -5,3 +5,13 @@ openai
 numpy
 pandas
 elevenlabs
+wolframalpha
+perplexity-ai
+replicate
+anthropic
+cohere
+cloudinary
+deeplake
+whisper
+tensorflow
+langchain
