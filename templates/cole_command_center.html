@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cole Command Center - Unified Dashboard</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #eee;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #6fd672;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #222;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 0 12px rgba(0, 255, 128, 0.05);
+        }
+        .status-dot {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .status-ok { background: #4caf50; }
+        .status-warn { background: #ff9800; }
+        .status-error { background: #f44336; }
+        button {
+            background: #6fd672;
+            color: #111;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        pre {
+            background: #333;
+            padding: 10px;
+            border-radius: 8px;
+            overflow-x: auto;
+            color: #fff;
+            max-height: 300px;
+        }
+        .avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-size: cover;
+            margin: 10px auto;
+            border: 2px solid #6fd672;
+        }
+        #logWindow {
+            background: #000;
+            color: #0f0;
+            padding: 10px;
+            border-radius: 8px;
+            height: 200px;
+            overflow-y: auto;
+            font-family: monospace;
+            font-size: 14px;
+        }
+        #progressBar {
+            width: 100%;
+            height: 20px;
+            background: #333;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        #progressFill {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(to right, #6fd672, #4caf50);
+            transition: width 0.5s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Cole Command Center - Unified Dashboard</h1>
+
+    <div class="grid">
+        <div class="card">
+            <h2>System Status</h2>
+            <div id="system_status"><span class="status-dot status-ok"></span> OK</div>
+            <button onclick="runCole()">Run Cole Now</button>
+            <div id="progressBar"><div id="progressFill"></div></div>
+            <div id="taskResult"></div>
+        </div>
+
+        <div class="card">
+            <h2>Market Scanner</h2>
+            <button onclick="scanMarket()">Scan Market Now</button>
+            <pre id="marketLog">Waiting...</pre>
+        </div>
+
+        <div class="card">
+            <h2>Task Queue</h2>
+            <button onclick="refreshTasks()">Refresh Queue</button>
+            <pre id="tasksLog">Waiting...</pre>
+        </div>
+
+        <div class="card">
+            <h2>Recent Results</h2>
+            <button onclick="refreshResults()">Refresh Results</button>
+            <pre id="resultsLog">Waiting...</pre>
+        </div>
+
+        <div class="card">
+            <h2>Cole Brain Check</h2>
+            <div id="brainStatus">Loading...</div>
+            <button onclick="checkBrain()">Check Cole Brain</button>
+        </div>
+
+        <div class="card">
+            <h2>Assistant Avatars</h2>
+            <div class="grid">
+                <div class="avatar" style="background-image: url('/static/avatars/mo_cash_avatar.png');"></div>
+                <div class="avatar" style="background-image: url('/static/avatars/mentor_avatar.png');"></div>
+                <div class="avatar" style="background-image: url('/static/avatars/drill_instructor_avatar.png');"></div>
+                <div class="avatar" style="background-image: url('/static/avatars/intel_officer_avatar.png');"></div>
+            </div>
+            <a href="/assistants"><button>View Assistants</button></a>
+        </div>
+
+        <div class="card">
+            <h2>Activity Log</h2>
+            <div id="logWindow"></div>
+        </div>
+    </div>
+
+    <script>
+        function runCole() {
+            if (confirm("Trigger Cole to run all tasks now?")) {
+                logMessage("[Command] Running Cole tasks...");
+                speak("Cole is starting the task cycle now.");
+                setProgress(20);
+                document.getElementById('system_status').innerHTML = '<span class="status-dot status-warn"></span> Running...';
+                fetch('/api/cole_run_tasks', { method: "POST" })
+                    .then(res => res.json())
+                    .then(result => {
+                        document.getElementById('taskResult').innerText = JSON.stringify(result, null, 2);
+                        setProgress(100);
+                        speak("Cole has finished running the tasks.");
+                        loadAll();
+                    })
+                    .catch(e => {
+                        logMessage("[Cole Error] " + e);
+                        document.getElementById('system_status').innerHTML = '<span class="status-dot status-error"></span> ERROR';
+                    });
+            }
+        }
+
+        function scanMarket() {
+            document.getElementById('marketLog').innerText = "Scanning...";
+            fetch('/api/cole_market_scan')
+                .then(res => res.json())
+                .then(data => document.getElementById('marketLog').innerText = JSON.stringify(data, null, 2))
+                .catch(e => document.getElementById('marketLog').innerText = "Error: " + e);
+        }
+
+        function refreshTasks() {
+            fetch('/api/get_tasks')
+                .then(res => res.json())
+                .then(data => document.getElementById('tasksLog').innerText = JSON.stringify(data, null, 2))
+                .catch(e => document.getElementById('tasksLog').innerText = "Error: " + e);
+        }
+
+        function refreshResults() {
+            fetch('/api/get_results')
+                .then(res => res.json())
+                .then(data => document.getElementById('resultsLog').innerText = JSON.stringify(data.slice(-5), null, 2))
+                .catch(e => document.getElementById('resultsLog').innerText = "Error: " + e);
+        }
+
+        function checkBrain() {
+            fetch('/api/cole_think_test')
+                .then(res => res.json())
+                .then(data => document.getElementById('brainStatus').innerText = data.response)
+                .catch(e => document.getElementById('brainStatus').innerText = "Error: " + e);
+        }
+
+        function setProgress(percent) {
+            document.getElementById('progressFill').style.width = percent + "%";
+        }
+
+        function logMessage(msg) {
+            const logWindow = document.getElementById('logWindow');
+            const timestamp = new Date().toLocaleTimeString();
+            logWindow.innerHTML += `[${timestamp}] ${msg}\n`;
+            logWindow.scrollTop = logWindow.scrollHeight;
+        }
+
+        function speak(message) {
+            if ('speechSynthesis' in window) {
+                const utterance = new SpeechSynthesisUtterance(message);
+                utterance.rate = 1;
+                utterance.pitch = 1;
+                speechSynthesis.speak(utterance);
+            }
+        }
+
+        function loadAll() {
+            refreshTasks();
+            refreshResults();
+            logMessage("[Monitor] Refreshed all data.");
+        }
+
+        setInterval(loadAll, 15000);
+        loadAll();
+    </script>
+
+</body>
+</html>

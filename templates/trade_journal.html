@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PTM Trade Journal</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 25px;
+    }
+
+    .journal-entry {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 18px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0,255,100,0.05);
+    }
+
+    .header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .symbol {
+      font-size: 18px;
+      font-weight: bold;
+      color: #80e487;
+    }
+
+    .date {
+      font-size: 13px;
+      color: #888;
+    }
+
+    .summary {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    .result {
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .profit { color: #00e676; }
+    .loss { color: #ff5252; }
+
+    .grade {
+      margin-top: 4px;
+      font-size: 13px;
+      background: #444;
+      color: #ffe055;
+      padding: 4px 8px;
+      border-radius: 6px;
+      display: inline-block;
+    }
+
+    audio {
+      margin-top: 12px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Trade Journal</h1>
+
+  <div class="journal-entry">
+    <div class="header-row">
+      <div class="symbol">$AAPL</div>
+      <div class="date">2025-05-10</div>
+    </div>
+    <div class="summary">Used a credit spread strategy. Market opened lower, recovered by afternoon. AI gave B+ rating.</div>
+    <div class="result profit">+$185</div>
+    <div class="grade">Grade: B+</div>
+    <audio controls src="/static/audio/aapl_summary.mp3"></audio>
+  </div>
+
+  <div class="journal-entry">
+    <div class="header-row">
+      <div class="symbol">$TSLA</div>
+      <div class="date">2025-05-09</div>
+    </div>
+    <div class="summary">Executed iron condor trade. Got caught in a breakout. Slight loss, AI recommended alternate strike range.</div>
+    <div class="result loss">-$60</div>
+    <div class="grade">Grade: C</div>
+    <audio controls src="/static/audio/tsla_summary.mp3"></audio>
+  </div>
+
+  <div class="journal-entry">
+    <div class="header-row">
+      <div class="symbol">$NVDA</div>
+      <div class="date">2025-05-08</div>
+    </div>
+    <div class="summary">Covered call closed in profit. Market trend helped. Bot auto-executed and gave verbal recap via Strategist.</div>
+    <div class="result profit">+$220</div>
+    <div class="grade">Grade: A</div>
+    <audio controls src="/static/audio/nvda_summary.mp3"></audio>
+  </div>
+
+</body>
+</html>

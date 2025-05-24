@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PTM Command Center</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .bot-card, .broker-box {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,255,100,0.05);
+    }
+
+    .bot-header, .broker-box h3 {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #6fd672;
+    }
+
+    .captain, .caption {
+      font-size: 14px;
+      color: #ccc;
+      margin-bottom: 10px;
+    }
+
+    .status {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    .on {
+      background: #00e676;
+      color: #111;
+    }
+
+    .off {
+      background: #ff5252;
+      color: #111;
+    }
+
+    .toggle-btn, .broker-box button {
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      padding: 6px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background 0.3s ease;
+      font-weight: bold;
+    }
+
+    .toggle-btn:hover, .broker-box button:hover {
+      background-color: #66bb6a;
+      color: #111;
+    }
+
+    .status-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .status-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #333;
+      color: #fff;
+      padding: 4px 10px;
+      margin-right: 5px;
+      border-radius: 6px;
+      font-size: 12px;
+    }
+
+    .live {
+      color: #4caf50;
+    }
+
+    .paper {
+      color: #03a9f4;
+    }
+
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>PTM Command Center</h1>
+
+  <!-- AI Assistant Bots -->
+  <div class="grid" id="botGrid"></div>
+
+  <!-- Brokerage Bots -->
+  <div class="grid" id="brokers"></div>
+
+  <audio id="voiceAlert"></audio>
+
+  <script>
+    // === Assistant Bots ===
+    const bots = [
+      { name: "Robinhood Bot", captain: "Mo Cash", platform: "Robinhood", active: true },
+      { name: "Webull Bot", captain: "Strategist", platform: "Webull", active: false },
+      { name: "Tradier Bot", captain: "Mentor", platform: "Tradier", active: true },
+      { name: "Public Bot", captain: "Drill Instructor", platform: "Public", active: false }
+    ];
+
+    const botGrid = document.getElementById("botGrid");
+
+    function toggleBot(index) {
+      bots[index].active = !bots[index].active;
+      renderBots();
+    }
+
+    function renderBots() {
+      botGrid.innerHTML = "";
+
+      bots.forEach((bot, i) => {
+        const div = document.createElement("div");
+        div.className = "bot-card";
+
+        div.innerHTML = `
+          <div class="bot-header">${bot.name}</div>
+          <div class="captain">Captain: <strong>${bot.captain}</strong></div>
+          <div class="status-row">
+            <span class="status ${bot.active ? 'on' : 'off'}">
+              ${bot.active ? 'ACTIVE' : 'OFFLINE'}
+            </span>
+            <button class="toggle-btn" onclick="toggleBot(${i})">
+              ${bot.active ? 'Turn Off' : 'Turn On'}
+            </button>
+          </div>
+          <div class="caption">Platform: ${bot.platform}</div>
+        `;
+
+        botGrid.appendChild(div);
+      });
+    }
+
+    renderBots();
+
+    // === Broker Bots ===
+    async function loadBrokers() {
+      const res = await fetch('/get_brokerages');
+      const data = await res.json();
+      const container = document.getElementById('brokers');
+      container.innerHTML = '';
+
+      data.forEach(broker => {
+        const box = document.createElement('div');
+        box.className = 'broker-box';
+
+        const syncText = broker.sync ? 'Synced' : 'Manual';
+        const modeText = broker.mode === 'live' ? 'LIVE' : 'PAPER';
+        const modeClass = broker.mode === 'live' ? 'live' : 'paper';
+
+        box.innerHTML = `
+          <h3>${broker.name}</h3>
+          <p>Balance: $${broker.balance.toFixed(2)}</p>
+          <p>Status: <span class="${modeClass}">${modeText}</span> | Sync: ${syncText}</p>
+          <div class="status-grid">
+            <div><strong>XP:</strong> ${broker.xp || 0}</div>
+            <div><strong>Badges:</strong> ${formatBadges(broker.badges || [])}</div>
+          </div>
+          <button onclick="toggleMode('${broker.name}')">Toggle Paper/Live</button>
+          <button onclick="syncNow('${broker.name}')">Sync Now</button>
+          <button onclick="playVoice('${broker.name}')">Voice Alert</button>
+        `;
+
+        container.appendChild(box);
+      });
+    }
+
+    function formatBadges(badges) {
+      if (!badges.length) return '<span class="badge">None</span>';
+      return badges.map(b => `<span class="badge">${b}</span>`).join('');
+    }
+
+    function toggleMode(name) {
+      fetch(`/toggle_broker_mode/${name}`).then(() => loadBrokers());
+    }
+
+    function syncNow(name) {
+      fetch(`/sync_brokerage/${name}`).then(() => {
+        alert(`Sync complete for ${name}`);
+        loadBrokers();
+      });
+    }
+
+    function playVoice(name) {
+      const voice = document.getElementById('voiceAlert');
+      voice.src = `/voice_preview/${name.toLowerCase()}_alert.mp3`;
+      voice.play();
+    }
+
+    loadBrokers();
+  </script>
+
+</body>
+</html>

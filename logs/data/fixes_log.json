@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2025-05-17 16:15:42",
+    "file": "cole_executor.py",
+    "error": "TypeError: 'NoneType' object is not subscriptable",
+    "fix": "if result is not None and 'data' in result:\n    data = result['data']\nelse:\n    data = {}"
+  },
+  {
+    "timestamp": "2025-05-17 17:02:18",
+    "file": "cole_code_writer.py",
+    "error": "NameError: name 'task' is not defined",
+    "fix": "task = kwargs.get('task')\nif task is None:\n    raise ValueError('Missing task in kwargs')"
+  }
+]

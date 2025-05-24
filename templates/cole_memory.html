@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cole Memory Log</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      background: #111;
+      color: #eee;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #00ffd0;
+      margin-bottom: 15px;
+    }
+
+    .controls {
+      max-width: 800px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    input[type="text"], select {
+      flex: 1;
+      padding: 10px;
+      background: #222;
+      color: #eee;
+      border: 1px solid #444;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .log-entry {
+      background: #1e1e1e;
+      border-left: 4px solid #00ffd0;
+      padding: 16px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 255, 208, 0.05);
+      position: relative;
+    }
+
+    .log-entry code {
+      display: block;
+      background: #222;
+      padding: 12px;
+      white-space: pre-wrap;
+      border-radius: 6px;
+      margin-top: 10px;
+      font-family: monospace;
+      font-size: 14px;
+    }
+
+    .meta {
+      color: #aaa;
+      font-size: 13px;
+      margin-top: 8px;
+    }
+
+    .output, .error {
+      margin-top: 8px;
+    }
+
+    .error {
+      color: #f55;
+    }
+
+    button {
+      margin-top: 12px;
+      background-color: #00ffd0;
+      color: #000;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: #00cfa7;
+    }
+
+    .favorite-btn {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      font-size: 20px;
+      background: none;
+      border: none;
+      color: #aaa;
+      cursor: pointer;
+    }
+
+    .favorite-btn.favorited {
+      color: gold;
+    }
+
+    /* Compare Panel Styles */
+    #comparePanel {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      background: #191919;
+      border-left: 2px solid #00ffd0;
+      box-shadow: -4px 0 12px rgba(0, 255, 208, 0.2);
+      z-index: 9999;
+      padding: 20px;
+      display: none;
+      overflow-y: auto;
+      resize: horizontal;
+    }
+
+    #comparePanel h2 {
+      margin-top: 0;
+      color: #00ffd0;
+    }
+
+    .code-box {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .code-column {
+      flex: 1;
+      min-width: 45%;
+    }
+
+    .code-column h3 {
+      margin-bottom: 10px;
+    }
+
+    .code-column pre {
+      background: #222;
+      color: #eee;
+      padding: 10px;
+      border-radius: 8px;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      font-family: monospace;
+      font-size: 13px;
+    }
+
+    #closeCompare {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+      background: #222;
+      color: #fff;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Cole’s Memory Log</h1>
+
+  <div class="controls">
+    <input type="text" id="searchInput" placeholder="Search logs..." />
+    <select id="filterSelect">
+      <option value="all">All Logs</option>
+      <option value="success">Only Successes</option>
+      <option value="error">Only Errors</option>
+      <option value="favorite">Favorites Only</option>
+    </select>
+  </div>
+
+  <div id="logContainer">Loading logs...</div>
+
+  <div id="comparePanel">
+    <button id="closeCompare">×</button>
+    <h2>Compare Code</h2>
+    <div class="code-box">
+      <div class="code-column">
+        <h3>Original</h3>
+        <pre id="originalCode"></pre>
+      </div>
+      <div class="code-column">
+        <h3>Regenerated</h3>
+        <pre id="regeneratedCode"></pre>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let allLogs = [];
+
+    async function loadLogs() {
+      const res = await fetch("/cole_memory_log");
+      const data = await res.json();
+      allLogs = data.reverse();
+      renderLogs();
+    }
+
+    function renderLogs() {
+      const container = document.getElementById("logContainer");
+      const search = document.getElementById("searchInput").value.toLowerCase();
+      const filter = document.getElementById("filterSelect").value;
+      container.innerHTML = "";
+
+      const filtered = allLogs.filter(log => {
+        const matchesSearch = log.task.toLowerCase().includes(search);
+        const isError = log.execution_error && log.execution_error !== "";
+        const isFavorite = log.favorite === true;
+
+        if (!matchesSearch) return false;
+
+        if (filter === "error") return isError;
+        if (filter === "success") return !isError;
+        if (filter === "favorite") return isFavorite;
+        return true;
+      });
+
+      filtered.forEach(log => {
+        const block = document.createElement("div");
+        block.className = "log-entry";
+
+        block.innerHTML = `
+          <button class="favorite-btn ${log.favorite ? 'favorited' : ''}" onclick="toggleFavorite('${log.id}', ${!log.favorite})">
+            ${log.favorite ? '★' : '☆'}
+          </button>
+          <div><strong>Task:</strong> ${log.task}</div>
+          <div class="meta">Time: ${log.timestamp}</div>
+          <code>${log.code_preview}</code>
+          <div class="output"><strong>Output:</strong> ${log.execution_output || "None"}</div>
+          <div class="error"><strong>Error:</strong> ${log.execution_error || "None"}</div>
+          <button onclick="rerunTask(\`${log.task.replace(/`/g, '\\`')}\`)">Re-run this</button>
+          <button onclick="compareCode(\`${log.task.replace(/`/g, '\\`')}\`, \`${log.code_preview.replace(/`/g, '\\`')}\`)">Compare</button>
+        `;
+        container.appendChild(block);
+      });
+    }
+
+    async function compareCode(taskText, original) {
+      const res = await fetch("/compare_code", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ task: taskText })
+      });
+
+      const data = await res.json();
+      document.getElementById("originalCode").textContent = original;
+      document.getElementById("regeneratedCode").textContent = data.code || "Error generating code.";
+      document.getElementById("comparePanel").style.display = "block";
+    }
+
+    document.getElementById("closeCompare").addEventListener("click", () => {
+      document.getElementById("comparePanel").style.display = "none";
+    });
+
+    async function rerunTask(taskText) {
+      const res = await fetch("/rerun_task", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ task: taskText })
+      });
+
+      const result = await res.json();
+      alert(result.assistant_feedback || result.message);
+      loadLogs();
+    }
+
+    async function toggleFavorite(id, value) {
+      await fetch("/update_favorite", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id: id, favorite: value })
+      });
+      loadLogs();
+    }
+
+    document.getElementById("searchInput").addEventListener("input", renderLogs);
+    document.getElementById("filterSelect").addEventListener("change", renderLogs);
+
+    loadLogs();
+  </script>
+</body>
+</html>

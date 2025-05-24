@@ -2,85 +2,174 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>PocketTellerMachine Dashboard</title>
-    <link id="google-font-link" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Montserrat|Oswald|Lobster|Open+Sans|Inconsolata&display=swap">
+    <title>PTM Dashboard</title>
     <style>
-        /* USE THE EXACT SAME CSS BLOCK FROM ABOVE! */
+        body { background: #121212; color: #f0f0f0; font-family: sans-serif; padding: 20px; }
+        h1 { color: #6fd672; }
+        .widget, .box { background: #1f1f1f; padding: 20px; border-radius: 10px; margin-top: 20px; }
+        .widget h3, .box h3 { margin-top: 0; }
+        pre { background: #000; color: #0f0; padding: 10px; border-radius: 5px; overflow-x: auto; }
+        input, button {
+            padding: 10px;
+            border-radius: 6px;
+            border: none;
+            font-size: 14px;
+            margin-top: 8px;
+        }
+        input { width: 60%; margin-right: 10px; }
+        button { background-color: #6fd672; color: #121212; font-weight: bold; cursor: pointer; }
+        button:hover { background-color: #89f58c; }
     </style>
 </head>
 <body>
-<div class="dashboard-container">
-    <button id="theme-toggle" class="dashboard-btn button-ripple button-neon button-bounce button-gradient" style="max-width: 220px; margin: 0 auto 1em auto;">
-        Switch Theme
-    </button>
-    <div class="headline glow-headline" id="headline">
-        PocketTellerMachine Dashboard
-    </div>
-    <div class="soft-shadow">
-        Your AI-powered trading command center is coming alive.
-    </div>
-    <button class="dashboard-btn button-ripple button-neon button-bounce button-gradient">Trade History</button>
-    <button class="dashboard-btn button-ripple button-neon button-bounce button-gradient">Export Data</button>
-    <button class="dashboard-btn button-ripple button-neon button-bounce button-gradient">Settings</button>
+
+<h1>Pocket Teller Machine Dashboard</h1>
+
+<!-- Market Movers Widget -->
+<div id="market-movers-widget" class="widget">
+    <h3>Market Movers</h3>
+    <pre id="market-movers-data">Loading top gainers & losers...</pre>
 </div>
+
+<!-- Market Screener Widget -->
+<div id="market-screener-widget" class="widget">
+    <h3>Market Screener Results</h3>
+    <pre id="market-screener-data">Loading screener results...</pre>
+</div>
+
+<!-- Market Screener Filter Controls -->
+<div id="market-screener-filters-widget" class="widget">
+    <h3>Market Screener Filters</h3>
+
+    <form id="filter-form">
+        <label>RSI Range:</label>
+        <input type="number" id="rsi-min" placeholder="Min RSI" step="0.1"> -
+        <input type="number" id="rsi-max" placeholder="Max RSI" step="0.1"><br><br>
+
+        <label>Volume Min:</label>
+        <input type="number" id="volume-min" placeholder="Min Volume"><br><br>
+
+        <label>Price Min:</label>
+        <input type="number" id="price-min" placeholder="Min Price" step="0.01"> -
+        <input type="number" id="price-max" placeholder="Max Price" step="0.01"><br><br>
+
+        <button type="submit">Apply Filters</button>
+    </form>
+
+    <p id="filter-status" style="margin-top: 10px; color: #6fd672;"></p>
+</div>
+
+<!-- GhostBuild Prompt Box -->
+<div class="box">
+  <h3>GhostBuild Command</h3>
+  <input id="ghostPrompt" placeholder="Describe what to build..." />
+  <button onclick="runGhost()">Send to Cole</button>
+</div>
+
 <script>
-    // Same JavaScript as above, just replace .home-btn with .dashboard-btn where needed!
-    const settings = {{ settings|tojson }};
-    function setGoogleFont(family) {
-        document.getElementById("google-font-link").href =
-            "https://fonts.googleapis.com/css?family=" + family.replace(" ", "+") + "&display=swap";
-    }
-    function applyUserStyles() {
-        if (settings.headline_font) {
-            setGoogleFont(settings.headline_font);
-            document.getElementById("headline").style.fontFamily = settings.headline_font + ", sans-serif";
-        }
-        if (settings.headline_size) {
-            document.getElementById("headline").style.fontSize = settings.headline_size + "em";
-        }
-        if (settings.button_font) {
-            setGoogleFont(settings.button_font);
-            document.querySelectorAll('.dashboard-btn').forEach(btn => {
-                btn.style.fontFamily = settings.button_font + ", sans-serif";
-            });
-        }
-        if (settings.button_size) {
-            document.querySelectorAll('.dashboard-btn').forEach(btn => {
-                btn.style.fontSize = settings.button_size + "em";
-            });
-        }
-    }
-    window.onload = applyUserStyles;
+// === Market Movers Refresh ===
+function refreshMarketMovers() {
+    fetch('/api/market_movers')
+        .then(res => res.json())
+        .then(data => {
+            const movers = data.movers || [];
+            if (movers.length === 0) {
+                document.getElementById('market-movers-data').textContent = 'No data available.';
+                return;
+            }
 
-    const themeToggle = document.getElementById('theme-toggle');
-    function setTheme(theme) {
-        document.body.setAttribute('data-theme', theme);
-        localStorage.setItem('ptm_theme', theme);
-        themeToggle.textContent = theme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode';
-    }
-    const userPref = localStorage.getItem('ptm_theme');
-    if (userPref) {
-        setTheme(userPref);
-    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        setTheme('dark');
-    } else {
-        setTheme('light');
-    }
-    themeToggle.addEventListener('click', () => {
-        setTheme(document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
-    });
+            const formatted = movers.map(stock =>
+                `${stock.ticker} | ${stock.name} | ${stock.change_percent > 0 ? '+' : ''}${stock.change_percent.toFixed(2)}%`
+            ).join('\n');
 
-    document.querySelectorAll('.button-ripple').forEach(btn => {
-        btn.addEventListener('click', function(e) {
-            const ripple = document.createElement('span');
-            ripple.className = 'ripple';
-            const rect = btn.getBoundingClientRect();
-            ripple.style.left = `${e.clientX - rect.left}px`;
-            ripple.style.top = `${e.clientY - rect.top}px`;
-            btn.appendChild(ripple);
-            setTimeout(() => ripple.remove(), 500);
+            document.getElementById('market-movers-data').textContent = formatted;
+        })
+        .catch(err => {
+            console.error('Error fetching market movers:', err);
+            document.getElementById('market-movers-data').textContent = 'Failed to load market movers data.';
         });
+}
+
+// === Market Screener Refresh ===
+function refreshMarketScreener() {
+    fetch('/api/market_screener')
+        .then(res => res.json())
+        .then(data => {
+            const results = data.results || [];
+            if (results.length === 0) {
+                document.getElementById('market-screener-data').textContent = 'No results match current filters.';
+                return;
+            }
+
+            const formatted = results.map(stock =>
+                `${stock.ticker} | Price: $${stock.price.toFixed(2)} | Volume: ${stock.volume} | RSI: ${stock.rsi.toFixed(2)} | Signal: ${stock.signal}`
+            ).join('\n');
+
+            document.getElementById('market-screener-data').textContent = formatted;
+        })
+        .catch(err => {
+            console.error('Error fetching market screener:', err);
+            document.getElementById('market-screener-data').textContent = 'Failed to load market screener data.';
+        });
+}
+
+// === Screener Filter Controls ===
+document.getElementById('filter-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const filters = {
+        rsi: {
+            min: parseFloat(document.getElementById('rsi-min').value) || null,
+            max: parseFloat(document.getElementById('rsi-max').value) || null
+        },
+        volume: {
+            min: parseInt(document.getElementById('volume-min').value) || null
+        },
+        price: {
+            min: parseFloat(document.getElementById('price-min').value) || null,
+            max: parseFloat(document.getElementById('price-max').value) || null
+        }
+    };
+
+    fetch('/api/screener_filters', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(filters)
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.status === 'success') {
+            document.getElementById('filter-status').textContent = 'Filters updated successfully.';
+        } else {
+            document.getElementById('filter-status').textContent = 'Failed to update filters.';
+        }
+    })
+    .catch(err => {
+        console.error('Error updating filters:', err);
+        document.getElementById('filter-status').textContent = 'Error updating filters.';
     });
+});
+
+// === GhostBuild Trigger ===
+function runGhost() {
+    const prompt = document.getElementById("ghostPrompt").value;
+    fetch('/api/ghostbuild', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ prompt: prompt })
+    }).then(res => res.json()).then(data => alert(data.message));
+}
+
+// === Intervals ===
+setInterval(refreshMarketMovers, 10000);
+setInterval(refreshMarketScreener, 15000);
+
+// === Initial Load ===
+window.onload = function() {
+    refreshMarketMovers();
+    refreshMarketScreener();
+};
 </script>
+
 </body>
 </html>

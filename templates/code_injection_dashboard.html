@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Code Injection Dashboard</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #eee;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      color: #6fd672;
+      margin-bottom: 30px;
+    }
+    table {
+      margin: auto;
+      border-collapse: collapse;
+      width: 90%;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #1e1e1e;
+    }
+    tr:nth-child(even) {
+      background-color: #1a1a1a;
+    }
+    button {
+      background-color: #6fd672;
+      color: #121212;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #89f58c;
+    }
+  </style>
+</head>
+<body>
+  <h1>Injected Code Files</h1>
+  {% if logs %}
+  <table>
+    <thead>
+      <tr>
+        <th>Filename</th>
+        <th>Path</th>
+        <th>Timestamp</th>
+        <th>Source</th>
+        <th>Status</th>
+        <th>Run</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for log in logs %}
+      <tr>
+        <td>{{ log.filename }}</td>
+        <td>{{ log.path }}</td>
+        <td>{{ log.timestamp }}</td>
+        <td>{{ log.source }}</td>
+        <td>{{ log.status }}</td>
+        <td><button onclick="runInjected('{{ log.path }}')">Run</button></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+    <p>No code injections logged yet.</p>
+  {% endif %}
+
+  <script>
+    function runInjected(path) {
+      fetch('/run_injected_code', {
+        method: 'POST',
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ path: path })
+      })
+      .then(res => res.json())
+      .then(data => {
+        alert(data.message || data.output || data.error || "No response");
+        location.reload();
+      });
+    }
+  </script>
+</body>
+</html>

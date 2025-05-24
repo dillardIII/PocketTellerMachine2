@@ -1,0 +1,17 @@
+Title: Trading Strategy Note
+
+1. **Market Research and Analysis**: Understanding the market dynamics is a crucial step in developing a robust trading strategy. The analysis should include perusing new trends, demand-supply data, economic indicators, etc. We should leverage both technical and fundamental analysis methods. 
+
+2. **Risk Management**: Trading comes with its inherent risks. Our strategy shall focus on controlling the risk through diversification, stop losses, and not investing more than a certain percentage of the portfolio in a single trade. 
+
+3. **Asset Allocation**: Depending on Cole's risk tolerance and trading goals, assets should be allocated. Investment can be divided into various classes like stocks, ETFs, bonds, commodities, options, etc. The goal is to attain balance and reduce the impact of market volatility.
+
+4. **Systematic Trading**: Engage in systematic and disciplined trading. We should refrain from making impulsive decisions based on sudden market fluctuations. Every trade should align with the predetermined strategy.
+
+5. **Long-term and Short-term Strategies**: The trading strategy should have a good mix of long-term and short-term trades. Long-term trades like buy-hold strategies allows capturing long-term market trends and offsetting short term fluctuations. Short-term trades like swing trading can help cash in on stock market movements in the short run.
+
+6. **Performance Analysis**: Continual assessment of our trading strategy is essential. Review the returns from trades and adjust the strategies, if necessary. This includes measuring the strategy's efficiency, speed, and accuracy.
+
+7. **Stay Informed**: Lastly, keep updated with global and economic events as a part of the trading routine. Factors like political events, economic announcements, and technological advancements can impact market trend.
+
+Remember, the focus should be on creating a balanced and flexible strategy that could adapt to the market changes and help in maintaining and growing the portfolio steadily.

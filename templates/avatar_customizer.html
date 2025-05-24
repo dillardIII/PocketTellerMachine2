@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Customize Your Assistant Avatar</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 30px;
+    }
+
+    .customizer {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      max-width: 600px;
+      margin: auto;
+      padding: 24px;
+      box-shadow: 0 0 12px rgba(0,255,100,0.05);
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+      color: #ccc;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 6px;
+      background: #222;
+      color: #f0f0f0;
+      border: 1px solid #444;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+
+    input[type="color"] {
+      height: 40px;
+    }
+
+    .preview {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .avatar-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 100px;
+      object-fit: cover;
+      margin-bottom: 10px;
+      border: 3px solid #6fd672;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: bold;
+      margin-top: 20px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: #66bb6a;
+      color: #111;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Customize Your Assistant</h1>
+
+  <div class="customizer">
+    <label>Assistant Name</label>
+    <input type="text" id="assistantName" placeholder="e.g., Mo Cash, Coach Max" />
+
+    <label>Title / Role</label>
+    <input type="text" id="assistantRole" placeholder="e.g., VP of Strategy, Team Analyst" />
+
+    <label>Upload Avatar Image</label>
+    <input type="file" id="avatarUpload" accept="image/*" />
+
+    <label>Background Color</label>
+    <input type="color" id="bgColor" value="#1e1e1e" />
+
+    <div class="preview" id="avatarPreview">
+      <img src="" alt="Avatar Preview" class="avatar-img" id="avatarImg" style="display: none;" />
+      <div id="previewText"></div>
+    </div>
+
+    <button onclick="saveAvatar()">Save Avatar Settings</button>
+  </div>
+
+  <script>
+    const avatarUpload = document.getElementById("avatarUpload");
+    const avatarImg = document.getElementById("avatarImg");
+    const avatarPreview = document.getElementById("avatarPreview");
+
+    avatarUpload.addEventListener("change", () => {
+      const file = avatarUpload.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function (e) {
+          avatarImg.src = e.target.result;
+          avatarImg.style.display = "block";
+        };
+        reader.readAsDataURL(file);
+      }
+    });
+
+    function saveAvatar() {
+      const name = document.getElementById("assistantName").value;
+      const role = document.getElementById("assistantRole").value;
+      const bgColor = document.getElementById("bgColor").value;
+
+      avatarPreview.style.backgroundColor = bgColor;
+      document.getElementById("previewText").innerHTML =
+        `<strong>${name || "Unnamed Assistant"}</strong><br><span style="font-size: 13px;">${role || ""}</span>`;
+
+      alert("Avatar settings saved! (Simulated)");
+    }
+  </script>
+
+</body>
+</html>

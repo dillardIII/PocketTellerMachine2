@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cole AI Phase 10 Controller (Full Autonomous & Self-Aware)</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #f0f0f0;
+            font-family: 'Segoe UI', sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: #6fd672;
+            text-align: center;
+        }
+        .button {
+            background: #6fd672;
+            color: #121212;
+            border: none;
+            padding: 12px 20px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        .log-box {
+            background: #1e1e1e;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            overflow-y: scroll;
+            height: 400px;
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Cole AI Phase 10 Control Panel</h1>
+
+    <button class="button" onclick="fetchGhostLogs()">View Ghost Logs</button>
+    <button class="button" onclick="fetchTradeReviews()">View Trade Reviews</button>
+    <button class="button" onclick="fetchVoiceSummaries()">View Voice Summaries</button>
+    <button class="button" onclick="fetchNarrationLogs()">View Voice Narration Logs</button>
+    <button class="button" onclick="fetchAssistantLogs()">View Voice Assistant Logs</button>
+    <button class="button" onclick="fetchCodeTriggerLogs()">View Code Trigger Logs</button>
+    <button class="button" onclick="fetchSelfAwarenessLogs()">View Self-Awareness Logs</button>
+    <button class="button" onclick="triggerSelfReflection()">Trigger Self Reflection (Manual)</button>
+
+    <div class="log-box">
+        <h3>Phase 10 Data Output</h3>
+        <pre id="output">Click a button to load data...</pre>
+    </div>
+
+    <script>
+        function fetchGhostLogs() {
+            fetch('/api/get_ghost_logs')
+            .then(response => response.json())
+            .then(data => {
+                let logs = data.logs.map(log => `${log.timestamp} → ${log.message}`).join('\n');
+                document.getElementById("output").innerText = logs || "No ghost logs found.";
+            });
+        }
+
+        function fetchTradeReviews() {
+            fetch('/api/get_trade_reviews')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("output").innerText = JSON.stringify(data, null, 2);
+            });
+        }
+
+        function fetchVoiceSummaries() {
+            fetch('/api/get_voice_summaries')
+            .then(response => response.json())
+            .then(data => {
+                let display = (data.summaries || []).map(item => item.summary).join('\n\n');
+                document.getElementById("output").innerText = display || "No summaries found.";
+            });
+        }
+
+        function fetchNarrationLogs() {
+            fetch('/api/get_voice_narration_log')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("output").innerText = JSON.stringify(data, null, 2);
+            });
+        }
+
+        function fetchAssistantLogs() {
+            fetch('/api/get_voice_assistant_logs')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("output").innerText = JSON.stringify(data, null, 2);
+            });
+        }
+
+        function fetchCodeTriggerLogs() {
+            fetch('/api/get_code_trigger_logs')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("output").innerText = JSON.stringify(data, null, 2);
+            });
+        }
+
+        function fetchSelfAwarenessLogs() {
+            fetch('/api/get_self_awareness_logs')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("output").innerText = JSON.stringify(data, null, 2);
+            });
+        }
+
+        function triggerSelfReflection() {
+            fetch('/api/trigger_self_reflection', { method: 'POST' })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("output").innerText = data.message || JSON.stringify(data);
+            });
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,4026 @@
+[
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 13:47:11",
+    "voice": "trigger_21c19a96.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 13:47:11",
+    "voice": "trigger_75ad4761.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 13:48:13",
+    "voice": "trigger_cbdbc1c8.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 13:48:14",
+    "voice": "trigger_b9f8c393.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 13:49:15",
+    "voice": "trigger_ff50bee4.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 13:49:16",
+    "voice": "trigger_d651c9b3.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 13:50:18",
+    "voice": "trigger_5c1b93dd.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 13:50:18",
+    "voice": "trigger_663de4d1.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 13:51:21",
+    "voice": "trigger_e6bd7f5d.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 13:51:21",
+    "voice": "trigger_3756f0a0.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 13:52:23",
+    "voice": "trigger_c06e5081.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 13:52:23",
+    "voice": "trigger_80f4a20f.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 13:53:26",
+    "voice": "trigger_e59464fc.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 13:54:28",
+    "voice": "trigger_2ddcf9ab.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 13:55:31",
+    "voice": "trigger_bc7d3aa9.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 13:56:34",
+    "voice": "trigger_9446e3bf.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 13:58:20",
+    "voice": "trigger_9ce46948.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 13:58:23",
+    "voice": "trigger_2eacef66.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:46:10",
+    "voice": "trigger_eb962e0e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:46:10",
+    "voice": "trigger_cee259ff.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:47:12",
+    "voice": "trigger_328491f7.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:47:12",
+    "voice": "trigger_b76f0271.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:48:15",
+    "voice": "trigger_46323186.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:48:15",
+    "voice": "trigger_8e4fa034.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:49:17",
+    "voice": "trigger_e08826a8.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:49:18",
+    "voice": "trigger_61ba6dbb.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:50:20",
+    "voice": "trigger_c32d9420.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:50:21",
+    "voice": "trigger_e4b464ab.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:51:22",
+    "voice": "trigger_0eab5159.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:51:23",
+    "voice": "trigger_d98b3167.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:52:25",
+    "voice": "trigger_dc0a8121.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:52:26",
+    "voice": "trigger_a56174a3.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:53:28",
+    "voice": "trigger_977de0bd.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:53:51",
+    "voice": "trigger_ec2d2532.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:54:30",
+    "voice": "trigger_623436b0.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:54:54",
+    "voice": "trigger_d6386adc.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:56:36",
+    "voice": "trigger_aa06cb00.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:56:36",
+    "voice": "trigger_4c7bd8c1.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:57:39",
+    "voice": "trigger_c2f64e48.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:58:09",
+    "voice": "trigger_854e8e99.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:58:42",
+    "voice": "trigger_182cb521.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:59:11",
+    "voice": "trigger_8192d48c.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 15:59:44",
+    "voice": "trigger_df74db67.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:30:15",
+    "voice": "trigger_8e07a503.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:30:47",
+    "voice": "trigger_a19f2800.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:31:17",
+    "voice": "trigger_f1b0e3d3.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:31:49",
+    "voice": "trigger_20dfe209.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:32:19",
+    "voice": "trigger_095bc956.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:32:52",
+    "voice": "trigger_9782265f.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:33:22",
+    "voice": "trigger_07a85e21.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:33:55",
+    "voice": "trigger_33ad213d.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:34:25",
+    "voice": "trigger_d53393d6.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:34:57",
+    "voice": "trigger_4cfb1dfa.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:35:28",
+    "voice": "trigger_19049ee8.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:36:00",
+    "voice": "trigger_04bf68ee.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:36:30",
+    "voice": "trigger_2f7d160a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:37:02",
+    "voice": "trigger_0e780be5.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:37:33",
+    "voice": "trigger_c63690ff.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:38:05",
+    "voice": "trigger_ae13abe6.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:38:35",
+    "voice": "trigger_1c16c364.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:39:07",
+    "voice": "trigger_5df84eb2.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:39:37",
+    "voice": "trigger_e528d333.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:40:10",
+    "voice": "trigger_1bb12aa3.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:40:40",
+    "voice": "trigger_e7f0af77.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:41:12",
+    "voice": "trigger_81339c3a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:41:43",
+    "voice": "trigger_02e7a432.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:42:15",
+    "voice": "trigger_56ded1e7.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:42:45",
+    "voice": "trigger_176a4992.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:43:18",
+    "voice": "trigger_c8023ff9.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:43:48",
+    "voice": "trigger_8228018c.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:44:20",
+    "voice": "trigger_6bffb4fc.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:44:51",
+    "voice": "trigger_f7f816b9.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:45:23",
+    "voice": "trigger_4e8ef7f6.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:45:53",
+    "voice": "trigger_ec47aec9.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:46:25",
+    "voice": "trigger_ccde622f.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:46:56",
+    "voice": "trigger_654aa239.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:47:28",
+    "voice": "trigger_84176791.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:47:58",
+    "voice": "trigger_310cb7c4.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:48:30",
+    "voice": "trigger_9278d1e9.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:49:01",
+    "voice": "trigger_2df6ce8d.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:49:32",
+    "voice": "trigger_783c107d.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:50:03",
+    "voice": "trigger_e0ea6aad.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:50:35",
+    "voice": "trigger_b1921d45.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:51:06",
+    "voice": "trigger_1117ec27.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:51:37",
+    "voice": "trigger_9dc69378.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:52:08",
+    "voice": "trigger_2c7dfeff.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:52:40",
+    "voice": "trigger_ef5b7bd0.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:53:11",
+    "voice": "trigger_ba87f644.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:53:42",
+    "voice": "trigger_79d3e1fb.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:54:13",
+    "voice": "trigger_11d069a5.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:54:44",
+    "voice": "trigger_482902e6.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:55:16",
+    "voice": "trigger_4f01ada3.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:55:47",
+    "voice": "trigger_28c7c8f3.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:56:18",
+    "voice": "trigger_c0ca3e48.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:56:50",
+    "voice": "trigger_eb82ade4.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:57:21",
+    "voice": "trigger_46df72a9.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:57:52",
+    "voice": "trigger_26ac3157.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:58:23",
+    "voice": "trigger_b9f6e5da.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:58:56",
+    "voice": "trigger_da3f2095.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:59:26",
+    "voice": "trigger_8b8062e3.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 16:59:58",
+    "voice": "trigger_db5170e0.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:30:29",
+    "voice": "trigger_f976d442.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:31:01",
+    "voice": "trigger_700229fd.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:31:32",
+    "voice": "trigger_d9d18f26.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:32:04",
+    "voice": "trigger_aaf57e9f.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:32:34",
+    "voice": "trigger_5b4d2df7.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:33:06",
+    "voice": "trigger_5b7e89c7.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:33:37",
+    "voice": "trigger_c44f7dcd.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:34:08",
+    "voice": "trigger_46268021.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:34:39",
+    "voice": "trigger_4dcf55ec.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:35:11",
+    "voice": "trigger_f83f7625.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:35:42",
+    "voice": "trigger_d32f8935.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:36:14",
+    "voice": "trigger_720aaab6.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:36:44",
+    "voice": "trigger_4ece79f3.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:37:16",
+    "voice": "trigger_7e31c1e0.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:37:47",
+    "voice": "trigger_0fc5fdfe.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:38:19",
+    "voice": "trigger_114bc6ec.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:38:49",
+    "voice": "trigger_5b419c24.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:39:22",
+    "voice": "trigger_9e3747c5.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:39:52",
+    "voice": "trigger_3dd04c05.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:40:24",
+    "voice": "trigger_35e895e6.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:40:54",
+    "voice": "trigger_7ab6e8fb.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:41:27",
+    "voice": "trigger_225b8ef6.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:41:57",
+    "voice": "trigger_db86843a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:42:29",
+    "voice": "trigger_af87df0e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:43:00",
+    "voice": "trigger_c6f03df1.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:43:32",
+    "voice": "trigger_7a485c03.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:44:02",
+    "voice": "trigger_6c48e16a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:44:34",
+    "voice": "trigger_75390bc8.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:45:05",
+    "voice": "trigger_6c1950de.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:45:37",
+    "voice": "trigger_c2253244.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:46:08",
+    "voice": "trigger_6e12f1cc.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:46:40",
+    "voice": "trigger_8ee6ed69.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:47:10",
+    "voice": "trigger_e2e3ab19.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:47:42",
+    "voice": "trigger_d97caebb.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:48:13",
+    "voice": "trigger_bdec1705.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:48:45",
+    "voice": "trigger_1176892b.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:49:16",
+    "voice": "trigger_e35eac3a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:49:48",
+    "voice": "trigger_d9c84d89.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:50:19",
+    "voice": "trigger_e3520b1c.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:50:50",
+    "voice": "trigger_1c4d3b9a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:51:21",
+    "voice": "trigger_b4006709.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:51:53",
+    "voice": "trigger_b6ef1bd2.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:52:23",
+    "voice": "trigger_355f075e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:52:56",
+    "voice": "trigger_f8f38543.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:53:26",
+    "voice": "trigger_3eac32c3.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:53:58",
+    "voice": "trigger_85425536.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:54:29",
+    "voice": "trigger_0c0dddf3.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:55:01",
+    "voice": "trigger_8d0564cb.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:55:31",
+    "voice": "trigger_044ae342.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:56:04",
+    "voice": "trigger_80618e61.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:56:34",
+    "voice": "trigger_9946bf2d.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:57:07",
+    "voice": "trigger_a3bb313e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:57:36",
+    "voice": "trigger_fc040e64.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:58:09",
+    "voice": "trigger_421c80b2.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:58:39",
+    "voice": "trigger_c215c231.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:59:12",
+    "voice": "trigger_18eb5566.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 17:59:42",
+    "voice": "trigger_5bb0252f.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:30:15",
+    "voice": "trigger_c94b7f85.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:30:45",
+    "voice": "trigger_e3ea90da.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:31:17",
+    "voice": "trigger_a4529440.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:31:47",
+    "voice": "trigger_e62cbf6d.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:32:19",
+    "voice": "trigger_e2ad2dbe.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:32:50",
+    "voice": "trigger_2fc15fc4.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:33:22",
+    "voice": "trigger_e580da8b.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:33:52",
+    "voice": "trigger_a9854704.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:34:25",
+    "voice": "trigger_66d5e619.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:34:55",
+    "voice": "trigger_e14b4e90.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:35:27",
+    "voice": "trigger_dbe26ae8.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:35:58",
+    "voice": "trigger_98b21809.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:36:30",
+    "voice": "trigger_381a1910.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:37:00",
+    "voice": "trigger_d5b33fc5.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:37:33",
+    "voice": "trigger_bd4cb2b6.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:38:03",
+    "voice": "trigger_7d72528a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:38:36",
+    "voice": "trigger_a09103da.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:39:05",
+    "voice": "trigger_49e5d50c.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:39:38",
+    "voice": "trigger_fae4638c.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:40:08",
+    "voice": "trigger_23f955da.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:40:41",
+    "voice": "trigger_f067cf41.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:41:10",
+    "voice": "trigger_55b19cde.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:41:43",
+    "voice": "trigger_1ec2520e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:42:13",
+    "voice": "trigger_3e453f89.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:42:46",
+    "voice": "trigger_914fa03f.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:43:15",
+    "voice": "trigger_e328cfca.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:43:48",
+    "voice": "trigger_0c780791.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:44:18",
+    "voice": "trigger_f93ecf66.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:44:51",
+    "voice": "trigger_6d181ac8.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:45:20",
+    "voice": "trigger_6657abcd.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:45:53",
+    "voice": "trigger_8af72648.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:46:23",
+    "voice": "trigger_c11957ac.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:46:56",
+    "voice": "trigger_18c4e653.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:47:25",
+    "voice": "trigger_1d7546b6.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:47:59",
+    "voice": "trigger_69b56add.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:48:28",
+    "voice": "trigger_ea3fb1c8.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:49:01",
+    "voice": "trigger_d6527090.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:49:30",
+    "voice": "trigger_216051d2.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:50:04",
+    "voice": "trigger_69351057.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:50:33",
+    "voice": "trigger_18720db9.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:51:06",
+    "voice": "trigger_b471bb3c.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:51:35",
+    "voice": "trigger_9cdef4df.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:52:09",
+    "voice": "trigger_b24c9d3c.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:52:38",
+    "voice": "trigger_dc41b1b7.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:53:12",
+    "voice": "trigger_dba800d8.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:53:40",
+    "voice": "trigger_1f75fcf6.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:54:14",
+    "voice": "trigger_143ccaf0.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:54:43",
+    "voice": "trigger_f7602a71.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:55:16",
+    "voice": "trigger_beff3d36.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:55:45",
+    "voice": "trigger_4309f52b.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:56:19",
+    "voice": "trigger_189f7cd7.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:56:47",
+    "voice": "trigger_89cd9da4.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:57:22",
+    "voice": "trigger_f2d19838.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:57:50",
+    "voice": "trigger_a84c33d4.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:58:24",
+    "voice": "trigger_30e5ba22.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:58:53",
+    "voice": "trigger_5754bec5.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:59:27",
+    "voice": "trigger_d8aa5cb4.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 18:59:56",
+    "voice": "trigger_9dcdc64c.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:30:29",
+    "voice": "trigger_1d7390a9.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:30:58",
+    "voice": "trigger_ba45297e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:31:32",
+    "voice": "trigger_b8e7dbd9.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:32:01",
+    "voice": "trigger_df3a3bef.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:32:34",
+    "voice": "trigger_9af517b9.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:33:03",
+    "voice": "trigger_12321df1.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:33:37",
+    "voice": "trigger_143cad14.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:34:06",
+    "voice": "trigger_199baa87.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:34:39",
+    "voice": "trigger_11b1cab5.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:35:09",
+    "voice": "trigger_650d9c23.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:35:42",
+    "voice": "trigger_561d6c2a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:36:11",
+    "voice": "trigger_8814c374.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:36:44",
+    "voice": "trigger_9e8c3b5d.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:37:14",
+    "voice": "trigger_4d9d5ac8.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:37:47",
+    "voice": "trigger_a836f289.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:38:16",
+    "voice": "trigger_7359f752.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:38:50",
+    "voice": "trigger_24ffe68e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:39:19",
+    "voice": "trigger_5dacd8a2.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:39:53",
+    "voice": "trigger_16126524.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:40:22",
+    "voice": "trigger_7891607c.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:40:55",
+    "voice": "trigger_588099fb.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:41:24",
+    "voice": "trigger_9fa763ca.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:41:58",
+    "voice": "trigger_17857e37.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:42:26",
+    "voice": "trigger_6662d104.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:43:01",
+    "voice": "trigger_b294f4b4.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:43:29",
+    "voice": "trigger_5c5d6bed.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:44:04",
+    "voice": "trigger_926ced9d.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:44:32",
+    "voice": "trigger_20042185.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:45:06",
+    "voice": "trigger_37a892fb.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:45:35",
+    "voice": "trigger_d955f487.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:46:09",
+    "voice": "trigger_c185b2fb.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:46:37",
+    "voice": "trigger_9374d802.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:47:12",
+    "voice": "trigger_81a3f681.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:47:40",
+    "voice": "trigger_5e65e7bf.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:48:14",
+    "voice": "trigger_28f50e6a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:48:42",
+    "voice": "trigger_b8dbc05d.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:49:17",
+    "voice": "trigger_dfbc0256.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:49:45",
+    "voice": "trigger_fe48924a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:50:19",
+    "voice": "trigger_da4e22e3.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:50:48",
+    "voice": "trigger_cfe69543.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:51:21",
+    "voice": "trigger_db309354.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:51:50",
+    "voice": "trigger_debb21fb.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:52:24",
+    "voice": "trigger_80bd4673.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:52:53",
+    "voice": "trigger_f05cbca3.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:53:27",
+    "voice": "trigger_09d80e3e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:53:56",
+    "voice": "trigger_fde68544.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:54:29",
+    "voice": "trigger_04f51694.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:54:59",
+    "voice": "trigger_1716aa1a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:55:32",
+    "voice": "trigger_2acf1828.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:56:01",
+    "voice": "trigger_a383852e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:56:35",
+    "voice": "trigger_b796227e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:57:04",
+    "voice": "trigger_38e7ff8f.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:57:37",
+    "voice": "trigger_674cb605.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:58:07",
+    "voice": "trigger_253a842e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:58:40",
+    "voice": "trigger_741ad3cd.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:59:09",
+    "voice": "trigger_75fdf4fd.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 19:59:43",
+    "voice": "trigger_fca8d1ea.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:30:12",
+    "voice": "trigger_c12503ff.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:30:45",
+    "voice": "trigger_443522b9.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:31:14",
+    "voice": "trigger_2f0655a3.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:31:48",
+    "voice": "trigger_2168ee04.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:32:17",
+    "voice": "trigger_79bb3dc3.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:32:51",
+    "voice": "trigger_bf5a09ab.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:33:20",
+    "voice": "trigger_c893462e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:33:53",
+    "voice": "trigger_542638e8.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:34:22",
+    "voice": "trigger_25e3724f.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:34:56",
+    "voice": "trigger_74cfbc7e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:35:25",
+    "voice": "trigger_4c890b61.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:35:58",
+    "voice": "trigger_a9c1bdaa.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:36:28",
+    "voice": "trigger_380000aa.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:37:01",
+    "voice": "trigger_ec2d1557.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:37:30",
+    "voice": "trigger_e9eb505d.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:38:04",
+    "voice": "trigger_2ab50fd8.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:38:33",
+    "voice": "trigger_0d749082.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:39:06",
+    "voice": "trigger_fec4dd8b.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:39:35",
+    "voice": "trigger_442f040d.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:40:09",
+    "voice": "trigger_e262860e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:40:38",
+    "voice": "trigger_0244810f.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:41:11",
+    "voice": "trigger_8eb234c4.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:41:40",
+    "voice": "trigger_82b9ecaf.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:42:14",
+    "voice": "trigger_9cd80821.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:42:43",
+    "voice": "trigger_52dafc1d.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:43:16",
+    "voice": "trigger_7612904c.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:43:46",
+    "voice": "trigger_9b9256eb.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:44:19",
+    "voice": "trigger_d4c15577.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:44:48",
+    "voice": "trigger_3ea19b37.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:45:21",
+    "voice": "trigger_5bad6738.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:45:50",
+    "voice": "trigger_2d98fc1a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:46:24",
+    "voice": "trigger_d7c45e6d.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:46:53",
+    "voice": "trigger_065da1cd.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:47:26",
+    "voice": "trigger_8691a4be.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:47:56",
+    "voice": "trigger_f13d77ab.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:48:29",
+    "voice": "trigger_d3b76882.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:48:58",
+    "voice": "trigger_b9fdb492.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:49:31",
+    "voice": "trigger_24c91cfb.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:50:01",
+    "voice": "trigger_ade740d8.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:50:33",
+    "voice": "trigger_212eed13.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:51:03",
+    "voice": "trigger_72056b49.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:51:36",
+    "voice": "trigger_bec7cd2c.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:52:06",
+    "voice": "trigger_5a014209.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:52:39",
+    "voice": "trigger_55f5e3a7.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:53:08",
+    "voice": "trigger_c41100b7.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:53:42",
+    "voice": "trigger_ae808bb6.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:54:11",
+    "voice": "trigger_e753eeb2.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:54:44",
+    "voice": "trigger_c1896a7c.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:55:13",
+    "voice": "trigger_7f16fb21.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:55:47",
+    "voice": "trigger_a8fd0246.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:56:16",
+    "voice": "trigger_03cfcd0a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:56:50",
+    "voice": "trigger_f7769100.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:57:18",
+    "voice": "trigger_4456f065.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:57:52",
+    "voice": "trigger_cf249e35.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:58:21",
+    "voice": "trigger_757436c0.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:58:55",
+    "voice": "trigger_e2d4d84e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:59:24",
+    "voice": "trigger_94c79ba1.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 20:59:57",
+    "voice": "trigger_0af5750a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:30:26",
+    "voice": "trigger_42502c6f.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:31:00",
+    "voice": "trigger_dc0c1843.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:31:29",
+    "voice": "trigger_8387134c.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:32:03",
+    "voice": "trigger_deb25700.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:32:31",
+    "voice": "trigger_588bedc6.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:33:05",
+    "voice": "trigger_9000910a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:33:34",
+    "voice": "trigger_73669621.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:34:08",
+    "voice": "trigger_6ef2c5d6.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:34:36",
+    "voice": "trigger_c2c74293.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:35:10",
+    "voice": "trigger_0e18c747.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:35:39",
+    "voice": "trigger_8b1a4342.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:36:13",
+    "voice": "trigger_168615e4.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:36:41",
+    "voice": "trigger_31d3d2f1.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:37:15",
+    "voice": "trigger_67e5ff6b.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:37:44",
+    "voice": "trigger_1a3ed47c.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:38:18",
+    "voice": "trigger_ab2932db.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:38:47",
+    "voice": "trigger_3ee636db.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:39:21",
+    "voice": "trigger_df1841a7.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:39:49",
+    "voice": "trigger_c1f20ec9.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:40:23",
+    "voice": "trigger_2a3bca0e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:40:52",
+    "voice": "trigger_2c2a2fdf.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:41:26",
+    "voice": "trigger_dc966d7f.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:41:55",
+    "voice": "trigger_3b4b4a8f.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:42:28",
+    "voice": "trigger_b4fdf98e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:42:57",
+    "voice": "trigger_ee390505.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:43:31",
+    "voice": "trigger_bfa0efe5.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:44:00",
+    "voice": "trigger_a8c2a62d.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:44:34",
+    "voice": "trigger_bd43aa97.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:45:02",
+    "voice": "trigger_7547a2b0.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:45:36",
+    "voice": "trigger_a43b93c0.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:46:05",
+    "voice": "trigger_df9810ff.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:46:39",
+    "voice": "trigger_ccd429d2.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:47:07",
+    "voice": "trigger_654f0fc4.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:47:44",
+    "voice": null
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:48:12",
+    "voice": null
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:48:48",
+    "voice": null
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:49:16",
+    "voice": null
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:49:53",
+    "voice": "trigger_ca69953e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:50:19",
+    "voice": "trigger_adcf20c0.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:50:56",
+    "voice": "trigger_9ea7dfda.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:51:21",
+    "voice": "trigger_4c8999a7.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:51:58",
+    "voice": "trigger_483a183e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:52:24",
+    "voice": "trigger_db8168db.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:53:01",
+    "voice": "trigger_8b89f7ec.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:53:26",
+    "voice": "trigger_8dc54c66.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:54:03",
+    "voice": "trigger_7be05515.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:54:28",
+    "voice": "trigger_9bfc864a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:55:06",
+    "voice": "trigger_6d826f2c.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:55:31",
+    "voice": "trigger_418323d6.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:56:08",
+    "voice": "trigger_12ee0293.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:56:33",
+    "voice": "trigger_05e0f90f.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:57:11",
+    "voice": "trigger_86336d4f.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:57:36",
+    "voice": "trigger_1ec331b8.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:58:13",
+    "voice": "trigger_50d207ed.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:58:38",
+    "voice": "trigger_f368b687.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:59:16",
+    "voice": "trigger_88a8e884.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 21:59:41",
+    "voice": "trigger_c283c40f.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:30:19",
+    "voice": "trigger_368a1a3b.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:30:44",
+    "voice": "trigger_2cbcb402.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:31:21",
+    "voice": "trigger_d0725897.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:31:47",
+    "voice": "trigger_732c6d42.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:32:24",
+    "voice": "trigger_23bac6c1.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:32:50",
+    "voice": "trigger_a3a75fb2.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:33:27",
+    "voice": "trigger_8fb3743a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:33:52",
+    "voice": "trigger_f9d1c3a1.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:34:29",
+    "voice": "trigger_c9c7c4bf.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:34:55",
+    "voice": "trigger_f37dac80.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:35:32",
+    "voice": "trigger_8db5b988.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:35:57",
+    "voice": "trigger_c1b6389a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:36:35",
+    "voice": "trigger_d574f430.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:36:59",
+    "voice": "trigger_67564373.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:37:37",
+    "voice": "trigger_06eab383.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:38:02",
+    "voice": "trigger_52cf0cf5.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:38:40",
+    "voice": "trigger_8285cc75.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:39:04",
+    "voice": "trigger_d21f58dd.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:39:42",
+    "voice": "trigger_98121956.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:40:07",
+    "voice": "trigger_6250691e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:40:45",
+    "voice": "trigger_ae292e8f.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:41:09",
+    "voice": "trigger_9959fe7a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:41:48",
+    "voice": "trigger_24dd1a7c.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:42:12",
+    "voice": "trigger_8670c6af.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:42:51",
+    "voice": "trigger_5c4203a9.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:43:14",
+    "voice": "trigger_8425a037.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:43:53",
+    "voice": "trigger_b0f85fa2.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:44:17",
+    "voice": "trigger_557e2fee.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:44:56",
+    "voice": "trigger_aea02560.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:45:19",
+    "voice": "trigger_c1d3f6e0.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:45:58",
+    "voice": "trigger_8a271c58.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:46:22",
+    "voice": "trigger_85805857.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:47:01",
+    "voice": "trigger_0abe4403.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:47:24",
+    "voice": "trigger_a3c91be5.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:48:04",
+    "voice": "trigger_3b091481.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:48:27",
+    "voice": "trigger_f0a5d01d.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:49:06",
+    "voice": "trigger_49cc78fa.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:49:29",
+    "voice": "trigger_2273f1ff.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:50:09",
+    "voice": "trigger_f4be33fa.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:50:32",
+    "voice": "trigger_4d6ef093.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:51:11",
+    "voice": "trigger_58bd9779.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:51:34",
+    "voice": "trigger_9ef6e525.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:52:14",
+    "voice": "trigger_72d806f4.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:52:36",
+    "voice": "trigger_ab2e30ac.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:53:16",
+    "voice": "trigger_eb702ea7.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:53:39",
+    "voice": "trigger_8e378886.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:54:19",
+    "voice": "trigger_64fb7122.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:54:41",
+    "voice": "trigger_783fcd9d.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:55:21",
+    "voice": "trigger_38fc94c2.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:55:44",
+    "voice": "trigger_44aeb038.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:56:24",
+    "voice": "trigger_b1d4e091.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:56:46",
+    "voice": "trigger_373df545.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:57:27",
+    "voice": "trigger_c20554c0.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:57:49",
+    "voice": "trigger_1acff6a6.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:58:29",
+    "voice": "trigger_06a0eb2e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:58:52",
+    "voice": "trigger_8ffdac56.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:59:32",
+    "voice": "trigger_39f6ddfd.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 22:59:54",
+    "voice": "trigger_86353536.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:30:35",
+    "voice": "trigger_35d0e763.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:30:57",
+    "voice": "trigger_6c928d5e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:31:37",
+    "voice": "trigger_a7838b25.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:32:00",
+    "voice": "trigger_45ed7b29.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:32:40",
+    "voice": "trigger_837c6375.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:33:02",
+    "voice": "trigger_9400b123.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:33:42",
+    "voice": "trigger_e62be9ad.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:34:05",
+    "voice": "trigger_f2262893.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:34:45",
+    "voice": "trigger_cd177c6a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:35:07",
+    "voice": "trigger_0e9b129a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:35:47",
+    "voice": "trigger_f4d6a627.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:36:10",
+    "voice": "trigger_65bf699b.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:36:50",
+    "voice": "trigger_2844b9c2.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:37:12",
+    "voice": "trigger_dc2d4032.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:37:53",
+    "voice": "trigger_cd216e57.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:38:16",
+    "voice": "trigger_f7c39985.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:38:55",
+    "voice": "trigger_1a3e9cba.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:39:18",
+    "voice": "trigger_0906df3a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:39:58",
+    "voice": "trigger_e5591f98.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:40:21",
+    "voice": "trigger_11e34778.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:41:00",
+    "voice": "trigger_3a218b0d.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:41:24",
+    "voice": "trigger_e9adea18.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:42:03",
+    "voice": "trigger_e1b2e5f8.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:42:26",
+    "voice": "trigger_52e6438d.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:43:05",
+    "voice": "trigger_7e524ec5.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:43:28",
+    "voice": "trigger_e47558d5.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:44:08",
+    "voice": "trigger_e2ee3d44.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:44:31",
+    "voice": "trigger_4bea6b7a.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:45:10",
+    "voice": "trigger_a2c29894.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:45:34",
+    "voice": "trigger_55562e1d.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:46:13",
+    "voice": "trigger_052861ec.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:46:36",
+    "voice": "trigger_93aa1ec0.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:47:15",
+    "voice": "trigger_27622123.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:47:39",
+    "voice": "trigger_d5670937.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:48:18",
+    "voice": "trigger_45e11084.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:48:41",
+    "voice": "trigger_cc1d2553.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:49:21",
+    "voice": "trigger_00be379d.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:49:44",
+    "voice": "trigger_93066d2b.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:50:23",
+    "voice": "trigger_7e293222.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:50:46",
+    "voice": "trigger_a450b8e4.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:51:26",
+    "voice": "trigger_de467d70.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:51:49",
+    "voice": "trigger_f0a1caef.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:52:29",
+    "voice": "trigger_ed4e9aaf.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:52:51",
+    "voice": "trigger_95f2587e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:53:31",
+    "voice": "trigger_dbeca730.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:53:54",
+    "voice": "trigger_0eeebb04.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:54:34",
+    "voice": "trigger_6437902e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:54:56",
+    "voice": "trigger_6b495c6e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:55:36",
+    "voice": "trigger_1a58edf8.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:55:59",
+    "voice": "trigger_409719c8.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:56:39",
+    "voice": "trigger_d18c3a69.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:57:02",
+    "voice": "trigger_6e0df126.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:57:41",
+    "voice": "trigger_910a730e.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:58:04",
+    "voice": "trigger_c9192aee.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:58:44",
+    "voice": "trigger_6cebb3ce.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:59:07",
+    "voice": "trigger_4422205d.mp3"
+  },
+  {
+    "symbol": "TSLA",
+    "rule": "Price below 175.0",
+    "price": 0.0,
+    "status": "TRIGGERED",
+    "time": "2025-05-09 23:59:46",
+    "voice": "trigger_703c2d3c.mp3"
+  }
+]

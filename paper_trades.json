@@ -1,0 +1,4 @@
+[]{"symbol": "AAPL", "strategy": "buy", "entry_price": 205.35, "shares": 1, "entry_time": "2025-05-03 16:16:07", "result": "loss", "notes": "Auto-simulated by GhostBot"}
+{"symbol": "AAPL", "strategy": "buy", "entry_price": 205.35, "shares": 1, "entry_time": "2025-05-03 16:24:07", "rsi": 74, "momentum": 0.51, "result": "loss", "notes": "RSI (74) >= 30 or Momentum <= 0: No buy edge"}
+{"symbol": "AAPL", "strategy": "buy", "entry_price": 205.35, "shares": 1, "entry_time": "2025-05-03 16:28:29", "rsi": 84, "momentum": 0.14, "result": "loss", "notes": "RSI (84) >= 30 or Momentum <= 0: No buy edge"}
+{"symbol": "NVDA", "strategy": "buy", "entry_price": 114.5, "shares": 1, "entry_time": "2025-05-03 16:28:46", "rsi": 51, "momentum": 0.4, "result": "loss", "notes": "RSI (51) >= 30 or Momentum <= 0: No buy edge"}

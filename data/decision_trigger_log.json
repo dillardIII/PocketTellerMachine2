@@ -1,0 +1,274 @@
+[
+  {
+    "timestamp": "2025-05-15T10:18:20.087988",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:18:21.557748",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:18:22.713283",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:18:22.924080",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:18:25.951429",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:18:27.056524",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:18:27.163136",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:18:30.053943",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:20:04.587148",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc2ed457910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:20:04.670798",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3a5c70a10>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:20:05.332557",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8b71068a10>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:20:05.564843",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2f04337910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:20:06.025773",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3d519db450>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:20:08.241935",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5daead3910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:20:08.743921",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe640b9f910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:20:09.254228",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcaad134910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:20:10.249130",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5fbe91f910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:20:11.321612",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2482a0f450>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:20:12.110997",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd09fbeca10>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:20:13.776648",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f68fdbd4b50>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:21.480862",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa0ced40b50>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:21.583557",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa1fb318650>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:22.112607",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe42eaf0b50>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:22.370859",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5739c38650>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:22.900324",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f551cea8b50>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:23.918750",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f33e664b910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:24.913931",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbcd9e2c910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:26.478045",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f774609c910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:27.198172",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fab36e1c910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:28.801822",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fad97deb910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:29.473465",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff7b714cb50>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:30.236649",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1bebb54910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:31.467696",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbb261d8b50>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:29.579094",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe868bf0b50>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:29.640885",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc81d858650>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:30.178551",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa063a9cb50>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:30.182244",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5b148ef910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:30.631589",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb3c5bdb910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:31.553499",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0563ac3910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:31.937701",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffa96860910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:32.179983",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6dce460910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:34.233438",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f734e4b3910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:35.380645",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f67023c0b50>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:36.059041",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7ed789c650>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:38.329249",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa19195b910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:39.488508",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5579b3c650>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:40.933131",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcdad260b50>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:41.932295",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb1c0a64910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:44.198348",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff7072b4910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:45.149201",
+    "message": "[DECISION ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc7c40b4910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:56.584184",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:56.594060",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:56.631629",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:56.668802",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:56.814630",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:56.869212",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:56.908807",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:57.015619",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:57.285488",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:57.530990",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:59.813956",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:23:00.402455",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:23:02.299299",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:23:08.450633",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:23:08.818960",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:23:11.084162",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:23:11.963563",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  },
+  {
+    "timestamp": "2025-05-15T10:23:15.404746",
+    "message": "[DECISION TRIGGER]: Sent decision command \u2192 RUN_SMART_DECISION_ANALYSIS"
+  }
+]

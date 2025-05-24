@@ -1,0 +1,24 @@
+Subject: Logic Strategy Note
+
+Dear Team,
+
+I hope this message finds you well. We are currently reviewing our trading strategy in order to increase overall outcome efficiency. Please find below the proposed logic strategy which we will use going forward:
+
+1. **Information Analysis:** One of our main strategies will involve the analysis of market trends, trading volumes, and historical data. This will allow us to have a better understanding of the market situation, make informed decisions and identify stocks whose performance we can predict with reasonable accuracy.
+
+2. **Risk Assessment:** We will need to develop a robust risk management strategy, which will involve setting stop-loss and take-profit points. The use of stop-loss orders will make it possible for us to limit potential losses while take-profit orders will ensure we lock in profits at predetermined levels.
+
+3. **Diversification:** We will diversify our portfolio to limit risk. We know from experience and financial theory that a well-diversified portfolio could yield significant return for the level of risk undertaken. 
+
+4. **Frequent Portfolio Evaluation:** Regular assessments of the performance will also form a critical part of our investment strategy. Portfolio rebalancing will be done at reasonable intervals to ensure alignment with the investment goal and risk tolerance.
+
+5. **Adherence to Regulatory Standards:** We will maintain absolute transparency and practice good governance to ensure we adhere to all regulatory and legal requirements, which are designed to protect both us and our investors.
+
+6. **Continuous Learning and Adaptation:** Given that the financial markets are dynamic and constantly changing, we will consistently educate ourselves about new investment and trading opportunities. We will maintain the flexibility to incorporate winning trends into our strategy and abandon losing ones.
+
+7. **Use of Advanced Trading Technology:** We plan on leveraging various advanced trading technologies. The use of Algorithmic and High-frequency trading can potentially improve our trading performance by in-making faster trade decisions based on predefined set of rules.
+
+This logic strategy looks beyond the traditional 'buy low, sell high' trading perspective. Our approach is instead built on a combination of analysis, risk management, regulatory conformity, and a commitment to continuous learning and adaptation. Your feedback and suggestions are always welcome to enhance this strategy.
+
+Best Regards,
+[Your Name]

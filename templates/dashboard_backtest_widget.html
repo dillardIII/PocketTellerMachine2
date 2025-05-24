@@ -1,0 +1,35 @@
+<!-- Market Screener Backtest Results Widget -->
+<div id="market-backtest-widget" class="widget">
+    <h3>Market Screener Backtest Results</h3>
+    <pre id="market-backtest-data">Loading backtest results...</pre>
+</div>
+
+<script>
+// === Refresh Market Screener Backtest Results ===
+function refreshBacktestResults() {
+    fetch('/api/backtest_logs')
+        .then(res => res.json())
+        .then(data => {
+            const logs = data.logs || [];
+            if (logs.length === 0) {
+                document.getElementById('market-backtest-data').textContent = 'No backtest results available.';
+                return;
+            }
+
+            const formatted = logs.slice(-10).reverse().map(entry =>
+                `${entry.timestamp} | ${entry.ticker} | $${entry.price.toFixed(2)} | Vol: ${entry.volume} | RSI: ${entry.rsi.toFixed(2)} | ${entry.signal} | ${entry.result}`
+            ).join('\n');
+
+            document.getElementById('market-backtest-data').textContent = formatted;
+        })
+        .catch(err => {
+            console.error('Error fetching backtest results:', err);
+            document.getElementById('market-backtest-data').textContent = 'Failed to load backtest data.';
+        });
+}
+
+// Refresh every 20 seconds
+setInterval(refreshBacktestResults, 20000);
+// Initial load
+window.onload = refreshBacktestResults;
+</script>

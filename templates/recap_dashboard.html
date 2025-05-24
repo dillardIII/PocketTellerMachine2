@@ -1,0 +1,112 @@
+<div class="recap-box">
+  <h2>Test Voice Recap</h2>
+  <button onclick="playRecap()" class="btn">Play Last Recap</button>
+  <audio id="recapAudio" src="/static/audio/recap.mp3" controls style="display: none;"></audio>
+</div>
+
+<div class="recap-box">
+  <h2>Choose Speaking Assistant</h2>
+  <div class="persona-grid">
+    <div class="persona-card" onclick="selectPersona('Mo Cash')">
+      <img src="/static/avatars/mo_cash.png" alt="Mo Cash">
+      <h4>Mo Cash</h4>
+      <button onclick="playPreview('mo_cash')" type="button">Play Voice</button>
+    </div>
+    <div class="persona-card" onclick="selectPersona('Mentor')">
+      <img src="/static/avatars/mentor.png" alt="Mentor">
+      <h4>Mentor</h4>
+      <button onclick="playPreview('mentor')" type="button">Play Voice</button>
+    </div>
+    <div class="persona-card" onclick="selectPersona('Drill Instructor')">
+      <img src="/static/avatars/drill_instructor.png" alt="Drill Instructor">
+      <h4>Drill Instructor</h4>
+      <button onclick="playPreview('drill_instructor')" type="button">Play Voice</button>
+    </div>
+    <!-- Add more here -->
+  </div>
+</div>
+
+<audio id="voicePreview" src="" style="display: none;"></audio>
+
+<script>
+  function playRecap() {
+    const audio = document.getElementById("recapAudio");
+    audio.style.display = "block";
+    audio.play();
+  }
+
+  function selectPersona(name) {
+    localStorage.setItem("ptm_selected_persona", name);
+    fetch('/set_persona', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ persona: name })
+    });
+    alert("Selected: " + name);
+  }
+
+  function playPreview(fileKey) {
+    const audio = document.getElementById("voicePreview");
+    audio.src = `/static/audio/previews/${fileKey}.mp3`;
+    audio.play();
+  }
+
+  window.onload = function () {
+    const saved = localStorage.getItem("ptm_selected_persona");
+    if (saved) {
+      // Optional: highlight selected persona visually
+      console.log("Loaded persona:", saved);
+    }
+  };
+</script>
+
+<style>
+  .persona-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .persona-card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 12px;
+    text-align: center;
+    width: 180px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+
+  .persona-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0,255,100,0.2);
+  }
+
+  .persona-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .persona-card h4 {
+    margin: 5px 0;
+    color: #6fd672;
+  }
+
+  .persona-card button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .persona-card button:hover {
+    background-color: #6fd672;
+    color: #121212;
+  }
+</style>

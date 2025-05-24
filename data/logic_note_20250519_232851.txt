@@ -1,0 +1,23 @@
+Subject: Logic Strategy Note 
+
+Dear Team,
+
+As we further our trading endeavours, it's crucial to understand and implement a robust logic strategy. There's no secret formula that guarantees success in trading; however, incorporating a strategic approach could help us maximize our profits while minimizing risk. Here is the foundational logic strategy we will implement:
+
+1. Information Analysis: Develop a habit of exhaustively analyzing market trends, news, and economic indicators. Use analytical tools and software to aid this process and base our future trading decisions on concrete data.
+ 
+2. Trading Plan: Create a comprehensive trading plan including risk tolerance, profit targets, methodologies to employ, and types of securities to trade. The plan will guide our trading decisions, thus negating any emotional reactions.
+
+3. Risk Management: Never risk more than a small percentage of our capital on a single trade. Diversifying our portfolio will help to mitigate risks.
+
+4. Consistent Evaluation: Continuously track and evaluate our trading performance. This feedback loop aids in identifying effective strategies and discarding those that are not performing well.
+
+5. Discipline And Patience: Maintaining discipline is crucial in adhering to our trading plan. Patiently waiting for the right trading opportunity ensures we don't enter or exit trades prematurely.
+
+6. Continuous Learning: The financial market is dynamic, with frequent changes. We should be open to learning, adapting to new trading strategies, and technology in this ever-evolving landscape.
+
+Remember, a logic-based trading strategy helps eliminate subjective decision-making, reactive behavior, and emotional reasoning, paving the way for consistent, informed trading decisions. Let's stay on our toes, execute our trades diligently and make every opportunity count!
+
+Best Regards,
+[Your Name]
+Assistant to Cole

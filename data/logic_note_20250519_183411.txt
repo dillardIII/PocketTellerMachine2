@@ -1,0 +1,24 @@
+Subject: Logic Trading Strategy 
+
+1. Identify Investment Goals: 
+Start by identifying the medium-term and long-term financial objectives. This includes the level of risk tolerance, desired return on investment, time horizon, and funding for these investments.
+
+2. Diversify Portfolio: 
+Elaborate our portfolio on a large scale of different types of investments to minimize risk. This includes a combination of stocks, bonds, commodities and other investment vehicles to accomplish an optimal risk-return portfolio allocation.
+
+3. Thorough Research:
+Ensure a thorough understanding of each security's potential return and risk, the financial health of its issuer, and how its price will be affected by market conditions. Only invest in securities that align with Cole's risk tolerance and investment goals.
+
+4. Regular Monitoring: 
+Consistently evaluate the performance of Cole’s portfolio. Always stay informed about market conditions, and adjust Cole's portfolio appropriately in response to changes.
+
+5. Stop-loss orders: 
+Implement this order type to prevent large losses. This trading tool lets us dictate the price at which securities will be automatically sold if their prices fall below a certain level.
+
+6. Leverage historical data: 
+Analyze historical data of financial markets in order to anticipate upcoming trends. However, our decisions should not be based solely on this as past performance doesn't always indicate future results.
+
+7. Maintain Patience and Discipline:
+Long-term investing usually yields better returns. Avoid temptation to move investments around too much based on short-term market fluctuations.
+
+Our main goal of this strategy is to optimize Cole's investment portfolio and minimize potential losses. It would require constant attention, regular adjustments and inevitable decision-making process based on thorough logical analysis.

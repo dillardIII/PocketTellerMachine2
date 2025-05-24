@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PTM Team Scoreboard</title>
+  <style>
+    body {
+      background: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 30px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #1e1e1e;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 12px 18px;
+      text-align: left;
+      border-bottom: 1px solid #333;
+    }
+
+    th {
+      background: #222;
+      color: #6fd672;
+    }
+
+    tr:hover {
+      background-color: #2a2a2a;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #00e676;
+    }
+
+    .badge-count {
+      font-size: 13px;
+      color: #ffe055;
+    }
+
+    .role {
+      font-size: 13px;
+      color: #ccc;
+      font-style: italic;
+    }
+
+    .avatar {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Team Scoreboard</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Member</th>
+        <th>Role</th>
+        <th>XP</th>
+        <th>Win Rate</th>
+        <th>Badges</th>
+        <th>Last Trade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img src="/static/avatars/mo_cash.png" class="avatar">Mo Cash</td>
+        <td class="role">Captain / Momentum</td>
+        <td class="highlight">4,250</td>
+        <td>78%</td>
+        <td class="badge-count">7</td>
+        <td>$NVDA +$230</td>
+      </tr>
+      <tr>
+        <td><img src="/static/avatars/mentor.png" class="avatar">Mentor</td>
+        <td class="role">VP of Strategy</td>
+        <td class="highlight">3,900</td>
+        <td>82%</td>
+        <td class="badge-count">5</td>
+        <td>$SPY +$140</td>
+      </tr>
+      <tr>
+        <td><img src="/static/avatars/optimist.png" class="avatar">Optimist</td>
+        <td class="role">Team Coach</td>
+        <td class="highlight">2,750</td>
+        <td>68%</td>
+        <td class="badge-count">3</td>
+        <td>$TSLA -$20</td>
+      </tr>
+      <tr>
+        <td><img src="/static/avatars/strategist.png" class="avatar">Strategist</td>
+        <td class="role">Tactical Lead</td>
+        <td class="highlight">3,210</td>
+        <td>74%</td>
+        <td class="badge-count">6</td>
+        <td>$AMD +$175</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

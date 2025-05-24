@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cole AI Control Center</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #f0f0f0;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #6fd672;
+        }
+        .btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #6fd672;
+            color: #121212;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #89f58c;
+        }
+        .section {
+            background-color: #1e1e1e;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 12px rgba(0, 255, 128, 0.1);
+        }
+        pre {
+            background-color: #2a2a2a;
+            padding: 10px;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+    </style>
+    <script>
+        function callApi(route) {
+            fetch(route)
+                .then(response => response.json())
+                .then(data => alert(JSON.stringify(data, null, 2)))
+                .catch(err => alert("Error: " + err));
+        }
+
+        function refreshLog() {
+            fetch('/api/self_learning_log')
+                .then(response => response.json())
+                .then(data => {
+                    let logArea = document.getElementById("log_area");
+                    logArea.textContent = JSON.stringify(data.log.slice(-100), null, 2);
+                });
+        }
+
+        function refreshHeartbeat() {
+            fetch('/trade_health')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("heartbeat_status").innerText = data.status;
+                });
+        }
+
+        setInterval(refreshHeartbeat, 3000);
+        setInterval(refreshLog, 10000);
+    </script>
+</head>
+<body>
+    <h1>Cole AI Brain Control Center</h1>
+
+    <div class="section">
+        <h2>Heartbeat Monitor</h2>
+        <p>Status: <span id="heartbeat_status">Checking...</span></p>
+    </div>
+
+    <div class="section">
+        <h2>Brain Controls</h2>
+        <a class="btn" onclick="callApi('/force_autopilot')">Force Autopilot</a>
+        <a class="btn" onclick="callApi('/run_task_optimizer')">Run Task Optimizer</a>
+        <a class="btn" onclick="callApi('/run_self_learning_optimizer')">Run Self-Learning Analyzer</a>
+        <a class="btn" onclick="callApi('/api/get_generated_code')">See All Code Files</a>
+        <a class="btn" onclick="callApi('/api/help')">Help</a>
+    </div>
+
+    <div class="section">
+        <h2>Brain Live Log (Last 100 Entries)</h2>
+        <pre id="log_area">Loading...</pre>
+    </div>
+</body>
+</html>

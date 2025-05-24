@@ -1,0 +1,25 @@
+{
+  "summary": {
+    "total_politicians": 125,
+    "total_trades": 932,
+    "recent_activity": "Active",
+    "biggest_buyer": {
+      "name": "Senator John Doe",
+      "ticker": "AAPL",
+      "amount": "$1,200,000"
+    },
+    "biggest_seller": {
+      "name": "Representative Jane Smith",
+      "ticker": "TSLA",
+      "amount": "$950,000"
+    },
+    "top_holdings": [
+      { "ticker": "AAPL", "shares": 3000 },
+      { "ticker": "MSFT", "shares": 2500 },
+      { "ticker": "NVDA", "shares": 2000 },
+      { "ticker": "AMZN", "shares": 1800 },
+      { "ticker": "TSLA", "shares": 1500 }
+    ],
+    "last_updated": "2025-05-17T10:45:00Z"
+  }
+}

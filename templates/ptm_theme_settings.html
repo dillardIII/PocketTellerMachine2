@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Theme Settings - PTM</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 30px;
+    }
+
+    .settings-box {
+      max-width: 700px;
+      margin: auto;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 0 12px rgba(0,255,100,0.05);
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-size: 15px;
+      color: #ccc;
+    }
+
+    select, input[type="color"], button {
+      margin-top: 8px;
+      padding: 10px;
+      width: 100%;
+      background: #222;
+      border: 1px solid #444;
+      border-radius: 6px;
+      color: #fff;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: #111;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #80e487;
+    }
+
+    .preview {
+      margin-top: 30px;
+      padding: 20px;
+      text-align: center;
+      background: #2a2a2a;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,255,100,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Theme Settings</h1>
+
+  <div class="settings-box">
+    <label for="mode">Theme Mode:</label>
+    <select id="mode">
+      <option value="dark">Dark Mode</option>
+      <option value="light">Light Mode</option>
+      <option value="system">System Default</option>
+    </select>
+
+    <label for="accent">Accent Color:</label>
+    <input type="color" id="accent" value="#6fd672" />
+
+    <label for="background">Background Style:</label>
+    <select id="background">
+      <option value="default">Default</option>
+      <option value="grid">Retro Grid</option>
+      <option value="neon">Neon Pulse</option>
+      <option value="blueprint">Blueprint</option>
+      <option value="animated">Animated Particles</option>
+    </select>
+
+    <label for="glow">Glow Level:</label>
+    <select id="glow">
+      <option value="none">None</option>
+      <option value="soft">Soft</option>
+      <option value="medium">Medium</option>
+      <option value="strong">Strong</option>
+    </select>
+
+    <button onclick="applyTheme()">Apply Settings</button>
+
+    <div class="preview" id="themePreview">
+      Theme Preview Active...
+    </div>
+  </div>
+
+  <script>
+    function applyTheme() {
+      const mode = document.getElementById("mode").value;
+      const accent = document.getElementById("accent").value;
+      const bg = document.getElementById("background").value;
+      const glow = document.getElementById("glow").value;
+
+      const preview = document.getElementById("themePreview");
+      preview.innerHTML = `
+        Mode: ${mode}<br>
+        Accent: <span style="color:${accent}">${accent}</span><br>
+        Background: ${bg}<br>
+        Glow: ${glow}
+      `;
+
+      // Optional: send to backend or store in localStorage/sessionStorage
+    }
+  </script>
+
+</body>
+</html>

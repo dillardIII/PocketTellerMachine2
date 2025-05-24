@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>XP Milestone Reached!</title>
+  <style>
+    body {
+      background-color: rgba(0, 0, 0, 0.85);
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .popup {
+      background: #1e1e1e;
+      border: 2px solid #6fd672;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 0 30px rgba(0,255,100,0.3);
+      text-align: center;
+      animation: scaleIn 0.5s ease-out;
+    }
+
+    @keyframes scaleIn {
+      0% { transform: scale(0.8); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    h1 {
+      color: #6fd672;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .badge {
+      font-size: 20px;
+      margin-top: 10px;
+      color: #ffe055;
+    }
+
+    .xp-amount {
+      font-size: 28px;
+      color: #00e676;
+      margin-top: 20px;
+    }
+
+    .emoji {
+      font-size: 48px;
+      margin: 20px 0;
+      animation: pulse 1s infinite ease-in-out;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    button {
+      background: #4caf50;
+      color: white;
+      padding: 12px 24px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #66bb6a;
+      color: #111;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="popup">
+    <h1>Level Up!</h1>
+    <div class="badge">You earned the <strong>XP Warrior Badge</strong></div>
+    <div class="emoji">🏆</div>
+    <div class="xp-amount">+500 XP</div>
+    <audio autoplay>
+      <source src="/static/audio/level_up_sound.mp3" type="audio/mp3" />
+    </audio>
+    <button onclick="window.location.href='/dashboard'">Continue</button>
+  </div>
+
+</body>
+</html>

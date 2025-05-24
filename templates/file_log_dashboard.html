@@ -1,0 +1,66 @@
+<!-- templates/file_log_dashboard.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PTM File Upload Log</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #eee;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      color: #6fd672;
+      margin-bottom: 30px;
+    }
+    table {
+      margin: auto;
+      border-collapse: collapse;
+      width: 90%;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #1e1e1e;
+    }
+    tr:nth-child(even) {
+      background-color: #1a1a1a;
+    }
+    a {
+      color: #6fd672;
+    }
+  </style>
+</head>
+<body>
+  <h1>PTM Uploaded Files</h1>
+  {% if logs %}
+  <table>
+    <thead>
+      <tr>
+        <th>Timestamp</th>
+        <th>Filename</th>
+        <th>Source</th>
+        <th>Path</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for entry in logs %}
+      <tr>
+        <td>{{ entry.timestamp }}</td>
+        <td>{{ entry.filename }}</td>
+        <td>{{ entry.source }}</td>
+        <td><a href="/{{ entry.path }}" target="_blank">{{ entry.path }}</a></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p>No uploads logged yet.</p>
+  {% endif %}
+</body>
+</html>

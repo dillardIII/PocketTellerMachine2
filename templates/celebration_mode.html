@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Celebration Mode - PTM</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .centered {
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    h1 {
+      font-size: 48px;
+      color: #6fd672;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      font-size: 22px;
+      color: #fff;
+      background: #4caf50;
+      padding: 10px 20px;
+      border-radius: 10px;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+    .emoji {
+      font-size: 64px;
+      margin-top: 20px;
+      animation: pop 1s ease-out infinite;
+    }
+
+    @keyframes pop {
+      0%   { transform: scale(1); }
+      50%  { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    button {
+      background-color: #6fd672;
+      color: #121212;
+      font-weight: bold;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 30px;
+    }
+
+    button:hover {
+      background-color: #80e487;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="centered">
+    <h1>Congratulations!</h1>
+    <div class="badge">You Unlocked: <strong>Quiz Master Badge</strong></div>
+    <div class="emoji">🎉</div>
+    <audio autoplay>
+      <source src="/static/audio/celebration_sound.mp3" type="audio/mp3">
+    </audio>
+    <button onclick="window.location.href='/dashboard'">Back to Dashboard</button>
+  </div>
+
+</body>
+</html>

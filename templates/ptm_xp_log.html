@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>XP Log - PTM</title>
+  <style>
+    body {
+      background: #101010;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 30px;
+    }
+
+    .log-box {
+      max-width: 800px;
+      margin: auto;
+      background: #1e1e1e;
+      border-radius: 12px;
+      border: 1px solid #333;
+      padding: 24px;
+      box-shadow: 0 0 12px rgba(0,255,100,0.05);
+    }
+
+    .entry {
+      border-bottom: 1px solid #333;
+      padding: 16px 0;
+    }
+
+    .entry:last-child {
+      border-bottom: none;
+    }
+
+    .xp {
+      font-size: 18px;
+      color: #ffe055;
+      font-weight: bold;
+    }
+
+    .source {
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    .date {
+      font-size: 12px;
+      color: #666;
+      margin-top: 4px;
+    }
+
+    .gain {
+      color: #00e676;
+    }
+
+    .loss {
+      color: #ff5252;
+    }
+
+    .badge {
+      background: #4caf50;
+      color: #111;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 12px;
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>XP Log</h1>
+
+  <div class="log-box">
+
+    <div class="entry">
+      <div class="xp gain">+100 XP <span class="badge">Mission</span></div>
+      <div class="source">Completed: Make 3 Paper Trades Today</div>
+      <div class="date">May 10, 2025 · 9:04 AM</div>
+    </div>
+
+    <div class="entry">
+      <div class="xp gain">+150 XP <span class="badge">Backtest</span></div>
+      <div class="source">Strategy: Iron Condor backtest complete</div>
+      <div class="date">May 10, 2025 · 8:15 AM</div>
+    </div>
+
+    <div class="entry">
+      <div class="xp gain">+200 XP <span class="badge">Quiz</span></div>
+      <div class="source">Quiz Grade A - Options Knowledge Check</div>
+      <div class="date">May 9, 2025 · 6:42 PM</div>
+    </div>
+
+    <div class="entry">
+      <div class="xp gain">+50 XP <span class="badge">Voice Training</span></div>
+      <div class="source">Assistant: Strategist — voice recap feedback</div>
+      <div class="date">May 9, 2025 · 5:10 PM</div>
+    </div>
+
+    <div class="entry">
+      <div class="xp loss">-25 XP <span class="badge">Penalty</span></div>
+      <div class="source">Missed mission: Submit trade review</div>
+      <div class="date">May 8, 2025 · 11:59 PM</div>
+    </div>
+
+  </div>
+
+</body>
+</html>

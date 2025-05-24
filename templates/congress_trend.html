@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Congress Influence Trend</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { background-color: #121212; color: #f0f0f0; font-family: 'Segoe UI', sans-serif; text-align: center; padding: 20px; }
+        .container { max-width: 900px; margin: auto; }
+        .input-field { padding: 10px; border-radius: 5px; border: none; width: 200px; margin: 20px 0; }
+        .btn { padding: 10px 20px; background: #6fd672; border: none; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Congress Influence Trend</h1>
+        <input class="input-field" type="text" id="symbolInput" placeholder="Symbol (e.g., AAPL)">
+        <button class="btn" onclick="loadTrend()">Load Trend</button>
+        <canvas id="trendChart" width="800" height="400"></canvas>
+    </div>
+
+    <script>
+        let chart;
+
+        function loadTrend() {
+            const symbol = document.getElementById('symbolInput').value || 'AAPL';
+            fetch(`/api/congress_trend?symbol=${symbol}`)
+                .then(res => res.json())
+                .then(data => {
+                    const labels = data.trend.map(t => t.date);
+                    const scores = data.trend.map(t => t.score);
+
+                    if (chart) chart.destroy();
+
+                    chart = new Chart(document.getElementById('trendChart').getContext('2d'), {
+                        type: 'line',
+                        data: {
+                            labels: labels,
+                            datasets: [{
+                                label: `${data.symbol} Influence Trend`,
+                                data: scores,
+                                borderColor: '#6fd672',
+                                fill: false,
+                                tension: 0.2
+                            }]
+                        },
+                        options: {
+                            scales: {
+                                x: { title: { display: true, text: 'Date' } },
+                                y: { title: { display: true, text: 'Influence Score' } }
+                            }
+                        }
+                    });
+                })
+                .catch(err => {
+                    console.error("Error loading trend:", err);
+                    alert("Failed to load trend data.");
+                });
+        }
+
+        // Auto-load default AAPL on page load
+        window.onload = loadTrend;
+    </script>
+</body>
+</html>

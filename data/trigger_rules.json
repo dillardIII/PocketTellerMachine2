@@ -1,0 +1,18 @@
+[
+  {
+    "symbol": "AAPL",
+    "condition": "above",
+    "price": 174.00,
+    "persona": "Mentor",
+    "level": "Intermediate",
+    "strategy_key": "covered_call"
+  },
+  {
+    "symbol": "TSLA",
+    "condition": "below",
+    "price": 175.00,
+    "persona": "Mo Cash",
+    "level": "Advanced",
+    "strategy_key": "iron_condor"
+  }
+]

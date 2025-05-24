@@ -1,8 +1,13 @@
-entrypoint = "main.py"
+entrypoint = "app.py"
+language = "python"
 modules = ["python-3.11"]
+
+[run]
+command = "python3 app.py"
 
 [nix]
 channel = "stable-24_05"
+packages = ["cairo", "ffmpeg-full", "freetype", "ghostscript", "glibcLocales", "gobject-introspection", "gtk3", "pkg-config", "qhull", "tcl", "tk"]
 
 [unitTest]
 language = "python3"
@@ -11,5 +16,34 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "main.py"]
+run = ["python3", "app.py"]
 deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
+
+[[ports]]
+localPort = 5000
+externalPort = 5000
+exposeLocalhost = true
+
+[[ports]]
+localPort = 5001
+externalPort = 3000
+
+[[ports]]
+localPort = 5050
+externalPort = 3001
+
+[[ports]]
+localPort = 6000
+externalPort = 6000
+
+[[ports]]
+localPort = 7000
+externalPort = 3002
+
+[[ports]]
+localPort = 8080
+externalPort = 8080

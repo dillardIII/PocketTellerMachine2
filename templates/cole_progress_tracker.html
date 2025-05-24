@@ -1,0 +1,37 @@
+<!-- templates/cole_progress_tracker.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PTM Progress Tracker</title>
+  <style>
+    body { background: #111; color: #eee; font-family: monospace; padding: 20px; }
+    h1 { color: #f4d03f; }
+    .task { margin-bottom: 15px; padding: 10px; border: 1px solid #444; background: #222; border-radius: 8px; }
+    .done { color: #00ff00; }
+    .pending { color: #ffaa00; }
+    .not_started { color: #ff4444; }
+    .title { font-size: 1.1em; }
+  </style>
+</head>
+<body>
+  <h1>PTM Build Progress Tracker</h1>
+
+  {% for task in tasks %}
+    <div class="task">
+      <div class="title">{{ task.name }}</div>
+      <div>Status: 
+        {% if task.status == 'complete' %}
+          <span class="done">✔ Complete</span>
+        {% elif task.status == 'in_progress' %}
+          <span class="pending">⏳ In Progress</span>
+        {% else %}
+          <span class="not_started">✖ Not Started</span>
+        {% endif %}
+      </div>
+      {% if task.route %}
+        <div>Route: <code>{{ task.route }}</code></div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</body>
+</html>

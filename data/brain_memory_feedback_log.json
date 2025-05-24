@@ -1,0 +1,46 @@
+[
+  {
+    "timestamp": "2025-05-15T09:46:20.923129",
+    "message": "[BRAIN MEMORY ERROR]: HTTPConnectionPool(host='localhost', port=6000): Max retries exceeded with url: /chatgpt_feedback (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6d67bc5dd0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T09:49:44.386116",
+    "message": "[BRAIN MEMORY ERROR]: HTTPConnectionPool(host='localhost', port=6000): Max retries exceeded with url: /chatgpt_feedback (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdefed560d0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T09:52:30.281336",
+    "message": "[BRAIN MEMORY ERROR]: HTTPConnectionPool(host='localhost', port=6000): Max retries exceeded with url: /chatgpt_feedback (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f53184bf910>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:15:35.570188",
+    "message": "[BRAIN MEMORY ERROR]: HTTPConnectionPool(host='localhost', port=6000): Max retries exceeded with url: /chatgpt_feedback (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9e17e7a410>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:16:03.757748",
+    "message": "[BRAIN MEMORY]: Feedback sent successfully."
+  },
+  {
+    "timestamp": "2025-05-15T10:17:45.519217",
+    "message": "[BRAIN MEMORY ERROR]: HTTPConnectionPool(host='localhost', port=6000): Max retries exceeded with url: /chatgpt_feedback (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd93e743fd0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:17:55.555629",
+    "message": "[BRAIN MEMORY ERROR]: Failed \u2192 500"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:21.753432",
+    "message": "[BRAIN MEMORY ERROR]: HTTPConnectionPool(host='localhost', port=6000): Max retries exceeded with url: /chatgpt_feedback (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbf2242fe90>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:22.031807",
+    "message": "[BRAIN MEMORY ERROR]: HTTPConnectionPool(host='localhost', port=6000): Max retries exceeded with url: /chatgpt_feedback (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f766a52ff90>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:30.036937",
+    "message": "[BRAIN MEMORY ERROR]: HTTPConnectionPool(host='localhost', port=6000): Max retries exceeded with url: /chatgpt_feedback (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3627dfbbd0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:30.339801",
+    "message": "[BRAIN MEMORY ERROR]: HTTPConnectionPool(host='localhost', port=6000): Max retries exceeded with url: /chatgpt_feedback (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe6fb1ebbd0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  }
+]

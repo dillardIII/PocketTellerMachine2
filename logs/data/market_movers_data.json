@@ -1,0 +1,29 @@
+{
+  "movers": [
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "change_percent": 5.67
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix Inc.",
+      "change_percent": -3.21
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corp.",
+      "change_percent": 2.45
+    },
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group",
+      "change_percent": -4.88
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "change_percent": 1.75
+    }
+  ]
+}

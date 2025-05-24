@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cole Task Dashboard</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #eee;
+      padding: 20px;
+    }
+    h1 {
+      color: #00ffd0;
+      text-align: center;
+    }
+    textarea {
+      width: 100%;
+      height: 100px;
+      background: #1e1e1e;
+      color: #fff;
+      border: 1px solid #444;
+      border-radius: 6px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    button {
+      background: #00ffd0;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    button:hover {
+      background: #00cfa7;
+    }
+    pre {
+      background: #1e1e1e;
+      padding: 10px;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Cole Task Dashboard</h1>
+
+  <textarea id="new_task" placeholder="Describe the task for Cole..."></textarea>
+  <br>
+  <button onclick="addTask()">Add Task</button>
+  <button onclick="runTasks()">Run Cole's Tasks</button>
+  <button onclick="loadTasks()">Refresh Tasks</button>
+
+  <h2>Current Tasks</h2>
+  <pre id="tasks">Loading...</pre>
+
+  <h2>Last Results</h2>
+  <pre id="results">Loading...</pre>
+
+  <script>
+    function loadTasks() {
+      fetch('/api/get_tasks')
+        .then(res => res.json())
+        .then(data => {
+          document.getElementById('tasks').textContent = JSON.stringify(data, null, 2);
+        });
+      fetch('/api/get_results')
+        .then(res => res.json())
+        .then(data => {
+          document.getElementById('results').textContent = JSON.stringify(data, null, 2);
+        });
+    }
+
+    function addTask() {
+      const task = document.getElementById('new_task').value;
+      if (!task) return alert("Please write a task.");
+      fetch('/api/add_task', {
+        method: 'POST',
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({ task })
+      }).then(res => res.json())
+        .then(data => {
+          alert(data.message);
+          document.getElementById('new_task').value = "";
+          loadTasks();
+        });
+    }
+
+    function runTasks() {
+      fetch('/api/cole_run_tasks', { method: 'POST' })
+        .then(res => res.json())
+        .then(data => {
+          alert(data.message || data.error);
+          loadTasks();
+        });
+    }
+
+    window.onload = loadTasks;
+  </script>
+</body>
+</html>

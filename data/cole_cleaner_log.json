@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "2025-05-15T10:15:33.483817",
+    "message": "[ERROR]: Invalid JSON format."
+  },
+  {
+    "timestamp": "2025-05-15T10:17:43.999468",
+    "message": "[ERROR]: Invalid JSON format."
+  },
+  {
+    "timestamp": "2025-05-15T10:20:03.450190",
+    "message": "[ERROR]: Invalid JSON format."
+  },
+  {
+    "timestamp": "2025-05-15T10:21:19.885135",
+    "message": "[ERROR]: Invalid JSON format."
+  },
+  {
+    "timestamp": "2025-05-15T10:22:28.296328",
+    "message": "[ERROR]: Invalid JSON format."
+  }
+]

@@ -1,0 +1,27 @@
+Subject: Strategic Trading Note
+
+Dear Team,
+
+As we move through the volatility of the trading landscape, our strategy remains tethered to the core principles of risk management, market analysis and the pursuit of consistent growth. Here is our logic-based trading strategy:
+
+1. **Risk Management**: Irrespective of the potential returns, every trade should be weighed against its potential downside. We ought to never risk more than 1% to 2% of our portfolio on any single trade. This approach will minimize potential losses and help preserve our trading capital.
+
+2. **Technical Analysis**: We must continue to utilize technical indicators to predict price movements and garner insights on the market trends. Simple tools such as Moving Averages, RSI and MACD can give us clues about the direction of the stock prices.
+
+3. **Fundamental Analysis**: Going hand-in-hand with Technical Analysis, Fundamental Analysis helps us make informed trading decisions. It involves the examination of financials, market and competitor health, and overall economic indicators. 
+
+4. **Diversification**: Investing across a diverse range of assets can further reduce our risk. This strategy ensures that potential losses on certain assets can be offset by potential gains on others.
+
+5. **Monitor Market News & Trends**: Staying updated with the latest market news and trends will keep us apprised of any changes in market sentiment or disruptions that could affect our trading strategies.
+
+6. **Regular Portfolio Review**: Regular evaluation of our current position followed by the adjustment of investment strategies or re-balancing the portfolio can increase our chance of success in the long term.
+
+7. **Use of Stop Orders**: We should implement stop orders to limit potential losses. A stop order will automatically trigger a sell order if the stock drops to a certain price.
+
+Remember, our primary aim should not just be about making profitable trades, but also about avoiding losses. Patience, discipline and solid research are our stepping stones to continued success.
+
+Best Regards,
+
+[Your Name]
+
+Trading Assistant to Cole

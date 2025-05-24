@@ -1,0 +1,53 @@
+[
+  {
+    "task": "Detected 3 losses in a row. Suggest adding a task to pause trading and review recent strategies.",
+    "timestamp": "2025-05-12 11:30:46.793027",
+    "status": "failed",
+    "code": "print('Detected 3 losses in a row. Pause trading and review recent strategies.')",
+    "output": "",
+    "error": "",
+    "traceback": ""
+  },
+  {
+    "task": "No trades in last 48 hours. Suggest adding a task to check bot activity or trigger rules.",
+    "timestamp": "2025-05-12 11:30:48.670499",
+    "status": "failed",
+    "code": "print('No trades in the last 48 hours. Check bot activity or review trigger rules.')",
+    "output": "",
+    "error": "",
+    "traceback": ""
+  },
+  {
+    "task": "High exposure detected to TSLA. Suggest adding a task to review risk settings for this symbol.",
+    "timestamp": "2025-05-12 11:31:05.718130",
+    "status": "failed",
+    "code": "print('High exposure detected to TSLA. Review and adjust risk settings if needed.')",
+    "output": "",
+    "error": "",
+    "traceback": ""
+  },
+  {
+    "timestamp": "2025-05-12 11:31:15.995960",
+    "tag": "gpt_fallback",
+    "code": "class TradingMonitor:\n    def __init__(self):\n        self.trading_activity = []\n        self.loss_counter = 0\n\n    def add_trade(self, trade):\n        self.trading_activity.append(trade)\n        if trade['status'] == 'loss':\n            self.loss_counter += 1\n        else:\n            self.loss_counter = 0\n        self.check_loss_streak()\n\n    def check_loss_streak(self):\n        if self.loss_counter == 3:\n            self.pause_trading()\n\n    def pause_trading(self):\n        print('Pause all trading activities and review recent strategies.')",
+    "explanation": "Modular Python class to detect 3 losses and pause trading."
+  },
+  {
+    "timestamp": "2025-05-12 11:31:18.863474",
+    "tag": "gpt_fallback",
+    "code": "def detect_consecutive_losses(trades, loss_limit):\n    losses_count = 0\n    for trade in trades:\n        if trade['profit'] < 0:\n            losses_count += 1\n            if losses_count >= loss_limit:\n                return True\n        else:\n            losses_count = 0\n    return False\n\nif detect_consecutive_losses(trades, 3):\n    print('Detected 3 losses in a row. Suggest pausing trading for review.')",
+    "explanation": "Function-based approach for trade loss detection."
+  },
+  {
+    "timestamp": "2025-05-12 11:31:28.433600",
+    "tag": "gpt_fallback",
+    "code": "from datetime import datetime, timedelta\nimport pytz\n\nclass Bot:\n    def __init__(self, last_trade_time):\n        self.last_trade_time = last_trade_time\n\n    def get_last_trade_time(self):\n        return self.last_trade_time\n\ndef check_bot_activity(bot):\n    now = datetime.now(pytz.UTC)\n    last_trade_time = bot.get_last_trade_time()\n\n    if last_trade_time is None:\n        raise ValueError('Last trade time not available')\n\n    if now - last_trade_time > timedelta(hours=48):\n        print('No trades in the last 48 hours.')\n        trigger_rules_or_alerts(bot)\n\ndef trigger_rules_or_alerts(bot):\n    pass  # Add rule trigger logic here\n\nmy_bot = Bot(datetime.now(pytz.UTC) - timedelta(hours=49))\ncheck_bot_activity(my_bot)",
+    "explanation": "Bot activity checker using datetime comparison."
+  },
+  {
+    "timestamp": "2025-05-12 11:31:37.332666",
+    "tag": "gpt_fallback",
+    "code": "class RiskManagement:\n    def __init__(self):\n        self.assets = {}\n\n    def add_asset(self, symbol, exposure):\n        self.assets[symbol] = exposure\n\n    def review_risk(self, symbol):\n        if symbol in self.assets and self.assets[symbol] > 100:\n            print(f'High exposure detected to {symbol}. Suggest reviewing risk settings.')\n            self.adjust_risk_settings(symbol)\n\n    def adjust_risk_settings(self, symbol):\n        pass\n\nrisk_management = RiskManagement()\nrisk_management.add_asset('TSLA', 150)\nrisk_management.review_risk('TSLA')",
+    "explanation": "Class-based risk exposure review."
+  }
+]

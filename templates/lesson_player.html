@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PTM Lesson Player</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 30px;
+    }
+
+    .lesson-box {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 24px;
+      max-width: 800px;
+      margin: 0 auto;
+      box-shadow: 0 0 12px rgba(0,255,100,0.05);
+    }
+
+    .lesson-content {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 20px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #66bb6a;
+      color: #111;
+    }
+
+    audio {
+      margin-top: 16px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Lesson: Chart Patterns 101</h1>
+
+  <div class="lesson-box">
+    <div class="lesson-content" id="lessonText">
+      Loading...
+    </div>
+
+    <audio id="lessonAudio" controls style="display: none;"></audio>
+
+    <div class="navigation">
+      <button onclick="prevLesson()">← Back</button>
+      <button onclick="nextLesson()">Next →</button>
+    </div>
+  </div>
+
+  <script>
+    const lessons = [
+      {
+        text: "A chart pattern is a visual formation on a stock chart that helps predict future price movement.",
+        voice: "/static/audio/chart_intro.mp3"
+      },
+      {
+        text: "One of the most common bullish patterns is the 'cup and handle' — a consolidation followed by a breakout.",
+        voice: "/static/audio/cup_handle.mp3"
+      },
+      {
+        text: "Reversal patterns include 'head and shoulders' and 'double tops'. They often signal a trend change.",
+        voice: "/static/audio/head_shoulders.mp3"
+      }
+    ];
+
+    let current = 0;
+
+    function loadLesson(index) {
+      const content = lessons[index];
+      const text = document.getElementById("lessonText");
+      const audio = document.getElementById("lessonAudio");
+
+      text.textContent = content.text;
+      audio.src = content.voice;
+      audio.style.display = "block";
+      audio.play();
+    }
+
+    function nextLesson() {
+      if (current < lessons.length - 1) {
+        current++;
+        loadLesson(current);
+      } else {
+        alert("Lesson complete! Great work.");
+      }
+    }
+
+    function prevLesson() {
+      if (current > 0) {
+        current--;
+        loadLesson(current);
+      }
+    }
+
+    // Init
+    loadLesson(current);
+  </script>
+
+</body>
+</html>

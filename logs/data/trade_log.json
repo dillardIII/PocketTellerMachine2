@@ -1,0 +1,47 @@
+[
+  {
+    "timestamp": "2025-04-21T09:51:38.189700",
+    "symbol": "AAPL",
+    "action": "buy",
+    "quantity": 10,
+    "order_id": 17406112,
+    "status": "ok",
+    "raw": {
+      "order": {
+        "id": 17406112,
+        "status": "ok",
+        "partner_id": "3a8bbee1-5184-4ffe-8a0c-294fbad1aee9"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-21T09:58:25.878311",
+    "symbol": "AAPL",
+    "action": "sell",
+    "quantity": 10,
+    "order_id": 17406113,
+    "status": "ok",
+    "raw": {
+      "order": {
+        "id": 17406113,
+        "status": "ok",
+        "partner_id": "3a8bbee1-5184-4ffe-8a0c-294fbad1aee9"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-21T10:10:12.244809",
+    "symbol": "AAPL",
+    "action": "sell",
+    "quantity": 10,
+    "order_id": 17406114,
+    "status": "ok",
+    "raw": {
+      "order": {
+        "id": 17406114,
+        "status": "ok",
+        "partner_id": "3a8bbee1-5184-4ffe-8a0c-294fbad1aee9"
+      }
+    }
+  }
+]

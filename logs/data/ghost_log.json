@@ -1,0 +1,17 @@
+[
+  {
+    "timestamp": "2025-05-17T12:34:56",
+    "file": "cole_executor.py",
+    "message": "ERROR: Division by zero in task execution loop"
+  },
+  {
+    "timestamp": "2025-05-17T13:20:12",
+    "file": "cole_code_writer.py",
+    "message": "ERROR: Undefined variable 'result' in generate_code method"
+  },
+  {
+    "timestamp": "2025-05-17T14:45:33",
+    "file": "cole_task_optimizer.py",
+    "message": "ERROR: List index out of range in optimize_tasks function"
+  }
+]

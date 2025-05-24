@@ -1,0 +1,2502 @@
+[
+  {
+    "timestamp": "2025-05-22T00:40:33.597438",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T00:40:34.699274",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T00:42:21.862755",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T00:42:22.058810",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T00:44:18.310017",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T00:44:19.395585",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T00:45:46.110676",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T00:45:47.274692",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T00:49:54.177373",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T00:49:55.465441",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T00:51:39.477280",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T00:51:39.913068",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T00:53:13.449213",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T00:53:14.529947",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T00:55:01.616731",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T00:55:02.795281",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T00:56:52.570177",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T00:56:52.766099",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T00:58:32.861039",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T00:58:33.997904",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:00:31.754234",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:00:33.011925",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:02:35.219792",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:02:35.627201",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:04:23.610502",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:04:25.223812",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:06:09.674424",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:06:10.811383",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:07:57.722845",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:07:58.778017",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:09:41.171806",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:09:41.372312",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:11:27.568852",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:11:28.693232",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:13:22.536215",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:13:22.712658",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:15:01.377774",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:15:02.725254",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:17:06.481512",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:17:07.478021",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:18:38.341197",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:18:39.639231",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:20:22.066866",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:20:23.146855",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:22:11.395644",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:22:12.527210",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:24:00.207208",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:24:01.446910",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:25:20.335982",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:25:20.598177",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:26:53.480458",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:26:54.652766",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:28:38.253220",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:28:39.315444",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:30:32.707683",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:30:32.888191",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:32:11.199551",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:32:12.418927",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:33:57.642722",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:33:58.619323",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:35:45.182209",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:35:45.357407",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:37:21.336147",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:37:22.414473",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:39:02.246163",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:39:03.330421",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:40:56.878717",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:40:58.273775",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:42:48.864553",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:42:49.914778",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:44:49.026110",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:44:50.125782",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:46:57.655598",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:46:58.837242",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:48:54.423268",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:48:55.513216",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:50:53.254786",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:50:54.351046",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:52:49.200988",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:52:50.372736",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:54:30.139055",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:54:30.306602",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:56:07.471162",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:56:08.575088",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:58:01.471203",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:58:02.582384",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:59:43.260752",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T01:59:43.502245",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:02:02.307038",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:02:02.514851",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:03:53.337772",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:03:54.402544",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:05:32.378372",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:05:33.495059",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:07:14.199481",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:07:14.364100",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:09:08.360560",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:09:09.499267",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:11:12.546444",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:11:13.663994",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:13:01.341317",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:13:02.414974",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:49:15.564319",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:49:16.933426",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:51:03.422271",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:51:04.490795",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:52:55.431427",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:52:56.550278",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:54:57.120003",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:54:58.228329",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:56:45.157573",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:56:46.445921",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:58:35.021795",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T02:58:36.136929",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:00:27.768618",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:00:27.924304",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:02:30.857862",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:02:31.993344",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:04:08.609647",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:04:08.843976",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:05:53.374886",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:05:54.431473",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:07:42.874985",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:07:44.105608",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:09:41.221763",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:09:41.404052",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:11:26.886944",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:11:28.167336",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:13:14.209536",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:13:15.290542",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:14:51.280549",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:14:52.303602",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:16:46.743549",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:16:48.079586",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:18:20.824579",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:18:22.097045",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:20:04.202512",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:20:05.335798",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:21:57.576479",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:21:58.063133",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:23:48.108149",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:23:49.186904",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:25:36.909085",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:25:38.071355",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:27:17.226610",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:27:18.291444",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:28:58.745508",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:28:59.865739",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:30:45.144697",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:30:46.481384",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:32:30.415753",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:32:31.492532",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:34:23.464204",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:34:24.514255",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:36:14.890790",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:36:16.080100",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:38:02.572354",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:38:03.662534",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:39:45.634900",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:39:45.847339",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:41:37.963025",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:41:39.041288",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:43:20.863018",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:43:22.266624",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:45:09.714802",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:45:11.042788",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:46:55.776438",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:46:56.914414",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:48:41.515193",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:48:41.729903",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:50:22.719833",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:50:23.838604",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:52:02.377115",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:52:03.504980",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:53:59.835628",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:54:01.055337",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:55:57.078050",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:55:58.230726",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:57:43.455208",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:57:44.802505",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:59:28.444783",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T03:59:29.535951",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:01:28.557877",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:01:29.731171",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:03:19.172956",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:03:19.400269",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:05:05.197165",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:05:06.282913",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:06:50.194804",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:06:51.270818",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:08:57.654925",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:08:58.812014",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:10:50.688767",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:10:51.746254",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:12:51.302220",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:12:52.674442",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:14:35.479277",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:14:36.716056",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:16:29.193273",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:16:29.574605",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:18:14.028941",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:18:14.423291",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:20:04.635708",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:20:05.957278",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:22:05.178610",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:22:06.308208",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:23:54.058766",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:23:55.185327",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:25:48.375268",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:25:49.620564",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:27:34.678903",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:27:35.760570",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:29:27.350047",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:29:28.413854",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:31:32.290042",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:31:32.678302",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:33:32.395306",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:33:32.867443",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:35:13.464293",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:35:14.525571",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:37:03.272927",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:37:04.427337",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:38:48.487477",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:38:49.827098",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:40:41.622903",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:40:42.973521",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:42:53.991723",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:42:55.385809",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:44:41.971167",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:44:43.259499",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:46:26.971112",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:46:28.150851",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:48:09.237957",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:48:09.630462",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:49:56.193425",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:49:57.424128",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:51:53.015060",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:51:53.980677",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:53:32.738356",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:53:33.975662",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:55:41.626749",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:55:44.229906",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:57:36.590611",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:57:37.878977",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:59:26.378896",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T04:59:26.541391",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:01:28.378352",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:01:29.505288",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:03:07.146616",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:03:08.276073",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:05:14.174878",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:05:14.639786",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:07:08.337089",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:07:09.584864",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:09:01.523737",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:09:02.869437",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:11:11.797230",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:11:13.186083",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:13:02.319433",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:13:03.600190",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:15:03.161586",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:15:04.410327",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:16:55.195645",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:16:57.312372",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:18:51.659514",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:18:52.998393",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:20:50.478982",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:20:51.785313",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:22:55.791890",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:22:57.180897",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:24:59.114653",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:25:00.673506",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:26:50.992526",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:26:52.252817",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:28:34.395200",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:28:35.686785",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:30:36.889045",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:30:38.264243",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:32:22.316324",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:32:23.699617",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:34:21.075173",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:34:22.365727",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:36:18.143536",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:36:19.722533",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:38:38.922692",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:38:39.223937",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:40:48.609411",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:40:50.055587",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:42:42.867411",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:42:44.128244",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:44:34.606900",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:44:35.850071",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:46:27.860585",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:46:28.425769",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:48:33.371848",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:48:34.630346",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:50:37.903954",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:50:39.206020",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:52:38.800805",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:52:39.131998",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:54:24.433902",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:54:25.713256",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:56:19.471389",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:56:19.822543",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:58:32.011519",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T05:58:33.273877",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:00:21.334189",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:00:21.697673",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:02:27.432565",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:02:28.831928",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:04:31.787706",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:04:33.021858",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:06:53.707974",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:06:55.043220",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:08:44.270742",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:08:45.718593",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:10:50.911226",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:10:52.307732",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:12:37.071301",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:12:37.406876",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:14:46.668403",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:14:47.126320",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:16:56.172786",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:16:57.483604",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:18:59.153909",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:19:00.295244",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:21:02.550847",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:21:02.970090",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:23:22.428948",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:23:23.954939",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:25:17.233884",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:25:18.938690",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:27:17.195903",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:27:18.802638",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:29:50.139964",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:29:51.492276",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:32:10.334209",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:32:11.952382",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:34:13.100937",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:34:14.296794",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:36:12.848529",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:36:14.054832",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:38:15.983100",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:38:17.259767",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:40:10.192673",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:40:11.642729",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:42:16.686782",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:42:17.894197",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:48:37.893011",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:48:39.129891",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:51:04.465276",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:51:05.547446",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:53:32.098455",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:53:33.175000",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:55:41.027275",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:55:42.092132",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:58:02.616621",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T06:58:03.595390",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:00:20.070535",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:00:21.534758",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:02:40.011433",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:02:41.232104",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:04:48.865768",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:04:49.102500",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:07:14.715770",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:07:15.850247",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:09:23.366719",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:09:24.425139",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:11:36.071970",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:11:37.223850",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:13:54.629192",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:13:55.735485",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:15:59.066289",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:16:00.680855",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:18:11.415498",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:18:12.382177",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:20:22.243607",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:20:23.389936",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:22:18.002739",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:22:19.325047",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:24:15.693936",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:24:16.763444",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:26:25.202721",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:26:26.327372",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:28:29.253609",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:28:29.463957",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:30:23.472466",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:30:24.608359",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:32:36.703549",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:32:37.871030",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:34:44.221002",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:34:45.388490",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:36:53.365518",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:36:54.846439",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:39:18.080690",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:39:18.465341",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:41:25.895975",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:41:27.002534",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:43:43.893807",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:43:45.108591",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:45:56.689962",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:45:56.885781",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:47:47.928174",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:47:49.151402",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:49:47.436463",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:49:48.599851",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:51:50.650381",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:51:50.801737",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:53:42.816929",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:53:43.963782",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:55:35.934552",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:55:37.124698",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:58:04.217615",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T07:58:04.398937",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:00:24.164778",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:00:25.662989",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:02:46.172623",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:02:47.154534",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:04:35.298600",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:04:36.495486",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:06:47.612050",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:06:48.867313",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:08:50.533621",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:08:51.691151",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:09:24.059072",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:09:25.195630",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:11:45.185186",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:11:46.370355",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:13:58.676309",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:13:59.862152",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:16:31.076286",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:16:32.215112",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:18:54.314143",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:18:55.362034",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:21:32.998212",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:21:34.076587",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:23:34.006525",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:23:35.102305",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:25:35.474456",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:25:36.736608",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:27:47.758503",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:27:48.970411",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:30:01.425028",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:30:03.156173",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:32:24.229877",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:32:24.400517",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:34:38.632140",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:34:39.686188",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:37:22.960814",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:37:24.004519",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:39:41.498439",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:39:42.603650",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:41:46.264847",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:41:46.463722",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:43:52.861341",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:43:54.121318",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:46:04.555799",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:46:05.864210",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:48:14.928422",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:48:15.075500",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:50:10.271259",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:50:11.455741",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:52:28.242390",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:52:29.424788",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:54:46.267103",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:54:47.306654",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:56:40.945239",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:56:42.044931",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:58:55.129100",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T08:58:55.377612",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:01:33.408252",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:01:34.486891",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:03:56.576772",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:03:57.589313",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:06:53.441550",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:06:53.639287",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:09:12.870552",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:09:14.106927",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:11:38.245959",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:11:39.580472",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:14:01.995483",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:14:03.109439",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:16:25.673966",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:16:26.815439",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:18:53.455895",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:18:54.477081",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:21:18.733666",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:21:18.998793",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:23:21.371407",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:23:21.569228",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:25:39.161556",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:25:40.293041",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:27:31.302049",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:27:32.405669",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:29:36.445542",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:29:37.761965",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:31:52.124200",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:31:53.354795",
+    "chamber": "House",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:34:00.756610",
+    "chamber": "Senate",
+    "flagged_trades": []
+  },
+  {
+    "timestamp": "2025-05-22T09:34:01.004306",
+    "chamber": "House",
+    "flagged_trades": []
+  }
+]

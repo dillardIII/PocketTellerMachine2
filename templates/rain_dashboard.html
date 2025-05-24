@@ -1,0 +1,62 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RAIN Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div id="sidebar">
+    <h2>PTM Menu</h2>
+    <a href="/">Home</a>
+    <a href="/trade_history">Trade History</a>
+    <a href="/export_csv">Download CSV</a>
+    <a href="/test_brain">Test Brain</a>
+    <a href="/rain_dashboard">RAIN Dashboard</a>
+  </div><button id="toggle-btn">Toggle Menu</button>
+
+  <div class="container">
+    <h1>RAIN Dashboard</h1>
+    <p>Visualize the performance of your trading AI Brain.</p><div>
+  <canvas id="winLossChart" width="400" height="200"></canvas>
+</div>
+<div>
+  <canvas id="profitLossChart" width="400" height="200"></canvas>
+</div>
+
+  </div>  <script>
+    document.getElementById('toggle-btn').addEventListener('click', function() {
+      document.body.classList.toggle('sidebar-hidden');
+    });
+
+    fetch("/rain_stats")
+      .then(res => res.json())
+      .then(data => {
+        const ctx1 = document.getElementById("winLossChart").getContext("2d");
+        new Chart(ctx1, {
+          type: "doughnut",
+          data: {
+            labels: ["Wins", "Losses", "Breakeven"],
+            datasets: [{
+              label: "Trade Results",
+              data: [data.wins, data.losses, data.breakeven],
+              backgroundColor: ["#00ffcc", "#ff4c4c", "#888"]
+            }]
+          }
+        });
+
+        const ctx2 = document.getElementById("profitLossChart").getContext("2d");
+        new Chart(ctx2, {
+          type: "bar",
+          data: {
+            labels: data.symbols,
+            datasets: [{
+              label: "Net Profit",
+              data: data.profit_by_symbol,
+              backgroundColor: "#00ffcc"
+            }]
+          }
+        });
+      });
+  </script></body>
+</html>

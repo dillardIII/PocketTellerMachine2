@@ -1,0 +1,7 @@
+{
+  "mode": "full",  // Options: "full", "silent", "paused"
+  "voice": true,
+  "build": true,
+  "trade": true,
+  "gpt": true
+}

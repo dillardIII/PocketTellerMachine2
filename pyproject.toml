@@ -10,3 +10,24 @@ dependencies = [
     "requests>=2.32.3",
     "werkzeug>=3.1.3",
 ]
+
+[tool.poetry]
+name = "workspace"
+version = "0.1.0"
+description = ""
+authors = ["dillardIII <32180783+dillardIII@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.1.0"
+flask-cors = "^5.0.1"
+elevenlabs = "^1.57.0"
+psutil = "^7.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+[[packages]]
+name = "pytz"

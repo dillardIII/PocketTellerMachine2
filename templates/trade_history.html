@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PTM Trade History</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 220px;
+      background-color: #1e1e1e;
+      border-right: 2px solid #00ffcc;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .sidebar h2 {
+      color: #00ffcc;
+      font-size: 22px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .sidebar a {
+      display: block;
+      color: #f0f0f0;
+      text-decoration: none;
+      margin-bottom: 15px;
+      font-size: 16px;
+      padding: 10px;
+      border-radius: 6px;
+      transition: background 0.2s;
+    }
+
+    .sidebar a:hover {
+      background-color: #00ffcc;
+      color: #000;
+    }
+
+    /* Main content */
+    .main-content {
+      margin-left: 240px;
+      padding: 40px;
+    }
+
+    h1 {
+      color: #00ffcc;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #444;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #1e1e1e;
+      color: #00ffcc;
+    }
+
+    tr:nth-child(even) {
+      background-color: #1a1a1a;
+    }
+
+    tr:hover {
+      background-color: #2a2a2a;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>PTM Menu</h2>
+    <a href="/">Home</a>
+    <a href="/trades">Trade History</a>
+    <a href="/export_csv">Download CSV</a>
+    <a href="/test_brain">Test Brain</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <h1>Trade History</h1>
+
+    {% if trades %}
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Timestamp</th>
+          <th>Strategy</th>
+          <th>Result</th>
+          <th>PnL</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for trade in trades %}
+        <tr>
+          <td>{{ loop.index }}</td>
+          <td>{{ trade.timestamp }}</td>
+          <td>{{ trade.strategy }}</td>
+          <td>{{ trade.result }}</td>
+          <td>{{ trade.profit }}</td>
+          <td>{{ trade.notes }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+      <p>No trades recorded yet.</p>
+    {% endif %}
+
+    <div class="footer">
+      Trade smart. Review often.
+    </div>
+  </div>
+
+</body>
+</html>

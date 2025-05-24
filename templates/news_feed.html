@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>News Feed for {{ symbol }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #181a1b; color: #f8f8f2; }
+        table { border-collapse: collapse; width: 85%; margin: 2em auto; background: #23272e; }
+        th, td { border: 1px solid #444; padding: 8px 12px; }
+        th { background: #333; color: #fff; }
+        a { color: #72baff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .headline { font-weight: bold; }
+        .summary { font-size: 0.96em; color: #bbb; }
+        .meta { font-size: 0.9em; color: #8ec07c; }
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center;">Recent News for {{ symbol }}</h2>
+    <table>
+        <tr>
+            <th>Headline</th>
+            <th>Summary</th>
+            <th>Source</th>
+            <th>Published</th>
+        </tr>
+        {% for a in articles %}
+        <tr>
+            <td class="headline">
+                <a href="{{ a.url }}" target="_blank">{{ a.headline }}</a>
+            </td>
+            <td class="summary">
+                {{ a.summary[:180] }}{% if a.summary|length > 180 %}...{% endif %}
+            </td>
+            <td class="meta">{{ a.source }}</td>
+            <td class="meta">
+                {{ a.datetime | int | datetimeformat }}
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

@@ -1,0 +1,144 @@
+{
+  "intents": [
+    {
+      "intent": "add_task",
+      "phrases": [
+        "Add a new task to work on",
+        "Create a task for",
+        "Schedule a task",
+        "I want to work on"
+      ],
+      "command": "add_task"
+    },
+    {
+      "intent": "write_code",
+      "phrases": [
+        "Write me code for",
+        "Generate code module for",
+        "Build a script for",
+        "Create a code snippet for"
+      ],
+      "command": "write_code"
+    },
+    {
+      "intent": "think",
+      "phrases": [
+        "Think about this",
+        "Give me your thoughts on",
+        "Analyze this prompt",
+        "Run your analysis on"
+      ],
+      "command": "think"
+    },
+    {
+      "intent": "generate_tasks",
+      "phrases": [
+        "Generate new tasks",
+        "Create improvement tasks",
+        "Find things we should work on",
+        "Make a list of optimization tasks"
+      ],
+      "command": "generate_tasks"
+    },
+    {
+      "intent": "optimize_tasks",
+      "phrases": [
+        "Optimize the task queue",
+        "Prioritize current tasks",
+        "Organize task list",
+        "Refine task priorities"
+      ],
+      "command": "optimize_tasks"
+    },
+    {
+      "intent": "refine_logic",
+      "phrases": [
+        "Refine the strategy logic",
+        "Update logic notes",
+        "Write a new logic note",
+        "Adjust trading strategy logic"
+      ],
+      "command": "refine_logic"
+    },
+    {
+      "intent": "run_autopilot",
+      "phrases": [
+        "Run autopilot cycle",
+        "Start full autopilot",
+        "Execute autopilot routine",
+        "Launch autopilot workflow"
+      ],
+      "command": "run_autopilot"
+    },
+    {
+      "intent": "performance_review",
+      "phrases": [
+        "Review performance metrics",
+        "Run performance review",
+        "Check system performance",
+        "Analyze recent trade performance"
+      ],
+      "command": "performance_review"
+    },
+    {
+      "intent": "trade_engine",
+      "phrases": [
+        "Check trade opportunities",
+        "Run trade engine",
+        "Evaluate trade signals",
+        "Execute trade decisions"
+      ],
+      "command": "trade_engine"
+    },
+    {
+      "intent": "sentiment_trigger",
+      "phrases": [
+        "Run sentiment trigger",
+        "Execute sentiment trades",
+        "Start sentiment-based trades",
+        "Analyze sentiment for trades"
+      ],
+      "command": "sentiment_trigger"
+    },
+    {
+      "intent": "smart_analytics",
+      "phrases": [
+        "Analyze market data",
+        "Run smart analytics",
+        "Perform advanced analytics",
+        "Generate smart analytics report"
+      ],
+      "command": "smart_analytics"
+    },
+    {
+      "intent": "congress_analysis",
+      "phrases": [
+        "Analyze Congress trades",
+        "Run Congress tracker",
+        "Get Congress trading insights",
+        "Fetch politician trading data"
+      ],
+      "command": "congress_analysis"
+    },
+    {
+      "intent": "system_status",
+      "phrases": [
+        "What's the system status",
+        "Check system health",
+        "How is Cole doing",
+        "Report current status"
+      ],
+      "command": "system_status"
+    },
+    {
+      "intent": "exit",
+      "phrases": [
+        "Exit",
+        "Quit",
+        "Stop listening",
+        "End conversation"
+      ],
+      "command": "exit"
+    }
+  ]
+}

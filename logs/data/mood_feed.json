@@ -1,0 +1,34 @@
+{
+  "mood_entries": [
+    {
+      "timestamp": "2024-05-17T10:15:00",
+      "mood": "Cautiously Bullish",
+      "source": "Market Sentiment",
+      "comment": "Investors are optimistic but wary of upcoming inflation data."
+    },
+    {
+      "timestamp": "2024-05-17T09:45:00",
+      "mood": "Bearish",
+      "source": "Technical Analysis",
+      "comment": "S&P 500 showing signs of reversal after failing resistance."
+    },
+    {
+      "timestamp": "2024-05-16T15:30:00",
+      "mood": "Neutral",
+      "source": "Cole Bot",
+      "comment": "No strong signals. Watching volume for breakout patterns."
+    },
+    {
+      "timestamp": "2024-05-16T12:00:00",
+      "mood": "Bullish",
+      "source": "Options Flow",
+      "comment": "Unusual call buying detected in AAPL and MSFT."
+    },
+    {
+      "timestamp": "2024-05-16T10:00:00",
+      "mood": "Bearish",
+      "source": "News",
+      "comment": "Federal Reserve hints at possible rate hike if CPI remains elevated."
+    }
+  ]
+}

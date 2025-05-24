@@ -1,0 +1,52 @@
+<!-- templates/ghostbuild_voice.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GhostBuild Voice Input</title>
+  <style>
+    body { background: #121212; color: #eee; font-family: 'Segoe UI', sans-serif; text-align: center; padding: 30px; }
+    button { background: #6fd672; border: none; padding: 15px 30px; font-size: 16px; border-radius: 10px; cursor: pointer; margin: 10px; }
+    #status { margin-top: 20px; font-size: 18px; }
+  </style>
+</head>
+<body>
+  <h1>GhostBuild Voice Input</h1>
+  <button onclick="startListening()">Start Voice Command</button>
+  <div id="status">Click to start speaking</div>
+
+  <script>
+    const statusDiv = document.getElementById("status");
+
+    function startListening() {
+      const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+      recognition.lang = 'en-US';
+      recognition.interimResults = false;
+      recognition.maxAlternatives = 1;
+
+      statusDiv.textContent = "Listening...";
+
+      recognition.onresult = function(event) {
+        const command = event.results[0][0].transcript;
+        statusDiv.textContent = "Heard: " + command;
+
+        fetch("/ghostbuild/voice_command", {
+          method: "POST",
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ command: command })
+        })
+        .then(response => response.json())
+        .then(data => {
+          statusDiv.textContent = "GhostBuild Response: " + data.message;
+        });
+      };
+
+      recognition.onerror = function(event) {
+        statusDiv.textContent = "Error: " + event.error;
+      };
+
+      recognition.start();
+    }
+  </script>
+</body>
+</html>

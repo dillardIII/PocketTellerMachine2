@@ -1,0 +1,31 @@
+Subject: Logic Trading Strategy
+
+Dear Team,
+
+As we progress in our trading journey, I would like to introduce a set of logic trading strategies, developed to maximize our earnings, manipulate volatility, and mitigate risks.
+
+1. Trend-Following: 
+This strategy is based on the idea that the financial markets move in long-term trends. The goal of this strategy is to identify a trend and follow it. This could involve purchasing securities that are trending upwards and potentially short selling securities that are trending downwards.
+
+2. Mean Reversion:
+Mean reversion strategy is based on the assumption that if a price deviates significantly from its mean, it is expected to revert back to its mean price. This involves selling when a price is high and buying when it is low.
+
+3. Momentum Trading:
+Based on the principle of buying high and selling higher, or selling low and buying back lower — momentum trading involves riding the wave up or down for a substantial gain. Our primary focus should be identifying market trends.
+
+4. Pair Trading:
+This strategy is a market-neutral or non-directional strategy and it takes advantage of correlation between two securities. When correlation breaks down; i.e., one stock moves up while the other moves down, it's a good time to perform pair trade.
+
+5. Swing Trading:
+Swing trading involves taking advantage of short-term price patterns. We should buy at the bottom of the trend and sell at the top. An action that requires patience, discipline, and a good knowledge of market trends.
+
+6. Breakout Trading:
+A breakout strategy involves buying a security as soon as its price "breaks out" above a resistance level. The resistance level is typically the highest price a security has reached in the past. The belief is that once a resistance level is broken, the security will continue to move in the same direction because of the momentum.
+
+All of these strategies, of course, require solid background research and consideration of various external factors to be successful.
+
+It's crucial to remember that no singular strategy is superior to the other. The choice of strategy heavily relies on the market conditions, and individual risk propensity. Stick to our core tenets of discipline, strategic execution, risk management, and continual learning. 
+
+Regards,
+[Your Name]
+Trading Assistant, Cole's Trading Group

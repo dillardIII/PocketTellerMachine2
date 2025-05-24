@@ -1,0 +1,4002 @@
+[
+  {
+    "timestamp": "2025-05-22T00:40:35.271528",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T00:40:35.278176",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T00:42:22.536182",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T00:42:22.542891",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T00:44:19.883197",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T00:44:19.891193",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T00:45:47.825661",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T00:45:47.854907",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T00:49:55.930350",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T00:49:55.937271",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T00:51:40.519440",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T00:51:40.525778",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T00:53:15.008535",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T00:53:15.015684",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T00:55:03.362082",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T00:55:03.368641",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T00:56:52.937535",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T00:56:52.943244",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T00:58:34.581883",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T00:58:34.587121",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:00:33.617317",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:00:33.622886",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:02:36.068935",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:02:36.074752",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:04:25.378874",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:04:25.386438",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:06:11.504384",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:06:11.515782",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:07:59.267961",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:07:59.275842",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:09:41.554639",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:09:41.559799",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:11:29.462029",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:11:29.467359",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:13:22.903775",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:13:22.910962",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:15:03.385675",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:15:03.390840",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:17:07.629493",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:17:07.635569",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:18:40.111635",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:18:40.116920",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:20:23.602250",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:20:23.614275",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:22:12.964008",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:22:12.969912",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:24:01.953740",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:24:01.963054",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:25:21.102251",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:25:21.108572",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:26:55.101306",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:26:55.107207",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:28:39.763546",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:28:39.771924",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:30:33.557517",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:30:33.565483",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:32:12.580647",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:32:12.587214",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:33:59.126064",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:33:59.137592",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:35:45.808576",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:35:45.817378",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:37:22.918961",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:37:22.925068",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:39:03.807498",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:39:03.813996",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:40:58.739388",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:40:58.745961",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:42:50.442791",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:42:50.450612",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:44:50.589031",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:44:50.596075",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:46:59.356671",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:46:59.363280",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:48:55.697593",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:48:55.704866",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:50:54.537865",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:50:54.544408",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:52:50.956459",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:52:50.963235",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:54:30.786724",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:54:30.794672",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:56:09.049073",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:56:09.054853",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:58:03.030787",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:58:03.036589",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:59:44.060825",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T01:59:44.083595",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:02:02.968641",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:02:02.977684",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:03:54.918789",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:03:54.926491",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:05:34.150529",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:05:34.156385",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:07:14.869674",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:07:14.874330",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:09:10.154173",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:09:10.161499",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:11:14.235074",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:11:14.241449",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:13:02.912820",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:13:02.920275",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:49:17.372969",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:49:17.379507",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:51:05.011631",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:51:05.030033",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:52:57.031195",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:52:57.039251",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:54:58.693516",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:54:58.699501",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:56:46.914731",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:56:46.929356",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:58:36.622557",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T02:58:36.636663",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:00:28.519497",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:00:28.526630",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:02:32.440534",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:02:32.447110",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:04:09.378749",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:04:09.386471",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:05:54.882908",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:05:54.887963",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:07:44.799409",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:07:44.815848",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:09:41.570209",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:09:41.575658",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:11:28.647083",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:11:28.654008",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:13:15.774437",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:13:15.780858",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:14:52.818956",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:14:52.831052",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:16:48.770661",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:16:48.777157",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:18:22.547203",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:18:22.551701",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:20:05.875482",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:20:05.882893",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:21:58.740653",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:21:58.753540",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:23:49.448912",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:23:49.481637",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:25:38.546692",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:25:38.554623",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:27:18.847165",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:27:18.854996",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:29:00.552991",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:29:00.570406",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:30:46.683324",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:30:46.698644",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:32:31.966318",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:32:31.971740",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:34:24.967010",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:34:24.975992",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:36:16.535595",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:36:16.540735",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:38:04.120630",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:38:04.127784",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:39:46.385319",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:39:46.391836",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:41:39.537052",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:41:39.543935",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:43:22.745650",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:43:22.751587",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:45:11.206228",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:45:11.212336",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:46:57.810743",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:46:57.820548",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:48:42.200662",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:48:42.208336",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:50:24.381777",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:50:24.389998",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:52:03.975937",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:52:03.983710",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:54:01.503474",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:54:01.510355",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:55:58.604556",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:55:58.611960",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:57:45.549966",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:57:45.564084",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:59:29.988128",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T03:59:29.994498",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:01:30.206599",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:01:30.213966",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:03:19.545483",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:03:19.551546",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:05:06.798571",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:05:06.805845",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:06:51.795324",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:06:51.803053",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:08:59.298519",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:08:59.306079",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:10:52.694104",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:10:52.698849",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:12:53.285306",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:12:53.291381",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:14:37.162412",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:14:37.168297",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:16:30.116228",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:16:30.122494",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:18:14.792190",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:18:14.802808",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:20:06.513998",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:20:06.518415",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:22:06.950613",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:22:06.965074",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:23:55.667211",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:23:55.673262",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:25:50.072933",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:25:50.077226",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:27:36.344577",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:27:36.355027",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:29:28.977068",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:29:28.981709",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:31:33.454900",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:31:33.459977",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:33:33.512439",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:33:33.517608",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:35:15.101183",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:35:15.163294",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:37:05.073958",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:37:05.081076",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:38:50.528019",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:38:50.535197",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:40:43.677679",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:40:43.684379",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:42:55.974248",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:42:55.979805",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:44:43.803723",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:44:43.808602",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:46:28.725429",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:46:28.730384",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:48:10.287222",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:48:10.295275",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:49:57.977279",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:49:57.984180",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:51:54.698976",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:51:54.708869",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:53:34.676092",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:53:34.680757",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:55:44.809626",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:55:44.815969",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:57:38.156263",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:57:38.163782",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:59:27.161916",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T04:59:27.171591",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:01:30.066270",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:01:30.079373",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:03:08.952283",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:03:08.958282",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:05:15.347706",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:05:15.354282",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:07:09.945668",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:07:09.954644",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:09:03.493607",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:09:03.500472",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:11:13.752080",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:11:13.763829",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:13:04.130146",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:13:04.135506",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:15:04.895532",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:15:04.902939",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:16:58.102434",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:16:58.108817",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:18:53.505845",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:18:53.512334",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:20:52.060280",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:20:52.067669",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:22:57.764629",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:22:57.770573",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:25:01.356078",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:25:01.363100",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:26:52.819023",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:26:52.825197",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:28:36.238399",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:28:36.246312",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:30:38.968606",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:30:38.975381",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:32:24.602086",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:32:24.610499",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:34:22.687305",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:34:22.694510",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:36:20.269328",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:36:20.274279",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:38:39.895135",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:38:39.906160",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:40:50.471378",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:40:50.486315",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:42:44.644050",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:42:44.650211",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:44:36.528439",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:44:36.535242",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:46:28.972019",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:46:28.976837",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:48:35.330801",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:48:35.337507",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:50:39.743842",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:50:39.748394",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:52:40.006489",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:52:40.011197",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:54:26.263096",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:54:26.268984",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:56:20.554388",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:56:20.559162",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:58:33.774393",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T05:58:33.779396",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:00:21.907867",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:00:21.915291",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:02:29.435343",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:02:29.439971",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:04:33.758207",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:04:33.763940",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:06:55.653611",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:06:55.662050",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:08:46.375351",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:08:46.383489",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:10:52.577022",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:10:52.584184",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:12:37.962404",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:12:37.967512",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:14:47.673493",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:14:47.680235",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:16:59.004834",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:16:59.011491",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:19:00.966881",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:19:00.974396",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:21:04.046824",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:21:04.051376",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:23:24.668846",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:23:24.674813",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:25:19.620317",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:25:19.626251",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:27:19.440319",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:27:19.445028",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:29:52.117957",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:29:52.125004",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:32:12.930395",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:32:12.935020",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:34:15.136899",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:34:15.141662",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:36:14.635527",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:36:14.642105",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:38:17.945351",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:38:17.956322",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:40:12.222868",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:40:12.233097",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:42:18.484608",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:42:18.491921",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:48:39.589062",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:48:39.594469",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:51:05.898195",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:51:05.907183",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:53:33.823150",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:53:33.827967",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:55:43.824520",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:55:43.830763",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:58:04.058304",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T06:58:04.064368",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:00:22.289704",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:00:22.295585",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:02:41.684845",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:02:41.703280",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:04:49.575592",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:04:49.581415",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:07:16.319762",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:07:16.324598",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:09:24.859863",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:09:24.865286",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:11:37.684666",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:11:37.691047",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:13:56.195298",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:13:56.201947",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:16:01.277060",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:16:01.282720",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:18:12.852753",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:18:12.858139",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:20:23.886148",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:20:23.893282",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:22:19.461683",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:22:19.467480",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:24:17.282202",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:24:17.289119",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:26:26.787542",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:26:26.795124",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:28:30.209368",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:28:30.214490",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:30:25.330639",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:30:25.335778",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:32:38.056717",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:32:38.062070",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:34:45.969883",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:34:45.974596",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:36:55.356415",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:36:55.363997",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:39:18.970161",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:39:18.976082",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:41:27.709790",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:41:27.720264",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:43:45.838126",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:43:45.843501",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:45:57.642043",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:45:57.650851",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:47:49.396156",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:47:49.402208",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:49:49.489758",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:49:49.498531",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:51:51.367960",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:51:51.373596",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:53:44.185239",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:53:44.192017",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:55:37.612529",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:55:37.617167",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:58:04.966185",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T07:58:04.970954",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:00:26.244406",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:00:26.250100",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:02:47.618527",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:02:47.625594",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:04:36.986460",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:04:36.991119",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:06:49.065745",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:06:49.076296",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:08:51.834802",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:08:51.840031",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:09:25.641049",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:09:25.645911",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:11:46.834450",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:11:46.839226",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:14:00.442577",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:14:00.449541",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:16:32.336345",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:16:32.340761",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:18:55.801438",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:18:55.809719",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:21:34.569976",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:21:34.584191",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:23:35.559676",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:23:35.564307",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:25:36.904654",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:25:36.910296",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:27:49.451422",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:27:49.456595",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:30:03.299075",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:30:03.304010",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:32:24.841540",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:32:24.851307",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:34:40.203549",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:34:40.209569",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:37:24.146877",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:37:24.152484",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:39:43.082019",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:39:43.086299",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:41:46.919457",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:41:46.924109",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:43:54.635740",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:43:54.640384",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:46:06.360553",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:46:06.366645",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:48:15.232144",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:48:15.237197",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:50:11.889918",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:50:11.895452",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:52:29.886910",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:52:29.895516",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:54:47.785364",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:54:47.792426",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:56:42.761361",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:56:42.767459",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:58:55.516029",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T08:58:55.526498",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:01:35.076307",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:01:35.083056",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:04:27.764116",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:04:27.768897",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:06:54.480409",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:06:54.485971",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:09:14.747124",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:09:14.754462",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:11:40.122284",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:11:40.127261",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:14:03.567340",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:14:03.572081",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:16:27.378427",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:16:27.385541",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:18:54.961002",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:18:54.965954",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:21:19.385036",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:21:19.389736",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:23:22.033979",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:23:22.038200",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:25:40.752218",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:25:40.757254",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:27:32.556495",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:27:32.563172",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:29:38.607220",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:29:38.611858",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:31:53.833410",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:31:53.838220",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:34:01.178295",
+    "event": {
+      "check": "Equity Exposure Limit",
+      "status": "OK",
+      "details": "Current exposure 45%, threshold 50%"
+    }
+  },
+  {
+    "timestamp": "2025-05-22T09:34:01.184665",
+    "event": {
+      "check": "Options Leverage",
+      "status": "WARNING",
+      "details": "Current leverage 4.2x, exceeding safe limit of 3x"
+    }
+  }
+]

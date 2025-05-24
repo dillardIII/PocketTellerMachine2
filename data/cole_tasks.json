@@ -1,0 +1,5 @@
+[
+  "Detected 3 losses in a row. Suggest adding a task to pause trading and review recent strategies.",
+  "No trades in last 48 hours. Suggest adding a task to check bot activity or trigger rules.",
+  "High exposure detected to TSLA. Suggest adding a task to review risk settings for this symbol."
+]

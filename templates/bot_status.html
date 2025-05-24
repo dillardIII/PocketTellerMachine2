@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PTM Bot Status</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #6fd672;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .section-title {
+      color: #6fd672;
+      margin-top: 40px;
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .status-box {
+      background: #1f1f1f;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 700px;
+      box-shadow: 0 0 12px rgba(0, 255, 128, 0.2);
+    }
+
+    .status-box h2 {
+      color: #ffffff;
+    }
+
+    .status-box p {
+      color: #aaa;
+    }
+
+    .status-item {
+      margin-bottom: 10px;
+    }
+
+    .label {
+      font-weight: bold;
+      color: #ccc;
+    }
+
+    .value {
+      color: #eee;
+    }
+
+    .online {
+      color: #00e676;
+    }
+
+    .offline {
+      color: #ff5252;
+    }
+
+    .bot-card {
+      background: #1e1e1e;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 12px rgba(0, 255, 100, 0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .bot-name {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .status {
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .active {
+      background-color: #00e676;
+      color: #000;
+    }
+
+    .inactive {
+      background-color: #ff5252;
+      color: #000;
+    }
+
+    .toggle-btn {
+      padding: 8px 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      background-color: #333;
+      color: #fff;
+    }
+
+    .toggle-btn:hover {
+      background-color: #555;
+    }
+
+    .placeholder {
+      color: #888;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 13px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>PTM Bot Status</h1>
+
+  <div class="status-box">
+    <h2>Bot Health</h2>
+    <div class="status-item">
+      <span class="label">Status:</span>
+      <span class="value {{ 'online' if bot_status.get('active') else 'offline' }}">
+        {{ 'Online' if bot_status.get('active') else 'Offline' }}
+      </span>
+    </div>
+    <div class="status-item">
+      <span class="label">Last Sync:</span>
+      <span class="value">{{ bot_status.get('last_sync', 'N/A') }}</span>
+    </div>
+    <div class="status-item">
+      <span class="label">Auto-Trade Mode:</span>
+      <span class="value">{{ bot_status.get('mode', 'Manual') }}</span>
+    </div>
+    <div class="status-item">
+      <span class="label">Current Strategy:</span>
+      <span class="value">{{ bot_status.get('strategy', 'N/A') }}</span>
+    </div>
+    <div class="status-item">
+      <span class="label">Connected Broker:</span>
+      <span class="value">{{ bot_status.get('broker', 'Not Connected') }}</span>
+    </div>
+    <div class="status-item">
+      <span class="label">Voice Assistant:</span>
+      <span class="value">{{ bot_status.get('persona', 'Default') }}</span>
+    </div>
+  </div>
+
+  <div class="status-box">
+    <h2>System Status</h2>
+    <p>All core services running normally.</p>
+  </div>
+
+  <div class="status-box">
+    <h2>Autotrade Scheduler</h2>
+    <p>Currently active and scanning every minute during market hours.</p>
+  </div>
+
+  <h2 class="section-title">Bot Activity</h2>
+  <div id="botList"></div>
+
+  <div class="placeholder">
+    <p>More diagnostics and analytics will appear here soon.</p>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 PTM | Monitoring by GhostBot AI
+  </div>
+
+  <script>
+    const bots = [
+      { id: 'stock_bot', name: 'Stock Bot', active: true },
+      { id: 'options_bot', name: 'Options Bot', active: true },
+      { id: 'forex_bot', name: 'Forex Bot', active: false },
+      { id: 'crypto_bot', name: 'Crypto Bot', active: false }
+    ];
+
+    const container = document.getElementById('botList');
+
+    function renderBots() {
+      container.innerHTML = '';
+      bots.forEach(bot => {
+        const card = document.createElement('div');
+        card.className = 'bot-card';
+
+        card.innerHTML = `
+          <div class="bot-name">${bot.name}</div>
+          <div class="status ${bot.active ? 'active' : 'inactive'}">
+            ${bot.active ? 'Active' : 'Inactive'}
+          </div>
+          <button class="toggle-btn" onclick="toggleBot('${bot.id}')">
+            ${bot.active ? 'Deactivate' : 'Activate'}
+          </button>
+        `;
+
+        container.appendChild(card);
+      });
+    }
+
+    function toggleBot(botId) {
+      const bot = bots.find(b => b.id === botId);
+      if (bot) {
+        bot.active = !bot.active;
+        renderBots();
+        // Optional: Send bot toggle state to backend
+        // fetch('/toggle_bot', {
+        //   method: 'POST',
+        //   headers: { 'Content-Type': 'application/json' },
+        //   body: JSON.stringify({ id: bot.id, active: bot.active })
+        // });
+      }
+    }
+
+    renderBots();
+  </script>
+
+</body>
+</html>

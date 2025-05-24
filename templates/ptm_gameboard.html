@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PTM Gameboard</title>
+  <style>
+    body {
+      background: #101010;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 25px;
+    }
+
+    .gameboard {
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 0 14px rgba(0,255,100,0.06);
+      text-align: center;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #80e487;
+    }
+
+    .progress-bar {
+      background: #333;
+      height: 16px;
+      border-radius: 10px;
+      margin-top: 8px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      background: #4caf50;
+      height: 100%;
+      width: 70%;
+      transition: width 0.3s ease;
+    }
+
+    .rank {
+      font-size: 22px;
+      font-weight: bold;
+      color: #ffe055;
+    }
+
+    .unlock {
+      margin-top: 12px;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    .powerup {
+      margin-top: 10px;
+      padding: 6px 10px;
+      background: #ff9800;
+      color: #111;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: bold;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>PTM Gameboard</h1>
+
+  <div class="gameboard">
+
+    <div class="card">
+      <h3>My Rank</h3>
+      <div class="rank">Elite Trader IV</div>
+      <div class="unlock">Next Rank: 6200 XP</div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 82%;"></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>XP & Level</h3>
+      <div class="rank">XP: 5,140</div>
+      <div class="unlock">Level: 9</div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 64%;"></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Team Standing</h3>
+      <div class="rank">1st Place</div>
+      <div class="unlock">Team: Ghost Traders</div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 91%;"></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Next Unlock</h3>
+      <div class="rank">New Voice: “Commander”</div>
+      <div class="unlock">Unlocked at 6000 XP</div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 85%;"></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Power-Up Ready</h3>
+      <div class="powerup">Double XP Booster</div>
+      <div class="unlock">Tap to Activate</div>
+    </div>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "strategies": [
+    "sma_crossover",
+    "rsi_reversal",
+    "macd_trend_follow",
+    "bollinger_bounce",
+    "volume_breakout"
+  ]
+}

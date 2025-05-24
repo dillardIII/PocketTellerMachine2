@@ -1,38 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Voice Preview</title>
+  <meta charset="UTF-8" />
+  <title>Voice Previews - PTM Assistant Personas</title>
   <style>
     body {
-      background-color: #101010;
-      color: white;
-      font-family: sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
       padding: 20px;
     }
-    .voice-box {
-      background-color: #1e1e1e;
-      padding: 15px;
-      border-radius: 10px;
-      margin-bottom: 20px;
-      box-shadow: 0 0 8px #222;
+
+    h1, h2 {
+      color: #6fd672;
+      text-align: center;
+      margin-bottom: 30px;
     }
-    audio {
-      width: 100%;
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 16px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,255,100,0.05);
+    }
+
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+      border: 2px solid #6fd672;
+    }
+
+    button {
+      background-color: #6fd672;
+      color: #121212;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 14px;
+      font-weight: bold;
+      cursor: pointer;
       margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #82e187;
+    }
+
+    select {
+      background: #222;
+      color: #f0f0f0;
+      border: 1px solid #555;
+      border-radius: 5px;
+      padding: 6px;
+      margin-top: 8px;
+    }
+
+    #voicePlayer {
+      display: none;
+      margin: 30px auto;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    #statusText {
+      text-align: center;
+      margin-top: 10px;
+      color: #aaa;
+      font-size: 14px;
+    }
+
+    .section {
+      margin-top: 50px;
     }
   </style>
 </head>
 <body>
-  <h2>Preview ElevenLabs Voices</h2>
-  {% for voice in voices %}
-    <div class="voice-box">
-      <strong>{{ voice['name'] }}</strong> — {{ voice['labels'].accent or 'Standard' }}
-      <br>
-      <audio controls>
-        <source src="{{ url_for('static', filename='voice_previews/' + voice['preview']) }}" type="audio/mpeg">
-      </audio>
+
+  <h1>Voice Previews - PTM Assistant Personas</h1>
+
+  <audio id="voicePlayer" controls></audio>
+  <div id="statusText"></div>
+
+  <!-- Combined Male and Female Personas -->
+  <div class="grid">
+
+    <!-- Example Card Template: Copy and customize for each persona -->
+    <div class="card">
+      <img src="/static/images/avatars/mentor_avatar.png" alt="Mentor">
+      <h3>Mentor (F)</h3>
+      <select id="mentor_f_style">
+        <option value="smooth">Smooth</option>
+        <option value="raspy">Raspy</option>
+        <option value="bold">Bold</option>
+      </select>
+      <button onclick="playVoice('female', 'mentor', 'mentor_f_style')">Play Preview</button>
     </div>
-  {% endfor %}
+
+    <div class="card">
+      <img src="/static/images/avatars/mo_cash_avatar.png" alt="Mo Cash">
+      <h3>Mo Cash (M)</h3>
+      <select id="mo_cash_m_style">
+        <option value="smooth">Smooth</option>
+        <option value="raspy">Raspy</option>
+        <option value="bold">Bold</option>
+      </select>
+      <button onclick="playVoice('male', 'mo_cash', 'mo_cash_m_style')">Play Preview</button>
+    </div>
+
+    <div class="card">
+      <img src="/static/images/avatars/drill_avatar.png" alt="Drill Instructor">
+      <h3>Drill Instructor (F)</h3>
+      <select id="drill_f_style">
+        <option value="smooth">Smooth</option>
+        <option value="raspy">Raspy</option>
+        <option value="bold">Bold</option>
+      </select>
+      <button onclick="playVoice('female', 'drill_instructor', 'drill_f_style')">Play Preview</button>
+    </div>
+
+    <div class="card">
+      <img src="/static/images/avatars/comedian_avatar.png" alt="Comedian">
+      <h3>The Comedian (F)</h3>
+      <select id="comedian_f_style">
+        <option value="smooth">Smooth</option>
+        <option value="raspy">Raspy</option>
+        <option value="bold">Bold</option>
+      </select>
+      <button onclick="playVoice('female', 'comedian', 'comedian_f_style')">Play Preview</button>
+    </div>
+
+    <!-- Add more cards below as needed... -->
+
+  </div>
+
+  <script>
+    function playVoice(gender, persona, styleSelectId) {
+      const player = document.getElementById("voicePlayer");
+      const status = document.getElementById("statusText");
+      const style = document.getElementById(styleSelectId).value;
+      const filePath = `/static/audio/voices/${gender}/${persona}_${style}.mp3`;
+
+      player.style.display = "none";
+      status.innerText = `Loading: ${persona} (${gender}) – ${style}...`;
+
+      // Load and play
+      player.src = filePath;
+      player.load();
+
+      player.oncanplaythrough = () => {
+        status.innerText = `Playing: ${persona} (${gender}) – ${style}`;
+        player.style.display = "block";
+        player.play();
+      };
+
+      player.onerror = () => {
+        status.innerText = `Error: Could not load voice for ${persona}_${style}.mp3`;
+        player.style.display = "none";
+      };
+    }
+  </script>
+
 </body>
 </html>

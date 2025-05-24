@@ -1,0 +1,51 @@
+<div class="section">
+    <h2>Congress Momentum Trends (Sparklines)</h2>
+    <div id="sparklineGrid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px;"></div>
+</div>
+
+<script>
+    function loadCongressSparklines() {
+        fetch('/api/dashboard/congress_sparklines')
+            .then(res => res.json())
+            .then(data => {
+                const grid = document.getElementById('sparklineGrid');
+                grid.innerHTML = '';
+
+                data.data.forEach(item => {
+                    const canvasId = `spark-${item.symbol}`;
+                    const card = document.createElement('div');
+                    card.innerHTML = `<div style="text-align: center; font-weight: bold;">${item.symbol}</div>
+                                      <canvas id="${canvasId}" height="60"></canvas>`;
+                    grid.appendChild(card);
+
+                    const ctx = document.getElementById(canvasId).getContext('2d');
+                    const labels = item.history.map(point => point.date);
+                    const scores = item.history.map(point => point.score);
+
+                    new Chart(ctx, {
+                        type: 'line',
+                        data: {
+                            labels: labels,
+                            datasets: [{
+                                data: scores,
+                                borderColor: '#6fd672',
+                                fill: false,
+                                tension: 0.3,
+                                pointRadius: 0
+                            }]
+                        },
+                        options: {
+                            plugins: { legend: { display: false } },
+                            scales: { x: { display: false }, y: { display: false } },
+                            elements: { line: { borderWidth: 2 } },
+                            maintainAspectRatio: false
+                        }
+                    });
+                });
+            })
+            .catch(err => console.error("Sparklines load error:", err));
+    }
+
+    setInterval(loadCongressSparklines, 60000);
+    loadCongressSparklines();
+</script>

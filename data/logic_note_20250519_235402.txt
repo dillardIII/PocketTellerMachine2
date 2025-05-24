@@ -1,0 +1,24 @@
+Subject: Logic-Driven Trading Strategy
+
+Dear team,
+
+After thorough analysis and observations, it's paramount that we adapt and implement a logic-based trading approach to improve our trades' success rate and enhance our portfolio performance. This strategy would be driven by a combination of few key tactics:
+
+1. **Data Analysis**: Start leveraging historical and real-time data to glean insights for decision-making. Every trade decision should be backed by factual data, statistical trends, and not just investor emotions or speculation.
+
+2. **Risk Management**: Always evaluate the potential risk before initiating any trade. Do not gamble on trades with potential risk higher than the projected potential profits. A simple rule-of-thumb would be to risk 1% to make 3%. 
+
+3. **Trend Following**: While market predictions can be tricky, following broader market trends can be a more reliable strategy. Make use of technical indicators to identify emerging trends and potential trade points.
+
+4. **Diversification**: Diversify our investment portfolio across various sectors, asset classes and geographies to mitigate risk. This will help us yield stable returns even when one sector is underperforming.
+
+5. **Discipline and Patience**: Stick to your trading plan and continue to make informed decisions. Additionally, it's important to avoid short-term market noise and remain patient for your trading strategy to play out.
+
+6. **Continuous Learning**: The market is constantly evolving, so should our strategies. Keeping up-to-date with market news, learning from previous trades, and tailoring our strategy accordingly will be crucial.
+
+These logic-based tactics will remove emotional bias from our trading activities, leading to increased objectivity and efficacy in our trades. As we move forward, I would like us to reaffirm our commitment to logical and data-driven decision making in our trading portfolio.
+
+Best Regards,
+
+[Your Name]
+Assistant to Cole, Trading Department

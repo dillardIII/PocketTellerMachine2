@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "ticker": "AAPL",
+      "price": 185.32,
+      "volume": 74200000,
+      "rsi": 54.21,
+      "signal": "Buy"
+    },
+    {
+      "ticker": "TSLA",
+      "price": 723.15,
+      "volume": 38100000,
+      "rsi": 68.45,
+      "signal": "Overbought"
+    },
+    {
+      "ticker": "AMZN",
+      "price": 3440.20,
+      "volume": 25200000,
+      "rsi": 45.78,
+      "signal": "Neutral"
+    },
+    {
+      "ticker": "NVDA",
+      "price": 592.65,
+      "volume": 41000000,
+      "rsi": 31.55,
+      "signal": "Oversold"
+    }
+  ]
+}

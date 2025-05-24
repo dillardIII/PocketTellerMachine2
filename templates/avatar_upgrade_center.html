@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Avatar Upgrade Center</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 30px;
+    }
+
+    .center-box {
+      max-width: 1000px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,255,100,0.06);
+    }
+
+    .card h3 {
+      color: #ffe055;
+      margin-top: 0;
+    }
+
+    .card p {
+      color: #ccc;
+      font-size: 14px;
+      margin: 10px 0;
+    }
+
+    .xp-cost {
+      font-size: 13px;
+      color: #80e487;
+      margin-top: 6px;
+    }
+
+    .btn {
+      margin-top: 12px;
+      padding: 10px 20px;
+      background: #4caf50;
+      color: #111;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #80e487;
+    }
+
+    .xp-balance {
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 16px;
+      color: #ccc;
+    }
+
+    .xp-balance span {
+      color: #ffe055;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Avatar Upgrade Center</h1>
+
+  <div class="xp-balance">Your Current XP: <span>5,150</span></div>
+
+  <div class="center-box">
+
+    <div class="card">
+      <h3>Mentor – Voice Expansion</h3>
+      <p>Add new tones: Calm, Serious, Whisper</p>
+      <div class="xp-cost">Cost: 350 XP</div>
+      <button class="btn">Unlock</button>
+    </div>
+
+    <div class="card">
+      <h3>Mo Cash – Outfit Pack</h3>
+      <p>Unlock 3 new animated avatars + Hustler Chain</p>
+      <div class="xp-cost">Cost: 500 XP</div>
+      <button class="btn">Unlock</button>
+    </div>
+
+    <div class="card">
+      <h3>Drill Instructor – Combat Gear</h3>
+      <p>Add military avatar styles: Classic, Marine, Space Force</p>
+      <div class="xp-cost">Cost: 450 XP</div>
+      <button class="btn">Unlock</button>
+    </div>
+
+    <div class="card">
+      <h3>Strategist – Trade Intel Boost</h3>
+      <p>Add logic-voice overlays for chart breakdowns</p>
+      <div class="xp-cost">Cost: 400 XP</div>
+      <button class="btn">Unlock</button>
+    </div>
+
+    <div class="card">
+      <h3>The Shadow – Ultra Stealth Mode</h3>
+      <p>Enables glitch-style animations and whisper mode</p>
+      <div class="xp-cost">Cost: 600 XP</div>
+      <button class="btn">Unlock</button>
+    </div>
+
+  </div>
+
+</body>
+</html>

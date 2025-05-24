@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cole Self-Learning Logs</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      color: #6fd672;
+      text-align: center;
+    }
+    .log-entry {
+      background-color: #1e1e1e;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 12px;
+      box-shadow: 0 0 10px rgba(0,255,100,0.1);
+    }
+    .log-entry pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+  </style>
+</head>
+<body>
+  <h1>Cole Self-Learning Log Viewer</h1>
+  {% for log in logs %}
+    <div class="log-entry">
+      <strong>{{ log.timestamp }}</strong><br />
+      {% if log.action %}
+        <strong>Action:</strong> {{ log.action }}<br />
+        <strong>Detail:</strong> {{ log.detail }}
+      {% elif log.task %}
+        <strong>Task:</strong> {{ log.task }}
+      {% else %}
+        <pre>{{ log }}</pre>
+      {% endif %}
+    </div>
+  {% else %}
+    <p>No log entries found.</p>
+  {% endfor %}
+</body>
+</html>

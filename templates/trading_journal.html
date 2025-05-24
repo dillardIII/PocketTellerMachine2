@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PTM Trading Journal</title>
+  <style>
+    body {
+      background: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+      margin: 0;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 30px;
+    }
+
+    .journal-entry {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 25px;
+      box-shadow: 0 0 10px rgba(0,255,100,0.05);
+    }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .entry-header h3 {
+      margin: 0;
+      color: #80e487;
+    }
+
+    .entry-body {
+      margin-top: 10px;
+    }
+
+    .label {
+      font-weight: bold;
+      color: #aaa;
+      font-size: 13px;
+    }
+
+    .value {
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+
+    textarea {
+      width: 100%;
+      height: 60px;
+      background: #222;
+      color: #f0f0f0;
+      border: 1px solid #444;
+      border-radius: 8px;
+      padding: 10px;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .submit-btn {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .submit-btn:hover {
+      background-color: #66bb6a;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Trading Journal</h1>
+
+  <div class="journal-entry">
+    <div class="entry-header">
+      <h3>AAPL Covered Call</h3>
+      <span class="label">2025-05-10</span>
+    </div>
+    <div class="entry-body">
+      <div class="label">Summary:</div>
+      <div class="value">Entered a covered call on strength after earnings. Took profit early. Felt confident.</div>
+
+      <div class="label">Emotional State:</div>
+      <div class="value">Focused, Calm</div>
+
+      <div class="label">Voice Recap:</div>
+      <audio controls src="/static/audio/aapl_voice_recap.mp3"></audio>
+
+      <div class="label">Mistake / Lesson:</div>
+      <div class="value">Could have held longer for more premium, but followed plan.</div>
+    </div>
+  </div>
+
+  <!-- Add New Entry -->
+  <div class="journal-entry">
+    <div class="entry-header">
+      <h3>Add New Entry</h3>
+    </div>
+    <form id="entryForm">
+      <label class="label">Symbol & Strategy</label>
+      <input type="text" name="title" placeholder="e.g., TSLA Iron Condor" required style="width: 100%; padding: 10px; border-radius: 8px; background: #222; color: #eee; border: 1px solid #444; margin-top: 5px;" />
+
+      <label class="label">Summary</label>
+      <textarea name="summary" placeholder="What happened? What did you see or expect?" required></textarea>
+
+      <label class="label">Emotional State</label>
+      <textarea name="emotion" placeholder="How did you feel?" required></textarea>
+
+      <label class="label">Mistake / Lesson</label>
+      <textarea name="lesson" placeholder="Anything to improve next time?"></textarea>
+
+      <button class="submit-btn" type="submit">Log Entry</button>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById("entryForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      alert("Journal entry saved! (Simulated for now)");
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>

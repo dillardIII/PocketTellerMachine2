@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cole AI Phase 5 Controller (LIVE)</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #f0f0f0;
+            font-family: 'Segoe UI', sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: #6fd672;
+            text-align: center;
+        }
+        .button {
+            background: #6fd672;
+            color: #121212;
+            border: none;
+            padding: 12px 20px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        .log-box, .heartbeat-box {
+            background: #1e1e1e;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            overflow-y: scroll;
+            height: 400px;
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Cole AI Brain Control Panel (Phase 5)</h1>
+
+    <button class="button" onclick="forceBrainCycle()">Force Brain Cycle</button>
+    <button class="button" onclick="fetchLogs()">Refresh Brain Logs</button>
+    <button class="button" onclick="fetchHeartbeat()">Check Heartbeat</button>
+
+    <div class="heartbeat-box">
+        <h3>Heartbeat Monitor</h3>
+        <pre id="heartbeatStatus">Waiting for update...</pre>
+    </div>
+
+    <div class="log-box">
+        <h3>Brain Execution Logs</h3>
+        <pre id="logs">Click 'Refresh Brain Logs' to view logs...</pre>
+    </div>
+
+    <script>
+        function fetchLogs() {
+            fetch('/api/get_brain_logs')
+            .then(response => response.json())
+            .then(data => {
+                let logs = (data.logs || []).map(log => `${log.timestamp} → ${log.message}`).join('\n');
+                document.getElementById("logs").innerText = logs || "No logs found.";
+            })
+            .catch(() => document.getElementById("logs").innerText = "Error fetching logs.");
+        }
+
+        function fetchHeartbeat() {
+            fetch('/api/get_heartbeat')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("heartbeatStatus").innerText = `Status: ${data.status}\nLast Update: ${data.timestamp}`;
+            })
+            .catch(() => document.getElementById("heartbeatStatus").innerText = "Error fetching heartbeat.");
+        }
+
+        function forceBrainCycle() {
+            fetch('/api/force_brain_cycle')
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message || "Forced brain cycle complete.");
+                fetchLogs();
+                fetchHeartbeat();
+            })
+            .catch(() => alert("Error forcing brain cycle."));
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,2643 @@
+{
+  "logs": [
+    {
+      "timestamp": "2025-05-19T21:02:55.327216",
+      "result": {
+        "timestamp": "2025-05-19T21:02:55.326428",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:02:56.755868",
+      "result": {
+        "timestamp": "2025-05-19T21:02:56.754697",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:07:55.328735",
+      "result": {
+        "timestamp": "2025-05-19T21:07:55.327763",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:07:56.758216",
+      "result": {
+        "timestamp": "2025-05-19T21:07:56.757111",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:12:55.330073",
+      "result": {
+        "timestamp": "2025-05-19T21:12:55.329141",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:12:56.759799",
+      "result": {
+        "timestamp": "2025-05-19T21:12:56.759168",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:16:04.184438",
+      "result": {
+        "timestamp": "2025-05-19T21:16:04.182904",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:17:55.331391",
+      "result": {
+        "timestamp": "2025-05-19T21:17:55.330694",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:18:42.470523",
+      "result": {
+        "timestamp": "2025-05-19T21:18:42.469246",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:22:55.333908",
+      "result": {
+        "timestamp": "2025-05-19T21:22:55.332030",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:23:42.472207",
+      "result": {
+        "timestamp": "2025-05-19T21:23:42.471204",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:27:42.885598",
+      "result": {
+        "timestamp": "2025-05-19T21:27:42.884522",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:27:55.335321",
+      "result": {
+        "timestamp": "2025-05-19T21:27:55.334593",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:31:33.232990",
+      "result": {
+        "timestamp": "2025-05-19T21:31:33.232385",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:32:55.336751",
+      "result": {
+        "timestamp": "2025-05-19T21:32:55.335957",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:36:33.238111",
+      "result": {
+        "timestamp": "2025-05-19T21:36:33.233520",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:37:55.338104",
+      "result": {
+        "timestamp": "2025-05-19T21:37:55.337355",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:39:49.895630",
+      "result": {
+        "timestamp": "2025-05-19T21:39:49.894264",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:42:55.340167",
+      "result": {
+        "timestamp": "2025-05-19T21:42:55.338949",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:44:28.241142",
+      "result": {
+        "timestamp": "2025-05-19T21:44:28.239395",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:47:55.350009",
+      "result": {
+        "timestamp": "2025-05-19T21:47:55.340963",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:48:43.160477",
+      "result": {
+        "timestamp": "2025-05-19T21:48:43.159915",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:50:37.636993",
+      "result": {
+        "timestamp": "2025-05-19T21:50:37.636310",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:52:55.351531",
+      "result": {
+        "timestamp": "2025-05-19T21:52:55.350794",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:53:29.510097",
+      "result": {
+        "timestamp": "2025-05-19T21:53:29.508099",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:56:00.580548",
+      "result": {
+        "timestamp": "2025-05-19T21:56:00.579842",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:57:55.353086",
+      "result": {
+        "timestamp": "2025-05-19T21:57:55.352242",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T21:59:27.948061",
+      "result": {
+        "timestamp": "2025-05-19T21:59:27.946903",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:02:55.355108",
+      "result": {
+        "timestamp": "2025-05-19T22:02:55.353968",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:07:59.372409",
+      "result": {
+        "timestamp": "2025-05-19T22:07:59.371841",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:08:00.599291",
+      "result": {
+        "timestamp": "2025-05-19T22:08:00.598527",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:11:49.394426",
+      "result": {
+        "timestamp": "2025-05-19T22:11:49.392495",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:12:00.322134",
+      "result": {
+        "timestamp": "2025-05-19T22:12:00.321481",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:12:03.658763",
+      "result": {
+        "timestamp": "2025-05-19T22:12:03.653785",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:12:06.845049",
+      "result": {
+        "timestamp": "2025-05-19T22:12:06.843355",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:12:37.544930",
+      "result": {
+        "timestamp": "2025-05-19T22:12:37.542482",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:12:59.375814",
+      "result": {
+        "timestamp": "2025-05-19T22:12:59.373552",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:13:56.443287",
+      "result": {
+        "timestamp": "2025-05-19T22:13:56.442543",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:13:59.938699",
+      "result": {
+        "timestamp": "2025-05-19T22:13:59.937993",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:14:33.969666",
+      "result": {
+        "timestamp": "2025-05-19T22:14:33.968831",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:14:50.977184",
+      "result": {
+        "timestamp": "2025-05-19T22:14:50.975487",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:17:58.046552",
+      "result": {
+        "timestamp": "2025-05-19T22:17:58.045845",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:17:59.380878",
+      "result": {
+        "timestamp": "2025-05-19T22:17:59.379616",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:18:00.996183",
+      "result": {
+        "timestamp": "2025-05-19T22:18:00.995388",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:18:05.358161",
+      "result": {
+        "timestamp": "2025-05-19T22:18:05.357505",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:18:25.511502",
+      "result": {
+        "timestamp": "2025-05-19T22:18:25.510662",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:20:16.114714",
+      "result": {
+        "timestamp": "2025-05-19T22:20:16.111618",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:20:17.526265",
+      "result": {
+        "timestamp": "2025-05-19T22:20:17.516470",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:21:03.441993",
+      "result": {
+        "timestamp": "2025-05-19T22:21:03.440707",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:21:06.606560",
+      "result": {
+        "timestamp": "2025-05-19T22:21:06.605473",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:21:17.264951",
+      "result": {
+        "timestamp": "2025-05-19T22:21:17.256665",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:21:24.544761",
+      "result": {
+        "timestamp": "2025-05-19T22:21:24.535119",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:22:10.168706",
+      "result": {
+        "timestamp": "2025-05-19T22:22:10.167698",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:22:44.530066",
+      "result": {
+        "timestamp": "2025-05-19T22:22:44.529095",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:23:10.230661",
+      "result": {
+        "timestamp": "2025-05-19T22:23:10.229525",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:23:17.216791",
+      "result": {
+        "timestamp": "2025-05-19T22:23:17.215815",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:23:26.540153",
+      "result": {
+        "timestamp": "2025-05-19T22:23:26.539115",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:23:29.609766",
+      "result": {
+        "timestamp": "2025-05-19T22:23:29.608226",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:23:42.695497",
+      "result": {
+        "timestamp": "2025-05-19T22:23:42.694029",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:23:50.286709",
+      "result": {
+        "timestamp": "2025-05-19T22:23:50.285628",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:24:37.003669",
+      "result": {
+        "timestamp": "2025-05-19T22:24:37.002464",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:24:47.729275",
+      "result": {
+        "timestamp": "2025-05-19T22:24:47.728428",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:24:52.328659",
+      "result": {
+        "timestamp": "2025-05-19T22:24:52.327356",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:24:55.899901",
+      "result": {
+        "timestamp": "2025-05-19T22:24:55.895985",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:24:59.842637",
+      "result": {
+        "timestamp": "2025-05-19T22:24:59.840592",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:25:04.289325",
+      "result": {
+        "timestamp": "2025-05-19T22:25:04.288319",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:25:06.506585",
+      "result": {
+        "timestamp": "2025-05-19T22:25:06.500092",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:25:10.427086",
+      "result": {
+        "timestamp": "2025-05-19T22:25:10.425028",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:25:16.120911",
+      "result": {
+        "timestamp": "2025-05-19T22:25:16.119964",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:25:36.271210",
+      "result": {
+        "timestamp": "2025-05-19T22:25:36.269692",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:28:09.761680",
+      "result": {
+        "timestamp": "2025-05-19T22:28:09.753771",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:28:11.137473",
+      "result": {
+        "timestamp": "2025-05-19T22:28:11.136533",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:29:21.681422",
+      "result": {
+        "timestamp": "2025-05-19T22:29:21.677588",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:30:27.947288",
+      "result": {
+        "timestamp": "2025-05-19T22:30:27.946155",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:30:43.596011",
+      "result": {
+        "timestamp": "2025-05-19T22:30:43.592367",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:30:59.638591",
+      "result": {
+        "timestamp": "2025-05-19T22:30:59.632212",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:32:01.908743",
+      "result": {
+        "timestamp": "2025-05-19T22:32:01.907497",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:32:05.054457",
+      "result": {
+        "timestamp": "2025-05-19T22:32:05.050157",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:32:22.239262",
+      "result": {
+        "timestamp": "2025-05-19T22:32:22.237621",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:32:29.403614",
+      "result": {
+        "timestamp": "2025-05-19T22:32:29.401802",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:33:09.764811",
+      "result": {
+        "timestamp": "2025-05-19T22:33:09.763277",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:33:17.460720",
+      "result": {
+        "timestamp": "2025-05-19T22:33:17.456054",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:33:19.557217",
+      "result": {
+        "timestamp": "2025-05-19T22:33:19.553609",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:33:30.707576",
+      "result": {
+        "timestamp": "2025-05-19T22:33:30.705498",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:34:19.175506",
+      "result": {
+        "timestamp": "2025-05-19T22:34:19.173903",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:34:22.583773",
+      "result": {
+        "timestamp": "2025-05-19T22:34:22.582496",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:34:41.402543",
+      "result": {
+        "timestamp": "2025-05-19T22:34:41.399295",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:36:14.345725",
+      "result": {
+        "timestamp": "2025-05-19T22:36:14.341720",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:36:18.566125",
+      "result": {
+        "timestamp": "2025-05-19T22:36:18.562411",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:36:32.982673",
+      "result": {
+        "timestamp": "2025-05-19T22:36:32.979148",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:37:16.060073",
+      "result": {
+        "timestamp": "2025-05-19T22:37:16.058213",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:37:19.435311",
+      "result": {
+        "timestamp": "2025-05-19T22:37:19.433693",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:37:39.802322",
+      "result": {
+        "timestamp": "2025-05-19T22:37:39.782647",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:38:02.080860",
+      "result": {
+        "timestamp": "2025-05-19T22:38:02.079327",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:38:04.010182",
+      "result": {
+        "timestamp": "2025-05-19T22:38:04.002487",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:38:09.769361",
+      "result": {
+        "timestamp": "2025-05-19T22:38:09.767591",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:38:30.161763",
+      "result": {
+        "timestamp": "2025-05-19T22:38:30.160184",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:38:47.416449",
+      "result": {
+        "timestamp": "2025-05-19T22:38:47.412127",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:38:49.307350",
+      "result": {
+        "timestamp": "2025-05-19T22:38:49.306469",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:39:11.576792",
+      "result": {
+        "timestamp": "2025-05-19T22:39:11.575119",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:39:25.212975",
+      "result": {
+        "timestamp": "2025-05-19T22:39:25.210833",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:39:28.289589",
+      "result": {
+        "timestamp": "2025-05-19T22:39:28.285397",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:39:39.446103",
+      "result": {
+        "timestamp": "2025-05-19T22:39:39.444154",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:39:51.298229",
+      "result": {
+        "timestamp": "2025-05-19T22:39:51.296275",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:39:54.413221",
+      "result": {
+        "timestamp": "2025-05-19T22:39:54.411691",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:40:08.180199",
+      "result": {
+        "timestamp": "2025-05-19T22:40:08.169846",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:40:22.150231",
+      "result": {
+        "timestamp": "2025-05-19T22:40:22.148335",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:40:25.704082",
+      "result": {
+        "timestamp": "2025-05-19T22:40:25.696900",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:40:35.399454",
+      "result": {
+        "timestamp": "2025-05-19T22:40:35.382824",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:40:50.085451",
+      "result": {
+        "timestamp": "2025-05-19T22:40:50.080416",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:41:03.880689",
+      "result": {
+        "timestamp": "2025-05-19T22:41:03.872191",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:41:33.691493",
+      "result": {
+        "timestamp": "2025-05-19T22:41:33.690280",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:41:36.804441",
+      "result": {
+        "timestamp": "2025-05-19T22:41:36.801023",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:41:49.000244",
+      "result": {
+        "timestamp": "2025-05-19T22:41:48.997906",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:42:41.621886",
+      "result": {
+        "timestamp": "2025-05-19T22:42:41.619887",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:42:44.711656",
+      "result": {
+        "timestamp": "2025-05-19T22:42:44.706926",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:42:59.240137",
+      "result": {
+        "timestamp": "2025-05-19T22:42:59.238050",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:43:09.772560",
+      "result": {
+        "timestamp": "2025-05-19T22:43:09.771170",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:43:10.758176",
+      "result": {
+        "timestamp": "2025-05-19T22:43:10.750081",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:43:16.036185",
+      "result": {
+        "timestamp": "2025-05-19T22:43:16.028276",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:43:34.855721",
+      "result": {
+        "timestamp": "2025-05-19T22:43:34.850226",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:43:40.869529",
+      "result": {
+        "timestamp": "2025-05-19T22:43:40.862002",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:44:27.428138",
+      "result": {
+        "timestamp": "2025-05-19T22:44:27.424528",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:44:30.784298",
+      "result": {
+        "timestamp": "2025-05-19T22:44:30.780997",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:44:53.360248",
+      "result": {
+        "timestamp": "2025-05-19T22:44:53.355355",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:45:59.740501",
+      "result": {
+        "timestamp": "2025-05-19T22:45:59.738830",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:46:00.982058",
+      "result": {
+        "timestamp": "2025-05-19T22:46:00.980236",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:50:59.743997",
+      "result": {
+        "timestamp": "2025-05-19T22:50:59.742162",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:51:00.985148",
+      "result": {
+        "timestamp": "2025-05-19T22:51:00.983957",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:55:59.747377",
+      "result": {
+        "timestamp": "2025-05-19T22:55:59.745943",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:56:00.989037",
+      "result": {
+        "timestamp": "2025-05-19T22:56:00.987291",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:56:19.358463",
+      "result": {
+        "timestamp": "2025-05-19T22:56:19.357105",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T22:59:25.094689",
+      "result": {
+        "timestamp": "2025-05-19T22:59:25.093121",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:00:59.749996",
+      "result": {
+        "timestamp": "2025-05-19T23:00:59.749075",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:03:30.711928",
+      "result": {
+        "timestamp": "2025-05-19T23:03:30.700967",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:05:59.752782",
+      "result": {
+        "timestamp": "2025-05-19T23:05:59.751763",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:08:30.719097",
+      "result": {
+        "timestamp": "2025-05-19T23:08:30.716640",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:09:56.205716",
+      "result": {
+        "timestamp": "2025-05-19T23:09:56.203973",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:10:20.151513",
+      "result": {
+        "timestamp": "2025-05-19T23:10:20.149993",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:10:59.755695",
+      "result": {
+        "timestamp": "2025-05-19T23:10:59.754360",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:11:51.944531",
+      "result": {
+        "timestamp": "2025-05-19T23:11:51.942648",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:15:59.759534",
+      "result": {
+        "timestamp": "2025-05-19T23:15:59.757655",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:16:02.339276",
+      "result": {
+        "timestamp": "2025-05-19T23:16:02.329845",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:16:14.592045",
+      "result": {
+        "timestamp": "2025-05-19T23:16:14.590474",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:16:45.608264",
+      "result": {
+        "timestamp": "2025-05-19T23:16:45.606945",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:20:59.763368",
+      "result": {
+        "timestamp": "2025-05-19T23:20:59.761893",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:21:02.342883",
+      "result": {
+        "timestamp": "2025-05-19T23:21:02.341546",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:23:34.568847",
+      "result": {
+        "timestamp": "2025-05-19T23:23:34.562772",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:24:30.912112",
+      "result": {
+        "timestamp": "2025-05-19T23:24:30.909351",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:25:59.767005",
+      "result": {
+        "timestamp": "2025-05-19T23:25:59.765702",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:44:01.093464",
+      "result": {
+        "timestamp": "2025-05-19T23:44:01.092112",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:44:02.522326",
+      "result": {
+        "timestamp": "2025-05-19T23:44:02.508545",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:49:01.096762",
+      "result": {
+        "timestamp": "2025-05-19T23:49:01.095189",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:49:02.534118",
+      "result": {
+        "timestamp": "2025-05-19T23:49:02.531153",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:53:05.053460",
+      "result": {
+        "timestamp": "2025-05-19T23:53:05.051607",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:54:01.100787",
+      "result": {
+        "timestamp": "2025-05-19T23:54:01.099143",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:54:02.537849",
+      "result": {
+        "timestamp": "2025-05-19T23:54:02.536326",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:54:59.791067",
+      "result": {
+        "timestamp": "2025-05-19T23:54:59.781349",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:55:04.343869",
+      "result": {
+        "timestamp": "2025-05-19T23:55:04.338601",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:57:10.248486",
+      "result": {
+        "timestamp": "2025-05-19T23:57:10.245137",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:58:09.828921",
+      "result": {
+        "timestamp": "2025-05-19T23:58:09.823389",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-19T23:59:01.105391",
+      "result": {
+        "timestamp": "2025-05-19T23:59:01.103075",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:02:10.258432",
+      "result": {
+        "timestamp": "2025-05-20T00:02:10.256314",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:03:14.425456",
+      "result": {
+        "timestamp": "2025-05-20T00:03:14.423325",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:04:01.110283",
+      "result": {
+        "timestamp": "2025-05-20T00:04:01.108540",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:07:10.263202",
+      "result": {
+        "timestamp": "2025-05-20T00:07:10.260943",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:09:01.119307",
+      "result": {
+        "timestamp": "2025-05-20T00:09:01.118136",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:12:10.267612",
+      "result": {
+        "timestamp": "2025-05-20T00:12:10.265754",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:13:46.007982",
+      "result": {
+        "timestamp": "2025-05-20T00:13:46.002834",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:14:01.122881",
+      "result": {
+        "timestamp": "2025-05-20T00:14:01.121158",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:17:10.271579",
+      "result": {
+        "timestamp": "2025-05-20T00:17:10.269867",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:19:01.126784",
+      "result": {
+        "timestamp": "2025-05-20T00:19:01.125296",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:21:30.343742",
+      "result": {
+        "timestamp": "2025-05-20T00:21:30.342667",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:21:31.899457",
+      "result": {
+        "timestamp": "2025-05-20T00:21:31.889393",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:34:11.921292",
+      "result": {
+        "timestamp": "2025-05-20T00:34:11.919003",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:34:13.092407",
+      "result": {
+        "timestamp": "2025-05-20T00:34:13.090319",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:36:34.941300",
+      "result": {
+        "timestamp": "2025-05-20T00:36:34.939829",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:36:36.216086",
+      "result": {
+        "timestamp": "2025-05-20T00:36:36.213322",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:41:47.850358",
+      "result": {
+        "timestamp": "2025-05-20T00:41:47.838092",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:41:49.169310",
+      "result": {
+        "timestamp": "2025-05-20T00:41:49.164892",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:46:14.287474",
+      "result": {
+        "timestamp": "2025-05-20T00:46:14.286057",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:46:27.096071",
+      "result": {
+        "timestamp": "2025-05-20T00:46:27.088563",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:46:47.855568",
+      "result": {
+        "timestamp": "2025-05-20T00:46:47.853923",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:48:45.342841",
+      "result": {
+        "timestamp": "2025-05-20T00:48:45.330742",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:49:02.934517",
+      "result": {
+        "timestamp": "2025-05-20T00:49:02.933036",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:51:47.860305",
+      "result": {
+        "timestamp": "2025-05-20T00:51:47.858588",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:53:45.347662",
+      "result": {
+        "timestamp": "2025-05-20T00:53:45.345738",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:56:47.864490",
+      "result": {
+        "timestamp": "2025-05-20T00:56:47.862813",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T00:58:45.350969",
+      "result": {
+        "timestamp": "2025-05-20T00:58:45.349526",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T01:01:47.870294",
+      "result": {
+        "timestamp": "2025-05-20T01:01:47.867283",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T01:03:45.355026",
+      "result": {
+        "timestamp": "2025-05-20T01:03:45.353529",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T01:06:47.875557",
+      "result": {
+        "timestamp": "2025-05-20T01:06:47.874277",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T01:08:45.360526",
+      "result": {
+        "timestamp": "2025-05-20T01:08:45.357461",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T01:27:09.300332",
+      "result": {
+        "timestamp": "2025-05-20T01:27:09.288413",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T01:27:10.471584",
+      "result": {
+        "timestamp": "2025-05-20T01:27:10.461235",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T01:32:09.307203",
+      "result": {
+        "timestamp": "2025-05-20T01:32:09.303191",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T01:32:10.476775",
+      "result": {
+        "timestamp": "2025-05-20T01:32:10.474755",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:10:07.284790",
+      "result": {
+        "timestamp": "2025-05-20T02:10:07.280322",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:10:08.557927",
+      "result": {
+        "timestamp": "2025-05-20T02:10:08.555919",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:15:07.310625",
+      "result": {
+        "timestamp": "2025-05-20T02:15:07.299621",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:15:08.572103",
+      "result": {
+        "timestamp": "2025-05-20T02:15:08.570745",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:20:07.315618",
+      "result": {
+        "timestamp": "2025-05-20T02:20:07.313642",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:20:08.576962",
+      "result": {
+        "timestamp": "2025-05-20T02:20:08.574989",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:25:07.320380",
+      "result": {
+        "timestamp": "2025-05-20T02:25:07.318247",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:25:08.585655",
+      "result": {
+        "timestamp": "2025-05-20T02:25:08.581303",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:26:00.007261",
+      "result": {
+        "timestamp": "2025-05-20T02:25:59.992878",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:30:00.331562",
+      "result": {
+        "timestamp": "2025-05-20T02:30:00.327562",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:30:07.324946",
+      "result": {
+        "timestamp": "2025-05-20T02:30:07.323242",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:30:08.593513",
+      "result": {
+        "timestamp": "2025-05-20T02:30:08.591533",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:31:40.517122",
+      "result": {
+        "timestamp": "2025-05-20T02:31:40.511237",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:34:25.813525",
+      "result": {
+        "timestamp": "2025-05-20T02:34:25.804626",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:34:26.983941",
+      "result": {
+        "timestamp": "2025-05-20T02:34:26.975380",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:42:08.378364",
+      "result": {
+        "timestamp": "2025-05-20T02:42:08.373532",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:42:09.598372",
+      "result": {
+        "timestamp": "2025-05-20T02:42:09.593141",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:47:08.387374",
+      "result": {
+        "timestamp": "2025-05-20T02:47:08.385107",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:47:09.611203",
+      "result": {
+        "timestamp": "2025-05-20T02:47:09.609469",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:52:08.391296",
+      "result": {
+        "timestamp": "2025-05-20T02:52:08.389933",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:52:09.617524",
+      "result": {
+        "timestamp": "2025-05-20T02:52:09.615299",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:57:08.395058",
+      "result": {
+        "timestamp": "2025-05-20T02:57:08.393724",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T02:57:09.622728",
+      "result": {
+        "timestamp": "2025-05-20T02:57:09.620901",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:02:09.700347",
+      "result": {
+        "timestamp": "2025-05-20T03:02:09.696245",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:02:10.929605",
+      "result": {
+        "timestamp": "2025-05-20T03:02:10.925781",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:07:09.712001",
+      "result": {
+        "timestamp": "2025-05-20T03:07:09.710547",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:07:10.938695",
+      "result": {
+        "timestamp": "2025-05-20T03:07:10.937333",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:12:09.715864",
+      "result": {
+        "timestamp": "2025-05-20T03:12:09.714227",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:12:10.943325",
+      "result": {
+        "timestamp": "2025-05-20T03:12:10.941894",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:17:01.934518",
+      "result": {
+        "timestamp": "2025-05-20T03:17:01.927448",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:17:09.720472",
+      "result": {
+        "timestamp": "2025-05-20T03:17:09.718968",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:17:10.947175",
+      "result": {
+        "timestamp": "2025-05-20T03:17:10.945799",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:22:09.725021",
+      "result": {
+        "timestamp": "2025-05-20T03:22:09.723120",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:22:10.951680",
+      "result": {
+        "timestamp": "2025-05-20T03:22:10.949370",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:22:40.199580",
+      "result": {
+        "timestamp": "2025-05-20T03:22:40.197945",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:24:31.319018",
+      "result": {
+        "timestamp": "2025-05-20T03:24:31.316194",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:24:32.553941",
+      "result": {
+        "timestamp": "2025-05-20T03:24:32.545941",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:25:58.999216",
+      "result": {
+        "timestamp": "2025-05-20T03:25:58.992149",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:30:47.096264",
+      "result": {
+        "timestamp": "2025-05-20T03:30:47.092480",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:30:48.264826",
+      "result": {
+        "timestamp": "2025-05-20T03:30:48.261874",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:31:38.673841",
+      "result": {
+        "timestamp": "2025-05-20T03:31:38.667569",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:31:44.923138",
+      "result": {
+        "timestamp": "2025-05-20T03:31:44.920934",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:34:32.802148",
+      "result": {
+        "timestamp": "2025-05-20T03:34:32.798670",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:35:47.104438",
+      "result": {
+        "timestamp": "2025-05-20T03:35:47.102077",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:38:22.178397",
+      "result": {
+        "timestamp": "2025-05-20T03:38:22.171899",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:40:47.109587",
+      "result": {
+        "timestamp": "2025-05-20T03:40:47.107347",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:42:40.306412",
+      "result": {
+        "timestamp": "2025-05-20T03:42:40.304454",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:44:25.652587",
+      "result": {
+        "timestamp": "2025-05-20T03:44:25.646612",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:45:47.114773",
+      "result": {
+        "timestamp": "2025-05-20T03:45:47.112908",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:46:35.516125",
+      "result": {
+        "timestamp": "2025-05-20T03:46:35.513235",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:47:40.313229",
+      "result": {
+        "timestamp": "2025-05-20T03:47:40.309772",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:48:30.319416",
+      "result": {
+        "timestamp": "2025-05-20T03:48:30.313476",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:49:01.651189",
+      "result": {
+        "timestamp": "2025-05-20T03:49:01.647594",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:49:16.732533",
+      "result": {
+        "timestamp": "2025-05-20T03:49:16.720984",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:50:47.120055",
+      "result": {
+        "timestamp": "2025-05-20T03:50:47.117885",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:51:05.639994",
+      "result": {
+        "timestamp": "2025-05-20T03:51:05.631761",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:54:01.658060",
+      "result": {
+        "timestamp": "2025-05-20T03:54:01.655429",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:54:21.629384",
+      "result": {
+        "timestamp": "2025-05-20T03:54:21.616745",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:54:25.941970",
+      "result": {
+        "timestamp": "2025-05-20T03:54:25.933392",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:55:47.125234",
+      "result": {
+        "timestamp": "2025-05-20T03:55:47.123171",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:58:07.373411",
+      "result": {
+        "timestamp": "2025-05-20T03:58:07.368832",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:58:26.451717",
+      "result": {
+        "timestamp": "2025-05-20T03:58:26.445741",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:58:35.860194",
+      "result": {
+        "timestamp": "2025-05-20T03:58:35.857903",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:59:12.207465",
+      "result": {
+        "timestamp": "2025-05-20T03:59:12.203500",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T03:59:51.805853",
+      "result": {
+        "timestamp": "2025-05-20T03:59:51.792979",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:00:41.644120",
+      "result": {
+        "timestamp": "2025-05-20T04:00:41.637880",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:00:47.131290",
+      "result": {
+        "timestamp": "2025-05-20T04:00:47.128775",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:01:36.831619",
+      "result": {
+        "timestamp": "2025-05-20T04:01:36.829282",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:02:15.715008",
+      "result": {
+        "timestamp": "2025-05-20T04:02:15.710185",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:02:20.244870",
+      "result": {
+        "timestamp": "2025-05-20T04:02:20.234291",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:03:07.045879",
+      "result": {
+        "timestamp": "2025-05-20T04:03:07.036511",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:05:47.138489",
+      "result": {
+        "timestamp": "2025-05-20T04:05:47.135027",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:06:30.814661",
+      "result": {
+        "timestamp": "2025-05-20T04:06:30.802968",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:10:47.144849",
+      "result": {
+        "timestamp": "2025-05-20T04:10:47.142633",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:11:30.824003",
+      "result": {
+        "timestamp": "2025-05-20T04:11:30.820156",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:12:20.015364",
+      "result": {
+        "timestamp": "2025-05-20T04:12:20.004619",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:15:47.152032",
+      "result": {
+        "timestamp": "2025-05-20T04:15:47.148346",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:17:20.028347",
+      "result": {
+        "timestamp": "2025-05-20T04:17:20.026156",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:18:07.774833",
+      "result": {
+        "timestamp": "2025-05-20T04:18:07.749882",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:19:50.969924",
+      "result": {
+        "timestamp": "2025-05-20T04:19:50.961391",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:20:10.634512",
+      "result": {
+        "timestamp": "2025-05-20T04:20:10.628852",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:20:31.344173",
+      "result": {
+        "timestamp": "2025-05-20T04:20:31.338841",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:20:47.160322",
+      "result": {
+        "timestamp": "2025-05-20T04:20:47.156884",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:22:14.370946",
+      "result": {
+        "timestamp": "2025-05-20T04:22:14.358214",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:23:33.760611",
+      "result": {
+        "timestamp": "2025-05-20T04:23:33.752205",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:23:47.359301",
+      "result": {
+        "timestamp": "2025-05-20T04:23:47.349478",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:24:36.443092",
+      "result": {
+        "timestamp": "2025-05-20T04:24:36.428727",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:24:50.121892",
+      "result": {
+        "timestamp": "2025-05-20T04:24:50.118004",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:25:05.984465",
+      "result": {
+        "timestamp": "2025-05-20T04:25:05.977984",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:25:19.965059",
+      "result": {
+        "timestamp": "2025-05-20T04:25:19.949170",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:25:43.463972",
+      "result": {
+        "timestamp": "2025-05-20T04:25:43.459162",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:25:47.166905",
+      "result": {
+        "timestamp": "2025-05-20T04:25:47.163745",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:26:16.844066",
+      "result": {
+        "timestamp": "2025-05-20T04:26:16.838663",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:27:46.452617",
+      "result": {
+        "timestamp": "2025-05-20T04:27:46.444747",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:27:47.679843",
+      "result": {
+        "timestamp": "2025-05-20T04:27:47.672831",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:28:32.099141",
+      "result": {
+        "timestamp": "2025-05-20T04:28:32.087379",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:29:20.154058",
+      "result": {
+        "timestamp": "2025-05-20T04:29:20.142565",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:29:52.788532",
+      "result": {
+        "timestamp": "2025-05-20T04:29:52.782508",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:30:40.542576",
+      "result": {
+        "timestamp": "2025-05-20T04:30:40.537905",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:32:46.463353",
+      "result": {
+        "timestamp": "2025-05-20T04:32:46.460426",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:35:40.556778",
+      "result": {
+        "timestamp": "2025-05-20T04:35:40.554416",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:37:46.470326",
+      "result": {
+        "timestamp": "2025-05-20T04:37:46.467306",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:40:40.563499",
+      "result": {
+        "timestamp": "2025-05-20T04:40:40.559794",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:42:46.477087",
+      "result": {
+        "timestamp": "2025-05-20T04:42:46.474165",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:44:41.459794",
+      "result": {
+        "timestamp": "2025-05-20T04:44:41.448864",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:44:50.446588",
+      "result": {
+        "timestamp": "2025-05-20T04:44:50.441982",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:45:55.791156",
+      "result": {
+        "timestamp": "2025-05-20T04:45:55.779562",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:47:46.484503",
+      "result": {
+        "timestamp": "2025-05-20T04:47:46.481138",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:50:55.799388",
+      "result": {
+        "timestamp": "2025-05-20T04:50:55.796807",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:52:00.927958",
+      "result": {
+        "timestamp": "2025-05-20T04:52:00.920298",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:52:46.490927",
+      "result": {
+        "timestamp": "2025-05-20T04:52:46.487648",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:53:20.700560",
+      "result": {
+        "timestamp": "2025-05-20T04:53:20.696389",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:53:42.972601",
+      "result": {
+        "timestamp": "2025-05-20T04:53:42.961111",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:56:40.284623",
+      "result": {
+        "timestamp": "2025-05-20T04:56:40.274765",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:56:41.376743",
+      "result": {
+        "timestamp": "2025-05-20T04:56:41.366804",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T04:57:23.232013",
+      "result": {
+        "timestamp": "2025-05-20T04:57:23.220873",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:01:40.297887",
+      "result": {
+        "timestamp": "2025-05-20T05:01:40.293394",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:02:23.241851",
+      "result": {
+        "timestamp": "2025-05-20T05:02:23.237856",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:04:27.145763",
+      "result": {
+        "timestamp": "2025-05-20T05:04:27.139352",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:04:43.512698",
+      "result": {
+        "timestamp": "2025-05-20T05:04:43.500855",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:05:19.210329",
+      "result": {
+        "timestamp": "2025-05-20T05:05:19.203669",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:06:40.306243",
+      "result": {
+        "timestamp": "2025-05-20T05:06:40.302205",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:10:19.222951",
+      "result": {
+        "timestamp": "2025-05-20T05:10:19.219515",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:11:40.317640",
+      "result": {
+        "timestamp": "2025-05-20T05:11:40.310886",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:15:19.229753",
+      "result": {
+        "timestamp": "2025-05-20T05:15:19.226300",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:16:40.335430",
+      "result": {
+        "timestamp": "2025-05-20T05:16:40.330242",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:20:19.237503",
+      "result": {
+        "timestamp": "2025-05-20T05:20:19.233670",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:21:40.343885",
+      "result": {
+        "timestamp": "2025-05-20T05:21:40.340067",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:23:05.866006",
+      "result": {
+        "timestamp": "2025-05-20T05:23:05.858678",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:24:37.261580",
+      "result": {
+        "timestamp": "2025-05-20T05:24:37.257639",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:26:40.351330",
+      "result": {
+        "timestamp": "2025-05-20T05:26:40.347834",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:32:23.238261",
+      "result": {
+        "timestamp": "2025-05-20T05:32:23.223831",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:32:24.595593",
+      "result": {
+        "timestamp": "2025-05-20T05:32:24.582826",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:34:35.247354",
+      "result": {
+        "timestamp": "2025-05-20T05:34:35.232291",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:36:08.713746",
+      "result": {
+        "timestamp": "2025-05-20T05:36:08.699603",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:36:54.671241",
+      "result": {
+        "timestamp": "2025-05-20T05:36:54.652082",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:37:23.251389",
+      "result": {
+        "timestamp": "2025-05-20T05:37:23.246404",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:37:35.994389",
+      "result": {
+        "timestamp": "2025-05-20T05:37:35.989575",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:41:03.694697",
+      "result": {
+        "timestamp": "2025-05-20T05:41:03.670828",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:42:23.260219",
+      "result": {
+        "timestamp": "2025-05-20T05:42:23.255946",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:46:03.708918",
+      "result": {
+        "timestamp": "2025-05-20T05:46:03.705192",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:47:23.268875",
+      "result": {
+        "timestamp": "2025-05-20T05:47:23.264590",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:47:36.979869",
+      "result": {
+        "timestamp": "2025-05-20T05:47:36.974082",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:52:23.277785",
+      "result": {
+        "timestamp": "2025-05-20T05:52:23.273058",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:52:37.001340",
+      "result": {
+        "timestamp": "2025-05-20T05:52:36.996681",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:55:21.305873",
+      "result": {
+        "timestamp": "2025-05-20T05:55:21.297750",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:56:32.115749",
+      "result": {
+        "timestamp": "2025-05-20T05:56:32.101788",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T05:57:23.287886",
+      "result": {
+        "timestamp": "2025-05-20T05:57:23.282955",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:01:32.129848",
+      "result": {
+        "timestamp": "2025-05-20T06:01:32.126045",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:02:23.297375",
+      "result": {
+        "timestamp": "2025-05-20T06:02:23.293270",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:02:33.155911",
+      "result": {
+        "timestamp": "2025-05-20T06:02:33.109378",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:02:45.761501",
+      "result": {
+        "timestamp": "2025-05-20T06:02:45.749566",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:03:01.629088",
+      "result": {
+        "timestamp": "2025-05-20T06:03:01.620933",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:04:23.455971",
+      "result": {
+        "timestamp": "2025-05-20T06:04:23.446224",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:05:09.618653",
+      "result": {
+        "timestamp": "2025-05-20T06:05:09.579469",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:07:23.306024",
+      "result": {
+        "timestamp": "2025-05-20T06:07:23.301086",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:08:01.247294",
+      "result": {
+        "timestamp": "2025-05-20T06:08:01.240375",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:09:43.558482",
+      "result": {
+        "timestamp": "2025-05-20T06:09:43.550870",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:11:33.541790",
+      "result": {
+        "timestamp": "2025-05-20T06:11:33.525936",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:11:46.604717",
+      "result": {
+        "timestamp": "2025-05-20T06:11:46.589609",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:12:23.314224",
+      "result": {
+        "timestamp": "2025-05-20T06:12:23.310055",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:13:02.210305",
+      "result": {
+        "timestamp": "2025-05-20T06:13:02.204902",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:15:55.117917",
+      "result": {
+        "timestamp": "2025-05-20T06:15:55.105862",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:17:23.323680",
+      "result": {
+        "timestamp": "2025-05-20T06:17:23.318061",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:17:24.684802",
+      "result": {
+        "timestamp": "2025-05-20T06:17:24.665739",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:18:57.361051",
+      "result": {
+        "timestamp": "2025-05-20T06:18:57.348810",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:22:11.563303",
+      "result": {
+        "timestamp": "2025-05-20T06:22:11.553488",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:22:23.336330",
+      "result": {
+        "timestamp": "2025-05-20T06:22:23.328471",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:22:24.703304",
+      "result": {
+        "timestamp": "2025-05-20T06:22:24.698019",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:27:23.346364",
+      "result": {
+        "timestamp": "2025-05-20T06:27:23.341557",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:27:24.711898",
+      "result": {
+        "timestamp": "2025-05-20T06:27:24.707828",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:28:21.553235",
+      "result": {
+        "timestamp": "2025-05-20T06:28:21.540276",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:32:23.355318",
+      "result": {
+        "timestamp": "2025-05-20T06:32:23.351018",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:33:21.569677",
+      "result": {
+        "timestamp": "2025-05-20T06:33:21.562009",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:33:42.243564",
+      "result": {
+        "timestamp": "2025-05-20T06:33:42.230914",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:34:06.483299",
+      "result": {
+        "timestamp": "2025-05-20T06:34:06.473944",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:35:20.122450",
+      "result": {
+        "timestamp": "2025-05-20T06:35:20.105744",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:36:36.792888",
+      "result": {
+        "timestamp": "2025-05-20T06:36:36.777976",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:37:23.364807",
+      "result": {
+        "timestamp": "2025-05-20T06:37:23.359511",
+        "event": "Market closed. No trade executed."
+      }
+    },
+    {
+      "timestamp": "2025-05-20T06:38:25.893431",
+      "result": {
+        "timestamp": "2025-05-20T06:38:25.879882",
+        "event": "Market closed. No trade executed."
+      }
+    }
+  ]
+}

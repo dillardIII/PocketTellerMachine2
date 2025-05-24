@@ -1,0 +1,74 @@
+<!-- FILE: templates/assistant_memory_panel.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Assistant Memory Panel</title>
+  <style>
+    body {
+      background-color: #101010;
+      color: #00ffee;
+      font-family: "Segoe UI", sans-serif;
+      padding: 30px;
+      text-align: center;
+    }
+    h1 {
+      color: #00ffaa;
+    }
+    .panel {
+      background-color: #1f1f1f;
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 30px;
+      box-shadow: 0 0 10px #00ffee77;
+    }
+    .memory-row {
+      margin-bottom: 15px;
+    }
+    .memory-label {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-weight: bold;
+      background-color: #00ffaa;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Assistant Memory Panel</h1>
+  <div class="panel">
+    <div class="memory-row">
+      <span class="memory-label">XP:</span>
+      <span id="xp">Loading...</span>
+    </div>
+    <div class="memory-row">
+      <span class="memory-label">Rank:</span>
+      <span id="rank">Loading...</span>
+    </div>
+    <button onclick="resetMemory()">Reset Memory</button>
+  </div>
+
+  <script>
+    async function fetchMemory() {
+      const res = await fetch('/api/assistant_memory');
+      const data = await res.json();
+      document.getElementById("xp").innerText = data.xp || "0";
+      document.getElementById("rank").innerText = data.rank || "Novice";
+    }
+
+    async function resetMemory() {
+      await fetch('/api/reset_assistant_memory', { method: "POST" });
+      alert("Memory reset!");
+      fetchMemory();
+    }
+
+    fetchMemory();
+  </script>
+</body>
+</html>

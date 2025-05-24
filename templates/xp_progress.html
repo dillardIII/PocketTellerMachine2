@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PTM XP Progress</title>
+  <style>
+    body {
+      background: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+      margin: 0;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 20px;
+    }
+
+    .xp-box {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 20px;
+      max-width: 600px;
+      margin: 0 auto 40px;
+      box-shadow: 0 0 12px rgba(0,255,100,0.05);
+    }
+
+    .level {
+      font-size: 18px;
+      font-weight: bold;
+      color: #6fd672;
+      margin-bottom: 10px;
+    }
+
+    .bar-container {
+      background: #333;
+      border-radius: 10px;
+      overflow: hidden;
+      height: 20px;
+      margin: 12px 0;
+    }
+
+    .bar-fill {
+      background: linear-gradient(90deg, #4caf50, #80e487);
+      height: 100%;
+      transition: width 0.4s ease;
+    }
+
+    .milestone {
+      font-size: 14px;
+      margin-top: 10px;
+      color: #ccc;
+    }
+
+    .milestone.achieved {
+      color: #00e676;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>XP Progress Tracker</h1>
+
+  <div class="xp-box">
+    <div class="level">Level: <span id="levelDisplay">1</span></div>
+    <div>Total XP: <span id="totalXP">0</span></div>
+
+    <div class="bar-container">
+      <div class="bar-fill" id="xpBar" style="width: 0%"></div>
+    </div>
+
+    <div>Next Level: <span id="nextXP">100 XP</span></div>
+
+    <div class="milestone" id="milestones">
+      <!-- Milestone updates will appear here -->
+    </div>
+  </div>
+
+  <script>
+    const xp = 380;  // Current XP total
+    const levels = [0, 100, 250, 500, 1000, 2000];  // XP thresholds for each level
+
+    function getLevel(xp) {
+      for (let i = levels.length - 1; i >= 0; i--) {
+        if (xp >= levels[i]) return i;
+      }
+      return 0;
+    }
+
+    const currentLevel = getLevel(xp);
+    const nextLevelXP = levels[currentLevel + 1] || xp;
+    const currentLevelXP = levels[currentLevel];
+    const progress = ((xp - currentLevelXP) / (nextLevelXP - currentLevelXP)) * 100;
+
+    document.getElementById("levelDisplay").textContent = currentLevel;
+    document.getElementById("totalXP").textContent = xp;
+    document.getElementById("nextXP").textContent = `${nextLevelXP} XP`;
+    document.getElementById("xpBar").style.width = `${progress.toFixed(1)}%`;
+
+    // Milestone messages
+    const milestoneBox = document.getElementById("milestones");
+    const milestones = [
+      { xp: 100, label: "XP Beginner Badge" },
+      { xp: 250, label: "XP Climber Badge" },
+      { xp: 500, label: "XP Master Badge" },
+      { xp: 1000, label: "Elite Level Access" }
+    ];
+
+    milestones.forEach(m => {
+      const div = document.createElement("div");
+      div.className = "milestone" + (xp >= m.xp ? " achieved" : "");
+      div.textContent = xp >= m.xp ? `✔ ${m.label} Unlocked` : `○ ${m.label} - Locked`;
+      milestoneBox.appendChild(div);
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Run Backtest</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #eee;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #6fd672;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .container {
+      background: #1f1f1f;
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 600px;
+      margin: 0 auto;
+      box-shadow: 0 0 12px rgba(0, 255, 128, 0.2);
+    }
+
+    button {
+      background-color: #6fd672;
+      color: #000;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    #output {
+      margin-top: 20px;
+      background: #222;
+      padding: 15px;
+      border-radius: 8px;
+      color: #ccc;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <h1>Run Strategy Backtest</h1>
+  <div class="container">
+    <p>Click the button below to run a full backtest of all available option strategies.</p>
+    <button onclick="runBacktest()">Run Backtest</button>
+    <div id="output"></div>
+  </div>
+
+  <script>
+    async function runBacktest() {
+      const output = document.getElementById('output');
+      output.textContent = 'Running backtest... please wait.';
+      try {
+        const response = await fetch('/api/run_backtest');
+        const data = await response.json();
+        output.textContent = `Completed: ${data.success ? 'Success' : 'Failed'}\n\n` +
+          (data.summary ? JSON.stringify(data.summary, null, 2) : data.message);
+      } catch (err) {
+        output.textContent = 'Error occurred: ' + err.message;
+      }
+    }
+  </script>
+</body>
+</html>

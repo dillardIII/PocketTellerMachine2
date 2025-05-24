@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cole AI Phase 6 Controller (Ghost Logger + Review + Voice)</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #f0f0f0;
+            font-family: 'Segoe UI', sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: #6fd672;
+            text-align: center;
+        }
+        .button {
+            background: #6fd672;
+            color: #121212;
+            border: none;
+            padding: 12px 20px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        .log-box {
+            background: #1e1e1e;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            overflow-y: scroll;
+            height: 400px;
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Cole AI Phase 6 Control Center</h1>
+
+    <button class="button" onclick="fetchVoiceSummaries()">Refresh Voice Summaries</button>
+    <button class="button" onclick="fetchTradeReviews()">Refresh Trade Reviews</button>
+    <button class="button" onclick="fetchGhostLogs()">View Ghost Logs</button>
+
+    <div class="log-box" id="dataDisplay">
+        <pre>Click a button to load data...</pre>
+    </div>
+
+    <script>
+        function fetchVoiceSummaries() {
+            fetch('/api/get_voice_summaries')
+            .then(response => response.json())
+            .then(data => {
+                let display = (data.summaries || []).map(item => item.summary).join('\n\n');
+                document.getElementById("dataDisplay").innerText = display || "No summaries found.";
+            })
+            .catch(() => document.getElementById("dataDisplay").innerText = "Error loading voice summaries.");
+        }
+
+        function fetchTradeReviews() {
+            fetch('/api/get_trade_reviews')
+            .then(response => response.json())
+            .then(data => {
+                let display = JSON.stringify(data, null, 2);
+                document.getElementById("dataDisplay").innerText = display || "No trade reviews found.";
+            })
+            .catch(() => document.getElementById("dataDisplay").innerText = "Error loading trade reviews.");
+        }
+
+        function fetchGhostLogs() {
+            fetch('/api/get_ghost_logs')
+            .then(response => response.json())
+            .then(data => {
+                let display = (data.logs || []).map(log => `${log.timestamp} → ${log.message}`).join('\n');
+                document.getElementById("dataDisplay").innerText = display || "No ghost logs found.";
+            })
+            .catch(() => document.getElementById("dataDisplay").innerText = "Error loading ghost logs.");
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pocket Teller Machine - Real-Time Mood Feed</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #121212;
+            color: #f0f0f0;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        header {
+            background: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            color: #6fd672;
+            border-bottom: 2px solid #2a2a2a;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+        .mood-feed {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .mood-card {
+            background: #1e1e1e;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,255,128,0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .mood-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 15px rgba(0,255,128,0.2);
+        }
+        .mood-card h3 {
+            color: #6fd672;
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+        .mood-card p {
+            font-size: 16px;
+            color: #ddd;
+        }
+        .timestamp {
+            font-size: 12px;
+            color: #888;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>Pocket Teller Machine - Real-Time Mood Feed</header>
+
+    <div class="container">
+        <h2>Live Assistant Reactions</h2>
+        <div id="moodFeed" class="mood-feed">
+            <!-- Mood cards will populate here -->
+        </div>
+    </div>
+
+    <script>
+        function fetchMoodFeed() {
+            fetch('/api/get_mood_feed')
+                .then(response => response.json())
+                .then(data => renderMoodFeed(data))
+                .catch(err => console.error("Mood Feed Fetch Error:", err));
+        }
+
+        function renderMoodFeed(moodEntries) {
+            const feedContainer = document.getElementById('moodFeed');
+            feedContainer.innerHTML = '';
+
+            moodEntries.slice(-12).reverse().forEach(entry => {
+                const card = document.createElement('div');
+                card.className = 'mood-card';
+
+                card.innerHTML = `
+                    <h3>${entry.persona} - ${capitalize(entry.mood)}</h3>
+                    <p>"${entry.quote}"</p>
+                    <div class="timestamp">${new Date(entry.timestamp).toLocaleString()}</div>
+                `;
+                feedContainer.appendChild(card);
+            });
+        }
+
+        function capitalize(str) {
+            return str.charAt(0).toUpperCase() + str.slice(1);
+        }
+
+        setInterval(fetchMoodFeed, 5000);
+        window.addEventListener('DOMContentLoaded', fetchMoodFeed);
+    </script>
+</body>
+</html>

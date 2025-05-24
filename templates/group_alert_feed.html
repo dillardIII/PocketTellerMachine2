@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PTM Group Alert Feed</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 30px;
+    }
+
+    .feed {
+      max-width: 900px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .alert-card {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      padding: 16px;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0,255,100,0.05);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .alert-content {
+      max-width: 70%;
+    }
+
+    .alert-header {
+      font-weight: bold;
+      color: #6fd672;
+      font-size: 16px;
+    }
+
+    .alert-msg {
+      margin-top: 6px;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    .badge {
+      font-size: 12px;
+      padding: 4px 8px;
+      border-radius: 6px;
+      background: #4caf50;
+      color: #fff;
+      margin-left: 10px;
+    }
+
+    .emoji {
+      font-size: 24px;
+    }
+
+    audio {
+      display: block;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Team Feed & Alerts</h1>
+
+  <div class="feed" id="alertFeed">
+    <!-- Alerts will be added dynamically -->
+  </div>
+
+  <script>
+    const alerts = [
+      {
+        user: "Mo Cash",
+        message: "Executed bullish credit spread on $AAPL. Targeting premium gains!",
+        badge: "Alpha Trade",
+        voice: "/static/audio/mo_cash_aapl.mp3",
+        emoji: "⚡"
+      },
+      {
+        user: "Mentor",
+        message: "Educated 3 members today on RSI strategy. Earned 100 XP.",
+        badge: "Educator",
+        voice: "/static/audio/mentor_rsi.mp3",
+        emoji: "📘"
+      },
+      {
+        user: "Strategist",
+        message: "Group just closed 5 profitable trades on $NVDA. Efficiency +5%",
+        badge: "Flawless Round",
+        voice: "/static/audio/strategist_nvda.mp3",
+        emoji: "✅"
+      }
+    ];
+
+    const feed = document.getElementById("alertFeed");
+
+    alerts.forEach(alert => {
+      const card = document.createElement("div");
+      card.className = "alert-card";
+
+      card.innerHTML = `
+        <div class="alert-content">
+          <div class="alert-header">${alert.user} <span class="badge">${alert.badge}</span></div>
+          <div class="alert-msg">${alert.message}</div>
+          <audio controls src="${alert.voice}"></audio>
+        </div>
+        <div class="emoji">${alert.emoji}</div>
+      `;
+
+      feed.appendChild(card);
+    });
+  </script>
+
+</body>
+</html>

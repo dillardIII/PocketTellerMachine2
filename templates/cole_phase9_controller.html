@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cole AI Phase 9 Control Center (Full Autonomous AI Writer)</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #f0f0f0;
+            font-family: 'Segoe UI', sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: #6fd672;
+            text-align: center;
+        }
+        .button {
+            background: #6fd672;
+            color: #121212;
+            border: none;
+            padding: 12px 20px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        .log-box {
+            background: #1e1e1e;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            overflow-y: scroll;
+            height: 400px;
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Cole AI Phase 9 Autonomous Control Center</h1>
+
+    <button class="button" onclick="fetchSmartTriggers()">View Smart Trigger Logs</button>
+    <button class="button" onclick="fetchWrittenCodeFiles()">List Auto-Written Code Files</button>
+    <button class="button" onclick="fetchNarrations()">List Generated Narrations</button>
+    <button class="button" onclick="fetchVoiceAssistantLogs()">View Voice Assistant Logs</button>
+
+    <div class="log-box" id="dataDisplay">
+        <pre>Click a button to load data...</pre>
+    </div>
+
+    <script>
+        function fetchSmartTriggers() {
+            fetch('/api/get_code_trigger_logs')
+            .then(response => response.json())
+            .then(data => {
+                let display = (data.log || []).map(item => `${item.timestamp} → ${item.trigger}`).join('\n');
+                document.getElementById("dataDisplay").innerText = display || "No smart trigger logs found.";
+            })
+            .catch(() => document.getElementById("dataDisplay").innerText = "Error fetching smart trigger logs.");
+        }
+
+        function fetchWrittenCodeFiles() {
+            fetch('/api/list_narrated_files')
+            .then(response => response.json())
+            .then(data => {
+                let display = (data.files || []).join('\n');
+                document.getElementById("dataDisplay").innerText = display || "No narrated files found.";
+            })
+            .catch(() => document.getElementById("dataDisplay").innerText = "Error fetching narrated files.");
+        }
+
+        function fetchNarrations() {
+            fetch('/api/get_voice_narration_log')
+            .then(response => response.json())
+            .then(data => {
+                let display = (data.log || []).map(item => `${item.timestamp} → Summary ID: ${item.summary_id}`).join('\n');
+                document.getElementById("dataDisplay").innerText = display || "No narration logs found.";
+            })
+            .catch(() => document.getElementById("dataDisplay").innerText = "Error fetching narration logs.");
+        }
+
+        function fetchVoiceAssistantLogs() {
+            fetch('/api/get_voice_assistant_logs')
+            .then(response => response.json())
+            .then(data => {
+                let display = (data.log || []).map(item => `${item.timestamp} → ${item.message}`).join('\n');
+                document.getElementById("dataDisplay").innerText = display || "No assistant logs found.";
+            })
+            .catch(() => document.getElementById("dataDisplay").innerText = "Error fetching assistant logs.");
+        }
+    </script>
+
+</body>
+</html>

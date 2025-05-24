@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PTM Quiz Grades</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 30px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #1e1e1e;
+      box-shadow: 0 0 12px rgba(0,255,100,0.05);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 14px;
+      text-align: left;
+      border-bottom: 1px solid #333;
+    }
+
+    th {
+      background-color: #222;
+      color: #6fd672;
+      font-size: 15px;
+    }
+
+    td {
+      font-size: 14px;
+    }
+
+    .grade-A { color: #00e676; font-weight: bold; }
+    .grade-B { color: #6fe673; }
+    .grade-C { color: #ffe055; }
+    .grade-D { color: #ff8c42; }
+    .grade-F { color: #ff4e4e; }
+
+    .highlight {
+      background-color: #2e2e2e;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Quiz Grades</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Quiz Topic</th>
+        <th>Score (%)</th>
+        <th>Grade</th>
+        <th>Date Taken</th>
+      </tr>
+    </thead>
+    <tbody id="gradesBody">
+      <!-- Data will be injected -->
+    </tbody>
+  </table>
+
+  <script>
+    const quizzes = [
+      { topic: "Chart Patterns", score: 95, date: "2025-05-10" },
+      { topic: "Support/Resistance", score: 88, date: "2025-05-08" },
+      { topic: "Risk Management", score: 72, date: "2025-05-06" },
+      { topic: "Order Types", score: 60, date: "2025-05-04" },
+      { topic: "Market Psychology", score: 45, date: "2025-05-02" }
+    ];
+
+    const tbody = document.getElementById("gradesBody");
+
+    quizzes.forEach((q, i) => {
+      let gradeClass = "", letter = "";
+      if (q.score >= 90) { letter = "A"; gradeClass = "grade-A"; }
+      else if (q.score >= 80) { letter = "B"; gradeClass = "grade-B"; }
+      else if (q.score >= 70) { letter = "C"; gradeClass = "grade-C"; }
+      else if (q.score >= 60) { letter = "D"; gradeClass = "grade-D"; }
+      else { letter = "F"; gradeClass = "grade-F"; }
+
+      const tr = document.createElement("tr");
+      tr.className = i % 2 === 0 ? "highlight" : "";
+
+      tr.innerHTML = `
+        <td>${q.topic}</td>
+        <td>${q.score}%</td>
+        <td class="${gradeClass}">${letter}</td>
+        <td>${q.date}</td>
+      `;
+
+      tbody.appendChild(tr);
+    });
+  </script>
+
+</body>
+</html>

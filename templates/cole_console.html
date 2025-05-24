@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cole Command Console</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      background: #111;
+      color: #eee;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #00ffd0;
+      margin-bottom: 20px;
+    }
+
+    #terminal {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      box-shadow: 0 0 12px rgba(0, 255, 208, 0.1);
+    }
+
+    #promptInput {
+      width: 100%;
+      padding: 10px;
+      background: #222;
+      border: 1px solid #444;
+      color: #eee;
+      font-size: 16px;
+      border-radius: 6px;
+    }
+
+    #submitBtn {
+      background: #00ffd0;
+      border: none;
+      padding: 10px 20px;
+      color: #000;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    #submitBtn:hover {
+      background: #00cfa7;
+    }
+
+    .output {
+      margin-top: 20px;
+      padding: 15px;
+      background: #121212;
+      border-left: 4px solid #00ffd0;
+      border-radius: 8px;
+    }
+
+    .meta {
+      color: #aaa;
+      font-size: 14px;
+      margin-top: 8px;
+    }
+
+    #speakToggle {
+      margin-bottom: 10px;
+      display: inline-block;
+      cursor: pointer;
+      font-size: 15px;
+    }
+
+    audio {
+      display: none;
+      margin-top: 15px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Cole Command Console</h1>
+  <div id="terminal">
+    <label id="speakToggle">
+      <input type="checkbox" style="margin-right: 6px;" /> Speak response
+    </label>
+
+    <input type="text" id="promptInput" placeholder="Ask Cole anything..." />
+    <button id="submitBtn">Ask Cole</button>
+
+    <audio id="voicePlayer" controls></audio>
+
+    <div id="outputContainer"></div>
+  </div>
+
+  <script>
+    const audioElement = document.getElementById("voicePlayer");
+    audioElement.style.display = "none";
+
+    document.getElementById("submitBtn").addEventListener("click", async () => {
+      const prompt = document.getElementById("promptInput").value;
+      const speak = document.getElementById("speakToggle").querySelector("input").checked;
+      if (!prompt) return;
+
+      const res = await fetch("/intel_query", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ prompt, speak })
+      });
+
+      const data = await res.json();
+
+      const container = document.getElementById("outputContainer");
+      const block = document.createElement("div");
+      block.className = "output";
+      block.innerHTML = `
+        <strong>Source:</strong> ${data.source}<br>
+        <strong>Response:</strong><br>${data.response.replace(/\n/g, "<br>")}
+        <div class="meta">Timestamp: ${data.timestamp}</div>
+      `;
+      container.prepend(block);
+
+      if (data.voice_url) {
+        audioElement.src = data.voice_url;
+        audioElement.style.display = "block";
+        audioElement.play();
+      }
+    });
+  </script>
+</body>
+</html>

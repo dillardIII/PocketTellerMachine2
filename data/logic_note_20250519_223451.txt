@@ -1,0 +1,27 @@
+Subject: Logic Strategy Note for Effective Trading 
+
+Dear Cole,
+
+Effective trading needs a succinct and logical approach. The following are points we need to consider and implement in our trading strategies:
+
+1. **Market Research:** It is crucial that we keep ourselves abreast of current market trends, economic news, and any significant global activities impacting the stock market. Information is power in trading.
+
+2. **Setting Realistic Goals:** Our strategy should incorporate realistic and achievable goals based on the size of our investment, risk tolerance and time horizon.
+
+3. **Risk Management:** Never risk more than a small percentage of our total trading account on a single trade. This would prevent us from significant losses that could potentially wipe out our trading capital.
+
+4. **Discipline and Consistency:** It is essential to remain disciplined and not be swayed by emotions. Stick to the planned strategy even if some trades make a loss.
+
+5. **Diversification of Portfolio:** Avoid putting all eggs in one basket. Always distribute the risk by investing in a variety of stocks.
+
+6. **Continuous Learning:** The stock market is dynamic and ever-changing. We should continuously learn and adapt to these changes.
+
+7. **Performance Tracking:** Regular monitoring and reviewing of our trades is a crucial part of our strategy. This will help us identify any gaps in our trading and make necessary improvements efficiently.
+
+8. **Hiring Professionals**: If necessary, we must consider consulting with professional financial advisors to get expert advice.
+
+We must remember, while these strategies can mitigate risk, they do not guarantee profits. The market is unpredictable, and patience will play an essential role in successful trading. 
+
+Best Regards,
+[Your Name]
+Assistant to Cole

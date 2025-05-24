@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PTM Notification Center</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      color: #6fd672;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .notification-list {
+      max-width: 800px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .notification {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      padding: 16px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,255,100,0.05);
+      position: relative;
+    }
+
+    .notification h3 {
+      margin: 0 0 8px;
+      color: #80e487;
+    }
+
+    .notification p {
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    .time {
+      position: absolute;
+      top: 10px;
+      right: 12px;
+      font-size: 12px;
+      color: #888;
+    }
+
+    .category {
+      font-size: 12px;
+      background: #4caf50;
+      color: white;
+      padding: 2px 6px;
+      border-radius: 4px;
+      margin-right: 8px;
+    }
+
+    .badge {
+      background: #ff9800;
+    }
+
+    .system {
+      background: #03a9f4;
+    }
+
+    .trade {
+      background: #9c27b0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Notification Center</h1>
+
+  <div class="notification-list">
+    <div class="notification">
+      <span class="time">Just now</span>
+      <h3><span class="category trade">Trade</span> Executed Trade on $TSLA</h3>
+      <p>PTM triggered a bullish put spread using Mo Cash’s strategy. Result pending...</p>
+    </div>
+
+    <div class="notification">
+      <span class="time">5 min ago</span>
+      <h3><span class="category badge">Badge</span> Quiz Champ Badge Earned!</h3>
+      <p>You scored 100% on “Chart Patterns 101” and earned +400 XP.</p>
+    </div>
+
+    <div class="notification">
+      <span class="time">12 min ago</span>
+      <h3><span class="category system">System</span> Voice Assistant Updated</h3>
+      <p>New voice preview added for Drill Instructor and Optimist. Ready to test!</p>
+    </div>
+
+    <div class="notification">
+      <span class="time">25 min ago</span>
+      <h3><span class="category trade">Trade</span> Profit Alert</h3>
+      <p>Your iron condor on $AAPL closed with a +$180 gain. Well done!</p>
+    </div>
+  </div>
+
+</body>
+</html>

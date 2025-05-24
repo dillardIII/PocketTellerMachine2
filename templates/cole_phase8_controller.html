@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cole AI Phase 8 Controller (Assistant Logs & Control)</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #f0f0f0;
+            font-family: 'Segoe UI', sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: #6fd672;
+            text-align: center;
+        }
+        .button {
+            background: #6fd672;
+            color: #121212;
+            border: none;
+            padding: 12px 20px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        .log-box {
+            background: #1e1e1e;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            overflow-y: scroll;
+            height: 400px;
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Cole AI Phase 8 Control Panel</h1>
+
+    <button class="button" onclick="fetchAssistantLogs()">View Voice Assistant Logs</button>
+    <button class="button" onclick="refreshAssistant()">Trigger Assistant Refresh</button>
+
+    <div class="log-box">
+        <h3>Assistant Data Output</h3>
+        <pre id="output">Click a button to load data...</pre>
+    </div>
+
+    <script>
+        function fetchAssistantLogs() {
+            fetch('/api/get_voice_assistant_logs')
+            .then(response => response.json())
+            .then(data => {
+                let logs = (data.log || []).map(log => `${log.timestamp || ""} → ${log.message || JSON.stringify(log)}`).join('\n');
+                document.getElementById("output").innerText = logs || "No assistant logs found.";
+            })
+            .catch(() => document.getElementById("output").innerText = "Error fetching assistant logs.");
+        }
+
+        function refreshAssistant() {
+            fetch('/api/cole_command?command=refresh assistant logs')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("output").innerText = data.cole_response || "Assistant refresh triggered.";
+            })
+            .catch(() => document.getElementById("output").innerText = "Error triggering assistant refresh.");
+        }
+    </script>
+
+</body>
+</html>

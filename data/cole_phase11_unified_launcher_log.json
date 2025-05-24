@@ -1,0 +1,242 @@
+[
+  {
+    "timestamp": "2025-05-15T10:15:32.980408",
+    "message": "[UNIFIED LAUNCHER]: System starting full autonomous mode."
+  },
+  {
+    "timestamp": "2025-05-15T10:15:32.985738",
+    "message": "[START]: App (UI + APIs) started."
+  },
+  {
+    "timestamp": "2025-05-15T10:15:32.993861",
+    "message": "[START]: Cole Bridge Webhook Listener started."
+  },
+  {
+    "timestamp": "2025-05-15T10:15:32.998884",
+    "message": "[START]: ChatGPT Feedback Listener started."
+  },
+  {
+    "timestamp": "2025-05-15T10:15:33.003086",
+    "message": "[START]: ChatGPT to Cole Bridge Daemon started."
+  },
+  {
+    "timestamp": "2025-05-15T10:15:33.011919",
+    "message": "[START]: Auto Feedback Sender Daemon started."
+  },
+  {
+    "timestamp": "2025-05-15T10:15:33.022751",
+    "message": "[START]: Smart Feedback Responder Handler started."
+  },
+  {
+    "timestamp": "2025-05-15T10:15:33.038617",
+    "message": "[START]: Cole Phase 11 Launcher (Daemons) started."
+  },
+  {
+    "timestamp": "2025-05-15T10:15:33.053457",
+    "message": "[START]: Cole Supervisor Daemon started."
+  },
+  {
+    "timestamp": "2025-05-15T10:15:33.058900",
+    "message": "[START]: Cole Heartbeat Monitor Daemon started."
+  },
+  {
+    "timestamp": "2025-05-15T10:15:33.085236",
+    "message": "[UNIFIED LAUNCHER]: Supervisor started successfully."
+  },
+  {
+    "timestamp": "2025-05-15T10:15:33.096326",
+    "message": "[UNIFIED LAUNCHER]: Launcher heartbeat OK."
+  },
+  {
+    "timestamp": "2025-05-15T10:17:43.615157",
+    "message": "[UNIFIED LAUNCHER]: System starting full autonomous mode."
+  },
+  {
+    "timestamp": "2025-05-15T10:17:43.619366",
+    "message": "[START]: App (UI + APIs) started."
+  },
+  {
+    "timestamp": "2025-05-15T10:17:43.623620",
+    "message": "[START]: Cole Bridge Webhook Listener started."
+  },
+  {
+    "timestamp": "2025-05-15T10:17:43.628030",
+    "message": "[START]: ChatGPT Feedback Listener started."
+  },
+  {
+    "timestamp": "2025-05-15T10:17:43.631999",
+    "message": "[START]: ChatGPT to Cole Bridge Daemon started."
+  },
+  {
+    "timestamp": "2025-05-15T10:17:43.637503",
+    "message": "[START]: Auto Feedback Sender Daemon started."
+  },
+  {
+    "timestamp": "2025-05-15T10:17:43.644016",
+    "message": "[START]: Smart Feedback Responder Handler started."
+  },
+  {
+    "timestamp": "2025-05-15T10:17:43.654291",
+    "message": "[START]: Cole Phase 11 Launcher (Daemons) started."
+  },
+  {
+    "timestamp": "2025-05-15T10:17:43.661686",
+    "message": "[START]: Cole Supervisor Daemon started."
+  },
+  {
+    "timestamp": "2025-05-15T10:17:43.679664",
+    "message": "[START]: Cole Heartbeat Monitor Daemon started."
+  },
+  {
+    "timestamp": "2025-05-15T10:17:43.688690",
+    "message": "[UNIFIED LAUNCHER]: Supervisor started successfully."
+  },
+  {
+    "timestamp": "2025-05-15T10:17:43.689154",
+    "message": "[UNIFIED LAUNCHER]: Launcher heartbeat OK."
+  },
+  {
+    "timestamp": "2025-05-15T10:20:02.856944",
+    "message": "[UNIFIED LAUNCHER]: System starting full autonomous mode."
+  },
+  {
+    "timestamp": "2025-05-15T10:20:02.860484",
+    "message": "[START]: App (UI + APIs) started."
+  },
+  {
+    "timestamp": "2025-05-15T10:20:02.914652",
+    "message": "[START]: Cole Bridge Webhook Listener started."
+  },
+  {
+    "timestamp": "2025-05-15T10:20:02.919813",
+    "message": "[START]: ChatGPT Feedback Listener started."
+  },
+  {
+    "timestamp": "2025-05-15T10:20:02.923954",
+    "message": "[START]: ChatGPT to Cole Bridge Daemon started."
+  },
+  {
+    "timestamp": "2025-05-15T10:20:02.930671",
+    "message": "[START]: Auto Feedback Sender Daemon started."
+  },
+  {
+    "timestamp": "2025-05-15T10:20:02.938959",
+    "message": "[START]: Smart Feedback Responder Handler started."
+  },
+  {
+    "timestamp": "2025-05-15T10:20:02.946449",
+    "message": "[START]: Cole Phase 11 Launcher (Daemons) started."
+  },
+  {
+    "timestamp": "2025-05-15T10:20:02.953967",
+    "message": "[START]: Cole Supervisor Daemon started."
+  },
+  {
+    "timestamp": "2025-05-15T10:20:02.963421",
+    "message": "[START]: Cole Heartbeat Monitor Daemon started."
+  },
+  {
+    "timestamp": "2025-05-15T10:20:02.979222",
+    "message": "[UNIFIED LAUNCHER]: Supervisor started successfully."
+  },
+  {
+    "timestamp": "2025-05-15T10:20:02.982535",
+    "message": "[UNIFIED LAUNCHER]: Launcher heartbeat OK."
+  },
+  {
+    "timestamp": "2025-05-15T10:21:19.319124",
+    "message": "[UNIFIED LAUNCHER]: System starting full autonomous mode."
+  },
+  {
+    "timestamp": "2025-05-15T10:21:19.323161",
+    "message": "[START]: App (UI + APIs) started."
+  },
+  {
+    "timestamp": "2025-05-15T10:21:19.340227",
+    "message": "[START]: Cole Bridge Webhook Listener started."
+  },
+  {
+    "timestamp": "2025-05-15T10:21:19.345940",
+    "message": "[START]: ChatGPT Feedback Listener started."
+  },
+  {
+    "timestamp": "2025-05-15T10:21:19.420071",
+    "message": "[START]: ChatGPT to Cole Bridge Daemon started."
+  },
+  {
+    "timestamp": "2025-05-15T10:21:19.424976",
+    "message": "[START]: Auto Feedback Sender Daemon started."
+  },
+  {
+    "timestamp": "2025-05-15T10:21:19.436443",
+    "message": "[START]: Smart Feedback Responder Handler started."
+  },
+  {
+    "timestamp": "2025-05-15T10:21:19.450017",
+    "message": "[START]: Cole Phase 11 Launcher (Daemons) started."
+  },
+  {
+    "timestamp": "2025-05-15T10:21:19.461156",
+    "message": "[START]: Cole Supervisor Daemon started."
+  },
+  {
+    "timestamp": "2025-05-15T10:21:19.467702",
+    "message": "[START]: Cole Heartbeat Monitor Daemon started."
+  },
+  {
+    "timestamp": "2025-05-15T10:21:19.495486",
+    "message": "[UNIFIED LAUNCHER]: Supervisor started successfully."
+  },
+  {
+    "timestamp": "2025-05-15T10:21:19.497930",
+    "message": "[UNIFIED LAUNCHER]: Launcher heartbeat OK."
+  },
+  {
+    "timestamp": "2025-05-15T10:22:27.890652",
+    "message": "[UNIFIED LAUNCHER]: System starting full autonomous mode."
+  },
+  {
+    "timestamp": "2025-05-15T10:22:27.894396",
+    "message": "[START]: App (UI + APIs) started."
+  },
+  {
+    "timestamp": "2025-05-15T10:22:27.900027",
+    "message": "[START]: Cole Bridge Webhook Listener started."
+  },
+  {
+    "timestamp": "2025-05-15T10:22:27.904921",
+    "message": "[START]: ChatGPT Feedback Listener started."
+  },
+  {
+    "timestamp": "2025-05-15T10:22:27.909827",
+    "message": "[START]: ChatGPT to Cole Bridge Daemon started."
+  },
+  {
+    "timestamp": "2025-05-15T10:22:27.917869",
+    "message": "[START]: Auto Feedback Sender Daemon started."
+  },
+  {
+    "timestamp": "2025-05-15T10:22:27.923856",
+    "message": "[START]: Smart Feedback Responder Handler started."
+  },
+  {
+    "timestamp": "2025-05-15T10:22:27.933205",
+    "message": "[START]: Cole Phase 11 Launcher (Daemons) started."
+  },
+  {
+    "timestamp": "2025-05-15T10:22:27.941946",
+    "message": "[START]: Cole Supervisor Daemon started."
+  },
+  {
+    "timestamp": "2025-05-15T10:22:27.947726",
+    "message": "[START]: Cole Heartbeat Monitor Daemon started."
+  },
+  {
+    "timestamp": "2025-05-15T10:22:27.958644",
+    "message": "[UNIFIED LAUNCHER]: Supervisor started successfully."
+  },
+  {
+    "timestamp": "2025-05-15T10:22:27.961741",
+    "message": "[UNIFIED LAUNCHER]: Launcher heartbeat OK."
+  }
+]

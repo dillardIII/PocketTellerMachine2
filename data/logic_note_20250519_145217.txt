@@ -1,0 +1,22 @@
+Subject: Logic Strategy Note
+
+As we move forward into the subsequent trading periods, it's crucial to incorporate a firm logic strategy to dodge risks and increase returns. Here's an effective approach.
+
+1. Thorough Research & Analysis: Understanding global market trends and more specific ones related to commodities we're dealing with is key. Look for consistent patterns, recent market shifts, and consider macroeconomic variables. 
+
+2. Risk Management: Define the allowable risk per trade and maintain it. Diversify the portfolio to insulate against potential downturns in any one asset.
+
+3. Quantitative Analysis: Use mathematical and statistical modeling to help identify trading opportunities and risk management. Identify, measure, and manage trading risks.
+
+4. Timing: Timing is crucial in trading. Monitor global markets round the clock, and if required, adjust the trading schedule to target the most lucrative trading periods.
+
+5. Maintain Discipline: It's crucial to stick to the strategy rather than making impulsive decisions. Tracking all trades—both successful and unsuccessful—will allow us to continually refine and improve our strategy.
+
+6. Adjust Strategy: Markets are dynamic; what worked now may not work later. Regularly review and modify trading strategies as required. 
+
+7. Use Of Technology: AI-driven trading platforms can offer real-time predictive analytics, making it easier to monitor vast amounts of market data and make rapid trading decisions. 
+
+Remember, a logic strategy must also entail an exit strategy. Knowing when and how to limit losses when a trade goes in a wrong direction can determine overall performance. 
+
+Kind regards,
+[Your name]

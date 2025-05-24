@@ -1,0 +1,286 @@
+[
+  {
+    "timestamp": "2025-05-21T12:47:14.742765",
+    "action": "Roadmap updated",
+    "data": [
+      {
+        "id": "feature001",
+        "name": "Trade History Dashboard",
+        "type": "dashboard",
+        "status": "complete",
+        "priority": "high",
+        "description": "Create a dashboard that lists all trades with filters, charts, and recap playback."
+      },
+      {
+        "id": "feature002",
+        "name": "Assistant Voice Switcher",
+        "type": "persona_feature",
+        "status": "complete",
+        "priority": "medium",
+        "description": "Let users switch assistant voice and style per task or mood."
+      },
+      {
+        "id": "feature003",
+        "name": "Strategy Explanation Tool",
+        "type": "education",
+        "status": "complete",
+        "priority": "high",
+        "description": "Add a tool that explains each strategy PTM uses with examples and voice walkthroughs."
+      },
+      {
+        "id": "feature789",
+        "name": "Fix log_strategy_reason function call error",
+        "type": "repair",
+        "status": "pending",
+        "priority": "highest",
+        "description": "An issue has been reported with the 'log_strategy_reason()' function showing a 'missing 1 required positional argument: 'reason''. This indicates a mismatch between the function definition and function call in the code. The repair should target identifying any changes in the function definition that may now require an additional argument and confirm that the function is called with all the required arguments."
+      },
+      {
+        "id": "feature001",
+        "name": "Risk Assessment Dashboard",
+        "type": "dashboard",
+        "status": "pending",
+        "priority": "high",
+        "description": "Provides real-time graphical representation of risk factors affecting your portfolio, contributing to informed trading decisions."
+      },
+      {
+        "id": "feature007",
+        "name": "Default/Fallback Strategy Implementation",
+        "type": "strategy",
+        "status": "pending",
+        "priority": "high",
+        "description": "Develop a default or fallback strategy when 'No backtest results found.' This strategy will ensure the system keeps operating and potentially identify trading opportunities instead of going idle."
+      },
+      {
+        "id": "featureXXX",
+        "name": "Predictive Market Forecasting Algorithm",
+        "type": "automation",
+        "status": "pending",
+        "priority": "high",
+        "description": "This feature aims to design and implement a predictive algorithm that will forecast market trends. It will take into account both historical data and real-time market changes to provide a comprehensive analysis and predictions. This will help users to make informed decisions about their trading and investments."
+      },
+      {
+        "id": "feature014",
+        "name": "AI-Driven Market Trend Predictor",
+        "type": "strategy",
+        "status": "pending",
+        "priority": "high",
+        "description": "Implementation of an AI-driven model that analyzes and forecasts market trends, providing improved trading strategies based on these insights."
+      },
+      {
+        "id": "feature001",
+        "name": "Real-time Market Trend Analysis",
+        "type": "dashboard",
+        "status": "pending",
+        "priority": "medium",
+        "description": "This feature allows users to view real-time, analytics-driven market trend insights within the dashboard."
+      },
+      {
+        "id": "feature021",
+        "name": "Analytic Prediction",
+        "type": "trading",
+        "status": "pending",
+        "priority": "medium",
+        "description": "This feature uses AI and machine learning to predict future price movements of various assets."
+      },
+      {
+        "id": "feature001",
+        "name": "Automation of Strategy Selection",
+        "type": "automation",
+        "status": "pending",
+        "priority": "medium",
+        "description": "Transition from the startup phase to a live trading environment by focusing on automating the strategy selection process based on backtest results. This feature should enhance trading decisions. In the event of consistent absence of backtest results, it's crucial to investigate and address the root cause of this problem as part of the roadmap implementation."
+      },
+      {
+        "id": "feature001",
+        "name": "Real-Time Profit/Loss Visualization",
+        "type": "dashboard",
+        "status": "pending",
+        "priority": "medium",
+        "description": "Provides a real-time graph representation of profits and losses."
+      },
+      {
+        "id": "feature001",
+        "name": "Advanced Analytics Dashboard",
+        "type": "dashboard",
+        "status": "pending",
+        "priority": "medium",
+        "description": "This feature provides a real-time analytics dashboard with customizable widgets to monitor market trends."
+      },
+      {
+        "id": "feature789",
+        "name": "Risk Analysis",
+        "type": "dashboard",
+        "status": "pending",
+        "priority": "medium",
+        "description": "This feature will utilize advanced statistical models and real-time market data to evaluate and display the risk associated with each trading position."
+      },
+      {
+        "id": "feature007",
+        "name": "Market Emotion Analysis",
+        "type": "education",
+        "status": "pending",
+        "priority": "medium",
+        "description": "Provides real-time sentiment analysis of the market based on news and social media feeds."
+      },
+      {
+        "id": "feature007",
+        "name": "Backtest and Strategy Implementation",
+        "type": "strategy",
+        "status": "pending",
+        "priority": "medium",
+        "description": "PTM is currently in the early startup phase and lacks any recommended trading strategies due to the absence of backtest results. There is a need to kickstart either the execution of some preliminary backtests or to implement a basic, default trading strategy to get the ball rolling."
+      },
+      {
+        "id": "feature001",
+        "name": "Real-time Trade Alerts",
+        "type": "trading",
+        "status": "pending",
+        "priority": "medium",
+        "description": "This feature will send users real-time alerts when a potential profitable trade is detected."
+      },
+      {
+        "id": "feature012",
+        "name": "Fallback Strategy",
+        "type": "strategy",
+        "status": "pending",
+        "priority": "low",
+        "description": "This functionality aims to implement an alert or a fallback strategy when no backtest results are found to provide traders with alternative actions rather than leaving them without strategy."
+      },
+      {
+        "id": "feature023",
+        "name": "Detailed Startup Phase Logging",
+        "type": "automation",
+        "status": "pending",
+        "priority": "low",
+        "description": "Enhance the PTM to generate and log detailed descriptions of activities during the startup phase. This will assist in prompt identification of potential issues and provide caregivers with deeper insight into PTM's processes."
+      },
+      {
+        "id": "feature001",
+        "name": "Market Sentiment Analysis",
+        "type": "trading",
+        "status": "pending",
+        "priority": "low",
+        "description": "This feature provides real-time market sentiment analysis, helping traders make informed decisions."
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-21T16:35:33.987275",
+    "action": "Roadmap updated",
+    "data": [
+      {
+        "id": "feature789",
+        "name": "Fix log_strategy_reason function call error",
+        "type": "repair",
+        "status": "pending",
+        "priority": "highest",
+        "description": "An issue has been reported with the 'log_strategy_reason()' function showing a 'missing 1 required positional argument: 'reason''. This indicates a mismatch between the function definition and function call in the code. The repair should target identifying any changes in the function definition that may now require an additional argument and confirm that the function is called with all the required arguments."
+      },
+      {
+        "id": "feature004",
+        "name": "Risk Assessment Dashboard",
+        "type": "dashboard",
+        "status": "pending",
+        "priority": "high",
+        "description": "Provides real-time graphical representation of risk factors affecting your portfolio, contributing to informed trading decisions."
+      },
+      {
+        "id": "feature007",
+        "name": "Default/Fallback Strategy Implementation",
+        "type": "strategy",
+        "status": "pending",
+        "priority": "high",
+        "description": "Develop a default or fallback strategy when 'No backtest results found.' This strategy will ensure the system keeps operating and potentially identify trading opportunities instead of going idle."
+      },
+      {
+        "id": "feature014",
+        "name": "AI-Driven Market Trend Predictor",
+        "type": "strategy",
+        "status": "pending",
+        "priority": "high",
+        "description": "Implementation of an AI-driven model that analyzes and forecasts market trends, providing improved trading strategies based on these insights."
+      },
+      {
+        "id": "feature101",
+        "name": "Smart Portfolio Balancing",
+        "type": "automation",
+        "status": "pending",
+        "priority": "high",
+        "description": "This feature will allow PTM to automatically balance a user's portfolio based on risk tolerance and investment goals. It will use AI to analyse market conditions and adjust the portfolio's balance accordingly."
+      },
+      {
+        "id": "feature027",
+        "name": "Backtest and Strategy Implementation",
+        "type": "strategy",
+        "status": "pending",
+        "priority": "medium",
+        "description": "PTM is currently in the early startup phase and lacks any recommended trading strategies due to the absence of backtest results. There is a need to kickstart either the execution of some preliminary backtests or to implement a basic, default trading strategy to get the ball rolling."
+      },
+      {
+        "id": "feature028",
+        "name": "Real-time Trade Alerts",
+        "type": "trading",
+        "status": "pending",
+        "priority": "medium",
+        "description": "This feature will send users real-time alerts when a potential profitable trade is detected."
+      },
+      {
+        "id": "feature008",
+        "name": "Real-time Market Trend Analysis",
+        "type": "dashboard",
+        "status": "pending",
+        "priority": "medium",
+        "description": "This feature allows users to view real-time, analytics-driven market trend insights within the dashboard."
+      },
+      {
+        "id": "feature023",
+        "name": "Real-Time Profit/Loss Visualization",
+        "type": "dashboard",
+        "status": "pending",
+        "priority": "medium",
+        "description": "Provides a real-time graph representation of profits and losses."
+      },
+      {
+        "id": "feature024",
+        "name": "Advanced Analytics Dashboard",
+        "type": "dashboard",
+        "status": "pending",
+        "priority": "medium",
+        "description": "This feature provides a real-time analytics dashboard with customizable widgets to monitor market trends."
+      },
+      {
+        "id": "feature025",
+        "name": "Risk Analysis",
+        "type": "dashboard",
+        "status": "pending",
+        "priority": "medium",
+        "description": "This feature will utilize advanced statistical models and real-time market data to evaluate and display the risk associated with each trading position."
+      },
+      {
+        "id": "feature026",
+        "name": "Market Emotion Analysis",
+        "type": "education",
+        "status": "pending",
+        "priority": "medium",
+        "description": "Provides real-time sentiment analysis of the market based on news and social media feeds."
+      },
+      {
+        "id": "feature029",
+        "name": "Detailed Startup Phase Logging",
+        "type": "automation",
+        "status": "pending",
+        "priority": "low",
+        "description": "Enhance the PTM to generate and log detailed descriptions of activities during the startup phase. This will assist in prompt identification of potential issues and provide caregivers with deeper insight into PTM's processes."
+      },
+      {
+        "id": "feature030",
+        "name": "Market Sentiment Analysis",
+        "type": "trading",
+        "status": "pending",
+        "priority": "low",
+        "description": "This feature provides real-time market sentiment analysis, helping traders make informed decisions."
+      }
+    ]
+  }
+]

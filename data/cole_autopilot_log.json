@@ -1,0 +1,347 @@
+[
+  {
+    "timestamp": "2025-05-18T09:33:36.760249",
+    "action": "Logic Note Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-18T09:36:25.718717",
+    "action": "Task Generation Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-18T09:36:25.725090",
+    "action": "Logic Note Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-18T09:36:25.735975",
+    "action": "Phase Detected",
+    "detail": "open_market"
+  },
+  {
+    "timestamp": "2025-05-18T09:36:25.737145",
+    "action": "Task Generation Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-18T09:36:25.743356",
+    "action": "Logic Note Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-18T09:36:28.974537",
+    "action": "Code Generation Error",
+    "detail": "cole_write_code() takes 1 positional argument but 2 were given"
+  },
+  {
+    "timestamp": "2025-05-19T10:21:49.875320",
+    "action": "Phase Detected",
+    "detail": "open_market"
+  },
+  {
+    "timestamp": "2025-05-19T10:21:49.875908",
+    "action": "GPT Insight",
+    "detail": "GPT Error: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+  },
+  {
+    "timestamp": "2025-05-19T10:21:49.876517",
+    "action": "GPT Insight Error",
+    "detail": "'dict' object has no attribute 'append'"
+  },
+  {
+    "timestamp": "2025-05-19T10:21:49.879418",
+    "action": "Task Generation Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-19T10:21:49.888040",
+    "action": "Logic Note Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-19T10:21:52.631604",
+    "action": "Code Generation Error",
+    "detail": "cole_write_code() takes 1 positional argument but 2 were given"
+  },
+  {
+    "timestamp": "2025-05-19T10:40:01.307005",
+    "action": "Phase Detected",
+    "detail": "open_market"
+  },
+  {
+    "timestamp": "2025-05-19T10:40:01.307564",
+    "action": "GPT Insight",
+    "detail": "GPT Error: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+  },
+  {
+    "timestamp": "2025-05-19T10:40:01.316637",
+    "action": "GPT Insight Error",
+    "detail": "'dict' object has no attribute 'append'"
+  },
+  {
+    "timestamp": "2025-05-19T10:40:01.318176",
+    "action": "Task Generation Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-19T10:40:01.321786",
+    "action": "Logic Note Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-19T10:40:15.251786",
+    "action": "Code Generated (GPT)",
+    "detail": "data/generated_gpt_RSI_Strategy_Generator_20250519_104015.txt"
+  },
+  {
+    "timestamp": "2025-05-19T12:49:23.577898",
+    "action": "Phase Detected",
+    "detail": "midday"
+  },
+  {
+    "timestamp": "2025-05-19T12:49:23.579639",
+    "action": "GPT Insight",
+    "detail": "GPT Error: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+  },
+  {
+    "timestamp": "2025-05-19T12:49:23.580286",
+    "action": "GPT Insight Error",
+    "detail": "'dict' object has no attribute 'append'"
+  },
+  {
+    "timestamp": "2025-05-19T12:49:23.588021",
+    "action": "Task Generation Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-19T12:49:23.591944",
+    "action": "Logic Note Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-19T12:49:26.666420",
+    "action": "Code Generated (Template)",
+    "detail": "generated/RSI_Strategy_Generator_20250519_124926.py"
+  },
+  {
+    "timestamp": "2025-05-19T12:49:37.785204",
+    "action": "Phase Detected",
+    "detail": "midday"
+  },
+  {
+    "timestamp": "2025-05-19T12:49:37.785844",
+    "action": "GPT Insight",
+    "detail": "GPT Error: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+  },
+  {
+    "timestamp": "2025-05-19T12:49:37.789543",
+    "action": "GPT Insight Error",
+    "detail": "'dict' object has no attribute 'append'"
+  },
+  {
+    "timestamp": "2025-05-19T12:49:37.790410",
+    "action": "Task Generation Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-19T12:49:37.801981",
+    "action": "Logic Note Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-19T12:50:10.420539",
+    "action": "Code Generated (Template)",
+    "detail": "generated/EMA_Crossover_Analyzer_20250519_125010.py"
+  },
+  {
+    "timestamp": "2025-05-19T12:54:26.668711",
+    "action": "Phase Detected",
+    "detail": "midday"
+  },
+  {
+    "timestamp": "2025-05-19T12:54:26.669687",
+    "action": "GPT Insight",
+    "detail": "GPT Error: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+  },
+  {
+    "timestamp": "2025-05-19T12:54:26.677800",
+    "action": "GPT Insight Error",
+    "detail": "'dict' object has no attribute 'append'"
+  },
+  {
+    "timestamp": "2025-05-19T12:54:26.679422",
+    "action": "Task Generation Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-19T12:54:26.687976",
+    "action": "Logic Note Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-19T12:54:46.418184",
+    "action": "Code Generated (GPT)",
+    "detail": "cole_generated_code/generated_gpt_MACD_Signal_Scanner_20250519_125446.py"
+  },
+  {
+    "timestamp": "2025-05-19T12:54:46.418795",
+    "action": "Code Generation Error",
+    "detail": "invalid character '\u2019' (U+2019) (<string>, line 1)"
+  },
+  {
+    "timestamp": "2025-05-19T12:55:10.423851",
+    "action": "Phase Detected",
+    "detail": "midday"
+  },
+  {
+    "timestamp": "2025-05-19T12:55:10.424541",
+    "action": "GPT Insight",
+    "detail": "GPT Error: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+  },
+  {
+    "timestamp": "2025-05-19T12:55:10.445534",
+    "action": "GPT Insight Error",
+    "detail": "'dict' object has no attribute 'append'"
+  },
+  {
+    "timestamp": "2025-05-19T12:55:10.446928",
+    "action": "Task Generation Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-19T12:55:10.467966",
+    "action": "Logic Note Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-19T12:55:25.804784",
+    "action": "Code Generated (GPT)",
+    "detail": "cole_generated_code/generated_gpt_Momentum_Screener_Bot_20250519_125525.py"
+  },
+  {
+    "timestamp": "2025-05-19T12:55:25.805640",
+    "action": "Code Generation Error",
+    "detail": "invalid syntax (<string>, line 1)"
+  },
+  {
+    "timestamp": "2025-05-19T12:59:46.429707",
+    "action": "Phase Detected",
+    "detail": "midday"
+  },
+  {
+    "timestamp": "2025-05-19T12:59:46.430818",
+    "action": "GPT Insight",
+    "detail": "GPT Error: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+  },
+  {
+    "timestamp": "2025-05-19T12:59:46.445709",
+    "action": "GPT Insight Error",
+    "detail": "'dict' object has no attribute 'append'"
+  },
+  {
+    "timestamp": "2025-05-19T12:59:46.457518",
+    "action": "Task Generation Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-19T12:59:46.467741",
+    "action": "Logic Note Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-19T12:59:49.201741",
+    "action": "Code Generated (Template)",
+    "detail": "generated/Bollinger_Bands_Alert_System_20250519_125949.py"
+  },
+  {
+    "timestamp": "2025-05-19T13:00:25.839100",
+    "action": "Phase Detected",
+    "detail": "midday"
+  },
+  {
+    "timestamp": "2025-05-19T13:00:25.839868",
+    "action": "GPT Insight",
+    "detail": "GPT Error: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+  },
+  {
+    "timestamp": "2025-05-19T13:00:25.851992",
+    "action": "GPT Insight Error",
+    "detail": "'dict' object has no attribute 'append'"
+  },
+  {
+    "timestamp": "2025-05-19T13:00:25.853481",
+    "action": "Task Generation Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-19T13:00:25.858727",
+    "action": "Logic Note Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-19T13:00:28.981119",
+    "action": "Code Generated (Template)",
+    "detail": "generated/Bollinger_Bands_Alert_System_20250519_130028.py"
+  },
+  {
+    "timestamp": "2025-05-19T13:04:49.204322",
+    "action": "Phase Detected",
+    "detail": "midday"
+  },
+  {
+    "timestamp": "2025-05-19T13:04:49.205846",
+    "action": "GPT Insight",
+    "detail": "GPT Error: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+  },
+  {
+    "timestamp": "2025-05-19T13:04:49.211416",
+    "action": "GPT Insight Error",
+    "detail": "'dict' object has no attribute 'append'"
+  },
+  {
+    "timestamp": "2025-05-19T13:04:49.219037",
+    "action": "Task Generation Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-19T13:04:49.228320",
+    "action": "Logic Note Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-19T13:05:28.983168",
+    "action": "Phase Detected",
+    "detail": "midday"
+  },
+  {
+    "timestamp": "2025-05-19T13:05:28.984183",
+    "action": "GPT Insight",
+    "detail": "GPT Error: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+  },
+  {
+    "timestamp": "2025-05-19T13:05:28.989198",
+    "action": "GPT Insight Error",
+    "detail": "'dict' object has no attribute 'append'"
+  },
+  {
+    "timestamp": "2025-05-19T13:05:28.992164",
+    "action": "Task Generation Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-19T13:05:29.002650",
+    "action": "Logic Note Error",
+    "detail": "Expecting ',' delimiter: line 95 column 401 (char 28055)"
+  },
+  {
+    "timestamp": "2025-05-19T13:05:31.590270",
+    "action": "Code Generated (Template)",
+    "detail": "generated/EMA_Crossover_Analyzer_20250519_130531.py"
+  },
+  {
+    "timestamp": "2025-05-19T13:05:50.661045",
+    "action": "Code Generated (Template)",
+    "detail": "generated/Momentum_Screener_Bot_20250519_130550.py"
+  }
+]

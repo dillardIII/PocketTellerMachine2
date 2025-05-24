@@ -1,0 +1,41 @@
+<div class="section">
+    <h2>Congress Heatmap - Watchlist</h2>
+    <p><strong>Date:</strong> <span id="heatmapDate">--</span></p>
+    <div id="heatmapGrid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 10px;"></div>
+</div>
+
+<script>
+    function loadCongressHeatmap() {
+        fetch('/api/dashboard/congress_heatmap')
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('heatmapDate').textContent = data.date;
+                const grid = document.getElementById('heatmapGrid');
+                grid.innerHTML = '';
+
+                data.watchlist.forEach(item => {
+                    const color = getHeatmapColor(item.score);
+                    const cell = document.createElement('div');
+                    cell.style.background = color;
+                    cell.style.padding = '20px';
+                    cell.style.textAlign = 'center';
+                    cell.style.borderRadius = '8px';
+                    cell.style.fontWeight = 'bold';
+                    cell.innerHTML = `<div>${item.symbol}</div><div>${item.score}</div>`;
+                    grid.appendChild(cell);
+                });
+            })
+            .catch(err => console.error("Heatmap load error:", err));
+    }
+
+    function getHeatmapColor(score) {
+        if (score >= 5) return '#00e676';
+        if (score >= 2) return '#66bb6a';
+        if (score >= 0) return '#ffee58';
+        if (score >= -2) return '#ffa726';
+        return '#ef5350';
+    }
+
+    setInterval(loadCongressHeatmap, 60000);
+    loadCongressHeatmap();
+</script>

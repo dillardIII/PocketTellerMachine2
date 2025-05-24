@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PTM Badge Collection</title>
+  <style>
+    body {
+      background: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+    }
+
+    .badge-card {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      text-align: center;
+      padding: 16px;
+      position: relative;
+      box-shadow: 0 0 10px rgba(0,255,100,0.05);
+    }
+
+    .badge-card.locked {
+      opacity: 0.4;
+      filter: grayscale(100%);
+    }
+
+    .badge-card h3 {
+      color: #6fd672;
+      margin: 10px 0 6px;
+      font-size: 16px;
+    }
+
+    .badge-card p {
+      font-size: 13px;
+      color: #ccc;
+    }
+
+    .badge-icon {
+      width: 64px;
+      height: 64px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    .locked-label {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      background: #ff5252;
+      color: #fff;
+      font-size: 10px;
+      padding: 4px 6px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Badge Collection</h1>
+
+  <div class="grid" id="badgeGrid">
+    <!-- Badge cards injected here -->
+  </div>
+
+  <script>
+    const badges = [
+      {
+        name: "First Trade",
+        description: "Successfully completed your first trade.",
+        icon: "/static/badges/first_trade.png",
+        unlocked: true
+      },
+      {
+        name: "Profit Hunter",
+        description: "Earned $1,000 in total paper profits.",
+        icon: "/static/badges/profit_hunter.png",
+        unlocked: true
+      },
+      {
+        name: "Loss Recovery",
+        description: "Climbed back after 3 losing trades in a row.",
+        icon: "/static/badges/loss_recovery.png",
+        unlocked: false
+      },
+      {
+        name: "Quiz Master",
+        description: "Scored an A on 5 quizzes.",
+        icon: "/static/badges/quiz_master.png",
+        unlocked: false
+      },
+      {
+        name: "Strategy Sampler",
+        description: "Tried 10 different strategies.",
+        icon: "/static/badges/strategy_sampler.png",
+        unlocked: false
+      },
+      {
+        name: "XP Climber",
+        description: "Reached 500 XP across trading and quizzes.",
+        icon: "/static/badges/xp_climber.png",
+        unlocked: true
+      }
+    ];
+
+    const grid = document.getElementById("badgeGrid");
+
+    badges.forEach(badge => {
+      const div = document.createElement("div");
+      div.className = "badge-card" + (badge.unlocked ? "" : " locked");
+
+      div.innerHTML = `
+        <img src="${badge.icon}" class="badge-icon" alt="${badge.name}" />
+        <h3>${badge.name}</h3>
+        <p>${badge.description}</p>
+        ${!badge.unlocked ? '<div class="locked-label">Locked</div>' : ''}
+      `;
+
+      grid.appendChild(div);
+    });
+  </script>
+
+</body>
+</html>

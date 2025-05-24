@@ -1,0 +1,32 @@
+{
+  "Robinhood": {
+    "intro": "mo_cash_female.mp3",
+    "win": "mo_cash_female_win.mp3",
+    "loss": "mo_cash_female_loss.mp3",
+    "neutral": "mo_cash_female_neutral.mp3"
+  },
+  "Webull": {
+    "intro": "strategist_female.mp3",
+    "win": "strategist_female_win.mp3",
+    "loss": "strategist_female_loss.mp3",
+    "neutral": "strategist_female_neutral.mp3"
+  },
+  "Public": {
+    "intro": "optimist_female.mp3",
+    "win": "optimist_female_win.mp3",
+    "loss": "optimist_female_loss.mp3",
+    "neutral": "optimist_female_neutral.mp3"
+  },
+  "Cash App": {
+    "intro": "comedian_female.mp3",
+    "win": "comedian_female_win.mp3",
+    "loss": "comedian_female_loss.mp3",
+    "neutral": "comedian_female_neutral.mp3"
+  },
+  "Tradier": {
+    "intro": "analyst_female.mp3",
+    "win": "analyst_female_win.mp3",
+    "loss": "analyst_female_loss.mp3",
+    "neutral": "analyst_female_neutral.mp3"
+  }
+}

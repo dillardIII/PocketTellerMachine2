@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Robinhood",
+    "account_type": "stocks",
+    "balance": 0,
+    "positions": [],
+    "sync": false
+  },
+  {
+    "name": "Webull",
+    "account_type": "stocks",
+    "balance": 0,
+    "positions": [],
+    "sync": false
+  },
+  {
+    "name": "Public",
+    "account_type": "stocks",
+    "balance": 0,
+    "positions": [],
+    "sync": false
+  },
+  {
+    "name": "Cash App",
+    "account_type": "stocks",
+    "balance": 0,
+    "positions": [],
+    "sync": false
+  },
+  {
+    "name": "Tradier",
+    "account_type": "stocks",
+    "balance": 0,
+    "positions": [],
+    "sync": true
+  }
+]

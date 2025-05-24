@@ -1,0 +1,23 @@
+[
+  {
+    "time": "09:35",
+    "ticker": "AAPL",
+    "action": "BUY",
+    "quantity": 10,
+    "price": 175.50
+  },
+  {
+    "time": "09:37",
+    "ticker": "TSLA",
+    "action": "SELL",
+    "quantity": 5,
+    "price": 690.25
+  },
+  {
+    "time": "09:40",
+    "ticker": "AMZN",
+    "action": "BUY",
+    "quantity": 15,
+    "price": 3405.10
+  }
+]

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PTM Project Checklist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #eee;
+            padding: 1.5rem;
+        }
+        h1 {
+            color: #00ffc8;
+        }
+        .task {
+            margin: 1rem 0;
+            padding: 1rem;
+            border-left: 5px solid;
+            background-color: #222;
+        }
+        .todo { border-color: #ff4444; }
+        .in_progress { border-color: #ffcc00; }
+        .done {
+            border-color: #00cc44;
+            color: #999;
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <h1>PTM Checklist</h1>
+    {% for item in checklist %}
+        <div class="task {{ item.status }}">
+            <strong>{{ item.task }}</strong><br>
+            <em>Status:</em> {{ item.status }}<br>
+            <em>Category:</em> {{ item.category }}<br>
+            <em>Notes:</em> {{ item.notes }}
+        </div>
+    {% endfor %}
+</body>
+</html>

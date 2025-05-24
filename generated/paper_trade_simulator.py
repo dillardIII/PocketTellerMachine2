@@ -1,0 +1,1 @@
+generated/Write_paper_trade_simulator.py_that_checks_open_trades_and_simulates_price_outcome_20250520_033849.py

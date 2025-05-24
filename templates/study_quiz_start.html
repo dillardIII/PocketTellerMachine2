@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Start Quiz - PTM</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 0 12px rgba(0,255,100,0.05);
+    }
+
+    h1 {
+      color: #6fd672;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .info {
+      font-size: 15px;
+      margin-bottom: 10px;
+      color: #ccc;
+    }
+
+    .highlight {
+      color: #6fd672;
+      font-weight: bold;
+    }
+
+    button {
+      display: block;
+      margin: 30px auto 0;
+      padding: 12px 24px;
+      background-color: #4caf50;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #66bb6a;
+      color: #111;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Ready to Test Your Knowledge?</h1>
+
+    <div class="info">Lesson: <span class="highlight">Chart Patterns 101</span></div>
+    <div class="info">Quiz Title: <span class="highlight">Chart Pattern Basics</span></div>
+    <div class="info">Difficulty: <span class="highlight">Beginner</span></div>
+    <div class="info">Number of Questions: <span class="highlight">5</span></div>
+    <div class="info">Estimated Time: <span class="highlight">5–7 minutes</span></div>
+    <div class="info">Earn XP: <span class="highlight">+75 XP</span></div>
+
+    <button onclick="startQuiz()">Start Quiz</button>
+  </div>
+
+  <script>
+    function startQuiz() {
+      // Simulate routing to actual quiz
+      alert("Starting Quiz... (Simulated)");
+      window.location.href = "/quiz/chart-patterns-101";
+    }
+  </script>
+
+</body>
+</html>

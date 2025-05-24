@@ -1,0 +1,23 @@
+Title: Logic Strategy Note on Trading 
+
+1. Consistent Strategy: The utmost factor in forming a trading strategy is consistency. We should pick a system that matches with our objectives, trading style, risk tolerance and follow it consistently. 
+
+2. Market Analysis: Before strategizing, it's critical to understand market trends. This can be done through Fundamental analysis (analyzing societal, economic, and political forces that may impact the market) and Technical analysis (using statistical trends gathered from trading activity such as price movement and volume).
+
+3. Risk Management: The most successful trading strategies take into consideration the amount of risk you're willing to accept. This can be achieved by diversification of your portfolio across a variety of different investments to maximise returns and minimise risk.
+
+4. Discipline: Maintaining discipline is vital in trading. Make sure you follow your strategy rather than making impulsive decisions. 
+
+5. Regular Review and Adapt: Markets are dynamic and can change rapidly. Regular reviewing of your strategy is crucial to ensure you stay aligned with the current market conditions. 
+
+6. Set Achievable Goals: Trading strategies should be measured on the basis of achievable goals. Unrealistic expectations can lead to unnecessary risks. 
+
+7. Avoid Overtrading: One common mistake a trader can make is to overtrade, which leads to higher transaction costs. It is often better to be patient and wait for the trading opportunities that meet the criteria of your strategy.
+
+8. Algorithmic Trading: This trading strategy uses mathematical models and formulas to make high-speed, high-frequency decisions and transactions, which help to automate the trading process.
+
+9. Backtesting your strategy: Before implementing any new strategy, it should be backtested with historical data. Backtesting will help identify any potential flaws or improvements that need to be made.
+
+10. Emotional Control: Emotions should be kept apart from trading decisions. Fear and greed often lead traders towards making poor decisions.
+
+This note serves as a general guideline and each specific strategy would require its own unique steps and precautions.

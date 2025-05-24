@@ -1,0 +1,22 @@
+{
+  "core_goal": "Build a unified trading AI that supports stock, forex, crypto markets.",
+  "features": [
+    "Trading bots for each asset type",
+    "Self-writing APIs and dashboards",
+    "AI assistants for market analysis and trade execution",
+    "User education guides and support inside the app",
+    "Self-learning task generator",
+    "Auto-write missing APIs and strategies",
+    "Auto-execute code",
+    "Optimize trade logic for stocks, forex, and crypto",
+    "Launch bots at market open",
+    "Self-correct system health and trading errors",
+    "Self-analyze trades and improve over time"
+  ],
+  "future_expansion": [
+    "Integration with major broker APIs",
+    "Mobile and desktop compatibility",
+    "Voice-enabled assistant"
+  ],
+  "priority": "Get system ready for live morning trading as first priority. Focus on AI brain, task automation, and bot readiness."
+}

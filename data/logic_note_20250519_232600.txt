@@ -1,0 +1,21 @@
+Title: Logic Strategy Note for Optimizing Trading Performance
+
+1. Market Research: Prioritize market research to understand the current trends, performance, and predictions about different tradable assets. Utilize available tools, both quantitative (such as industry growth rates) and qualitative (like management quality).
+
+2. Diversify Portfolio: Diversify our investment portfolio to mitigate risks and improve potential returns. This diverse allocation should fit Cole's long-term goals and risk tolerance.
+
+3. Technical Analysis: Use technical analysis to study past market data primarily price and volume, to forecast future price shifts. This analysis will be pivotal in timing trades and making informed trading decisions.
+
+4. Fundamental Analysis: Carry out a fundamental analysis of potential investments to gauge their intrinsic value, examining factors such as financial health, industry conditions, and management competence.
+
+5. Risk Management: Do not risk more than an agreed percentage of the portfolio on any single trade. Risk management will prevent large losses that can cripple our trading capital.
+
+6. Monitor Market Volatility: Pay attention to market volatility and trade volume. Changes in these metrics can indicate a good time to enter or exit trades.
+
+7. Stay Informed: Stay updated with financial news, geopolitical events, and central bank decisions, which are likely to influence market movements. 
+
+8. Review Strategy: Regularly review and update our trading strategy, based on changing market conditions and performance analysis. 
+
+9. Cut Losses, Let Profits Run: Implement a strict rule of cutting losses early while letting winners run to maximize profitability.
+
+10. Patience and Discipline: Maintain patience and discipline, adhering to the agreed strategy instead of chasing short-term trends or making impulsive decisions.

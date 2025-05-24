@@ -1,0 +1,8 @@
+{
+  "symbol": "TSLA",
+  "rule": "Price below 180",
+  "price": 178.92,
+  "status": "TRIGGERED",
+  "time": "2025-05-09 14:22:10",
+  "voice": "trigger_xyz.mp3"
+}

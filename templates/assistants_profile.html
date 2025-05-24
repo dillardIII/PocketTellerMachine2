@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ assistant.name }} – Profile</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #eee;
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      text-align: center;
+    }
+    .profile-container {
+      max-width: 600px;
+      margin: auto;
+      background: #222;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,255,100,0.1);
+    }
+    .avatar {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      background-image: url('{{ assistant.avatar }}');
+      background-size: cover;
+      margin: auto;
+      border: 3px solid #6fd672;
+    }
+    h1 {
+      color: #6fd672;
+      margin-top: 20px;
+    }
+    .role {
+      color: #ccc;
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+    .description {
+      margin: 20px 0;
+      font-size: 15px;
+      color: #bbb;
+    }
+    select {
+      padding: 8px 12px;
+      font-size: 14px;
+      border-radius: 6px;
+      background: #1f1f1f;
+      color: #eee;
+      border: 1px solid #444;
+    }
+    button {
+      background: #6fd672;
+      color: #111;
+      padding: 10px 18px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      margin: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-container">
+    <div class="avatar"></div>
+    <h1>{{ assistant.name }}</h1>
+    <div class="role">{{ assistant.role }}</div>
+    <div class="description">{{ assistant.description }}</div>
+
+    <h3>Set Mood:</h3>
+    <form action="/set_mood/{{ assistant.id }}" method="POST">
+      <select name="mood">
+        <option value="neutral" {% if assistant.mood == "neutral" %}selected{% endif %}>Neutral</option>
+        <option value="hyped" {% if assistant.mood == "hyped" %}selected{% endif %}>Hyped</option>
+        <option value="calm" {% if assistant.mood == "calm" %}selected{% endif %}>Calm</option>
+        <option value="strict" {% if assistant.mood == "strict" %}selected{% endif %}>Strict</option>
+        <option value="funny" {% if assistant.mood == "funny" %}selected{% endif %}>Funny</option>
+        <option value="serious" {% if assistant.mood == "serious" %}selected{% endif %}>Serious</option>
+      </select>
+      <button type="submit">Save Mood</button>
+    </form>
+
+    <audio controls>
+      <source src="/get_voice/{{ assistant.id }}" type="audio/mpeg">
+      Your browser does not support audio playback.
+    </audio>
+
+    <div>
+      <form action="/assign_assistant/{{ assistant.id }}" method="POST">
+        <button type="submit">Assign This Assistant</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

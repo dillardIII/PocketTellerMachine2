@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PTM Quiz Results</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 30px;
+    }
+
+    .question-box {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0,255,100,0.05);
+    }
+
+    .question {
+      font-size: 15px;
+      font-weight: bold;
+      color: #f0f0f0;
+    }
+
+    .answer {
+      margin-top: 8px;
+      font-size: 14px;
+      padding: 8px;
+      border-radius: 8px;
+    }
+
+    .correct {
+      background: #204d36;
+      color: #00e676;
+      border: 1px solid #00e676;
+    }
+
+    .incorrect {
+      background: #4d1e1e;
+      color: #ff4e4e;
+      border: 1px solid #ff4e4e;
+    }
+
+    .explanation {
+      font-size: 13px;
+      color: #aaa;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Quiz Review: Chart Patterns</h1>
+
+  <div id="resultsContainer">
+    <!-- Questions injected here -->
+  </div>
+
+  <script>
+    const quizResults = [
+      {
+        question: "What does a 'double bottom' pattern usually signal?",
+        selected: "A bullish reversal",
+        correct: "A bullish reversal",
+        explanation: "Double bottoms typically indicate the end of a downtrend and a potential rise."
+      },
+      {
+        question: "Which pattern resembles a flag on a pole?",
+        selected: "Pennant",
+        correct: "Flag",
+        explanation: "Pennants are short and symmetrical. Flags are rectangular and tilt against the trend."
+      },
+      {
+        question: "What pattern suggests a possible breakout in either direction?",
+        selected: "Symmetrical triangle",
+        correct: "Symmetrical triangle",
+        explanation: "These triangles form during consolidation and can break up or down depending on volume."
+      },
+      {
+        question: "A head and shoulders pattern usually indicates:",
+        selected: "A trend continuation",
+        correct: "A trend reversal",
+        explanation: "Head and shoulders patterns are classic signs of reversal, not continuation."
+      }
+    ];
+
+    const container = document.getElementById("resultsContainer");
+
+    quizResults.forEach((q, index) => {
+      const box = document.createElement("div");
+      const isCorrect = q.selected === q.correct;
+
+      box.className = "question-box";
+      box.innerHTML = `
+        <div class="question">Q${index + 1}: ${q.question}</div>
+        <div class="answer ${isCorrect ? 'correct' : 'incorrect'}">
+          Your Answer: ${q.selected}
+        </div>
+        <div class="answer correct">
+          Correct Answer: ${q.correct}
+        </div>
+        <div class="explanation">${q.explanation}</div>
+      `;
+
+      container.appendChild(box);
+    });
+  </script>
+
+</body>
+</html>

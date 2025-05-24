@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PTM Strategy Builder</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 20px;
+    }
+
+    .builder-box {
+      max-width: 850px;
+      margin: auto;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 0 12px rgba(0,255,100,0.05);
+    }
+
+    label {
+      display: block;
+      margin-top: 16px;
+      font-weight: bold;
+    }
+
+    select, input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      background: #222;
+      color: #fff;
+      border: 1px solid #444;
+      border-radius: 8px;
+    }
+
+    .logic-group {
+      margin-top: 20px;
+      border-top: 1px solid #333;
+      padding-top: 16px;
+    }
+
+    .logic-block {
+      margin-bottom: 12px;
+      display: flex;
+      gap: 10px;
+    }
+
+    .logic-block select {
+      flex: 1;
+    }
+
+    button {
+      margin-top: 24px;
+      padding: 12px 24px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #80e487;
+    }
+
+    .result {
+      margin-top: 20px;
+      font-size: 15px;
+      color: #ffe055;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Strategy Builder</h1>
+
+  <div class="builder-box">
+    <label for="strategyName">Strategy Name</label>
+    <input type="text" id="strategyName" placeholder="e.g., RSI Reversal + SMA Bounce" />
+
+    <div class="logic-group">
+      <label>Logic Conditions</label>
+
+      <div class="logic-block">
+        <select id="indicator1">
+          <option value="rsi">RSI</option>
+          <option value="sma">SMA</option>
+          <option value="macd">MACD</option>
+          <option value="price">Price</option>
+        </select>
+        <select id="condition1">
+          <option value="below">Below</option>
+          <option value="above">Above</option>
+          <option value="crosses_above">Crosses Above</option>
+          <option value="crosses_below">Crosses Below</option>
+        </select>
+        <input type="text" id="value1" placeholder="Value or second indicator" />
+      </div>
+
+      <div class="logic-block">
+        <select id="indicator2">
+          <option value="rsi">RSI</option>
+          <option value="sma">SMA</option>
+          <option value="macd">MACD</option>
+          <option value="price">Price</option>
+        </select>
+        <select id="condition2">
+          <option value="below">Below</option>
+          <option value="above">Above</option>
+          <option value="crosses_above">Crosses Above</option>
+          <option value="crosses_below">Crosses Below</option>
+        </select>
+        <input type="text" id="value2" placeholder="Value or second indicator" />
+      </div>
+    </div>
+
+    <button onclick="saveStrategy()">Save Strategy</button>
+    <div class="result" id="saveResult"></div>
+  </div>
+
+  <script>
+    function saveStrategy() {
+      const name = document.getElementById("strategyName").value;
+      const ind1 = document.getElementById("indicator1").value;
+      const cond1 = document.getElementById("condition1").value;
+      const val1 = document.getElementById("value1").value;
+
+      const ind2 = document.getElementById("indicator2").value;
+      const cond2 = document.getElementById("condition2").value;
+      const val2 = document.getElementById("value2").value;
+
+      const strategy = {
+        name,
+        conditions: [
+          { indicator: ind1, condition: cond1, target: val1 },
+          { indicator: ind2, condition: cond2, target: val2 }
+        ]
+      };
+
+      console.log("Saved Strategy:", strategy);
+      document.getElementById("saveResult").textContent = "Strategy '" + name + "' saved!";
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PTM Store</title>
+  <style>
+    body {
+      background: #0d0d0d;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #ffe055;
+      margin-bottom: 30px;
+    }
+
+    .store-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .item {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(255,255,100,0.05);
+    }
+
+    .item h3 {
+      color: #6fd672;
+      margin-top: 0;
+    }
+
+    .item p {
+      color: #ccc;
+      font-size: 14px;
+    }
+
+    .price {
+      margin-top: 10px;
+      color: #ffe055;
+      font-weight: bold;
+    }
+
+    .btn {
+      margin-top: 12px;
+      padding: 10px 18px;
+      background: #4caf50;
+      border: none;
+      color: #111;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #80e487;
+    }
+
+    .xp-balance {
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .xp-balance span {
+      color: #ffe055;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>PTM Unlock Store</h1>
+  <div class="xp-balance">Your XP Balance: <span>5,150</span></div>
+
+  <div class="store-grid">
+
+    <div class="item">
+      <h3>Voice: Mentor (Calm)</h3>
+      <p>Soft-spoken wisdom with a guiding tone. Adds new coaching prompts.</p>
+      <div class="price">350 XP</div>
+      <button class="btn">Unlock</button>
+    </div>
+
+    <div class="item">
+      <h3>Voice: Mo Cash (Hype)</h3>
+      <p>Boosts celebration calls, win sounds, and profit commentary.</p>
+      <div class="price">400 XP</div>
+      <button class="btn">Unlock</button>
+    </div>
+
+    <div class="item">
+      <h3>Strategy Toolkit</h3>
+      <p>Unlock 5 bonus trading setups, including diagonal spreads and fly combos.</p>
+      <div class="price">500 XP</div>
+      <button class="btn">Unlock</button>
+    </div>
+
+    <div class="item">
+      <h3>Premium Chart Skins</h3>
+      <p>Add neon, retro grid, or blueprint themes to all your dashboards.</p>
+      <div class="price">250 XP</div>
+      <button class="btn">Unlock</button>
+    </div>
+
+    <div class="item">
+      <h3>Badge Pack: Veteran Series</h3>
+      <p>Unlock achievement icons for grind, streaks, and trade IQ.</p>
+      <div class="price">150 XP</div>
+      <button class="btn">Unlock</button>
+    </div>
+
+    <div class="item">
+      <h3>Live Market Scanner</h3>
+      <p>Adds heat map, volume spikes, and trend radar panels.</p>
+      <div class="price">600 XP</div>
+      <button class="btn">Unlock</button>
+    </div>
+
+  </div>
+
+</body>
+</html>

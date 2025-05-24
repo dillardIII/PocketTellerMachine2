@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PTM Trade Portal</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #111;
+      color: #eee;
+      padding: 30px;
+    }
+    .trade {
+      background: #222;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .strategy-meta {
+      font-size: 14px;
+      color: #ccc;
+      margin-top: 8px;
+      padding-left: 10px;
+    }
+    .label {
+      font-weight: bold;
+      color: #6cf;
+    }
+    .bullish { color: #00ff99; }
+    .bearish { color: #ff5555; }
+    .neutral { color: #ffaa00; }
+  </style>
+</head>
+<body>
+
+  <h1>Trade History</h1>
+
+  <div id="trades-container">
+    <!-- Trades will be inserted here -->
+  </div>
+
+  <script>
+    async function loadTrades() {
+      const res = await fetch("/get_trades");
+      const trades = await res.json();
+      const container = document.getElementById("trades-container");
+
+      trades.reverse().forEach(trade => {
+        const div = document.createElement("div");
+        div.className = "trade";
+
+        const directionClass = trade.strategy_type
+          ? trade.strategy_type.toLowerCase()
+          : "neutral";
+
+        div.innerHTML = `
+          <div><span class="label">Symbol:</span> ${trade.symbol}</div>
+          <div><span class="label">Strategy:</span> ${trade.strategy_name || trade.strategy}</div>
+          <div><span class="label">Result:</span> $${trade.result}</div>
+          <div><span class="label">Entry:</span> $${trade.entry} | <span class="label">Exit:</span> $${trade.exit}</div>
+          <div class="strategy-meta ${directionClass}">
+            <div><span class="label">Type:</span> ${trade.strategy_type || 'N/A'}</div>
+            <div><span class="label">Level:</span> ${trade.level || 'N/A'}</div>
+            <div><span class="label">Description:</span> ${trade.strategy_description || 'No description provided.'}</div>
+          </div>
+        `;
+
+        container.appendChild(div);
+      });
+    }
+
+    loadTrades();
+  </script>
+</body>
+</html>

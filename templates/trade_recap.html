@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PTM Trade Recap</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #eee;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #6fd672;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .filters {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+      justify-content: center;
+    }
+
+    input, select, button {
+      padding: 8px;
+      background: #222;
+      border: 1px solid #444;
+      color: #eee;
+      border-radius: 5px;
+    }
+
+    button {
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .recap-box {
+      background: #1e1e1e;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 25px;
+      box-shadow: 0 0 10px rgba(0, 255, 128, 0.15);
+    }
+
+    .recap-box h2, .recap-box h3 {
+      margin: 0 0 10px 0;
+      font-size: 22px;
+      color: #6fd672;
+    }
+
+    .meta {
+      color: #ccc;
+      margin-bottom: 10px;
+    }
+
+    .note, .voice-summary {
+      font-style: italic;
+      color: #aaa;
+      margin-top: 10px;
+    }
+
+    .grade-badge {
+      display: inline-block;
+      padding: 4px 10px;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-left: 8px;
+    }
+
+    .grade-A { background-color: #00e676; color: #000; }
+    .grade-B { background-color: #9ccc65; color: #000; }
+    .grade-C { background-color: #ffeb3b; color: #000; }
+    .grade-D { background-color: #ff9800; color: #000; }
+    .grade-F { background-color: #f44336; color: #fff; }
+
+    .profit { color: #00e676; }
+    .loss { color: #ff5252; }
+
+    audio {
+      margin-top: 10px;
+      width: 100%;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 13px;
+      color: #555;
+    }
+
+    #micStatus {
+      font-size: 14px;
+      margin-top: 5px;
+      color: #6fd672;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>PTM Trade Recap Viewer</h1>
+
+  <!-- FILTERS -->
+  <div class="filters">
+    <input type="text" id="searchInput" placeholder="Search symbol or explanation...">
+    <select id="gradeFilter">
+      <option value="">All Grades</option>
+      <option>A</option><option>B</option><option>C</option><option>D</option><option>F</option>
+    </select>
+    <select id="strategyFilter">
+      <option value="">All Strategies</option>
+      {% for trade in trades %}
+        {% if trade.strategy_name %}
+          <option>{{ trade.strategy_name }}</option>
+        {% endif %}
+      {% endfor %}
+    </select>
+    <button onclick="applyFilters(true)">Apply</button>
+    <button onclick="startVoiceSearch()">🎤 Speak</button>
+    <button onclick="narrateVisibleTrades()">Narrate All</button>
+  </div>
+
+  <div id="micStatus"></div>
+
+  <!-- TRADE RECAPS -->
+  <div id="recapContainer">
+    {% for trade in trades %}
+      <div class="recap-box">
+        <h2>{{ trade.strategy_name or trade.strategy }} — {{ trade.symbol }}
+          {% if trade.grade %}
+            <span class="grade-badge grade-{{ trade.grade[0] }}">{{ trade.grade }}</span>
+          {% endif %}
+        </h2>
+        <div class="meta">
+          Date: {{ trade.timestamp[:10] }} |
+          Result: 
+          <span class="{{ 'profit' if trade.result|float >= 0 else 'loss' }}">
+            ${{ trade.result or trade.return_pct }}
+          </span>
+        </div>
+        <p><strong>Summary:</strong> {{ trade.summary or "—" }}</p>
+        <p><strong>GPT Explanation:</strong> {{ trade.gpt_explanation or "—" }}</p>
+        {% if trade.voice_summary %}
+          <div class="voice-summary">"{{ trade.voice_summary }}"</div>
+        {% endif %}
+        {% if trade.voice or trade.voice_file %}
+          <audio controls>
+            <source src="/static/audio/{{ trade.voice or trade.voice_file }}" type="audio/mpeg">
+            Your browser does not support audio playback.
+          </audio>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="footer">
+    &copy; 2025 Pocket Teller Machine | Powered by GhostBot AI
+  </div>
+
+  <script>
+    function speak(text, callback) {
+      const msg = new SpeechSynthesisUtterance(text);
+      msg.rate = 1;
+      msg.pitch = 1;
+      msg.lang = "en-US";
+      msg.onend = () => { if (callback) callback(); };
+      window.speechSynthesis.speak(msg);
+    }
+
+    function applyFilters(shouldSpeak = false) {
+      const keyword = document.getElementById("searchInput").value.toLowerCase();
+      const grade = document.getElementById("gradeFilter").value;
+      const strategy = document.getElementById("strategyFilter").value;
+      let matchCount = 0;
+
+      document.querySelectorAll(".recap-box").forEach(box => {
+        const text = box.innerText.toLowerCase();
+        const matchesKeyword = text.includes(keyword);
+        const matchesGrade = !grade || text.includes(`grade ${grade.toLowerCase()}`);
+        const matchesStrategy = !strategy || text.includes(strategy.toLowerCase());
+        const show = (matchesKeyword && matchesGrade && matchesStrategy);
+        box.style.display = show ? "block" : "none";
+        if (show) matchCount++;
+      });
+
+      if (shouldSpeak) {
+        let msg = "";
+        if (matchCount === 0) {
+          msg = "No matching trades found.";
+        } else {
+          msg = `Showing ${matchCount} trade${matchCount > 1 ? "s" : ""}`;
+          if (grade) msg += ` with grade ${grade}`;
+          if (strategy) msg += ` using ${strategy}`;
+        }
+        speak(msg);
+      }
+    }
+
+    function narrateVisibleTrades() {
+      const visible = Array.from(document.querySelectorAll(".recap-box")).filter(div => div.style.display !== "none");
+      if (!visible.length) return speak("No visible trades to narrate.");
+
+      let i = 0;
+      function narrateNext() {
+        if (i >= visible.length) return;
+        const summary = visible[i].querySelector(".voice-summary");
+        const text = summary ? summary.innerText : visible[i].innerText;
+        speak(text, narrateNext);
+        i++;
+      }
+      narrateNext();
+    }
+
+    function startVoiceSearch() {
+      const status = document.getElementById("micStatus");
+      if (!('webkitSpeechRecognition' in window)) {
+        status.innerText = "Speech recognition not supported in this browser.";
+        return;
+      }
+
+      const recognition = new webkitSpeechRecognition();
+      recognition.continuous = false;
+      recognition.lang = "en-US";
+      recognition.interimResults = false;
+      recognition.maxAlternatives = 1;
+
+      recognition.onstart = () => {
+        status.innerText = "Listening...";
+      };
+
+      recognition.onerror = event => {
+        status.innerText = "Error: " + event.error;
+      };
+
+      recognition.onend = () => {
+        status.innerText = "";
+      };
+
+      recognition.onresult = event => {
+        const transcript = event.results[0][0].transcript.toLowerCase();
+        document.getElementById("searchInput").value = transcript;
+        applyFilters(true);
+      };
+
+      recognition.start();
+    }
+
+    window.onload = applyFilters;
+  </script>
+</body>
+</html>

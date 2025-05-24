@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Custom Avatar Creator</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 30px;
+    }
+
+    .upload-box {
+      max-width: 600px;
+      margin: auto;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 24px;
+      text-align: center;
+      box-shadow: 0 0 12px rgba(0,255,100,0.05);
+    }
+
+    input[type="file"] {
+      margin: 20px 0;
+      background: #222;
+      color: #fff;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #444;
+    }
+
+    .preview {
+      margin-top: 20px;
+    }
+
+    img {
+      width: 200px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,255,100,0.15);
+    }
+
+    select {
+      margin-top: 20px;
+      padding: 10px;
+      width: 100%;
+      background: #222;
+      color: #fff;
+      border-radius: 6px;
+      border: 1px solid #444;
+    }
+
+    button {
+      margin-top: 24px;
+      padding: 12px 24px;
+      background: #4caf50;
+      border: none;
+      color: #111;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #80e487;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Custom Avatar Creator</h1>
+
+  <div class="upload-box">
+    <p>Upload your assistant or team avatar and apply a style:</p>
+    <input type="file" accept="image/*" onchange="previewImage(event)" />
+
+    <div class="preview" id="previewArea"></div>
+
+    <select id="styleSelect">
+      <option value="normal">Normal</option>
+      <option value="anime">Anime</option>
+      <option value="pixel">Pixel Art</option>
+      <option value="cyberpunk">Cyberpunk</option>
+      <option value="cartoon">Cartoon</option>
+      <option value="sketch">Sketch</option>
+    </select>
+
+    <button onclick="submitAvatar()">Save Avatar</button>
+  </div>
+
+  <script>
+    let imageURL = "";
+
+    function previewImage(event) {
+      const reader = new FileReader();
+      reader.onload = function () {
+        imageURL = reader.result;
+        document.getElementById("previewArea").innerHTML = `<img src="${imageURL}" alt="Avatar Preview" />`;
+      };
+      reader.readAsDataURL(event.target.files[0]);
+    }
+
+    function submitAvatar() {
+      const style = document.getElementById("styleSelect").value;
+      alert(`Avatar uploaded with ${style} style! (Image handling simulated)`);
+      // In production: send image + style to backend AI model or upload handler
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+{
+  "memory": [
+    {
+      "event": "Started tracking self-learning tasks",
+      "timestamp": "2025-05-12T08:00:00Z",
+      "note": "Cole AI initiated the self-learning loop."
+    },
+    {
+      "event": "Detected 3 losses in a row",
+      "timestamp": "2025-05-12T11:30:46Z",
+      "note": "Triggered loss review routine. Suggested pausing trading temporarily."
+    },
+    {
+      "event": "No trades in 48 hours",
+      "timestamp": "2025-05-12T11:30:48Z",
+      "note": "Suggested checking for system stalling or trigger failure."
+    },
+    {
+      "event": "High TSLA exposure",
+      "timestamp": "2025-05-12T11:31:05Z",
+      "note": "Recommended adjusting Tesla exposure levels. Too concentrated."
+    },
+    {
+      "event": "Daily morning trade review completed",
+      "timestamp": "2025-05-12T12:51:27Z",
+      "note": "Morning trade analysis flagged weak performers."
+    },
+    {
+      "event": "Reversal pattern scan executed",
+      "timestamp": "2025-05-12T12:51:27Z",
+      "note": "Identified potential reversal opportunities."
+    },
+    {
+      "event": "Power hour breakout scan",
+      "timestamp": "2025-05-12T15:07:16Z",
+      "note": "Monitored end-of-day breakout opportunities."
+    },
+    {
+      "event": "Intraday P&L review completed",
+      "timestamp": "2025-05-12T15:07:16Z",
+      "note": "Adjustments made to intraday positions."
+    },
+    {
+      "event": "End-of-day trade log written",
+      "timestamp": "2025-05-12T16:00:49Z",
+      "note": "Logged all trade outcomes and generated recap."
+    },
+    {
+      "event": "AI learning module executed",
+      "timestamp": "2025-05-12T16:00:49Z",
+      "note": "Cole analyzed trade outcomes and refined next-day strategy."
+    }
+  ]
+}

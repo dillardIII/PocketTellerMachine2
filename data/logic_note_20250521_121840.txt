@@ -1,0 +1,25 @@
+Title: Cole's Logic Trading Strategy
+
+Introduction:
+A key to successful trading revolves around implementing a robust and well-thought trading strategy. Timing, decision making and risk management play vital roles in our strategic plan.
+
+1) Deep Market Analysis:
+Our primary strategy should be deep market analysis. This involves examining current market trends, price patterns, technical indicators, and trading volumes. We'll also engage in fundamental analysis, focusing on a company’s earnings prospects, financial strength, and market position in order to predict an asset’s future performance.
+
+2) Diversification:
+To reduce exposure to market volatility, our strategy will include diversifying a portfolio. This protection strategy covers investment in different asset classes, sectors, and geographic locations to balance the risk and reward ratio.
+
+3) Risk Management: 
+We must maintain strong risk management protocols by setting Stop-Loss (SL) and Take-Profit (TP) points. By predetermining these levels, we can automate the trading process whilst minimizing potential losses and securing profits.
+
+4) Regular Rebalancing:
+Our approach should include regular portfolio rebalancing to ensure it stays aligned with our desired risk level and investment objectives. This will involve both adding and reducing positions across a diverse range of assets.
+
+5) Monitoring Economic Indicators:
+Tracking economic indicators influences our decision-making process. For instance, inflation, GDP growth rate, employment reports, and central bank policy decisions can significantly impact market conditions.
+
+6) Emotionless Trading:
+One should operate without being influenced by fear, greed or bias. In other words, trades should strictly be based on strategy, not emotions. This allows for consistent decisions and prevents irrational trading.
+
+In conclusion,
+Applying structure and discipline to our trading process supports the creation of a reliable and repeatable strategy. This does not guarantee profit in every trade, but increases the likelihood of long-term success. Our adherence to this logic-based strategy will empower us to make more calculated decisions to navigate market fluctuations.

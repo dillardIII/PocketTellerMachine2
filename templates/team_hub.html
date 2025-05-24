@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PTM Team Hub</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 20px;
+    }
+
+    .team-summary {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .team-summary span {
+      color: #ffe055;
+      font-weight: bold;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .card {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,255,100,0.05);
+    }
+
+    .card img {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+      border: 2px solid #6fd672;
+    }
+
+    .card h3 {
+      margin: 10px 0 5px;
+      color: #ffe055;
+    }
+
+    .role {
+      font-size: 14px;
+      color: #aaa;
+      margin-bottom: 8px;
+    }
+
+    .xp {
+      font-size: 13px;
+      color: #80e487;
+      font-weight: bold;
+    }
+
+    .badge {
+      font-size: 12px;
+      background: #4caf50;
+      padding: 4px 10px;
+      border-radius: 6px;
+      color: #111;
+      margin-top: 8px;
+      display: inline-block;
+    }
+
+    .bot-extra {
+      margin-top: 10px;
+      font-size: 13px;
+      color: #ccc;
+    }
+
+    .button-group {
+      margin-top: 12px;
+    }
+
+    .button-group button {
+      margin: 4px;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      background-color: #4caf50;
+      color: white;
+      cursor: pointer;
+    }
+
+    .button-group button:hover {
+      background-color: #80e487;
+    }
+
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Team Hub: Ghost Traders</h1>
+
+  <div class="team-summary">
+    Total Members: <span>5</span> | Total XP: <span>23,780</span> | Rank: <span>#2</span>
+  </div>
+
+  <div class="grid">
+
+    <!-- Human Leader -->
+    <div class="card">
+      <img src="/static/avatars/boo.png" alt="Boo" />
+      <h3>Dillard</h3>
+      <div class="role">CFO & Lead Trader</div>
+      <div class="xp">XP: 5,200</div>
+      <div class="badge">Strategist Badge</div>
+    </div>
+
+    <!-- Bot: Mo Cash -->
+    <div class="card">
+      <img src="/static/avatars/mo_cash.png" alt="Mo Cash" />
+      <h3>Mo Cash</h3>
+      <div class="role">Market Captain</div>
+      <div class="xp">XP: 4,950</div>
+      <div class="badge">Hustle Badge</div>
+      <div class="bot-extra">Platform: Robinhood<br>Status: <span style="color:#00e676">LIVE</span><br>Sync: On</div>
+      <div class="button-group">
+        <button onclick="toggleMode('Mo Cash')">Toggle Mode</button>
+        <button onclick="syncNow('Mo Cash')">Sync Now</button>
+        <button onclick="playVoice('mo_cash')">Voice Alert</button>
+      </div>
+    </div>
+
+    <!-- Bot: Mentor -->
+    <div class="card">
+      <img src="/static/avatars/mentor.png" alt="Mentor" />
+      <h3>Mentor</h3>
+      <div class="role">Advisor</div>
+      <div class="xp">XP: 4,780</div>
+      <div class="badge">Insight Badge</div>
+      <div class="bot-extra">Platform: Tradier<br>Status: <span style="color:#00e676">LIVE</span><br>Sync: Off</div>
+      <div class="button-group">
+        <button onclick="toggleMode('Mentor')">Toggle Mode</button>
+        <button onclick="syncNow('Mentor')">Sync Now</button>
+        <button onclick="playVoice('mentor')">Voice Alert</button>
+      </div>
+    </div>
+
+    <!-- Bot: The Shadow -->
+    <div class="card">
+      <img src="/static/avatars/shadow.png" alt="Shadow" />
+      <h3>The Shadow</h3>
+      <div class="role">Intel Specialist</div>
+      <div class="xp">XP: 4,600</div>
+      <div class="badge">Silence Badge</div>
+      <div class="bot-extra">Platform: Webull<br>Status: <span style="color:#ff5252">OFFLINE</span><br>Sync: On</div>
+      <div class="button-group">
+        <button onclick="toggleMode('Shadow')">Toggle Mode</button>
+        <button onclick="syncNow('Shadow')">Sync Now</button>
+        <button onclick="playVoice('shadow')">Voice Alert</button>
+      </div>
+    </div>
+
+    <!-- Bot: Drill Instructor -->
+    <div class="card">
+      <img src="/static/avatars/drill.png" alt="Drill Instructor" />
+      <h3>Drill Instructor</h3>
+      <div class="role">Discipline Officer</div>
+      <div class="xp">XP: 4,250</div>
+      <div class="badge">Command Badge</div>
+      <div class="bot-extra">Platform: Public<br>Status: <span style="color:#ff5252">OFFLINE</span><br>Sync: Off</div>
+      <div class="button-group">
+        <button onclick="toggleMode('Drill Instructor')">Toggle Mode</button>
+        <button onclick="syncNow('Drill Instructor')">Sync Now</button>
+        <button onclick="playVoice('drill')">Voice Alert</button>
+      </div>
+    </div>
+
+  </div>
+
+  <audio id="voiceAlert"></audio>
+
+  <script>
+    function toggleMode(name) {
+      alert(`Toggled trading mode for ${name} (simulated).`);
+      // Call backend: /toggle_broker_mode/:name
+    }
+
+    function syncNow(name) {
+      alert(`Synced brokerage for ${name} (simulated).`);
+      // Call backend: /sync_brokerage/:name
+    }
+
+    function playVoice(name) {
+      const voice = document.getElementById('voiceAlert');
+      voice.src = `/voice_preview/${name.toLowerCase()}_alert.mp3`;
+      voice.play();
+    }
+  </script>
+
+</body>
+</html>

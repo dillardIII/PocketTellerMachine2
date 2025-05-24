@@ -1,0 +1,26 @@
+Subject: Logic Strategy Note
+
+Dear Team,
+
+I hope this note finds you all well. As trading focuses on probabilities and not certainties, I am writing this note to address some essential logic trading strategies. These strategies will allow us to manage risk and make sound trading decisions.
+
+1. **Risk Management**: Our trading logic should always prioritize risk management. No matter how confident we think we are regarding a profitable outcome, the markets can always surprise us. Hence, it is essential to mitigate potential losses through stop losses and risk/reward evaluation before placing any trade.
+
+2. **Consistent Approach**: Consistency plays a significant role in successful trading. Once we agree upon a strategy, we should consistently apply it and not randomly switch strategies based on temporary market conditions. Remember, our strategies are statistically tested over time for consistent returns.
+
+3. **Market Analysis**: We need to combine both technical and fundamental analysis. Technical analysis helps us identify trading opportunities based on price trends and patterns. On the other hand, fundamental analysis allows us to evaluate the intrinsic value of the asset, providing a broader market perspective. 
+
+4. **Emotional Control**: Trading decisions should be devoid of emotions. Fear and greed can often lead traders to make imprudent decisions. Our logic strategy should focus on clear analysis and set rules, removing any emotional bias.
+
+5. **Regular Reporting and Reviewing**: Trading is an ongoing learning process. Review allows us to understand the effectiveness of our strategies and make amendments when necessary. Keep a trading journal to document strategies and trades for future reference and analysis. 
+
+6. **Adaptability**: While consistency is key, adaptability is equally important. The market is dynamic and ever-changing, making it crucial for us to adjust our strategies when needed while keeping the core logic intact.
+
+The ultimate trading aim is not about winning every single trade, but instead about winning enough to make a profit in the long run. Remember, patience, discipline and a solid understanding of the market are crucial elements of successful trading.
+
+Looking forward to implementing these strategies with you all.
+
+Best,
+
+[Your Name]
+Trading Assistant to Cole

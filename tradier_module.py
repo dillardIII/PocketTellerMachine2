@@ -1,47 +1,134 @@
-# tradier_module.py
-
 import requests
+import os
+import xml.etree.ElementTree as ET
 
+TRADIER_API_KEY = os.getenv("TRADIER_API_KEY")  # Set your key in .env or directly here
+TRADIER_BASE_URL = "https://sandbox.tradier.com/v1"  # For paper trading
+
+HEADERS = {
+    "Authorization": f"Bearer {TRADIER_API_KEY}",
+    "Accept": "application/json"
+}
+
+# === Get Account ID ===
+def get_account_id():
+    url = f"{TRADIER_BASE_URL}/user/profile"
+    response = requests.get(url, headers=HEADERS)
+    if response.ok:
+        return response.json()["profile"]["account"]["account_number"]
+    else:
+        print("[ERROR]: Unable to fetch account ID.")
+        return None
+
+# === Place Paper Trade ===
+def place_trade(symbol, qty, side="buy", type="market"):
+    account_id = get_account_id()
+    if not account_id:
+        return "[ERROR]: No account ID."
+
+    order_url = f"{TRADIER_BASE_URL}/accounts/{account_id}/orders"
+    payload = {
+        "class": "equity",
+        "symbol": symbol,
+        "side": side,
+        "quantity": qty,
+        "type": type,
+        "duration": "gtc"
+    }
+
+    response = requests.post(order_url, headers=HEADERS, data=payload)
+    if response.ok:
+        print("[TRADE PLACED]:", response.json())
+        return response.json()
+    else:
+        print("[ERROR]: Trade failed.", response.text)
+        return response.text
+
+# === Tradier Client Class (Improved Version) ===
 class TradierClient:
     def __init__(self, api_key, sandbox=True):
+        self.base_url = (
+            "https://sandbox.tradier.com/v1/" if sandbox
+            else "https://api.tradier.com/v1/"
+        )
         self.api_key = api_key
-        # Use sandbox.tradier.com for paper trading, api.tradier.com for live
-        self.base_url = "https://sandbox.tradier.com/v1" if sandbox else "https://api.tradier.com/v1"
-        self.headers = {
+
+    def get_quote(self, symbol):
+        url = self.base_url + "markets/quotes"
+        headers = {
             "Authorization": f"Bearer {self.api_key}",
             "Accept": "application/json"
         }
-
-    def get_quote(self, symbol):
-        """
-        Gets the latest quote for a given symbol.
-        """
-        endpoint = f"{self.base_url}/markets/quotes"
         params = {"symbols": symbol}
-        response = requests.get(endpoint, headers=self.headers, params=params)
-        if response.status_code == 200:
-            return response.json()["quotes"]["quote"]
-        else:
-            print(f"Error getting quote: {response.status_code} - {response.text}")
+        try:
+            resp = requests.get(url, headers=headers, params=params)
+            resp.raise_for_status()
+            data = resp.json()
+            quotes = data.get("quotes", {}).get("quote")
+            if isinstance(quotes, list):
+                return quotes[0] if quotes else None
+            return quotes
+        except Exception as e:
+            print(f"Tradier quote error: {e}")
             return None
 
-    def place_order(self, symbol, action, qty=1, paper=True):
-        """
-        Places a trade order. Default is paper trading in sandbox.
-        """
-        endpoint = f"{self.base_url}/accounts/YOUR_ACCOUNT_NUMBER/orders"
+    def place_order(self, account_id, symbol, side, quantity):
+        url = self.base_url + f"accounts/{account_id}/orders"
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Accept": "application/json",
+            "Content-Type": "application/x-www-form-urlencoded"
+        }
         data = {
             "class": "equity",
             "symbol": symbol,
-            "side": action.lower(),  # "buy" or "sell"
-            "quantity": qty,
+            "side": side,
+            "quantity": quantity,
             "type": "market",
-            "duration": "gtc"  # Good 'til canceled
+            "duration": "day"
         }
-        response = requests.post(endpoint, headers=self.headers, data=data)
-        if response.status_code in [200, 201]:
-            print(f"Order placed: {action.upper()} {qty} shares of {symbol}")
-            return response.json()
-        else:
-            print(f"Error placing order: {response.status_code} - {response.text}")
+        try:
+            resp = requests.post(url, headers=headers, data=data)
+            resp.raise_for_status()
+            result = resp.json()
+            return result
+        except Exception as e:
+            print(f"Tradier order error: {e}")
             return None
+
+    def get_news(self, symbol):
+        url = self.base_url + "markets/news"
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Accept": "application/json"
+        }
+        params = {"symbols": symbol}
+        try:
+            resp = requests.get(url, headers=headers, params=params)
+            resp.raise_for_status()
+            data = resp.json()
+            return data.get("news", {})
+        except requests.exceptions.HTTPError as e:
+            print(f"Tradier news error for {symbol}: {e}")
+            return {"stories": []}
+        except Exception as e:
+            print(f"General Tradier news error: {e}")
+            return {"stories": []}
+
+# === Yahoo News Client ===
+class YahooNewsClient:
+    def get_news(self, symbol):
+        url = f"https://feeds.finance.yahoo.com/rss/2.0/headline?s={symbol}&region=US&lang=en-US"
+        try:
+            resp = requests.get(url, timeout=8)
+            resp.raise_for_status()
+            root = ET.fromstring(resp.content)
+            headlines = []
+            for item in root.findall(".//item"):
+                title = item.find("title")
+                if title is not None:
+                    headlines.append(title.text)
+            return headlines
+        except Exception as e:
+            print(f"Yahoo Finance news error for {symbol}: {e}")
+            return []

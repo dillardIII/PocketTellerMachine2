@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Voice Feedback Room</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 20px;
+    }
+
+    .feedback-box {
+      max-width: 700px;
+      margin: auto;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 24px;
+      text-align: center;
+      box-shadow: 0 0 12px rgba(0,255,100,0.05);
+    }
+
+    .persona-select {
+      margin-bottom: 20px;
+    }
+
+    select {
+      padding: 10px;
+      background: #222;
+      color: #fff;
+      border-radius: 6px;
+      border: 1px solid #444;
+      width: 100%;
+    }
+
+    .summary-text {
+      margin-top: 20px;
+      font-size: 16px;
+      color: #ccc;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 16px;
+      border-radius: 8px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #4caf50;
+      border: none;
+      color: #111;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #80e487;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Voice Feedback Room</h1>
+
+  <div class="feedback-box">
+    <div class="persona-select">
+      <label for="persona">Choose Your Assistant:</label>
+      <select id="persona">
+        <option value="mentor">Mentor</option>
+        <option value="mo_cash">Mo Cash</option>
+        <option value="drill">Drill Instructor</option>
+        <option value="optimist">The Optimist</option>
+        <option value="shadow">The Shadow</option>
+      </select>
+    </div>
+
+    <button onclick="playFeedback()">Play Recap</button>
+
+    <div class="summary-text" id="summaryText"></div>
+    <audio id="voiceAudio" controls style="display:none;"></audio>
+  </div>
+
+  <script>
+    const summaries = {
+      mentor: "Great work. Your recent trades show discipline and strong entry logic. Stay consistent.",
+      mo_cash: "Yo! You dominated that setup — gains locked in, momentum strong. Keep hustlin’!",
+      drill: "TRADE EXECUTED. RESULT: SUCCESS. MAINTAIN READINESS.",
+      optimist: "You're doing amazing! This last trade showed real growth. I’m proud of you!",
+      shadow: "Position complete. Data confirms your instincts were sharp. Remain silent, stay lethal."
+    };
+
+    const files = {
+      mentor: "/static/audio/mentor_feedback.mp3",
+      mo_cash: "/static/audio/mocash_feedback.mp3",
+      drill: "/static/audio/drill_feedback.mp3",
+      optimist: "/static/audio/optimist_feedback.mp3",
+      shadow: "/static/audio/shadow_feedback.mp3"
+    };
+
+    function playFeedback() {
+      const selected = document.getElementById("persona").value;
+      const text = summaries[selected];
+      const file = files[selected];
+
+      document.getElementById("summaryText").textContent = text;
+
+      const audio = document.getElementById("voiceAudio");
+      audio.src = file;
+      audio.style.display = "block";
+      audio.play();
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+{
+  "buy_call": {
+    "name": "Buy Call",
+    "type": "Directional",
+    "level": "Beginner",
+    "description": "A bullish strategy where you profit if the stock price rises above the strike price plus premium."
+  },
+  "sell_call": {
+    "name": "Sell Call",
+    "type": "Neutral to Bearish",
+    "level": "Intermediate",
+    "description": "Used to generate income in sideways markets or when you believe the stock will not rise above the strike."
+  },
+  "buy_put": {
+    "name": "Buy Put",
+    "type": "Directional",
+    "level": "Beginner",
+    "description": "A bearish strategy where you profit if the stock price falls below the strike price minus premium."
+  },
+  "sell_put": {
+    "name": "Sell Put",
+    "type": "Neutral to Bullish",
+    "level": "Intermediate",
+    "description": "Earn premium if the stock stays above the strike price. Used when you're willing to own the stock at a lower price."
+  },
+  "credit_call_spread": {
+    "name": "Credit Call Spread",
+    "type": "Bearish",
+    "level": "Intermediate",
+    "description": "Sell a call and buy a higher strike call to profit from a stock staying below the short call strike."
+  },
+  "debit_call_spread": {
+    "name": "Debit Call Spread",
+    "type": "Bullish",
+    "level": "Intermediate",
+    "description": "Buy a call and sell a higher strike call to profit from a moderate rise in stock price."
+  },
+  "credit_put_spread": {
+    "name": "Credit Put Spread",
+    "type": "Bullish",
+    "level": "Intermediate",
+    "description": "Sell a put and buy a lower strike put to profit from the stock staying above the short put."
+  },
+  "debit_put_spread": {
+    "name": "Debit Put Spread",
+    "type": "Bearish",
+    "level": "Intermediate",
+    "description": "Buy a put and sell a lower strike put to profit from a moderate decline in stock price."
+  },
+  "iron_condor": {
+    "name": "Iron Condor",
+    "type": "Neutral",
+    "level": "Advanced",
+    "description": "Combines two credit spreads to profit from low volatility and the stock staying in a range."
+  },
+  "straddle": {
+    "name": "Straddle",
+    "type": "Volatility",
+    "level": "Advanced",
+    "description": "Buy a call and a put at the same strike expecting a big move in either direction."
+  },
+  "strangle": {
+    "name": "Strangle",
+    "type": "Volatility",
+    "level": "Advanced",
+    "description": "Buy a call and a put at different strikes to profit from large movement in either direction."
+  },
+  "butterfly_call": {
+    "name": "Call Butterfly",
+    "type": "Neutral",
+    "level": "Advanced",
+    "description": "Combines multiple calls to profit from a stock landing at a specific price at expiration."
+  },
+  "calendar_spread": {
+    "name": "Calendar Spread",
+    "type": "Neutral",
+    "level": "Advanced",
+    "description": "Buy and sell options with the same strike but different expirations to profit from time decay and volatility changes."
+  },
+  "covered_call": {
+    "name": "Covered Call",
+    "type": "Neutral to Bullish",
+    "level": "Beginner",
+    "description": "Own the stock and sell calls against it to generate income when expecting mild upside."
+  },
+  "protective_put": {
+    "name": "Protective Put",
+    "type": "Hedging",
+    "level": "Beginner",
+    "description": "Buy a put to protect against downside risk in a long stock position."
+  },
+  "credit_spread": {
+    "name": "Credit Spread",
+    "type": "Directional Income",
+    "level": "Intermediate",
+    "description": "General term for strategies like credit call or put spreads that collect premium with limited risk."
+  },
+  "basic_buy_sell": {
+    "name": "Buy & Sell",
+    "type": "Directional",
+    "level": "Beginner",
+    "description": "Simple entry and exit based on price movement with no options involved."
+  }
+}

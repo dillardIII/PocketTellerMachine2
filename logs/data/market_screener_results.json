@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "ticker": "AAPL",
+      "price": 192.58,
+      "volume": 45012000,
+      "rsi": 54.23,
+      "signal": "Hold"
+    },
+    {
+      "ticker": "TSLA",
+      "price": 718.90,
+      "volume": 30105000,
+      "rsi": 65.12,
+      "signal": "Overbought"
+    },
+    {
+      "ticker": "PLTR",
+      "price": 22.17,
+      "volume": 12567000,
+      "rsi": 48.75,
+      "signal": "Buy"
+    },
+    {
+      "ticker": "SOFI",
+      "price": 9.34,
+      "volume": 15723000,
+      "rsi": 60.89,
+      "signal": "Neutral"
+    }
+  ]
+}

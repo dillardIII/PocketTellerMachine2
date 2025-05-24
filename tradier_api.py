@@ -1,70 +1,118 @@
 # tradier_api.py
 
 import requests
-from tradier_config import TRADIER_API_KEY, TRADIER_ENDPOINT
+import json
+import os
 
-def get_latest_price(symbol):
-    """
-    Fetch the most recent market price for a given symbol using Tradier's quotes endpoint.
-    """
-    url = f"{TRADIER_ENDPOINT}/markets/quotes"
-    headers = {
-        "Authorization": f"Bearer {TRADIER_API_KEY}",
-        "Accept": "application/json"
-    }
-    params = {"symbols": symbol}
-    resp = requests.get(url, headers=headers, params=params)
-    data = resp.json()
-    quote = data.get("quotes", {}).get("quote")
-    if not quote:
-        raise Exception("No quote data found for symbol.")
-    # Handle both single and multi-symbol responses
-    if isinstance(quote, list):
-        price = quote[0].get("last")
-    else:
-        price = quote.get("last")
-    return float(price)
+class TradierAPI:
+    def __init__(self, api_key, account_id="paper123", sandbox=True):
+        self.api_key = api_key
+        self.account_id = account_id
+        self.base_url = "https://sandbox.tradier.com/v1" if sandbox else "https://api.tradier.com/v1"
+        self.headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Accept": "application/json"
+        }
+        self.portfolio_file = "data/paper_portfolio.json"
+        self._init_portfolio_file()
 
-def get_history_bars(symbol, interval="daily", limit=10):
-    """
-    Fetch historical OHLC bars for a symbol.
-    """
-    url = f"{TRADIER_ENDPOINT}/markets/history"
-    headers = {
-        "Authorization": f"Bearer {TRADIER_API_KEY}",
-        "Accept": "application/json"
-    }
-    params = {
-        "symbol": symbol,
-        "interval": interval,
-        "limit": limit
-    }
-    resp = requests.get(url, headers=headers, params=params)
-    data = resp.json()
-    bars = data.get("history", {}).get("day", [])
-    closes = [float(bar["close"]) for bar in bars if "close" in bar]
-    return closes
+    def _init_portfolio_file(self):
+        if not os.path.exists(self.portfolio_file):
+            with open(self.portfolio_file, "w") as f:
+                json.dump({}, f)
 
-def place_order(symbol, qty, side, order_type="market", duration="day"):
-    """
-    Place a trade order through Tradier.
-    """
-    account_number = "VA29130166"  # Use your sandbox or live account number
-    url = f"{TRADIER_ENDPOINT}/accounts/{account_number}/orders"
-    headers = {
-        "Authorization": f"Bearer {TRADIER_API_KEY}",
-        "Accept": "application/json",
-        "Content-Type": "application/x-www-form-urlencoded"
-    }
-    payload = {
-        "class": "equity",
-        "symbol": symbol,
-        "side": side,          # "buy" or "sell"
-        "quantity": qty,
-        "type": order_type,    # "market", "limit", etc.
-        "duration": duration   # "day", "gtc", etc.
-    }
-    resp = requests.post(url, headers=headers, data=payload)
-    if resp.status_code != 200:
-        raise Exception(f"Tradier API error: {resp.status_code} {resp.text}")
-    return resp.json()
+    def get_quote(self, symbol):
+        endpoint = f"{self.base_url}/markets/quotes"
+        try:
+            response = requests.get(endpoint, headers=self.headers, params={"symbols": symbol})
+            return response.json().get("quotes", {}).get("quote", {})
+        except Exception as e:
+            print(f"[TradierAPI] Quote error: {e}")
+            return {}
+
+    def get_option_chain(self, symbol, expiration=None):
+        endpoint = f"{self.base_url}/markets/options/chains"
+        params = {"symbol": symbol}
+        if expiration:
+            params["expiration"] = expiration
+        try:
+            response = requests.get(endpoint, headers=self.headers, params=params)
+            return response.json()
+        except Exception as e:
+            print(f"[TradierAPI] Option chain error: {e}")
+            return {}
+
+    def get_history(self, symbol, interval="daily", start=None, end=None):
+        endpoint = f"{self.base_url}/markets/history"
+        params = {"symbol": symbol, "interval": interval}
+        if start: params["start"] = start
+        if end: params["end"] = end
+        try:
+            response = requests.get(endpoint, headers=self.headers, params=params)
+            return response.json()
+        except Exception as e:
+            print(f"[TradierAPI] History error: {e}")
+            return {}
+
+    # === PAPER TRADE LOGIC ===
+    def paper_trade(self, symbol, action, quantity=1, price=None):
+        quote = self.get_quote(symbol)
+        market_price = price if price else float(quote.get("last", 0))
+        side = action.lower()
+
+        try:
+            with open(self.portfolio_file, "r") as f:
+                portfolio = json.load(f)
+        except:
+            portfolio = {}
+
+        if side == "buy":
+            portfolio[symbol] = portfolio.get(symbol, 0) + quantity
+        elif side == "sell":
+            portfolio[symbol] = max(0, portfolio.get(symbol, 0) - quantity)
+
+        with open(self.portfolio_file, "w") as f:
+            json.dump(portfolio, f, indent=2)
+
+        return {
+            "action": side,
+            "symbol": symbol,
+            "quantity": quantity,
+            "price": market_price,
+            "status": "paper trade complete"
+        }
+
+    def get_paper_portfolio(self):
+        try:
+            with open(self.portfolio_file, "r") as f:
+                portfolio = json.load(f)
+        except:
+            portfolio = {}
+
+        result = {}
+        for symbol, qty in portfolio.items():
+            quote = self.get_quote(symbol)
+            result[symbol] = {
+                "quantity": qty,
+                "last_price": float(quote.get("last", 0)),
+                "value": round(qty * float(quote.get("last", 0)), 2)
+            }
+        return result
+
+    # === OPTION STRATEGY BUILDER ===
+    def build_option_strategy(self, symbol, legs):
+        """
+        legs = [
+            {"action": "buy", "type": "call", "strike": 100, "expiration": "2025-06-21"},
+            {"action": "sell", "type": "call", "strike": 110, "expiration": "2025-06-21"}
+        ]
+        """
+        strategy = {"symbol": symbol, "legs": []}
+        for leg in legs:
+            strategy["legs"].append({
+                "action": leg["action"],
+                "option_type": leg["type"],
+                "strike": leg["strike"],
+                "expiration": leg["expiration"]
+            })
+        return strategy

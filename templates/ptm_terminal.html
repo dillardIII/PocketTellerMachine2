@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PTM Terminal</title>
+  <style>
+    body {
+      background-color: #0e0e0e;
+      color: #00ffae;
+      font-family: 'Courier New', monospace;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 20px;
+    }
+
+    .terminal {
+      max-width: 900px;
+      margin: auto;
+      background-color: #111;
+      border: 2px solid #222;
+      border-radius: 8px;
+      padding: 20px;
+      height: 500px;
+      overflow-y: auto;
+    }
+
+    .line {
+      margin-bottom: 10px;
+    }
+
+    .input-line {
+      display: flex;
+      align-items: center;
+    }
+
+    .prompt {
+      margin-right: 8px;
+      color: #6fd672;
+    }
+
+    input {
+      flex: 1;
+      background: transparent;
+      color: #fff;
+      border: none;
+      font-family: inherit;
+      font-size: 15px;
+      outline: none;
+    }
+
+    .response {
+      color: #ccc;
+      margin-left: 15px;
+    }
+
+    .command {
+      color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>PTM Assistant Terminal</h1>
+
+  <div class="terminal" id="terminal">
+    <div class="line">PTM Ready. Type <span class="command">'help'</span> for a list of commands.</div>
+  </div>
+
+  <div class="input-line">
+    <span class="prompt">>></span>
+    <input type="text" id="terminalInput" autocomplete="off" autofocus />
+  </div>
+
+  <script>
+    const terminal = document.getElementById("terminal");
+    const input = document.getElementById("terminalInput");
+
+    const commands = {
+      help: "Available: help, stats, status, mood, strategy, clear",
+      stats: "Total Trades: 48 | Win Rate: 72% | XP: 2350",
+      status: "Bot Status: ONLINE | Mode: Paper | Voice: Mentor",
+      mood: "Current Mood: Confident | Last Win: AAPL +$180",
+      strategy: "Latest Strategy: Credit Spread | Risk Level: Medium",
+      clear: "__clear"
+    };
+
+    input.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") {
+        const cmd = input.value.trim();
+        input.value = "";
+
+        const userLine = document.createElement("div");
+        userLine.className = "line";
+        userLine.innerHTML = `<span class="prompt">>></span> <span class="command">${cmd}</span>`;
+        terminal.appendChild(userLine);
+
+        if (cmd === "clear") {
+          terminal.innerHTML = '';
+          return;
+        }
+
+        const resLine = document.createElement("div");
+        resLine.className = "line response";
+
+        if (commands[cmd]) {
+          resLine.textContent = commands[cmd];
+        } else {
+          resLine.textContent = "Command not recognized. Try 'help'.";
+        }
+
+        terminal.appendChild(resLine);
+        terminal.scrollTop = terminal.scrollHeight;
+      }
+    });
+  </script>
+
+</body>
+</html>

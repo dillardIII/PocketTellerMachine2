@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Assistant Selector</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .persona-card {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 16px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,255,100,0.05);
+    }
+
+    .persona-card h3 {
+      margin: 10px 0 6px;
+      color: #6fd672;
+    }
+
+    .persona-role {
+      font-size: 13px;
+      color: #aaa;
+    }
+
+    .assign-btn {
+      background-color: #4caf50;
+      color: white;
+      padding: 8px 16px;
+      margin-top: 12px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .assign-btn:hover {
+      background-color: #66bb6a;
+      color: #111;
+    }
+
+    .preview {
+      font-size: 12px;
+      margin-top: 6px;
+      color: #aaa;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 10px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Select Your Assistant Persona</h1>
+
+  <div class="grid">
+    <div class="persona-card">
+      <h3>Mentor</h3>
+      <div class="persona-role">Calm, Educational Voice</div>
+      <button class="assign-btn" onclick="setPersona('Mentor')">Activate</button>
+      <div class="preview">Preview: Calm Guidance</div>
+      <audio controls src="/static/audio/mentor_preview.mp3"></audio>
+    </div>
+
+    <div class="persona-card">
+      <h3>Mo Cash</h3>
+      <div class="persona-role">Hustler, Confident Tone</div>
+      <button class="assign-btn" onclick="setPersona('Mo Cash')">Activate</button>
+      <div class="preview">Preview: Hype Motivation</div>
+      <audio controls src="/static/audio/mocash.mp3"></audio>
+    </div>
+
+    <div class="persona-card">
+      <h3>Drill Instructor</h3>
+      <div class="persona-role">Strict, Tactical Orders</div>
+      <button class="assign-btn" onclick="setPersona('Drill Instructor')">Activate</button>
+      <div class="preview">Preview: No Excuses</div>
+      <audio controls src="/static/audio/drill.mp3"></audio>
+    </div>
+
+    <div class="persona-card">
+      <h3>The Strategist</h3>
+      <div class="persona-role">Analytical & Tactical</div>
+      <button class="assign-btn" onclick="setPersona('Strategist')">Activate</button>
+      <div class="preview">Preview: Game Plan Mode</div>
+      <audio controls src="/static/audio/strategist.mp3"></audio>
+    </div>
+
+    <div class="persona-card">
+      <h3>The Optimist</h3>
+      <div class="persona-role">Positive & Encouraging</div>
+      <button class="assign-btn" onclick="setPersona('Optimist')">Activate</button>
+      <div class="preview">Preview: Cheer Mode</div>
+      <audio controls src="/static/audio/optimist.mp3"></audio>
+    </div>
+
+    <div class="persona-card">
+      <h3>The Shadow</h3>
+      <div class="persona-role">Quiet, Precise Logic</div>
+      <button class="assign-btn" onclick="setPersona('Shadow')">Activate</button>
+      <div class="preview">Preview: Focused & Cold</div>
+      <audio controls src="/static/audio/shadow.mp3"></audio>
+    </div>
+  </div>
+
+  <script>
+    function setPersona(name) {
+      alert(`Assistant '${name}' activated!`);
+      // Future: Save to user settings, swap voice system, adjust mood logic
+    }
+  </script>
+
+</body>
+</html>

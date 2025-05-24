@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PTM Analytics Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 30px;
+    }
+
+    .chart-container {
+      max-width: 1000px;
+      margin: 0 auto 40px;
+      background: #1e1e1e;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 14px rgba(0,255,100,0.05);
+    }
+
+    canvas {
+      width: 100% !important;
+      height: 350px !important;
+    }
+
+    h2 {
+      font-size: 20px;
+      color: #ffe055;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>PTM Analytics Dashboard</h1>
+
+  <div class="chart-container">
+    <h2>XP Gained Over Time</h2>
+    <canvas id="xpChart"></canvas>
+  </div>
+
+  <div class="chart-container">
+    <h2>Strategy Usage Distribution</h2>
+    <canvas id="strategyChart"></canvas>
+  </div>
+
+  <div class="chart-container">
+    <h2>Win vs Loss Ratio</h2>
+    <canvas id="winLossChart"></canvas>
+  </div>
+
+  <script>
+    const xpChart = new Chart(document.getElementById("xpChart"), {
+      type: 'line',
+      data: {
+        labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+        datasets: [{
+          label: "XP Earned",
+          data: [120, 250, 180, 300, 200, 100],
+          fill: true,
+          borderColor: "#4caf50",
+          backgroundColor: "rgba(111, 214, 114, 0.2)",
+          tension: 0.3
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: { legend: { display: false } },
+        scales: { y: { beginAtZero: true } }
+      }
+    });
+
+    const strategyChart = new Chart(document.getElementById("strategyChart"), {
+      type: 'doughnut',
+      data: {
+        labels: ["Iron Condor", "Covered Call", "Straddle", "Credit Spread", "Buy Call"],
+        datasets: [{
+          data: [25, 20, 15, 30, 10],
+          backgroundColor: ["#6fd672", "#ffe055", "#ff8c42", "#00e676", "#80e487"]
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { position: 'bottom' }
+        }
+      }
+    });
+
+    const winLossChart = new Chart(document.getElementById("winLossChart"), {
+      type: 'bar',
+      data: {
+        labels: ["Wins", "Losses"],
+        datasets: [{
+          label: "Trades",
+          data: [18, 7],
+          backgroundColor: ["#00e676", "#ff5252"]
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: { legend: { display: false } },
+        scales: { y: { beginAtZero: true } }
+      }
+    });
+  </script>
+
+</body>
+</html>

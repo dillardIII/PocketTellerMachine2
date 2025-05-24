@@ -1,0 +1,22 @@
+Subject: Logic Strategy Note
+
+Dear Team,
+
+As we move into the next quarter, I'd like to outline some key logics we need to employ in order to maximize our trading operations and returns:
+
+1. Research-Oriented Approach - This is fundamental in predicting trading outcomes. Use data to understand market trends, and forecast future movements. 
+
+2. Risk Management - We need to ensure an effective risk management layer in our trading logic. Not all trades will yield positive returns, however, we can minimise any potential losses through a well-crafted risk management strategy.
+
+3. Diversification - Don't put all eggs in one basket. Investing in a wide range of assets will effectively spread risk and likely reduce potential damage.
+
+4. Consistent Review - Don't set-and-forget. Markets are dynamic and constantly changing. Regularly monitor your trades and investments, adjust parameters as necessary to suit ever-changing market conditions.
+
+5. Discipline - Stay loyal to your trading plan. No knee-jerk reactions to market volatility. Stick to logic, not emotion.
+
+6. Patience – Success in trading doesn’t happen overnight. Understand the importance of long-term growth over short term gains. 
+
+These are guidelines that should steer our trading strategy. Following these will help us achieve our trading goals and deliver solid returns.
+
+Best,
+[Your Name]

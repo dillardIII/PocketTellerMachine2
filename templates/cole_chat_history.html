@@ -1,0 +1,25 @@
+<!-- cole_chat_history.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cole x GPT Chat History</title>
+  <style>
+    body { font-family: monospace; background: #111; color: #eee; padding: 20px; }
+    h1 { color: #58d68d; }
+    .entry { border-bottom: 1px solid #444; margin-bottom: 20px; padding-bottom: 10px; }
+    .timestamp { color: #999; font-size: 0.9em; }
+    .prompt { color: #58d68d; }
+    .reply { color: #f4d03f; margin-top: 8px; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <h1>Cole & GPT Chat Log</h1>
+  {% for chat in chats %}
+    <div class="entry">
+      <div class="timestamp">{{ chat.timestamp }}</div>
+      <div class="prompt"><strong>Cole:</strong> {{ chat.prompt }}</div>
+      <div class="reply"><strong>GPT:</strong> {{ chat.reply }}</div>
+    </div>
+  {% endfor %}
+</body>
+</html>

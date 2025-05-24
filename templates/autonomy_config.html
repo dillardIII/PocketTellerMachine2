@@ -1,0 +1,62 @@
+<!-- === FILE: templates/autonomy_config.html === -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PTM Autonomy Config</title>
+  <style>
+    body { font-family: Arial; background: #111; color: #eee; padding: 20px; }
+    h1 { color: #00ff88; }
+    label { display: block; margin: 10px 0; }
+    select, input[type="checkbox"] { margin-left: 8px; }
+    button { margin-top: 20px; padding: 10px 20px; background: #00d26a; border: none; color: #000; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Autonomy Settings</h1>
+  <form id="configForm">
+    <label>
+      System Mode:
+      <select id="mode">
+        <option value="full">Full</option>
+        <option value="silent">Silent</option>
+        <option value="paused">Paused</option>
+      </select>
+    </label>
+    <label><input type="checkbox" id="voice"> Voice Enabled</label>
+    <label><input type="checkbox" id="gpt"> GPT Generator</label>
+    <label><input type="checkbox" id="build"> Build Features</label>
+    <label><input type="checkbox" id="trade"> Run Trades</label>
+    <button type="submit">Save Settings</button>
+  </form>
+  <div id="saveStatus"></div>
+
+  <script>
+    const form = document.getElementById("configForm");
+
+    async function loadConfig() {
+      const res = await fetch("/autonomy_config");
+      const html = await res.text();
+      document.body.innerHTML = html;
+    }
+
+    form.onsubmit = async (e) => {
+      e.preventDefault();
+      const config = {
+        mode: document.getElementById("mode").value,
+        voice: document.getElementById("voice").checked,
+        gpt: document.getElementById("gpt").checked,
+        build: document.getElementById("build").checked,
+        trade: document.getElementById("trade").checked
+      };
+      const res = await fetch("/api/save_config", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(config)
+      });
+      const data = await res.json();
+      document.getElementById("saveStatus").innerText =
+        data.status === "ok" ? "✅ Saved!" : "❌ Error: " + data.message;
+    };
+  </script>
+</body>
+</html>

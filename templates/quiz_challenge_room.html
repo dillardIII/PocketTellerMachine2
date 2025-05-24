@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PTM Quiz Challenge Room</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #ffe055;
+      margin-bottom: 20px;
+    }
+
+    .quiz-box {
+      max-width: 700px;
+      margin: auto;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 0 12px rgba(255,255,100,0.05);
+    }
+
+    .question {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .choice {
+      margin-bottom: 12px;
+      padding: 12px;
+      background: #222;
+      border-radius: 8px;
+      border: 1px solid #444;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .choice:hover {
+      background-color: #4caf50;
+      color: #111;
+    }
+
+    .result {
+      margin-top: 20px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    button {
+      margin-top: 24px;
+      padding: 10px 24px;
+      background: #6fd672;
+      color: #111;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #80e487;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Quiz Challenge Room</h1>
+
+  <div class="quiz-box">
+    <div class="question" id="questionText">Loading question...</div>
+
+    <div id="choicesContainer"></div>
+
+    <div class="result" id="quizResult"></div>
+    <button id="nextBtn" style="display:none;" onclick="nextQuestion()">Next Question</button>
+  </div>
+
+  <script>
+    const questions = [
+      {
+        q: "What does RSI stand for in trading?",
+        a: ["Relative Strength Index", "Random Signal Input", "Resistance Signal Indicator", "Real Strategy Indicator"],
+        correct: 0
+      },
+      {
+        q: "Which of these is a bullish options strategy?",
+        a: ["Covered Call", "Iron Condor", "Put Debit Spread", "Call Credit Spread"],
+        correct: 2
+      },
+      {
+        q: "What happens if implied volatility rises before an options trade?",
+        a: ["Options get cheaper", "Options lose all value", "Options become more expensive", "Nothing happens"],
+        correct: 2
+      }
+    ];
+
+    let current = 0;
+
+    function loadQuestion() {
+      document.getElementById("quizResult").textContent = "";
+      document.getElementById("nextBtn").style.display = "none";
+
+      const q = questions[current];
+      document.getElementById("questionText").textContent = q.q;
+
+      const container = document.getElementById("choicesContainer");
+      container.innerHTML = "";
+
+      q.a.forEach((text, i) => {
+        const div = document.createElement("div");
+        div.className = "choice";
+        div.textContent = text;
+        div.onclick = () => handleAnswer(i);
+        container.appendChild(div);
+      });
+    }
+
+    function handleAnswer(index) {
+      const q = questions[current];
+      const isCorrect = index === q.correct;
+
+      document.getElementById("quizResult").textContent = isCorrect
+        ? "Correct! +50 XP"
+        : `Incorrect. The right answer was: "${q.a[q.correct]}"`;
+
+      document.getElementById("nextBtn").style.display = "inline-block";
+
+      // Optional: play sound or assistant reaction here
+    }
+
+    function nextQuestion() {
+      current++;
+      if (current >= questions.length) {
+        document.getElementById("questionText").textContent = "You've completed the challenge!";
+        document.getElementById("choicesContainer").innerHTML = "";
+        document.getElementById("nextBtn").style.display = "none";
+        document.getElementById("quizResult").textContent = "You earned 150 XP and 1 Badge!";
+        return;
+      }
+      loadQuestion();
+    }
+
+    loadQuestion();
+  </script>
+
+</body>
+</html>

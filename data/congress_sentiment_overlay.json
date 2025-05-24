@@ -1,0 +1,1878 @@
+{
+  "UNH": {
+    "buy": 4,
+    "sell": 3
+  },
+  "NFLX": {
+    "buy": 3,
+    "sell": 3
+  },
+  "AMGN": {
+    "buy": 5,
+    "sell": 0
+  },
+  "META": {
+    "buy": 6,
+    "sell": 8
+  },
+  "MELI": {
+    "buy": 2,
+    "sell": 0
+  },
+  "GOOG": {
+    "buy": 3,
+    "sell": 1
+  },
+  "MS": {
+    "buy": 2,
+    "sell": 1
+  },
+  "LLY": {
+    "buy": 5,
+    "sell": 3
+  },
+  "TSLA": {
+    "buy": 2,
+    "sell": 1
+  },
+  "NVDA": {
+    "buy": 9,
+    "sell": 3
+  },
+  "CVX": {
+    "buy": 3,
+    "sell": 2
+  },
+  "HSY": {
+    "buy": 2,
+    "sell": 1
+  },
+  "GLW": {
+    "buy": 2,
+    "sell": 2
+  },
+  "AMD": {
+    "buy": 3,
+    "sell": 0
+  },
+  "BX": {
+    "buy": 2,
+    "sell": 2
+  },
+  "CAH": {
+    "buy": 2,
+    "sell": 0
+  },
+  "NOW": {
+    "buy": 2,
+    "sell": 2
+  },
+  "PI": {
+    "buy": 2,
+    "sell": 0
+  },
+  "SAIC": {
+    "buy": 0,
+    "sell": 1
+  },
+  "LDOS": {
+    "buy": 0,
+    "sell": 1
+  },
+  "MPC": {
+    "buy": 0,
+    "sell": 1
+  },
+  "PEP": {
+    "buy": 0,
+    "sell": 2
+  },
+  "VFC": {
+    "buy": 0,
+    "sell": 1
+  },
+  "VZ": {
+    "buy": 0,
+    "sell": 1
+  },
+  "UNP": {
+    "buy": 0,
+    "sell": 3
+  },
+  "MSFT": {
+    "buy": 9,
+    "sell": 3
+  },
+  "GOOGL": {
+    "buy": 3,
+    "sell": 3
+  },
+  "MGA": {
+    "buy": 0,
+    "sell": 1
+  },
+  "RTX": {
+    "buy": 1,
+    "sell": 2
+  },
+  "EVRG": {
+    "buy": 0,
+    "sell": 1
+  },
+  "MCO": {
+    "buy": 0,
+    "sell": 1
+  },
+  "TFC": {
+    "buy": 0,
+    "sell": 1
+  },
+  "FTNT": {
+    "buy": 0,
+    "sell": 1
+  },
+  "AAPL": {
+    "buy": 3,
+    "sell": 3
+  },
+  "BLK": {
+    "buy": 0,
+    "sell": 2
+  },
+  "FI": {
+    "buy": 1,
+    "sell": 1
+  },
+  "ADBE": {
+    "buy": 3,
+    "sell": 2
+  },
+  "AMZN": {
+    "buy": 5,
+    "sell": 4
+  },
+  "ELV": {
+    "buy": 1,
+    "sell": 1
+  },
+  "NI": {
+    "buy": 0,
+    "sell": 1
+  },
+  "PYPL": {
+    "buy": 0,
+    "sell": 1
+  },
+  "DHR": {
+    "buy": 0,
+    "sell": 2
+  },
+  "AVGO": {
+    "buy": 6,
+    "sell": 3
+  },
+  "WTRG": {
+    "buy": 0,
+    "sell": 1
+  },
+  "SBUX": {
+    "buy": 1,
+    "sell": 7
+  },
+  "BKNG": {
+    "buy": 0,
+    "sell": 1
+  },
+  "CRM": {
+    "buy": 1,
+    "sell": 3
+  },
+  "T": {
+    "buy": 0,
+    "sell": 1
+  },
+  "MDLZ": {
+    "buy": 0,
+    "sell": 1
+  },
+  "ACN": {
+    "buy": 1,
+    "sell": 1
+  },
+  "LIN": {
+    "buy": 0,
+    "sell": 1
+  },
+  "ADI": {
+    "buy": 1,
+    "sell": 1
+  },
+  "EQR": {
+    "buy": 0,
+    "sell": 1
+  },
+  "LOW": {
+    "buy": 1,
+    "sell": 2
+  },
+  "TMO": {
+    "buy": 0,
+    "sell": 3
+  },
+  "V": {
+    "buy": 1,
+    "sell": 2
+  },
+  "INTU": {
+    "buy": 0,
+    "sell": 1
+  },
+  "DE": {
+    "buy": 0,
+    "sell": 2
+  },
+  "EL": {
+    "buy": 0,
+    "sell": 1
+  },
+  "HON": {
+    "buy": 0,
+    "sell": 1
+  },
+  "DG": {
+    "buy": 0,
+    "sell": 1
+  },
+  "CSX": {
+    "buy": 1,
+    "sell": 1
+  },
+  "ADM": {
+    "buy": 0,
+    "sell": 0
+  },
+  "STZ": {
+    "buy": 0,
+    "sell": 0
+  },
+  "USIG": {
+    "buy": 1,
+    "sell": 0
+  },
+  "GS": {
+    "buy": 5,
+    "sell": 4
+  },
+  "MA": {
+    "buy": 2,
+    "sell": 2
+  },
+  "JPM": {
+    "buy": 1,
+    "sell": 1
+  },
+  "DUK": {
+    "buy": 1,
+    "sell": 0
+  },
+  "BMY": {
+    "buy": 0,
+    "sell": 0
+  },
+  "BEN": {
+    "buy": 0,
+    "sell": 1
+  },
+  "PLD": {
+    "buy": 1,
+    "sell": 0
+  },
+  "FCNCA": {
+    "buy": 2,
+    "sell": 0
+  },
+  "FTV": {
+    "buy": 0,
+    "sell": 1
+  },
+  "CP": {
+    "buy": 1,
+    "sell": 1
+  },
+  "GILD": {
+    "buy": 5,
+    "sell": 0
+  },
+  "LRCX": {
+    "buy": 0,
+    "sell": 0
+  },
+  "AMAT": {
+    "buy": 7,
+    "sell": 0
+  },
+  "BAC": {
+    "buy": 1,
+    "sell": 1
+  },
+  "SHY": {
+    "buy": 1,
+    "sell": 0
+  },
+  "IVW": {
+    "buy": 0,
+    "sell": 0
+  },
+  "ORCL": {
+    "buy": 1,
+    "sell": 1
+  },
+  "HYG": {
+    "buy": 1,
+    "sell": 0
+  },
+  "FTGC": {
+    "buy": 2,
+    "sell": 0
+  },
+  "COLPAL": {
+    "buy": 1,
+    "sell": 0
+  },
+  "FIS": {
+    "buy": 2,
+    "sell": 1
+  },
+  "LNG": {
+    "buy": 1,
+    "sell": 0
+  },
+  "KKR": {
+    "buy": 0,
+    "sell": 2
+  },
+  "DHI": {
+    "buy": 1,
+    "sell": 0
+  },
+  "TPH": {
+    "buy": 1,
+    "sell": 0
+  },
+  "TLK": {
+    "buy": 1,
+    "sell": 0
+  },
+  "HD": {
+    "buy": 3,
+    "sell": 1
+  },
+  "TTNDY": {
+    "buy": 1,
+    "sell": 0
+  },
+  "EPAC": {
+    "buy": 0,
+    "sell": 1
+  },
+  "HLMN": {
+    "buy": 0,
+    "sell": 1
+  },
+  "CDRE": {
+    "buy": 0,
+    "sell": 1
+  },
+  "TWLO": {
+    "buy": 0,
+    "sell": 1
+  },
+  "ABBV": {
+    "buy": 1,
+    "sell": 2
+  },
+  "PAR": {
+    "buy": 0,
+    "sell": 1
+  },
+  "ASML": {
+    "buy": 1,
+    "sell": 2
+  },
+  "AEIS": {
+    "buy": 0,
+    "sell": 1
+  },
+  "TEL": {
+    "buy": 0,
+    "sell": 2
+  },
+  "USPH": {
+    "buy": 0,
+    "sell": 1
+  },
+  "THR": {
+    "buy": 0,
+    "sell": 1
+  },
+  "APP": {
+    "buy": 0,
+    "sell": 2
+  },
+  "UPS": {
+    "buy": 1,
+    "sell": 4
+  },
+  "SMNNY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "MMM": {
+    "buy": 1,
+    "sell": 0
+  },
+  "TCEHY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "MFC": {
+    "buy": 0,
+    "sell": 1
+  },
+  "FMX": {
+    "buy": 0,
+    "sell": 1
+  },
+  "DASH": {
+    "buy": 0,
+    "sell": 1
+  },
+  "ADC": {
+    "buy": 0,
+    "sell": 1
+  },
+  "HMN": {
+    "buy": 0,
+    "sell": 1
+  },
+  "PAYX": {
+    "buy": 2,
+    "sell": 1
+  },
+  "BHP": {
+    "buy": 1,
+    "sell": 2
+  },
+  "D": {
+    "buy": 0,
+    "sell": 1
+  },
+  "HLN": {
+    "buy": 0,
+    "sell": 1
+  },
+  "CINF": {
+    "buy": 0,
+    "sell": 1
+  },
+  "DBSDY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "INSM": {
+    "buy": 0,
+    "sell": 1
+  },
+  "BCPC": {
+    "buy": 0,
+    "sell": 1
+  },
+  "HLI": {
+    "buy": 0,
+    "sell": 1
+  },
+  "BRK.B": {
+    "buy": 2,
+    "sell": 1
+  },
+  "FAST": {
+    "buy": 0,
+    "sell": 1
+  },
+  "ABG": {
+    "buy": 0,
+    "sell": 1
+  },
+  "SHEL": {
+    "buy": 0,
+    "sell": 2
+  },
+  "CSCO": {
+    "buy": 0,
+    "sell": 1
+  },
+  "RBC": {
+    "buy": 0,
+    "sell": 1
+  },
+  "MGY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "ATLKY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "MTSI": {
+    "buy": 0,
+    "sell": 1
+  },
+  "DSGX": {
+    "buy": 0,
+    "sell": 1
+  },
+  "CBZ": {
+    "buy": 0,
+    "sell": 1
+  },
+  "DASTY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "RHHBY": {
+    "buy": 0,
+    "sell": 2
+  },
+  "CCI": {
+    "buy": 2,
+    "sell": 2
+  },
+  "SF": {
+    "buy": 0,
+    "sell": 1
+  },
+  "NSC": {
+    "buy": 2,
+    "sell": 2
+  },
+  "UFPI": {
+    "buy": 0,
+    "sell": 1
+  },
+  "NTDOY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "SLGN": {
+    "buy": 0,
+    "sell": 1
+  },
+  "CHGCY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "TXN": {
+    "buy": 1,
+    "sell": 1
+  },
+  "IDA": {
+    "buy": 0,
+    "sell": 1
+  },
+  "JNJ": {
+    "buy": 1,
+    "sell": 3
+  },
+  "RIO": {
+    "buy": 0,
+    "sell": 2
+  },
+  "ISRG": {
+    "buy": 0,
+    "sell": 2
+  },
+  "APD": {
+    "buy": 0,
+    "sell": 1
+  },
+  "ABCB": {
+    "buy": 0,
+    "sell": 1
+  },
+  "SSMXY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "APPF": {
+    "buy": 0,
+    "sell": 1
+  },
+  "SAP": {
+    "buy": 0,
+    "sell": 2
+  },
+  "NOC": {
+    "buy": 0,
+    "sell": 1
+  },
+  "CATY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "ALIZY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "CENTA": {
+    "buy": 0,
+    "sell": 1
+  },
+  "STAG": {
+    "buy": 0,
+    "sell": 3
+  },
+  "UMBF": {
+    "buy": 0,
+    "sell": 1
+  },
+  "SPXC": {
+    "buy": 0,
+    "sell": 1
+  },
+  "PATK": {
+    "buy": 0,
+    "sell": 1
+  },
+  "KO": {
+    "buy": 1,
+    "sell": 1
+  },
+  "STRL": {
+    "buy": 0,
+    "sell": 1
+  },
+  "GMED": {
+    "buy": 0,
+    "sell": 1
+  },
+  "PGR": {
+    "buy": 0,
+    "sell": 1
+  },
+  "SKY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "NSRGY": {
+    "buy": 0,
+    "sell": 2
+  },
+  "HDB": {
+    "buy": 0,
+    "sell": 1
+  },
+  "INTA": {
+    "buy": 0,
+    "sell": 1
+  },
+  "MCK": {
+    "buy": 1,
+    "sell": 1
+  },
+  "LRLCY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "TSM": {
+    "buy": 0,
+    "sell": 2
+  },
+  "KR": {
+    "buy": 0,
+    "sell": 1
+  },
+  "RMD": {
+    "buy": 0,
+    "sell": 1
+  },
+  "ASHTY": {
+    "buy": 0,
+    "sell": 4
+  },
+  "ARMK": {
+    "buy": 1,
+    "sell": 1
+  },
+  "VLO": {
+    "buy": 0,
+    "sell": 0
+  },
+  "COP": {
+    "buy": 1,
+    "sell": 1
+  },
+  "ZTS": {
+    "buy": 0,
+    "sell": 1
+  },
+  "CNQ": {
+    "buy": 0,
+    "sell": 1
+  },
+  "TOELY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "BA": {
+    "buy": 1,
+    "sell": 1
+  },
+  "DB": {
+    "buy": 0,
+    "sell": 1
+  },
+  "FANUY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "CAT": {
+    "buy": 2,
+    "sell": 1
+  },
+  "ABT": {
+    "buy": 0,
+    "sell": 1
+  },
+  "ISNPY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "SPOT": {
+    "buy": 1,
+    "sell": 1
+  },
+  "TM": {
+    "buy": 0,
+    "sell": 1
+  },
+  "CRARY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "CFRUY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "MRK": {
+    "buy": 3,
+    "sell": 2
+  },
+  "LVMUY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "DSDVY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "ASAZY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "PG": {
+    "buy": 0,
+    "sell": 1
+  },
+  "MRAAY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "HKXCY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "UNCRY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "NWG": {
+    "buy": 0,
+    "sell": 1
+  },
+  "UBS": {
+    "buy": 0,
+    "sell": 1
+  },
+  "SAFRY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "AXP": {
+    "buy": 4,
+    "sell": 1
+  },
+  "GSK": {
+    "buy": 0,
+    "sell": 1
+  },
+  "XOM": {
+    "buy": 0,
+    "sell": 1
+  },
+  "EW": {
+    "buy": 0,
+    "sell": 1
+  },
+  "MUFG": {
+    "buy": 0,
+    "sell": 1
+  },
+  "CMI": {
+    "buy": 2,
+    "sell": 1
+  },
+  "C": {
+    "buy": 0,
+    "sell": 1
+  },
+  "FCX": {
+    "buy": 0,
+    "sell": 1
+  },
+  "PFE": {
+    "buy": 1,
+    "sell": 2
+  },
+  "VCISY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "EMR": {
+    "buy": 1,
+    "sell": 1
+  },
+  "ADDYY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "BCS": {
+    "buy": 0,
+    "sell": 1
+  },
+  "AZN": {
+    "buy": 0,
+    "sell": 1
+  },
+  "COST": {
+    "buy": 0,
+    "sell": 1
+  },
+  "BSX": {
+    "buy": 1,
+    "sell": 2
+  },
+  "DTEGY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "BP": {
+    "buy": 1,
+    "sell": 1
+  },
+  "HSBC": {
+    "buy": 0,
+    "sell": 1
+  },
+  "MHVIY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "SCHW": {
+    "buy": 1,
+    "sell": 1
+  },
+  "ITW": {
+    "buy": 0,
+    "sell": 1
+  },
+  "BUD": {
+    "buy": 0,
+    "sell": 1
+  },
+  "SONY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "SCGLY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "SIEGY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "WMT": {
+    "buy": 2,
+    "sell": 1
+  },
+  "NRDBY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "JCI": {
+    "buy": 0,
+    "sell": 1
+  },
+  "SU": {
+    "buy": 0,
+    "sell": 1
+  },
+  "NLY": {
+    "buy": 1,
+    "sell": 0
+  },
+  "FBIN": {
+    "buy": 0,
+    "sell": 1
+  },
+  "CMG": {
+    "buy": 1,
+    "sell": 0
+  },
+  "BUSE": {
+    "buy": 0,
+    "sell": 1
+  },
+  "ROST": {
+    "buy": 1,
+    "sell": 0
+  },
+  "SPGI": {
+    "buy": 1,
+    "sell": 0
+  },
+  "HEI.A": {
+    "buy": 0,
+    "sell": 1
+  },
+  "CG": {
+    "buy": 0,
+    "sell": 1
+  },
+  "ADSK": {
+    "buy": 1,
+    "sell": 0
+  },
+  "ARES": {
+    "buy": 1,
+    "sell": 0
+  },
+  "LULU": {
+    "buy": 0,
+    "sell": 1
+  },
+  "A": {
+    "buy": 1,
+    "sell": 0
+  },
+  "WDC": {
+    "buy": 1,
+    "sell": 2
+  },
+  "LFUS": {
+    "buy": 1,
+    "sell": 0
+  },
+  "SYK": {
+    "buy": 1,
+    "sell": 0
+  },
+  "NEE": {
+    "buy": 2,
+    "sell": 1
+  },
+  "SNPS": {
+    "buy": 1,
+    "sell": 0
+  },
+  "LGIH": {
+    "buy": 0,
+    "sell": 1
+  },
+  "LMT": {
+    "buy": 2,
+    "sell": 0
+  },
+  "KEYS": {
+    "buy": 0,
+    "sell": 1
+  },
+  "SLB": {
+    "buy": 0,
+    "sell": 1
+  },
+  "HRI": {
+    "buy": 0,
+    "sell": 1
+  },
+  "CLX": {
+    "buy": 0,
+    "sell": 1
+  },
+  "MCD": {
+    "buy": 1,
+    "sell": 0
+  },
+  "WY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "XYZ": {
+    "buy": 0,
+    "sell": 1
+  },
+  "ZBH": {
+    "buy": 1,
+    "sell": 0
+  },
+  "CNC": {
+    "buy": 2,
+    "sell": 0
+  },
+  "TGT": {
+    "buy": 1,
+    "sell": 0
+  },
+  "NKE": {
+    "buy": 1,
+    "sell": 0
+  },
+  "OXY": {
+    "buy": 3,
+    "sell": 0
+  },
+  "DVN": {
+    "buy": 2,
+    "sell": 0
+  },
+  "DELL": {
+    "buy": 4,
+    "sell": 0
+  },
+  "FRO": {
+    "buy": 1,
+    "sell": 0
+  },
+  "FDX": {
+    "buy": 1,
+    "sell": 0
+  },
+  "QCOM": {
+    "buy": 1,
+    "sell": 0
+  },
+  "PANW": {
+    "buy": 1,
+    "sell": 0
+  },
+  "INTC": {
+    "buy": 4,
+    "sell": 0
+  },
+  "ODFL": {
+    "buy": 1,
+    "sell": 0
+  },
+  "KMI": {
+    "buy": 2,
+    "sell": 0
+  },
+  "DLR": {
+    "buy": 1,
+    "sell": 0
+  },
+  "BDRFF": {
+    "buy": 1,
+    "sell": 0
+  },
+  "ALKT": {
+    "buy": 2,
+    "sell": 0
+  },
+  "K": {
+    "buy": 1,
+    "sell": 0
+  },
+  "HUM": {
+    "buy": 0,
+    "sell": 1
+  },
+  "CPRI": {
+    "buy": 0,
+    "sell": 1
+  },
+  "MOH": {
+    "buy": 1,
+    "sell": 0
+  },
+  "YUM": {
+    "buy": 1,
+    "sell": 0
+  },
+  "ORLY": {
+    "buy": 1,
+    "sell": 0
+  },
+  "DXC": {
+    "buy": 0,
+    "sell": 1
+  },
+  "DOW": {
+    "buy": 0,
+    "sell": 1
+  },
+  "ZION": {
+    "buy": 0,
+    "sell": 1
+  },
+  "PTC": {
+    "buy": 1,
+    "sell": 0
+  },
+  "WRB": {
+    "buy": 0,
+    "sell": 2
+  },
+  "PCVX": {
+    "buy": 3,
+    "sell": 0
+  },
+  "CRNX": {
+    "buy": 1,
+    "sell": 0
+  },
+  "AGIO": {
+    "buy": 1,
+    "sell": 0
+  },
+  "FLYW": {
+    "buy": 0,
+    "sell": 1
+  },
+  "SLAB": {
+    "buy": 0,
+    "sell": 1
+  },
+  "IR": {
+    "buy": 1,
+    "sell": 0
+  },
+  "FERG": {
+    "buy": 1,
+    "sell": 0
+  },
+  "SRPT": {
+    "buy": 0,
+    "sell": 1
+  },
+  "RNMBF": {
+    "buy": 1,
+    "sell": 0
+  },
+  "CHX": {
+    "buy": 0,
+    "sell": 1
+  },
+  "TECH": {
+    "buy": 2,
+    "sell": 0
+  },
+  "TTC": {
+    "buy": 0,
+    "sell": 2
+  },
+  "DAY": {
+    "buy": 0,
+    "sell": 1
+  },
+  "MKL": {
+    "buy": 2,
+    "sell": 0
+  },
+  "AOS": {
+    "buy": 0,
+    "sell": 2
+  },
+  "IDXX": {
+    "buy": 1,
+    "sell": 0
+  },
+  "BJ": {
+    "buy": 1,
+    "sell": 0
+  },
+  "BITB": {
+    "buy": 18,
+    "sell": 0
+  },
+  "BEEP": {
+    "buy": 0,
+    "sell": 0
+  },
+  "FMAO": {
+    "buy": 1,
+    "sell": 0
+  },
+  "FWONK": {
+    "buy": 2,
+    "sell": 0
+  },
+  "DTE": {
+    "buy": 0,
+    "sell": 0
+  },
+  "TBLL": {
+    "buy": 6,
+    "sell": 0
+  },
+  "BWIN": {
+    "buy": 0,
+    "sell": 1
+  },
+  "COF": {
+    "buy": 1,
+    "sell": 0
+  },
+  "PLTR": {
+    "buy": 1,
+    "sell": 0
+  },
+  "CEG": {
+    "buy": 2,
+    "sell": 0
+  },
+  "GIS": {
+    "buy": 0,
+    "sell": 0
+  },
+  "WFC": {
+    "buy": 4,
+    "sell": 0
+  },
+  "EMLP": {
+    "buy": 0,
+    "sell": 0
+  },
+  "DIS": {
+    "buy": 0,
+    "sell": 0
+  },
+  "QSR": {
+    "buy": 0,
+    "sell": 0
+  },
+  "ECL": {
+    "buy": 1,
+    "sell": 0
+  },
+  "LITP": {
+    "buy": 1,
+    "sell": 0
+  },
+  "MSI": {
+    "buy": 2,
+    "sell": 0
+  },
+  "URNM": {
+    "buy": 1,
+    "sell": 0
+  },
+  "CMCSA": {
+    "buy": 0,
+    "sell": 0
+  },
+  "VAW": {
+    "buy": 0,
+    "sell": 0
+  },
+  "LHX": {
+    "buy": 1,
+    "sell": 0
+  },
+  "PM": {
+    "buy": 1,
+    "sell": 0
+  },
+  "IQV": {
+    "buy": 2,
+    "sell": 0
+  },
+  "LPLA": {
+    "buy": 1,
+    "sell": 0
+  },
+  "TJX": {
+    "buy": 2,
+    "sell": 0
+  },
+  "BRK": {
+    "buy": 0,
+    "sell": 0
+  },
+  "CRDO": {
+    "buy": 3,
+    "sell": 0
+  },
+  "MTZ": {
+    "buy": 3,
+    "sell": 0
+  },
+  "AIT": {
+    "buy": 3,
+    "sell": 0
+  },
+  "COHR": {
+    "buy": 3,
+    "sell": 0
+  },
+  "PRMB": {
+    "buy": 3,
+    "sell": 0
+  },
+  "LRN": {
+    "buy": 5,
+    "sell": 0
+  },
+  "WAB": {
+    "buy": 3,
+    "sell": 0
+  },
+  "IRM": {
+    "buy": 3,
+    "sell": 0
+  },
+  "MU": {
+    "buy": 1,
+    "sell": 0
+  },
+  "HWM": {
+    "buy": 1,
+    "sell": 0
+  },
+  "OKTA": {
+    "buy": 0,
+    "sell": 0
+  },
+  "IRBT": {
+    "buy": 0,
+    "sell": 0
+  },
+  "SOLV": {
+    "buy": 0,
+    "sell": 0
+  },
+  "DEO": {
+    "buy": 0,
+    "sell": 0
+  },
+  "CARR": {
+    "buy": 0,
+    "sell": 0
+  },
+  "TSCO": {
+    "buy": 0,
+    "sell": 0
+  },
+  "PSX": {
+    "buy": 0,
+    "sell": 0
+  },
+  "CB": {
+    "buy": 0,
+    "sell": 0
+  },
+  "GWW": {
+    "buy": 0,
+    "sell": 0
+  },
+  "AFL": {
+    "buy": 0,
+    "sell": 0
+  },
+  "RUM": {
+    "buy": 0,
+    "sell": 0
+  },
+  "HPQ": {
+    "buy": 0,
+    "sell": 0
+  },
+  "SPY": {
+    "buy": 2,
+    "sell": 0
+  },
+  "EBAY": {
+    "buy": 0,
+    "sell": 0
+  },
+  "QQQ": {
+    "buy": 0,
+    "sell": 0
+  },
+  "NRG": {
+    "buy": 1,
+    "sell": 0
+  },
+  "EZU": {
+    "buy": 1,
+    "sell": 0
+  },
+  "IEFA": {
+    "buy": 1,
+    "sell": 0
+  },
+  "AHL.C": {
+    "buy": 0,
+    "sell": 0
+  },
+  "GE": {
+    "buy": 1,
+    "sell": 0
+  },
+  "PDBC": {
+    "buy": 0,
+    "sell": 0
+  },
+  "GICIX": {
+    "buy": 1,
+    "sell": 0
+  },
+  "PCLPX": {
+    "buy": 1,
+    "sell": 0
+  },
+  "IEMG": {
+    "buy": 2,
+    "sell": 0
+  },
+  "CFSSX": {
+    "buy": 1,
+    "sell": 0
+  },
+  "VNQ": {
+    "buy": 1,
+    "sell": 0
+  },
+  "AY": {
+    "buy": 0,
+    "sell": 0
+  },
+  "FRPT": {
+    "buy": 0,
+    "sell": 0
+  },
+  "AXON": {
+    "buy": 0,
+    "sell": 0
+  },
+  "OLLI": {
+    "buy": 0,
+    "sell": 0
+  },
+  "CYBR": {
+    "buy": 0,
+    "sell": 0
+  },
+  "ELF": {
+    "buy": 0,
+    "sell": 0
+  },
+  "ETN": {
+    "buy": 0,
+    "sell": 0
+  },
+  "SFM": {
+    "buy": 0,
+    "sell": 0
+  },
+  "BMI": {
+    "buy": 0,
+    "sell": 0
+  },
+  "EQC": {
+    "buy": 0,
+    "sell": 0
+  },
+  "BBEU": {
+    "buy": 0,
+    "sell": 0
+  },
+  "VWO": {
+    "buy": 0,
+    "sell": 0
+  },
+  "SWKS": {
+    "buy": 0,
+    "sell": 0
+  },
+  "AAXJ": {
+    "buy": 1,
+    "sell": 0
+  },
+  "MET": {
+    "buy": 0,
+    "sell": 0
+  },
+  "KVUE": {
+    "buy": 0,
+    "sell": 0
+  },
+  "HIYS": {
+    "buy": 1,
+    "sell": 0
+  },
+  "TCMD": {
+    "buy": 1,
+    "sell": 0
+  },
+  "KMB": {
+    "buy": 0,
+    "sell": 0
+  },
+  "TRV": {
+    "buy": 0,
+    "sell": 0
+  },
+  "OC": {
+    "buy": 0,
+    "sell": 0
+  },
+  "CTVA": {
+    "buy": 0,
+    "sell": 0
+  },
+  "LEG": {
+    "buy": 0,
+    "sell": 0
+  },
+  "LW": {
+    "buy": 0,
+    "sell": 0
+  },
+  "IVZ": {
+    "buy": 0,
+    "sell": 0
+  },
+  "CSL": {
+    "buy": 1,
+    "sell": 0
+  },
+  "CELH": {
+    "buy": 0,
+    "sell": 0
+  },
+  "IWM": {
+    "buy": 0,
+    "sell": 0
+  },
+  "IVV": {
+    "buy": 1,
+    "sell": 0
+  },
+  "MDY": {
+    "buy": 0,
+    "sell": 0
+  },
+  "EFA": {
+    "buy": 0,
+    "sell": 0
+  },
+  "VEA": {
+    "buy": 4,
+    "sell": 0
+  },
+  "VNQI": {
+    "buy": 0,
+    "sell": 0
+  },
+  "TPYP": {
+    "buy": 0,
+    "sell": 0
+  },
+  "WWSYX": {
+    "buy": 0,
+    "sell": 0
+  },
+  "CMBS": {
+    "buy": 1,
+    "sell": 0
+  },
+  "IEF": {
+    "buy": 1,
+    "sell": 0
+  },
+  "GIGB": {
+    "buy": 2,
+    "sell": 0
+  },
+  "TLT": {
+    "buy": 1,
+    "sell": 0
+  },
+  "MBB": {
+    "buy": 1,
+    "sell": 0
+  },
+  "SCHP": {
+    "buy": 2,
+    "sell": 0
+  },
+  "AGZ": {
+    "buy": 1,
+    "sell": 0
+  },
+  "IEI": {
+    "buy": 1,
+    "sell": 0
+  },
+  "PPLT": {
+    "buy": 1,
+    "sell": 0
+  },
+  "JMBS": {
+    "buy": 2,
+    "sell": 0
+  },
+  "PALL": {
+    "buy": 1,
+    "sell": 0
+  },
+  "TLH": {
+    "buy": 2,
+    "sell": 0
+  },
+  "LSXMK": {
+    "buy": 0,
+    "sell": 0
+  },
+  "BATRK": {
+    "buy": 1,
+    "sell": 0
+  },
+  "GL": {
+    "buy": 0,
+    "sell": 0
+  },
+  "MDT": {
+    "buy": 0,
+    "sell": 0
+  },
+  "ABNFX": {
+    "buy": 1,
+    "sell": 0
+  },
+  "CVS": {
+    "buy": 0,
+    "sell": 0
+  },
+  "EIBLX": {
+    "buy": 0,
+    "sell": 0
+  },
+  "LINE": {
+    "buy": 1,
+    "sell": 0
+  },
+  "SNOW": {
+    "buy": 0,
+    "sell": 0
+  },
+  "CAG": {
+    "buy": 0,
+    "sell": 0
+  },
+  "OTIS": {
+    "buy": 0,
+    "sell": 0
+  },
+  "ONEW": {
+    "buy": 0,
+    "sell": 0
+  },
+  "IWB": {
+    "buy": 0,
+    "sell": 0
+  },
+  "PH": {
+    "buy": 1,
+    "sell": 0
+  },
+  "NMVZX": {
+    "buy": 1,
+    "sell": 0
+  },
+  "DALCX": {
+    "buy": 1,
+    "sell": 0
+  },
+  "GEM": {
+    "buy": 1,
+    "sell": 0
+  },
+  "CLF": {
+    "buy": 9,
+    "sell": 0
+  },
+  "PARA": {
+    "buy": 0,
+    "sell": 0
+  },
+  "ARKK": {
+    "buy": 2,
+    "sell": 0
+  },
+  "KEY": {
+    "buy": 1,
+    "sell": 0
+  },
+  "GOLD": {
+    "buy": 3,
+    "sell": 0
+  },
+  "XBI": {
+    "buy": 2,
+    "sell": 0
+  },
+  "FITB": {
+    "buy": 1,
+    "sell": 0
+  },
+  "LSCC": {
+    "buy": 0,
+    "sell": 0
+  },
+  "WMS": {
+    "buy": 0,
+    "sell": 0
+  },
+  "CCJ": {
+    "buy": 1,
+    "sell": 0
+  },
+  "ELS": {
+    "buy": 0,
+    "sell": 0
+  },
+  "MPWR": {
+    "buy": 0,
+    "sell": 0
+  },
+  "CBSH": {
+    "buy": 0,
+    "sell": 0
+  },
+  "VRSK": {
+    "buy": 0,
+    "sell": 0
+  },
+  "WAT": {
+    "buy": 0,
+    "sell": 0
+  },
+  "CDNS": {
+    "buy": 0,
+    "sell": 0
+  },
+  "GRMN": {
+    "buy": 0,
+    "sell": 0
+  },
+  "GLPI": {
+    "buy": 0,
+    "sell": 0
+  },
+  "GGG": {
+    "buy": 0,
+    "sell": 0
+  },
+  "UI": {
+    "buy": 0,
+    "sell": 0
+  },
+  "RELX": {
+    "buy": 0,
+    "sell": 0
+  },
+  "HUMA": {
+    "buy": 0,
+    "sell": 0
+  },
+  "VRTX": {
+    "buy": 0,
+    "sell": 0
+  },
+  "INFY": {
+    "buy": 0,
+    "sell": 0
+  },
+  "NDSN": {
+    "buy": 0,
+    "sell": 0
+  },
+  "VIG": {
+    "buy": 1,
+    "sell": 0
+  },
+  "EFAD": {
+    "buy": 0,
+    "sell": 0
+  },
+  "FDRR": {
+    "buy": 0,
+    "sell": 0
+  },
+  "COWZ": {
+    "buy": 1,
+    "sell": 0
+  },
+  "ICOW": {
+    "buy": 1,
+    "sell": 0
+  },
+  "PRF": {
+    "buy": 0,
+    "sell": 0
+  },
+  "CALF": {
+    "buy": 1,
+    "sell": 0
+  },
+  "SMDV": {
+    "buy": 0,
+    "sell": 0
+  },
+  "MOO": {
+    "buy": 0,
+    "sell": 0
+  },
+  "SRVR": {
+    "buy": 1,
+    "sell": 0
+  },
+  "TTE": {
+    "buy": 0,
+    "sell": 0
+  },
+  "ATKR": {
+    "buy": 0,
+    "sell": 0
+  },
+  "IFF": {
+    "buy": 0,
+    "sell": 0
+  },
+  "CCL": {
+    "buy": 0,
+    "sell": 0
+  }
+}

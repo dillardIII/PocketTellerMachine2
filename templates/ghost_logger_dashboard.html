@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ghost Logger Dashboard (AI Logs & Reviews)</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #f0f0f0;
+            font-family: 'Segoe UI', sans-serif;
+            padding: 20px;
+        }
+        h1, h3 {
+            color: #6fd672;
+        }
+        .section {
+            background: #1e1e1e;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            overflow-y: scroll;
+            height: 400px;
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .button {
+            background: #6fd672;
+            color: #121212;
+            border: none;
+            padding: 12px 20px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 10px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Ghost Logger & AI Review Center</h1>
+
+    <button class="button" onclick="fetchGhostLogs()">Refresh Ghost Brain Logs</button>
+    <button class="button" onclick="fetchReviewReports()">Refresh AI Review Report</button>
+    <button class="button" onclick="fetchVoiceSummaries()">Refresh Voice Summaries</button>
+
+    <div class="section">
+        <h3>Ghost Brain Logs</h3>
+        <pre id="ghostLogs">Click 'Refresh Ghost Brain Logs'...</pre>
+    </div>
+
+    <div class="section">
+        <h3>AI Trade Review Report</h3>
+        <pre id="reviewReport">Click 'Refresh AI Review Report'...</pre>
+    </div>
+
+    <div class="section">
+        <h3>Voice Summaries</h3>
+        <pre id="voiceSummaries">Click 'Refresh Voice Summaries'...</pre>
+    </div>
+
+    <script>
+        function fetchGhostLogs() {
+            fetch('/api/get_ghost_logs')
+            .then(response => response.json())
+            .then(data => {
+                let logs = data.logs.map(log => `${log.timestamp} → ${log.message}`).join('\n');
+                document.getElementById("ghostLogs").innerText = logs || "No logs found.";
+            })
+            .catch(() => document.getElementById("ghostLogs").innerText = "Error fetching logs.");
+        }
+
+        function fetchReviewReports() {
+            fetch('/api/get_trade_reviews')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("reviewReport").innerText = JSON.stringify(data, null, 2);
+            })
+            .catch(() => document.getElementById("reviewReport").innerText = "Error fetching review reports.");
+        }
+
+        function fetchVoiceSummaries() {
+            fetch('/api/get_voice_summaries')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("voiceSummaries").innerText = JSON.stringify(data, null, 2);
+            })
+            .catch(() => document.getElementById("voiceSummaries").innerText = "Error fetching voice summaries.");
+        }
+    </script>
+
+</body>
+</html>

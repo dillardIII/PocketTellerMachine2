@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PTM Lesson Library</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #6fd672;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .lesson-card {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 0 10px rgba(0,255,100,0.05);
+      position: relative;
+    }
+
+    .lesson-card h3 {
+      margin: 0 0 10px;
+      color: #6fd672;
+      font-size: 18px;
+    }
+
+    .lesson-card p {
+      font-size: 14px;
+      color: #ccc;
+      margin-bottom: 10px;
+    }
+
+    .lesson-card button {
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 14px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .lesson-card button:hover {
+      background-color: #66bb6a;
+      color: #111;
+    }
+
+    .locked {
+      opacity: 0.4;
+      filter: grayscale(100%);
+    }
+
+    .locked::after {
+      content: "LOCKED";
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: #ff5252;
+      color: white;
+      padding: 4px 8px;
+      font-size: 12px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Lesson Library</h1>
+
+  <div class="grid" id="lessonGrid">
+    <!-- Lessons injected here -->
+  </div>
+
+  <script>
+    const lessons = [
+      {
+        title: "Chart Patterns",
+        desc: "Learn how to recognize trend reversals and continuation patterns.",
+        unlocked: true
+      },
+      {
+        title: "Support & Resistance",
+        desc: "Master key price zones for strategic entries and exits.",
+        unlocked: true
+      },
+      {
+        title: "Order Types",
+        desc: "Understand how to use market, limit, stop and conditional orders.",
+        unlocked: true
+      },
+      {
+        title: "Risk Management",
+        desc: "Discover how to protect capital and manage position size.",
+        unlocked: true
+      },
+      {
+        title: "Technical Indicators",
+        desc: "Learn how RSI, MACD and more help guide smart trades.",
+        unlocked: false
+      },
+      {
+        title: "Fundamental Analysis",
+        desc: "Analyze company health, earnings, and financial metrics.",
+        unlocked: false
+      }
+    ];
+
+    const grid = document.getElementById("lessonGrid");
+
+    lessons.forEach((l, i) => {
+      const card = document.createElement("div");
+      card.className = "lesson-card" + (l.unlocked ? "" : " locked");
+
+      card.innerHTML = `
+        <h3>${l.title}</h3>
+        <p>${l.desc}</p>
+        ${l.unlocked ? `<button onclick="startLesson(${i})">Start Lesson</button>` : ""}
+      `;
+
+      grid.appendChild(card);
+    });
+
+    function startLesson(index) {
+      alert(`Starting lesson: ${lessons[index].title}`);
+      // Future: Navigate to full lesson view
+    }
+  </script>
+
+</body>
+</html>

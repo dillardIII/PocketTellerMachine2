@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2025-05-15T10:15:37.343029",
+    "feedback": "[BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:15:37.350866",
+    "feedback": "[COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical errors or alerts detected in brain or ghost logs."
+  },
+  {
+    "timestamp": "2025-05-15T10:17:47.890894",
+    "feedback": "[BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:17:47.894479",
+    "feedback": "[COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical errors or alerts detected in brain or ghost logs."
+  },
+  {
+    "timestamp": "2025-05-15T10:17:55.548587",
+    "feedback": "[ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc2eced3bd0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:20:09.309528",
+    "feedback": "[BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:20:09.332998",
+    "feedback": "[COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical errors or alerts detected in brain or ghost logs."
+  },
+  {
+    "timestamp": "2025-05-15T10:20:09.435795",
+    "feedback": "[BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:20:09.452374",
+    "feedback": "[COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical errors or alerts detected in brain or ghost logs."
+  }
+]

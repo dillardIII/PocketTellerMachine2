@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cole AI Phase 11 - Unified Control Center</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #f0f0f0;
+            font-family: 'Segoe UI', sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: #6fd672;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .button {
+            background: #6fd672;
+            color: #121212;
+            padding: 10px 20px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            border-radius: 8px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        .log-box {
+            background: #222;
+            padding: 20px;
+            border-radius: 10px;
+            height: 400px;
+            overflow-y: auto;
+            margin-top: 20px;
+        }
+        .status-box {
+            background: #222;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px #0f0;
+        }
+        .status-entry {
+            margin-bottom: 10px;
+        }
+        .good { color: #0f0; }
+        .bad { color: #f00; }
+    </style>
+</head>
+<body>
+
+    <h1>Cole AI Phase 11 - Unified Control Center</h1>
+
+    <div>
+        <button class="button" onclick="fetchSystemStatus()">System Status</button>
+        <button class="button" onclick="fetchLogs('/api/get_ghost_logs')">Ghost Logs</button>
+        <button class="button" onclick="fetchLogs('/api/get_voice_assistant_logs')">Assistant Logs</button>
+        <button class="button" onclick="fetchLogs('/api/get_code_trigger_logs')">Trigger Logs</button>
+        <button class="button" onclick="fetchLogs('/api/get_self_awareness_logs')">Self-Awareness Logs</button>
+        <button class="button" onclick="fetchLogs('/chatgpt_feedback/logs')">Feedback Logs</button>
+    </div>
+
+    <div id="status" class="status-box"></div>
+
+    <div class="log-box" id="logDisplay">
+        <pre>Click a button to load logs...</pre>
+    </div>
+
+    <script>
+        function fetchSystemStatus() {
+            fetch('/api/system_status')
+            .then(res => res.json())
+            .then(data => displayStatus(data))
+            .catch(() => document.getElementById('status').innerHTML = '<div class="bad">[ERROR]: Cannot reach system status API.</div>');
+        }
+
+        function displayStatus(data) {
+            let html = `<strong>System Status:</strong> ${data.status}<br><strong>Timestamp:</strong> ${data.timestamp}<br><br>`;
+
+            html += `<strong>Daemons:</strong><br>`;
+            for (const [key, value] of Object.entries(data.daemons)) {
+                html += `${key}: <span class="${value === 'running' ? 'good' : 'bad'}">${value}</span><br>`;
+            }
+
+            html += `<br><strong>Bridge:</strong><br>`;
+            for (const [key, value] of Object.entries(data.bridge)) {
+                html += `${key}: <span class="${value === 'connected' ? 'good' : 'bad'}">${value}</span><br>`;
+            }
+
+            html += `<br><strong>Feedback:</strong><br>`;
+            for (const [key, value] of Object.entries(data.feedback)) {
+                html += `${key}: <span class="good">${value}</span><br>`;
+            }
+
+            html += `<br><strong>Webhooks:</strong><br>`;
+            for (const [key, value] of Object.entries(data.webhooks)) {
+                html += `${key}: <span class="good">${value}</span><br>`;
+            }
+
+            html += `<br><strong>Autonomy:</strong><br>`;
+            for (const [key, value] of Object.entries(data.autonomy)) {
+                html += `${key}: <span class="good">${value}</span><br>`;
+            }
+
+            document.getElementById('status').innerHTML = html;
+        }
+
+        function fetchLogs(api) {
+            fetch(api)
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('logDisplay').innerText = JSON.stringify(data, null, 2);
+            })
+            .catch(() => document.getElementById('logDisplay').innerText = "Error loading logs from " + api);
+        }
+
+        setInterval(fetchSystemStatus, 10000);
+        fetchSystemStatus();
+    </script>
+
+</body>
+</html>

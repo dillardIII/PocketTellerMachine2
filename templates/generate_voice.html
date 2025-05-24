@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Generate Assistant Voice</title>
+  <style>
+    body {
+      background-color: #101820;
+      color: white;
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      text-align: center;
+    }
+    input, textarea {
+      width: 80%;
+      padding: 10px;
+      margin: 10px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: none;
+    }
+    button {
+      padding: 12px 20px;
+      background-color: #00cc66;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    audio {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Generate Assistant Voice (Malik or Others)</h1>
+
+  <input type="text" id="voice_id" placeholder="Enter Voice ID" />
+  <input type="text" id="filename" placeholder="Output filename (e.g. malik_test.mp3)" />
+  <textarea id="text" rows="4" placeholder="What should the assistant say?"></textarea>
+  <br>
+  <button onclick="generateVoice()">Generate Voice</button>
+
+  <div id="response" style="margin-top: 30px;"></div>
+  <div id="player" style="margin-top: 10px;"></div>
+
+  <script>
+    async function generateVoice() {
+      const voice_id = document.getElementById("voice_id").value;
+      const text = document.getElementById("text").value;
+      const filename = document.getElementById("filename").value;
+
+      const res = await fetch("/generate_voice", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ voice_id, text, filename })
+      });
+
+      const data = await res.json();
+
+      if (data.success) {
+        document.getElementById("response").innerText = "Voice created!";
+        document.getElementById("player").innerHTML = `
+          <audio controls autoplay>
+            <source src="${data.path}" type="audio/mpeg">
+            Your browser does not support audio.
+          </audio>`;
+      } else {
+        document.getElementById("response").innerText = "Error: " + data.error;
+        document.getElementById("player").innerHTML = "";
+      }
+    }
+  </script>
+
+</body>
+</html>

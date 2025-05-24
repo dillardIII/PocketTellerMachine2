@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "ticker": "AAPL",
+      "price": 185.12,
+      "volume": 75000000,
+      "rsi": 42.75,
+      "signal": "Neutral"
+    },
+    {
+      "ticker": "TSLA",
+      "price": 690.25,
+      "volume": 30000000,
+      "rsi": 68.90,
+      "signal": "Overbought"
+    },
+    {
+      "ticker": "AMD",
+      "price": 112.45,
+      "volume": 20000000,
+      "rsi": 29.55,
+      "signal": "Oversold"
+    },
+    {
+      "ticker": "GOOGL",
+      "price": 2725.60,
+      "volume": 1800000,
+      "rsi": 51.20,
+      "signal": "Neutral"
+    }
+  ]
+}

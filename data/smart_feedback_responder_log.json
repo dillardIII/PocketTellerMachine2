@@ -1,0 +1,202 @@
+[
+  {
+    "timestamp": "2025-05-15T10:17:45.749085",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:17:45.750253",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  },
+  {
+    "timestamp": "2025-05-15T10:17:47.587663",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:17:47.593297",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  },
+  {
+    "timestamp": "2025-05-15T10:20:04.589289",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:20:04.589887",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  },
+  {
+    "timestamp": "2025-05-15T10:20:04.590309",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:20:04.590697",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  },
+  {
+    "timestamp": "2025-05-15T10:20:04.591144",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webho"
+  },
+  {
+    "timestamp": "2025-05-15T10:20:07.580011",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:20:07.588513",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  },
+  {
+    "timestamp": "2025-05-15T10:20:07.600679",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:20:07.616972",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  },
+  {
+    "timestamp": "2025-05-15T10:20:07.637987",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webho"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:21.979481",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:21:21.988551",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:22.044996",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:21:22.372528",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:22.411059",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webho"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:22.546792",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:21:22.555370",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:22.562314",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:21:22.573561",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:25.353505",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:21:25.357745",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:25.367457",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:21:25.380897",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:25.391214",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webho"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:25.393076",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:21:25.406924",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:25.409872",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:21:25.410699",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:30.179875",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:22:30.181494",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:30.185938",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:22:30.188068",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:30.189298",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webho"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:30.193372",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:22:30.195264",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:30.201000",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:22:30.210458",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:32.044511",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:22:32.072710",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:32.074090",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:22:32.075448",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:32.081974",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webho"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:32.082593",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:22:32.098228",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:32.101155",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [BRAIN MEMORY FEEDBACK]:\n- No critical memory gaps detected."
+  },
+  {
+    "timestamp": "2025-05-15T10:22:32.104363",
+    "message": "[SMART FEEDBACK]: Feedback ignored (no code): [COLE REQUEST]: Requesting ChatGPT to send a new strategy or code improvement. Reason: Critical erro"
+  }
+]

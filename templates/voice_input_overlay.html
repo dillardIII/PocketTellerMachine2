@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PTM Voice Input Overlay</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: rgba(0, 0, 0, 0.85);
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .overlay {
+      background: #1e1e1e;
+      border: 2px solid #6fd672;
+      padding: 40px;
+      border-radius: 20px;
+      text-align: center;
+      width: 90%;
+      max-width: 500px;
+      box-shadow: 0 0 24px rgba(0,255,100,0.3);
+    }
+
+    h1 {
+      color: #6fd672;
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+
+    .pulse {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 20px;
+      background-color: #4caf50;
+      border-radius: 50%;
+      animation: pulseAnim 1.5s infinite;
+    }
+
+    @keyframes pulseAnim {
+      0% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.2); opacity: 0.6; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    .transcript {
+      background: #111;
+      border: 1px solid #333;
+      border-radius: 8px;
+      padding: 12px;
+      font-size: 15px;
+      min-height: 40px;
+      margin-top: 10px;
+      color: #ccc;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #6fd672;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      color: #111;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #80e487;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="overlay">
+    <h1>Listening for Command...</h1>
+    <div class="pulse"></div>
+    <div class="transcript" id="liveTranscript">Say something like “Execute trade on Tesla”</div>
+    <button onclick="stopListening()">Stop</button>
+  </div>
+
+  <script>
+    const transcriptDiv = document.getElementById("liveTranscript");
+
+    if ('webkitSpeechRecognition' in window) {
+      const recognition = new webkitSpeechRecognition();
+      recognition.continuous = false;
+      recognition.interimResults = true;
+      recognition.lang = 'en-US';
+
+      recognition.onresult = function(event) {
+        let transcript = '';
+        for (let i = event.resultIndex; i < event.results.length; ++i) {
+          transcript += event.results[i][0].transcript;
+        }
+        transcriptDiv.textContent = transcript;
+      };
+
+      recognition.onerror = function(event) {
+        transcriptDiv.textContent = "Error: " + event.error;
+      };
+
+      recognition.onend = function() {
+        console.log("Voice recognition ended.");
+      };
+
+      recognition.start();
+
+      window.stopListening = () => recognition.stop();
+    } else {
+      transcriptDiv.textContent = "Voice input not supported in this browser.";
+      window.stopListening = () => alert("Nothing to stop.");
+    }
+  </script>
+
+</body>
+</html>

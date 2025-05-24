@@ -1,0 +1,31 @@
+{
+  "rsi": {
+    "enabled": true,
+    "min": 30,
+    "max": 70
+  },
+  "volume": {
+    "enabled": true,
+    "min": 1000000
+  },
+  "price": {
+    "enabled": true,
+    "min": 5.0,
+    "max": 500.0
+  },
+  "market_cap": {
+    "enabled": false,
+    "min": null,
+    "max": null
+  },
+  "beta": {
+    "enabled": false,
+    "min": null,
+    "max": null
+  },
+  "dividend_yield": {
+    "enabled": false,
+    "min": null,
+    "max": null
+  }
+}

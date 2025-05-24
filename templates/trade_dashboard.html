@@ -1,255 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>PTM Trade Dashboard 4</title>
+  <meta charset="UTF-8" />
+  <title>PTM Trade Dashboard</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/litepicker/dist/litepicker.css" />
+  <script src="https://cdn.jsdelivr.net/npm/litepicker/dist/litepicker.js"></script>
   <style>
-    body { font-family: Arial, sans-serif; background: #111; color: #eee; padding: 20px; }
-    h1, h2 { color: #fff; }
-    input, button, textarea {
-      padding: 8px; margin: 5px 0; width: 100%; border-radius: 6px; border: none; box-sizing: border-box;
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+      padding: 20px;
     }
+
+    h1, h2, h3 {
+      color: #6fd672;
+    }
+
+    .section, .box {
+      background: #1e1e1e;
+      padding: 20px;
+      margin-bottom: 25px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,255,100,0.1);
+    }
+
+    label {
+      margin-right: 10px;
+    }
+
+    input[type="date"], input[type="text"], select {
+      background: #222;
+      color: #fff;
+      border: 1px solid #333;
+      padding: 6px;
+      border-radius: 6px;
+    }
+
     button {
-      background-color: #4caf50; color: white; font-weight: bold; cursor: pointer; transition: 0.2s;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 6px 12px;
+      cursor: pointer;
+      margin-left: 10px;
     }
-    button:hover { background-color: #45a049; }
-    textarea { resize: vertical; }
-    .box {
-      background: #222; padding: 15px; margin-bottom: 25px; border-radius: 10px;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+
+    button:hover {
+      background-color: #66bb6a;
     }
-    code {
-      background: #333; padding: 3px 6px; border-radius: 4px;
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
     }
-    #moCashRecap {
-      position: fixed; bottom: 30px; left: -300px; width: 280px; background: #222;
-      border: 2px solid #4caf50; padding: 10px 20px; border-radius: 15px; color: white;
-      font-weight: bold; font-size: 16px; display: none; z-index: 9999;
-      transition: left 2s ease-in-out; text-align: center;
+
+    th, td {
+      padding: 10px;
+      border-bottom: 1px solid #444;
+      text-align: left;
     }
-    #moCashImage {
-      width: 100%; border-radius: 15px; margin-bottom: 10px;
-      box-shadow: 0 0 8px rgba(0, 255, 100, 0.3);
+
+    th {
+      background-color: #222;
+      color: #6fd672;
+      cursor: pointer;
+    }
+
+    .profit { color: #00e676; }
+    .loss { color: #ff5252; }
+    .highlight { background-color: #1b3f1b; }
+
+    .voice-note {
+      max-width: 280px;
+      word-wrap: break-word;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 5px;
+    }
+
+    .controls {
+      margin-bottom: 20px;
     }
   </style>
 </head>
 <body>
-  <h1>PTM Trade Dashboard 4</h1>
 
-  <!-- Trade Brain Summary Panel -->
-  <div class="box">
-    <h2>Trade Brain Summary</h2>
-    <pre id="brain_summary">Loading...</pre>
-    <button onclick="loadSummary()">Refresh Summary</button>
+  <h1>PTM Trade Dashboard</h1>
+
+  <!-- FILTERS + CSV -->
+  <div class="box controls">
+    <form id="dateForm" method="get" action="/trade_dashboard">
+      <label for="start">Start:</label>
+      <input type="date" name="start" id="start" />
+      <label for="end">End:</label>
+      <input type="date" name="end" id="end" />
+      <button type="submit">Apply Filter</button>
+      <button type="button" onclick="downloadCSV()">Download CSV</button>
+    </form>
+    <br />
+    <label for="gradeFilter">Grade:</label>
+    <select id="gradeFilter">
+      <option value="">All</option>
+      <option>A</option><option>B</option><option>C</option><option>D</option><option>F</option>
+    </select>
+    <input type="text" id="searchInput" placeholder="Search symbol..." />
+    <button onclick="applyClientFilter()">Client Filter</button>
   </div>
 
-  <!-- Create New Trade Section -->
-  <div class="box">
-    <h2>Create New Trade</h2>
-    <input id="symbol" placeholder="Symbol (e.g., AAPL)" />
-    <input id="strategy" placeholder="Strategy (e.g., Covered Call)" />
-    <input id="buy_price" type="number" placeholder="Buy Price" />
-    <input id="quantity" type="number" placeholder="Quantity" />
-    <textarea id="notes" placeholder="Notes"></textarea>
-    <button onclick="createTrade()">Submit Trade</button>
+  <!-- RiskGuardian Panel -->
+  <div class="section" id="guardianStatusBox">
+    <h3>RiskGuardian Status</h3>
+    <ul id="guardianStatus">
+      <li><strong>Open Trades:</strong> <span id="g_open"></span> / <span id="g_limit"></span></li>
+      <li><strong>Loss Streak:</strong> <span id="g_streak"></span></li>
+      <li><strong>Cooldown Active:</strong> <span id="g_cooldown"></span></li>
+    </ul>
   </div>
 
-  <!-- Sell Trade Section -->
-  <div class="box">
-    <h2>Sell Trade</h2>
-    <input id="sell_trade_id" placeholder="Trade ID to Close" />
-    <input id="sell_price" type="number" placeholder="Sell Price" />
-    <input id="result" placeholder="Result (Win/Loss/Break-even)" />
-    <textarea id="sell_notes" placeholder="Closing Notes"></textarea>
-    <button onclick="sellTrade()">Close Trade</button>
+  <!-- SUMMARY -->
+  <div class="section summary">
+    <h3>Summary</h3>
+    <p><strong>Total Trades:</strong> {{ summary.total }}</p>
+    <p><strong>Wins:</strong> {{ summary.wins }} | <strong>Losses:</strong> {{ summary.losses }}</p>
+    <p><strong>Total P/L:</strong> <span class="{{ 'profit' if summary.total_pl >= 0 else 'loss' }}">{{ summary.total_pl }}</span></p>
+    <p><strong>Avg P/L per Trade:</strong> {{ summary.avg_pl }}</p>
+    {% if summary.best %}
+      <p><strong>Best Trade:</strong> {{ summary.best.symbol }} — ${{ summary.best.result }}</p>
+    {% endif %}
+    {% if summary.worst %}
+      <p><strong>Worst Trade:</strong> {{ summary.worst.symbol }} — ${{ summary.worst.result }}</p>
+    {% endif %}
   </div>
 
-  <!-- All Trades Section -->
-  <div class="box">
-    <h2>All Trades</h2>
-    <button onclick="loadTrades()">Refresh</button>
-    <button onclick="filterTrades('all')">All</button>
-    <button onclick="filterTrades('open')">Open</button>
-    <button onclick="filterTrades('closed')">Closed</button>
-    <a href="/export_csv" target="_blank"><button>Download CSV</button></a>
-    <div id="trades_display">Loading...</div>
+  <!-- TRADE TABLE -->
+  <div class="section">
+    <table id="tradeTable">
+      <thead>
+        <tr>
+          <th onclick="sortTable(0)">Symbol</th>
+          <th onclick="sortTable(1)">Strategy</th>
+          <th>Summary</th>
+          <th>Voice Note</th>
+          <th onclick="sortTable(4)">Result</th>
+          <th onclick="sortTable(5)">Grade</th>
+          <th onclick="sortTable(6)">Timestamp</th>
+          <th>GPT Summary</th>
+          <th>Play</th>
+        </tr>
+      </thead>
+      <tbody id="tradeTableBody">
+        {% for trade in trades %}
+        <tr class="{% if trade.celebrate %}highlight{% endif %}">
+          <td>{{ trade.symbol }}</td>
+          <td>{{ trade.strategy_name or trade.strategy }}</td>
+          <td class="voice-note">{{ trade.summary or '' }}</td>
+          <td class="voice-note">
+            {% if trade.voice %}
+              <audio controls src="/static/audio/{{ trade.voice }}"></audio>
+            {% else %}
+              —
+            {% endif %}
+          </td>
+          <td class="{{ 'profit' if trade.result|float >= 0 else 'loss' }}">${{ trade.result }}</td>
+          <td>{{ trade.grade }}</td>
+          <td>{{ trade.timestamp }}</td>
+          <td class="voice-note">{{ trade.gpt_explanation or '' }}</td>
+          <td>
+            <button onclick="playSummary('{{ trade.voice or '' }}', `{{ trade.voice_summary or '' }}`)">Play</button>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <audio id="voicePlayer" controls style="margin-top: 12px; display: none;"></audio>
   </div>
 
-  <!-- Recap Box -->
-  <div id="moCashRecap">
-    <img src="/static/avatars/mo_cash_avatar.png" id="moCashImage" />
-    <div id="moCashRecapText"></div>
+  <!-- BACKTEST LOG SECTION -->
+  <div class="section">
+    <h2>Backtest Log Results</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Strategy</th>
+          <th>Ticker</th>
+          <th>Outcome</th>
+          <th>PL</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for entry in backtests %}
+        <tr>
+          <td>{{ entry.timestamp }}</td>
+          <td>{{ entry.result.strategy or "N/A" }}</td>
+          <td>{{ entry.result.ticker or "N/A" }}</td>
+          <td class="{{ 'win' if entry.result.outcome == 'win' else 'loss' }}">{{ entry.result.outcome|capitalize }}</td>
+          <td>{{ entry.result.pnl or 0 }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
   </div>
 
   <script>
-    let allTrades = [];
+    const picker = new Litepicker({
+      element: document.createElement("input"),
+      singleMode: false,
+      format: 'YYYY-MM-DD',
+      setup: (picker) => {
+        picker.on('selected', (start, end) => {
+          const startDate = start.format('YYYY-MM-DD');
+          const endDate = end.format('YYYY-MM-DD');
+          window.location.href = `/trade_dashboard?start=${startDate}&end=${endDate}`;
+        });
+      }
+    });
 
-    // --- Brain Summary ---
-    async function loadSummary() {
-      const res = await fetch("/brain_summary");
-      const text = await res.text();
-      document.getElementById("brain_summary").textContent = text;
-    }
-    loadSummary();
-
-    // --- Persona Logic ---
-    function getRecapPersona(result) {
-      result = result.toLowerCase();
-      if (result.includes("win")) {
-        return {
-          name: "MoCash",
-          line: `Let's go! You bagged a win. Big moves!`,
-          img: "/static/avatars/mo_cash_avatar.png",
-          boxShadow: "0 0 15px rgba(0, 255, 100, 0.6)",
-          pitch: 1.1
-        };
-      } else if (result.includes("loss")) {
-        return {
-          name: "Drill Instructor",
-          line: `Loss logged. Shake it off, Marine. Tighten up for the next strike.`,
-          img: "/static/avatars/drill_avatar.png",
-          boxShadow: "0 0 15px rgba(255, 60, 60, 0.6)",
-          pitch: 0.9
-        };
+    function playSummary(file, text) {
+      const player = document.getElementById("voicePlayer");
+      if (file && file.endsWith(".mp3")) {
+        player.src = "/static/audio/" + file;
+        player.style.display = "block";
+        player.play();
       } else {
-        return {
-          name: "Malik Steele",
-          line: `You broke even. Calculated, clean. Stay sharp.`,
-          img: "/static/avatars/malik_avatar.png",
-          boxShadow: "0 0 10px rgba(160,160,160,0.4)",
-          pitch: 1.0
-        };
+        const msg = new SpeechSynthesisUtterance(text);
+        window.speechSynthesis.speak(msg);
       }
     }
 
-    function playRecap(symbol, result) {
-      const recapBox = document.getElementById("moCashRecap");
-      const recapText = document.getElementById("moCashRecapText");
-      const moCashImage = document.getElementById("moCashImage");
-      const persona = getRecapPersona(result);
-      const fullLine = `${persona.name} here. ${persona.line} (${symbol})`;
-
-      recapText.innerText = fullLine;
-      recapBox.style.boxShadow = persona.boxShadow;
-      moCashImage.src = persona.img;
-      recapBox.style.display = "block";
-      recapBox.style.left = "20px";
-
-      const msg = new SpeechSynthesisUtterance(fullLine);
-      msg.voice = speechSynthesis.getVoices().find(v => v.name.includes("Google") || v.name.includes("Male"));
-      msg.pitch = persona.pitch;
-      msg.rate = 1;
-
-      msg.onend = () => {
-        recapBox.style.left = "-300px";
-        setTimeout(() => {
-          recapBox.style.display = "none";
-          recapBox.style.boxShadow = "";
-        }, 2000);
-      };
-
-      speechSynthesis.speak(msg);
-    }
-
-    // --- Trade Logic ---
-    async function createTrade() {
-      const data = {
-        symbol: document.getElementById("symbol").value,
-        strategy: document.getElementById("strategy").value,
-        buy_price: parseFloat(document.getElementById("buy_price").value),
-        quantity: parseInt(document.getElementById("quantity").value),
-        notes: document.getElementById("notes").value
-      };
-      const res = await fetch("/new_trade", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data)
+    function sortTable(colIndex) {
+      const table = document.getElementById("tradeTableBody");
+      const rows = Array.from(table.rows);
+      const sorted = rows.sort((a, b) => {
+        const A = a.cells[colIndex].innerText.trim();
+        const B = b.cells[colIndex].innerText.trim();
+        return isNaN(A) ? A.localeCompare(B) : parseFloat(B) - parseFloat(A);
       });
-      const json = await res.json();
-      alert(json.message);
-      loadTrades();
-      loadSummary();
+      table.innerHTML = "";
+      sorted.forEach(row => table.appendChild(row));
     }
 
-    async function sellTrade() {
-      const data = {
-        trade_id: document.getElementById("sell_trade_id").value,
-        sell_price: parseFloat(document.getElementById("sell_price").value),
-        result: document.getElementById("result").value,
-        notes: document.getElementById("sell_notes").value
-      };
-      const res = await fetch("/sell_trade", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data)
-      });
-      const json = await res.json();
-      alert(json.message);
-      loadTrades();
-      loadSummary();
-    }
-
-    async function saveTrade(tradeId) {
-      const updates = {
-        notes: document.getElementById(`notes_${tradeId}`).value,
-        result: document.getElementById(`result_${tradeId}`).value,
-        strategy: document.getElementById(`strategy_${tradeId}`).value
-      };
-      const res = await fetch("/edit_trade", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ trade_id: tradeId, updates })
-      });
-      const json = await res.json();
-      alert(json.message);
-      loadTrades();
-      loadSummary();
-    }
-
-    async function loadTrades() {
-      const res = await fetch("/trades");
-      allTrades = await res.json();
-      renderTrades(allTrades);
-    }
-
-    function filterTrades(status) {
-      let filtered = allTrades;
-      if (status === "open") filtered = allTrades.filter(t => t.status === "open");
-      if (status === "closed") filtered = allTrades.filter(t => t.status === "closed");
-      renderTrades(filtered);
-    }
-
-    function renderTrades(trades) {
-      const container = document.getElementById("trades_display");
-      container.innerHTML = "";
-      trades.forEach(trade => {
-        const div = document.createElement("div");
-        div.className = "box";
-        div.innerHTML = `
-          <strong>Symbol:</strong> ${trade.symbol}<br/>
-          <strong>Strategy:</strong> <input id="strategy_${trade.id}" value="${trade.strategy || ""}" /><br/>
-          <strong>Status:</strong> ${trade.status}<br/>
-          <strong>Buy Price:</strong> $${trade.buy_price}<br/>
-          ${trade.sell_price ? `<strong>Sell Price:</strong> $${trade.sell_price}<br/>` : ""}
-          <strong>Trade ID:</strong> <code>${trade.id}</code>
-          <button onclick="copyToClipboard('${trade.id}')">Copy</button><br/>
-          <label>Notes:</label>
-          <textarea id="notes_${trade.id}">${trade.notes || ""}</textarea><br/>
-          <label>Result:</label>
-          <input id="result_${trade.id}" value="${trade.result || ""}" /><br/>
-          <button onclick="saveTrade('${trade.id}')">Save Edits</button>
-          ${trade.status === "closed" ? `<button onclick="playRecap('${trade.symbol}', '${trade.result}')">Play Recap</button>` : ""}
-        `;
-        container.appendChild(div);
+    function applyClientFilter() {
+      const grade = document.getElementById("gradeFilter").value;
+      const keyword = document.getElementById("searchInput").value.toLowerCase();
+      const rows = document.querySelectorAll("#tradeTableBody tr");
+      rows.forEach(row => {
+        const symbol = row.cells[0].innerText.toLowerCase();
+        const gradeText = row.cells[5].innerText;
+        const match = (!grade || gradeText === grade) && (!keyword || symbol.includes(keyword));
+        row.style.display = match ? "" : "none";
       });
     }
 
-    function copyToClipboard(text) {
-      navigator.clipboard.writeText(text).then(() => alert("Trade ID copied!"));
+    function downloadCSV() {
+      const start = document.getElementById("start").value;
+      const end = document.getElementById("end").value;
+      let url = "/download_trades_csv";
+      if (start && end) {
+        url += `?start=${start}&end=${end}`;
+      }
+      window.location.href = url;
     }
 
-    window.speechSynthesis.onvoiceschanged = () => {};
-    loadTrades();
+    function loadGuardianStatus() {
+      fetch("/api/guardian_status")
+        .then(res => res.json())
+        .then(data => {
+          document.getElementById("g_open").textContent = data.open_trades;
+          document.getElementById("g_limit").textContent = data.max_open_trades;
+          document.getElementById("g_streak").textContent = data.active_loss_streak;
+          let cooldown = "No";
+          if (data.last_loss_time) {
+            const last = new Date(data.last_loss_time);
+            const now = new Date();
+            const remaining = Math.max(0, (last.getTime() + data.cooldown_minutes * 60000 - now.getTime()) / 60000);
+            cooldown = remaining > 0 ? `Yes (${remaining.toFixed(1)}m)` : "No";
+          }
+          document.getElementById("g_cooldown").textContent = cooldown;
+        });
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      loadGuardianStatus();
+    });
   </script>
 </body>
 </html>

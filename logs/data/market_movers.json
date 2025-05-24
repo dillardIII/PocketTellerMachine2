@@ -1,0 +1,24 @@
+{
+  "movers": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "change_percent": 5.42
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "change_percent": 3.87
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla Inc",
+      "change_percent": -2.15
+    },
+    {
+      "ticker": "F",
+      "name": "Ford Motor Co",
+      "change_percent": -1.34
+    }
+  ]
+}

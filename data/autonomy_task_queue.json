@@ -1,0 +1,1730 @@
+[
+  {
+    "id": "task_1",
+    "timestamp": "2025-05-21T10:09:47.285810",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_1.py"
+  },
+  {
+    "id": "task_2",
+    "timestamp": "2025-05-21T10:09:47.288353",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_2.py"
+  },
+  {
+    "id": "task_3",
+    "timestamp": "2025-05-21T10:09:47.288675",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_3.py"
+  },
+  {
+    "id": "task_4",
+    "timestamp": "2025-05-21T10:09:47.289088",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_4.py"
+  },
+  {
+    "id": "task_5",
+    "timestamp": "2025-05-21T10:10:17.300734",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_5.py"
+  },
+  {
+    "id": "task_6",
+    "timestamp": "2025-05-21T10:10:17.301180",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_6.py"
+  },
+  {
+    "id": "task_7",
+    "timestamp": "2025-05-21T10:10:17.301520",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_7.py"
+  },
+  {
+    "id": "task_8",
+    "timestamp": "2025-05-21T10:10:17.301858",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_8.py"
+  },
+  {
+    "id": "task_9",
+    "timestamp": "2025-05-21T10:10:47.307503",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_9.py"
+  },
+  {
+    "id": "task_10",
+    "timestamp": "2025-05-21T10:10:47.308067",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_10.py"
+  },
+  {
+    "id": "task_11",
+    "timestamp": "2025-05-21T10:10:47.316166",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_11.py"
+  },
+  {
+    "id": "task_12",
+    "timestamp": "2025-05-21T10:10:47.325394",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_12.py"
+  },
+  {
+    "id": "task_13",
+    "timestamp": "2025-05-21T10:11:17.336639",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_13.py"
+  },
+  {
+    "id": "task_14",
+    "timestamp": "2025-05-21T10:11:17.337237",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_14.py"
+  },
+  {
+    "id": "task_15",
+    "timestamp": "2025-05-21T10:11:17.345546",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_15.py"
+  },
+  {
+    "id": "task_16",
+    "timestamp": "2025-05-21T10:11:17.348390",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_16.py"
+  },
+  {
+    "id": "task_17",
+    "timestamp": "2025-05-21T10:11:47.359339",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_17.py"
+  },
+  {
+    "id": "task_18",
+    "timestamp": "2025-05-21T10:11:47.359901",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_18.py"
+  },
+  {
+    "id": "task_19",
+    "timestamp": "2025-05-21T10:11:47.368550",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_19.py"
+  },
+  {
+    "id": "task_20",
+    "timestamp": "2025-05-21T10:11:47.376598",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_20.py"
+  },
+  {
+    "id": "task_21",
+    "timestamp": "2025-05-21T10:12:17.387752",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_21.py"
+  },
+  {
+    "id": "task_22",
+    "timestamp": "2025-05-21T10:12:17.388470",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_22.py"
+  },
+  {
+    "id": "task_23",
+    "timestamp": "2025-05-21T10:12:17.396874",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_23.py"
+  },
+  {
+    "id": "task_24",
+    "timestamp": "2025-05-21T10:12:17.408948",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_24.py"
+  },
+  {
+    "id": "task_25",
+    "timestamp": "2025-05-21T10:12:47.422245",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_25.py"
+  },
+  {
+    "id": "task_26",
+    "timestamp": "2025-05-21T10:12:47.422952",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_26.py"
+  },
+  {
+    "id": "task_27",
+    "timestamp": "2025-05-21T10:12:47.453941",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_27.py"
+  },
+  {
+    "id": "task_28",
+    "timestamp": "2025-05-21T10:12:47.457181",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_28.py"
+  },
+  {
+    "id": "task_29",
+    "timestamp": "2025-05-21T10:13:17.493201",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_29.py"
+  },
+  {
+    "id": "task_30",
+    "timestamp": "2025-05-21T10:13:17.494027",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_30.py"
+  },
+  {
+    "id": "task_31",
+    "timestamp": "2025-05-21T10:13:17.495540",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_31.py"
+  },
+  {
+    "id": "task_32",
+    "timestamp": "2025-05-21T10:13:17.496490",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_32.py"
+  },
+  {
+    "id": "task_33",
+    "timestamp": "2025-05-21T10:13:47.501489",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_33.py"
+  },
+  {
+    "id": "task_34",
+    "timestamp": "2025-05-21T10:13:47.503151",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_34.py"
+  },
+  {
+    "id": "task_35",
+    "timestamp": "2025-05-21T10:13:47.514400",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_35.py"
+  },
+  {
+    "id": "task_36",
+    "timestamp": "2025-05-21T10:13:47.519907",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_36.py"
+  },
+  {
+    "id": "task_37",
+    "timestamp": "2025-05-21T10:14:17.537406",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_37.py"
+  },
+  {
+    "id": "task_38",
+    "timestamp": "2025-05-21T10:14:17.538623",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_38.py"
+  },
+  {
+    "id": "task_39",
+    "timestamp": "2025-05-21T10:14:17.550944",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_39.py"
+  },
+  {
+    "id": "task_40",
+    "timestamp": "2025-05-21T10:14:17.558886",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_40.py"
+  },
+  {
+    "id": "task_41",
+    "timestamp": "2025-05-21T10:14:47.575243",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_41.py"
+  },
+  {
+    "id": "task_42",
+    "timestamp": "2025-05-21T10:14:47.578201",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_42.py"
+  },
+  {
+    "id": "task_43",
+    "timestamp": "2025-05-21T10:14:47.586186",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_43.py"
+  },
+  {
+    "id": "task_44",
+    "timestamp": "2025-05-21T10:14:47.593424",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_44.py"
+  },
+  {
+    "id": "task_45",
+    "timestamp": "2025-05-21T10:15:17.603529",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_45.py"
+  },
+  {
+    "id": "task_46",
+    "timestamp": "2025-05-21T10:15:17.604549",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_46.py"
+  },
+  {
+    "id": "task_47",
+    "timestamp": "2025-05-21T10:15:17.615878",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_47.py"
+  },
+  {
+    "id": "task_48",
+    "timestamp": "2025-05-21T10:15:17.624526",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_48.py"
+  },
+  {
+    "id": "task_49",
+    "timestamp": "2025-05-21T10:15:47.639539",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_49.py"
+  },
+  {
+    "id": "task_50",
+    "timestamp": "2025-05-21T10:15:47.640508",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_50.py"
+  },
+  {
+    "id": "task_51",
+    "timestamp": "2025-05-21T10:15:47.649799",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_51.py"
+  },
+  {
+    "id": "task_52",
+    "timestamp": "2025-05-21T10:15:47.657549",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_52.py"
+  },
+  {
+    "id": "task_53",
+    "timestamp": "2025-05-21T10:16:17.669820",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_53.py"
+  },
+  {
+    "id": "task_54",
+    "timestamp": "2025-05-21T10:16:17.670768",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_54.py"
+  },
+  {
+    "id": "task_55",
+    "timestamp": "2025-05-21T10:16:17.683584",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_55.py"
+  },
+  {
+    "id": "task_56",
+    "timestamp": "2025-05-21T10:16:17.684634",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_56.py"
+  },
+  {
+    "id": "task_57",
+    "timestamp": "2025-05-21T10:16:47.703560",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_57.py"
+  },
+  {
+    "id": "task_58",
+    "timestamp": "2025-05-21T10:16:47.704690",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_58.py"
+  },
+  {
+    "id": "task_59",
+    "timestamp": "2025-05-21T10:16:47.714199",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_59.py"
+  },
+  {
+    "id": "task_60",
+    "timestamp": "2025-05-21T10:16:47.722247",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_60.py"
+  },
+  {
+    "id": "task_61",
+    "timestamp": "2025-05-21T10:17:17.743363",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_61.py"
+  },
+  {
+    "id": "task_62",
+    "timestamp": "2025-05-21T10:17:17.744922",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_62.py"
+  },
+  {
+    "id": "task_63",
+    "timestamp": "2025-05-21T10:17:17.752149",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_63.py"
+  },
+  {
+    "id": "task_64",
+    "timestamp": "2025-05-21T10:17:17.759847",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_64.py"
+  },
+  {
+    "id": "task_65",
+    "timestamp": "2025-05-21T10:17:47.771074",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_65.py"
+  },
+  {
+    "id": "task_66",
+    "timestamp": "2025-05-21T10:17:47.772327",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_66.py"
+  },
+  {
+    "id": "task_67",
+    "timestamp": "2025-05-21T10:17:47.836560",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_67.py"
+  },
+  {
+    "id": "task_68",
+    "timestamp": "2025-05-21T10:17:47.850289",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_68.py"
+  },
+  {
+    "id": "task_69",
+    "timestamp": "2025-05-21T10:18:17.925406",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_69.py"
+  },
+  {
+    "id": "task_70",
+    "timestamp": "2025-05-21T10:18:17.927916",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_70.py"
+  },
+  {
+    "id": "task_71",
+    "timestamp": "2025-05-21T10:18:17.938311",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_71.py"
+  },
+  {
+    "id": "task_72",
+    "timestamp": "2025-05-21T10:18:17.949542",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_72.py"
+  },
+  {
+    "id": "task_73",
+    "timestamp": "2025-05-21T10:18:47.962593",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_73.py"
+  },
+  {
+    "id": "task_74",
+    "timestamp": "2025-05-21T10:18:47.964000",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_74.py"
+  },
+  {
+    "id": "task_75",
+    "timestamp": "2025-05-21T10:18:47.976668",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_75.py"
+  },
+  {
+    "id": "task_76",
+    "timestamp": "2025-05-21T10:18:47.978155",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_76.py"
+  },
+  {
+    "id": "task_77",
+    "timestamp": "2025-05-21T10:19:17.995379",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_77.py"
+  },
+  {
+    "id": "task_78",
+    "timestamp": "2025-05-21T10:19:17.996892",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_78.py"
+  },
+  {
+    "id": "task_79",
+    "timestamp": "2025-05-21T10:19:18.007792",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_79.py"
+  },
+  {
+    "id": "task_80",
+    "timestamp": "2025-05-21T10:19:18.009262",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_80.py"
+  },
+  {
+    "id": "task_81",
+    "timestamp": "2025-05-21T10:19:48.025886",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_81.py"
+  },
+  {
+    "id": "task_82",
+    "timestamp": "2025-05-21T10:19:48.027413",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_82.py"
+  },
+  {
+    "id": "task_83",
+    "timestamp": "2025-05-21T10:19:48.039263",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_83.py"
+  },
+  {
+    "id": "task_84",
+    "timestamp": "2025-05-21T10:19:48.049650",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_84.py"
+  },
+  {
+    "id": "task_85",
+    "timestamp": "2025-05-21T10:20:18.055707",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_85.py"
+  },
+  {
+    "id": "task_86",
+    "timestamp": "2025-05-21T10:20:18.056964",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_86.py"
+  },
+  {
+    "id": "task_87",
+    "timestamp": "2025-05-21T10:20:18.064629",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_87.py"
+  },
+  {
+    "id": "task_88",
+    "timestamp": "2025-05-21T10:20:18.067400",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_88.py"
+  },
+  {
+    "id": "task_89",
+    "timestamp": "2025-05-21T10:20:48.086427",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_89.py"
+  },
+  {
+    "id": "task_90",
+    "timestamp": "2025-05-21T10:20:48.088197",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_90.py"
+  },
+  {
+    "id": "task_91",
+    "timestamp": "2025-05-21T10:20:48.096874",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_91.py"
+  },
+  {
+    "id": "task_92",
+    "timestamp": "2025-05-21T10:20:48.104476",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_92.py"
+  },
+  {
+    "id": "task_93",
+    "timestamp": "2025-05-21T10:21:18.110438",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_93.py"
+  },
+  {
+    "id": "task_94",
+    "timestamp": "2025-05-21T10:21:18.112240",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_94.py"
+  },
+  {
+    "id": "task_95",
+    "timestamp": "2025-05-21T10:21:18.120957",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_95.py"
+  },
+  {
+    "id": "task_96",
+    "timestamp": "2025-05-21T10:21:18.128350",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_96.py"
+  },
+  {
+    "id": "task_97",
+    "timestamp": "2025-05-21T10:21:48.134576",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_97.py"
+  },
+  {
+    "id": "task_98",
+    "timestamp": "2025-05-21T10:21:48.136400",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_98.py"
+  },
+  {
+    "id": "task_99",
+    "timestamp": "2025-05-21T10:21:48.144365",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_99.py"
+  },
+  {
+    "id": "task_100",
+    "timestamp": "2025-05-21T10:21:48.153627",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_100.py"
+  },
+  {
+    "id": "task_101",
+    "timestamp": "2025-05-21T10:22:18.164205",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_101.py"
+  },
+  {
+    "id": "task_102",
+    "timestamp": "2025-05-21T10:22:18.166751",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_102.py"
+  },
+  {
+    "id": "task_103",
+    "timestamp": "2025-05-21T10:22:18.175452",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_103.py"
+  },
+  {
+    "id": "task_104",
+    "timestamp": "2025-05-21T10:22:18.186725",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_104.py"
+  },
+  {
+    "id": "task_105",
+    "timestamp": "2025-05-21T10:22:48.193034",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_105.py"
+  },
+  {
+    "id": "task_106",
+    "timestamp": "2025-05-21T10:22:48.195619",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_106.py"
+  },
+  {
+    "id": "task_107",
+    "timestamp": "2025-05-21T10:22:48.388318",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_107.py"
+  },
+  {
+    "id": "task_108",
+    "timestamp": "2025-05-21T10:22:48.417003",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_108.py"
+  },
+  {
+    "id": "task_109",
+    "timestamp": "2025-05-21T10:23:18.424728",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_109.py"
+  },
+  {
+    "id": "task_110",
+    "timestamp": "2025-05-21T10:23:18.426495",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_110.py"
+  },
+  {
+    "id": "task_111",
+    "timestamp": "2025-05-21T10:23:18.434964",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_111.py"
+  },
+  {
+    "id": "task_112",
+    "timestamp": "2025-05-21T10:23:18.444730",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_112.py"
+  },
+  {
+    "id": "task_113",
+    "timestamp": "2025-05-21T10:23:48.451983",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_113.py"
+  },
+  {
+    "id": "task_114",
+    "timestamp": "2025-05-21T10:23:48.454082",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_114.py"
+  },
+  {
+    "id": "task_115",
+    "timestamp": "2025-05-21T10:23:48.462485",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_115.py"
+  },
+  {
+    "id": "task_116",
+    "timestamp": "2025-05-21T10:23:48.472165",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_116.py"
+  },
+  {
+    "id": "task_117",
+    "timestamp": "2025-05-21T10:24:18.477689",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_117.py"
+  },
+  {
+    "id": "task_118",
+    "timestamp": "2025-05-21T10:24:18.479455",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_118.py"
+  },
+  {
+    "id": "task_119",
+    "timestamp": "2025-05-21T10:24:18.488004",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_119.py"
+  },
+  {
+    "id": "task_120",
+    "timestamp": "2025-05-21T10:24:18.498140",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_120.py"
+  },
+  {
+    "id": "task_121",
+    "timestamp": "2025-05-21T10:24:48.505467",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_121.py"
+  },
+  {
+    "id": "task_122",
+    "timestamp": "2025-05-21T10:24:48.507391",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_122.py"
+  },
+  {
+    "id": "task_123",
+    "timestamp": "2025-05-21T10:24:48.516491",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_123.py"
+  },
+  {
+    "id": "task_124",
+    "timestamp": "2025-05-21T10:24:48.526630",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_124.py"
+  },
+  {
+    "id": "task_125",
+    "timestamp": "2025-05-21T10:25:18.532638",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_125.py"
+  },
+  {
+    "id": "task_126",
+    "timestamp": "2025-05-21T10:25:18.534707",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_126.py"
+  },
+  {
+    "id": "task_127",
+    "timestamp": "2025-05-21T10:25:18.544115",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_127.py"
+  },
+  {
+    "id": "task_128",
+    "timestamp": "2025-05-21T10:25:18.553467",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_128.py"
+  },
+  {
+    "id": "task_129",
+    "timestamp": "2025-05-21T10:25:48.566167",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_129.py"
+  },
+  {
+    "id": "task_130",
+    "timestamp": "2025-05-21T10:25:48.568101",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_130.py"
+  },
+  {
+    "id": "task_131",
+    "timestamp": "2025-05-21T10:25:48.577697",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_131.py"
+  },
+  {
+    "id": "task_132",
+    "timestamp": "2025-05-21T10:25:48.587223",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_132.py"
+  },
+  {
+    "id": "task_133",
+    "timestamp": "2025-05-21T10:26:18.605285",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_133.py"
+  },
+  {
+    "id": "task_134",
+    "timestamp": "2025-05-21T10:26:18.607509",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_134.py"
+  },
+  {
+    "id": "task_135",
+    "timestamp": "2025-05-21T10:26:18.616471",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_135.py"
+  },
+  {
+    "id": "task_136",
+    "timestamp": "2025-05-21T10:26:18.626563",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_136.py"
+  },
+  {
+    "id": "task_137",
+    "timestamp": "2025-05-21T10:26:48.646985",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_137.py"
+  },
+  {
+    "id": "task_138",
+    "timestamp": "2025-05-21T10:26:48.648784",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_138.py"
+  },
+  {
+    "id": "task_139",
+    "timestamp": "2025-05-21T10:26:48.679489",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_139.py"
+  },
+  {
+    "id": "task_140",
+    "timestamp": "2025-05-21T10:26:48.706589",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_140.py"
+  },
+  {
+    "id": "task_141",
+    "timestamp": "2025-05-21T10:27:18.724691",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_141.py"
+  },
+  {
+    "id": "task_142",
+    "timestamp": "2025-05-21T10:27:18.726799",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_142.py"
+  },
+  {
+    "id": "task_143",
+    "timestamp": "2025-05-21T10:27:18.731076",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_143.py"
+  },
+  {
+    "id": "task_144",
+    "timestamp": "2025-05-21T10:27:18.743117",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_144.py"
+  },
+  {
+    "id": "task_145",
+    "timestamp": "2025-05-21T10:27:48.763766",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_145.py"
+  },
+  {
+    "id": "task_146",
+    "timestamp": "2025-05-21T10:27:48.766194",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_146.py"
+  },
+  {
+    "id": "task_147",
+    "timestamp": "2025-05-21T10:27:48.777202",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_147.py"
+  },
+  {
+    "id": "task_148",
+    "timestamp": "2025-05-21T10:27:48.786444",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_148.py"
+  },
+  {
+    "id": "task_149",
+    "timestamp": "2025-05-21T10:28:18.805949",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_149.py"
+  },
+  {
+    "id": "task_150",
+    "timestamp": "2025-05-21T10:28:18.808101",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_150.py"
+  },
+  {
+    "id": "task_151",
+    "timestamp": "2025-05-21T10:28:18.817978",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_151.py"
+  },
+  {
+    "id": "task_152",
+    "timestamp": "2025-05-21T10:28:18.837646",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_152.py"
+  },
+  {
+    "id": "task_153",
+    "timestamp": "2025-05-21T10:28:48.861622",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_153.py"
+  },
+  {
+    "id": "task_154",
+    "timestamp": "2025-05-21T10:28:48.864292",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_154.py"
+  },
+  {
+    "id": "task_155",
+    "timestamp": "2025-05-21T10:28:48.916099",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_155.py"
+  },
+  {
+    "id": "task_156",
+    "timestamp": "2025-05-21T10:28:48.950522",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_156.py"
+  },
+  {
+    "id": "task_157",
+    "timestamp": "2025-05-21T10:29:18.990903",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_157.py"
+  },
+  {
+    "id": "task_158",
+    "timestamp": "2025-05-21T10:29:18.994981",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_158.py"
+  },
+  {
+    "id": "task_159",
+    "timestamp": "2025-05-21T10:29:19.218650",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_159.py"
+  },
+  {
+    "id": "task_160",
+    "timestamp": "2025-05-21T10:29:19.236986",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_160.py"
+  },
+  {
+    "id": "task_161",
+    "timestamp": "2025-05-21T10:29:49.344727",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_161.py"
+  },
+  {
+    "id": "task_162",
+    "timestamp": "2025-05-21T10:29:49.347161",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_162.py"
+  },
+  {
+    "id": "task_163",
+    "timestamp": "2025-05-21T10:29:49.359800",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_163.py"
+  },
+  {
+    "id": "task_164",
+    "timestamp": "2025-05-21T10:29:49.369153",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_164.py"
+  },
+  {
+    "id": "task_165",
+    "timestamp": "2025-05-21T10:30:19.385742",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_165.py"
+  },
+  {
+    "id": "task_166",
+    "timestamp": "2025-05-21T10:30:19.388451",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_166.py"
+  },
+  {
+    "id": "task_167",
+    "timestamp": "2025-05-21T10:30:19.400229",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_167.py"
+  },
+  {
+    "id": "task_168",
+    "timestamp": "2025-05-21T10:30:19.411436",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_168.py"
+  },
+  {
+    "id": "task_169",
+    "timestamp": "2025-05-21T10:30:49.430869",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_169.py"
+  },
+  {
+    "id": "task_170",
+    "timestamp": "2025-05-21T10:30:49.433789",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_170.py"
+  },
+  {
+    "id": "task_171",
+    "timestamp": "2025-05-21T10:30:49.445482",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_171.py"
+  },
+  {
+    "id": "task_172",
+    "timestamp": "2025-05-21T10:30:49.457703",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_172.py"
+  },
+  {
+    "id": "task_173",
+    "timestamp": "2025-05-21T10:31:19.473283",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_173.py"
+  },
+  {
+    "id": "task_174",
+    "timestamp": "2025-05-21T10:31:19.476382",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_174.py"
+  },
+  {
+    "id": "task_175",
+    "timestamp": "2025-05-21T10:31:19.479228",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_175.py"
+  },
+  {
+    "id": "task_176",
+    "timestamp": "2025-05-21T10:31:19.482010",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_176.py"
+  },
+  {
+    "id": "task_177",
+    "timestamp": "2025-05-21T10:31:49.502587",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_177.py"
+  },
+  {
+    "id": "task_178",
+    "timestamp": "2025-05-21T10:31:49.505761",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_178.py"
+  },
+  {
+    "id": "task_179",
+    "timestamp": "2025-05-21T10:31:49.526196",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_179.py"
+  },
+  {
+    "id": "task_180",
+    "timestamp": "2025-05-21T10:31:49.552084",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_180.py"
+  },
+  {
+    "id": "task_181",
+    "timestamp": "2025-05-21T10:32:19.574821",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_181.py"
+  },
+  {
+    "id": "task_182",
+    "timestamp": "2025-05-21T10:32:19.578017",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_182.py"
+  },
+  {
+    "id": "task_183",
+    "timestamp": "2025-05-21T10:32:19.589309",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_183.py"
+  },
+  {
+    "id": "task_184",
+    "timestamp": "2025-05-21T10:32:19.597208",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_184.py"
+  },
+  {
+    "id": "task_185",
+    "timestamp": "2025-05-21T10:32:49.611294",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_185.py"
+  },
+  {
+    "id": "task_186",
+    "timestamp": "2025-05-21T10:32:49.614163",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_186.py"
+  },
+  {
+    "id": "task_187",
+    "timestamp": "2025-05-21T10:32:49.628362",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_187.py"
+  },
+  {
+    "id": "task_188",
+    "timestamp": "2025-05-21T10:32:49.638122",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_188.py"
+  },
+  {
+    "id": "task_189",
+    "timestamp": "2025-05-21T10:33:19.654342",
+    "prompt": "We need a volatility filter for RSI reversal strategy.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_189.py"
+  },
+  {
+    "id": "task_190",
+    "timestamp": "2025-05-21T10:33:19.656755",
+    "prompt": "We need a module to monitor risk exposure per trade.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_190.py"
+  },
+  {
+    "id": "task_191",
+    "timestamp": "2025-05-21T10:33:19.668337",
+    "prompt": "We need to inject a smart backtest validator.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_191.py"
+  },
+  {
+    "id": "task_192",
+    "timestamp": "2025-05-21T10:33:19.680566",
+    "prompt": "We need a dashboard widget that summarizes AI recommendations.",
+    "type": "code_generation",
+    "priority": 1,
+    "status": "complete",
+    "result_file": "task_192.py"
+  }
+]

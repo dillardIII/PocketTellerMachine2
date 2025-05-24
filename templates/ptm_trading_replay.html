@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trading Replay Viewer</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      background: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 30px;
+    }
+
+    .replay-box {
+      max-width: 1000px;
+      margin: auto;
+      background: #1e1e1e;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 0 14px rgba(0,255,100,0.05);
+    }
+
+    canvas {
+      width: 100% !important;
+      height: 400px !important;
+    }
+
+    .controls {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .controls button {
+      padding: 10px 20px;
+      background: #4caf50;
+      border: none;
+      color: #111;
+      border-radius: 8px;
+      font-weight: bold;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+
+    .controls button:hover {
+      background-color: #80e487;
+    }
+
+    audio {
+      margin-top: 20px;
+      display: block;
+      width: 100%;
+    }
+
+    .info {
+      margin-top: 20px;
+      font-size: 15px;
+      color: #ccc;
+    }
+
+    .highlight {
+      color: #ffe055;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>PTM Trade Replay</h1>
+
+  <div class="replay-box">
+    <canvas id="replayChart"></canvas>
+
+    <div class="controls">
+      <button onclick="playReplay()">▶ Play</button>
+      <button onclick="resetReplay()">⏮ Reset</button>
+    </div>
+
+    <audio id="voiceRecap" src="/static/audio/mentor_replay_example.mp3" controls></audio>
+
+    <div class="info" id="stepInfo">
+      Step 1: Waiting to begin replay...
+    </div>
+  </div>
+
+  <script>
+    const prices = [140, 143, 147, 145, 149, 151, 150, 153, 156, 154, 157];
+    const steps = [
+      "Analyzing historical price trend...",
+      "Entering trade at $145...",
+      "Holding position through small pullback...",
+      "Price reaches $149 — confidence increasing...",
+      "Exit executed at $157. Total profit: +$12",
+      "Trade complete. Great work!"
+    ];
+
+    let chart, index = 0;
+
+    function setupChart() {
+      const ctx = document.getElementById("replayChart").getContext("2d");
+      chart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: prices.map((_, i) => `T${i + 1}`),
+          datasets: [{
+            label: 'Price',
+            data: prices.map((v, i) => i === 0 ? v : null),
+            borderColor: '#4caf50',
+            fill: false,
+            tension: 0.3
+          }]
+        },
+        options: {
+          animation: false,
+          scales: {
+            y: { beginAtZero: false },
+            x: { display: true }
+          }
+        }
+      });
+    }
+
+    function playReplay() {
+      if (index >= prices.length) return;
+      const interval = setInterval(() => {
+        if (index >= prices.length) {
+          clearInterval(interval);
+          document.getElementById("stepInfo").textContent = steps[steps.length - 1];
+          return;
+        }
+        chart.data.datasets[0].data[index] = prices[index];
+        chart.update();
+        if (steps[index]) {
+          document.getElementById("stepInfo").innerHTML = `Step ${index + 1}: <span class="highlight">${steps[index]}</span>`;
+        }
+        index++;
+      }, 1200);
+    }
+
+    function resetReplay() {
+      index = 0;
+      chart.data.datasets[0].data = prices.map((_, i) => i === 0 ? prices[0] : null);
+      chart.update();
+      document.getElementById("stepInfo").textContent = "Step 1: Waiting to begin replay...";
+    }
+
+    setupChart();
+  </script>
+
+</body>
+</html>

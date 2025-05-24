@@ -1,0 +1,54 @@
+{
+  "rules": [
+    {
+      "id": "R1",
+      "description": "Only trade when RSI is below 30 (oversold) or above 70 (overbought)",
+      "logic": {
+        "type": "indicator_check",
+        "indicator": "RSI",
+        "conditions": [
+          { "operator": "<=", "value": 30 },
+          { "operator": ">=", "value": 70 }
+        ]
+      }
+    },
+    {
+      "id": "R2",
+      "description": "Avoid trades during high-impact news events",
+      "logic": {
+        "type": "event_filter",
+        "event_source": "economic_calendar",
+        "filter": "high_impact"
+      }
+    },
+    {
+      "id": "R3",
+      "description": "Only enter options trades with a win rate above 65%",
+      "logic": {
+        "type": "strategy_filter",
+        "metric": "win_rate",
+        "operator": ">=",
+        "value": 65
+      }
+    },
+    {
+      "id": "R4",
+      "description": "Check for alignment between trend and strategy type",
+      "logic": {
+        "type": "trend_confirmation",
+        "conditions": [
+          { "strategy": "bullish", "trend": "up" },
+          { "strategy": "bearish", "trend": "down" }
+        ]
+      }
+    },
+    {
+      "id": "R5",
+      "description": "Avoid trades if the asset is on the watchlist exclusion list",
+      "logic": {
+        "type": "watchlist_filter",
+        "mode": "exclude"
+      }
+    }
+  ]
+}

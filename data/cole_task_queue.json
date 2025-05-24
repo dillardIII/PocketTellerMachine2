@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "task": "Review morning trades and flag underperformers",
+    "status": "completed",
+    "added": "2025-05-12 12:51:26.969857",
+    "completed": "2025-05-12 12:51:27.318551"
+  },
+  {
+    "id": 2,
+    "task": "Scan for reversal patterns",
+    "status": "completed",
+    "added": "2025-05-12 12:51:27.311071",
+    "completed": "2025-05-12 12:51:27.319232"
+  },
+  {
+    "id": 3,
+    "task": "Scan market for power hour breakout opportunities",
+    "status": "completed",
+    "added": "2025-05-12 15:07:16.348001",
+    "completed": "2025-05-12 15:07:16.351422"
+  },
+  {
+    "id": 4,
+    "task": "Review intraday P&L and adjust positions",
+    "status": "completed",
+    "added": "2025-05-12 15:07:16.349809",
+    "completed": "2025-05-12 15:07:16.357527"
+  },
+  {
+    "id": 5,
+    "task": "Review all trades and log performance summary",
+    "status": "completed",
+    "added": "2025-05-12 16:00:49.545904",
+    "completed": "2025-05-12 16:00:49.552208"
+  },
+  {
+    "id": 6,
+    "task": "Run AI learning module to adjust next day strategies",
+    "status": "completed",
+    "added": "2025-05-12 16:00:49.548056",
+    "completed": "2025-05-12 16:00:49.556534"
+  },
+  {
+    "timestamp": "2025-05-12 20:13:32.959416",
+    "task": "Write Flask API that returns trade health on /trade_health",
+    "type": "self_write",
+    "status": "completed",
+    "completed": "2025-05-12 20:13:32.971031"
+  },
+  {
+    "timestamp": "2025-05-12 20:13:32.960098",
+    "task": "Write Flask API that returns system health on /api/system_health",
+    "type": "self_write",
+    "status": "completed",
+    "completed": "2025-05-12 20:13:32.983276"
+  },
+  {
+    "timestamp": "2025-05-12 20:13:32.960565",
+    "task": "Write Flask API that returns strategy report on /api/strategy_report",
+    "type": "self_write",
+    "status": "completed",
+    "completed": "2025-05-12 20:13:32.984366"
+  },
+  {
+    "timestamp": "2025-05-12 20:13:32.961008",
+    "task": "Write Flask API that returns portfolio value on /api/portfolio_value",
+    "type": "self_write",
+    "status": "completed",
+    "completed": "2025-05-12 20:13:32.985379"
+  },
+  {
+    "timestamp": "2025-05-12 20:13:32.961487",
+    "task": "Write Flask API that returns daily P&L on /api/daily_pnl",
+    "type": "self_write",
+    "status": "completed",
+    "completed": "2025-05-12 20:13:32.986436"
+  },
+  {
+    "timestamp": "2025-05-12 20:13:32.962829",
+    "task": "Write Flask API that returns dashboard summary on /api/dashboard_summary",
+    "type": "self_write",
+    "status": "completed",
+    "completed": "2025-05-12 20:13:32.991926"
+  },
+  {
+    "timestamp": "2025-05-13 00:56:12.529565",
+    "task": "Check full market scan for stocks with RSI < 30"
+  },
+  {
+    "timestamp": "2025-05-13 00:56:12.529571",
+    "task": "Review overnight news impact on watchlist"
+  },
+  {
+    "timestamp": "2025-05-15 09:58:49.426877",
+    "task": "Scan top movers and volume leaders"
+  },
+  {
+    "timestamp": "2025-05-15 09:58:49.426883",
+    "task": "Check portfolio risk exposure"
+  },
+  {
+    "timestamp": "2025-05-18 09:36:15.402956",
+    "task": "Write a new strategy to detect breakout stocks",
+    "type": "general",
+    "status": "pending"
+  },
+  {
+    "timestamp": "2025-05-20 07:27:44.122865",
+    "task": "Create task to implement machine learning based trend prediction.",
+    "type": "self_learning",
+    "status": "pending"
+  },
+  {
+    "timestamp": "2025-05-20 07:27:44.130312",
+    "task": "Task to integrate real-time sentiment analysis into signals.",
+    "type": "self_learning",
+    "status": "pending"
+  },
+  {
+    "timestamp": "2025-05-20 07:27:44.139771",
+    "task": "Generate task for refining risk-reward ratios dynamically.",
+    "type": "self_learning",
+    "status": "pending"
+  },
+  {
+    "timestamp": "2025-05-20 07:27:54.142992",
+    "task": "Research and add task for improving RSI divergence detection.",
+    "type": "self_learning",
+    "status": "pending"
+  },
+  {
+    "timestamp": "2025-05-20 07:27:54.144534",
+    "task": "Add task to automate position sizing based on volatility.",
+    "type": "self_learning",
+    "status": "pending"
+  }
+]

@@ -1,0 +1,30 @@
+Subject: Trading Strategy Note 
+
+Objective: 
+Our main objective is to maximize returns, minimize risk and ensure a diverse and balanced portfolio. 
+
+Strategy: 
+
+1. Enhanced Fundamental Analysis: Thoroughly analyze both from macro and micro perspective i.e. financial, political, and economical sectors in order to make educated trading decisions. 
+
+2. Diversify Portfolios: Spread investments across a wide variety of assets - stocks, commodities, bonds, ETFs, etc. This will help minimize potential losses if one investment is damaged due to macroeconomic or sector-specific downturns.
+
+3. Emphasizing on Risk Management: All trades should adhere to the principle of risk-return trade off. Implement stop-loss measures and always calculate the downside risk before placing any trades.
+
+4. Adapt to Market Volatility: Volatility is not always bad. Use it to advantage by investing in distressed assets, short term trading, and asset allocation revision.
+
+5. Implement Dollar-Cost Averaging: Continual investing in a particular asset, regardless of the fluctuation in price at which the asset trades, will over time, reduce the average pay-per-share, allowing us to achieve a lower average cost per share.
+
+6. Regularly Monitor and Rebalance Portfolio: Regularly revise the allocation of assets in the portfolio, and rebalance them to ensure they still comply with their initially targeted strategic asset allocation.
+
+Action plan: 
+
+1. Back-test trading strategies using historical data
+2. Identify market trends and viable investment opportunities through quantitative research 
+3. Stay updated on market news and adjust trading strategies accordingly 
+4. Weekly review and rebalance of portfolio 
+
+Overall, our approach should remain strategic, proactive and flexible, changing according to market conditions with a keen eye on risk. This strategy is intended to preserve capital while achieving a steady growth in investment returns.
+
+Best, 
+[Your Name]

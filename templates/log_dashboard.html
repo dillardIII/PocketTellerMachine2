@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PTM Log Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      color: #6fd672;
+      text-align: center;
+    }
+    .filters {
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    select, button {
+      padding: 8px;
+      background: #1e1e1e;
+      color: #f0f0f0;
+      border: 1px solid #333;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      padding: 12px;
+      border-bottom: 1px solid #333;
+      text-align: left;
+    }
+    tr:hover {
+      background-color: #1f1f1f;
+    }
+    .error {
+      color: #ff5555;
+    }
+    .success {
+      color: #66ff99;
+    }
+  </style>
+</head>
+<body>
+  <h1>PTM Trade & Error Log Viewer</h1>
+
+  <!-- Filter Controls -->
+  <div class="filters">
+    <select id="typeFilter" onchange="applyFilters()">
+      <option value="">All Types</option>
+      <option value="Trade">Trade</option>
+      <option value="Error">Error</option>
+    </select>
+
+    <select id="strategyFilter" onchange="applyFilters()">
+      <option value="">All Strategies</option>
+      {% for log in logs %}
+        {% if log.strategy %}
+          <option value="{{ log.strategy }}">{{ log.strategy }}</option>
+        {% endif %}
+      {% endfor %}
+    </select>
+
+    <select id="resultFilter" onchange="applyFilters()">
+      <option value="">All Results</option>
+      <option value="win">Win</option>
+      <option value="loss">Loss</option>
+      <option value="pending">Pending</option>
+    </select>
+
+    <button onclick="resetFilters()">Reset</button>
+    <button onclick="window.location='/export_logs/json'">Download JSON</button>
+    <button onclick="window.location='/export_logs/csv'">Download CSV</button>
+  </div>
+
+  <!-- Profit Chart -->
+  <canvas id="profitChart" height="100" style="margin-bottom: 40px;"></canvas>
+
+  <!-- Log Table -->
+  <table id="logTable">
+    <thead>
+      <tr>
+        <th>Timestamp</th>
+        <th>Type</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for log in logs %}
+        <tr data-type="{% if log.message %}Error{% else %}Trade{% endif %}"
+            data-strategy="{{ log.strategy | default('') }}"
+            data-result="{{ log.result | default('') }}">
+          <td>{{ log.timestamp }}</td>
+          {% if log.message %}
+            <td class="error">Error</td>
+            <td>{{ log.message }}</td>
+          {% else %}
+            <td class="success">Trade</td>
+            <td>
+              {{ log.strategy }} | {{ log.ticker }} | RSI: {{ log.rsi }} | SMA: {{ log.sma }} |
+              Result: {{ log.result }} | Profit: ${{ log.profit }}
+            </td>
+          {% endif %}
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <script>
+    function applyFilters() {
+      const type = document.getElementById('typeFilter').value.toLowerCase();
+      const strategy = document.getElementById('strategyFilter').value.toLowerCase();
+      const result = document.getElementById('resultFilter').value.toLowerCase();
+      const rows = document.querySelectorAll('#logTable tbody tr');
+
+      rows.forEach(row => {
+        const rowType = row.dataset.type.toLowerCase();
+        const rowStrategy = row.dataset.strategy.toLowerCase();
+        const rowResult = row.dataset.result.toLowerCase();
+
+        const matches =
+          (!type || rowType === type) &&
+          (!strategy || rowStrategy === strategy) &&
+          (!result || rowResult === result);
+
+        row.style.display = matches ? '' : 'none';
+      });
+    }
+
+    function resetFilters() {
+      document.getElementById('typeFilter').value = '';
+      document.getElementById('strategyFilter').value = '';
+      document.getElementById('resultFilter').value = '';
+      applyFilters();
+    }
+
+    // Chart.js setup
+    const tradeLogs = {{ logs | tojson }};
+    const tradeData = tradeLogs.filter(log => !log.message);
+
+    const profitChart = document.getElementById('profitChart').getContext('2d');
+    const chart = new Chart(profitChart, {
+      type: 'line',
+      data: {
+        labels: tradeData.map(t => t.timestamp),
+        datasets: [{
+          label: 'Trade Profit ($)',
+          data: tradeData.map(t => t.profit),
+          borderColor: '#6fd672',
+          backgroundColor: 'rgba(111, 214, 114, 0.1)',
+          fill: true,
+          tension: 0.3,
+          pointRadius: 3,
+          pointHoverRadius: 6
+        }]
+      },
+      options: {
+        responsive: true,
+        scales: {
+          x: {
+            ticks: { color: '#888' },
+            title: { display: true, text: "Time", color: '#ccc' }
+          },
+          y: {
+            ticks: { color: '#888' },
+            title: { display: true, text: "Profit ($)", color: '#ccc' }
+          }
+        },
+        plugins: {
+          legend: {
+            labels: { color: '#ccc' }
+          },
+          tooltip: {
+            callbacks: {
+              label: (ctx) => `Profit: $${ctx.raw.toFixed(2)}`
+            }
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>

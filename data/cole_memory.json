@@ -1,0 +1,5002 @@
+{
+  "trades": [
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T20:45:39.965231"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T20:48:58.854957"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T20:52:51.622832"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T20:54:49.603784"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T21:02:55.282117"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T21:02:56.679089"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T21:16:04.115803"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T21:18:42.404848"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T21:19:29.044803"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T21:27:42.830030"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T21:31:33.133321"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T21:39:49.842866"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T21:44:28.181115"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T21:48:43.097809"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T21:50:37.573837"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T21:53:29.438443"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T21:56:00.520833"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T21:59:27.874253"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T22:03:25.469118"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T22:03:39.834285"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T22:07:59.311637"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T22:08:00.551677"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T22:11:49.336964"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-19T22:21:24.484677"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T10:27:15.721658"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T10:29:45.880343"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T10:37:47.892034"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T10:49:05.154419"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T10:59:35.920540"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T11:14:31.078686"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T11:30:32.678987"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T12:14:36.495351"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T12:24:44.444180"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T12:37:29.871789"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T12:52:27.242413"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T13:34:22.949003"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T13:38:56.770628"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T14:14:39.635566"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T14:18:07.024118"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T14:47:23.980681"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T15:00:47.416092"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T15:31:47.461231"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T15:37:29.856740"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T15:44:49.820365"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T15:58:21.204148"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T16:03:22.823398"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T16:09:14.484362"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T16:10:48.012011"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T16:17:32.623375"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T16:26:58.521318"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T16:34:38.558374"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T16:41:33.184445"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T16:47:21.082551"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T16:48:44.309460"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T16:59:55.538797"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T17:09:43.626807"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T17:12:26.836868"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T17:17:04.639742"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T17:19:26.675089"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T17:24:47.469814"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T17:32:54.694878"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T17:38:51.519452"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T17:47:24.792734"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T17:53:32.389289"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T18:06:30.575863"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T18:22:31.231397"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T18:29:40.615280"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T19:42:58.085447"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T19:44:03.960882"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T20:14:23.361967"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T20:40:45.824421"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T20:51:32.902113"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T21:57:11.330644"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T23:26:50.965532"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T23:26:57.089972"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-21T23:55:34.243376"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-22T00:32:46.783255"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-22T00:49:32.768483"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-22T00:56:31.682335"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-22T01:15:24.681985"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-22T02:48:50.070259"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-22T06:25:53.304369"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-22T06:48:07.421524"
+    },
+    {
+      "id": "trade001",
+      "symbol": "AAPL",
+      "strategy": "covered_call",
+      "result": 22.5,
+      "grade": "B",
+      "timestamp": "2025-05-22T07:57:45.935493"
+    }
+  ],
+  "patterns": {
+    "RSI Reversal": [
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T10:27:15.722550"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T10:29:45.881370"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T10:37:47.892988"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T10:49:05.155317"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T10:59:35.921525"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T11:14:31.084750"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T11:30:32.680029"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T12:14:36.496267"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T12:24:44.445490"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T12:37:29.873199"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T12:52:27.243739"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T13:34:22.951161"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T13:38:56.772271"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T14:14:39.637411"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T14:18:07.025988"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T14:47:23.982983"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T15:00:47.418267"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T15:31:47.463317"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T15:37:29.859015"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T15:44:49.823413"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T15:58:21.206487"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T16:03:22.826817"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T16:09:14.486565"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T16:10:48.014999"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T16:17:32.627901"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T16:26:58.524627"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T16:34:38.561393"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T16:41:33.188490"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T16:47:21.086375"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T16:48:44.312737"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T16:59:55.541867"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T17:09:43.630548"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T17:12:26.841270"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T17:17:04.643151"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T17:19:26.679052"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T17:24:47.472883"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T17:32:54.697919"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T17:38:51.524304"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T17:47:24.810311"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T17:53:32.393992"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T18:06:30.580352"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T18:22:31.238064"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T18:29:40.619522"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T19:42:58.089843"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T19:44:03.965771"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T20:14:23.366778"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T20:40:45.828927"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T20:51:32.908561"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T21:57:11.336892"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T23:26:50.971603"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T23:26:57.095313"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-21T23:55:34.249187"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-22T00:32:46.787881"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-22T00:49:32.775437"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-22T00:56:31.688980"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-22T01:15:24.687491"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-22T02:48:50.077514"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-22T06:25:53.311379"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-22T06:48:07.430791"
+      },
+      {
+        "note": "Fails during high volatility markets. Needs filters.",
+        "timestamp": "2025-05-22T07:57:45.943735"
+      }
+    ]
+  },
+  "last_phase": "startup",
+  "last_strategy": {
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  "last_updated": "2025-05-21T11:14:31.112663",
+  "daily_recap": [
+    {
+      "timestamp": "2025-05-21T12:26:48.759913",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T12:30:42.864220",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T12:34:24.486355",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T12:35:55.458123",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T12:39:00.377315",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T12:40:50.409090",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T12:41:45.590369",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T12:42:57.367330",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T12:45:16.742689",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T12:46:58.357174",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T12:47:50.906986",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T12:49:55.926003",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T12:51:25.628998",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T12:52:25.228298",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T12:54:33.777056",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T12:55:47.524805",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T12:57:40.273008",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T12:58:51.513578",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:00:02.213106",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:01:04.950690",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:02:27.924768",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:04:32.458389",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:05:22.859411",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:06:51.071268",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:08:24.449146",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:11:47.849166",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:12:50.055297",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:14:21.964345",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:15:54.256175",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:16:53.100429",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:17:49.191228",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:19:23.903035",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:20:13.011809",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:21:15.641367",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:22:22.785595",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:24:35.684231",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:26:23.601651",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:29:25.791909",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:31:15.950592",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:32:11.581811",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:33:14.719888",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:34:11.757508",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:38:09.970682",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:39:22.415006",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:41:02.657218",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:41:54.493588",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:43:19.148336",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:44:44.530052",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:46:47.546680",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:48:16.332289",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:51:23.472447",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:52:19.271135",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:53:44.394697",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:55:08.193322",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:56:01.965942",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:57:44.624256",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T13:59:18.116992",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:00:53.268561",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:01:41.477715",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:03:11.925126",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:04:15.639472",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:06:25.859712",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:07:50.804707",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:10:33.894708",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:12:01.582086",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:13:52.730639",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:15:46.017220",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:17:51.667167",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:22:24.964929",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:24:49.924645",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:26:11.568476",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:27:26.292575",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:29:15.955066",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:30:40.672802",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:33:36.520190",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:34:45.359795",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:36:20.062881",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:37:11.672093",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:38:24.346903",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:39:51.764330",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:41:33.175346",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:43:19.116355",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:46:13.829903",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:47:19.729457",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:48:49.944139",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:50:29.901786",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:54:30.009794",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:55:54.817117",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T14:57:24.937554",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:00:00.558119",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:01:44.632400",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:03:37.683714",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:05:27.575370",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:06:29.679040",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:07:28.640112",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:09:09.671319",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:10:39.928150",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:11:56.408172",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:12:54.252501",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:14:42.751245",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:17:12.638540",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:18:21.669981",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:19:52.032525",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:23:54.135841",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:24:48.460452",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:26:13.064751",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:27:02.962565",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:29:37.613871",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:31:36.516556",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:33:07.208416",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:34:14.801328",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:35:26.533329",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:37:45.237992",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:39:23.428497",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:41:21.822922",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:42:31.849577",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:44:09.843142",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:45:24.459949",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:47:48.956951",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:49:27.147151",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:50:33.179592",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:51:51.622234",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:55:04.519678",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:57:27.784755",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T15:58:51.756790",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:00:07.371151",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:01:08.377707",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:03:55.940457",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:05:59.284826",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:07:47.237995",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:09:21.951570",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:19:40.574663",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:22:17.028172",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:24:39.352410",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:27:00.670923",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:29:22.167314",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:31:31.464604",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:33:47.143840",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:36:17.256153",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:38:58.753487",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:42:11.725819",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:44:23.109221",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:46:42.536934",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:50:42.812736",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:53:01.260142",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:55:48.175631",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T16:58:29.287144",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T17:00:57.856563",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T17:03:18.163845",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T17:05:47.814763",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T17:08:28.178174",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T17:14:40.409337",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T17:17:47.228779",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T17:20:50.694992",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T17:23:01.406024",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T17:26:30.471472",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T17:29:41.950816",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T17:32:13.695565",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T17:34:59.492191",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T17:37:13.072082",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T17:40:31.336478",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T17:42:50.993492",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T17:45:13.894918",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T17:48:40.404748",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T17:51:25.200527",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T17:54:37.175044",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T17:57:22.365694",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T17:59:52.039584",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:02:52.697937",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:07:33.935882",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:10:36.292863",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:13:24.404947",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:15:52.662169",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:18:30.617771",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:20:58.068294",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:24:40.497896",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:26:54.903709",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:30:29.750985",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:33:00.050269",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:35:15.222944",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:37:37.118905",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:39:47.911142",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:42:06.975424",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:44:20.458564",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:46:37.259324",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:48:54.417236",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:51:09.232556",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:53:29.505002",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:55:49.223142",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T18:58:29.262210",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:00:52.116447",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:03:23.775861",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:05:39.086235",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:08:08.696839",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:10:24.034468",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:13:03.978586",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:15:31.434457",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:17:54.568560",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:19:59.067464",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:21:55.447438",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:24:24.922138",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:27:02.184724",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:29:20.341453",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:31:26.191391",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:33:29.171351",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:35:31.395587",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:37:28.455162",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:39:46.732422",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:42:03.099066",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:44:39.131452",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:47:02.074908",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:49:45.305635",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:52:25.264370",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:54:30.564357",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:56:41.706792",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T19:59:09.276666",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:01:43.655033",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:04:19.961684",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:06:53.223073",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:09:08.395224",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:11:32.950795",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:13:45.309465",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:15:55.590495",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:18:10.858462",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:20:26.530023",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:22:51.862877",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:25:15.492267",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:27:40.622516",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:30:02.494018",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:32:12.951917",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:34:04.695490",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:36:18.231194",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:38:31.086008",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:40:35.975438",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:42:28.503272",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:44:38.647653",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:46:39.600070",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:48:39.967475",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:50:55.656949",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:52:11.020165",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:54:24.853420",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:56:25.137621",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T20:58:35.855595",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:00:50.026965",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:02:59.230362",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:05:14.020591",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:07:24.506223",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:09:18.432803",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:11:45.373652",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:13:39.186936",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:16:05.828006",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:18:23.323244",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:21:04.621358",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:23:15.730144",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:25:28.307385",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:27:21.423730",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:29:09.784405",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:30:59.551838",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:32:57.625423",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:34:51.585336",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:37:00.099929",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:39:10.992376",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:41:22.885450",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:43:32.783469",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:45:46.341240",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:48:05.431121",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:50:29.544982",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:52:37.752972",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:54:47.870366",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T21:57:51.905483",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:00:32.622799",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:03:05.025668",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:05:11.327630",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:07:14.319312",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:09:19.372820",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:11:25.127729",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:13:12.772449",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:15:05.846328",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:16:51.651903",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:18:52.399344",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:20:59.046813",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:23:03.696980",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:25:02.583203",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:27:21.067143",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:29:23.242776",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:31:48.219989",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:33:56.879601",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:36:06.754718",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:38:02.652527",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:39:51.121517",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:41:40.082756",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:43:27.681744",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:45:33.656927",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:47:36.598447",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:49:27.089386",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:51:17.817121",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:53:14.093098",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:55:14.337684",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:57:09.749498",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T22:58:59.129979",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T23:00:45.622268",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T23:02:49.704096",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T23:04:47.095014",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T23:06:46.064137",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T23:08:39.501528",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T23:10:20.240130",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T23:12:11.545152",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T23:14:04.709783",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T23:15:46.101898",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T23:17:54.009986",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T23:19:53.538469",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T23:21:45.198429",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T23:27:47.839981",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T23:29:30.790179",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T23:31:08.970878",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T23:32:49.276742",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T23:34:17.929602",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T23:36:03.389838",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T23:37:43.606694",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T23:56:59.350775",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-21T23:58:40.563179",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:00:16.907625",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:02:18.073318",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:04:18.586332",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:06:19.227208",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:08:13.629807",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:09:56.709069",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:11:45.465383",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:13:35.745310",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:15:28.112411",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:34:11.399623",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:36:02.418505",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:37:41.297123",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:39:52.572034",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:41:39.358247",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:43:38.271851",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:45:04.374100",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:46:55.435411",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:51:01.885445",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:52:30.240511",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:54:18.132823",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:56:10.127726",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:57:51.072911",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T00:59:43.414964",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:01:48.518865",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:03:39.422434",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:05:30.296549",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:07:16.556104",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:09:00.735745",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:10:48.803885",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:12:39.604679",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:14:26.453074",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:16:27.673243",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:18:03.929536",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:19:40.493924",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:21:27.999079",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:23:20.663809",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:24:43.914493",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:26:15.258359",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:27:54.298714",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:29:48.600461",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:31:29.325216",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:33:19.384999",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:35:05.229812",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:36:39.018660",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:38:17.670307",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:40:14.639657",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:42:04.208531",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:44:07.255475",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:46:22.092965",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:48:17.711726",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:50:02.269826",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:52:04.257632",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:53:51.622069",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:55:30.956948",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:57:20.177520",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T01:59:01.383796",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T02:01:15.720425",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T02:03:11.959075",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T02:04:56.193619",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T02:06:35.471101",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T02:08:25.822466",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T02:10:22.127726",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T02:12:18.741019",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T02:50:16.209608",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T02:52:09.972867",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T02:54:12.378691",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T02:56:01.299704",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T02:57:53.013583",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T02:59:45.986086",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:01:36.043089",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:03:30.540188",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:05:11.686542",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:07:00.850646",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:08:59.978787",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:10:44.066879",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:12:33.810434",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:14:11.055926",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:15:56.462086",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:17:40.112524",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:19:20.360993",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:21:18.513174",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:23:05.110349",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:24:58.121744",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:26:35.881687",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:28:15.191526",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:30:05.245147",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:31:46.951799",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:33:39.376532",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:35:33.572986",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:37:19.173727",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:39:01.777090",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:40:54.955814",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:42:41.954324",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:44:29.441055",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:46:15.780157",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:47:58.924369",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:49:44.311043",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:51:22.920465",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:53:12.982366",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:55:12.719956",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:57:01.429179",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T03:58:49.077575",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:00:43.242108",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:02:38.872180",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:04:21.414312",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:06:08.517755",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:08:14.879354",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:10:07.020233",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:12:00.449216",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:13:58.581509",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:15:41.432170",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:17:31.026373",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:19:22.503720",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:21:18.557778",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:23:10.948899",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:25:04.753036",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:26:55.272948",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:28:42.023287",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:30:49.522789",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:32:45.331171",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:34:29.672718",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:36:20.250568",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:38:06.230277",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:40:03.641085",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:42:06.560636",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:43:57.896467",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:45:39.104764",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:47:35.233362",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:49:14.260030",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:51:07.588939",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:52:58.429366",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:55:01.155985",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:56:58.165437",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T04:58:44.327932",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:00:37.281877",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:02:24.178578",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:04:34.340431",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:06:22.073778",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:08:14.639108",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:10:19.245629",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:12:20.915960",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:14:12.608474",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:16:11.169318",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:18:09.798761",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:20:04.689934",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:22:12.197400",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:24:18.872040",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:26:09.780647",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:27:49.289064",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:29:51.939095",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:31:44.946306",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:33:35.009439",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:35:31.132096",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:37:50.773529",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:40:04.221007",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:41:58.341338",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:43:43.186518",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:45:43.285399",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:47:51.618584",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:49:52.317683",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:51:52.186939",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:53:39.284960",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:55:39.384687",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:57:32.962104",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T05:59:39.185873",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:01:45.831677",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:03:40.480646",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:06:06.742934",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:08:02.537927",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:10:02.874814",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:11:54.662743",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:13:57.665651",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:16:13.058082",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:18:14.499116",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:20:12.059558",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:22:34.981888",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:24:33.219583",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:26:26.335232",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:29:01.340160",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:31:22.584223",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:33:25.259125",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:35:25.168467",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:37:26.844903",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:39:25.925646",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:41:26.607072",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:43:26.473592",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:50:16.845882",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:52:43.468113",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:54:52.842019",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:57:06.994733",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T06:59:24.971659",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:01:50.171741",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:04:00.317434",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:06:23.223409",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:08:36.606930",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:10:48.393044",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:13:08.296704",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:15:11.787090",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:17:22.874734",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:19:26.309813",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:21:32.704900",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:23:32.369511",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:25:29.795200",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:27:36.428052",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:29:45.009378",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:31:51.619134",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:34:05.635598",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:36:03.612179",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:38:23.349369",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:40:37.598125",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:42:53.709117",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:45:12.348349",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:47:00.719132",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:48:56.716923",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:51:04.272335",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:52:58.223559",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:54:45.744011",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:57:15.820463",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T07:59:33.499757",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:01:44.825817",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:03:55.263518",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:05:57.343986",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:08:06.347573",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:10:57.867805",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:13:05.543280",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:15:37.154968",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:17:56.792885",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:20:43.621725",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:22:45.095012",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:24:52.136017",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:26:56.144747",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:29:15.095713",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:31:32.067912",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:33:42.580863",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:36:35.375390",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:38:59.993962",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:40:51.662418",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:43:02.547562",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:45:16.002978",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:47:19.990583",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:49:23.278425",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:51:36.570151",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:53:51.593376",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:55:52.681710",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T08:58:00.966156",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T09:00:34.773644",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T09:03:02.002580",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T09:06:03.365315",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T09:08:32.078053",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T09:10:48.054318",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T09:13:12.298413",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T09:15:41.202131",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T09:18:01.939345",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T09:20:27.397595",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T09:22:33.358365",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T09:24:47.449074",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T09:26:47.874190",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T09:28:48.990679",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T09:31:02.659465",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T09:33:12.266724",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    },
+    {
+      "timestamp": "2025-05-22T09:35:14.229466",
+      "wins": 0,
+      "losses": 0,
+      "strategies": {},
+      "summary": "PTM logged 0 wins and 0 losses today."
+    }
+  ]
+}

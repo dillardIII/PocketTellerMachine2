@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GhostBot Brain Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 220px;
+      background-color: #1e1e1e;
+      border-right: 2px solid #00ffcc;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .sidebar h2 {
+      color: #00ffcc;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .sidebar a {
+      display: block;
+      color: #f0f0f0;
+      text-decoration: none;
+      margin-bottom: 15px;
+      font-size: 16px;
+      padding: 10px;
+      border-radius: 6px;
+      transition: background 0.2s;
+    }
+
+    .sidebar a:hover {
+      background-color: #00ffcc;
+      color: #000;
+    }
+
+    .main-content {
+      margin-left: 240px;
+      padding: 40px;
+    }
+
+    h1 {
+      color: #00ffcc;
+      margin-bottom: 20px;
+    }
+
+    .panel {
+      background-color: #1e1e1e;
+      border: 1px solid #444;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .highlight {
+      font-size: 1.4em;
+      color: #00ffcc;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      border: 1px solid #444;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #222;
+    }
+
+    tr:nth-child(even) {
+      background-color: #1a1a1a;
+    }
+
+    #assistant-avatar img {
+      height: 150px;
+      border-radius: 50%;
+      box-shadow: 0 0 12px #00ffcc;
+    }
+
+    .bubble {
+      position: fixed;
+      bottom: 30px;
+      left: 30px;
+      background: #00ffcc;
+      color: #000;
+      padding: 12px 18px;
+      border-radius: 20px;
+      box-shadow: 0 0 10px #00ffcc;
+      font-weight: bold;
+      z-index: 9999;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>PTM Menu</h2>
+    <a href="/">Home</a>
+    <a href="/trade_history">Trade History</a>
+    <a href="/export_csv">Download CSV</a>
+    <a href="/test_brain">Test Brain</a>
+    <a href="/brain_dashboard">Brain Dashboard</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <h1>GhostBot Brain Pulse</h1>
+
+    <!-- Avatar -->
+    <div id="assistant-avatar" style="margin-bottom: 30px; text-align: center;">
+      <img id="avatarImg" src="{{ url_for('static', filename='avatars/mo_cash_neutral.gif') }}" alt="Assistant Avatar">
+    </div>
+
+    <!-- Stats -->
+    <div class="panel">
+      <p><strong>Total Trades:</strong> <span class="highlight">{{ stats.total }}</span></p>
+      <p><strong>Wins:</strong> <span class="highlight">{{ stats.wins }}</span></p>
+      <p><strong>Losses:</strong> <span class="highlight">{{ stats.losses }}</span></p>
+      <p><strong>Streak:</strong> <span class="highlight">{{ stats.current_streak }}</span></p>
+      <p><strong>Average Score:</strong> <span class="highlight">{{ stats.avg_score }}</span></p>
+      <p><strong>Total XP:</strong> <span class="highlight">{{ stats.total_xp }}</span></p>
+      <p><strong>Level:</strong> <span class="highlight">{{ stats.level }}</span></p>
+      <p><strong>Bot Mood:</strong> <span class="highlight">{{ stats.mood }}</span></p>
+    </div>
+
+    <!-- Recent Trades -->
+    <div class="panel">
+      <h3>Recent Trades</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Symbol</th>
+            <th>Result</th>
+            <th>Score</th>
+            <th>Streak</th>
+            <th>Feedback</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for entry in recent %}
+          <tr>
+            <td>{{ entry.symbol }}</td>
+            <td>{{ entry.result }}</td>
+            <td>{{ entry.score }}</td>
+            <td>{{ entry.streak }}</td>
+            <td>{{ entry.assistant_feedback }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Chart -->
+    <div class="panel">
+      <h3>Performance Chart</h3>
+      <canvas id="scoreChart" height="120"></canvas>
+    </div>
+  </div>
+
+  <!-- Audio FX -->
+  <audio id="levelUpSound" src="{{ url_for('static', filename='sounds/level_up.mp3') }}"></audio>
+  <audio id="voicePlayer" src=""></audio>
+
+  <script>
+    const labels = {{ recent_labels|safe }};
+    const scores = {{ recent_scores|safe }};
+    const mood = "{{ stats.mood }}";
+
+    // Score Chart
+    const ctx = document.getElementById("scoreChart").getContext("2d");
+    new Chart(ctx, {
+      type: "line",
+      data: {
+        labels: labels,
+        datasets: [{
+          label: "Trade Score",
+          data: scores,
+          borderColor: "#00ffcc",
+          backgroundColor: "rgba(0,255,204,0.2)",
+          fill: true,
+          tension: 0.3
+        }]
+      },
+      options: {
+        scales: {
+          y: { beginAtZero: true, max: 120 }
+        }
+      }
+    });
+
+    // Celebration Logic
+    const levelSound = document.getElementById("levelUpSound");
+    const voice = document.getElementById("voicePlayer");
+    const avatarImg = document.getElementById("avatarImg");
+
+    if (mood === "hype") {
+      confetti({ particleCount: 100, spread: 90, origin: { y: 0.6 } });
+      levelSound.play();
+      voice.src = "{{ url_for('static', filename='voices/mo_cash_hype.mp3') }}";
+      voice.play();
+      avatarImg.src = "{{ url_for('static', filename='avatars/mo_cash_hype.gif') }}";
+
+      const trophy = document.createElement("div");
+      trophy.innerText = "🏆 Level Up!";
+      trophy.style.position = "fixed";
+      trophy.style.top = "30px";
+      trophy.style.right = "30px";
+      trophy.style.fontSize = "2em";
+      trophy.style.color = "#00ffcc";
+      document.body.appendChild(trophy);
+      setTimeout(() => trophy.remove(), 3000);
+    } else if (mood === "frustrated") {
+      voice.src = "{{ url_for('static', filename='voices/mo_cash_frustrated.mp3') }}";
+      voice.play();
+      avatarImg.src = "{{ url_for('static', filename='avatars/mo_cash_frustrated.gif') }}";
+    } else {
+      voice.src = "{{ url_for('static', filename='voices/mo_cash_neutral.mp3') }}";
+      voice.play();
+      avatarImg.src = "{{ url_for('static', filename='avatars/mo_cash_neutral.gif') }}";
+    }
+
+    // Mood Bubble
+    if (mood === "hype" || mood === "frustrated") {
+      const bubble = document.createElement("div");
+      bubble.className = "bubble";
+      bubble.innerText = mood === "hype" ? "Let’s gooo!! We’re on fire!" : "We’ll bounce back, soldier.";
+      document.body.appendChild(bubble);
+      setTimeout(() => bubble.remove(), 4000);
+    }
+  </script>
+
+</body>
+</html> 

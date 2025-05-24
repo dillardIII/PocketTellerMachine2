@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Malik Voice Test</title>
+    <style>
+        body {
+            background-color: #101820;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        audio {
+            margin-top: 30px;
+            width: 300px;
+        }
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testing Malik’s Voice</h1>
+    <p>This will confirm if the ElevenLabs voice is working correctly in your browser.</p>
+
+    {% if audio %}
+        <audio controls autoplay>
+            <source src="{{ audio }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    {% else %}
+        <p style="color: red;">No audio path provided. Check your route setup.</p>
+    {% endif %}
+
+    <p style="margin-top: 40px;">
+        <a href="/" style="color:#00bfff;">Return to Dashboard</a>
+    </p>
+</body>
+</html>

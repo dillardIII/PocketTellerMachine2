@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat with Malik (M.O.S.)</title>
+  <style>
+    body {
+      background-color: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 60px;
+    }
+    input[type="text"] {
+      padding: 10px;
+      width: 300px;
+      font-size: 18px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color: crimson;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: darkred;
+    }
+    .error {
+      color: red;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Chat with Malik (M.O.S.)</h1>
+  <input type="text" id="userInput" placeholder="Type something...">
+  <button onclick="sendText()">Speak</button>
+  <div class="error" id="errorDiv"></div>
+  <audio id="audioPlayer" controls style="margin-top: 20px; display:none;"></audio>
+
+  <script>
+    async function sendText() {
+      const text = document.getElementById("userInput").value;
+      const errorDiv = document.getElementById("errorDiv");
+      const audioPlayer = document.getElementById("audioPlayer");
+
+      errorDiv.textContent = "";
+      audioPlayer.style.display = "none";
+      audioPlayer.pause();
+
+      try {
+        const response = await fetch("/malik_speak", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ text })
+        });
+
+        const data = await response.json();
+
+        if (data.success && data.audio_url) {
+          audioPlayer.src = data.audio_url;
+          audioPlayer.style.display = "block";
+          audioPlayer.play();
+        } else {
+          errorDiv.textContent = data.error || "Unknown error occurred.";
+        }
+      } catch (err) {
+        console.error(err);
+        errorDiv.textContent = "Request failed.";
+      }
+    }
+  </script>
+</body>
+</html>

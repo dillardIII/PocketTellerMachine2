@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PTM Team Roles</title>
+  <style>
+    body {
+      background: #121212;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+      margin: 0;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 0 10px rgba(0,255,100,0.05);
+      position: relative;
+      text-align: center;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #6fd672;
+    }
+
+    .desc {
+      font-size: 14px;
+      color: #ccc;
+      margin: 10px 0;
+    }
+
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 10px auto;
+      display: block;
+      border: 2px solid #6fd672;
+    }
+
+    .assign-btn {
+      margin-top: 10px;
+      background: #4caf50;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .assign-btn:hover {
+      background: #66bb6a;
+      color: #111;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>PTM Team Roles</h1>
+
+  <div class="grid" id="rolesGrid">
+    <!-- Cards will be injected here -->
+  </div>
+
+  <script>
+    const roles = [
+      {
+        title: "CFO",
+        nickname: "Money Master",
+        description: "Leads financial strategy, profit analysis, and spending efficiency.",
+        avatar: "/static/avatars/cfo.png"
+      },
+      {
+        title: "VP of Research",
+        nickname: "Trend Tracker",
+        description: "Discovers emerging market trends and validates data-driven insights.",
+        avatar: "/static/avatars/research.png"
+      },
+      {
+        title: "Risk Manager",
+        nickname: "Shield",
+        description: "Watches for high-risk trades and recommends adjustments.",
+        avatar: "/static/avatars/risk.png"
+      },
+      {
+        title: "Trade Strategist",
+        nickname: "Playmaker",
+        description: "Designs entry/exit strategies and teaches technical setups.",
+        avatar: "/static/avatars/strategist.png"
+      },
+      {
+        title: "Psych Coach",
+        nickname: "Mindset Mentor",
+        description: "Supports emotional discipline and mental focus under pressure.",
+        avatar: "/static/avatars/coach.png"
+      }
+    ];
+
+    const grid = document.getElementById("rolesGrid");
+
+    roles.forEach(role => {
+      const card = document.createElement("div");
+      card.className = "card";
+
+      card.innerHTML = `
+        <img src="${role.avatar}" alt="${role.title}" class="avatar" />
+        <h3>${role.title}</h3>
+        <div class="desc"><strong>${role.nickname}</strong><br>${role.description}</div>
+        <button class="assign-btn" onclick="assignRole('${role.title}')">Assign Role</button>
+      `;
+
+      grid.appendChild(card);
+    });
+
+    function assignRole(role) {
+      alert(`You assigned the role of ${role} to your assistant!`);
+      // Future: Trigger persona linking, XP updates, quiz unlocks, etc.
+    }
+  </script>
+
+</body>
+</html>

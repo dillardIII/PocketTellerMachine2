@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PTM Battle Room</title>
+  <style>
+    body {
+      background-color: #0f0f0f;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 40px;
+    }
+
+    .battle-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .card {
+      background: #1e1e1e;
+      border: 2px solid #333;
+      border-radius: 14px;
+      padding: 24px;
+      width: 320px;
+      box-shadow: 0 0 16px rgba(0, 255, 100, 0.05);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      color: #80e487;
+    }
+
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #6fd672;
+      margin-bottom: 10px;
+    }
+
+    .stat {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    .stat strong {
+      color: #ffe055;
+    }
+
+    .highlight {
+      background-color: #4caf50;
+      color: #111;
+      font-weight: bold;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 13px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .versus {
+      font-size: 40px;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      color: #ff5252;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Battle Room: Bot Showdown</h1>
+
+  <div class="versus">⚔️ VS ⚔️</div>
+
+  <div class="battle-container">
+    <div class="card">
+      <img src="/static/avatars/mo_cash.png" class="avatar" />
+      <h2>Mo Cash</h2>
+      <div class="stat">XP: <strong>4,800</strong></div>
+      <div class="stat">Win Rate: <strong>78%</strong></div>
+      <div class="stat">Today’s P/L: <strong>+$260</strong></div>
+      <div class="stat">Strategy: <strong>Credit Spread</strong></div>
+      <div class="highlight">Current Leader</div>
+    </div>
+
+    <div class="card">
+      <img src="/static/avatars/strategist.png" class="avatar" />
+      <h2>Strategist</h2>
+      <div class="stat">XP: <strong>4,300</strong></div>
+      <div class="stat">Win Rate: <strong>74%</strong></div>
+      <div class="stat">Today’s P/L: <strong>+$175</strong></div>
+      <div class="stat">Strategy: <strong>Iron Condor</strong></div>
+    </div>
+  </div>
+
+</body>
+</html>

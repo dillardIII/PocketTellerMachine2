@@ -1,0 +1,3 @@
+{
+  "tickers": ["AAPL", "TSLA", "MSFT", "AMZN", "GOOGL", "NVDA", "META", "NFLX", "AMD", "INTC", "OKTA", "RTX","SPY", "QQQ", "LUV", "BROS", "WM", "ADBE", "MCD", "WDAY", "W", "WFC", "WMB", "ECL", "ENB", "URA", "ACI", "AEP", "AXS", "BA", "BAM", "BCS","BMA", "AB", "BSX", "BYD", "CAH", "CHWY", "NVR", "MELI", "TLRY", "CRON", "BYND", "IRBT", "DNUT", "WOOF", "SPCE", "NOK", "HBI", "MOMO", "ITUB", "NVAX", "TDOC", "NUS", "ARRY", "YALA","FSLY","VOD", "GTM", "RDFN", "TAL", "F", "VSAT", "MAT"]
+}

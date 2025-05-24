@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PTM Backtest Dashboard</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/litepicker/dist/litepicker.css" />
+  <script src="https://cdn.jsdelivr.net/npm/litepicker/dist/litepicker.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #eee;
+      padding: 20px;
+    }
+
+    h1, h2, h3 {
+      color: #6fd672;
+      text-align: center;
+    }
+
+    .box, .section, .card {
+      background: #1e1e1e;
+      padding: 20px;
+      margin-bottom: 25px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0, 255, 100, 0.1);
+    }
+
+    .strategy-card {
+      background-color: #222;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 255, 128, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .strategy-card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 20px rgba(0, 255, 150, 0.3);
+    }
+
+    .strategy-title {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    .strategy-description {
+      color: #ccc;
+      margin-bottom: 10px;
+    }
+
+    .metrics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .metric {
+      background: #333;
+      padding: 10px;
+      border-radius: 8px;
+      flex: 1;
+      min-width: 120px;
+      text-align: center;
+    }
+
+    .metric span {
+      display: block;
+      font-weight: bold;
+      color: #6fd672;
+    }
+
+    a.button {
+      display: inline-block;
+      background: #6fd672;
+      color: #000;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    a.button:hover {
+      background: #8bffaa;
+    }
+
+    label, input, select, button {
+      margin: 5px;
+      padding: 8px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    input, select {
+      background: #222;
+      color: #fff;
+      border: 1px solid #333;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #66bb6a;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+    }
+
+    th, td {
+      padding: 10px;
+      border-bottom: 1px solid #444;
+      text-align: left;
+    }
+
+    th {
+      background-color: #222;
+      color: #6fd672;
+      cursor: pointer;
+    }
+
+    .profit { color: #00e676; }
+    .loss { color: #ff5252; }
+    .grade.A { color: #00ffae; }
+    .grade.B { color: #6fe673; }
+    .grade.C { color: #ffe055; }
+    .grade.D { color: #ff8c42; }
+    .grade.F { color: #ff4e4e; }
+
+    canvas {
+      margin-top: 20px;
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      padding: 12px;
+    }
+
+    .highlight {
+      background-color: #1b3f1b;
+    }
+
+    audio {
+      margin-top: 10px;
+      display: block;
+    }
+
+    .voice-note {
+      max-width: 280px;
+      word-wrap: break-word;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 13px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>PTM Backtest Dashboard</h1>
+
+  <div class="box">
+    <form method="get" action="/backtest_dashboard">
+      <label>Start:</label>
+      <input type="date" name="start" id="start" />
+      <label>End:</label>
+      <input type="date" name="end" id="end" />
+      <button type="submit">Apply Filter</button>
+      <button type="button" onclick="downloadCSV()">Download CSV</button>
+    </form>
+    <label for="gradeFilter">Grade:</label>
+    <select id="gradeFilter">
+      <option value="">All</option>
+      <option>A</option><option>B</option><option>C</option><option>D</option><option>F</option>
+    </select>
+    <input type="text" id="searchInput" placeholder="Search symbol..." />
+    <button onclick="applyClientFilter()">Filter</button>
+  </div>
+
+  <div class="section">
+    <h2>Strategy Performance</h2>
+    <canvas id="performanceChart" width="400" height="200"></canvas>
+  </div>
+
+  <div class="section">
+    <h2>Grade Distribution</h2>
+    <canvas id="gradeChart" width="400" height="120"></canvas>
+  </div>
+
+  <div class="section">
+    <h2>Top Performing Strategies</h2>
+    <div id="top-strategies">Loading...</div>
+    <audio id="voicePlayer" controls style="display:none;"></audio>
+  </div>
+
+  <div class="section">
+    <h2>Strategy Backtest Results</h2>
+    {% for strategy in backtest_results %}
+    <div class="strategy-card">
+      <div class="strategy-title">{{ strategy.name }}</div>
+      <div class="strategy-description">{{ strategy.description or "No description available." }}</div>
+      <div class="metrics">
+        <div class="metric">Grade<span>{{ strategy.grade }}</span></div>
+        <div class="metric">Win Rate<span>{{ strategy.win_rate }}%</span></div>
+        <div class="metric">Total Trades<span>{{ strategy.total_trades }}</span></div>
+        <div class="metric">Net P&L<span>${{ strategy.net_profit }}</span></div>
+        <div class="metric">Avg Duration<span>{{ strategy.avg_duration }} days</span></div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="section">
+    <h2>Raw Backtest Log</h2>
+    <table id="backtestTable">
+      <thead>
+        <tr>
+          <th onclick="sortTable(0)">Symbol</th>
+          <th onclick="sortTable(1)">Strategy</th>
+          <th>Return %</th>
+          <th>Grade</th>
+          <th>Voice Summary</th>
+          <th>Play</th>
+          <th>Timestamp</th>
+        </tr>
+      </thead>
+      <tbody id="backtestTableBody">
+        {% for result in results %}
+        <tr class="{% if result.grade == 'A' %}highlight{% endif %}">
+          <td>{{ result.ticker }}</td>
+          <td>{{ result.strategy }}</td>
+          <td class="{{ 'profit' if result.return_pct|float >= 0 else 'loss' }}">{{ result.return_pct }}%</td>
+          <td class="grade {{ result.grade }}">{{ result.grade }}</td>
+          <td class="voice-note">{{ result.voice_summary or '' }}</td>
+          <td>
+            <button onclick="playSummary('{{ result.voice_file or '' }}', `{{ result.voice_summary or '' }}`)">Play</button>
+          </td>
+          <td>{{ result.timestamp }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 Pocket Teller Machine | Powered by GhostBot AI
+  </div>
+
+  <script>
+    function playSummary(file, text) {
+      const player = document.getElementById("voicePlayer");
+      if (file && file.endsWith(".mp3")) {
+        player.src = "/static/audio/" + file;
+        player.style.display = "block";
+        player.play();
+      } else {
+        const msg = new SpeechSynthesisUtterance(text);
+        window.speechSynthesis.speak(msg);
+      }
+    }
+
+    function sortTable(colIndex) {
+      const table = document.getElementById("backtestTableBody");
+      const rows = Array.from(table.rows);
+      const sorted = rows.sort((a, b) => {
+        const A = a.cells[colIndex].innerText.trim();
+        const B = b.cells[colIndex].innerText.trim();
+        return isNaN(A) ? A.localeCompare(B) : parseFloat(B) - parseFloat(A);
+      });
+      table.innerHTML = "";
+      sorted.forEach(row => table.appendChild(row));
+    }
+
+    function applyClientFilter() {
+      const grade = document.getElementById("gradeFilter").value;
+      const keyword = document.getElementById("searchInput").value.toLowerCase();
+      const rows = document.querySelectorAll("#backtestTableBody tr");
+      rows.forEach(row => {
+        const symbol = row.cells[0].innerText.toLowerCase();
+        const gradeText = row.cells[3].innerText;
+        const match = (!grade || gradeText === grade) && (!keyword || symbol.includes(keyword));
+        row.style.display = match ? "" : "none";
+      });
+    }
+
+    function downloadCSV() {
+      const start = document.getElementById("start").value;
+      const end = document.getElementById("end").value;
+      let url = "/download_backtest_csv";
+      if (start && end) {
+        url += `?start=${start}&end=${end}`;
+      }
+      window.location.href = url;
+    }
+
+    window.addEventListener("load", () => {
+      const start = new URLSearchParams(window.location.search).get("start");
+      const end = new URLSearchParams(window.location.search).get("end");
+      if (start) document.getElementById("start").value = start;
+      if (end) document.getElementById("end").value = end;
+
+      const grades = {};
+      document.querySelectorAll("#backtestTableBody tr").forEach(r => {
+        const g = r.cells[3].innerText;
+        grades[g] = (grades[g] || 0) + 1;
+      });
+
+      new Chart(document.getElementById("gradeChart"), {
+        type: "bar",
+        data: {
+          labels: Object.keys(grades),
+          datasets: [{
+            label: "Grades",
+            data: Object.values(grades),
+            backgroundColor: ["#00ffae", "#6fe673", "#ffe055", "#ff8c42", "#ff4e4e"]
+          }]
+        },
+        options: {
+          plugins: { legend: { display: false }},
+          scales: { y: { beginAtZero: true } }
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

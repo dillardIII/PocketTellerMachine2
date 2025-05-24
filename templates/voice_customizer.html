@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Voice Customizer</title>
+  <style>
+    body {
+      background: #0d0d0d;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6fd672;
+      margin-bottom: 30px;
+    }
+
+    .box {
+      max-width: 700px;
+      margin: auto;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 0 12px rgba(0,255,100,0.05);
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-size: 15px;
+      color: #ccc;
+    }
+
+    input[type=range] {
+      width: 100%;
+      margin-top: 6px;
+    }
+
+    select, button {
+      margin-top: 15px;
+      width: 100%;
+      padding: 10px;
+      background: #222;
+      border: 1px solid #444;
+      border-radius: 6px;
+      color: #fff;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: #111;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #80e487;
+    }
+
+    audio {
+      margin-top: 20px;
+      width: 100%;
+      display: none;
+    }
+
+    .summary {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #ccc;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Voice Customizer</h1>
+
+  <div class="box">
+    <label for="persona">Choose Assistant Persona:</label>
+    <select id="persona">
+      <option value="mentor">Mentor</option>
+      <option value="mo_cash">Mo Cash</option>
+      <option value="drill">Drill Instructor</option>
+      <option value="shadow">The Shadow</option>
+      <option value="optimist">The Optimist</option>
+    </select>
+
+    <label for="pitch">Pitch</label>
+    <input type="range" id="pitch" min="0.5" max="2" step="0.1" value="1">
+
+    <label for="speed">Speed</label>
+    <input type="range" id="speed" min="0.5" max="2" step="0.1" value="1">
+
+    <label for="mood">Mood / Tone</label>
+    <select id="mood">
+      <option value="neutral">Neutral</option>
+      <option value="calm">Calm</option>
+      <option value="hype">Hype</option>
+      <option value="strict">Strict</option>
+      <option value="sarcastic">Sarcastic</option>
+      <option value="encouraging">Encouraging</option>
+    </select>
+
+    <button onclick="playPreview()">Preview Voice</button>
+
+    <div class="summary" id="previewLabel"></div>
+    <audio id="voicePlayer" controls></audio>
+  </div>
+
+  <script>
+    function playPreview() {
+      const persona = document.getElementById("persona").value;
+      const pitch = document.getElementById("pitch").value;
+      const speed = document.getElementById("speed").value;
+      const mood = document.getElementById("mood").value;
+
+      const label = `${persona} — ${mood} | Pitch: ${pitch}, Speed: ${speed}`;
+      document.getElementById("previewLabel").textContent = label;
+
+      const player = document.getElementById("voicePlayer");
+      player.src = `/generate_preview?persona=${persona}&mood=${mood}&pitch=${pitch}&speed=${speed}`;
+      player.style.display = "block";
+      player.play();
+    }
+  </script>
+
+</body>
+</html>

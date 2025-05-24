@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cole AI Brain & Bridge Chat UI - Phase 4</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #f0f0f0;
+            font-family: 'Segoe UI', sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: #6fd672;
+            text-align: center;
+        }
+        .button {
+            background: #6fd672;
+            color: #121212;
+            border: none;
+            padding: 12px 20px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        .log-box, .heartbeat-box, .chat-box {
+            background: #1e1e1e;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            overflow-y: auto;
+            height: 300px;
+        }
+        input, button {
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        #chat input {
+            width: 70%;
+        }
+        #chat button {
+            background: #6fd672;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Cole AI Brain & Chat Control Center (Phase 4 UI)</h1>
+
+    <div class="heartbeat-box">
+        <h3>Heartbeat Monitor</h3>
+        <pre id="heartbeatStatus">Waiting for update...</pre>
+    </div>
+
+    <div class="log-box">
+        <h3>Brain Execution Logs</h3>
+        <pre id="logs">Click 'View Brain Logs' to refresh...</pre>
+    </div>
+
+    <div id="chat" class="chat-box">
+        <h3>Chat with Cole</h3>
+        <div id="chatWindow"></div>
+        <input type="text" id="chatInput" placeholder="Type a command for Cole...">
+        <button onclick="sendChatCommand()">Send</button>
+    </div>
+
+    <button class="button" onclick="forceBrainCycle()">Force Brain Cycle</button>
+    <button class="button" onclick="fetchLogs()">View Brain Logs</button>
+    <button class="button" onclick="fetchHeartbeat()">Check Heartbeat</button>
+
+    <script>
+        function fetchLogs() {
+            fetch('/api/get_brain_logs')
+            .then(response => response.json())
+            .then(data => {
+                let logs = data.logs.map(log => `${log.timestamp} → ${log.message}`).join('\n');
+                document.getElementById("logs").innerText = logs;
+            });
+        }
+
+        function fetchHeartbeat() {
+            fetch('/api/get_heartbeat')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("heartbeatStatus").innerText = `Status: ${data.status}\nLast Update: ${data.timestamp}`;
+            });
+        }
+
+        function forceBrainCycle() {
+            fetch('/api/force_brain_cycle')
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);
+                fetchLogs();
+                fetchHeartbeat();
+            });
+        }
+
+        function sendChatCommand() {
+            const input = document.getElementById("chatInput").value;
+            fetch('/api/cole_command', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ command: input })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("chatWindow").innerHTML += `<p><strong>You:</strong> ${input}</p>`;
+                document.getElementById("chatWindow").innerHTML += `<p><strong>Cole:</strong> ${data.cole_response || data.message}</p>`;
+                document.getElementById("chatInput").value = "";
+            });
+        }
+
+        // Auto-refresh heartbeat and logs every 15 seconds
+        setInterval(fetchHeartbeat, 15000);
+        setInterval(fetchLogs, 15000);
+    </script>
+
+</body>
+</html>

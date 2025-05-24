@@ -1,0 +1,130 @@
+{
+  "trades": [
+    {
+      "timestamp": "2025-05-20T15:16:35.619969",
+      "ticker": "META",
+      "price": 750.07,
+      "action": "SELL",
+      "quantity": 1
+    },
+    {
+      "timestamp": "2025-05-20T15:16:37.173146",
+      "ticker": "META",
+      "price": 170.97,
+      "action": "SELL",
+      "quantity": 1
+    },
+    {
+      "timestamp": "2025-05-20T15:17:05.621257",
+      "ticker": "NVDA",
+      "price": 183.21,
+      "action": "BUY",
+      "quantity": 1
+    },
+    {
+      "timestamp": "2025-05-20T15:17:07.182241",
+      "ticker": "NVDA",
+      "price": 206.95,
+      "action": "BUY",
+      "quantity": 1
+    },
+    {
+      "timestamp": "2025-05-20T15:17:35.622581",
+      "ticker": "AAPL",
+      "price": 732.39,
+      "action": "SELL",
+      "quantity": 1
+    },
+    {
+      "timestamp": "2025-05-20T15:17:37.182842",
+      "ticker": "NVDA",
+      "price": 421.0,
+      "action": "BUY",
+      "quantity": 1
+    },
+    {
+      "timestamp": "2025-05-20T15:18:05.623242",
+      "ticker": "META",
+      "price": 613.89,
+      "action": "BUY",
+      "quantity": 1
+    },
+    {
+      "timestamp": "2025-05-20T15:18:07.183541",
+      "ticker": "META",
+      "price": 333.3,
+      "action": "SELL",
+      "quantity": 1
+    },
+    {
+      "timestamp": "2025-05-20T15:18:35.623884",
+      "ticker": "AMZN",
+      "price": 433.56,
+      "action": "BUY",
+      "quantity": 1
+    },
+    {
+      "timestamp": "2025-05-20T15:18:37.185496",
+      "ticker": "META",
+      "price": 746.72,
+      "action": "BUY",
+      "quantity": 1
+    },
+    {
+      "timestamp": "2025-05-20T15:19:05.624726",
+      "ticker": "TSLA",
+      "price": 774.35,
+      "action": "SELL",
+      "quantity": 1
+    },
+    {
+      "timestamp": "2025-05-20T15:19:07.186222",
+      "ticker": "AMZN",
+      "price": 227.2,
+      "action": "BUY",
+      "quantity": 1
+    },
+    {
+      "timestamp": "2025-05-20T15:19:35.625612",
+      "ticker": "AMZN",
+      "price": 575.19,
+      "action": "BUY",
+      "quantity": 1
+    },
+    {
+      "timestamp": "2025-05-20T15:19:37.187559",
+      "ticker": "TSLA",
+      "price": 550.57,
+      "action": "SELL",
+      "quantity": 1
+    },
+    {
+      "timestamp": "2025-05-20T15:20:05.626364",
+      "ticker": "META",
+      "price": 680.46,
+      "action": "SELL",
+      "quantity": 1
+    },
+    {
+      "timestamp": "2025-05-20T15:20:07.188661",
+      "ticker": "NVDA",
+      "price": 158.72,
+      "action": "BUY",
+      "quantity": 1
+    },
+    {
+      "timestamp": "2025-05-20T15:20:35.627242",
+      "ticker": "NVDA",
+      "price": 379.32,
+      "action": "BUY",
+      "quantity": 1
+    },
+    {
+      "timestamp": "2025-05-20T15:20:37.189381",
+      "ticker": "AAPL",
+      "price": 892.16,
+      "action": "BUY",
+      "quantity": 1
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "2025-05-15T10:15:35.030248",
+    "message": "[AUTO FEEDBACK ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8bb7d505d0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:17:44.841909",
+    "message": "[AUTO FEEDBACK ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcef823c5d0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:20:04.192508",
+    "message": "[AUTO FEEDBACK ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbd5f687c50>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:21:21.171315",
+    "message": "[AUTO FEEDBACK ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5a48befc50>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "timestamp": "2025-05-15T10:22:29.341259",
+    "message": "[AUTO FEEDBACK ERROR]: HTTPConnectionPool(host='localhost', port=5050): Max retries exceeded with url: /cole_webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f59add505d0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  }
+]

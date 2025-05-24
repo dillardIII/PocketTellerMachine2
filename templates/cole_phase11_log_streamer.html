@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cole Unified Log Streamer</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #0f0;
+            font-family: monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #0f0;
+            text-align: center;
+        }
+        .log-container {
+            background: #111;
+            padding: 10px;
+            border-radius: 8px;
+            overflow-y: auto;
+            height: 90vh;
+            border: 1px solid #222;
+        }
+        .log-entry {
+            padding: 4px 0;
+            border-bottom: 1px solid #222;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cole Unified Log Streamer</h1>
+    <div id="logContainer" class="log-container">Loading logs...</div>
+
+    <script>
+        async function loadLogs() {
+            try {
+                const response = await fetch('/cole_phase11_log_streamer');
+                const data = await response.json();
+                const logContainer = document.getElementById('logContainer');
+                logContainer.innerHTML = "";
+                data.logs.reverse().forEach(log => {
+                    const div = document.createElement('div');
+                    div.className = 'log-entry';
+                    div.textContent = `[${log.timestamp}] ${log.message}`;
+                    logContainer.appendChild(div);
+                });
+            } catch (e) {
+                document.getElementById('logContainer').textContent = "Error loading logs...";
+            }
+        }
+
+        setInterval(loadLogs, 5000);
+        loadLogs();
+    </script>
+</body>
+</html>

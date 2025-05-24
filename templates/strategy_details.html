@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Strategy Details — {{ strategy.name }}</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #eee;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #6fd672;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .summary-box {
+      background: #1e1e1e;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 25px;
+      box-shadow: 0 0 10px rgba(0, 255, 128, 0.15);
+    }
+
+    .summary-box h2 {
+      margin-top: 0;
+      color: #fff;
+    }
+
+    .metric {
+      margin: 8px 0;
+      font-size: 16px;
+    }
+
+    .grade {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .grade.A { color: #00e676; }
+    .grade.B { color: #9ccc65; }
+    .grade.C { color: #ffe055; }
+    .grade.D { color: #ff9800; }
+    .grade.F { color: #f44336; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    th, td {
+      padding: 10px;
+      border-bottom: 1px solid #444;
+    }
+
+    th {
+      background-color: #222;
+      color: #6fd672;
+      text-align: left;
+    }
+
+    td.profit {
+      color: #00e676;
+    }
+
+    td.loss {
+      color: #ff5252;
+    }
+
+    .voice-summary {
+      font-style: italic;
+      margin-top: 15px;
+      color: #aaa;
+    }
+
+    audio {
+      margin-top: 10px;
+      width: 100%;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 13px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Strategy Details: {{ strategy.name }}</h1>
+
+  <div class="summary-box">
+    <h2>Summary</h2>
+    <div class="metric"><strong>Description:</strong> {{ strategy.description or "No description available." }}</div>
+    <div class="metric"><strong>Total Trades:</strong> {{ strategy.total_trades }}</div>
+    <div class="metric"><strong>Win Rate:</strong> {{ strategy.win_rate }}%</div>
+    <div class="metric"><strong>Total Return:</strong> {{ strategy.total_return }}%</div>
+    <div class="metric"><strong>Average Return:</strong> {{ strategy.avg_return }}%</div>
+    <div class="metric"><strong>Avg Duration:</strong> {{ strategy.avg_duration }} days</div>
+    <div class="metric grade {{ strategy.grade[0] }}"><strong>Grade:</strong> {{ strategy.grade }}</div>
+    
+    {% if strategy.voice_summary %}
+      <div class="voice-summary">"{{ strategy.voice_summary }}"</div>
+    {% endif %}
+
+    {% if strategy.voice_file %}
+      <audio controls>
+        <source src="/static/audio/{{ strategy.voice_file }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    {% endif %}
+  </div>
+
+  <div class="summary-box">
+    <h2>Trades</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Ticker</th>
+          <th>Entry</th>
+          <th>Exit</th>
+          <th>PnL (%)</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for trade in strategy.trades %}
+          <tr>
+            <td>{{ trade.ticker }}</td>
+            <td>{{ trade.entry }}</td>
+            <td>{{ trade.exit }}</td>
+            <td class="{{ 'profit' if trade.pnl|float >= 0 else 'loss' }}">{{ trade.pnl }}</td>
+            <td>{{ trade.date }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 PTM | Detailed View Powered by GhostBot AI
+  </div>
+
+</body>
+</html>

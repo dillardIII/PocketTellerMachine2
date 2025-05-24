@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PTM Global Leaderboard</title>
+  <style>
+    body {
+      background: #111;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #ffe055;
+      margin-bottom: 25px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #1e1e1e;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(255,255,100,0.05);
+    }
+
+    th, td {
+      padding: 16px;
+      text-align: left;
+      border-bottom: 1px solid #333;
+    }
+
+    th {
+      background: #222;
+      color: #80e487;
+    }
+
+    tr:hover {
+      background: #222;
+    }
+
+    .rank {
+      font-weight: bold;
+      color: #ffe055;
+    }
+
+    .team {
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    .gain {
+      color: #00e676;
+    }
+
+    .loss {
+      color: #ff5252;
+    }
+
+    .badge {
+      background: #4caf50;
+      color: #111;
+      padding: 4px 10px;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Global Leaderboard</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>User / Bot</th>
+        <th>XP</th>
+        <th>Win Rate</th>
+        <th>Streak</th>
+        <th>Badge</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="rank">#1</td>
+        <td>Mo Cash <div class="team">Team Hustle</div></td>
+        <td>5,420</td>
+        <td class="gain">81%</td>
+        <td>9 wins</td>
+        <td><span class="badge">XP King</span></td>
+      </tr>
+      <tr>
+        <td class="rank">#2</td>
+        <td>Mentor AI <div class="team">Team Vision</div></td>
+        <td>5,120</td>
+        <td class="gain">77%</td>
+        <td>6 wins</td>
+        <td><span class="badge">Master Strategist</span></td>
+      </tr>
+      <tr>
+        <td class="rank">#3</td>
+        <td>Dillard <div class="team">Ghost Traders</div></td>
+        <td>4,980</td>
+        <td class="gain">79%</td>
+        <td>8 wins</td>
+        <td><span class="badge">Quiz Champ</span></td>
+      </tr>
+      <tr>
+        <td class="rank">#4</td>
+        <td>Drill Instructor <div class="team">Team Discipline</div></td>
+        <td>4,710</td>
+        <td class="gain">72%</td>
+        <td>5 wins</td>
+        <td><span class="badge">Iron Mind</span></td>
+      </tr>
+      <tr>
+        <td class="rank">#5</td>
+        <td>The Strategist <div class="team">Shadow Tactics</div></td>
+        <td>4,390</td>
+        <td class="gain">75%</td>
+        <td>4 wins</td>
+        <td><span class="badge">Risk Whisperer</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

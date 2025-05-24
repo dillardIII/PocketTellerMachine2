@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Talk to Cole</title>
+    <style>
+        body { background-color: #121212; color: #f0f0f0; font-family: Arial, sans-serif; text-align: center; padding: 50px; }
+        h1 { color: #6fd672; }
+        button { padding: 20px; font-size: 20px; border: none; border-radius: 10px; background: #6fd672; color: #121212; cursor: pointer; }
+        #response, #malik_log { margin-top: 30px; font-size: 16px; background: #1e1e1e; padding: 20px; border-radius: 10px; white-space: pre-wrap; text-align: left; max-width: 600px; margin-left: auto; margin-right: auto; height: 300px; overflow-y: auto; }
+    </style>
+</head>
+<body>
+    <h1>Talk to Cole AI</h1>
+    <button onclick="startListening()">🎙 Speak Now</button>
+    <div id="response">Awaiting your command...</div>
+
+    <h2>Malik Log Monitor</h2>
+    <div id="malik_log">Loading Malik Log...</div>
+
+    <script>
+        function startListening() {
+            var recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+            recognition.lang = 'en-US';
+            recognition.interimResults = false;
+            recognition.maxAlternatives = 1;
+
+            recognition.start();
+
+            recognition.onresult = function(event) {
+                var transcript = event.results[0][0].transcript;
+                updateConversation("You: " + transcript);
+                sendToCole(transcript);
+            };
+
+            recognition.onerror = function(event) {
+                updateConversation('Error occurred in recognition: ' + event.error);
+            };
+        }
+
+        function sendToCole(command) {
+            fetch('/api/cole_command', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ command: command })
+            })
+            .then(response => response.json())
+            .then(data => {
+                let coleResponse = data.cole_response || "No response.";
+                updateConversation("Cole: " + coleResponse);
+                speak(coleResponse);
+            })
+            .catch(error => {
+                updateConversation("Error sending to Cole: " + error);
+            });
+        }
+
+        function updateConversation(newLine) {
+            var responseBox = document.getElementById('response');
+            if (responseBox.innerText === "Awaiting your command...") {
+                responseBox.innerText = newLine;
+            } else {
+                responseBox.innerText += "\n\n" + newLine;
+            }
+        }
+
+        function speak(text) {
+            var msg = new SpeechSynthesisUtterance();
+            msg.text = text;
+            msg.lang = 'en-US';
+            msg.pitch = 1;
+            msg.rate = 1;
+            msg.volume = 1;
+            msg.voice = window.speechSynthesis.getVoices().find(v => v.name.includes('Male') || v.name.includes('Google US English')) || null;
+            window.speechSynthesis.speak(msg);
+        }
+
+        function fetchMalikLog() {
+            fetch('/api/malik_log')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('malik_log').innerText = data.log.join('\n');
+            });
+        }
+
+        setInterval(fetchMalikLog, 5000);
+
+        window.onload = function() {
+            fetchMalikLog();
+            window.speechSynthesis.getVoices();
+        };
+    </script>
+</body>
+</html>

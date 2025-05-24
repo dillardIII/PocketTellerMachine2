@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Robinhood",
+    "mode": "paper",
+    "balance": 0,
+    "positions": [],
+    "sync": false,
+    "xp": 0,
+    "badges": []
+  },
+  {
+    "name": "Webull",
+    "mode": "paper",
+    "balance": 0,
+    "positions": [],
+    "sync": false,
+    "xp": 0,
+    "badges": []
+  },
+  {
+    "name": "Public",
+    "mode": "paper",
+    "balance": 0,
+    "positions": [],
+    "sync": false,
+    "xp": 0,
+    "badges": []
+  },
+  {
+    "name": "Cash App",
+    "mode": "paper",
+    "balance": 0,
+    "positions": [],
+    "sync": false,
+    "xp": 0,
+    "badges": []
+  },
+  {
+    "name": "Tradier",
+    "mode": "live",
+    "balance": 5000,
+    "positions": [],
+    "sync": true,
+    "xp": 150,
+    "badges": ["Bot Starter", "Auto Trade"]
+  }
+]

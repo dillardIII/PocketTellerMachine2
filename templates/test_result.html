@@ -1,0 +1,15 @@
+<p><strong>Strategy:</strong> {{ result['strategy']['name'] }} ({{ result['strategy']['type'] }})</p>
+<p><strong>Entry Suggestion:</strong> {{ result['strategy']['entry'] }}</p>
+
+<p><strong>Confidence:</strong> {{ result['insight']['confidence'] }}</p>
+<p><strong>Risk Level:</strong> {{ result['insight']['risk_level'] }}</p>
+
+{% if result['insight']['rsi'] %}
+<p><strong>RSI:</strong> {{ result['insight']['rsi'] }}</p>
+{% endif %}
+
+<p><strong>Rationale:</strong> {{ result['insight']['rationale'] }}</p>
+<p><strong>Timestamp:</strong> {{ result['insight']['timestamp'] }}</p>
+
+<p><strong>AI Opinion:</strong> {{ result['ai_opinion'] }}</p>
+<p><strong>Mood:</strong> {{ result['mood']['mood'] }} – {{ result['mood']['reaction'] }}</p>

@@ -1,0 +1,23 @@
+<!-- ghost_memory_monitor.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ghost Memory Monitor</title>
+  <style>
+    body { background: #000; color: #0f0; font-family: monospace; padding: 20px; }
+    h1 { color: #f4d03f; }
+    .entry { margin-bottom: 20px; }
+    .label { font-weight: bold; color: #00ffff; }
+    .value { color: #ffffff; }
+    .brainbox { border: 1px solid #444; padding: 10px; background: #111; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Ghost Memory Monitor</h1>
+  <div class="entry"><span class="label">Current Market Phase:</span> <span class="value">{{ phase }}</span></div>
+  <div class="entry"><span class="label">Last Strategy:</span> <div class="brainbox">{{ strategy }}</div></div>
+  <div class="entry"><span class="label">Last GPT Reply:</span> <div class="brainbox">{{ reply }}</div></div>
+  <div class="entry"><span class="label">Last Trade Result:</span> <div class="brainbox">{{ trade }}</div></div>
+  <div class="entry"><span class="label">Active Mood:</span> <span class="value">{{ mood }}</span></div>
+</body>
+</html>

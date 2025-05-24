@@ -2,86 +2,196 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Meet the PTM Assistants</title>
-    <link id="google-font-link" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Montserrat|Oswald|Lobster|Open+Sans|Inconsolata&display=swap">
+    <title>Cole Assistants Overview & Settings</title>
     <style>
-        /* USE THE EXACT SAME CSS BLOCK FROM ABOVE! */
+        body {
+            background-color: #111;
+            color: #eee;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: #6fd672;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .assistant-card {
+            background: #222;
+            border-radius: 12px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 255, 128, 0.1);
+        }
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-size: cover;
+            margin: 0 auto 10px auto;
+            border: 2px solid #6fd672;
+            animation: zoomIn 0.4s ease-out;
+        }
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+        .name {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        .role {
+            font-size: 14px;
+            color: #ccc;
+            margin-bottom: 10px;
+        }
+        .toggle {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .toggle input {
+            transform: scale(1.3);
+            margin-right: 8px;
+        }
+        button {
+            background: #6fd672;
+            color: #111;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            margin: 5px;
+        }
     </style>
 </head>
 <body>
-<div class="assistants-container">
-    <button id="theme-toggle" class="assistant-btn button-ripple button-neon button-bounce button-gradient" style="max-width: 220px; margin: 0 auto 1em auto;">
-        Switch Theme
-    </button>
-    <div class="headline glow-headline" id="headline">
-        Meet Your PTM Assistants
+
+    <h1>Cole Assistants Overview & Settings</h1>
+
+    <!-- Hover Toggle Switch -->
+    <div style="text-align: center; margin-bottom: 20px;">
+        <label style="font-size: 16px;">
+            <input type="checkbox" id="hoverToggle" checked style="transform: scale(1.4); margin-right: 8px;">
+            Enable Voice Preview on Hover
+        </label>
     </div>
-    <div class="soft-shadow">
-        Choose your trading coach or partner below!
+
+    <!-- Dynamic Assistant Cards -->
+    <div class="grid" id="assistantsGrid"></div>
+
+    <!-- Static Avatar Gallery -->
+    <h1>Avatar Gallery</h1>
+    <div class="grid">
+        <!-- Optional static cards or preview-only avatars -->
     </div>
-    <button class="assistant-btn button-ripple button-neon button-bounce button-gradient">Mentor</button>
-    <button class="assistant-btn button-ripple button-neon button-bounce button-gradient">Mo Cash</button>
-    <button class="assistant-btn button-ripple button-neon button-bounce button-gradient">Drill Instructor</button>
-    <!-- Add more assistants as needed -->
-</div>
-<script>
-    // Same JavaScript as above, just replace .home-btn with .assistant-btn where needed!
-    const settings = {{ settings|tojson }};
-    function setGoogleFont(family) {
-        document.getElementById("google-font-link").href =
-            "https://fonts.googleapis.com/css?family=" + family.replace(" ", "+") + "&display=swap";
-    }
-    function applyUserStyles() {
-        if (settings.headline_font) {
-            setGoogleFont(settings.headline_font);
-            document.getElementById("headline").style.fontFamily = settings.headline_font + ", sans-serif";
-        }
-        if (settings.headline_size) {
-            document.getElementById("headline").style.fontSize = settings.headline_size + "em";
-        }
-        if (settings.button_font) {
-            setGoogleFont(settings.button_font);
-            document.querySelectorAll('.assistant-btn').forEach(btn => {
-                btn.style.fontFamily = settings.button_font + ", sans-serif";
+
+    <script>
+        const assistants = [
+            { id: "mo_cash", name: "Mo Cash", role: "The Hustler", avatar: "/static/avatars/mo_cash_avatar.png" },
+            { id: "mentor", name: "Mentor", role: "The Educator", avatar: "/static/avatars/mentor_avatar.png" },
+            { id: "drill_instructor", name: "Drill Instructor", role: "Marine Motivator", avatar: "/static/avatars/drill_instructor_avatar.png" },
+            { id: "intel_officer", name: "Intel Officer", role: "Intel Specialist", avatar: "/static/avatars/intel_officer_avatar.png" },
+            { id: "strategist", name: "Strategist", role: "Tactical Expert", avatar: "/static/avatars/strategist_avatar.png" },
+            { id: "the_og", name: "The OG", role: "Original Guru", avatar: "/static/avatars/the_og_avatar.png" },
+            { id: "the_chill_trader", name: "The Chill Trader", role: "Relaxed Trader", avatar: "/static/avatars/chill_trader_avatar.png" },
+            { id: "the_comedian", name: "The Comedian", role: "Comic Relief", avatar: "/static/avatars/comedian_avatar.png" },
+            { id: "the_shadow", name: "The Shadow", role: "Stealth Trader", avatar: "/static/avatars/shadow_avatar.png" },
+            { id: "the_optimist", name: "The Optimist", role: "Positive Thinker", avatar: "/static/avatars/the_optimist_avatar.png" },
+            { id: "cole", name: "Cole D. Crypto", role: "Reality Debugger", avatar: "/static/avatars/cole_avatar.png" }
+        ];
+
+        function renderAssistants() {
+            const grid = document.getElementById("assistantsGrid");
+            grid.innerHTML = "";
+            assistants.forEach(a => {
+                grid.innerHTML += `
+                    <div class="assistant-card">
+                        <div class="avatar" style="background-image: url('${a.avatar}');"></div>
+                        <div class="name">${a.name}</div>
+                        <div class="role">${a.role}</div>
+                        <div class="toggle">
+                            <label>
+                                <input type="checkbox" id="${a.id}_toggle" checked>
+                                Enable Voice
+                            </label>
+                        </div>
+                        <audio id="audio_${a.id}">
+                            <source src="/get_voice/${a.id}" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                        <button onclick="document.getElementById('audio_${a.id}').play()">Preview Voice</button>
+                        <button onclick="assignAssistant('${a.id}')">Assign</button>
+                    </div>
+                `;
             });
         }
-        if (settings.button_size) {
-            document.querySelectorAll('.assistant-btn').forEach(btn => {
-                btn.style.fontSize = settings.button_size + "em";
+
+        function assignAssistant(id) {
+            alert("Assistant " + id + " assigned to current task (placeholder action).");
+        }
+
+        function setupHoverPreviews() {
+            const isEnabled = document.getElementById("hoverToggle")?.checked;
+            assistants.forEach(a => {
+                const audio = document.getElementById(`audio_${a.id}`);
+                const card = document.querySelector(`.assistant-card:has(#audio_${a.id})`);
+                if (card && audio) {
+                    const avatarDiv = card.querySelector(".avatar");
+                    avatarDiv.onmouseenter = isEnabled ? () => audio.play() : null;
+                    avatarDiv.onmouseleave = isEnabled
+                        ? () => {
+                            audio.pause();
+                            audio.currentTime = 0;
+                        }
+                        : null;
+                }
             });
         }
-    }
-    window.onload = applyUserStyles;
 
-    const themeToggle = document.getElementById('theme-toggle');
-    function setTheme(theme) {
-        document.body.setAttribute('data-theme', theme);
-        localStorage.setItem('ptm_theme', theme);
-        themeToggle.textContent = theme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode';
-    }
-    const userPref = localStorage.getItem('ptm_theme');
-    if (userPref) {
-        setTheme(userPref);
-    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        setTheme('dark');
-    } else {
-        setTheme('light');
-    }
-    themeToggle.addEventListener('click', () => {
-        setTheme(document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
-    });
+        document.addEventListener("DOMContentLoaded", () => {
+            renderAssistants();
 
-    document.querySelectorAll('.button-ripple').forEach(btn => {
-        btn.addEventListener('click', function(e) {
-            const ripple = document.createElement('span');
-            ripple.className = 'ripple';
-            const rect = btn.getBoundingClientRect();
-            ripple.style.left = `${e.clientX - rect.left}px`;
-            ripple.style.top = `${e.clientY - rect.top}px`;
-            btn.appendChild(ripple);
-            setTimeout(() => ripple.remove(), 500);
+            fetch("/api/get_settings")
+                .then(res => res.json())
+                .then(settings => {
+                    Object.entries(settings).forEach(([persona, config]) => {
+                        const toggle = document.getElementById(`${persona}_toggle`);
+                        if (toggle && typeof config.enabled === "boolean") {
+                            toggle.checked = config.enabled;
+                        }
+                    });
+                });
+
+            document.addEventListener("change", (e) => {
+                if (e.target.matches("input[type='checkbox']")) {
+                    const persona = e.target.id.replace("_toggle", "");
+                    fetch("/api/save_setting", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ persona, enabled: e.target.checked })
+                    });
+
+                    if (e.target.id === "hoverToggle") {
+                        setupHoverPreviews();
+                    }
+                }
+            });
+
+            setTimeout(setupHoverPreviews, 100);
         });
-    });
-</script>
+    </script>
+
 </body>
 </html>

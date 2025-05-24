@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Achievement Unlocked</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .unlock-box {
+      text-align: center;
+      background: #1e1e1e;
+      border: 2px solid #4caf50;
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 0 40px rgba(0,255,100,0.2);
+      animation: pulse 1.5s infinite;
+    }
+
+    h1 {
+      font-size: 36px;
+      color: #6fd672;
+      margin-bottom: 20px;
+    }
+
+    .icon {
+      font-size: 64px;
+      margin-bottom: 20px;
+    }
+
+    .description {
+      font-size: 18px;
+      color: #ccc;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      background-color: #4caf50;
+      border: none;
+      border-radius: 8px;
+      color: #111;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .btn:hover {
+      background-color: #80e487;
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 15px rgba(0,255,100,0.2); }
+      50% { box-shadow: 0 0 40px rgba(0,255,100,0.5); }
+      100% { box-shadow: 0 0 15px rgba(0,255,100,0.2); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="unlock-box">
+    <div class="icon">🎉</div>
+    <h1>Achievement Unlocked!</h1>
+    <div class="description">You just earned the <strong>"Chart Master"</strong> badge and 250 XP.</div>
+    <button class="btn" onclick="goBack()">Continue</button>
+    <audio id="celebrate" src="/static/audio/unlock_fanfare.mp3" autoplay></audio>
+  </div>
+
+  <script>
+    function goBack() {
+      window.location.href = "/";
+    }
+  </script>
+
+</body>
+</html>

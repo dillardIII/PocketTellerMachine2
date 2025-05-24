@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GhostBuild Logs</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #eee;
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    h1 { color: #6fd672; }
+    .log-entry {
+      background: #1f1f1f;
+      border: 1px solid #333;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+    }
+    .success { color: #6fd672; }
+    .fail { color: #ff6666; }
+  </style>
+</head>
+<body>
+  <h1>GhostBuild Log</h1>
+  {% for entry in logs %}
+    <div class="log-entry">
+      <strong>{{ entry.timestamp }}</strong><br>
+      <em>{{ entry.prompt }}</em><br>
+      <div>Saved to: <code>{{ entry.file_path }}</code></div>
+      <div>Status:
+        {% if entry.success %}
+          <span class="success">Success</span>
+        {% else %}
+          <span class="fail">Failed</span>
+        {% endif %}
+      </div>
+      {% if entry.error %}
+        <div style="color: #ff6666;">Error: {{ entry.error }}</div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</body>
+</html>

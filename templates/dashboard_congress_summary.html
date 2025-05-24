@@ -1,0 +1,25 @@
+<div class="section">
+    <h2>Congress Impact Summary</h2>
+    <p><strong>Date:</strong> <span id="summaryDate">--</span></p>
+    <p><strong>Average Influence Score:</strong> <span id="summaryAverage">--</span></p>
+    <p><strong>Best Impacted:</strong> <span id="summaryBest">--</span></p>
+    <p><strong>Worst Impacted:</strong> <span id="summaryWorst">--</span></p>
+</div>
+
+<script>
+    function loadCongressSummary() {
+        fetch('/api/dashboard/congress_summary')
+            .then(res => res.json())
+            .then(data => {
+                const summary = data.summary;
+                document.getElementById('summaryDate').textContent = data.date;
+                document.getElementById('summaryAverage').textContent = summary.average !== undefined ? summary.average : '--';
+                document.getElementById('summaryBest').textContent = summary.best ? `${summary.best.symbol} (${summary.best.score})` : '--';
+                document.getElementById('summaryWorst').textContent = summary.worst ? `${summary.worst.symbol} (${summary.worst.score})` : '--';
+            })
+            .catch(err => console.error("Summary load error:", err));
+    }
+
+    setInterval(loadCongressSummary, 60000);
+    loadCongressSummary();
+</script>

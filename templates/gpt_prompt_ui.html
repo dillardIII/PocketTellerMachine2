@@ -1,0 +1,78 @@
+<!-- === FILE: templates/gpt_prompt_ui.html === -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PTM GPT Prompt</title>
+  <style>
+    body { font-family: Arial; background: #121212; color: #eee; padding: 30px; }
+    textarea, select { width: 100%; font-size: 16px; margin-bottom: 12px; }
+    textarea { height: 120px; }
+    button { padding: 12px 24px; font-size: 16px; background: #00d26a; border: none; color: #000; cursor: pointer; }
+    label { display: block; margin-top: 12px; font-size: 14px; }
+    #result { margin-top: 20px; color: #6fd672; }
+  </style>
+</head>
+<body>
+  <h1>Submit Prompt to GPT Agent</h1>
+  <form id="promptForm">
+    <textarea id="userCommand" placeholder="Ask PTM to add a new feature, dashboard, or upgrade..."></textarea><br>
+
+    <label><input type="checkbox" id="speakBox"> Read response aloud</label><br>
+
+    <label for="voiceSelect">Voice Persona:</label>
+    <select id="voiceSelect">
+      <option value="Mo Cash">Mo Cash</option>
+      <option value="Mentor">Mentor</option>
+      <option value="OG">OG</option>
+      <option value="Strategist">Strategist</option>
+      <option value="Chill Trader">Chill Trader</option>
+    </select>
+
+    <label for="moodSelect">Tone / Emotion:</label>
+    <select id="moodSelect">
+      <option value="default">Default</option>
+      <option value="excited">Excited</option>
+      <option value="calm">Calm</option>
+      <option value="serious">Serious</option>
+      <option value="playful">Playful</option>
+    </select>
+
+    <br><br>
+    <button type="submit">Submit Prompt</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script>
+    const form = document.getElementById('promptForm');
+    const resultDiv = document.getElementById('result');
+
+    form.onsubmit = async (e) => {
+      e.preventDefault();
+      const command = document.getElementById('userCommand').value;
+      const speak = document.getElementById("speakBox").checked;
+      const voice = document.getElementById("voiceSelect").value;
+      const mood = document.getElementById("moodSelect").value;
+
+      resultDiv.innerText = 'Thinking...';
+
+      const res = await fetch('/api/submit_gpt_prompt', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ prompt: command, speak, voice, mood })
+      });
+
+      const data = await res.json();
+      if (data.status === 'added') {
+        let msg = `✅ Added: ${data.feature.name}`;
+        if (data.spoken) {
+          msg += `<br><audio controls autoplay src="/${data.spoken}"></audio>`;
+        }
+        resultDiv.innerHTML = msg;
+      } else {
+        resultDiv.innerText = `❌ Failed to add feature.`;
+      }
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+Subject: Logic Strategy for Successful Trading 
+
+Dear Team,
+
+The following logic strategy is aimed to optimize the trading operations while mitigating risk and maximizing opportunities.
+
+1. **Risk Management**: For each trade, we should aim to risk a defined percentage of our total capital ideally less than 1%. This will enhance our ability to bear any trading loss and differentiate between each trading outcome.
+
+2. **Fundamental Analysis**: Always dig deeper into the company's financials before making an investment decision. Look for companies with strong balance sheets, steady earnings, and potential for growth.
+
+3. **Technical Analysis**: Use indicators like price action, moving averages, volume, and other technical tools to identify trends and support or resistance levels in the market. However, never rely solely on technical analysis.
+
+4. **Market Trend Identification**: Always identify the overall trend of the market. Remember, the trend is our friend. Do not go against the market trend; instead, aim to align our trades with the prevailing trend.
+
+5. **Trade Setup**: Always buy at support and sell at resistance unless there is a strong indicator of a breakout. Our risk/reward ratio should always be 1:3, meaning for each unit of risk taken, we should aim to get 3 units of reward.
+
+6. **Trading Plan and Discipline**: Develop a solid trading plan and stick to it. Whether a trade results in a loss or profit, it doesn't necessarily reflect the success of your trading plan. Trade discipline is crucial for long-term success.
+
+7. **Continual Learning**: No matter how much you think you know, the market can always surprise you. Always be open to new strategies, methods, and analysis. Educate yourself continuously on market dynamics, asset classes, macroeconomic indicators, and other factors that can affect market performance.
+
+Cole, I believe this logic strategy will guide you as you execute your trading tasks. However, remember that every rule has exceptions, and every tool has limitations, so remain alert, flexible, and prepared to adapt according to market dynamics.
+
+Best,
+
+[Your Name]
+
+Trading Assistant, Cole’s Team
