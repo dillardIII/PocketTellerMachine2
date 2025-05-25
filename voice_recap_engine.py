@@ -4,7 +4,6 @@ from elevenlabs.client import ElevenLabs
 from assistants.malik import malik_report  # or switch to Mo Cash, Mentor, etc.
 
 eleven = ElevenLabs()
-
 VOICE_FOLDER = "audio_recaps"
 os.makedirs(VOICE_FOLDER, exist_ok=True)
 
@@ -61,7 +60,6 @@ def create_voice_recap_with_traits(text, voice_name="Mo Cash", mood="neutral", g
         timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
         filename = f"{VOICE_FOLDER}/recap_{timestamp}.mp3"
 
-    # Create a styled prompt for ElevenLabs or future voice engines
     styled_text = f"[{mood.upper()} | {gender.title()} | {accent.title()}] {text}"
 
     try:
