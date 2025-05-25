@@ -1,7 +1,9 @@
 import os
 import datetime
-from elevenlabs import generate, save
+from elevenlabs.client import ElevenLabs
 from assistants.malik import malik_report  # or switch to Mo Cash, Mentor, etc.
+
+eleven = ElevenLabs()
 
 VOICE_FOLDER = "audio_recaps"
 os.makedirs(VOICE_FOLDER, exist_ok=True)
@@ -13,8 +15,8 @@ def create_voice_recap(text, filename=None, voice="Mo Cash"):
         filename = f"{VOICE_FOLDER}/recap_{timestamp}.mp3"
 
     try:
-        audio = generate(text=text, voice=voice, api_key=os.getenv("ELEVENLABS_API_KEY"))
-        save(audio, filename)
+        audio = eleven.generate(text=text, voice=voice, api_key=os.getenv("ELEVENLABS_API_KEY"))
+        eleven.save(audio, filename)
         print(f"[VoiceRecap] Recap saved to {filename}")
         return filename
     except Exception as e:
@@ -43,12 +45,12 @@ def speak(text, voice="Mo Cash"):
 # === Test Line: One-time confirmation voice ===
 def voice_test_message():
     try:
-        audio = generate(
+        audio = eleven.generate(
             text="The first voice test is successful.",
             voice="Rachel",
             api_key=os.getenv("ELEVENLABS_API_KEY")
         )
-        save(audio, "output.mp3")
+        eleven.save(audio, "output.mp3")
         print("[VoiceTest] Test message saved as output.mp3")
     except Exception as e:
         print(f"[VoiceTest] Error during test generation: {e}")
@@ -63,8 +65,8 @@ def create_voice_recap_with_traits(text, voice_name="Mo Cash", mood="neutral", g
     styled_text = f"[{mood.upper()} | {gender.title()} | {accent.title()}] {text}"
 
     try:
-        audio = generate(text=styled_text, voice=voice_name, api_key=os.getenv("ELEVENLABS_API_KEY"))
-        save(audio, filename)
+        audio = eleven.generate(text=styled_text, voice=voice_name, api_key=os.getenv("ELEVENLABS_API_KEY"))
+        eleven.save(audio, filename)
         print(f"[VoiceRecap] Voice with traits saved to {filename}")
         return filename
     except Exception as e:
