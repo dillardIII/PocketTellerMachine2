@@ -1,1878 +1,1885 @@
 {
-  "UNH": {
-    "buy": 4,
-    "sell": 3
-  },
-  "NFLX": {
-    "buy": 3,
-    "sell": 3
-  },
-  "AMGN": {
-    "buy": 5,
-    "sell": 0
-  },
-  "META": {
-    "buy": 6,
-    "sell": 8
-  },
-  "MELI": {
-    "buy": 2,
-    "sell": 0
-  },
-  "GOOG": {
-    "buy": 3,
-    "sell": 1
-  },
-  "MS": {
-    "buy": 2,
-    "sell": 1
-  },
-  "LLY": {
-    "buy": 5,
-    "sell": 3
-  },
-  "TSLA": {
-    "buy": 2,
-    "sell": 1
-  },
-  "NVDA": {
-    "buy": 9,
-    "sell": 3
-  },
-  "CVX": {
-    "buy": 3,
-    "sell": 2
-  },
-  "HSY": {
-    "buy": 2,
-    "sell": 1
-  },
-  "GLW": {
-    "buy": 2,
-    "sell": 2
-  },
-  "AMD": {
-    "buy": 3,
-    "sell": 0
-  },
-  "BX": {
-    "buy": 2,
-    "sell": 2
-  },
-  "CAH": {
-    "buy": 2,
-    "sell": 0
-  },
-  "NOW": {
-    "buy": 2,
-    "sell": 2
-  },
-  "PI": {
-    "buy": 2,
-    "sell": 0
-  },
-  "SAIC": {
-    "buy": 0,
-    "sell": 1
-  },
-  "LDOS": {
-    "buy": 0,
-    "sell": 1
-  },
-  "MPC": {
-    "buy": 0,
-    "sell": 1
-  },
-  "PEP": {
-    "buy": 0,
-    "sell": 2
-  },
-  "VFC": {
-    "buy": 0,
-    "sell": 1
-  },
-  "VZ": {
-    "buy": 0,
-    "sell": 1
-  },
-  "UNP": {
-    "buy": 0,
-    "sell": 3
-  },
-  "MSFT": {
-    "buy": 9,
-    "sell": 3
-  },
-  "GOOGL": {
-    "buy": 3,
-    "sell": 3
-  },
-  "MGA": {
-    "buy": 0,
-    "sell": 1
-  },
-  "RTX": {
-    "buy": 1,
-    "sell": 2
-  },
-  "EVRG": {
-    "buy": 0,
-    "sell": 1
-  },
-  "MCO": {
-    "buy": 0,
-    "sell": 1
-  },
-  "TFC": {
-    "buy": 0,
-    "sell": 1
-  },
-  "FTNT": {
-    "buy": 0,
-    "sell": 1
-  },
-  "AAPL": {
-    "buy": 3,
-    "sell": 3
-  },
-  "BLK": {
-    "buy": 0,
-    "sell": 2
-  },
-  "FI": {
-    "buy": 1,
-    "sell": 1
-  },
-  "ADBE": {
-    "buy": 3,
-    "sell": 2
-  },
-  "AMZN": {
-    "buy": 5,
-    "sell": 4
-  },
-  "ELV": {
-    "buy": 1,
-    "sell": 1
-  },
-  "NI": {
-    "buy": 0,
-    "sell": 1
-  },
-  "PYPL": {
-    "buy": 0,
-    "sell": 1
-  },
-  "DHR": {
-    "buy": 0,
-    "sell": 2
-  },
-  "AVGO": {
-    "buy": 6,
-    "sell": 3
-  },
-  "WTRG": {
-    "buy": 0,
-    "sell": 1
-  },
-  "SBUX": {
-    "buy": 1,
-    "sell": 7
-  },
-  "BKNG": {
-    "buy": 0,
-    "sell": 1
-  },
-  "CRM": {
-    "buy": 1,
-    "sell": 3
-  },
-  "T": {
-    "buy": 0,
-    "sell": 1
-  },
-  "MDLZ": {
-    "buy": 0,
-    "sell": 1
-  },
-  "ACN": {
-    "buy": 1,
-    "sell": 1
-  },
-  "LIN": {
-    "buy": 0,
-    "sell": 1
-  },
-  "ADI": {
-    "buy": 1,
-    "sell": 1
-  },
-  "EQR": {
-    "buy": 0,
-    "sell": 1
-  },
-  "LOW": {
-    "buy": 1,
-    "sell": 2
-  },
-  "TMO": {
-    "buy": 0,
-    "sell": 3
-  },
-  "V": {
-    "buy": 1,
-    "sell": 2
-  },
-  "INTU": {
-    "buy": 0,
-    "sell": 1
-  },
-  "DE": {
-    "buy": 0,
-    "sell": 2
-  },
-  "EL": {
-    "buy": 0,
-    "sell": 1
-  },
-  "HON": {
-    "buy": 0,
-    "sell": 1
-  },
-  "DG": {
-    "buy": 0,
-    "sell": 1
-  },
-  "CSX": {
-    "buy": 1,
-    "sell": 1
-  },
-  "ADM": {
-    "buy": 0,
-    "sell": 0
-  },
-  "STZ": {
-    "buy": 0,
-    "sell": 0
-  },
-  "USIG": {
-    "buy": 1,
-    "sell": 0
-  },
-  "GS": {
-    "buy": 5,
-    "sell": 4
-  },
-  "MA": {
-    "buy": 2,
-    "sell": 2
-  },
-  "JPM": {
-    "buy": 1,
-    "sell": 1
-  },
-  "DUK": {
-    "buy": 1,
-    "sell": 0
-  },
-  "BMY": {
-    "buy": 0,
-    "sell": 0
-  },
-  "BEN": {
-    "buy": 0,
-    "sell": 1
-  },
-  "PLD": {
-    "buy": 1,
-    "sell": 0
-  },
-  "FCNCA": {
-    "buy": 2,
-    "sell": 0
-  },
-  "FTV": {
-    "buy": 0,
-    "sell": 1
-  },
-  "CP": {
-    "buy": 1,
-    "sell": 1
-  },
-  "GILD": {
-    "buy": 5,
-    "sell": 0
-  },
-  "LRCX": {
-    "buy": 0,
-    "sell": 0
-  },
-  "AMAT": {
-    "buy": 7,
-    "sell": 0
-  },
-  "BAC": {
-    "buy": 1,
-    "sell": 1
-  },
-  "SHY": {
-    "buy": 1,
-    "sell": 0
-  },
-  "IVW": {
-    "buy": 0,
-    "sell": 0
-  },
-  "ORCL": {
-    "buy": 1,
-    "sell": 1
-  },
-  "HYG": {
-    "buy": 1,
-    "sell": 0
-  },
-  "FTGC": {
-    "buy": 2,
-    "sell": 0
-  },
-  "COLPAL": {
-    "buy": 1,
-    "sell": 0
-  },
-  "FIS": {
-    "buy": 2,
-    "sell": 1
-  },
-  "LNG": {
-    "buy": 1,
-    "sell": 0
-  },
-  "KKR": {
-    "buy": 0,
-    "sell": 2
-  },
-  "DHI": {
-    "buy": 1,
-    "sell": 0
-  },
-  "TPH": {
-    "buy": 1,
-    "sell": 0
-  },
-  "TLK": {
-    "buy": 1,
-    "sell": 0
-  },
-  "HD": {
-    "buy": 3,
-    "sell": 1
-  },
-  "TTNDY": {
-    "buy": 1,
-    "sell": 0
-  },
-  "EPAC": {
-    "buy": 0,
-    "sell": 1
-  },
-  "HLMN": {
-    "buy": 0,
-    "sell": 1
-  },
-  "CDRE": {
-    "buy": 0,
-    "sell": 1
-  },
-  "TWLO": {
-    "buy": 0,
-    "sell": 1
-  },
-  "ABBV": {
-    "buy": 1,
-    "sell": 2
-  },
-  "PAR": {
-    "buy": 0,
-    "sell": 1
-  },
-  "ASML": {
-    "buy": 1,
-    "sell": 2
-  },
-  "AEIS": {
-    "buy": 0,
-    "sell": 1
-  },
-  "TEL": {
-    "buy": 0,
-    "sell": 2
-  },
-  "USPH": {
-    "buy": 0,
-    "sell": 1
-  },
-  "THR": {
-    "buy": 0,
-    "sell": 1
-  },
-  "APP": {
-    "buy": 0,
-    "sell": 2
-  },
-  "UPS": {
-    "buy": 1,
-    "sell": 4
-  },
-  "SMNNY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "MMM": {
-    "buy": 1,
-    "sell": 0
-  },
-  "TCEHY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "MFC": {
-    "buy": 0,
-    "sell": 1
-  },
-  "FMX": {
-    "buy": 0,
-    "sell": 1
-  },
-  "DASH": {
-    "buy": 0,
-    "sell": 1
-  },
-  "ADC": {
-    "buy": 0,
-    "sell": 1
-  },
-  "HMN": {
-    "buy": 0,
-    "sell": 1
-  },
-  "PAYX": {
-    "buy": 2,
-    "sell": 1
-  },
-  "BHP": {
-    "buy": 1,
-    "sell": 2
-  },
-  "D": {
-    "buy": 0,
-    "sell": 1
-  },
-  "HLN": {
-    "buy": 0,
-    "sell": 1
-  },
-  "CINF": {
-    "buy": 0,
-    "sell": 1
-  },
-  "DBSDY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "INSM": {
-    "buy": 0,
-    "sell": 1
-  },
-  "BCPC": {
-    "buy": 0,
-    "sell": 1
-  },
-  "HLI": {
-    "buy": 0,
-    "sell": 1
-  },
-  "BRK.B": {
-    "buy": 2,
-    "sell": 1
-  },
-  "FAST": {
-    "buy": 0,
-    "sell": 1
-  },
-  "ABG": {
-    "buy": 0,
-    "sell": 1
-  },
-  "SHEL": {
-    "buy": 0,
-    "sell": 2
-  },
-  "CSCO": {
-    "buy": 0,
-    "sell": 1
-  },
-  "RBC": {
-    "buy": 0,
-    "sell": 1
-  },
-  "MGY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "ATLKY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "MTSI": {
-    "buy": 0,
-    "sell": 1
-  },
-  "DSGX": {
-    "buy": 0,
-    "sell": 1
-  },
-  "CBZ": {
-    "buy": 0,
-    "sell": 1
-  },
-  "DASTY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "RHHBY": {
-    "buy": 0,
-    "sell": 2
-  },
-  "CCI": {
-    "buy": 2,
-    "sell": 2
-  },
-  "SF": {
-    "buy": 0,
-    "sell": 1
-  },
-  "NSC": {
-    "buy": 2,
-    "sell": 2
-  },
-  "UFPI": {
-    "buy": 0,
-    "sell": 1
-  },
-  "NTDOY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "SLGN": {
-    "buy": 0,
-    "sell": 1
-  },
-  "CHGCY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "TXN": {
-    "buy": 1,
-    "sell": 1
-  },
-  "IDA": {
-    "buy": 0,
-    "sell": 1
-  },
-  "JNJ": {
-    "buy": 1,
-    "sell": 3
-  },
-  "RIO": {
-    "buy": 0,
-    "sell": 2
-  },
-  "ISRG": {
-    "buy": 0,
-    "sell": 2
-  },
-  "APD": {
-    "buy": 0,
-    "sell": 1
-  },
-  "ABCB": {
-    "buy": 0,
-    "sell": 1
-  },
-  "SSMXY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "APPF": {
-    "buy": 0,
-    "sell": 1
-  },
-  "SAP": {
-    "buy": 0,
-    "sell": 2
-  },
-  "NOC": {
-    "buy": 0,
-    "sell": 1
-  },
-  "CATY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "ALIZY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "CENTA": {
-    "buy": 0,
-    "sell": 1
-  },
-  "STAG": {
-    "buy": 0,
-    "sell": 3
-  },
-  "UMBF": {
-    "buy": 0,
-    "sell": 1
-  },
-  "SPXC": {
-    "buy": 0,
-    "sell": 1
-  },
-  "PATK": {
-    "buy": 0,
-    "sell": 1
-  },
-  "KO": {
-    "buy": 1,
-    "sell": 1
-  },
-  "STRL": {
-    "buy": 0,
-    "sell": 1
-  },
-  "GMED": {
-    "buy": 0,
-    "sell": 1
-  },
-  "PGR": {
-    "buy": 0,
-    "sell": 1
-  },
-  "SKY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "NSRGY": {
-    "buy": 0,
-    "sell": 2
-  },
-  "HDB": {
-    "buy": 0,
-    "sell": 1
-  },
-  "INTA": {
-    "buy": 0,
-    "sell": 1
-  },
-  "MCK": {
-    "buy": 1,
-    "sell": 1
-  },
-  "LRLCY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "TSM": {
-    "buy": 0,
-    "sell": 2
-  },
-  "KR": {
-    "buy": 0,
-    "sell": 1
-  },
-  "RMD": {
-    "buy": 0,
-    "sell": 1
-  },
-  "ASHTY": {
-    "buy": 0,
-    "sell": 4
-  },
-  "ARMK": {
-    "buy": 1,
-    "sell": 1
-  },
-  "VLO": {
-    "buy": 0,
-    "sell": 0
-  },
-  "COP": {
-    "buy": 1,
-    "sell": 1
-  },
-  "ZTS": {
-    "buy": 0,
-    "sell": 1
-  },
-  "CNQ": {
-    "buy": 0,
-    "sell": 1
-  },
-  "TOELY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "BA": {
-    "buy": 1,
-    "sell": 1
-  },
-  "DB": {
-    "buy": 0,
-    "sell": 1
-  },
-  "FANUY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "CAT": {
-    "buy": 2,
-    "sell": 1
-  },
-  "ABT": {
-    "buy": 0,
-    "sell": 1
-  },
-  "ISNPY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "SPOT": {
-    "buy": 1,
-    "sell": 1
-  },
-  "TM": {
-    "buy": 0,
-    "sell": 1
-  },
-  "CRARY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "CFRUY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "MRK": {
-    "buy": 3,
-    "sell": 2
-  },
-  "LVMUY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "DSDVY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "ASAZY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "PG": {
-    "buy": 0,
-    "sell": 1
-  },
-  "MRAAY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "HKXCY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "UNCRY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "NWG": {
-    "buy": 0,
-    "sell": 1
-  },
-  "UBS": {
-    "buy": 0,
-    "sell": 1
-  },
-  "SAFRY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "AXP": {
-    "buy": 4,
-    "sell": 1
-  },
-  "GSK": {
-    "buy": 0,
-    "sell": 1
-  },
-  "XOM": {
-    "buy": 0,
-    "sell": 1
-  },
-  "EW": {
-    "buy": 0,
-    "sell": 1
-  },
-  "MUFG": {
-    "buy": 0,
-    "sell": 1
-  },
-  "CMI": {
-    "buy": 2,
-    "sell": 1
-  },
-  "C": {
-    "buy": 0,
-    "sell": 1
-  },
-  "FCX": {
-    "buy": 0,
-    "sell": 1
-  },
-  "PFE": {
-    "buy": 1,
-    "sell": 2
-  },
-  "VCISY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "EMR": {
-    "buy": 1,
-    "sell": 1
-  },
-  "ADDYY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "BCS": {
-    "buy": 0,
-    "sell": 1
-  },
-  "AZN": {
-    "buy": 0,
-    "sell": 1
-  },
-  "COST": {
-    "buy": 0,
-    "sell": 1
-  },
-  "BSX": {
-    "buy": 1,
-    "sell": 2
-  },
-  "DTEGY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "BP": {
-    "buy": 1,
-    "sell": 1
-  },
-  "HSBC": {
-    "buy": 0,
-    "sell": 1
-  },
-  "MHVIY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "SCHW": {
-    "buy": 1,
-    "sell": 1
-  },
-  "ITW": {
-    "buy": 0,
-    "sell": 1
-  },
-  "BUD": {
-    "buy": 0,
-    "sell": 1
-  },
-  "SONY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "SCGLY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "SIEGY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "WMT": {
-    "buy": 2,
-    "sell": 1
-  },
-  "NRDBY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "JCI": {
-    "buy": 0,
-    "sell": 1
-  },
-  "SU": {
-    "buy": 0,
-    "sell": 1
-  },
-  "NLY": {
-    "buy": 1,
-    "sell": 0
-  },
-  "FBIN": {
-    "buy": 0,
-    "sell": 1
-  },
-  "CMG": {
-    "buy": 1,
-    "sell": 0
-  },
-  "BUSE": {
-    "buy": 0,
-    "sell": 1
-  },
-  "ROST": {
-    "buy": 1,
-    "sell": 0
-  },
-  "SPGI": {
-    "buy": 1,
-    "sell": 0
-  },
-  "HEI.A": {
-    "buy": 0,
-    "sell": 1
-  },
-  "CG": {
-    "buy": 0,
-    "sell": 1
-  },
-  "ADSK": {
-    "buy": 1,
-    "sell": 0
-  },
-  "ARES": {
-    "buy": 1,
-    "sell": 0
-  },
-  "LULU": {
-    "buy": 0,
-    "sell": 1
-  },
-  "A": {
-    "buy": 1,
-    "sell": 0
-  },
-  "WDC": {
-    "buy": 1,
-    "sell": 2
-  },
-  "LFUS": {
-    "buy": 1,
-    "sell": 0
-  },
-  "SYK": {
-    "buy": 1,
-    "sell": 0
-  },
-  "NEE": {
-    "buy": 2,
-    "sell": 1
-  },
-  "SNPS": {
-    "buy": 1,
-    "sell": 0
-  },
-  "LGIH": {
-    "buy": 0,
-    "sell": 1
-  },
-  "LMT": {
-    "buy": 2,
-    "sell": 0
-  },
-  "KEYS": {
-    "buy": 0,
-    "sell": 1
-  },
-  "SLB": {
-    "buy": 0,
-    "sell": 1
-  },
-  "HRI": {
-    "buy": 0,
-    "sell": 1
-  },
-  "CLX": {
-    "buy": 0,
-    "sell": 1
-  },
-  "MCD": {
-    "buy": 1,
-    "sell": 0
-  },
-  "WY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "XYZ": {
-    "buy": 0,
-    "sell": 1
-  },
-  "ZBH": {
-    "buy": 1,
-    "sell": 0
-  },
-  "CNC": {
-    "buy": 2,
-    "sell": 0
-  },
-  "TGT": {
-    "buy": 1,
-    "sell": 0
-  },
-  "NKE": {
-    "buy": 1,
-    "sell": 0
-  },
-  "OXY": {
-    "buy": 3,
-    "sell": 0
-  },
-  "DVN": {
-    "buy": 2,
-    "sell": 0
-  },
-  "DELL": {
-    "buy": 4,
-    "sell": 0
-  },
-  "FRO": {
-    "buy": 1,
-    "sell": 0
-  },
-  "FDX": {
-    "buy": 1,
-    "sell": 0
-  },
-  "QCOM": {
-    "buy": 1,
-    "sell": 0
-  },
-  "PANW": {
-    "buy": 1,
-    "sell": 0
-  },
-  "INTC": {
-    "buy": 4,
-    "sell": 0
-  },
-  "ODFL": {
-    "buy": 1,
-    "sell": 0
-  },
-  "KMI": {
-    "buy": 2,
-    "sell": 0
-  },
-  "DLR": {
-    "buy": 1,
-    "sell": 0
-  },
-  "BDRFF": {
-    "buy": 1,
-    "sell": 0
-  },
-  "ALKT": {
-    "buy": 2,
-    "sell": 0
-  },
-  "K": {
-    "buy": 1,
-    "sell": 0
-  },
-  "HUM": {
-    "buy": 0,
-    "sell": 1
-  },
-  "CPRI": {
-    "buy": 0,
-    "sell": 1
-  },
-  "MOH": {
-    "buy": 1,
-    "sell": 0
-  },
-  "YUM": {
-    "buy": 1,
-    "sell": 0
-  },
-  "ORLY": {
-    "buy": 1,
-    "sell": 0
-  },
-  "DXC": {
-    "buy": 0,
-    "sell": 1
-  },
-  "DOW": {
-    "buy": 0,
-    "sell": 1
-  },
-  "ZION": {
-    "buy": 0,
-    "sell": 1
-  },
-  "PTC": {
-    "buy": 1,
-    "sell": 0
-  },
-  "WRB": {
-    "buy": 0,
-    "sell": 2
-  },
-  "PCVX": {
-    "buy": 3,
-    "sell": 0
-  },
-  "CRNX": {
-    "buy": 1,
-    "sell": 0
-  },
-  "AGIO": {
-    "buy": 1,
-    "sell": 0
-  },
-  "FLYW": {
-    "buy": 0,
-    "sell": 1
-  },
-  "SLAB": {
-    "buy": 0,
-    "sell": 1
-  },
-  "IR": {
-    "buy": 1,
-    "sell": 0
-  },
-  "FERG": {
-    "buy": 1,
-    "sell": 0
-  },
-  "SRPT": {
-    "buy": 0,
-    "sell": 1
-  },
-  "RNMBF": {
-    "buy": 1,
-    "sell": 0
-  },
-  "CHX": {
-    "buy": 0,
-    "sell": 1
-  },
-  "TECH": {
-    "buy": 2,
-    "sell": 0
-  },
-  "TTC": {
-    "buy": 0,
-    "sell": 2
-  },
-  "DAY": {
-    "buy": 0,
-    "sell": 1
-  },
-  "MKL": {
-    "buy": 2,
-    "sell": 0
-  },
-  "AOS": {
-    "buy": 0,
-    "sell": 2
-  },
-  "IDXX": {
-    "buy": 1,
-    "sell": 0
-  },
-  "BJ": {
-    "buy": 1,
-    "sell": 0
-  },
-  "BITB": {
-    "buy": 18,
-    "sell": 0
-  },
-  "BEEP": {
-    "buy": 0,
-    "sell": 0
-  },
-  "FMAO": {
-    "buy": 1,
-    "sell": 0
-  },
-  "FWONK": {
-    "buy": 2,
-    "sell": 0
-  },
-  "DTE": {
-    "buy": 0,
-    "sell": 0
-  },
-  "TBLL": {
-    "buy": 6,
-    "sell": 0
-  },
-  "BWIN": {
-    "buy": 0,
-    "sell": 1
-  },
-  "COF": {
-    "buy": 1,
-    "sell": 0
-  },
-  "PLTR": {
-    "buy": 1,
-    "sell": 0
-  },
-  "CEG": {
-    "buy": 2,
-    "sell": 0
-  },
-  "GIS": {
-    "buy": 0,
-    "sell": 0
-  },
-  "WFC": {
-    "buy": 4,
-    "sell": 0
-  },
-  "EMLP": {
-    "buy": 0,
-    "sell": 0
-  },
-  "DIS": {
-    "buy": 0,
-    "sell": 0
-  },
-  "QSR": {
-    "buy": 0,
-    "sell": 0
-  },
-  "ECL": {
-    "buy": 1,
-    "sell": 0
-  },
-  "LITP": {
-    "buy": 1,
-    "sell": 0
-  },
-  "MSI": {
-    "buy": 2,
-    "sell": 0
-  },
-  "URNM": {
-    "buy": 1,
-    "sell": 0
-  },
-  "CMCSA": {
-    "buy": 0,
-    "sell": 0
-  },
-  "VAW": {
-    "buy": 0,
-    "sell": 0
-  },
-  "LHX": {
-    "buy": 1,
-    "sell": 0
-  },
-  "PM": {
-    "buy": 1,
-    "sell": 0
-  },
-  "IQV": {
-    "buy": 2,
-    "sell": 0
-  },
-  "LPLA": {
-    "buy": 1,
-    "sell": 0
-  },
-  "TJX": {
-    "buy": 2,
-    "sell": 0
-  },
-  "BRK": {
-    "buy": 0,
-    "sell": 0
-  },
-  "CRDO": {
-    "buy": 3,
-    "sell": 0
-  },
-  "MTZ": {
-    "buy": 3,
-    "sell": 0
-  },
-  "AIT": {
-    "buy": 3,
-    "sell": 0
-  },
-  "COHR": {
-    "buy": 3,
-    "sell": 0
-  },
-  "PRMB": {
-    "buy": 3,
-    "sell": 0
-  },
-  "LRN": {
-    "buy": 5,
-    "sell": 0
-  },
-  "WAB": {
-    "buy": 3,
-    "sell": 0
-  },
-  "IRM": {
-    "buy": 3,
-    "sell": 0
-  },
-  "MU": {
-    "buy": 1,
-    "sell": 0
-  },
-  "HWM": {
-    "buy": 1,
-    "sell": 0
-  },
-  "OKTA": {
-    "buy": 0,
-    "sell": 0
-  },
-  "IRBT": {
-    "buy": 0,
-    "sell": 0
-  },
-  "SOLV": {
-    "buy": 0,
-    "sell": 0
-  },
-  "DEO": {
-    "buy": 0,
-    "sell": 0
-  },
-  "CARR": {
-    "buy": 0,
-    "sell": 0
-  },
-  "TSCO": {
-    "buy": 0,
-    "sell": 0
-  },
-  "PSX": {
-    "buy": 0,
-    "sell": 0
-  },
-  "CB": {
-    "buy": 0,
-    "sell": 0
-  },
-  "GWW": {
-    "buy": 0,
-    "sell": 0
-  },
-  "AFL": {
-    "buy": 0,
-    "sell": 0
-  },
-  "RUM": {
-    "buy": 0,
-    "sell": 0
-  },
-  "HPQ": {
-    "buy": 0,
-    "sell": 0
-  },
-  "SPY": {
-    "buy": 2,
-    "sell": 0
-  },
-  "EBAY": {
-    "buy": 0,
-    "sell": 0
-  },
-  "QQQ": {
-    "buy": 0,
-    "sell": 0
-  },
-  "NRG": {
-    "buy": 1,
-    "sell": 0
-  },
-  "EZU": {
-    "buy": 1,
-    "sell": 0
-  },
-  "IEFA": {
-    "buy": 1,
-    "sell": 0
-  },
-  "AHL.C": {
-    "buy": 0,
-    "sell": 0
-  },
-  "GE": {
-    "buy": 1,
-    "sell": 0
-  },
-  "PDBC": {
-    "buy": 0,
-    "sell": 0
-  },
-  "GICIX": {
-    "buy": 1,
-    "sell": 0
-  },
-  "PCLPX": {
-    "buy": 1,
-    "sell": 0
-  },
-  "IEMG": {
-    "buy": 2,
-    "sell": 0
-  },
-  "CFSSX": {
-    "buy": 1,
-    "sell": 0
-  },
-  "VNQ": {
-    "buy": 1,
-    "sell": 0
-  },
-  "AY": {
-    "buy": 0,
-    "sell": 0
-  },
-  "FRPT": {
-    "buy": 0,
-    "sell": 0
-  },
-  "AXON": {
-    "buy": 0,
-    "sell": 0
-  },
-  "OLLI": {
-    "buy": 0,
-    "sell": 0
-  },
-  "CYBR": {
-    "buy": 0,
-    "sell": 0
-  },
-  "ELF": {
-    "buy": 0,
-    "sell": 0
-  },
-  "ETN": {
-    "buy": 0,
-    "sell": 0
-  },
-  "SFM": {
-    "buy": 0,
-    "sell": 0
-  },
-  "BMI": {
-    "buy": 0,
-    "sell": 0
-  },
-  "EQC": {
-    "buy": 0,
-    "sell": 0
-  },
-  "BBEU": {
-    "buy": 0,
-    "sell": 0
-  },
-  "VWO": {
-    "buy": 0,
-    "sell": 0
-  },
-  "SWKS": {
-    "buy": 0,
-    "sell": 0
-  },
-  "AAXJ": {
-    "buy": 1,
-    "sell": 0
-  },
-  "MET": {
-    "buy": 0,
-    "sell": 0
-  },
-  "KVUE": {
-    "buy": 0,
-    "sell": 0
-  },
-  "HIYS": {
-    "buy": 1,
-    "sell": 0
-  },
-  "TCMD": {
-    "buy": 1,
-    "sell": 0
-  },
-  "KMB": {
-    "buy": 0,
-    "sell": 0
-  },
-  "TRV": {
-    "buy": 0,
-    "sell": 0
-  },
-  "OC": {
-    "buy": 0,
-    "sell": 0
-  },
-  "CTVA": {
-    "buy": 0,
-    "sell": 0
-  },
-  "LEG": {
-    "buy": 0,
-    "sell": 0
-  },
-  "LW": {
-    "buy": 0,
-    "sell": 0
-  },
-  "IVZ": {
-    "buy": 0,
-    "sell": 0
-  },
-  "CSL": {
-    "buy": 1,
-    "sell": 0
-  },
-  "CELH": {
-    "buy": 0,
-    "sell": 0
-  },
-  "IWM": {
-    "buy": 0,
-    "sell": 0
-  },
-  "IVV": {
-    "buy": 1,
-    "sell": 0
-  },
-  "MDY": {
-    "buy": 0,
-    "sell": 0
-  },
-  "EFA": {
-    "buy": 0,
-    "sell": 0
-  },
-  "VEA": {
-    "buy": 4,
-    "sell": 0
-  },
-  "VNQI": {
-    "buy": 0,
-    "sell": 0
-  },
-  "TPYP": {
-    "buy": 0,
-    "sell": 0
-  },
-  "WWSYX": {
-    "buy": 0,
-    "sell": 0
-  },
-  "CMBS": {
-    "buy": 1,
-    "sell": 0
-  },
-  "IEF": {
-    "buy": 1,
-    "sell": 0
-  },
-  "GIGB": {
-    "buy": 2,
-    "sell": 0
-  },
-  "TLT": {
-    "buy": 1,
-    "sell": 0
-  },
-  "MBB": {
-    "buy": 1,
-    "sell": 0
-  },
-  "SCHP": {
-    "buy": 2,
-    "sell": 0
-  },
-  "AGZ": {
-    "buy": 1,
-    "sell": 0
-  },
-  "IEI": {
-    "buy": 1,
-    "sell": 0
-  },
-  "PPLT": {
-    "buy": 1,
-    "sell": 0
-  },
-  "JMBS": {
-    "buy": 2,
-    "sell": 0
-  },
-  "PALL": {
-    "buy": 1,
-    "sell": 0
-  },
-  "TLH": {
-    "buy": 2,
-    "sell": 0
-  },
-  "LSXMK": {
-    "buy": 0,
-    "sell": 0
-  },
-  "BATRK": {
-    "buy": 1,
-    "sell": 0
-  },
-  "GL": {
-    "buy": 0,
-    "sell": 0
-  },
-  "MDT": {
-    "buy": 0,
-    "sell": 0
-  },
-  "ABNFX": {
-    "buy": 1,
-    "sell": 0
-  },
-  "CVS": {
-    "buy": 0,
-    "sell": 0
-  },
-  "EIBLX": {
-    "buy": 0,
-    "sell": 0
-  },
-  "LINE": {
-    "buy": 1,
-    "sell": 0
-  },
-  "SNOW": {
-    "buy": 0,
-    "sell": 0
-  },
-  "CAG": {
-    "buy": 0,
-    "sell": 0
-  },
-  "OTIS": {
-    "buy": 0,
-    "sell": 0
-  },
-  "ONEW": {
-    "buy": 0,
-    "sell": 0
-  },
-  "IWB": {
-    "buy": 0,
-    "sell": 0
-  },
-  "PH": {
-    "buy": 1,
-    "sell": 0
-  },
-  "NMVZX": {
-    "buy": 1,
-    "sell": 0
-  },
-  "DALCX": {
-    "buy": 1,
-    "sell": 0
-  },
-  "GEM": {
-    "buy": 1,
-    "sell": 0
-  },
-  "CLF": {
-    "buy": 9,
-    "sell": 0
-  },
-  "PARA": {
-    "buy": 0,
-    "sell": 0
-  },
-  "ARKK": {
-    "buy": 2,
-    "sell": 0
-  },
-  "KEY": {
-    "buy": 1,
-    "sell": 0
-  },
-  "GOLD": {
-    "buy": 3,
-    "sell": 0
-  },
-  "XBI": {
-    "buy": 2,
-    "sell": 0
-  },
-  "FITB": {
-    "buy": 1,
-    "sell": 0
-  },
-  "LSCC": {
-    "buy": 0,
-    "sell": 0
-  },
-  "WMS": {
-    "buy": 0,
-    "sell": 0
-  },
-  "CCJ": {
-    "buy": 1,
-    "sell": 0
-  },
-  "ELS": {
-    "buy": 0,
-    "sell": 0
-  },
-  "MPWR": {
-    "buy": 0,
-    "sell": 0
-  },
-  "CBSH": {
-    "buy": 0,
-    "sell": 0
-  },
-  "VRSK": {
-    "buy": 0,
-    "sell": 0
-  },
-  "WAT": {
-    "buy": 0,
-    "sell": 0
-  },
-  "CDNS": {
-    "buy": 0,
-    "sell": 0
-  },
-  "GRMN": {
-    "buy": 0,
-    "sell": 0
-  },
-  "GLPI": {
-    "buy": 0,
-    "sell": 0
-  },
-  "GGG": {
-    "buy": 0,
-    "sell": 0
-  },
-  "UI": {
-    "buy": 0,
-    "sell": 0
-  },
-  "RELX": {
-    "buy": 0,
-    "sell": 0
-  },
-  "HUMA": {
-    "buy": 0,
-    "sell": 0
-  },
-  "VRTX": {
-    "buy": 0,
-    "sell": 0
-  },
-  "INFY": {
-    "buy": 0,
-    "sell": 0
-  },
-  "NDSN": {
-    "buy": 0,
-    "sell": 0
-  },
-  "VIG": {
-    "buy": 1,
-    "sell": 0
-  },
-  "EFAD": {
-    "buy": 0,
-    "sell": 0
-  },
-  "FDRR": {
-    "buy": 0,
-    "sell": 0
-  },
-  "COWZ": {
-    "buy": 1,
-    "sell": 0
-  },
-  "ICOW": {
-    "buy": 1,
-    "sell": 0
-  },
-  "PRF": {
-    "buy": 0,
-    "sell": 0
-  },
-  "CALF": {
-    "buy": 1,
-    "sell": 0
-  },
-  "SMDV": {
-    "buy": 0,
-    "sell": 0
-  },
-  "MOO": {
-    "buy": 0,
-    "sell": 0
-  },
-  "SRVR": {
-    "buy": 1,
-    "sell": 0
-  },
-  "TTE": {
-    "buy": 0,
-    "sell": 0
-  },
-  "ATKR": {
-    "buy": 0,
-    "sell": 0
-  },
-  "IFF": {
-    "buy": 0,
-    "sell": 0
-  },
-  "CCL": {
-    "buy": 0,
-    "sell": 0
+  "timestamp": "2025-05-25T06:30:46.635489",
+  "tickers": {
+    "STT": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "UNH": {
+      "sentiment": "positive",
+      "score": 0.14
+    },
+    "NVDA": {
+      "sentiment": "positive",
+      "score": 0.5
+    },
+    "HSY": {
+      "sentiment": "positive",
+      "score": 0.33
+    },
+    "TSLA": {
+      "sentiment": "positive",
+      "score": 0.33
+    },
+    "NOW": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "CAH": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "NFLX": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "AMGN": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "AMD": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "GOOG": {
+      "sentiment": "positive",
+      "score": 0.5
+    },
+    "GLW": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "LLY": {
+      "sentiment": "positive",
+      "score": 0.25
+    },
+    "META": {
+      "sentiment": "negative",
+      "score": -0.14
+    },
+    "BX": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "MS": {
+      "sentiment": "positive",
+      "score": 0.33
+    },
+    "CVX": {
+      "sentiment": "positive",
+      "score": 0.2
+    },
+    "PI": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "MELI": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "SAIC": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "LDOS": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "AAPL": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "GOOGL": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "HON": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "DE": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "ACN": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "TMO": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "AVGO": {
+      "sentiment": "positive",
+      "score": 0.33
+    },
+    "UNP": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "EL": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "LOW": {
+      "sentiment": "negative",
+      "score": -0.33
+    },
+    "TFC": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "MDLZ": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "ADI": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "BKNG": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "ADBE": {
+      "sentiment": "positive",
+      "score": 0.2
+    },
+    "EVRG": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "RTX": {
+      "sentiment": "negative",
+      "score": -0.33
+    },
+    "BLK": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "PEP": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "DHR": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "NI": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "VFC": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "V": {
+      "sentiment": "negative",
+      "score": -0.33
+    },
+    "DG": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "T": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "AMZN": {
+      "sentiment": "positive",
+      "score": 0.11
+    },
+    "ELV": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "LIN": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "FTNT": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "WTRG": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "MCO": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "FI": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "SBUX": {
+      "sentiment": "negative",
+      "score": -0.75
+    },
+    "EQR": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "MPC": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "MSFT": {
+      "sentiment": "positive",
+      "score": 0.5
+    },
+    "VZ": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "MGA": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "PYPL": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "INTU": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "CRM": {
+      "sentiment": "negative",
+      "score": -0.5
+    },
+    "STZ": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "BMY": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "DUK": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "JPM": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "CSX": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "MA": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "GS": {
+      "sentiment": "positive",
+      "score": 0.11
+    },
+    "USIG": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "ADM": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "BEN": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "PLD": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "FCNCA": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "FTV": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "CP": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "AMAT": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "LRCX": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "GILD": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "BAC": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "SHY": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "IVW": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "ORCL": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "HYG": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "FTGC": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "COLPAL": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "FIS": {
+      "sentiment": "positive",
+      "score": 0.33
+    },
+    "LNG": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "TLK": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "TPH": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "DHI": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "KKR": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "HD": {
+      "sentiment": "positive",
+      "score": 0.5
+    },
+    "TTNDY": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "TEL": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "PAR": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "HLMN": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "ASML": {
+      "sentiment": "negative",
+      "score": -0.33
+    },
+    "ABBV": {
+      "sentiment": "negative",
+      "score": -0.33
+    },
+    "CDRE": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "AEIS": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "USPH": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "TWLO": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "EPAC": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "THR": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "APP": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "UPS": {
+      "sentiment": "negative",
+      "score": -0.6
+    },
+    "MMM": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "SMNNY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "CATY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "LRLCY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "BCPC": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "DBSDY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "SKY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "SLGN": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "SAP": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "CBZ": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "FAST": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "APD": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "DSGX": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "RBC": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "NOC": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "TSM": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "GMED": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "SSMXY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "FMX": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "MCK": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "CINF": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "KO": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "ALIZY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "INTA": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "PAYX": {
+      "sentiment": "positive",
+      "score": 0.33
+    },
+    "CSCO": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "TXN": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "DASH": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "PGR": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "INSM": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "MFC": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "DASTY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "JNJ": {
+      "sentiment": "negative",
+      "score": -0.5
+    },
+    "APPF": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "STRL": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "SF": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "ABG": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "IDA": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "CHGCY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "ABCB": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "BRK.B": {
+      "sentiment": "positive",
+      "score": 0.33
+    },
+    "RHHBY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "CENTA": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "NSC": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "ISRG": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "STAG": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "HLI": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "MTSI": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "TCEHY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "ATLKY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "HLN": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "BHP": {
+      "sentiment": "negative",
+      "score": -0.33
+    },
+    "MGY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "SPXC": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "HMN": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "SHEL": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "NTDOY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "CCI": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "NSRGY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "HDB": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "UFPI": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "ADC": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "RIO": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "PATK": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "D": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "UMBF": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "KR": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "RMD": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "ARMK": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "ASHTY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "VLO": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "COP": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "ZTS": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "NWG": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "TOELY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "BCS": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "MHVIY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "C": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "AXP": {
+      "sentiment": "positive",
+      "score": 0.6
+    },
+    "BSX": {
+      "sentiment": "negative",
+      "score": -0.33
+    },
+    "PFE": {
+      "sentiment": "negative",
+      "score": -0.33
+    },
+    "BP": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "SONY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "FCX": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "MRAAY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "DSDVY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "FANUY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "HKXCY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "VCISY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "CFRUY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "CAT": {
+      "sentiment": "positive",
+      "score": 0.33
+    },
+    "AZN": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "EW": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "LVMUY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "CMI": {
+      "sentiment": "positive",
+      "score": 0.33
+    },
+    "SIEGY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "JCI": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "ASAZY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "COST": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "CRARY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "ITW": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "DB": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "UNCRY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "GSK": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "SPOT": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "ABT": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "WMT": {
+      "sentiment": "positive",
+      "score": 0.33
+    },
+    "ISNPY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "CNQ": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "SCHW": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "TM": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "UBS": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "BUD": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "NRDBY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "ADDYY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "EMR": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "HSBC": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "SCGLY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "MUFG": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "BA": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "MRK": {
+      "sentiment": "positive",
+      "score": 0.2
+    },
+    "PG": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "DTEGY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "SAFRY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "SU": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "XOM": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "NLY": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "ROST": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "CMG": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "BUSE": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "ARES": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "ADSK": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "NEE": {
+      "sentiment": "positive",
+      "score": 0.33
+    },
+    "FBIN": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "A": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "SPGI": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "SYK": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "LFUS": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "SNPS": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "HEI.A": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "LULU": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "CG": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "WDC": {
+      "sentiment": "negative",
+      "score": -0.33
+    },
+    "WY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "HRI": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "KEYS": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "LGIH": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "XYZ": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "MCD": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "CLX": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "SLB": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "LMT": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "TGT": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "NKE": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "OXY": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "KMI": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "DVN": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "DELL": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "FRO": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "INTC": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "ODFL": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "FDX": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "DLR": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "QCOM": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "PANW": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "BDRFF": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "ALKT": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "HUM": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "K": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "ORLY": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "DXC": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "DOW": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "MOH": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "YUM": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "CPRI": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "ZION": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "CNC": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "PCVX": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "PTC": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "WRB": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "CRNX": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "AGIO": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "FLYW": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "SLAB": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "SRPT": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "IR": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "FERG": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "RNMBF": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "CHX": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "TECH": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "TTC": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "DAY": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "MKL": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "AOS": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "IDXX": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "BJ": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "BITB": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "BEEP": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "FMAO": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "FWONK": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "DTE": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "TBLL": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "BWIN": {
+      "sentiment": "negative",
+      "score": -1.0
+    },
+    "COF": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "PLTR": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "CEG": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "GIS": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "WFC": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "EMLP": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "DIS": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "QSR": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "LITP": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "ECL": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "MSI": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "URNM": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "CMCSA": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "TJX": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "VAW": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "LPLA": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "PM": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "BRK": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "LHX": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "IQV": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "COHR": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "CRDO": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "AIT": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "PRMB": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "MTZ": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "IRM": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "LRN": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "WAB": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "MU": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "HWM": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "OKTA": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "SOLV": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "IRBT": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "TSCO": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "DEO": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "CARR": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "CB": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "PSX": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "AFL": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "GWW": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "RUM": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "HPQ": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "SPY": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "EBAY": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "QQQ": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "NRG": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "EZU": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "IEFA": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "AHL.C": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "GE": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "GICIX": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "PDBC": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "PCLPX": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "IEMG": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "CFSSX": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "VNQ": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "AY": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "ETN": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "AXON": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "OLLI": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "CYBR": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "BMI": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "FRPT": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "ELF": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "SFM": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "EQC": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "VWO": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "SWKS": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "BBEU": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "AAXJ": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "MET": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "KVUE": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "HIYS": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "TCMD": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "OC": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "TRV": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "KMB": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "CTVA": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "LW": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "LEG": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "IVZ": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "CSL": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "CELH": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "IWM": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "IVV": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "MDY": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "EFA": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "VEA": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "WWSYX": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "TPYP": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "VNQI": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "TLT": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "PPLT": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "GIGB": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "TLH": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "PALL": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "IEI": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "IEF": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "CMBS": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "SCHP": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "MBB": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "JMBS": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "AGZ": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "LSXMK": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "BATRK": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "GL": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "ABNFX": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "EIBLX": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "MDT": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "CVS": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "LINE": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "SNOW": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "CAG": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "OTIS": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "ONEW": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "IWB": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "PH": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "NMVZX": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "DALCX": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "GEM": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "CLF": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "PARA": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "ARKK": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "KEY": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "XBI": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "GOLD": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "CCJ": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "LSCC": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "FITB": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "WMS": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "GRMN": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "GLPI": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "TER": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "CBSH": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "QLYS": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "RELX": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "FDS": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "UI": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "INFY": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "WAT": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "JKHY": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "CTAS": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "DECK": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "HUMA": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "CDNS": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "VRTX": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "VIG": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "PRF": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "ICOW": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "EFAD": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "FDRR": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "COWZ": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "SMDV": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "CALF": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "SRVR": {
+      "sentiment": "positive",
+      "score": 1.0
+    },
+    "MOO": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "TTE": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "ATKR": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "IFF": {
+      "sentiment": "neutral",
+      "score": 0.0
+    },
+    "CCL": {
+      "sentiment": "neutral",
+      "score": 0.0
+    }
   }
 }

@@ -38,20 +38,25 @@ def master_autonomy_loop():
 
             # === Phase and Strategy Detection ===
             phase = auto_detect_phase()
-            strategy = recommend_best_strategy()
+            strategy_info = recommend_best_strategy()
+            strategy = strategy_info.get("strategy")
+            reason = strategy_info.get("reason", "No backtest results found.")
 
             print(f"[PTM Autonomy] Current phase: {phase}")
-            print(f"[PTM Autonomy] Recommended Strategy: {strategy}")
+            print(f"[PTM Autonomy] Recommended Strategy: {strategy_info}")
 
             # === Log Strategy and Phase ===
             log_phase_and_strategy(phase, strategy)
-            log_strategy_reason(strategy=strategy.get("strategy"), reason=strategy.get("reason"))
+            log_strategy_reason(strategy, reason)
 
             # === Health Check ===
             check_brain_health()
 
             # === Strategy Execution ===
-            execute_best_strategy()
+            if strategy:
+                execute_best_strategy()
+            else:
+                print("[Strategy Runner] No strategy available.")
 
             # === Autonomous Thinking ===
             run_thinking_cycle()
@@ -67,3 +72,4 @@ def master_autonomy_loop():
         except Exception as e:
             print(f"[PTM Autonomy] ERROR in loop: {e}")
             run_self_healing_autofix()
+            time.sleep(5)

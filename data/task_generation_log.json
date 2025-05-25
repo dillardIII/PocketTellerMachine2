@@ -1,0 +1,186 @@
+[
+  {
+    "timestamp": "2025-05-25T08:46:16.924739",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:46:16.928107",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:46:19.576814",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:46:21.940210",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:46:21.964798",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:46:24.583514",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:46:24.589438",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:46:27.149787",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:46:27.299379",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:46:29.600320",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:46:32.174992",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:46:32.335332",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:46:34.608434",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:46:34.616054",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:46:37.187780",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:46:37.350587",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:46:39.642653",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:46:42.213217",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:46:42.365824",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:46:44.644472",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:46:44.658563",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:48:30.091017",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T08:48:30.121710",
+    "event": "Task Parse Failed",
+    "payload": {
+      "error": "Expecting value: line 1 column 2 (char 1)",
+      "raw": "[GPT ERROR] \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+    }
+  }
+]

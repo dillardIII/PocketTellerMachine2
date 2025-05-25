@@ -1,0 +1,547 @@
+[
+  {
+    "timestamp": "2025-05-25 03:12:59.661436",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:33:39.675403",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:38:16.474278",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:38:26.486673",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:38:36.645979",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:38:46.657433",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:38:56.663443",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:39:06.674415",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:39:16.691890",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:39:26.705998",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:39:36.715051",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:39:46.723910",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:39:56.733405",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:40:06.741673",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:40:16.752292",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:40:26.770179",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:40:36.885464",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:40:46.896871",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:40:56.936075",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:41:06.953619",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:41:16.967045",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:41:26.997201",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:41:37.013939",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:41:47.030195",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:41:57.082508",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:42:07.103324",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:42:17.129100",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:42:27.183286",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:42:37.287303",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:42:47.323483",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:42:57.355407",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:43:07.373456",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:43:17.408965",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:43:27.447389",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:43:37.468928",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:43:47.498107",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:43:57.533082",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:44:07.556746",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:44:17.570056",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:44:27.594818",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:45:20.960208",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:45:30.988565",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:45:41.005459",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:45:51.034458",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:46:01.063442",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:46:11.084224",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:46:21.122415",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:46:31.156844",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:46:41.174020",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:46:51.189574",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:47:01.207514",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:47:11.226727",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:47:21.256670",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:47:31.290153",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:47:41.309243",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:47:51.343075",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:48:01.380583",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:48:11.400362",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:48:21.420591",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:48:31.439848",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:48:41.463177",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:48:51.488270",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:49:01.507844",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:49:11.543289",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:49:21.579398",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:49:31.601287",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:49:41.638226",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:49:51.715313",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:50:01.736838",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:50:11.770971",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:50:21.809559",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:50:31.844437",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:50:41.875741",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:50:51.905127",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:51:01.936892",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:51:11.968310",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:51:21.996173",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:51:32.047045",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:51:42.069164",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:51:52.120621",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:52:02.154707",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:52:12.222267",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:52:22.251554",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:52:32.271051",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:52:42.316132",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:52:52.343082",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:53:02.376781",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:53:12.399595",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:53:22.424504",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:53:32.456954",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:53:42.484307",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:53:52.951067",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:54:02.979738",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:54:13.020348",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:54:23.043141",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:54:33.075846",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:54:43.100407",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:54:53.278306",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:55:03.308586",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:55:13.345667",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:55:23.371780",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:55:33.383759",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:55:43.417332",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:55:53.445780",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:56:03.466124",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:56:13.494269",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:56:23.531565",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:56:33.577255",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  },
+  {
+    "timestamp": "2025-05-25 03:56:43.602386",
+    "action": "Detected weak strategy",
+    "detail": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00"
+  }
+]

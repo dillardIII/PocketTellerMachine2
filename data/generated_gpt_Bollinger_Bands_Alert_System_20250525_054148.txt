@@ -1,0 +1,39 @@
+Sure, here is a simple Python code that uses the `pandas` library for data manipulation and `yfinance` to download the stock data. This code calculates the Bollinger Bands and generates an alert when the closing price crosses the upper or lower band.
+
+```python
+import pandas as pd
+import yfinance as yf
+
+def calculate_bollinger_bands(df, window, num_std):
+    rolling_mean = df['Close'].rolling(window).mean()
+    rolling_std  = df['Close'].rolling(window).std()
+    
+    df['Bollinger High'] = rolling_mean + (rolling_std * num_std)
+    df['Bollinger Low'] = rolling_mean - (rolling_std * num_std)
+    
+    return df
+
+def generate_alerts(df):
+    buy_signals = (df['Close'] < df['Bollinger Low'])
+    sell_signals = (df['Close'] > df['Bollinger High'])
+    
+    df.loc[buy_signals, 'Signal'] = 'Buy'
+    df.loc[sell_signals, 'Signal'] = 'Sell'
+    
+    return df
+
+def bollinger_bands_alert_system(symbol, window=20, num_std=2):
+    df = yf.download(symbol)
+    df = calculate_bollinger_bands(df, window, num_std)
+    df = generate_alerts(df)
+    
+    return df
+
+# Usage
+df = bollinger_bands_alert_system('AAPL')
+print(df)
+```
+
+In this code, the `calculate_bollinger_bands` function calculates the Bollinger Bands using a specified window and standard deviation multiplier. The `generate_alerts` function generates 'Buy' signals when the closing price is below the lower band and 'Sell' signals when the closing price is above the upper band. The `bollinger_bands_alert_system` function downloads the stock data, calculates the Bollinger Bands, and generates the alerts.
+
+Please note that this is a simple example and does not take into account many factors that should be considered in a real trading system, such as transaction costs, slippage, and risk management. Always do your own research before trading.

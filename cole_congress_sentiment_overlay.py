@@ -1,3 +1,5 @@
+# === FILE: cole_congress_sentiment_overlay.py ===
+
 import os
 import json
 import requests
@@ -21,9 +23,9 @@ def log_sentiment_event(message):
     with open(SENTIMENT_LOG_FILE, "w") as f:
         json.dump(logs[-500:], f, indent=2)
 
-# === Fetch Congress Sentiment ===
+# === Primary: Fetch from Quiver API ===
 def fetch_congress_sentiment():
-    url = f"https://api.quiverquant.com/beta/live/congresstrading"
+    url = "https://api.quiverquant.com/beta/live/congresstrading"
     headers = {"Authorization": f"Bearer {QUIVER_API_KEY}"}
 
     try:
@@ -33,22 +35,62 @@ def fetch_congress_sentiment():
 
         sentiment_summary = {}
         for trade in data:
-            ticker = trade.get('Ticker')
+            ticker = trade.get("Ticker")
             sentiment_summary.setdefault(ticker, {"buy": 0, "sell": 0})
-            if trade.get('Transaction') == "Purchase":
+            if trade.get("Transaction") == "Purchase":
                 sentiment_summary[ticker]["buy"] += 1
-            elif trade.get('Transaction') == "Sale":
+            elif trade.get("Transaction") == "Sale":
                 sentiment_summary[ticker]["sell"] += 1
 
-        with open(SENTIMENT_OVERLAY_FILE, "w") as f:
-            json.dump(sentiment_summary, f, indent=2)
+        overlay = {
+            "timestamp": datetime.now().isoformat(),
+            "tickers": {
+                ticker: {
+                    "sentiment": (
+                        "positive" if stats["buy"] > stats["sell"]
+                        else "negative" if stats["sell"] > stats["buy"]
+                        else "neutral"
+                    ),
+                    "score": round((stats["buy"] - stats["sell"]) / max(stats["buy"] + stats["sell"], 1), 2)
+                }
+                for ticker, stats in sentiment_summary.items()
+            }
+        }
 
-        log_sentiment_event(f"Updated sentiment overlay with {len(sentiment_summary)} tickers.")
-        malik_report(f"[Sentiment Overlay] Updated with {len(sentiment_summary)} tickers.")
+        os.makedirs("data", exist_ok=True)
+        with open(SENTIMENT_OVERLAY_FILE, "w") as f:
+            json.dump(overlay, f, indent=2)
+
+        log_sentiment_event(f"Updated sentiment overlay with {len(overlay['tickers'])} tickers.")
+        malik_report(f"[Sentiment Overlay] Updated with {len(overlay['tickers'])} tickers.")
+        return overlay
 
     except Exception as e:
-        log_sentiment_event(f"[ERROR]: {e}")
-        malik_report(f"[Sentiment Overlay Error] {e}")
+        error_msg = f"[Sentiment Overlay Error] {e}"
+        log_sentiment_event(error_msg)
+        malik_report(error_msg)
+        return fetch_dummy_sentiment()
+
+# === Fallback Dummy Data ===
+def fetch_dummy_sentiment():
+    print("[Congress Sentiment] Using fallback dummy sentiment overlay...")
+
+    dummy_sentiment = {
+        "timestamp": datetime.now().isoformat(),
+        "tickers": {
+            "AAPL": {"sentiment": "positive", "score": 0.7},
+            "TSLA": {"sentiment": "negative", "score": -0.6},
+            "NVDA": {"sentiment": "positive", "score": 0.8},
+            "MSFT": {"sentiment": "neutral", "score": 0.0},
+        }
+    }
+
+    os.makedirs("data", exist_ok=True)
+    with open(SENTIMENT_OVERLAY_FILE, "w") as f:
+        json.dump(dummy_sentiment, f, indent=2)
+
+    malik_report(f"[Sentiment Overlay] Dummy mode: {len(dummy_sentiment['tickers'])} tickers.")
+    return dummy_sentiment
 
 # === CLI Trigger ===
 if __name__ == "__main__":

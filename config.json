@@ -1,0 +1,13 @@
+{
+  "app_mode": "autonomy",
+  "default_voice": "mo_cash_fallback",
+  "autonomy_enabled": true,
+  "strategy_mode": "auto",
+  "active_phase": "startup",
+  "enable_self_healing": true,
+  "voice_output": true,
+  "backtest_enabled": true,
+  "watchlist_enabled": true,
+  "version": "1.0.0",
+  "last_updated": "2025-05-25T00:00:00Z"
+}

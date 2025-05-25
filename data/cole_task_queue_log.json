@@ -88,5 +88,40 @@
     "timestamp": "2025-05-20 07:27:54.157470",
     "task": "Add task to automate position sizing based on volatility.",
     "action": "Added (self_learning)"
+  },
+  {
+    "timestamp": "2025-05-25 03:12:59.654335",
+    "task": "Review and rewrite covered_call strategy. Win rate: 0.0%, avg result: 0.00",
+    "action": "Added (self_write)"
+  },
+  {
+    "timestamp": "2025-05-25 03:33:39.692833",
+    "task": "Analyze failed strategies and generate alternative ideas.",
+    "action": "Added (self_learning)"
+  },
+  {
+    "timestamp": "2025-05-25 06:30:18.649679",
+    "task": "Scan for RSI reversals",
+    "action": "Added (general)"
+  },
+  {
+    "timestamp": "2025-05-25 06:30:18.658102",
+    "task": "Check Bollinger Band breaches",
+    "action": "Added (general)"
+  },
+  {
+    "timestamp": "2025-05-25 06:30:18.660472",
+    "task": "Update EMA crossover table",
+    "action": "Added (general)"
+  },
+  {
+    "timestamp": "2025-05-25 06:30:18.662344",
+    "task": "Review Congress-based signals",
+    "action": "Added (general)"
+  },
+  {
+    "timestamp": "2025-05-25 06:30:18.663288",
+    "task": "Adjust risk weights on all trades",
+    "action": "Added (general)"
   }
 ]

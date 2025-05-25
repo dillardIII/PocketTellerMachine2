@@ -1,62 +1,47 @@
 # === FILE: ptm_gpt_agent.py ===
 
-import json
+import openai
 import os
+import json
 from datetime import datetime
-from cole_gpt_advisor import ask_gpt
 
-ROADMAP_FILE = "project_roadmap.json"
+GPT_SYNC_LOG_FILE = "logs/gpt_cole_sync_log.json"
+openai.api_key = os.getenv("OPENAI_API_KEY")  # Make sure your Replit secrets include this
 
-def handle_agent_input(user_command):
-    prompt = f"""
-You are PTM's AI assistant. A user said:
-
-\"{user_command}\"
-
-Turn that into a roadmap feature in this format:
-{{
-  "id": "featureXXX",
-  "name": "...",
-  "type": "dashboard | strategy | api | education | automation | repair | assistant",
-  "status": "pending",
-  "priority": "high | medium | low",
-  "description": "..."
-}}
-
-Return ONLY the JSON.
-"""
-
-    response = ask_gpt(prompt)
-
+# === Save GPT Suggestions ===
+def log_gpt_feature_suggestion(suggestion):
+    os.makedirs("logs", exist_ok=True)
+    log_entry = {
+        "timestamp": datetime.utcnow().isoformat(),
+        "suggestion": suggestion
+    }
     try:
-        feature = json.loads(response)
-        if not isinstance(feature, dict) or "id" not in feature:
-            raise ValueError("Invalid feature format.")
-        print(f"[GPT Agent] Feature parsed: {feature['name']}")
-        return feature
+        if os.path.exists(GPT_SYNC_LOG_FILE):
+            with open(GPT_SYNC_LOG_FILE, "r") as f:
+                logs = json.load(f)
+        else:
+            logs = []
+        logs.append(log_entry)
+        with open(GPT_SYNC_LOG_FILE, "w") as f:
+            json.dump(logs, f, indent=2)
+    except Exception as e:
+        print(f"[GPT Agent] Failed to log suggestion: {e}")
+
+# === Core GPT Interaction ===
+def run_ptm_gpt_agent(prompt):
+    print(f"[GPT Agent] Processing command: {prompt}")
+    try:
+        response = openai.ChatCompletion.create(
+            model="gpt-4",
+            messages=[
+                {"role": "system", "content": "You are a software architect for a trading AI platform."},
+                {"role": "user", "content": prompt}
+            ]
+        )
+        reply = response['choices'][0]['message']['content']
+        log_gpt_feature_suggestion(reply)
+        print("[GPT Agent] Suggestion logged successfully.")
+        return reply
     except Exception as e:
         print(f"[GPT Agent] Failed to parse GPT response: {e}")
         return None
-
-def append_to_roadmap(feature):
-    if os.path.exists(ROADMAP_FILE):
-        with open(ROADMAP_FILE, "r") as f:
-            roadmap = json.load(f)
-    else:
-        roadmap = {"features": []}
-
-    roadmap["features"].append(feature)
-
-    with open(ROADMAP_FILE, "w") as f:
-        json.dump(roadmap, f, indent=2)
-
-    print(f"[GPT Agent] Appended feature: {feature['name']}")
-
-def run_ptm_gpt_agent(user_command):
-    print(f"[GPT Agent] Processing command: {user_command}")
-    feature = handle_agent_input(user_command)
-    if feature:
-        append_to_roadmap(feature)
-        return {"status": "added", "feature": feature}
-    else:
-        return {"status": "failed"}

@@ -1,0 +1,31 @@
+Sure, here's a simple implementation of a Bollinger Bands Alert System using Python and the pandas library. This code assumes that you have a pandas DataFrame `df` with a 'Close' column for closing prices.
+
+```python
+import pandas as pd
+import numpy as np
+
+def calculate_bollinger_bands(df, window_size=20, num_of_std=2):
+    rolling_mean = df['Close'].rolling(window=window_size).mean()
+    rolling_std  = df['Close'].rolling(window=window_size).std()
+    
+    df['Bollinger High'] = rolling_mean + (rolling_std * num_of_std)
+    df['Bollinger Low'] = rolling_mean - (rolling_std * num_of_std)
+    
+    return df
+
+def bollinger_bands_alert(df):
+    df = calculate_bollinger_bands(df)
+    
+    # Alert if the closing price crosses the Bollinger High or Bollinger Low
+    if df['Close'].iloc[-1] > df['Bollinger High'].iloc[-1]:
+        return 'Sell Alert: Price crossed above the Bollinger High'
+    elif df['Close'].iloc[-1] < df['Bollinger Low'].iloc[-1]:
+        return 'Buy Alert: Price crossed below the Bollinger Low'
+    else:
+        return 'No Alert'
+
+# Assuming df is your DataFrame with a 'Close' column for closing prices
+alert = bollinger_bands_alert(df)
+print(alert)
+```
+This code first calculates the Bollinger Bands for the given DataFrame, then checks if the latest closing price crossed either the Bollinger High (indicating a potential sell signal) or the Bollinger Low (indicating a potential buy signal). If the price crossed either band, an alert is returned; otherwise, 'No Alert' is returned.

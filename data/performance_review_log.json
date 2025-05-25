@@ -1,408 +1,5 @@
 [
   {
-    "timestamp": "2025-05-21T15:23:48.087854",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:24:42.431117",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:25:47.029099",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:26:56.922416",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:29:16.610384",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:31:11.084953",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:32:37.186957",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:33:47.431697",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:35:20.507226",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:37:39.210268",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:39:17.411796",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:40:54.756336",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:42:09.069130",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:44:03.813287",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:44:58.713468",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:47:42.932938",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:49:03.621280",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:50:27.161689",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:51:45.570716",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:54:38.271740",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:57:21.759705",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:58:45.732813",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T15:59:38.224370",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T16:01:02.349923",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T16:03:30.210183",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T16:05:30.420667",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T16:07:41.212937",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T16:09:15.932910",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T16:11:17.083139",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T16:12:02.120969",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
-    "timestamp": "2025-05-21T16:12:48.517135",
-    "review": {
-      "total_trades": 120,
-      "win_rate": "68%",
-      "loss_rate": "32%",
-      "average_profit": "$145.30",
-      "average_loss": "-$98.50",
-      "net_pnl": "$5,430",
-      "most_profitable_strategy": "Iron Condor",
-      "most_frequent_mistake": "Late Exits on Bull Puts"
-    }
-  },
-  {
     "timestamp": "2025-05-21T16:13:25.503115",
     "review": {
       "total_trades": 120,
@@ -6488,6 +6085,409 @@
   },
   {
     "timestamp": "2025-05-22T09:34:01.313493",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:42:28.423504",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:42:56.038121",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:44:56.982568",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:45:22.215946",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:46:21.667920",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:47:29.717233",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:48:55.685972",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:24:15.447151",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:26:01.839741",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:27:17.180459",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:32:14.320269",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:32:18.097488",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:41:36.804617",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:41:38.324631",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:47:17.073814",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:49:17.278618",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:51:10.031136",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:54:31.952409",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:56:30.272036",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:57:27.997195",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:57:28.919582",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:01:08.667960",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:01:18.436619",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:02:04.663820",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:02:05.373868",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:06:08.068203",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:09:14.272419",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:13:24.819192",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:13:24.983280",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:30:18.641569",
+    "review": {
+      "total_trades": 120,
+      "win_rate": "68%",
+      "loss_rate": "32%",
+      "average_profit": "$145.30",
+      "average_loss": "-$98.50",
+      "net_pnl": "$5,430",
+      "most_profitable_strategy": "Iron Condor",
+      "most_frequent_mistake": "Late Exits on Bull Puts"
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:30:47.722983",
     "review": {
       "total_trades": 120,
       "win_rate": "68%",

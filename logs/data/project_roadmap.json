@@ -1,0 +1,14 @@
+[
+  {
+    "feature_id": "001",
+    "title": "Initialize Strategy Core",
+    "description": "Build base system logic for strategy generation.",
+    "status": "pending"
+  },
+  {
+    "feature_id": "002",
+    "title": "Bridge GPT and Cole",
+    "description": "Allow GPT to send ideas and Cole to implement them.",
+    "status": "pending"
+  }
+]

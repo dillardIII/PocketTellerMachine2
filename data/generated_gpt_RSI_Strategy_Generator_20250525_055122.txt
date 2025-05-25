@@ -1,0 +1,51 @@
+Sure, here's a simple Python code to generate a basic RSI (Relative Strength Index) strategy. This code uses the `pandas` library for data manipulation and `yfinance` to download stock price data. The RSI strategy is a simple momentum strategy that buys when the RSI is low (oversold) and sells when the RSI is high (overbought).
+
+```python
+import pandas as pd
+import yfinance as yf
+
+def calculate_rsi(data, window):
+    delta = data.diff()
+    up, down = delta.copy(), delta.copy()
+    up[up < 0] = 0
+    down[down > 0] = 0
+
+    average_gain = up.rolling(window).mean()
+    average_loss = abs(down.rolling(window).mean())
+
+    rs = average_gain / average_loss
+    rsi = 100 - (100 / (1 + rs))
+    return rsi
+
+def rsi_strategy(data, rsi_low=30, rsi_high=70):
+    buy_signals, sell_signals = [], []
+    for i in range(len(data)):
+        if data[i] < rsi_low:
+            buy_signals.append(data[i])
+            sell_signals.append(float('nan'))
+        elif data[i] > rsi_high:
+            sell_signals.append(data[i])
+            buy_signals.append(float('nan'))
+        else:
+            buy_signals.append(float('nan'))
+            sell_signals.append(float('nan'))
+    return buy_signals, sell_signals
+
+# Download historical data
+data = yf.download('AAPL', start='2020-01-01', end='2022-12-31')['Adj Close']
+
+# Calculate RSI
+rsi = calculate_rsi(data, window=14)
+
+# Generate RSI strategy signals
+buy_signals, sell_signals = rsi_strategy(rsi)
+
+# Add signals to data frame
+data = pd.DataFrame(data)
+data['Buy_Signal_Price'] = buy_signals
+data['Sell_Signal_Price'] = sell_signals
+
+print(data)
+```
+
+This code will print a dataframe with the original price data and the buy/sell signals. The buy/sell signals are the price at which the RSI strategy would suggest to buy/sell the stock. The `rsi_strategy` function can be adjusted to use different RSI thresholds for buying and selling.

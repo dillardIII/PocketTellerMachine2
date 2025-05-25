@@ -3,35 +3,34 @@
 import json
 import os
 
-ROADMAP_FILE = "project_roadmap.json"
+ROADMAP_FILE = "data/project_roadmap.json"
 
-def generate_tasks_from_roadmap():
+# === Load Roadmap Features ===
+def load_roadmap():
     if not os.path.exists(ROADMAP_FILE):
-        print("[Planner] No roadmap found.")
+        return []
+    try:
+        with open(ROADMAP_FILE, "r") as f:
+            return json.load(f)
+    except json.JSONDecodeError as e:
+        print(f"[Cole Planner] JSON read error: {e}")
         return []
 
-    with open(ROADMAP_FILE, "r") as f:
-        roadmap = json.load(f)
-
-    if isinstance(roadmap, list):  # malformed roadmap.json file
-        print("[Planner] ERROR: Roadmap is a list, expected dict with 'features' key.")
-        return []
-
+# === Generate Tasks from Roadmap ===
+def generate_tasks_from_roadmap():
+    print("[Planner] Converting roadmap to task list...")
+    roadmap = load_roadmap()
     tasks = []
-    for feature in roadmap.get("features", []):
+
+    for feature in roadmap:
         if feature.get("status", "pending") == "pending":
-            tasks.append({
-                "id": feature.get("id"),
-                "name": "cole_write_code",  # ensures compatibility with Cole's loop
-                "input": f"Build feature: {feature['name']} - {feature['description']}",
-                "feature_id": feature["id"],
-                "priority": feature.get("priority", "medium"),
-                "type": feature.get("type", "unknown"),
-                "params": {
-                    "type": feature.get("type"),
-                    "name": feature.get("name")
-                }
-            })
+            task = {
+                "task_id": f"feature_{int(time.time())}",
+                "title": feature.get("title", "Untitled Task"),
+                "description": feature.get("description", ""),
+                "type": "feature_build"
+            }
+            tasks.append(task)
 
     print(f"[Planner] Generated {len(tasks)} tasks from roadmap.")
     return tasks

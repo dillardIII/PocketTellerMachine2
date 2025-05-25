@@ -2,65 +2,84 @@ import os
 import json
 from flask import Blueprint, request, jsonify
 from datetime import datetime
+from pathlib import Path
+import importlib.util
+
+from assistants.malik import malik_report
 
 code_injector_bp = Blueprint("code_injector", __name__)
 
-# === Config ===
-DEFAULT_FOLDER = "cole_generated_code"
-LOG_FILE = "data/code_injection_log.json"
-AUTH_TOKEN = os.getenv("GPT_INJECTOR_TOKEN")  # Set this in your .env
-
-# === Ensure directories ===
-os.makedirs(DEFAULT_FOLDER, exist_ok=True)
+GENERATED_DIR = "cole_generated_code"
+INJECTION_LOG = "data/code_injection_log.json"
+os.makedirs(GENERATED_DIR, exist_ok=True)
 os.makedirs("data", exist_ok=True)
 
-# === Logging ===
-def log_injection(filename, folder, source="ChatGPT"):
-    entry = {
-        "timestamp": datetime.now().isoformat(),
-        "filename": filename,
-        "folder": folder,
-        "source": source
-    }
-    logs = []
-    if os.path.exists(LOG_FILE):
-        with open(LOG_FILE, "r") as f:
+# === Save code to file ===
+def save_code_to_file(task_name, code):
+    filename = f"{task_name.replace(' ', '_')}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.py"
+    file_path = os.path.join(GENERATED_DIR, filename)
+    with open(file_path, "w") as f:
+        f.write(code)
+    return file_path
+
+# === Inject and run ===
+def inject_and_run_code(code, task_name="Untitled Task"):
+    try:
+        file_path = save_code_to_file(task_name, code)
+
+        spec = importlib.util.spec_from_file_location("module.name", file_path)
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+
+        if hasattr(module, "cole_generated_function"):
+            result = module.cole_generated_function()
+            status = "executed"
+            malik_report(f"[Injected Execution] {task_name}: {result}")
+        else:
+            result = "No `cole_generated_function()` found"
+            status = "no-entry-point"
+
+        log_entry = {
+            "timestamp": datetime.now().isoformat(),
+            "task": task_name,
+            "file": file_path,
+            "status": status,
+            "result": str(result)
+        }
+
+        log_injection(log_entry)
+        return log_entry
+
+    except Exception as e:
+        log_entry = {
+            "timestamp": datetime.now().isoformat(),
+            "task": task_name,
+            "file": "N/A",
+            "status": "error",
+            "error": str(e)
+        }
+        log_injection(log_entry)
+        malik_report(f"[Injection Error] {task_name}: {str(e)}")
+        return log_entry
+
+# === Log the injection ===
+def log_injection(entry):
+    if os.path.exists(INJECTION_LOG):
+        with open(INJECTION_LOG, "r") as f:
             logs = json.load(f)
+    else:
+        logs = []
     logs.append(entry)
-    with open(LOG_FILE, "w") as f:
+    with open(INJECTION_LOG, "w") as f:
         json.dump(logs[-300:], f, indent=2)
 
-# === POST Route to Inject Code ===
-@code_injector_bp.route("/api/inject_code", methods=["POST"])
-def inject_code():
-    data = request.get_json()
-
-    token = request.headers.get("Authorization")
-    if token != f"Bearer {AUTH_TOKEN}":
-        return jsonify({"status": "unauthorized"}), 401
-
-    filename = data.get("filename")
-    code = data.get("code")
-    folder = data.get("folder", DEFAULT_FOLDER)
-
-    if not filename or not code:
-        return jsonify({"status": "error", "message": "Missing filename or code"}), 400
-
-    os.makedirs(folder, exist_ok=True)
-    full_path = os.path.join(folder, filename)
-
-    with open(full_path, "w") as f:
-        f.write(code)
-
-    log_injection(filename, folder)
-    return jsonify({"status": "success", "path": full_path})
-
-# === Inject Code in Runtime (for Cole AI Core) ===
-def inject_generated_code(code, module_name="generated_module"):
-    """
-    Injects the provided Python code string into a module and returns the module object.
-    """
-    import types
-    module = types.ModuleType(module_name)
-    exec(code, module.__dict__)
-    return module
+# === API Endpoint ===
+@code_injector_bp.route("/inject_code", methods=["POST"])
+def inject_code_api():
+    data = request.json
+    code = data.get("code", "")
+    task = data.get("task", "Unnamed Task")
+    if not code:
+        return jsonify({"error": "Missing code"}), 400
+    result = inject_and_run_code(code, task)
+    return jsonify(result)

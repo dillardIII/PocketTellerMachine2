@@ -1,39 +1,31 @@
 # === FILE: cole_autopilot_cycle.py ===
 
-import os
-import traceback
+from strategy_scorer import recommend_best_strategy
 from strategy_executor import run_trade_with_strategy, analyze_trade_result, log_trade_outcome
-from cole_task_optimizer import cole_optimize_tasks
-from cole_self_learning_task_generator import generate_self_learning_tasks
+from phase_manager import get_current_phase
+from cole_brain_logger import log_strategy_reason
 
 def cole_autopilot_cycle():
-    print("[Cole Autopilot] Starting cycle...")
+    print("[2025-05-25] Cole: Starting Full Autopilot Cycle...")
 
-    try:
-        # Step 1: Load strategy tasks
-        task_list = generate_self_learning_tasks()
-        if not task_list:
-            print("[Cole Autopilot] No tasks generated. Skipping strategy run.")
-            return
+    # Determine phase
+    current_phase = get_current_phase()
+    print(f"[Cole Autopilot] Current Phase: {current_phase}")
 
-        # Step 2: Validate and Optimize task list
-        clean_tasks = [t for t in task_list if isinstance(t, dict) and 'description' in t]
-        optimized_tasks = cole_optimize_tasks(clean_tasks)
-        print(f"[Cole Autopilot] Optimized {len(optimized_tasks)} tasks.")
+    # Recommend a strategy
+    recommendation = recommend_best_strategy()
+    strategy = recommendation.get("strategy", "None")
+    reason = recommendation.get("reason", "No explanation")
 
-        for task in optimized_tasks:
-            try:
-                result = run_trade_with_strategy(task)
-                grade = analyze_trade_result(result)
-                log_trade_outcome(task, result, grade)
-            except Exception as e:
-                print(f"[Autopilot Task Error] Skipping bad task: {e}")
+    log_strategy_reason(strategy=strategy, reason=reason)
 
-    except Exception as e:
-        print("[Cole Autopilot] ERROR during autopilot run:")
-        traceback.print_exc()
-        os.makedirs("logs", exist_ok=True)
-        with open("logs/autopilot_error.log", "a") as f:
-            f.write(traceback.format_exc())
+    if strategy == "None":
+        print("[Strategy Runner] No strategy available.")
+        return
 
-    print("[Cole Autopilot] Cycle complete.")
+    # Run trade
+    result = run_trade_with_strategy(strategy)
+    analysis = analyze_trade_result(result)
+
+    # Log result
+    log_trade_outcome(strategy, result, analysis)

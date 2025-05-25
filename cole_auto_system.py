@@ -53,3 +53,8 @@ def run_auto_system():
 # === CLI Trigger ===
 if __name__ == "__main__":
     run_auto_system()
+
+# === Export cole_autopilot_cycle for app.py ===
+from cole_autopilot_loop import cole_autopilot_cycle
+
+__all__ = ["cole_autopilot_cycle"]

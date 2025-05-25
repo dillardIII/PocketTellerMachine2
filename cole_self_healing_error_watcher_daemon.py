@@ -1,8 +1,11 @@
+# === FILE: cole_self_healing_error_watcher_daemon.py ===
+
 import os
 import json
 import time
+import traceback
 from datetime import datetime
-import requests
+
 from error_parser import get_latest_error
 from ai_code_generator import generate_code_fix
 from auto_deployer import deploy_fix
@@ -14,51 +17,52 @@ SELF_HEALING_LOG_FILE = "data/self_healing_error_watcher_log.json"
 
 # === Logging Helper ===
 def log_self_healing_event(message):
+    os.makedirs("data", exist_ok=True)
     logs = []
     if os.path.exists(SELF_HEALING_LOG_FILE):
         try:
             with open(SELF_HEALING_LOG_FILE, "r") as f:
                 logs = json.load(f)
-        except:
+        except json.JSONDecodeError:
             logs = []
-    logs.append({"timestamp": datetime.now().isoformat(), "message": message})
-    with open(SELF_HEALING_LOG_FILE, "w") as f:
-        json.dump(logs[-500:], f, indent=2)
 
-# === Self-Healing Watcher ===
-def cole_self_healing_error_watcher():
-    print("[Cole Self-Healing Daemon] Started error watcher loop...")
+    logs.append({
+        "timestamp": datetime.now().isoformat(),
+        "event": message
+    })
+
+    with open(SELF_HEALING_LOG_FILE, "w") as f:
+        json.dump(logs, f, indent=2)
+
+# === Self-Healing Loop ===
+def run_self_healing_watcher():
+    log_self_healing_event("✅ Self-Healing Watcher Started")
 
     while True:
-        print("[Cole Self-Healing Daemon] Scanning for recent errors...")
+        try:
+            error_info = get_latest_error()
+            if error_info:
+                log_self_healing_event(f"⚠️ Detected Error: {error_info['error_message']}")
+                
+                fix_code = generate_code_fix(error_info)
+                if fix_code:
+                    log_self_healing_event("🛠️ Generated Fix. Deploying...")
 
-        error_data = get_latest_error()
-
-        if error_data:
-            print(f"[Cole Self-Healing] Detected error in {error_data['file']}: {error_data['error']}")
-            log_self_healing_event(f"Detected error in {error_data['file']}: {error_data['error']}")
-
-            fix_code = generate_code_fix(error_data)
-
-            if fix_code:
-                print(f"[Cole Self-Healing] Generated potential fix for {error_data['file']}")
-                deployed = deploy_fix(error_data['file'], fix_code)
-
-                if deployed:
-                    log_fix(error_data, fix_code)
-                    log_self_healing_event(f"Fix deployed and logged for {error_data['file']}")
-                    print(f"[Cole Self-Healing] Fix deployed and logged for {error_data['file']}")
+                    deployed = deploy_fix(error_info['file'], fix_code)
+                    if deployed:
+                        log_self_healing_event(f"✅ Deployed Fix to {error_info['file']}")
+                        log_fix(error_info, fix_code)
+                    else:
+                        log_self_healing_event(f"❌ Failed to Deploy Fix to {error_info['file']}")
                 else:
-                    log_self_healing_event(f"Fix deployment failed for {error_data['file']}")
-                    print(f"[Cole Self-Healing] Fix deployment failed validation. Skipped {error_data['file']}")
+                    log_self_healing_event("❌ No fix could be generated.")
             else:
-                log_self_healing_event(f"No fix generated for {error_data['file']}")
-                print(f"[Cole Self-Healing] No fix generated for {error_data['file']}")
-        else:
-            print("[Cole Self-Healing] No new errors found.")
+                log_self_healing_event("✅ No new errors found.")
+        except Exception as e:
+            log_self_healing_event(f"🔥 Exception in Self-Healing Watcher: {traceback.format_exc()}")
 
         time.sleep(CHECK_INTERVAL)
 
-# === Run Daemon ===
+# === Standalone Launch ===
 if __name__ == "__main__":
-    cole_self_healing_error_watcher()
+    run_self_healing_watcher()

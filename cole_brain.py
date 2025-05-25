@@ -6,6 +6,8 @@ from datetime import datetime as dt
 from cole_gpt_advisor import ask_gpt
 from price_data import get_current_rsi, get_historical_prices
 from indicators import calc_rsi
+from cole_logger import log_info
+from cole_task_queue import add_task
 
 # === File Paths ===
 MEMORY_FILE = "data/cole_memory.json"
@@ -83,6 +85,24 @@ def cole_think(prompt):
     print(f"[Cole Brain] Thinking on prompt: {prompt}")
     return ask_gpt(prompt)
 
+def log_brain_thought(content):
+    entry = {
+        "timestamp": dt.now().isoformat(),
+        "content": content
+    }
+
+    brain = []
+    if os.path.exists(BRAIN_LOG_FILE):
+        try:
+            with open(BRAIN_LOG_FILE, "r") as f:
+                brain = json.load(f)
+        except:
+            brain = []
+
+    brain.append(entry)
+    with open(BRAIN_LOG_FILE, "w") as f:
+        json.dump(brain[-300:], f, indent=2)
+
 # === Brain Trading Rules Logic ===
 def load_trading_rules():
     if not os.path.exists(RULES_FILE):
@@ -124,67 +144,64 @@ def brain_allows_trade(symbol, strategy, trend, exclusion_list=[]):
 
 # === Brain Health Check ===
 def check_brain_health():
-    try:
-        if not os.path.exists(BRAIN_LOG_FILE):
-            return True  # Assume good health if no data
-
-        with open(BRAIN_LOG_FILE, "r") as f:
-            logs = json.load(f)
-
-        if not logs or len(logs) < 5:
-            return True  # Not enough data to judge
-
-        recent = logs[-5:]
-        failures = sum(1 for entry in recent if entry.get("status") == "fail")
-        return failures < 3
-    except Exception as e:
-        print("[Brain Health] Error checking:", e)
-        return True
-
-# === Strategy Modules (stubs) ===
-def evaluate_congress_trades():
-    return "Congress trade evaluation stub"
-
-def score_congress_trades():
-    return "Scoring stub"
-
-def select_option_strategy(strategy_name, prices):
-    return {"decision": "mock"}
-
-def get_strategy_metadata(strategy_name):
-    return {"rules": {}}
-
-def run_backtest_for_all_strategies():
-    return []
+    required_files = [
+        "data/cole_brain_log.json",
+        "data/strategy_scores.json",
+        "data/phase.json"
+    ]
+    for file in required_files:
+        if not os.path.exists(file):
+            with open(file, "w") as f:
+                json.dump([], f)
+            print(f"[Cole Brain] Created missing file: {file}")
 
 # === Phase & Strategy Memory Logger ===
 def log_phase_and_strategy(phase, strategy):
-    os.makedirs("data", exist_ok=True)
-    memory = {}
-    if os.path.exists(MEMORY_FILE):
-        with open(MEMORY_FILE, "r") as f:
-            memory = json.load(f)
-
-    memory["last_phase"] = phase
-    memory["last_strategy"] = strategy
-    memory["last_updated"] = datetime.datetime.now().isoformat()
-
-    with open(MEMORY_FILE, "w") as f:
-        json.dump(memory, f, indent=2)
-
-    print(f"[Cole Brain] Memory logged: phase={phase}, strategy={strategy}")
-
-# === FIXED: Log Strategy Reason ===
-def log_strategy_reason(strategy, reason):
-    os.makedirs("logs", exist_ok=True)
-    log = {
+    entry = {
         "timestamp": datetime.datetime.utcnow().isoformat(),
-        "strategy": strategy,
-        "reason": reason
+        "phase": phase,
+        "strategy": strategy
     }
-    with open("logs/strategy_reason_log.json", "a") as f:
-        f.write(json.dumps(log) + "\n")
-    print(f"[Cole Brain] Strategy reason logged: {strategy} — {reason}")
+
+    try:
+        if os.path.exists(BRAIN_LOG_FILE):
+            with open(BRAIN_LOG_FILE, "r") as f:
+                data = json.load(f)
+        else:
+            data = []
+
+        data.append(entry)
+        with open(BRAIN_LOG_FILE, "w") as f:
+            json.dump(data[-500:], f, indent=2)
+
+        print(f"[Cole Brain] Memory logged: phase={phase}, strategy={strategy}")
+    except Exception as e:
+        print(f"[Cole Brain] Failed to log: {e}")
+
+# === Log Strategy Reason ===
+def log_strategy_reason(strategy, reason):
+    try:
+        print(f"[Cole Brain] Strategy reason logged: {strategy} — {reason}")
+    except Exception as e:
+        print(f"[Cole Brain] Error logging reason: {e}")
+
+# === Autopilot Decision Loop ===
+def run_decision_cycle():
+    log_info("[Cole Brain] Starting decision cycle...")
+    default_tasks = [
+        "Scan for RSI reversals",
+        "Check Bollinger Band breaches",
+        "Update EMA crossover table",
+        "Review Congress-based signals",
+        "Adjust risk weights on all trades"
+    ]
+    for task in default_tasks:
+        added = add_task(task)
+        if added:
+            log_info(f"[Cole Brain] Task added to queue: {task}")
+        else:
+            log_info(f"[Cole Brain] Task skipped or duplicate: {task}")
+    log_info("[Cole Brain] Decision cycle complete.")
 
 # === CLI Test ===
 if __name__ == "__main__":

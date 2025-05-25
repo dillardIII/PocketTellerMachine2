@@ -9,7 +9,7 @@
         .widget, .box { background: #1f1f1f; padding: 20px; border-radius: 10px; margin-top: 20px; }
         .widget h3, .box h3 { margin-top: 0; }
         pre { background: #000; color: #0f0; padding: 10px; border-radius: 5px; overflow-x: auto; }
-        input, button {
+        input, button, select {
             padding: 10px;
             border-radius: 6px;
             border: none;
@@ -19,6 +19,7 @@
         input { width: 60%; margin-right: 10px; }
         button { background-color: #6fd672; color: #121212; font-weight: bold; cursor: pointer; }
         button:hover { background-color: #89f58c; }
+        select { margin-left: 10px; }
     </style>
 </head>
 <body>
@@ -40,7 +41,6 @@
 <!-- Market Screener Filter Controls -->
 <div id="market-screener-filters-widget" class="widget">
     <h3>Market Screener Filters</h3>
-
     <form id="filter-form">
         <label>RSI Range:</label>
         <input type="number" id="rsi-min" placeholder="Min RSI" step="0.1"> -
@@ -55,7 +55,6 @@
 
         <button type="submit">Apply Filters</button>
     </form>
-
     <p id="filter-status" style="margin-top: 10px; color: #6fd672;"></p>
 </div>
 
@@ -66,23 +65,52 @@
   <button onclick="runGhost()">Send to Cole</button>
 </div>
 
+<!-- Voice Assistant Trigger Box -->
+<div class="box">
+  <h3>PTM Voice Generator</h3>
+  <input id="voiceText" placeholder="Type something for your assistant to say..." />
+  
+  <select id="voicePersona">
+    <option value="Mo Cash">Mo Cash</option>
+    <option value="Mentor">Mentor</option>
+    <option value="Drill Instructor">Drill Instructor</option>
+    <option value="Chill Trader">Chill Trader</option>
+    <option value="Comedian">Comedian</option>
+    <option value="OG">OG</option>
+  </select>
+
+  <button onclick="triggerVoice()">Speak It</button>
+  <p id="voice-status" style="color: #6fd672; margin-top: 10px;"></p>
+
+  <audio id="voicePreview" controls style="margin-top: 10px; display: none;">
+    <source src="/static/audio/output.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <p>
+    <a href="/static/audio/output.mp3" download="output.mp3" style="color: #6fd672;">Download Voice MP3</a>
+  </p>
+</div>
+
+<!-- Voice Test Trigger -->
+<div class="box">
+  <h3>Test Voice Function</h3>
+  <button onclick="runVoiceTest()">Run Voice Test</button>
+  <p id="voice-test-status" style="color: #6fd672; margin-top: 10px;"></p>
+</div>
+
 <script>
-// === Market Movers Refresh ===
 function refreshMarketMovers() {
     fetch('/api/market_movers')
         .then(res => res.json())
         .then(data => {
             const movers = data.movers || [];
-            if (movers.length === 0) {
-                document.getElementById('market-movers-data').textContent = 'No data available.';
-                return;
-            }
-
-            const formatted = movers.map(stock =>
-                `${stock.ticker} | ${stock.name} | ${stock.change_percent > 0 ? '+' : ''}${stock.change_percent.toFixed(2)}%`
-            ).join('\n');
-
-            document.getElementById('market-movers-data').textContent = formatted;
+            const output = movers.length === 0
+                ? 'No data available.'
+                : movers.map(stock =>
+                    `${stock.ticker} | ${stock.name} | ${stock.change_percent > 0 ? '+' : ''}${stock.change_percent.toFixed(2)}%`
+                  ).join('\n');
+            document.getElementById('market-movers-data').textContent = output;
         })
         .catch(err => {
             console.error('Error fetching market movers:', err);
@@ -90,22 +118,17 @@ function refreshMarketMovers() {
         });
 }
 
-// === Market Screener Refresh ===
 function refreshMarketScreener() {
     fetch('/api/market_screener')
         .then(res => res.json())
         .then(data => {
             const results = data.results || [];
-            if (results.length === 0) {
-                document.getElementById('market-screener-data').textContent = 'No results match current filters.';
-                return;
-            }
-
-            const formatted = results.map(stock =>
-                `${stock.ticker} | Price: $${stock.price.toFixed(2)} | Volume: ${stock.volume} | RSI: ${stock.rsi.toFixed(2)} | Signal: ${stock.signal}`
-            ).join('\n');
-
-            document.getElementById('market-screener-data').textContent = formatted;
+            const output = results.length === 0
+                ? 'No results match current filters.'
+                : results.map(stock =>
+                    `${stock.ticker} | Price: $${stock.price.toFixed(2)} | Volume: ${stock.volume} | RSI: ${stock.rsi.toFixed(2)} | Signal: ${stock.signal}`
+                  ).join('\n');
+            document.getElementById('market-screener-data').textContent = output;
         })
         .catch(err => {
             console.error('Error fetching market screener:', err);
@@ -113,10 +136,8 @@ function refreshMarketScreener() {
         });
 }
 
-// === Screener Filter Controls ===
 document.getElementById('filter-form').addEventListener('submit', function(e) {
     e.preventDefault();
-
     const filters = {
         rsi: {
             min: parseFloat(document.getElementById('rsi-min').value) || null,
@@ -130,7 +151,6 @@ document.getElementById('filter-form').addEventListener('submit', function(e) {
             max: parseFloat(document.getElementById('price-max').value) || null
         }
     };
-
     fetch('/api/screener_filters', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -138,11 +158,8 @@ document.getElementById('filter-form').addEventListener('submit', function(e) {
     })
     .then(res => res.json())
     .then(data => {
-        if (data.status === 'success') {
-            document.getElementById('filter-status').textContent = 'Filters updated successfully.';
-        } else {
-            document.getElementById('filter-status').textContent = 'Failed to update filters.';
-        }
+        document.getElementById('filter-status').textContent =
+            data.status === 'success' ? 'Filters updated successfully.' : 'Failed to update filters.';
     })
     .catch(err => {
         console.error('Error updating filters:', err);
@@ -150,21 +167,49 @@ document.getElementById('filter-form').addEventListener('submit', function(e) {
     });
 });
 
-// === GhostBuild Trigger ===
 function runGhost() {
     const prompt = document.getElementById("ghostPrompt").value;
     fetch('/api/ghostbuild', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ prompt: prompt })
-    }).then(res => res.json()).then(data => alert(data.message));
+    })
+    .then(res => res.json())
+    .then(data => alert(data.message));
 }
 
-// === Intervals ===
+function runVoiceTest() {
+    fetch("/voice_test")
+        .then(res => res.text())
+        .then(msg => {
+            document.getElementById("voice-test-status").textContent = msg;
+        });
+}
+
+function triggerVoice() {
+    const text = document.getElementById("voiceText").value;
+    const persona = document.getElementById("voicePersona").value;
+
+    fetch('/api/speak', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text, persona })
+    })
+    .then(res => res.json())
+    .then(data => {
+        document.getElementById("voice-status").textContent = data.message;
+        document.getElementById("voicePreview").style.display = "block";
+        document.getElementById("voicePreview").load();
+    })
+    .catch(err => {
+        console.error('Voice error:', err);
+        document.getElementById("voice-status").textContent = "Error generating voice.";
+    });
+}
+
 setInterval(refreshMarketMovers, 10000);
 setInterval(refreshMarketScreener, 15000);
 
-// === Initial Load ===
 window.onload = function() {
     refreshMarketMovers();
     refreshMarketScreener();

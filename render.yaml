@@ -1,0 +1,12 @@
+# === FILE: render.yaml ===
+services:
+  - type: web
+    name: ptm-app
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:app"
+    envVars:
+      - key: ELEVENLABS_API_KEY
+        sync: false
+    autoDeploy: true
+    plan: free

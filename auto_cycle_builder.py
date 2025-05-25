@@ -45,7 +45,7 @@ def run_build_autonomy_cycle():
             break
 
         for task in tasks:
-            print(f"[PTM BuildBot] Working on: {task['description']}")
+            print(f"[PTM BuildBot] Working on: {task.get('description', 'No description')}")  # ✅ FIXED
             result = build_feature(task)
             print(f"[PTM BuildBot] Build Result: {result}")
 

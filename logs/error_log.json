@@ -1,0 +1,404 @@
+[
+  {
+    "timestamp": "2025-05-25T04:32:20.549130",
+    "file": "/home/runner/workspace/cole_task_optimizer.py",
+    "error_message": "'<' not supported between instances of 'dict' and 'dict'",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 16, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_loop.py\", line 143, in cole_autopilot_cycle\n    cole_optimize_tasks()\n  File \"/home/runner/workspace/cole_task_optimizer.py\", line 62, in cole_optimize_tasks\n    optimized.sort(reverse=True)\nTypeError: '<' not supported between instances of 'dict' and 'dict'\n"
+  },
+  {
+    "timestamp": "2025-05-25T04:32:22.319230",
+    "file": "/home/runner/workspace/cole_task_optimizer.py",
+    "error_message": "'<' not supported between instances of 'dict' and 'dict'",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 16, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_loop.py\", line 143, in cole_autopilot_cycle\n    cole_optimize_tasks()\n  File \"/home/runner/workspace/cole_task_optimizer.py\", line 62, in cole_optimize_tasks\n    optimized.sort(reverse=True)\nTypeError: '<' not supported between instances of 'dict' and 'dict'\n"
+  },
+  {
+    "timestamp": "2025-05-25T04:36:54.270443",
+    "file": "/home/runner/workspace/cole_task_optimizer.py",
+    "error_message": "'<' not supported between instances of 'dict' and 'dict'",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 16, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_loop.py\", line 143, in cole_autopilot_cycle\n    cole_optimize_tasks()\n  File \"/home/runner/workspace/cole_task_optimizer.py\", line 62, in cole_optimize_tasks\n    optimized.sort(reverse=True)\nTypeError: '<' not supported between instances of 'dict' and 'dict'\n"
+  },
+  {
+    "timestamp": "2025-05-25T04:36:55.058236",
+    "file": "/home/runner/workspace/cole_task_optimizer.py",
+    "error_message": "'<' not supported between instances of 'dict' and 'dict'",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 16, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_loop.py\", line 143, in cole_autopilot_cycle\n    cole_optimize_tasks()\n  File \"/home/runner/workspace/cole_task_optimizer.py\", line 62, in cole_optimize_tasks\n    optimized.sort(reverse=True)\nTypeError: '<' not supported between instances of 'dict' and 'dict'\n"
+  },
+  {
+    "timestamp": "2025-05-25T04:38:57.409216",
+    "file": "/home/runner/workspace/cole_task_optimizer.py",
+    "error_message": "'<' not supported between instances of 'dict' and 'dict'",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 16, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_loop.py\", line 148, in cole_autopilot_cycle\n    cole_optimize_tasks()\n  File \"/home/runner/workspace/cole_task_optimizer.py\", line 62, in cole_optimize_tasks\n    optimized.sort(reverse=True)\nTypeError: '<' not supported between instances of 'dict' and 'dict'\n"
+  },
+  {
+    "timestamp": "2025-05-25T04:40:51.659129",
+    "file": "/home/runner/workspace/cole_task_optimizer.py",
+    "error_message": "'<' not supported between instances of 'dict' and 'dict'",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 16, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_loop.py\", line 148, in cole_autopilot_cycle\n    cole_optimize_tasks()\n  File \"/home/runner/workspace/cole_task_optimizer.py\", line 62, in cole_optimize_tasks\n    optimized.sort(reverse=True)\nTypeError: '<' not supported between instances of 'dict' and 'dict'\n"
+  },
+  {
+    "timestamp": "2025-05-25T07:52:24.573041",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T07:52:26.331783",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T07:55:26.082762",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T07:56:13.462884",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:00:36.302675",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:00:59.550014",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:16:55.828950",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:17:12.696898",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:18:15.992110",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:19:28.300441",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:19:29.661782",
+    "file": "/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py",
+    "error_message": "Expecting value: line 1 column 1 (char 0)",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 18, in cole_autopilot_cycle\n    current_phase = get_current_phase()\n                    ^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/workspace/phase_manager.py\", line 12, in get_current_phase\n    return json.load(f).get(\"phase\", \"unknown\")\n           ^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n           ^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:30:02.494369",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:30:04.280686",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:30:06.781375",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:30:09.201371",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:30:15.853634",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:30:19.953567",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:30:25.187858",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:30:30.260022",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:30:35.539272",
+    "file": "/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py",
+    "error_message": "Expecting value: line 1 column 1 (char 0)",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 18, in cole_autopilot_cycle\n    current_phase = get_current_phase()\n                    ^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/workspace/phase_manager.py\", line 12, in get_current_phase\n    return json.load(f).get(\"phase\", \"unknown\")\n           ^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n           ^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:30:40.785554",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:30:46.174895",
+    "file": "/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py",
+    "error_message": "Expecting value: line 1 column 1 (char 0)",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 18, in cole_autopilot_cycle\n    current_phase = get_current_phase()\n                    ^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/workspace/phase_manager.py\", line 12, in get_current_phase\n    return json.load(f).get(\"phase\", \"unknown\")\n           ^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n           ^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:30:51.177014",
+    "file": "/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py",
+    "error_message": "Expecting value: line 1 column 1 (char 0)",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 18, in cole_autopilot_cycle\n    current_phase = get_current_phase()\n                    ^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/workspace/phase_manager.py\", line 12, in get_current_phase\n    return json.load(f).get(\"phase\", \"unknown\")\n           ^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n           ^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:30:56.248281",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:31:02.673804",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:31:07.813469",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:31:12.847097",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:31:17.852025",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:31:22.930018",
+    "file": "/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py",
+    "error_message": "Expecting value: line 1 column 1 (char 0)",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 18, in cole_autopilot_cycle\n    current_phase = get_current_phase()\n                    ^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/workspace/phase_manager.py\", line 12, in get_current_phase\n    return json.load(f).get(\"phase\", \"unknown\")\n           ^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n           ^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:31:28.033501",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:31:33.583557",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:31:38.713843",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:31:43.921603",
+    "file": "/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py",
+    "error_message": "Expecting value: line 1 column 1 (char 0)",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 18, in cole_autopilot_cycle\n    current_phase = get_current_phase()\n                    ^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/workspace/phase_manager.py\", line 12, in get_current_phase\n    return json.load(f).get(\"phase\", \"unknown\")\n           ^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n           ^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:31:49.310999",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:31:53.769745",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:31:58.835419",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:32:04.078523",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:32:09.204719",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:32:15.634714",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:32:20.834764",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:32:26.555208",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:32:31.791034",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:32:37.516912",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:32:42.311671",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:32:47.604766",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:32:53.144235",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:32:58.675198",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:33:02.568627",
+    "file": "/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py",
+    "error_message": "Expecting value: line 1 column 1 (char 0)",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 18, in cole_autopilot_cycle\n    current_phase = get_current_phase()\n                    ^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/workspace/phase_manager.py\", line 12, in get_current_phase\n    return json.load(f).get(\"phase\", \"unknown\")\n           ^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n           ^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:33:07.699587",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:33:14.052153",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:33:19.290103",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:33:24.527499",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:34:26.597661",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:34:28.072741",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:38:55.072606",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:39:11.983223",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:39:33.354052",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:39:34.802181",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:48:30.110880",
+    "file": "/home/runner/workspace/cole_autopilot_cycle.py",
+    "error_message": "recommend_best_strategy() takes 0 positional arguments but 1 was given",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 74, in cole_autopilot_cycle\n    strategy = recommend_best_strategy(optimized_tasks)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: recommend_best_strategy() takes 0 positional arguments but 1 was given\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:48:31.507435",
+    "file": "/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py",
+    "error_message": "Expecting value: line 1 column 1 (char 0)",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 18, in cole_autopilot_cycle\n    current_phase = get_current_phase()\n                    ^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/workspace/phase_manager.py\", line 12, in get_current_phase\n    return json.load(f).get(\"phase\", \"unknown\")\n           ^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n           ^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+  },
+  {
+    "timestamp": "2025-05-25T08:48:33.576323",
+    "file": "/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py",
+    "error_message": "Expecting value: line 1 column 1 (char 0)",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/workspace/app.py\", line 54, in run_autopilot_safe\n    cole_autopilot_cycle()\n  File \"/home/runner/workspace/cole_autopilot_cycle.py\", line 18, in cole_autopilot_cycle\n    current_phase = get_current_phase()\n                    ^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/workspace/phase_manager.py\", line 12, in get_current_phase\n    return json.load(f).get(\"phase\", \"unknown\")\n           ^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/__init__.py\", line 293, in load\n    return loads(fp.read(),\n           ^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/nix/store/clx0mcir7qw8zk36zbr4jra789g3knf6-python3-3.11.10/lib/python3.11/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+  }
+]

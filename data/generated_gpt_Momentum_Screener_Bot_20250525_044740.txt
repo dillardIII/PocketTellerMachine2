@@ -1,0 +1,46 @@
+Sure, here is a simple Python code for a Momentum Screener Bot. This bot will screen stocks based on their momentum. The momentum is calculated as the rate of acceleration of a stock's price or volume. In this case, we will use the price.
+
+Please note that this is a very basic bot and does not include any error handling or optimization. Also, you need to replace 'your_api_key' with your actual API key from Alpha Vantage.
+
+```python
+import requests
+import pandas as pd
+
+def get_stock_data(symbol, api_key):
+    base_url = 'https://www.alphavantage.co/query?'
+    function = 'TIME_SERIES_DAILY'
+    datatype = 'json'
+
+    complete_url = f'{base_url}function={function}&symbol={symbol}&apikey={api_key}&datatype={datatype}'
+    response = requests.get(complete_url)
+    data = response.json()
+
+    return data
+
+def calculate_momentum(data):
+    df = pd.DataFrame(data['Time Series (Daily)']).T
+    df = df.apply(pd.to_numeric)
+    df['Momentum'] = df['4. close'] - df['4. close'].shift(1)
+
+    return df['Momentum']
+
+def momentum_screener(symbols, api_key):
+    momentum_data = {}
+    for symbol in symbols:
+        data = get_stock_data(symbol, api_key)
+        momentum = calculate_momentum(data)
+        momentum_data[symbol] = momentum
+
+    return momentum_data
+
+# replace with your actual API key
+api_key = 'your_api_key'
+symbols = ['AAPL', 'GOOGL', 'MSFT']  # replace with the symbols you want to screen
+
+momentum_data = momentum_screener(symbols, api_key)
+
+for symbol, momentum in momentum_data.items():
+    print(f'Symbol: {symbol}, Momentum: {momentum}')
+```
+
+This bot will print the momentum for each stock symbol. The momentum is calculated as the difference between the current closing price and the previous day's closing price. If the momentum is positive, it means the stock price is increasing, and if it's negative, it means the stock price is decreasing.

@@ -1,0 +1,35 @@
+To accomplish this task, you would need to use a library like pandas for data manipulation and yfinance to download the stock price data. The Moving Average Convergence Divergence (MACD) is a trend-following momentum indicator that shows the relationship between two moving averages of a security’s price.
+
+Here is a simple Python code to calculate the MACD and signal line indicators and then find out when the MACD line crosses the signal line.
+
+```python
+import pandas as pd
+import yfinance as yf
+
+def calculate_ema(data, window):
+    return data.ewm(span=window, adjust=False).mean()
+
+def calculate_macd(data, short_window, long_window):
+    short_ema = calculate_ema(data, short_window)
+    long_ema = calculate_ema(data, long_window)
+    macd = short_ema - long_ema
+    signal = calculate_ema(macd, 9)
+    return macd, signal
+
+def macd_cross_signal(symbol):
+    df = yf.download(symbol, start='2020-01-01', end='2022-12-31')
+    df['MACD'], df['Signal Line'] = calculate_macd(df['Close'], 12, 26)
+    df['Cross'] = df['MACD'] - df['Signal Line']
+    df['Buy_Signal'] = df['Cross'].apply(lambda x: 'Buy' if x > 0 else 'Sell')
+    return df
+
+data = macd_cross_signal('AAPL')
+print(data)
+```
+
+In this code:
+
+1. We first define a function to calculate the Exponential Moving Average (EMA).
+2. We then define a function to calculate the MACD line and the signal line.
+3. In the `macd_cross_signal` function, we download the stock price data using the yfinance library, calculate the MACD and signal lines, and then determine when the MACD line crosses the signal line.
+4. Finally, we call the `macd_cross_signal` function with 'AAPL' as the argument to get the MACD and signal line data for Apple's stock.

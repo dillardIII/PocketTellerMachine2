@@ -18,10 +18,76 @@
     <a class="button" href="/test_brain">Test the Brain</a>
     <a class="button" href="/rain_dashboard">RAIN Dashboard</a>
 
-    <div class="footer">
+    <!-- === Voice Assistant UI === -->
+    <div class="box" style="margin-top: 30px; padding: 20px; background: #1f1f1f; border-radius: 10px;">
+      <h3>PTM Voice Assistant</h3>
+
+      <input id="voiceText" placeholder="Type something for your assistant to say..." style="width: 60%; padding: 10px; border-radius: 5px; border: none;" />
+
+      <select id="voicePersona" style="padding: 10px; margin-left: 10px; border-radius: 5px;">
+        <option value="Mo Cash">Mo Cash</option>
+        <option value="Mentor">Mentor</option>
+        <option value="Drill Instructor">Drill Instructor</option>
+        <option value="Chill Trader">Chill Trader</option>
+        <option value="Comedian">Comedian</option>
+        <option value="OG">OG</option>
+      </select>
+
+      <button onclick="triggerVoice()" style="padding: 10px 20px; margin-top: 10px; background-color: #6fd672; color: #121212; border: none; border-radius: 5px; font-weight: bold; cursor: pointer;">
+        Speak It
+      </button>
+
+      <p id="voice-status" style="color: #6fd672; margin-top: 10px;"></p>
+
+      <audio id="voicePreview" controls style="margin-top: 10px; display: none; width: 100%;">
+        <source src="/static/audio/output.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <p>
+        <a href="/static/audio/output.mp3" download="output.mp3" style="color: #6fd672;">Download Voice MP3</a>
+      </p>
+    </div>
+
+    <div class="footer" style="margin-top: 40px;">
       Built with purpose. Driven by data.
     </div>
   </div>
+
+  <!-- === Script === -->
+  <script>
+    function triggerVoice() {
+      const text = document.getElementById("voiceText").value;
+      const persona = document.getElementById("voicePersona").value;
+
+      // Optional hardcoded mood traits
+      const mood = "win";
+      const gender = "male";
+      const accent = "southern";
+
+      fetch('/api/speak', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          text,
+          persona,
+          mood,
+          gender,
+          accent
+        })
+      })
+      .then(res => res.json())
+      .then(data => {
+        document.getElementById("voice-status").textContent = data.message;
+        document.getElementById("voicePreview").style.display = "block";
+        document.getElementById("voicePreview").load();
+      })
+      .catch(err => {
+        console.error('Voice error:', err);
+        document.getElementById("voice-status").textContent = "Error generating voice.";
+      });
+    }
+  </script>
 
 </body>
 </html>

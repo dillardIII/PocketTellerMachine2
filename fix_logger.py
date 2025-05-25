@@ -1,41 +1,41 @@
-import json
-import os
-import time
+# === FILE: fix_logger.py ===
 
+import os
+import json
+import time
+from datetime import datetime
+
+# === Log File Path ===
 FIXES_LOG_FILE = "data/fixes_log.json"
 
-# === Log Successful Code Fix ===
-def log_fix(error_data, fixed_code):
+# === Unified Fix Logger ===
+def log_fix(error_info, fix_code):
+    os.makedirs("data", exist_ok=True)
+
     log_entry = {
-        "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
-        "file": error_data['file'],
-        "error": error_data['error'],
-        "fix": fixed_code
+        "timestamp": datetime.utcnow().isoformat(),
+        "file": error_info.get("file") or error_info.get("file_path"),
+        "error": error_info.get("error_message") or error_info.get("error"),
+        "fix": fix_code
     }
 
-    # Ensure log directory exists
-    os.makedirs(os.path.dirname(FIXES_LOG_FILE), exist_ok=True)
-
-    # Append to existing log or create new log file
     if os.path.exists(FIXES_LOG_FILE):
         try:
-            with open(FIXES_LOG_FILE, 'r+') as f:
+            with open(FIXES_LOG_FILE, "r") as f:
                 logs = json.load(f)
-                logs.append(log_entry)
-                f.seek(0)
-                json.dump(logs, f, indent=2)
-            print(f"[Fix Logger] Logged fix for {error_data['file']}")
         except json.JSONDecodeError:
-            # Handle corrupted JSON file case
-            with open(FIXES_LOG_FILE, 'w') as f:
-                json.dump([log_entry], f, indent=2)
-            print(f"[Fix Logger] Corrupted log detected. Reinitialized log file.")
+            logs = []
     else:
-        with open(FIXES_LOG_FILE, 'w') as f:
-            json.dump([log_entry], f, indent=2)
-        print(f"[Fix Logger] Created new log file and logged fix.")
+        logs = []
 
-# === Log Fix Entry (Alternative Form) ===
+    logs.append(log_entry)
+
+    with open(FIXES_LOG_FILE, "w") as f:
+        json.dump(logs, f, indent=2)
+
+    print(f"[Fix Logger] Logged fix for {log_entry['file']}")
+
+# === Log Fix Entry (Alternative Format) ===
 def log_fix_entry(file_path, error_message, fix_code):
     log_entry = {
         "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
@@ -44,8 +44,7 @@ def log_fix_entry(file_path, error_message, fix_code):
         "fix": fix_code
     }
 
-    if not os.path.exists(os.path.dirname(FIXES_LOG_FILE)):
-        os.makedirs(os.path.dirname(FIXES_LOG_FILE))
+    os.makedirs(os.path.dirname(FIXES_LOG_FILE), exist_ok=True)
 
     try:
         if os.path.exists(FIXES_LOG_FILE):

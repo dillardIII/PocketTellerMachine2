@@ -1,19 +1,69 @@
-# === FILE: cole_task_optimizer.py ===
+import os
+import json
+from datetime import datetime
+from assistants.malik import malik_report
 
-def cole_optimize_tasks(task_list):
-    if not task_list:
-        print("[Optimizer] Received empty task list.")
+TASK_FILE = "data/cole_task_queue.json"
+OPTIMIZED_LOG = "data/cole_task_optimizer_log.json"
+
+os.makedirs("data", exist_ok=True)
+
+# === Load Tasks ===
+def load_tasks():
+    if not os.path.exists(TASK_FILE):
+        return []
+    try:
+        with open(TASK_FILE, "r") as f:
+            return json.load(f)
+    except:
         return []
 
-    optimized = []
-    for task in task_list:
-        if not isinstance(task, dict):
-            print("[Optimizer] Skipping non-dict task:", task)
-            continue
+# === Save Tasks ===
+def save_tasks(tasks):
+    with open(TASK_FILE, "w") as f:
+        json.dump(tasks, f, indent=2)
 
-        priority = task.get('priority', 0)
-        optimized.append((priority, task))
+# === Log Optimization ===
+def log_optimization(before, after):
+    log_entry = {
+        "timestamp": datetime.now().isoformat(),
+        "before_count": len(before),
+        "after_count": len(after),
+        "before_sample": before[:3],
+        "after_sample": after[:3]
+    }
 
-    # Sort by priority descending
-    optimized.sort(reverse=True)
-    return [task for _, task in optimized]
+    if os.path.exists(OPTIMIZED_LOG):
+        try:
+            with open(OPTIMIZED_LOG, "r") as f:
+                logs = json.load(f)
+        except:
+            logs = []
+    else:
+        logs = []
+
+    logs.append(log_entry)
+    with open(OPTIMIZED_LOG, "w") as f:
+        json.dump(logs[-300:], f, indent=2)
+
+# === Main Optimizer Logic ===
+def cole_optimize_tasks():
+    tasks = load_tasks()
+
+    # Filter out any tasks missing 'priority'
+    valid_tasks = [t for t in tasks if isinstance(t, dict) and "priority" in t]
+
+    # Sort by priority (lower is more important)
+    sorted_tasks = sorted(valid_tasks, key=lambda x: x["priority"])
+
+    log_optimization(tasks, sorted_tasks)
+
+    # Save back the sorted list
+    save_tasks(sorted_tasks)
+
+    print(f"[Task Optimizer] Sorted {len(sorted_tasks)} tasks.")
+    malik_report(f"[Task Optimizer] Optimized {len(sorted_tasks)} tasks.")
+
+# === CLI Test ===
+if __name__ == "__main__":
+    cole_optimize_tasks()

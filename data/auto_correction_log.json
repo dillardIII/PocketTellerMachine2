@@ -1,411 +1,5 @@
 [
   {
-    "timestamp": "2025-05-22T03:46:57.862652",
-    "event": {
-      "issue": "Data sync lag identified",
-      "correction": "Forced data refresh from primary source."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:46:57.876873",
-    "event": {
-      "issue": "Trading bot response timeout",
-      "correction": "Restarted bot process for recovery."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:48:42.248438",
-    "event": {
-      "issue": "API rate limit breach detected",
-      "correction": "Adjusted polling interval by +30 seconds."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:48:42.256879",
-    "event": {
-      "issue": "Data sync lag identified",
-      "correction": "Forced data refresh from primary source."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:48:42.261224",
-    "event": {
-      "issue": "Trading bot response timeout",
-      "correction": "Restarted bot process for recovery."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:50:24.433650",
-    "event": {
-      "issue": "API rate limit breach detected",
-      "correction": "Adjusted polling interval by +30 seconds."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:50:24.439373",
-    "event": {
-      "issue": "Data sync lag identified",
-      "correction": "Forced data refresh from primary source."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:50:24.460159",
-    "event": {
-      "issue": "Trading bot response timeout",
-      "correction": "Restarted bot process for recovery."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:52:04.003069",
-    "event": {
-      "issue": "API rate limit breach detected",
-      "correction": "Adjusted polling interval by +30 seconds."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:52:04.007493",
-    "event": {
-      "issue": "Data sync lag identified",
-      "correction": "Forced data refresh from primary source."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:52:04.012787",
-    "event": {
-      "issue": "Trading bot response timeout",
-      "correction": "Restarted bot process for recovery."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:54:01.556809",
-    "event": {
-      "issue": "API rate limit breach detected",
-      "correction": "Adjusted polling interval by +30 seconds."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:54:01.567149",
-    "event": {
-      "issue": "Data sync lag identified",
-      "correction": "Forced data refresh from primary source."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:54:01.585351",
-    "event": {
-      "issue": "Trading bot response timeout",
-      "correction": "Restarted bot process for recovery."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:55:58.638215",
-    "event": {
-      "issue": "API rate limit breach detected",
-      "correction": "Adjusted polling interval by +30 seconds."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:55:58.642524",
-    "event": {
-      "issue": "Data sync lag identified",
-      "correction": "Forced data refresh from primary source."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:55:58.656396",
-    "event": {
-      "issue": "Trading bot response timeout",
-      "correction": "Restarted bot process for recovery."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:57:45.614478",
-    "event": {
-      "issue": "API rate limit breach detected",
-      "correction": "Adjusted polling interval by +30 seconds."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:57:45.623237",
-    "event": {
-      "issue": "Data sync lag identified",
-      "correction": "Forced data refresh from primary source."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:57:45.633805",
-    "event": {
-      "issue": "Trading bot response timeout",
-      "correction": "Restarted bot process for recovery."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:59:30.034337",
-    "event": {
-      "issue": "API rate limit breach detected",
-      "correction": "Adjusted polling interval by +30 seconds."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:59:30.041059",
-    "event": {
-      "issue": "Data sync lag identified",
-      "correction": "Forced data refresh from primary source."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T03:59:30.049533",
-    "event": {
-      "issue": "Trading bot response timeout",
-      "correction": "Restarted bot process for recovery."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:01:30.259273",
-    "event": {
-      "issue": "API rate limit breach detected",
-      "correction": "Adjusted polling interval by +30 seconds."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:01:30.265317",
-    "event": {
-      "issue": "Data sync lag identified",
-      "correction": "Forced data refresh from primary source."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:01:30.287574",
-    "event": {
-      "issue": "Trading bot response timeout",
-      "correction": "Restarted bot process for recovery."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:03:19.568632",
-    "event": {
-      "issue": "API rate limit breach detected",
-      "correction": "Adjusted polling interval by +30 seconds."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:03:19.574568",
-    "event": {
-      "issue": "Data sync lag identified",
-      "correction": "Forced data refresh from primary source."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:03:19.580093",
-    "event": {
-      "issue": "Trading bot response timeout",
-      "correction": "Restarted bot process for recovery."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:05:06.888496",
-    "event": {
-      "issue": "API rate limit breach detected",
-      "correction": "Adjusted polling interval by +30 seconds."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:05:06.892603",
-    "event": {
-      "issue": "Data sync lag identified",
-      "correction": "Forced data refresh from primary source."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:05:06.909831",
-    "event": {
-      "issue": "Trading bot response timeout",
-      "correction": "Restarted bot process for recovery."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:06:51.862786",
-    "event": {
-      "issue": "API rate limit breach detected",
-      "correction": "Adjusted polling interval by +30 seconds."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:06:51.872711",
-    "event": {
-      "issue": "Data sync lag identified",
-      "correction": "Forced data refresh from primary source."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:06:51.893242",
-    "event": {
-      "issue": "Trading bot response timeout",
-      "correction": "Restarted bot process for recovery."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:08:59.369601",
-    "event": {
-      "issue": "API rate limit breach detected",
-      "correction": "Adjusted polling interval by +30 seconds."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:08:59.382223",
-    "event": {
-      "issue": "Data sync lag identified",
-      "correction": "Forced data refresh from primary source."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:08:59.402109",
-    "event": {
-      "issue": "Trading bot response timeout",
-      "correction": "Restarted bot process for recovery."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:10:52.727804",
-    "event": {
-      "issue": "API rate limit breach detected",
-      "correction": "Adjusted polling interval by +30 seconds."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:10:52.737532",
-    "event": {
-      "issue": "Data sync lag identified",
-      "correction": "Forced data refresh from primary source."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:10:52.752554",
-    "event": {
-      "issue": "Trading bot response timeout",
-      "correction": "Restarted bot process for recovery."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:12:53.318316",
-    "event": {
-      "issue": "API rate limit breach detected",
-      "correction": "Adjusted polling interval by +30 seconds."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:12:53.325156",
-    "event": {
-      "issue": "Data sync lag identified",
-      "correction": "Forced data refresh from primary source."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:12:53.349533",
-    "event": {
-      "issue": "Trading bot response timeout",
-      "correction": "Restarted bot process for recovery."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:14:37.195691",
-    "event": {
-      "issue": "API rate limit breach detected",
-      "correction": "Adjusted polling interval by +30 seconds."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:14:37.200262",
-    "event": {
-      "issue": "Data sync lag identified",
-      "correction": "Forced data refresh from primary source."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:14:37.222900",
-    "event": {
-      "issue": "Trading bot response timeout",
-      "correction": "Restarted bot process for recovery."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:16:30.155590",
-    "event": {
-      "issue": "API rate limit breach detected",
-      "correction": "Adjusted polling interval by +30 seconds."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:16:30.166249",
-    "event": {
-      "issue": "Data sync lag identified",
-      "correction": "Forced data refresh from primary source."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:16:30.177517",
-    "event": {
-      "issue": "Trading bot response timeout",
-      "correction": "Restarted bot process for recovery."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:18:14.845277",
-    "event": {
-      "issue": "API rate limit breach detected",
-      "correction": "Adjusted polling interval by +30 seconds."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:18:14.856326",
-    "event": {
-      "issue": "Data sync lag identified",
-      "correction": "Forced data refresh from primary source."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:18:14.873201",
-    "event": {
-      "issue": "Trading bot response timeout",
-      "correction": "Restarted bot process for recovery."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:20:06.556574",
-    "event": {
-      "issue": "API rate limit breach detected",
-      "correction": "Adjusted polling interval by +30 seconds."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:20:06.562831",
-    "event": {
-      "issue": "Data sync lag identified",
-      "correction": "Forced data refresh from primary source."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:20:06.572358",
-    "event": {
-      "issue": "Trading bot response timeout",
-      "correction": "Restarted bot process for recovery."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:22:07.035846",
-    "event": {
-      "issue": "API rate limit breach detected",
-      "correction": "Adjusted polling interval by +30 seconds."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T04:22:07.048903",
-    "event": {
-      "issue": "Data sync lag identified",
-      "correction": "Forced data refresh from primary source."
-    }
-  },
-  {
     "timestamp": "2025-05-22T04:22:07.058970",
     "event": {
       "issue": "Trading bot response timeout",
@@ -3497,6 +3091,412 @@
     "event": {
       "issue": "Trading bot response timeout",
       "correction": "Restarted bot process for recovery."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:42:28.368515",
+    "event": {
+      "issue": "API rate limit breach detected",
+      "correction": "Adjusted polling interval by +30 seconds."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:42:28.374618",
+    "event": {
+      "issue": "Data sync lag identified",
+      "correction": "Forced data refresh from primary source."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:42:28.384242",
+    "event": {
+      "issue": "Trading bot response timeout",
+      "correction": "Restarted bot process for recovery."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:42:55.978249",
+    "event": {
+      "issue": "API rate limit breach detected",
+      "correction": "Adjusted polling interval by +30 seconds."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:42:55.982077",
+    "event": {
+      "issue": "Data sync lag identified",
+      "correction": "Forced data refresh from primary source."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:42:55.991396",
+    "event": {
+      "issue": "Trading bot response timeout",
+      "correction": "Restarted bot process for recovery."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:44:56.906461",
+    "event": {
+      "issue": "API rate limit breach detected",
+      "correction": "Adjusted polling interval by +30 seconds."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:44:56.911982",
+    "event": {
+      "issue": "Data sync lag identified",
+      "correction": "Forced data refresh from primary source."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:44:56.920282",
+    "event": {
+      "issue": "Trading bot response timeout",
+      "correction": "Restarted bot process for recovery."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:45:22.159284",
+    "event": {
+      "issue": "API rate limit breach detected",
+      "correction": "Adjusted polling interval by +30 seconds."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:45:22.164660",
+    "event": {
+      "issue": "Data sync lag identified",
+      "correction": "Forced data refresh from primary source."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:45:22.172809",
+    "event": {
+      "issue": "Trading bot response timeout",
+      "correction": "Restarted bot process for recovery."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:46:21.607562",
+    "event": {
+      "issue": "API rate limit breach detected",
+      "correction": "Adjusted polling interval by +30 seconds."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:46:21.614070",
+    "event": {
+      "issue": "Data sync lag identified",
+      "correction": "Forced data refresh from primary source."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:46:21.622191",
+    "event": {
+      "issue": "Trading bot response timeout",
+      "correction": "Restarted bot process for recovery."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:47:29.663352",
+    "event": {
+      "issue": "API rate limit breach detected",
+      "correction": "Adjusted polling interval by +30 seconds."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:47:29.667833",
+    "event": {
+      "issue": "Data sync lag identified",
+      "correction": "Forced data refresh from primary source."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:47:29.676197",
+    "event": {
+      "issue": "Trading bot response timeout",
+      "correction": "Restarted bot process for recovery."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:48:55.628769",
+    "event": {
+      "issue": "API rate limit breach detected",
+      "correction": "Adjusted polling interval by +30 seconds."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:48:55.633414",
+    "event": {
+      "issue": "Data sync lag identified",
+      "correction": "Forced data refresh from primary source."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:48:55.639695",
+    "event": {
+      "issue": "Trading bot response timeout",
+      "correction": "Restarted bot process for recovery."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:24:15.379868",
+    "event": {
+      "issue": "API rate limit breach detected",
+      "correction": "Adjusted polling interval by +30 seconds."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:24:15.384792",
+    "event": {
+      "issue": "Data sync lag identified",
+      "correction": "Forced data refresh from primary source."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:24:15.398406",
+    "event": {
+      "issue": "Trading bot response timeout",
+      "correction": "Restarted bot process for recovery."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:26:01.769445",
+    "event": {
+      "issue": "API rate limit breach detected",
+      "correction": "Adjusted polling interval by +30 seconds."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:26:01.776769",
+    "event": {
+      "issue": "Data sync lag identified",
+      "correction": "Forced data refresh from primary source."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:26:01.783288",
+    "event": {
+      "issue": "Trading bot response timeout",
+      "correction": "Restarted bot process for recovery."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:27:17.127975",
+    "event": {
+      "issue": "API rate limit breach detected",
+      "correction": "Adjusted polling interval by +30 seconds."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:27:17.132391",
+    "event": {
+      "issue": "Data sync lag identified",
+      "correction": "Forced data refresh from primary source."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:27:17.138223",
+    "event": {
+      "issue": "Trading bot response timeout",
+      "correction": "Restarted bot process for recovery."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:32:14.264820",
+    "event": {
+      "issue": "API rate limit breach detected",
+      "correction": "Adjusted polling interval by +30 seconds."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:32:14.270738",
+    "event": {
+      "issue": "Data sync lag identified",
+      "correction": "Forced data refresh from primary source."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:32:14.277093",
+    "event": {
+      "issue": "Trading bot response timeout",
+      "correction": "Restarted bot process for recovery."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:32:18.047913",
+    "event": {
+      "issue": "API rate limit breach detected",
+      "correction": "Adjusted polling interval by +30 seconds."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:32:18.053165",
+    "event": {
+      "issue": "Data sync lag identified",
+      "correction": "Forced data refresh from primary source."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:32:18.060275",
+    "event": {
+      "issue": "Trading bot response timeout",
+      "correction": "Restarted bot process for recovery."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:41:36.740650",
+    "event": {
+      "issue": "API rate limit breach detected",
+      "correction": "Adjusted polling interval by +30 seconds."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:41:36.746394",
+    "event": {
+      "issue": "Data sync lag identified",
+      "correction": "Forced data refresh from primary source."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:41:36.755023",
+    "event": {
+      "issue": "Trading bot response timeout",
+      "correction": "Restarted bot process for recovery."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:41:38.270990",
+    "event": {
+      "issue": "API rate limit breach detected",
+      "correction": "Adjusted polling interval by +30 seconds."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:41:38.275382",
+    "event": {
+      "issue": "Data sync lag identified",
+      "correction": "Forced data refresh from primary source."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:41:38.281828",
+    "event": {
+      "issue": "Trading bot response timeout",
+      "correction": "Restarted bot process for recovery."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:47:17.006777",
+    "event": {
+      "issue": "API rate limit breach detected",
+      "correction": "Adjusted polling interval by +30 seconds."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:47:17.013466",
+    "event": {
+      "issue": "Data sync lag identified",
+      "correction": "Forced data refresh from primary source."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:47:17.024663",
+    "event": {
+      "issue": "Trading bot response timeout",
+      "correction": "Restarted bot process for recovery."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:49:17.212516",
+    "event": {
+      "issue": "High Load Avg: 5.3798828125 (Threshold: 5.0)",
+      "correction": "Reduced system activity due to high load."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:54:31.778120",
+    "event": {
+      "issue": "High Load Avg: 6.77880859375 (Threshold: 5.0)",
+      "correction": "Reduced system activity due to high load."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:56:30.201738",
+    "event": {
+      "issue": "High Load Avg: 5.47607421875 (Threshold: 5.0)",
+      "correction": "Reduced system activity due to high load."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:57:27.953926",
+    "event": {
+      "issue": "High Load Avg: 7.244140625 (Threshold: 5.0)",
+      "correction": "Reduced system activity due to high load."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:57:28.876315",
+    "event": {
+      "issue": "High Load Avg: 7.244140625 (Threshold: 5.0)",
+      "correction": "Reduced system activity due to high load."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:01:08.617787",
+    "event": {
+      "issue": "High Load Avg: 7.16162109375 (Threshold: 5.0)",
+      "correction": "Reduced system activity due to high load."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:01:18.387815",
+    "event": {
+      "issue": "High Load Avg: 8.5908203125 (Threshold: 5.0)",
+      "correction": "Reduced system activity due to high load."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:02:04.611822",
+    "event": {
+      "issue": "High Load Avg: 8.09912109375 (Threshold: 5.0)",
+      "correction": "Reduced system activity due to high load."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:02:05.330989",
+    "event": {
+      "issue": "High Load Avg: 8.09912109375 (Threshold: 5.0)",
+      "correction": "Reduced system activity due to high load."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:06:08.026009",
+    "event": {
+      "issue": "High Load Avg: 5.7080078125 (Threshold: 5.0)",
+      "correction": "Reduced system activity due to high load."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:09:14.217206",
+    "event": {
+      "issue": "High Load Avg: 5.212890625 (Threshold: 5.0)",
+      "correction": "Reduced system activity due to high load."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:30:18.604742",
+    "event": {
+      "issue": "High Load Avg: 6.06640625 (Threshold: 5.0)",
+      "correction": "Reduced system activity due to high load."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:30:47.676680",
+    "event": {
+      "issue": "High Load Avg: 5.68017578125 (Threshold: 5.0)",
+      "correction": "Reduced system activity due to high load."
     }
   }
 ]

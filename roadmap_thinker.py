@@ -2,61 +2,47 @@
 
 import json
 import os
-from datetime import datetime
-from cole_gpt_advisor import ask_gpt
+import time
 
-ROADMAP_FILE = "project_roadmap.json"
+ROADMAP_FILE = "data/project_roadmap.json"
 
-def think_of_new_feature():
-    prompt = """
-    You are part of an autonomous trading bot called PTM.
-    You generate helpful feature ideas to improve the trading system.
-    Return a new feature in this JSON format:
-
-    {
-        "id": "featureXXX",
-        "name": "Feature Name",
-        "type": "dashboard | education | trading | repair | persona_feature | api",
-        "status": "pending",
-        "priority": "high | medium | low",
-        "description": "One sentence describing what the feature does."
-    }
-
-    Return only the JSON. Do not add commentary.
-    """
-
-    response = ask_gpt(prompt)
-
+# === Load the roadmap safely ===
+def load_roadmap():
+    if not os.path.exists(ROADMAP_FILE):
+        print("[Roadmap Thinker] No roadmap file found. Creating default.")
+        default = []
+        save_roadmap(default)
+        return default
     try:
-        feature = json.loads(response)
-        if not isinstance(feature, dict) or "id" not in feature:
-            raise ValueError("Invalid feature format.")
-    except Exception as e:
-        print(f"[Thinker] Failed to parse GPT output: {e}")
-        return None
-
-    return feature
-
-def add_feature_to_roadmap(feature):
-    os.makedirs("data", exist_ok=True)
-
-    if os.path.exists(ROADMAP_FILE):
         with open(ROADMAP_FILE, "r") as f:
-            roadmap = json.load(f)
-    else:
-        roadmap = {"features": []}
+            return json.load(f)
+    except json.JSONDecodeError as e:
+        print(f"[Roadmap Thinker] JSON parse error: {e}")
+        return []
 
-    roadmap["features"].append(feature)
-
+# === Save roadmap to file ===
+def save_roadmap(roadmap):
+    os.makedirs("data", exist_ok=True)
     with open(ROADMAP_FILE, "w") as f:
         json.dump(roadmap, f, indent=2)
 
-    print(f"[Thinker] Added new feature to roadmap: {feature['name']}")
+# === Append new feature idea to roadmap ===
+def append_feature_to_roadmap(feature):
+    roadmap = load_roadmap()
+    roadmap.append(feature)
+    save_roadmap(roadmap)
+    print(f"[Roadmap Thinker] Logged new feature: {feature.get('title', 'Untitled')}")
 
+# === GPT-driven logic to suggest a new feature ===
 def run_thinking_cycle():
-    print("[Thinker] Thinking of new roadmap feature...")
-    feature = think_of_new_feature()
-    if feature:
-        add_feature_to_roadmap(feature)
-    else:
-        print("[Thinker] No valid idea returned.")
+    print("[Roadmap Thinker] Thinking...")
+    try:
+        with open("data/last_gpt_feature.json", "r") as f:
+            gpt_response = json.load(f)
+        feature = gpt_response.get("feature")
+        if feature:
+            append_feature_to_roadmap(feature)
+        else:
+            print("[Roadmap Thinker] No valid feature found in GPT response.")
+    except Exception as e:
+        print(f"[Roadmap Thinker] Error in thinking cycle: {e}")

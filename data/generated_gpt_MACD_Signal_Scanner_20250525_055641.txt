@@ -1,0 +1,36 @@
+Sure, here is a simple Python code using the `pandas`, `yfinance` and `matplotlib` libraries to calculate the MACD (Moving Average Convergence Divergence) of a stock and generate a signal when the MACD line crosses the signal line.
+
+```python
+import pandas as pd
+import yfinance as yf
+import matplotlib.pyplot as plt
+
+def calculate_ema(data, window):
+    return data.ewm(span=window, adjust=False).mean()
+
+def calculate_macd(data, short_window, long_window):
+    short_ema = calculate_ema(data, short_window)
+    long_ema = calculate_ema(data, long_window)
+    macd = short_ema - long_ema
+    signal = calculate_ema(macd, 9)
+    return macd, signal
+
+def plot_macd(macd, signal):
+    plt.figure(figsize=(12.2, 4.5))
+    plt.plot(macd, label='MACD', color = 'red')
+    plt.plot(signal, label='Signal Line', color='blue')
+    plt.legend(loc='upper left')
+    plt.show()
+
+def macd_signal_scanner(stock, short_window=12, long_window=26):
+    data = yf.download(stock, start='2020-01-01', end='2022-12-31')
+    data = data['Close']
+    macd, signal = calculate_macd(data, short_window, long_window)
+    plot_macd(macd, signal)
+
+macd_signal_scanner('AAPL')
+```
+
+This script downloads the historical data of a stock (in this case, Apple Inc.) from Yahoo Finance, calculates the MACD and signal line, and plots them. The `macd_signal_scanner` function can be used to analyze any stock by changing the 'AAPL' parameter to the desired stock symbol.
+
+Please note that this script does not generate a signal when the MACD line crosses the signal line. If you want to generate a signal, you need to add additional code to detect the crossover and generate the signal.

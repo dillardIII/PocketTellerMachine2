@@ -3,30 +3,27 @@
 import os
 import importlib.util
 
-ROUTES_FOLDER = "routes"
-
 def load_all_routes(app):
-    if not os.path.exists(ROUTES_FOLDER):
-        print("[AutoRouteLoader] No routes/ folder found.")
+    route_dir = "routes"
+    if not os.path.exists(route_dir):
+        print("[AutoRouteLoader] Route directory not found.")
         return
 
-    for filename in os.listdir(ROUTES_FOLDER):
+    for filename in os.listdir(route_dir):
         if filename.endswith("_route.py"):
-            module_path = os.path.join(ROUTES_FOLDER, filename)
-            module_name = filename[:-3]  # Remove .py
+            module_name = filename[:-3]
+            file_path = os.path.join(route_dir, filename)
 
             try:
-                spec = importlib.util.spec_from_file_location(module_name, module_path)
+                spec = importlib.util.spec_from_file_location(module_name, file_path)
                 module = importlib.util.module_from_spec(spec)
                 spec.loader.exec_module(module)
 
-                # Automatically find the Blueprint object
-                for attr in dir(module):
-                    obj = getattr(module, attr)
-                    if hasattr(obj, "url_map"):  # crude check for Flask Blueprint
-                        app.register_blueprint(obj)
-                        print(f"[AutoRouteLoader] Registered: {module_name}.{attr}")
-                        break
+                if hasattr(module, "bp"):
+                    app.register_blueprint(module.bp)
+                    print(f"[AutoRouteLoader] Loaded route: {filename}")
+                else:
+                    print(f"[AutoRouteLoader] No blueprint found in {filename}")
 
             except Exception as e:
                 print(f"[AutoRouteLoader] Failed to load {filename}: {e}")

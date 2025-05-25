@@ -1,1245 +1,5 @@
 [
   {
-    "timestamp": "2025-05-22T05:54:26.336051",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T05:54:26.342960",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T05:54:26.356675",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T05:54:26.374739",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T05:54:26.388485",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T05:56:20.619087",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T05:56:20.625969",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T05:56:20.646145",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T05:56:20.658559",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T05:56:20.674619",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T05:58:33.865760",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T05:58:33.873077",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T05:58:33.891792",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T05:58:33.906583",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T05:58:33.920041",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:00:21.982106",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:00:21.989774",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:00:22.002139",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:00:22.013645",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:00:22.029088",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:02:29.492957",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:02:29.499162",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:02:29.512839",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:02:29.531387",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:02:29.545944",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:04:33.828141",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:04:33.834222",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:04:33.844248",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:04:33.855402",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:04:33.866721",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:06:55.734281",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:06:55.741797",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:06:55.750907",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:06:55.778194",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:06:55.790031",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:08:46.591343",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:08:46.600200",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:08:46.622210",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:08:46.635153",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:08:46.661043",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:10:52.657397",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:10:52.664091",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:10:52.672123",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:10:52.686045",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:10:52.693649",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:12:38.049512",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:12:38.055234",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:12:38.068758",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:12:38.081906",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:12:38.101265",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:14:47.749538",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:14:47.755583",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:14:47.768924",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:14:47.788156",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:14:47.801302",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:16:59.075725",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:16:59.081762",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:16:59.101580",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:16:59.121762",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:16:59.144931",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:19:01.076944",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:19:01.086627",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:19:01.105544",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:19:01.125878",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:19:01.137398",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:21:04.184984",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:21:04.190344",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:21:04.217086",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:21:04.267402",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:21:04.303679",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:23:24.736153",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:23:24.743626",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:23:24.758991",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:23:24.772226",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:23:24.786522",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:25:19.679116",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:25:19.684695",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:25:19.695786",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:25:19.710255",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:25:19.722644",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:27:19.498820",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:27:19.505918",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:27:19.526316",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:27:19.539990",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:27:19.547118",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:29:52.187761",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:29:52.193771",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:29:52.209701",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:29:52.227516",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:29:52.246966",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:32:13.015472",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:32:13.022070",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:32:13.041914",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:32:13.056860",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:32:13.074695",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:34:15.246779",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:34:15.253411",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:34:15.283241",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:34:15.303577",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:34:15.312409",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:36:14.753494",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:36:14.759497",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:36:14.768371",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:36:14.779572",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:36:14.800203",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:38:18.097567",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:38:18.108803",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:38:18.123934",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:38:18.157687",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:38:18.177202",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:40:12.328126",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:40:12.335131",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:40:12.343182",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:40:12.360578",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:40:12.384142",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:42:18.557574",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:42:18.564277",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:42:18.578837",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:42:18.589492",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:42:18.598787",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:48:39.656049",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:48:39.668735",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:48:39.686193",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:48:39.697281",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:48:39.713883",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:51:05.978669",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:51:05.985553",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:51:06.000152",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:51:06.014631",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:51:06.029352",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:53:33.908632",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:53:33.913532",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:53:33.928357",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:53:33.942456",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:53:33.957943",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:55:43.906304",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:55:43.910954",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:55:43.931714",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:55:43.944881",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:55:43.957128",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:58:04.135118",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:58:04.142312",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:58:04.158650",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:58:04.172340",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T06:58:04.182906",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T07:00:22.372466",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T07:00:22.378892",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T07:00:22.390460",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T07:00:22.405685",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T07:00:22.420645",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T07:02:41.852342",
-    "event": {
-      "metric": "Trade Win Rate",
-      "value": "67%",
-      "insight": "Consistent with 3% weekly improvement."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T07:02:41.867479",
-    "event": {
-      "metric": "Average Trade Duration",
-      "value": "2.3 days",
-      "insight": "Holding periods optimized."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T07:02:41.886568",
-    "event": {
-      "metric": "Top Performing Strategy",
-      "value": "Bull Put Spread",
-      "insight": "Best ROI over last 30 trades."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T07:02:41.903963",
-    "event": {
-      "metric": "Risk Exposure",
-      "value": "Moderate",
-      "insight": "Balanced between aggressive and conservative."
-    }
-  },
-  {
-    "timestamp": "2025-05-22T07:02:41.925869",
-    "event": {
-      "metric": "Market Sentiment Alignment",
-      "value": "82%",
-      "insight": "High correlation with Congress sentiment overlays."
-    }
-  },
-  {
     "timestamp": "2025-05-22T07:04:49.735235",
     "event": {
       "metric": "Trade Win Rate",
@@ -3993,6 +2753,1246 @@
   },
   {
     "timestamp": "2025-05-22T09:34:01.305538",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:42:28.390647",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:42:28.396374",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:42:28.403778",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:42:28.409128",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:42:28.416990",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:42:55.999816",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:42:56.006509",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:42:56.013964",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:42:56.021731",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:42:56.030238",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:44:56.928526",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:44:56.935009",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:44:56.949851",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:44:56.959598",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:44:56.967799",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:45:22.179990",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:45:22.186144",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:45:22.193019",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:45:22.200853",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:45:22.208831",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:46:21.628105",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:46:21.635122",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:46:21.645439",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:46:21.652035",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:46:21.661379",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:47:29.683453",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:47:29.688604",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:47:29.694082",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:47:29.701501",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:47:29.708566",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:48:55.645342",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:48:55.651409",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:48:55.659240",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:48:55.667067",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T04:48:55.673983",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:24:15.404337",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:24:15.409644",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:24:15.424289",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:24:15.429851",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:24:15.436980",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:26:01.791466",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:26:01.798292",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:26:01.812373",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:26:01.821811",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:26:01.829083",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:27:17.143109",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:27:17.147523",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:27:17.159937",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:27:17.166233",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:27:17.172205",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:32:14.281485",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:32:14.286020",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:32:14.296846",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:32:14.303260",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:32:14.311675",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:32:18.064664",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:32:18.070367",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:32:18.080440",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:32:18.086718",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:32:18.092357",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:41:36.763308",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:41:36.768938",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:41:36.775962",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:41:36.781966",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:41:36.788426",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:41:38.289601",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:41:38.295427",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:41:38.301858",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:41:38.308729",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:41:38.315802",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:47:17.035957",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:47:17.043811",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:47:17.050535",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:47:17.058744",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:47:17.067622",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:49:17.217071",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:49:17.222399",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:49:17.235223",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:49:17.246371",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:49:17.254168",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:51:09.968120",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:51:09.978317",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:51:09.994952",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:51:10.010396",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:51:10.021267",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:54:31.785358",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:54:31.791946",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:54:31.927789",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:54:31.935348",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:54:31.942677",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:56:30.217261",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:56:30.225635",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:56:30.239348",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:56:30.250951",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:56:30.263486",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:57:27.961900",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:57:27.970353",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:57:27.977065",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:57:27.981986",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:57:27.989434",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:57:28.882666",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:57:28.887395",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:57:28.897195",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:57:28.905783",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T05:57:28.911352",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:01:08.624166",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:01:08.629383",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:01:08.639123",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:01:08.646013",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:01:08.660026",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:01:18.394375",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:01:18.401141",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:01:18.414595",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:01:18.420815",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:01:18.428410",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:02:04.617162",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:02:04.623430",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:02:04.633217",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:02:04.642738",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:02:04.654592",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:02:05.337417",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:02:05.343872",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:02:05.350384",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:02:05.357100",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:02:05.365423",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:06:08.031122",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:06:08.035974",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:06:08.044062",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:06:08.054163",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:06:08.060604",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:09:14.223554",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:09:14.229916",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:09:14.239272",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:09:14.254867",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:09:14.264564",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:13:24.787838",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:13:24.792824",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:13:24.798636",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:13:24.804847",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:13:24.809644",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:13:24.941074",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:13:24.948814",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:13:24.957593",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:13:24.964395",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:13:24.972240",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:30:18.610183",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:30:18.615794",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:30:18.622854",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:30:18.629114",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:30:18.635221",
+    "event": {
+      "metric": "Market Sentiment Alignment",
+      "value": "82%",
+      "insight": "High correlation with Congress sentiment overlays."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:30:47.682425",
+    "event": {
+      "metric": "Trade Win Rate",
+      "value": "67%",
+      "insight": "Consistent with 3% weekly improvement."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:30:47.688370",
+    "event": {
+      "metric": "Average Trade Duration",
+      "value": "2.3 days",
+      "insight": "Holding periods optimized."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:30:47.698114",
+    "event": {
+      "metric": "Top Performing Strategy",
+      "value": "Bull Put Spread",
+      "insight": "Best ROI over last 30 trades."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:30:47.705985",
+    "event": {
+      "metric": "Risk Exposure",
+      "value": "Moderate",
+      "insight": "Balanced between aggressive and conservative."
+    }
+  },
+  {
+    "timestamp": "2025-05-25T06:30:47.712828",
     "event": {
       "metric": "Market Sentiment Alignment",
       "value": "82%",

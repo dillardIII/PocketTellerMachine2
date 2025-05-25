@@ -1,3 +1,5 @@
+# === FILE: cole_self_learning_task_generator.py ===
+
 import os
 import sys
 import json
@@ -19,6 +21,12 @@ logging.basicConfig(
 TRADES_FILE = "data/trades.json"
 SELF_LEARNING_LOG_FILE = "data/cole_self_learning_log.json"
 TASK_LEARNING_LOG = "data/cole_self_learning_task_log.json"
+TASK_FILE = "data/self_learning_tasks.json"
+TASK_LOG_HISTORY = "logs/self_learning_task_log.json"
+
+# === Create folders if missing ===
+os.makedirs("data", exist_ok=True)
+os.makedirs("logs", exist_ok=True)
 
 # === Load Trades ===
 def load_trades():
@@ -45,7 +53,6 @@ def log_self_learning(action, detail):
 
 # === Logging for Prompt-Based Learning ===
 def log_self_learning_task(task):
-    os.makedirs("data", exist_ok=True)
     log_entry = {
         "timestamp": datetime.now().isoformat(),
         "task": task
@@ -60,9 +67,16 @@ def log_self_learning_task(task):
         json.dump(logs[-500:], f, indent=2)
     logging.info(f"Self-Learning Logged task: {task}")
 
-# === Check for Loss Patterns ===
+# === Check for Loss Patterns (FIXED) ===
 def check_for_loss_patterns(trades):
-    losses = [t for t in trades if t.get('result', 0) < 0]
+    losses = []
+    for t in trades:
+        try:
+            result = float(t.get("result", 0))
+            if result < 0:
+                losses.append(t)
+        except:
+            continue
     return len(losses) >= 5
 
 # === Check for Inactive Strategies ===
@@ -86,14 +100,12 @@ def generate_pattern_based_tasks():
 
     tasks_added = 0
 
-    # Loss Patterns
     if check_for_loss_patterns(trades):
         task_text = "Review consecutive losses. Suggest adding task to analyze losing strategies and create adjustment module."
         add_task(task_text, task_type="self_learning")
         log_self_learning("Detected overall losses pattern", task_text)
         tasks_added += 1
 
-    # Inactive Strategies
     inactive_strategies = check_for_inactive_strategies(trades)
     for strat in inactive_strategies:
         task_text = f"Review inactive strategy: {strat}. Suggest creating learning module or trigger rule refresh."
@@ -101,11 +113,13 @@ def generate_pattern_based_tasks():
         log_self_learning("Detected inactive strategy", task_text)
         tasks_added += 1
 
-    # Strategy Performance Analysis
     strategy_results = {}
     for trade in trades:
         strategy = trade.get("strategy", "unknown")
-        result = trade.get("result", 0)
+        try:
+            result = float(trade.get("result", 0))
+        except:
+            result = 0
         strategy_results.setdefault(strategy, []).append(result)
 
     for strategy, results in strategy_results.items():
@@ -137,7 +151,8 @@ def generate_prompt_based_tasks():
         "Create task to implement machine learning based trend prediction.",
         "Generate task for refining risk-reward ratios dynamically.",
         "Add task to automate position sizing based on volatility.",
-        "Task to integrate real-time sentiment analysis into signals."
+        "Task to integrate real-time sentiment analysis into signals.",
+        "Analyze failed strategies and generate alternative ideas."
     ]
 
     logging.info("Self-Learning: Generating prompt-based tasks...")
@@ -147,6 +162,21 @@ def generate_prompt_based_tasks():
         added = add_task(task_text, task_type="self_learning")
         if added:
             log_self_learning_task(task_text)
+
+        history_log = {
+            "timestamp": datetime.utcnow().isoformat(),
+            "task": task_text,
+            "status": "logged"
+        }
+        if os.path.exists(TASK_LOG_HISTORY):
+            with open(TASK_LOG_HISTORY, "r") as f:
+                hist = json.load(f)
+        else:
+            hist = []
+
+        hist.append(history_log)
+        with open(TASK_LOG_HISTORY, "w") as f:
+            json.dump(hist[-200:], f, indent=2)
 
     logging.info(f"Self-Learning: Generated {len(new_tasks)} prompt-based tasks.")
 

@@ -1,0 +1,35 @@
+Sure, here is a simple implementation of a Bollinger Bands Alert System using Python and the pandas library. This code will alert when the closing price of a stock crosses the upper or lower Bollinger Band.
+
+```python
+import pandas as pd
+import yfinance as yf
+
+def calculate_bollinger_bands(df, window, num_std):
+    rolling_mean = df['Close'].rolling(window).mean()
+    rolling_std  = df['Close'].rolling(window).std()
+    
+    df['Bollinger High'] = rolling_mean + (rolling_std * num_std)
+    df['Bollinger Low'] = rolling_mean - (rolling_std * num_std)
+
+def check_bollinger_bands(df):
+    if df['Close'].iloc[-1] > df['Bollinger High'].iloc[-1]:
+        return "Alert: Price crossed above the upper Bollinger Band!"
+    elif df['Close'].iloc[-1] < df['Bollinger Low'].iloc[-1]:
+        return "Alert: Price crossed below the lower Bollinger Band!"
+    else:
+        return "No alerts"
+
+def bollinger_bands_alert(ticker_symbol, window, num_std):
+    df = yf.download(ticker_symbol)
+    calculate_bollinger_bands(df, window, num_std)
+    return check_bollinger_bands(df)
+
+print(bollinger_bands_alert('AAPL', 20, 2))
+```
+
+This code first downloads the historical price data for a given ticker symbol using the yfinance library. It then calculates the Bollinger Bands for the closing prices using a specified window size and number of standard deviations. Finally, it checks if the most recent closing price crossed either the upper or lower Bollinger Band and returns an appropriate alert message.
+
+Please note that you need to install yfinance library if not already installed. You can install it using pip:
+
+```python
+pip install yfinance

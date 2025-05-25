@@ -1,101 +1,5 @@
 [
   {
-    "timestamp": "2025-05-22T00:42:08.555926",
-    "cpu_percent": 79.9,
-    "memory_percent": 49.7,
-    "disk_percent": 57.3,
-    "load_avg": 12.26953125,
-    "process_count": 7
-  },
-  {
-    "timestamp": "2025-05-22T00:42:22.701758",
-    "cpu_percent": 71.0,
-    "memory_percent": 49.2,
-    "disk_percent": 57.3,
-    "load_avg": 11.5322265625,
-    "process_count": 7
-  },
-  {
-    "timestamp": "2025-05-22T00:44:03.544841",
-    "cpu_percent": 77.8,
-    "memory_percent": 49.3,
-    "disk_percent": 57.3,
-    "load_avg": 9.41650390625,
-    "process_count": 7
-  },
-  {
-    "timestamp": "2025-05-22T00:44:20.054025",
-    "cpu_percent": 76.8,
-    "memory_percent": 49.2,
-    "disk_percent": 57.3,
-    "load_avg": 9.759765625,
-    "process_count": 7
-  },
-  {
-    "timestamp": "2025-05-22T00:45:33.806434",
-    "cpu_percent": 81.1,
-    "memory_percent": 49.3,
-    "disk_percent": 57.3,
-    "load_avg": 10.36083984375,
-    "process_count": 4
-  },
-  {
-    "timestamp": "2025-05-22T00:45:48.060839",
-    "cpu_percent": 92.6,
-    "memory_percent": 50.2,
-    "disk_percent": 57.3,
-    "load_avg": 13.4326171875,
-    "process_count": 7
-  },
-  {
-    "timestamp": "2025-05-22T00:47:23.844776",
-    "cpu_percent": 76.1,
-    "memory_percent": 49.2,
-    "disk_percent": 57.3,
-    "load_avg": 11.1220703125,
-    "process_count": 5
-  },
-  {
-    "timestamp": "2025-05-22T00:49:41.152185",
-    "cpu_percent": 0.0,
-    "memory_percent": 75.7,
-    "disk_percent": 57.2,
-    "load_avg": 9.025390625,
-    "process_count": 7
-  },
-  {
-    "timestamp": "2025-05-22T00:49:56.245217",
-    "cpu_percent": 54.6,
-    "memory_percent": 75.9,
-    "disk_percent": 57.2,
-    "load_avg": 8.92333984375,
-    "process_count": 7
-  },
-  {
-    "timestamp": "2025-05-22T00:51:29.682084",
-    "cpu_percent": 46.4,
-    "memory_percent": 74.4,
-    "disk_percent": 57.2,
-    "load_avg": 6.18408203125,
-    "process_count": 7
-  },
-  {
-    "timestamp": "2025-05-22T00:51:40.642720",
-    "cpu_percent": 25.9,
-    "memory_percent": 74.3,
-    "disk_percent": 57.2,
-    "load_avg": 5.5400390625,
-    "process_count": 7
-  },
-  {
-    "timestamp": "2025-05-22T00:52:59.371239",
-    "cpu_percent": 35.3,
-    "memory_percent": 76.0,
-    "disk_percent": 57.2,
-    "load_avg": 5.11865234375,
-    "process_count": 7
-  },
-  {
     "timestamp": "2025-05-22T00:53:15.146413",
     "cpu_percent": 32.2,
     "memory_percent": 75.7,
@@ -3998,5 +3902,135 @@
     "disk_percent": 51.7,
     "load_avg": 5.2578125,
     "process_count": 5
+  },
+  {
+    "timestamp": "2025-05-25T04:42:28.437104",
+    "cpu_percent": 0.0,
+    "memory_percent": 65.5,
+    "disk_percent": 56.3,
+    "load_avg": 5.14501953125,
+    "process_count": 8
+  },
+  {
+    "timestamp": "2025-05-25T04:42:56.047354",
+    "cpu_percent": 0.0,
+    "memory_percent": 65.6,
+    "disk_percent": 56.3,
+    "load_avg": 4.388671875,
+    "process_count": 8
+  },
+  {
+    "timestamp": "2025-05-25T04:44:56.990591",
+    "cpu_percent": 0.0,
+    "memory_percent": 65.5,
+    "disk_percent": 56.3,
+    "load_avg": 4.58984375,
+    "process_count": 8
+  },
+  {
+    "timestamp": "2025-05-25T04:45:22.225251",
+    "cpu_percent": 0.0,
+    "memory_percent": 66.4,
+    "disk_percent": 56.3,
+    "load_avg": 4.8212890625,
+    "process_count": 8
+  },
+  {
+    "timestamp": "2025-05-25T04:46:21.674729",
+    "cpu_percent": 0.0,
+    "memory_percent": 66.1,
+    "disk_percent": 56.3,
+    "load_avg": 3.666015625,
+    "process_count": 8
+  },
+  {
+    "timestamp": "2025-05-25T04:47:29.727153",
+    "cpu_percent": 0.0,
+    "memory_percent": 62.4,
+    "disk_percent": 56.3,
+    "load_avg": 3.99462890625,
+    "process_count": 8
+  },
+  {
+    "timestamp": "2025-05-25T04:48:55.694146",
+    "cpu_percent": 0.0,
+    "memory_percent": 64.3,
+    "disk_percent": 56.3,
+    "load_avg": 7.71875,
+    "process_count": 8
+  },
+  {
+    "timestamp": "2025-05-25T05:24:15.459136",
+    "cpu_percent": 0.0,
+    "memory_percent": 70.3,
+    "disk_percent": 56.3,
+    "load_avg": 6.4169921875,
+    "process_count": 8
+  },
+  {
+    "timestamp": "2025-05-25T05:26:01.850444",
+    "cpu_percent": 0.0,
+    "memory_percent": 75.1,
+    "disk_percent": 56.3,
+    "load_avg": 6.4736328125,
+    "process_count": 8
+  },
+  {
+    "timestamp": "2025-05-25T05:27:17.191512",
+    "cpu_percent": 0.0,
+    "memory_percent": 75.5,
+    "disk_percent": 56.3,
+    "load_avg": 5.7724609375,
+    "process_count": 8
+  },
+  {
+    "timestamp": "2025-05-25T05:32:14.327943",
+    "cpu_percent": 0.0,
+    "memory_percent": 51.6,
+    "disk_percent": 49.5,
+    "load_avg": 6.697265625,
+    "process_count": 8
+  },
+  {
+    "timestamp": "2025-05-25T05:32:18.104454",
+    "cpu_percent": 0.0,
+    "memory_percent": 52.4,
+    "disk_percent": 49.5,
+    "load_avg": 6.48095703125,
+    "process_count": 8
   }
-]
+]{"timestamp": "2025-05-25T05:41:36.813607", "cpu_percent": 30.2, "memory_percent": 76.6, "load_avg": 5.17626953125, "status": "warning", "issues": ["Load Avg: 5.17626953125 (Threshold: 5.0)"]}
+{"timestamp": "2025-05-25T05:41:38.333613", "cpu_percent": 32.3, "memory_percent": 76.6, "load_avg": 5.17626953125, "status": "warning", "issues": ["Load Avg: 5.17626953125 (Threshold: 5.0)"]}
+{"timestamp": "2025-05-25T05:47:17.080877", "status": "nominal", "issues": [], "metrics": {"cpu_percent": 34.8, "memory_percent": 76.1, "disk_percent": 56.0, "load_avg": 3.458984375}}
+{"timestamp": "2025-05-25T05:49:16.210911", "status": "warning", "issues": ["High Load Avg: 5.3798828125 (Threshold: 5.0)"], "metrics": {"cpu_percent": 49.6, "memory_percent": 76.2, "disk_percent": 56.0, "load_avg": 5.3798828125}}
+{"timestamp": "2025-05-25T05:49:17.290988", "status": "warning", "issues": ["High Load Avg: 5.3798828125 (Threshold: 5.0)"], "metrics": {"cpu_percent": 44.4, "memory_percent": 76.3, "disk_percent": 56.0, "load_avg": 5.3798828125}}
+{"timestamp": "2025-05-25T05:51:08.965796", "status": "nominal", "issues": [], "metrics": {"cpu_percent": 51.3, "memory_percent": 76.3, "disk_percent": 56.0, "load_avg": 4.44677734375}}
+{"timestamp": "2025-05-25T05:51:10.044412", "status": "nominal", "issues": [], "metrics": {"cpu_percent": 60.7, "memory_percent": 76.4, "disk_percent": 56.0, "load_avg": 4.44677734375}}
+{"timestamp": "2025-05-25T05:54:30.776520", "status": "warning", "issues": ["High Load Avg: 6.77880859375 (Threshold: 5.0)"], "metrics": {"cpu_percent": 44.3, "memory_percent": 75.3, "disk_percent": 56.0, "load_avg": 6.77880859375}}
+{"timestamp": "2025-05-25T05:54:31.960218", "status": "warning", "issues": ["High Load Avg: 6.55615234375 (Threshold: 5.0)"], "metrics": {"cpu_percent": 50.4, "memory_percent": 75.3, "disk_percent": 56.0, "load_avg": 6.55615234375}}
+{"timestamp": "2025-05-25T05:56:29.196807", "status": "warning", "issues": ["High Load Avg: 5.47607421875 (Threshold: 5.0)"], "metrics": {"cpu_percent": 66.2, "memory_percent": 75.0, "disk_percent": 56.0, "load_avg": 5.47607421875}}
+{"timestamp": "2025-05-25T05:56:30.288017", "status": "warning", "issues": ["High Load Avg: 5.47607421875 (Threshold: 5.0)"], "metrics": {"cpu_percent": 61.0, "memory_percent": 75.2, "disk_percent": 56.0, "load_avg": 5.47607421875}}
+{"timestamp": "2025-05-25T05:57:26.951879", "status": "warning", "issues": ["High Load Avg: 7.244140625 (Threshold: 5.0)"], "metrics": {"cpu_percent": 43.5, "memory_percent": 81.8, "disk_percent": 51.8, "load_avg": 7.244140625}}
+{"timestamp": "2025-05-25T05:57:27.874343", "status": "warning", "issues": ["High Load Avg: 7.244140625 (Threshold: 5.0)"], "metrics": {"cpu_percent": 36.2, "memory_percent": 81.8, "disk_percent": 51.8, "load_avg": 7.244140625}}
+{"timestamp": "2025-05-25T05:57:28.011435", "status": "warning", "issues": ["High Load Avg: 7.244140625 (Threshold: 5.0)"], "metrics": {"cpu_percent": 33.9, "memory_percent": 81.8, "disk_percent": 51.8, "load_avg": 7.244140625}}
+{"timestamp": "2025-05-25T05:57:28.925991", "status": "warning", "issues": ["High Load Avg: 6.82373046875 (Threshold: 5.0)"], "metrics": {"cpu_percent": 42.0, "memory_percent": 81.8, "disk_percent": 51.8, "load_avg": 6.82373046875}}
+{"timestamp": "2025-05-25T06:01:07.598998", "status": "warning", "issues": ["High Load Avg: 7.16162109375 (Threshold: 5.0)"], "metrics": {"cpu_percent": 53.7, "memory_percent": 81.5, "disk_percent": 51.8, "load_avg": 7.16162109375}}
+{"timestamp": "2025-05-25T06:01:08.678324", "status": "warning", "issues": ["High Load Avg: 7.16162109375 (Threshold: 5.0)"], "metrics": {"cpu_percent": 38.1, "memory_percent": 81.5, "disk_percent": 51.8, "load_avg": 7.16162109375}}
+{"timestamp": "2025-05-25T06:01:17.386076", "status": "warning", "issues": ["High Load Avg: 8.5908203125 (Threshold: 5.0)"], "metrics": {"cpu_percent": 39.4, "memory_percent": 81.0, "disk_percent": 51.8, "load_avg": 8.5908203125}}
+{"timestamp": "2025-05-25T06:01:18.442965", "status": "warning", "issues": ["High Load Avg: 8.5908203125 (Threshold: 5.0)"], "metrics": {"cpu_percent": 70.0, "memory_percent": 81.2, "disk_percent": 51.8, "load_avg": 8.5908203125}}
+{"timestamp": "2025-05-25T06:02:03.609940", "status": "warning", "issues": ["High Load Avg: 8.09912109375 (Threshold: 5.0)"], "metrics": {"cpu_percent": 57.8, "memory_percent": 79.3, "disk_percent": 52.8, "load_avg": 8.09912109375}}
+{"timestamp": "2025-05-25T06:02:04.329286", "status": "warning", "issues": ["High Load Avg: 8.09912109375 (Threshold: 5.0)"], "metrics": {"cpu_percent": 60.5, "memory_percent": 79.3, "disk_percent": 52.8, "load_avg": 8.09912109375}}
+{"timestamp": "2025-05-25T06:02:04.674913", "status": "warning", "issues": ["High Load Avg: 8.09912109375 (Threshold: 5.0)"], "metrics": {"cpu_percent": 60.2, "memory_percent": 79.3, "disk_percent": 52.8, "load_avg": 8.09912109375}}
+{"timestamp": "2025-05-25T06:02:05.382118", "status": "warning", "issues": ["High Load Avg: 8.09912109375 (Threshold: 5.0)"], "metrics": {"cpu_percent": 48.3, "memory_percent": 79.3, "disk_percent": 52.8, "load_avg": 8.09912109375}}
+{"timestamp": "2025-05-25T06:06:07.024509", "status": "warning", "issues": ["High Load Avg: 5.7080078125 (Threshold: 5.0)"], "metrics": {"cpu_percent": 62.6, "memory_percent": 75.2, "disk_percent": 52.8, "load_avg": 5.7080078125}}
+{"timestamp": "2025-05-25T06:06:08.076630", "status": "warning", "issues": ["High Load Avg: 5.7080078125 (Threshold: 5.0)"], "metrics": {"cpu_percent": 40.8, "memory_percent": 75.3, "disk_percent": 52.8, "load_avg": 5.7080078125}}
+{"timestamp": "2025-05-25T06:09:13.212439", "status": "warning", "issues": ["High Load Avg: 5.212890625 (Threshold: 5.0)"], "metrics": {"cpu_percent": 34.2, "memory_percent": 72.5, "disk_percent": 52.8, "load_avg": 5.212890625}}
+{"timestamp": "2025-05-25T06:09:14.281633", "status": "warning", "issues": ["High Load Avg: 5.212890625 (Threshold: 5.0)"], "metrics": {"cpu_percent": 32.4, "memory_percent": 72.5, "disk_percent": 52.8, "load_avg": 5.212890625}}
+{"timestamp": "2025-05-25T06:13:23.786437", "status": "nominal", "issues": [], "metrics": {"cpu_percent": 39.7, "memory_percent": 75.5, "disk_percent": 52.8, "load_avg": 4.5390625}}
+{"timestamp": "2025-05-25T06:13:23.939549", "status": "nominal", "issues": [], "metrics": {"cpu_percent": 41.1, "memory_percent": 75.5, "disk_percent": 52.8, "load_avg": 4.5390625}}
+{"timestamp": "2025-05-25T06:13:24.829014", "status": "nominal", "issues": [], "metrics": {"cpu_percent": 54.2, "memory_percent": 75.6, "disk_percent": 52.8, "load_avg": 4.5390625}}
+{"timestamp": "2025-05-25T06:13:24.990423", "status": "nominal", "issues": [], "metrics": {"cpu_percent": 54.2, "memory_percent": 75.6, "disk_percent": 52.8, "load_avg": 4.5390625}}
+{"timestamp": "2025-05-25T06:30:17.603133", "status": "warning", "issues": ["High Load Avg: 6.06640625 (Threshold: 5.0)"], "metrics": {"cpu_percent": 32.3, "memory_percent": 62.6, "disk_percent": 49.9, "load_avg": 6.06640625}}
+{"timestamp": "2025-05-25T06:30:18.665916", "status": "warning", "issues": ["High Load Avg: 6.06640625 (Threshold: 5.0)"], "metrics": {"cpu_percent": 32.6, "memory_percent": 62.6, "disk_percent": 49.9, "load_avg": 6.06640625}}
+{"timestamp": "2025-05-25T06:30:46.674577", "status": "warning", "issues": ["High Load Avg: 5.68017578125 (Threshold: 5.0)"], "metrics": {"cpu_percent": 38.2, "memory_percent": 62.0, "disk_percent": 49.9, "load_avg": 5.68017578125}}
+{"timestamp": "2025-05-25T06:30:47.751628", "status": "warning", "issues": ["High Load Avg: 5.68017578125 (Threshold: 5.0)"], "metrics": {"cpu_percent": 32.5, "memory_percent": 61.9, "disk_percent": 49.9, "load_avg": 5.68017578125}}

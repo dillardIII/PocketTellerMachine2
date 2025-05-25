@@ -1,0 +1,162 @@
+[
+  {
+    "timestamp": "2025-05-25T06:30:14.415640",
+    "level": "INFO",
+    "message": "Cole: Starting Full Autopilot Cycle..."
+  },
+  {
+    "timestamp": "2025-05-25T06:30:14.416909",
+    "level": "INFO",
+    "message": "[Cole Phase Manager] Phase set to: midday"
+  },
+  {
+    "timestamp": "2025-05-25T06:30:14.417860",
+    "level": "INFO",
+    "message": "[Phase Manager] Current Market Phase: midday"
+  },
+  {
+    "timestamp": "2025-05-25T06:30:14.420531",
+    "level": "INFO",
+    "message": "[GPT Advisor] Prompting GPT with: What advice do you have for Cole's current phase: midday?"
+  },
+  {
+    "timestamp": "2025-05-25T06:30:14.426696",
+    "level": "INFO",
+    "message": "[GPT Advisor] Chat logged."
+  },
+  {
+    "timestamp": "2025-05-25T06:30:14.442473",
+    "level": "INFO",
+    "message": "[GPT Advisor] Prompting GPT with: Generate 5 new tasks to improve the trading strategy, data visualization, and risk management of the Cole AI system. Return as a JSON list."
+  },
+  {
+    "timestamp": "2025-05-25T06:30:14.442830",
+    "level": "INFO",
+    "message": "[GPT Advisor] Prompting GPT with: Write a technical strategy note for Cole AI regarding trade entry criteria using support and resistance levels with RSI confirmation."
+  },
+  {
+    "timestamp": "2025-05-25T06:30:14.443342",
+    "level": "INFO",
+    "message": "[GPT Advisor] Chat logged."
+  },
+  {
+    "timestamp": "2025-05-25T06:30:15.789501",
+    "level": "INFO",
+    "message": "Cole: Starting Full Autopilot Cycle..."
+  },
+  {
+    "timestamp": "2025-05-25T06:30:15.797793",
+    "level": "INFO",
+    "message": "[Cole Phase Manager] Phase set to: closing"
+  },
+  {
+    "timestamp": "2025-05-25T06:30:15.798602",
+    "level": "INFO",
+    "message": "[Phase Manager] Current Market Phase: closing"
+  },
+  {
+    "timestamp": "2025-05-25T06:30:15.799161",
+    "level": "INFO",
+    "message": "[GPT Advisor] Prompting GPT with: What advice do you have for Cole's current phase: closing?"
+  },
+  {
+    "timestamp": "2025-05-25T06:30:15.800105",
+    "level": "INFO",
+    "message": "[GPT Advisor] Chat logged."
+  },
+  {
+    "timestamp": "2025-05-25T06:30:15.809345",
+    "level": "INFO",
+    "message": "[GPT Advisor] Prompting GPT with: Generate 5 new tasks to improve the trading strategy, data visualization, and risk management of the Cole AI system. Return as a JSON list."
+  },
+  {
+    "timestamp": "2025-05-25T06:30:15.809774",
+    "level": "INFO",
+    "message": "[GPT Advisor] Prompting GPT with: Write a technical strategy note for Cole AI regarding trade entry criteria using support and resistance levels with RSI confirmation."
+  },
+  {
+    "timestamp": "2025-05-25T06:30:15.810551",
+    "level": "INFO",
+    "message": "[GPT Advisor] Chat logged."
+  },
+  {
+    "timestamp": "2025-05-25T06:30:18.649057",
+    "level": "INFO",
+    "message": "[Cole Brain] Starting decision cycle..."
+  },
+  {
+    "timestamp": "2025-05-25T06:30:18.657401",
+    "level": "INFO",
+    "message": "[Cole Brain] Task added to queue: Scan for RSI reversals"
+  },
+  {
+    "timestamp": "2025-05-25T06:30:18.659787",
+    "level": "INFO",
+    "message": "[Cole Brain] Task added to queue: Check Bollinger Band breaches"
+  },
+  {
+    "timestamp": "2025-05-25T06:30:18.661691",
+    "level": "INFO",
+    "message": "[Cole Brain] Task added to queue: Update EMA crossover table"
+  },
+  {
+    "timestamp": "2025-05-25T06:30:18.662610",
+    "level": "INFO",
+    "message": "[Cole Brain] Task added to queue: Review Congress-based signals"
+  },
+  {
+    "timestamp": "2025-05-25T06:30:18.664784",
+    "level": "INFO",
+    "message": "[Cole Brain] Task added to queue: Adjust risk weights on all trades"
+  },
+  {
+    "timestamp": "2025-05-25T06:30:18.665300",
+    "level": "INFO",
+    "message": "[Cole Brain] Decision cycle complete."
+  },
+  {
+    "timestamp": "2025-05-25T06:30:19.683497",
+    "level": "INFO",
+    "message": "Cole: Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-05-25T06:30:47.730811",
+    "level": "INFO",
+    "message": "[Cole Brain] Starting decision cycle..."
+  },
+  {
+    "timestamp": "2025-05-25T06:30:47.731390",
+    "level": "INFO",
+    "message": "[Cole Brain] Task skipped or duplicate: Scan for RSI reversals"
+  },
+  {
+    "timestamp": "2025-05-25T06:30:47.741577",
+    "level": "INFO",
+    "message": "[Cole Brain] Task skipped or duplicate: Check Bollinger Band breaches"
+  },
+  {
+    "timestamp": "2025-05-25T06:30:47.745167",
+    "level": "INFO",
+    "message": "[Cole Brain] Task skipped or duplicate: Update EMA crossover table"
+  },
+  {
+    "timestamp": "2025-05-25T06:30:47.747761",
+    "level": "INFO",
+    "message": "[Cole Brain] Task skipped or duplicate: Review Congress-based signals"
+  },
+  {
+    "timestamp": "2025-05-25T06:30:47.748451",
+    "level": "INFO",
+    "message": "[Cole Brain] Task skipped or duplicate: Adjust risk weights on all trades"
+  },
+  {
+    "timestamp": "2025-05-25T06:30:47.749279",
+    "level": "INFO",
+    "message": "[Cole Brain] Decision cycle complete."
+  },
+  {
+    "timestamp": "2025-05-25T06:31:00.039039",
+    "level": "INFO",
+    "message": "Cole: Autopilot cycle completed."
+  }
+]

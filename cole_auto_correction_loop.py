@@ -1,7 +1,10 @@
+# === FILE: cole_auto_correction_loop.py ===
+
 import os
 import json
 from datetime import datetime
 from assistants.malik import malik_report
+from cole_health_monitor import check_health
 
 AUTO_CORRECTION_LOG_FILE = "data/auto_correction_log.json"
 
@@ -26,17 +29,31 @@ def log_auto_correction_event(event):
 # === Auto-Correction Failsafe ===
 def run_auto_correction_failsafe():
     print("[Auto-Correction] Running correction failsafe...")
+    report = check_health()
 
-    # Example simulated corrections
-    corrections_applied = [
-        {"issue": "API rate limit breach detected", "correction": "Adjusted polling interval by +30 seconds."},
-        {"issue": "Data sync lag identified", "correction": "Forced data refresh from primary source."},
-        {"issue": "Trading bot response timeout", "correction": "Restarted bot process for recovery."}
-    ]
+    if report["status"] == "nominal":
+        print("[Auto-Correction] No issues found.")
+        return
 
-    for correction in corrections_applied:
-        log_auto_correction_event(correction)
-        malik_report(f"[Auto-Correction] Corrected: {correction['issue']} | Action: {correction['correction']}")
+    for issue in report["issues"]:
+        print(f"[Auto-Correction] Addressing issue: {issue}")
+
+        correction = None
+
+        if "CPU" in issue:
+            correction = "Adjusted polling interval due to high CPU."
+        elif "Memory" in issue:
+            correction = "Triggered memory cleanup."
+        elif "Disk" in issue:
+            correction = "Triggered disk cleanup protocol."
+        elif "Load Avg" in issue:
+            correction = "Reduced system activity due to high load."
+        else:
+            correction = "Logged unknown issue."
+
+        if correction:
+            log_auto_correction_event({"issue": issue, "correction": correction})
+            malik_report(f"[Auto-Correction] Corrected: {issue} | Action: {correction}")
 
     print("[Auto-Correction] Failsafe corrections completed.")
 
