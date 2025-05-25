@@ -27072,3 +27072,663 @@ A detailed migration guide is available here: https://github.com/openai/openai-p
 [2025-05-25 14:46:16.758343] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
 [2025-05-25 14:46:17.649479] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
 [2025-05-25 14:46:17.656233] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:46:21.776692] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:46:21.780745] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:46:22.682388] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:46:22.684140] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:46:26.799405] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:46:26.809265] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:46:27.702195] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:46:27.703991] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:46:31.832239] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:46:31.841523] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:46:32.723302] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:46:32.730139] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:46:36.859727] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:46:36.864251] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:46:37.744415] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:46:37.754708] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:46:41.883540] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:46:41.894698] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:46:42.770472] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:46:42.776112] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:46:46.914099] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:46:46.919077] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:46:47.803516] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:46:47.810504] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:46:51.938310] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:46:51.950404] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:46:52.822854] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:46:52.843754] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:46:56.970801] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:46:56.978818] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:46:57.873076] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:46:57.875925] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:01.993144] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:02.003547] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:02.889301] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:02.896514] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:07.026119] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:07.029673] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:07.916157] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:07.924992] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:12.053062] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:12.065213] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:12.949652] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:12.955912] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:17.085152] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:17.093543] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:17.983950] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:17.996954] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:22.116321] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:22.121714] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:23.016190] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:23.024424] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:27.144213] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:27.154588] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:28.049839] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:28.052951] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:32.167768] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:32.176427] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:33.065759] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:33.073007] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:37.193717] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:37.196976] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:38.091804] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:38.101920] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:42.221799] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:42.235115] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:43.128918] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:43.131073] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:47.258005] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:47.264886] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:48.146415] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:48.157005] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:52.278003] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:52.294186] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:53.177883] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:53.183760] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:57.354147] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:57.366390] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:47:58.214143] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:47:58.217698] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:02.399449] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:02.409429] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:03.237235] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:03.247852] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:07.426883] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:07.430842] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:08.268670] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:08.278009] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:12.464728] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:12.479019] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:13.326266] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:13.330660] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:17.519828] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:17.542013] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:18.344688] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:18.352087] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:22.561789] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:22.566703] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:23.562036] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:23.588149] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:27.585137] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:27.604423] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:28.604315] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:28.614370] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:32.622226] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:32.631807] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:33.658097] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:33.660610] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:37.643469] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:37.654255] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:38.691652] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:38.706598] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:42.683181] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:42.691185] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:43.730189] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:43.739979] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:47.727875] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:47.743738] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:48.751858] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:48.765133] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:52.758871] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:52.764763] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:53.793377] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:53.815422] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:57.788075] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:57.790443] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:48:58.847316] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:48:58.869001] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:02.802838] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:02.810251] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:03.899908] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:03.904875] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:07.823484] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:07.833507] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:08.928804] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:08.940436] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:12.844461] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:12.866924] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:13.969227] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:13.974783] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:17.882343] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:17.909052] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:18.990948] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:19.007570] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:22.929266] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:22.941881] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:24.040203] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:24.055321] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:27.966791] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:27.974017] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:29.085296] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:29.110798] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:32.999338] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:33.010919] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:34.148727] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:34.155687] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:38.027070] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:38.030884] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:39.180525] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:39.193403] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:43.104558] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:43.116111] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:44.219242] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:44.238465] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:48.135788] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:48.153022] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:49.250411] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:49.268243] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:53.169182] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:53.174067] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:54.293981] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:54.306493] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:58.205097] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:58.211940] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:49:59.328218] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:49:59.350030] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:03.227295] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:03.241631] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:04.371592] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:04.377604] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:08.257644] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:08.296612] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:09.402958] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:09.418422] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:13.378140] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:13.385963] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:14.436001] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:14.458633] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:18.406189] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:18.464499] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:19.484004] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:19.490199] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:23.492774] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:23.505188] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:24.570617] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:24.578000] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:28.540391] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:28.561139] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:29.607894] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:29.618674] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:33.633007] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:33.638336] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:34.632320] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:34.646065] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:38.664021] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:38.675748] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:39.674400] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:39.682600] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:43.693715] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:43.722337] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:44.702901] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:44.734900] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:48.736517] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:48.750343] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:49.749428] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:49.756435] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:53.773951] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:53.789851] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:54.784094] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:54.792879] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:58.811327] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:58.834967] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:50:59.815637] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:50:59.828353] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:03.859312] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:03.864811] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:04.846432] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:04.858878] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:08.903572] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:08.917115] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:09.898267] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:09.907086] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:13.935630] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:13.966116] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:14.928766] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:14.949883] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:19.015435] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:19.022824] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:19.972865] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:19.982658] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:24.049091] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:24.062576] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:25.013767] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:25.021558] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:29.084459] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:29.107400] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:30.047223] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:30.067186] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:34.131228] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:34.138386] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:35.084779] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:35.094400] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:39.164010] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:39.179411] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:40.122579] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:40.130010] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:44.240550] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:44.262733] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:45.151694] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:45.167352] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:49.303062] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:49.317965] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:50.180745] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:50.192925] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:54.346738] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:54.361848] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:55.221590] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:55.241062] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:51:59.380650] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:51:59.408485] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:00.259225] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:00.272776] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:04.469823] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:04.480726] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:05.293848] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:05.305463] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:09.526998] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:09.542634] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:10.332834] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:10.348799] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:14.564842] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:14.574370] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:15.370370] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:15.388563] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:19.590747] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:19.612083] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:20.404094] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:20.410227] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:24.640549] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:24.655565] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:25.442109] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:25.454798] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:29.684404] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:29.691884] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:30.470783] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:30.486750] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:34.706535] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:34.941089] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:35.510253] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:35.518503] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:39.970365] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:39.984007] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:40.577895] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:40.603611] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:45.016010] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:45.023921] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:45.620980] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:45.636748] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:50.049478] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:50.064685] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:50.650425] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:50.665186] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:55.075500] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:55.079038] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:52:55.678480] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:52:55.682760] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:00.094726] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:00.103819] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:00.695618] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:00.700694] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:05.115885] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:05.120950] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:05.712806] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:05.716135] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:10.155223] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:10.176542] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:10.750521] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:10.759860] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:15.207524] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:15.217521] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:15.779633] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:15.798618] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:20.233550] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:20.251529] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:20.832650] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:20.839819] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:25.279060] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:25.292814] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:25.868057] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:25.876452] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:30.325961] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:30.335767] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:30.892752] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:30.911988] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:35.353590] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:35.372220] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:35.936257] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:35.953268] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:40.397756] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:40.411537] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:40.981887] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:40.992760] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:45.440230] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:45.447023] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:46.013161] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:46.030397] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:50.477946] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:50.495172] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:51.042265] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:51.054416] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:55.546536] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:55.564062] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:53:56.087839] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:53:56.100219] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:00.608524] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:00.619615] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:01.117239] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:01.142555] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:05.635223] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:05.699396] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:06.179617] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:06.203760] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:10.725467] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:10.741347] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:11.237986] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:11.253442] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:15.787861] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:15.800709] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:16.276936] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:16.294925] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:20.816087] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:20.848394] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:21.330255] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:21.340659] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:25.879676] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:25.894421] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:26.367808] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:26.383699] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:30.929170] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:30.939372] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:31.414508] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:31.438650] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:35.954114] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:35.981664] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:36.494131] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:36.519821] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:41.008101] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:41.023898] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:41.549133] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:41.560147] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:46.040671] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:46.059715] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:46.594746] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:46.636736] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:51.086893] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:51.103905] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:51.657927] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:51.673023] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:56.140462] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:56.159477] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:54:56.708281] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:54:56.721397] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:01.195045] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:01.204924] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:01.744583] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:01.761501] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:06.224232] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:06.248744] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:06.786024] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:06.802632] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:11.280307] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:11.294927] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:11.843694] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:11.859931] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:16.331973] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:16.342503] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:16.896186] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:16.918383] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:21.357157] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:21.377415] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:21.945939] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:21.979815] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:26.410048] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:26.425173] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:27.010080] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:27.020993] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:31.456915] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:31.466658] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:32.038243] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:32.056723] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:36.484056] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:36.510020] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:37.088840] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:37.108717] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:41.536199] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:41.552885] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:42.137017] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:42.147872] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:46.572111] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:46.582962] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:47.170982] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:47.188763] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:51.609564] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:51.625259] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:52.205334] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:52.215551] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:56.651225] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:56.666491] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:55:57.249640] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:55:57.259535] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:01.708950] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:01.717856] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:02.276613] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:02.293023] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:06.730907] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:07.081251] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:07.314330] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:07.329217] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:12.112587] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:12.127162] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:12.357936] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:12.368476] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:17.164866] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:17.172670] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:17.383240] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:17.401038] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:22.189826] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:22.208137] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:22.432900] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:22.459394] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:27.238403] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:27.254630] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:27.488189] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:27.498983] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:32.286499] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:32.293778] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:32.514634] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:32.555331] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:37.315526] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:37.330937] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:37.585110] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:37.599947] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:42.355686] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:42.370926] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:42.629298] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:42.641916] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:47.398150] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:47.409046] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:47.672543] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:47.680207] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:52.435717] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:52.452307] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:52.698410] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:52.708831] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:57.483695] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:57.497335] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:56:57.736622] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:56:57.746008] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:02.546915] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:02.558229] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:02.762637] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:02.782847] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:07.578906] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:07.592344] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:07.805117] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:07.819936] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:12.622479] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:12.639010] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:12.840789] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:12.863228] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:17.651373] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:17.658557] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:17.891826] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:17.902078] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:22.673512] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:22.677965] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:22.912814] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:22.931327] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:27.710995] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:27.727891] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:27.963963] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:27.975416] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:32.767326] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:32.777638] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:32.993182] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:33.012651] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:37.794105] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:37.808947] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:38.037753] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:38.054658] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:42.849476] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:42.867621] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:43.092220] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:43.104370] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:47.883847] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:47.899442] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:48.139195] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:48.149176] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:52.925895] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:52.943029] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:53.161524] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:53.175778] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:57.970418] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:57.984974] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:57:58.205111] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:57:58.216560] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:58:03.012009] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:58:03.024640] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:58:03.240838] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:58:03.253234] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:58:08.051910] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:58:08.065436] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:58:08.275798] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:58:08.285754] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:58:13.098518] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:58:13.119143] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:58:13.320044] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:58:13.331066] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:58:18.169099] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:58:18.191843] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:58:18.363906] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:58:18.375038] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:58:23.208795] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:58:23.220087] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:58:23.488078] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:58:23.509030] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:58:28.242329] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:58:28.247233] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:58:28.529467] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:58:28.550153] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:58:33.279426] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:58:33.306489] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:58:33.573151] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:58:33.579357] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:58:38.321103] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:58:38.338453] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:00.254124] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:00.255883] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:00.262596] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:00.262422] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:01.592081] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:01.596785] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:01.625816] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:01.626646] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:05.279176] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:05.280048] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:06.638454] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:06.638882] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:10.301049] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:10.301556] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:11.866584] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:11.930013] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:15.320421] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:15.332366] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:16.957041] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:16.969511] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:20.341197] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:20.349493] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:21.986251] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:21.993864] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:25.366192] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:25.377825] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:27.004045] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:27.011948] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:30.389407] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:30.405642] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:32.026857] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:32.027784] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:35.416685] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:35.417842] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:37.044592] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:37.047798] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:40.439120] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:40.441090] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:42.058212] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:42.068775] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:45.462598] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:45.477204] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:47.083535] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:47.084395] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:50.493330] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:50.498391] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:52.096594] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:52.103706] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:55.522631] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:55.523986] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 14:59:57.113201] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 14:59:57.116164] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 15:00:00.534046] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 15:00:00.545504] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 15:00:02.132590] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 15:00:02.139224] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 15:00:05.558265] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 15:00:05.573722] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 15:00:07.149493] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 15:00:07.152934] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 15:00:10.617851] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 15:00:10.621418] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 15:00:12.162541] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 15:00:12.166023] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 15:00:15.640753] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 15:00:15.643639] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 15:00:17.183301] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 15:00:17.197536] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 15:00:20.659433] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 15:00:20.664789] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 15:00:22.211374] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 15:00:22.212666] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json
+[2025-05-25 15:00:25.691400] [Malik - INFO]: [Self-Healing] Fixed: Missing data file: watchlist.json | Action: Generated default empty watchlist.
+[2025-05-25 15:00:25.696126] [Malik - INFO]: [Self-Healing] Fixed: Corrupted config file detected | Action: Restored backup config.json

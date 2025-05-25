@@ -13,7 +13,11 @@ def create_voice_recap(text, filename=None, voice="Mo Cash"):
         filename = f"{VOICE_FOLDER}/recap_{timestamp}.mp3"
 
     try:
-        audio = generate(text=text, voice=voice, api_key=os.getenv("ELEVENLABS_API_KEY"))
+        audio = generate(
+            text=text,
+            voice=voice,
+            api_key=os.getenv("ELEVENLABS_API_KEY")
+        )
         save(audio, filename)
         print(f"[VoiceRecap] Recap saved to {filename}")
         return filename
@@ -59,11 +63,14 @@ def create_voice_recap_with_traits(text, voice_name="Mo Cash", mood="neutral", g
         timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
         filename = f"{VOICE_FOLDER}/recap_{timestamp}.mp3"
 
-    # Create a styled prompt for ElevenLabs or future voice engines
     styled_text = f"[{mood.upper()} | {gender.title()} | {accent.title()}] {text}"
 
     try:
-        audio = generate(text=styled_text, voice=voice_name, api_key=os.getenv("ELEVENLABS_API_KEY"))
+        audio = generate(
+            text=styled_text,
+            voice=voice_name,
+            api_key=os.getenv("ELEVENLABS_API_KEY")
+        )
         save(audio, filename)
         print(f"[VoiceRecap] Voice with traits saved to {filename}")
         return filename
