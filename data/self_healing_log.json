@@ -1,496 +1,300 @@
 [
   {
-    "timestamp": "2025-05-25T14:59:00.256153",
+    "timestamp": "2025-05-25T15:09:12.431097",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:01.591872",
+    "timestamp": "2025-05-25T15:09:15.982061",
     "event": {
       "error": "Missing data file: watchlist.json",
       "action": "Generated default empty watchlist."
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:01.596568",
+    "timestamp": "2025-05-25T15:09:15.982441",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:01.625239",
+    "timestamp": "2025-05-25T15:09:17.540360",
     "event": {
       "error": "Missing data file: watchlist.json",
       "action": "Generated default empty watchlist."
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:01.626214",
+    "timestamp": "2025-05-25T15:09:17.540713",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:05.278865",
+    "timestamp": "2025-05-25T15:09:20.998211",
     "event": {
       "error": "Missing data file: watchlist.json",
       "action": "Generated default empty watchlist."
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:05.279850",
+    "timestamp": "2025-05-25T15:09:20.998639",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:06.638180",
+    "timestamp": "2025-05-25T15:09:22.557251",
     "event": {
       "error": "Missing data file: watchlist.json",
       "action": "Generated default empty watchlist."
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:06.638640",
+    "timestamp": "2025-05-25T15:09:22.557596",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:10.300372",
+    "timestamp": "2025-05-25T15:09:26.016234",
     "event": {
       "error": "Missing data file: watchlist.json",
       "action": "Generated default empty watchlist."
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:10.301318",
+    "timestamp": "2025-05-25T15:09:26.016756",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:11.866213",
+    "timestamp": "2025-05-25T15:09:27.564004",
     "event": {
       "error": "Missing data file: watchlist.json",
       "action": "Generated default empty watchlist."
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:11.866799",
+    "timestamp": "2025-05-25T15:09:27.564379",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:15.320084",
+    "timestamp": "2025-05-25T15:09:31.035553",
     "event": {
       "error": "Missing data file: watchlist.json",
       "action": "Generated default empty watchlist."
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:15.320602",
+    "timestamp": "2025-05-25T15:09:31.036078",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:16.956666",
+    "timestamp": "2025-05-25T15:09:32.591584",
     "event": {
       "error": "Missing data file: watchlist.json",
       "action": "Generated default empty watchlist."
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:16.957242",
+    "timestamp": "2025-05-25T15:09:32.592185",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:20.340847",
+    "timestamp": "2025-05-25T15:09:36.060519",
     "event": {
       "error": "Missing data file: watchlist.json",
       "action": "Generated default empty watchlist."
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:20.341458",
+    "timestamp": "2025-05-25T15:09:36.061068",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:21.985752",
+    "timestamp": "2025-05-25T15:09:37.603014",
     "event": {
       "error": "Missing data file: watchlist.json",
       "action": "Generated default empty watchlist."
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:21.986664",
+    "timestamp": "2025-05-25T15:09:37.603489",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:25.365787",
+    "timestamp": "2025-05-25T15:09:41.092181",
     "event": {
       "error": "Missing data file: watchlist.json",
       "action": "Generated default empty watchlist."
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:25.366406",
+    "timestamp": "2025-05-25T15:09:41.092836",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:27.003616",
+    "timestamp": "2025-05-25T15:09:42.629522",
     "event": {
       "error": "Missing data file: watchlist.json",
       "action": "Generated default empty watchlist."
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:27.004261",
+    "timestamp": "2025-05-25T15:09:42.630215",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:30.388959",
+    "timestamp": "2025-05-25T15:09:46.146799",
     "event": {
       "error": "Missing data file: watchlist.json",
       "action": "Generated default empty watchlist."
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:30.389594",
+    "timestamp": "2025-05-25T15:09:46.148150",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:32.026480",
+    "timestamp": "2025-05-25T15:09:47.649532",
     "event": {
       "error": "Missing data file: watchlist.json",
       "action": "Generated default empty watchlist."
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:32.027051",
+    "timestamp": "2025-05-25T15:09:47.651242",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:35.416228",
+    "timestamp": "2025-05-25T15:09:51.163625",
     "event": {
       "error": "Missing data file: watchlist.json",
       "action": "Generated default empty watchlist."
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:35.416891",
+    "timestamp": "2025-05-25T15:09:51.165689",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:37.044130",
+    "timestamp": "2025-05-25T15:09:52.700616",
     "event": {
       "error": "Missing data file: watchlist.json",
       "action": "Generated default empty watchlist."
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:37.044815",
+    "timestamp": "2025-05-25T15:09:52.702348",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:40.438693",
+    "timestamp": "2025-05-25T15:09:56.192281",
     "event": {
       "error": "Missing data file: watchlist.json",
       "action": "Generated default empty watchlist."
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:40.439322",
+    "timestamp": "2025-05-25T15:09:56.193096",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:42.057595",
+    "timestamp": "2025-05-25T15:09:57.723893",
     "event": {
       "error": "Missing data file: watchlist.json",
       "action": "Generated default empty watchlist."
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:42.058482",
+    "timestamp": "2025-05-25T15:09:57.724789",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:45.462072",
+    "timestamp": "2025-05-25T15:10:01.234148",
     "event": {
       "error": "Missing data file: watchlist.json",
       "action": "Generated default empty watchlist."
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:45.462857",
+    "timestamp": "2025-05-25T15:10:01.234711",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:47.083159",
+    "timestamp": "2025-05-25T15:10:02.746750",
     "event": {
       "error": "Missing data file: watchlist.json",
       "action": "Generated default empty watchlist."
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:47.083707",
+    "timestamp": "2025-05-25T15:10:02.747906",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:50.492660",
+    "timestamp": "2025-05-25T15:10:06.255899",
     "event": {
       "error": "Missing data file: watchlist.json",
       "action": "Generated default empty watchlist."
     }
   },
   {
-    "timestamp": "2025-05-25T14:59:50.493558",
-    "event": {
-      "error": "Corrupted config file detected",
-      "action": "Restored backup config.json"
-    }
-  },
-  {
-    "timestamp": "2025-05-25T14:59:52.096139",
-    "event": {
-      "error": "Missing data file: watchlist.json",
-      "action": "Generated default empty watchlist."
-    }
-  },
-  {
-    "timestamp": "2025-05-25T14:59:52.096826",
-    "event": {
-      "error": "Corrupted config file detected",
-      "action": "Restored backup config.json"
-    }
-  },
-  {
-    "timestamp": "2025-05-25T14:59:55.521256",
-    "event": {
-      "error": "Missing data file: watchlist.json",
-      "action": "Generated default empty watchlist."
-    }
-  },
-  {
-    "timestamp": "2025-05-25T14:59:55.522871",
-    "event": {
-      "error": "Corrupted config file detected",
-      "action": "Restored backup config.json"
-    }
-  },
-  {
-    "timestamp": "2025-05-25T14:59:57.112557",
-    "event": {
-      "error": "Missing data file: watchlist.json",
-      "action": "Generated default empty watchlist."
-    }
-  },
-  {
-    "timestamp": "2025-05-25T14:59:57.113422",
-    "event": {
-      "error": "Corrupted config file detected",
-      "action": "Restored backup config.json"
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:00.533401",
-    "event": {
-      "error": "Missing data file: watchlist.json",
-      "action": "Generated default empty watchlist."
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:00.534226",
-    "event": {
-      "error": "Corrupted config file detected",
-      "action": "Restored backup config.json"
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:02.131956",
-    "event": {
-      "error": "Missing data file: watchlist.json",
-      "action": "Generated default empty watchlist."
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:02.132832",
-    "event": {
-      "error": "Corrupted config file detected",
-      "action": "Restored backup config.json"
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:05.557466",
-    "event": {
-      "error": "Missing data file: watchlist.json",
-      "action": "Generated default empty watchlist."
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:05.558692",
-    "event": {
-      "error": "Corrupted config file detected",
-      "action": "Restored backup config.json"
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:07.148770",
-    "event": {
-      "error": "Missing data file: watchlist.json",
-      "action": "Generated default empty watchlist."
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:07.149784",
-    "event": {
-      "error": "Corrupted config file detected",
-      "action": "Restored backup config.json"
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:10.617026",
-    "event": {
-      "error": "Missing data file: watchlist.json",
-      "action": "Generated default empty watchlist."
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:10.618072",
-    "event": {
-      "error": "Corrupted config file detected",
-      "action": "Restored backup config.json"
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:12.161837",
-    "event": {
-      "error": "Missing data file: watchlist.json",
-      "action": "Generated default empty watchlist."
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:12.162799",
-    "event": {
-      "error": "Corrupted config file detected",
-      "action": "Restored backup config.json"
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:15.639919",
-    "event": {
-      "error": "Missing data file: watchlist.json",
-      "action": "Generated default empty watchlist."
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:15.641056",
-    "event": {
-      "error": "Corrupted config file detected",
-      "action": "Restored backup config.json"
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:17.182538",
-    "event": {
-      "error": "Missing data file: watchlist.json",
-      "action": "Generated default empty watchlist."
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:17.183639",
-    "event": {
-      "error": "Corrupted config file detected",
-      "action": "Restored backup config.json"
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:20.658745",
-    "event": {
-      "error": "Missing data file: watchlist.json",
-      "action": "Generated default empty watchlist."
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:20.659683",
-    "event": {
-      "error": "Corrupted config file detected",
-      "action": "Restored backup config.json"
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:22.210421",
-    "event": {
-      "error": "Missing data file: watchlist.json",
-      "action": "Generated default empty watchlist."
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:22.211714",
-    "event": {
-      "error": "Corrupted config file detected",
-      "action": "Restored backup config.json"
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:25.690513",
-    "event": {
-      "error": "Missing data file: watchlist.json",
-      "action": "Generated default empty watchlist."
-    }
-  },
-  {
-    "timestamp": "2025-05-25T15:00:25.691746",
+    "timestamp": "2025-05-25T15:10:06.256547",
     "event": {
       "error": "Corrupted config file detected",
       "action": "Restored backup config.json"
