@@ -4,7 +4,7 @@ requests
 openai
 numpy
 pandas
-elevenlabs
+elevenlabs==0.2.27
 wolframalpha
 replicate
 anthropic
