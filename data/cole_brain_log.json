@@ -1,515 +1,5 @@
 [
   {
-    "timestamp": "2025-05-25T14:54:10.700781",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:54:10.704133",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:54:11.204540",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:54:11.208013",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:54:15.742065",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:54:15.746215",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:54:16.254943",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:54:16.259722",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:54:20.801859",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:54:20.805988",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:54:21.296428",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:54:21.300944",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:54:25.849753",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:54:25.854774",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:54:26.341597",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:54:26.345060",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:54:30.895415",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:54:30.899706",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:54:31.384390",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:54:31.388746",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:54:35.940185",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:54:35.944153",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:54:36.439473",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:54:36.443511",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:54:40.982430",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:54:40.985908",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:54:41.520674",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:54:41.524527",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:54:45.742027",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:54:46.024576",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:54:46.027711",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:54:46.560871",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:54:46.565166",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:54:47.251967",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:54:51.060384",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:54:51.064229",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:54:51.637595",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:54:51.641010",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:54:56.104691",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:54:56.108921",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:54:56.673730",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:54:56.677136",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:01.160797",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:01.166942",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:01.722150",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:01.727026",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:06.206585",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:06.209765",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:06.762480",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:06.766827",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:11.249539",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:11.254297",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:11.804614",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:11.810265",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:16.295642",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:16.301018",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:16.863818",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:16.871731",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:21.344575",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:21.348294",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:21.919151",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:21.923441",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:26.383156",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:26.386990",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:26.980610",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:26.984449",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:31.426032",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:31.430436",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:32.021652",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:32.025226",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:36.467308",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:36.474747",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:37.058002",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:37.062380",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:41.510815",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:41.514580",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:42.109494",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:42.112498",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:45.745945",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:46.553717",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:46.556682",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:47.148670",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:47.152100",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:47.255525",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:51.583680",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:51.588744",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:52.189506",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:52.193161",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:56.626043",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:56.629872",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:55:57.216208",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:55:57.220331",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:56:01.668623",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:56:01.673236",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:56:02.260792",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:56:02.264084",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:56:06.718611",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:56:06.721892",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:56:07.293738",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:56:07.296768",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:56:12.083483",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:56:12.087973",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
     "timestamp": "2025-05-25T14:56:12.329871",
     "phase": "startup",
     "strategy": null
@@ -1241,16 +731,6 @@
   },
   {
     "timestamp": "2025-05-25T14:59:32.012784",
-    "phase": "startup",
-    "strategy": null
-  },
-  {
-    "timestamp": "2025-05-25T14:59:32.016628",
-    "strategy": null,
-    "reason": "No backtest results found."
-  },
-  {
-    "timestamp": "2025-05-25T14:59:35.406884",
     "phase": "startup",
     "strategy": null
   },
@@ -2501,6 +1981,531 @@
   },
   {
     "timestamp": "2025-05-25T15:10:06.252208",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:07.751189",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:10:07.754746",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:10.939926",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:11.259748",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:10:11.264628",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:12.279005",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:12.800871",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:10:12.803630",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:16.285307",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:10:16.288912",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:17.814764",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:10:17.819791",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:21.310179",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:10:21.314737",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:22.843691",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:10:22.848543",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:26.592471",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:10:26.597260",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:27.870004",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:10:27.873770",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:31.607158",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:10:31.612189",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:33.152408",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:10:33.156965",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:36.639808",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:10:36.644461",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:38.184051",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:10:38.186904",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:41.665212",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:10:41.669698",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:43.206982",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:10:43.212225",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:46.685232",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:10:46.688275",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:48.241922",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:10:48.246267",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:51.709103",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:10:51.713718",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:53.263776",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:10:53.268268",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:56.733755",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:10:56.736496",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:10:58.292139",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:10:58.295839",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:01.752482",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:01.757154",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:03.329014",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:03.332536",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:07.081306",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:07.085088",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:08.353259",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:08.357398",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:10.943151",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:12.113350",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:12.116939",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:12.282601",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:13.390684",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:13.395312",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:17.141639",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:17.145450",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:18.431420",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:18.434670",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:22.169701",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:22.174231",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:23.456103",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:23.467740",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:27.200573",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:27.204578",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:28.490836",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:28.494713",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:30.409560",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:30.416891",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:32.232489",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:32.236820",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:33.532954",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:33.537427",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:37.261741",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:37.265654",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:38.585020",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:38.588528",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:40.320492",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:40.323129",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:42.384529",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:42.397050",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:43.607138",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:43.611541",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:47.434759",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:47.438839",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:48.751676",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:48.755328",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:52.460508",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:52.463678",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:53.776110",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:53.780249",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:57.485662",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:57.490441",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:11:58.796475",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:11:58.799371",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:12:02.503533",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:12:02.507169",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:12:03.838511",
+    "phase": "startup",
+    "strategy": null
+  },
+  {
+    "timestamp": "2025-05-25T15:12:03.842882",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:12:51.795313",
+    "phase": "startup",
+    "strategy": null
+  }
+]  {
+    "timestamp": "2025-05-25T15:12:03.842882",
+    "strategy": null,
+    "reason": "No backtest results found."
+  },
+  {
+    "timestamp": "2025-05-25T15:12:51.795030",
     "strategy": null,
     "reason": "No backtest results found."
   }
