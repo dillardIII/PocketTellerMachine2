@@ -1,0 +1,34 @@
+<!-- ui/ghostshade_card.html -->
+
+<div class="ghostshade-card" style="padding: 1em; border-radius: 1em; background: #111; color: #0ff; font-family: monospace; max-width: 500px;">
+  <h2 style="border-bottom: 1px solid #0ff;">☠️ Ghostshade the Unseen</h2>
+
+  <p><strong>Status:</strong> <span id="ghostshade-status">Standby</span></p>
+  <p><strong>Level:</strong> <span id="ghostshade-level">1</span></p>
+  <p><strong>XP:</strong> <span id="ghostshade-xp">0</span></p>
+  <p><strong>Last Activity:</strong> <span id="ghostshade-last-activity">N/A</span></p>
+  <p><strong>Badges:</strong> <span id="ghostshade-badges">None</span></p>
+
+  <div style="margin-top: 1em;">
+    <img id="ghostshade-screenshot" src="/screeps_preview" alt="Last Screenshot" style="max-width: 100%; border: 1px solid #0ff; border-radius: 0.5em;">
+  </div>
+</div>
+
+<script>
+  async function loadGhostshadeData() {
+    try {
+      const res = await fetch('/ghostshade/status');
+      const data = await res.json();
+
+      document.getElementById('ghostshade-status').textContent = data.current_status || "Unknown";
+      document.getElementById('ghostshade-level').textContent = data.level || 1;
+      document.getElementById('ghostshade-xp').textContent = data.xp || 0;
+      document.getElementById('ghostshade-last-activity').textContent = data.last_activity || "N/A";
+      document.getElementById('ghostshade-badges').textContent = (data.badges || []).join(", ") || "None";
+    } catch (err) {
+      console.error("Ghostshade status fetch failed:", err);
+    }
+  }
+
+  loadGhostshadeData();
+</script>

@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2025-05-27T08:50:17.230039",
+    "success": false,
+    "data": {
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    }
+  }
+]

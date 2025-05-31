@@ -1,7 +1,6 @@
 {
-  "mode": "full",  // Options: "full", "silent", "paused"
-  "voice": true,
-  "build": true,
-  "trade": true,
-  "gpt": true
+  "bridge_timeout_sec": 3,
+  "auto_register_on_boot": true,
+  "fetch_packages_on_launch": false,
+  "max_retries": 5
 }

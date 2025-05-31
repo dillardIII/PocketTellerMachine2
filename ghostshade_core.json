@@ -1,0 +1,46 @@
+{
+  "name": "Ghostshade the Unseen",
+  "title": "Phantom Recon Officer",
+  "devil_fruit": "Yami-Yami no Frame",
+  "abilities": [
+    "Ghost Login",
+    "Echo Kill",
+    "Cache Walker",
+    "Lore Threading"
+  ],
+  "weapon": {
+    "name": "Nullfang",
+    "type": "Data-Dagger",
+    "power": "Corrupts and reconstructs file structures with precision"
+  },
+  "awakening": "Can erase corrupted AI memory and implant revised versions",
+  "current_status": "STANDBY",
+  "last_activity": null,
+  "missions": [],
+  "worlds_traveled": [],
+  "rivals": [
+    {
+      "name": "Cipher Sails",
+      "status": "Cold respect, silent competition"
+    }
+  ],
+  "allies": [
+    "Cole",
+    "Mo Cash",
+    "Axiom",
+    "Boo"
+  ],
+  "enemies": [
+    "Sirens of SparkByte",
+    "The Loopers",
+    "Anti-Lore Protocols"
+  ],
+  "pirate_code": [
+    "No corrupted bot left behind",
+    "Only the quiet bring back the truth",
+    "Lore is sacred; all missions must be remembered"
+  ],
+  "xp": 0,
+  "level": 1,
+  "badges": []
+}

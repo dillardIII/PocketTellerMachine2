@@ -1,3 +1,5 @@
+# === FILE: cole_brain.py ===
+
 import os
 import json
 import datetime
@@ -16,6 +18,8 @@ GOALS_FILE = "data/cole_goals.json"
 BRAIN_LOG_FILE = "data/cole_brain_log.json"
 BRAIN_MEMORY_FILE = "data/cole_brain_memory.json"
 RULES_FILE = "data/cole_brain_trading_rules.json"
+MEMORY_LOG_PATH = "memory/cole_memory_log.json"
+STRATEGY_LOG_PATH = "memory/cole_strategy_log.json"
 
 # === Logging Brain Activity ===
 def log_brain_activity(prompt, response):
@@ -178,12 +182,40 @@ def log_phase_and_strategy(phase, strategy):
     except Exception as e:
         print(f"[Cole Brain] Failed to log: {e}")
 
-# === Log Strategy Reason ===
+# === Log memory events ===
+def log_memory(key, value):
+    try:
+        memory = {}
+        if os.path.exists(MEMORY_LOG_PATH):
+            with open(MEMORY_LOG_PATH) as f:
+                memory = json.load(f)
+        timestamp = str(datetime.datetime.now())
+        memory[timestamp] = {key: value}
+        os.makedirs(os.path.dirname(MEMORY_LOG_PATH), exist_ok=True)
+        with open(MEMORY_LOG_PATH, "w") as f:
+            json.dump(memory, f, indent=2)
+        print(f"[Cole Brain] Memory logged: {key}={value}")
+    except Exception as e:
+        print(f"[Cole Brain] ERROR logging memory: {str(e)}")
+
+# === Log strategy reasons ===
 def log_strategy_reason(strategy, reason):
     try:
+        log = {}
+        if os.path.exists(STRATEGY_LOG_PATH):
+            with open(STRATEGY_LOG_PATH) as f:
+                log = json.load(f)
+        timestamp = str(datetime.datetime.now())
+        log[timestamp] = {
+            "strategy": strategy,
+            "reason": reason
+        }
+        os.makedirs(os.path.dirname(STRATEGY_LOG_PATH), exist_ok=True)
+        with open(STRATEGY_LOG_PATH, "w") as f:
+            json.dump(log, f, indent=2)
         print(f"[Cole Brain] Strategy reason logged: {strategy} — {reason}")
     except Exception as e:
-        print(f"[Cole Brain] Error logging reason: {e}")
+        print(f"[Cole Brain] ERROR logging strategy reason: {str(e)}")
 
 # === Autopilot Decision Loop ===
 def run_decision_cycle():

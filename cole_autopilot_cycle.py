@@ -1,31 +1,33 @@
 # === FILE: cole_autopilot_cycle.py ===
 
 from strategy_scorer import recommend_best_strategy
-from strategy_executor import run_trade_with_strategy, analyze_trade_result, log_trade_outcome
-from phase_manager import get_current_phase
-from cole_brain_logger import log_strategy_reason
+from strategy_runner import run_strategy
+from cole_brain import log_strategy_reason, log_memory
+from cole_logger import log_info
 
 def cole_autopilot_cycle():
-    print("[2025-05-25] Cole: Starting Full Autopilot Cycle...")
+    log_info("[Cole Autopilot] 🚀 Starting Cole Autopilot Cycle...")
 
-    # Determine phase
-    current_phase = get_current_phase()
-    print(f"[Cole Autopilot] Current Phase: {current_phase}")
+    strategy_bundle = recommend_best_strategy()
 
-    # Recommend a strategy
-    recommendation = recommend_best_strategy()
-    strategy = recommendation.get("strategy", "None")
-    reason = recommendation.get("reason", "No explanation")
+    # === 💡 Force fallback if strategy is missing ===
+    if not strategy_bundle or not strategy_bundle.get("strategy"):
+        log_info("[Cole Autopilot] ⚠️ No valid strategy to run. Injecting fallback strategy.")
+        strategy_bundle = {
+            "strategy": {
+                "name": "Fallback Covered Call",
+                "type": "bullish",
+                "win_rate": 68,
+                "confidence": 20
+            },
+            "reason": "Fallback injected due to missing backtest data."
+        }
 
-    log_strategy_reason(strategy=strategy, reason=reason)
+    strategy = strategy_bundle["strategy"]
+    reason = strategy_bundle.get("reason", "No reason provided.")
 
-    if strategy == "None":
-        print("[Strategy Runner] No strategy available.")
-        return
+    log_memory("strategy", strategy)
+    log_strategy_reason(strategy, reason)
 
-    # Run trade
-    result = run_trade_with_strategy(strategy)
-    analysis = analyze_trade_result(result)
-
-    # Log result
-    log_trade_outcome(strategy, result, analysis)
+    log_info(f"[Cole Autopilot] ✅ Strategy selected: {strategy['name']} | Reason: {reason}")
+    run_strategy(strategy)

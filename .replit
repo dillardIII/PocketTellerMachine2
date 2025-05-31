@@ -1,13 +1,13 @@
 entrypoint = "app.py"
 language = "python"
-modules = ["python-3.11"]
+modules = ["nodejs-20", "python-3.11"]
 
 [run]
 command = "python3 app.py"
 
 [nix]
 channel = "stable-24_05"
-packages = ["cairo", "ffmpeg-full", "freetype", "ghostscript", "glibcLocales", "gobject-introspection", "gtk3", "pkg-config", "qhull", "tcl", "tk"]
+packages = ["cairo", "ffmpeg-full", "freetype", "geckodriver", "ghostscript", "glibcLocales", "gobject-introspection", "gtk3", "pkg-config", "qhull", "tcl", "tk"]
 
 [unitTest]
 language = "python3"

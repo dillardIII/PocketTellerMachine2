@@ -1,0 +1,16 @@
+[
+  {
+    "id": "bridge001",
+    "name": "PTM-CommandCenter",
+    "ip": "127.0.0.1",
+    "os": "Linux",
+    "arch": "x86_64"
+  },
+  {
+    "id": "1c7b5028",
+    "name": "6d6283843c4d",
+    "ip": "172.31.128.94",
+    "os": "Linux",
+    "arch": "x86_64"
+  }
+]

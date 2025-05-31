@@ -1,12 +1,12 @@
-# === FILE: render.yaml ===
 services:
   - type: web
-    name: ptm-app
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn app:app"
+    name: ptm_recon_agent
+    env: node
+    buildCommand: |
+      PLAYWRIGHT_BROWSERS_PATH=0 npm install
+      PLAYWRIGHT_BROWSERS_PATH=0 npx playwright install
+    startCommand: node recon_playwright_agent.js
     envVars:
-      - key: ELEVENLABS_API_KEY
-        sync: false
-    autoDeploy: true
+      - key: PLAYWRIGHT_BROWSERS_PATH
+        value: "0"
     plan: free

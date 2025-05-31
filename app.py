@@ -1,9 +1,11 @@
 # === FILE: app.py ===
 
-from flask import Flask, render_template, jsonify, request
+from flask import Flask, render_template, jsonify, request, redirect, url_for, send_from_directory
 from threading import Thread
 from datetime import datetime
+import subprocess
 import os
+import json
 
 # === PTM Core System Imports ===
 from cole_autopilot_cycle import cole_autopilot_cycle
@@ -77,6 +79,36 @@ def voice_recap():
     recap_text = request.json.get("text", "No summary provided.")
     audio_path = generate_voice_recap(recap_text)
     return jsonify({"audio_path": audio_path})
+
+# === Screeps Recon Terminal ===
+@app.route("/recon")
+def recon_terminal():
+    return render_template("recon_terminal.html")
+
+@app.route("/run-recon", methods=["POST"])
+def run_recon():
+    subprocess.Popen(["node", "index.js"])
+    return redirect(url_for("recon_terminal"))
+
+# === Ghostshade Status Route (for Recon Card UI) ===
+@app.route("/ghostshade/status")
+def ghostshade_status():
+    try:
+        with open("memory/ghostshade_core.json") as f:
+            data = json.load(f)
+        return jsonify(data)
+    except Exception as e:
+        return jsonify({"error": "Unable to load Ghostshade memory", "details": str(e)}), 500
+
+# === Optional: Serve static/ui HTML files ===
+@app.route("/ui/<path:filename>")
+def serve_ui(filename):
+    return send_from_directory("static/ui", filename)
+
+# === Serve Screenshots ===
+@app.route('/screenshots/<filename>')
+def serve_screenshot(filename):
+    return send_from_directory('screenshots', filename)
 
 # === Main Entry Point ===
 if __name__ == "__main__":

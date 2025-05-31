@@ -28,5 +28,11 @@
     "task": "Adjust risk weights on all trades",
     "type": "general",
     "status": "pending"
+  },
+  {
+    "timestamp": "2025-05-29 02:22:37.624432",
+    "task": "Monitor for bullish continuation",
+    "type": "general",
+    "status": "pending"
   }
 ]

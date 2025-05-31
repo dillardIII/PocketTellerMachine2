@@ -3,14 +3,12 @@ import json
 from datetime import datetime
 from pathlib import Path
 from assistants.malik import malik_report
-from openai import OpenAI
+import openai
 
 # === Setup ===
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-if not OPENAI_API_KEY:
+openai.api_key = os.getenv("OPENAI_API_KEY")
+if not openai.api_key:
     raise ValueError("Missing OPENAI_API_KEY in environment.")
-
-client = OpenAI(api_key=OPENAI_API_KEY)
 
 CODE_DIR = "cole_generated_code"
 CODE_LOG_FILE = "data/cole_code_log.json"
@@ -59,7 +57,7 @@ Only return the code.
 """
 
     try:
-        response = client.chat.completions.create(
+        response = openai.ChatCompletion.create(
             model="gpt-4",
             messages=[
                 {"role": "system", "content": "You are a Python code generation assistant."},
@@ -69,7 +67,7 @@ Only return the code.
             max_tokens=800
         )
 
-        code = response.choices[0].message.content.strip()
+        code = response.choices[0].message["content"].strip()
         if code.startswith("```python"):
             code = code.replace("```python", "").strip()
         if code.endswith("```"):

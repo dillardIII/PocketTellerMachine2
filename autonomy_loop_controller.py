@@ -1,14 +1,19 @@
-# === FILE: autonomy_loop_controller.py ===
-
+# PTM Autonomy Loop Controller
 import time
-from cole_autopilot_cycle import cole_autopilot_cycle
+import threading
+from cole_autopilot_daemon import run_autopilot
+from self_healing_watcher import run_self_healing
 
-def start_autonomy_daemon():
-    print("[Autonomy Loop Controller] Starting...")
+def log(msg):
+    print(f"[Autonomy Loop Controller] {msg}")
+
+def start_loop():
+    log("Starting...")
+    threading.Thread(target=run_autopilot, daemon=True).start()
+    threading.Thread(target=run_self_healing, daemon=True).start()
     while True:
-        try:
-            print("[Autonomy Loop Controller] Running Cole Autopilot Cycle...")
-            cole_autopilot_cycle()
-        except Exception as e:
-            print(f"[Autonomy Loop Controller] ERROR: {e}")
-        time.sleep(60)
+        time.sleep(5)
+        log("Running Cole Autopilot Cycle...")
+
+if __name__ == "__main__":
+    start_loop()
