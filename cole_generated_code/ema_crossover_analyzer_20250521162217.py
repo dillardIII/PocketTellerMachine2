@@ -35,7 +35,6 @@ This code first downloads the data for a specific stock using Yahoo Finance (yfi
 
 Please note that this is a simple implementation without exception handling or optimization. For real trading, you may need to include trading fees, slippage, etc., and additional research will be needed to select the optimal short/long EMA periods. The stock and period settings I chose are for example purposes only. You may need to replace them with your specific interests/needs.
 
-And make sure to install necessary packages using pip install command:
-```python
-pip install pandas yfinance
-```
+# Required imports
+import pandas as pd
+import yfinance as yf

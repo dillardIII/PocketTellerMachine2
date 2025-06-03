@@ -56,7 +56,8 @@ In this code:
 - Generates a "Sell_Signal" whenever the RSI goes above 70 (indicating the stock might be overbought)
 - Plots the RSI values and the levels at which we considered the stock oversold or overbought.
 
-Please install necessary libraries using pip if not installed,
-```
-pip install pandas yfinance matplotlib numpy
-```
+# Required imports
+import pandas as pd
+import yfinance as yf
+import matplotlib.pyplot as plt
+import numpy as np
