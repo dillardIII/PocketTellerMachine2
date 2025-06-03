@@ -1,4 +1,15 @@
-[
-  "Create a backtester",
-  "Create a trade logger"
-]
+{
+  "pending_tasks": [],
+  "processed_tasks": [
+    {
+      "task_id": "task-001",
+      "type": "diagnostic_scan",
+      "target": "cole_autopilot",
+      "assigned_bot": "Cole",
+      "priority": "high",
+      "details": {
+        "note": "Run initial system scan"
+      }
+    }
+  ]
+}

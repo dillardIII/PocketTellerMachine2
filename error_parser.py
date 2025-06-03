@@ -1,6 +1,8 @@
 # === FILE: error_parser.py ===
+# 🐞 PTM Error Parser – Extracts latest traceback from logs for auto-repair
 
 import os
+import re
 import json
 import traceback
 from datetime import datetime
@@ -8,6 +10,8 @@ from datetime import datetime
 # === Log Paths ===
 JSON_ERROR_LOG_FILE = "logs/error_log.json"
 TXT_ERROR_LOG_FILE = "logs/error_log.txt"
+PTM_ERROR_LOG_FILE = "logs/ptm_errors.log"
+FALLBACK_LOG_FILE = "logs/ptm_error.log"
 
 # === Save Error to Both Logs ===
 def save_error_to_log(exc_info):
@@ -41,7 +45,7 @@ def save_error_to_log(exc_info):
     except Exception as e:
         print(f"[Error Parser] Failed to save JSON error log: {e}")
 
-    # === Save to plain text log (optional for review/debug) ===
+    # === Save to plain text log ===
     try:
         with open(TXT_ERROR_LOG_FILE, "a") as f:
             f.write(tb_str + "\n\n")
@@ -56,6 +60,7 @@ def extract_file_from_traceback(tb):
 
 # === Get Most Recent Error ===
 def get_latest_error():
+    # === 1. Try JSON log ===
     if os.path.exists(JSON_ERROR_LOG_FILE):
         try:
             with open(JSON_ERROR_LOG_FILE, "r") as f:
@@ -70,7 +75,8 @@ def get_latest_error():
         except Exception as e:
             print(f"[Error Parser] Failed to read JSON log: {e}")
 
-    elif os.path.exists(TXT_ERROR_LOG_FILE):
+    # === 2. Fallback to TXT log ===
+    if os.path.exists(TXT_ERROR_LOG_FILE):
         try:
             with open(TXT_ERROR_LOG_FILE, "r") as f:
                 lines = f.readlines()
@@ -98,5 +104,52 @@ def get_latest_error():
             return {"file": "unknown", "line": 0, "error": error_text}
         except Exception as e:
             print(f"[Error Parser] Failed to read TXT log: {e}")
+
+    # === 3. Regex parse of ptm_errors.log ===
+    if os.path.exists(PTM_ERROR_LOG_FILE):
+        try:
+            with open(PTM_ERROR_LOG_FILE, "r", encoding="utf-8") as log:
+                content = log.read()
+
+            tracebacks = re.findall(r'(Traceback most recent call last:[\s\S]+?)(?=\n\n|\Z)', content)
+
+            if not tracebacks:
+                print("[ERROR PARSER] ✅ No traceback found.")
+                return None
+
+            latest_trace = tracebacks[-1]
+            file_match = re.search(r'File "(.+?)", line \d+,', latest_trace)
+            file_path = file_match.group(1) if file_match else "unknown"
+
+            print(f"[ERROR PARSER] 🧠 Latest error from: {file_path}")
+            return {
+                "file": file_path,
+                "traceback": latest_trace.strip()
+            }
+        except Exception as e:
+            print(f"[ERROR PARSER] Failed regex fallback: {e}")
+
+    # === 4. Final fallback – Simplified regex reader ===
+    if os.path.exists(FALLBACK_LOG_FILE):
+        try:
+            with open(FALLBACK_LOG_FILE, "r", encoding="utf-8") as log:
+                content = log.read()
+
+            matches = re.findall(r'File "(.*?)", line (\d+), in .*?\n(.*?)\n', content, re.DOTALL)
+
+            if not matches:
+                print("[ERROR PARSER] ⚠️ No tracebacks found in fallback log.")
+                return None
+
+            latest = matches[-1]
+            file_path = latest[0]
+            error_text = latest[2].strip()
+
+            return {
+                "file": file_path,
+                "traceback": error_text
+            }
+        except Exception as e:
+            print(f"[ERROR PARSER] Failed fallback parser: {e}")
 
     return None

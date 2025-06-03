@@ -1,60 +1,25 @@
 # bot_router.py
-# Central dispatcher for routing commands to the correct bot or module
+# Routes AI bot commands to appropriate modules
 
-from ghost_code_deck import GhostCodeDeck
+from flask import Blueprint, request, jsonify
 
-class BotRouter:
-    def __init__(self):
-        self.deck = GhostCodeDeck()
-        self.context_memory = {}
-        self.priority_rules = {
-            "emergency": 0,
-            "critical": 1,
-            "high": 2,
-            "normal": 3,
-            "low": 4
-        }
+bot_router_bp = Blueprint("bot_router_bp", __name__)
 
-    def register_bot(self, name, category, description, function):
-        self.deck.add_card(name, category, description, function)
+@bot_router_bp.route("/bot/command", methods=["POST"])
+def route_bot_command():
+    data = request.get_json()
+    command = data.get("command")
 
-    def set_context(self, user_id, context):
-        self.context_memory[user_id] = context
+    if not command:
+        return jsonify({
+            "status": "error",
+            "message": "No command provided"
+        }), 400
 
-    def get_context(self, user_id):
-        return self.context_memory.get(user_id, {})
+    # Placeholder for bot command routing logic
+    print(f"[BotRouter] 🤖 Received command: {command}")
 
-    def route_command(self, user_id, command_text, priority="normal"):
-        try:
-            context = self.get_context(user_id)
-            target_bot_name = self._parse_command_for_bot(command_text, context)
-            result = self.deck.summon_by_name(target_bot_name)
-            return {
-                "status": "routed",
-                "bot": target_bot_name,
-                "result": result
-            }
-        except Exception as e:
-            return {
-                "status": "error",
-                "message": str(e)
-            }
-
-    def _parse_command_for_bot(self, command_text, context):
-        # Naive NLP-style intent match (placeholder — replace with LLM later)
-        text = command_text.lower()
-        if "translate" in text:
-            return "TranslatorBot"
-        elif "code" in text or "program" in text:
-            return "CodeCompilerBot"
-        elif "ai" in text and "train" in text:
-            return "TrainerBot"
-        elif "security" in text:
-            return "GhostSecurityBot"
-        elif "bridge" in text:
-            return "BridgeBot"
-        else:
-            raise ValueError("Could not identify bot from command.")
-
-    def list_available_bots(self):
-        return self.deck.list_all_cards()
+    return jsonify({
+        "status": "success",
+        "message": f"Command '{command}' received and logged"
+    })

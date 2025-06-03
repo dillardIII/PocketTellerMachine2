@@ -6442,5 +6442,455 @@
       "confidence": 20
     },
     "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 16:43:08.242573": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 16:43:09.363007": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 16:46:46.499866": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 16:48:13.094025": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 16:59:16.613885": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 17:00:09.874768": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 17:04:52.815194": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 17:07:44.185771": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 17:08:16.844450": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 17:10:39.653091": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 17:12:03.414368": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 17:16:51.006686": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 17:19:34.670238": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 17:22:47.857981": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 17:23:26.483575": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 17:26:16.904128": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 17:27:43.662935": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 17:29:22.069754": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 17:31:12.646814": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 17:33:12.483173": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 17:34:28.148653": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 17:35:38.435126": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 17:42:12.834497": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-05-31 17:42:13.887500": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-02 18:04:40.414532": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-02 18:04:40.500283": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-02 19:38:55.248243": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-02 19:38:56.176144": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-02 19:38:56.196860": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-02 23:28:26.569817": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-02 23:28:26.589055": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-02 23:28:27.546458": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-02 23:28:27.583302": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-03 00:17:56.715610": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-03 00:19:30.008914": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-03 00:19:30.075065": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-03 00:34:00.362374": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-03 00:34:00.403565": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-03 00:45:29.449656": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-03 00:45:29.538249": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-03 01:21:25.904200": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-03 01:21:25.921053": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-03 01:29:01.432267": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-03 01:29:01.459165": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-03 03:00:23.292564": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-03 03:16:31.586354": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-03 03:16:32.820309": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-03 03:16:32.841572": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-03 04:03:27.403045": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
+  },
+  "2025-06-03 04:03:27.418701": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "reason": "Fallback injected due to missing backtest data."
   }
 }

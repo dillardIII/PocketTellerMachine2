@@ -1,3 +1,4 @@
+<!-- === FILE: strategy_dashboard.html === -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -82,7 +83,8 @@
   <button onclick="triggerVoice()">Speak It</button>
   <p id="voice-status" style="color: #6fd672; margin-top: 10px;"></p>
 
-  <audio id="voicePreview" controls style="margin-top: 10px; display: none;">
+  <!-- ✅ Fixed path to output.mp3 -->
+  <audio id="voicePreview" controls style="margin-top: 10px;">
     <source src="/static/audio/output.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
@@ -103,6 +105,13 @@
 <div class="box">
   <h3>Ghostshade Recon</h3>
   <a href="/static/ui/ghostshade_card.html" target="_blank" style="color: #6fd672; font-weight: bold;">👁️ View Ghostshade Card</a>
+</div>
+
+<!-- 🔧 AutoFix Trigger -->
+<div class="box">
+  <h3>AutoFix Engine</h3>
+  <button onclick="triggerAutoFix()">🔧 Run AutoFix Engine</button>
+  <p id="autofix-status" style="color: #6fd672; margin-top: 10px;"></p>
 </div>
 
 <script>
@@ -211,6 +220,18 @@ function triggerVoice() {
         console.error('Voice error:', err);
         document.getElementById("voice-status").textContent = "Error generating voice.";
     });
+}
+
+function triggerAutoFix() {
+    fetch('/run-autofix')
+        .then(res => res.json())
+        .then(data => {
+            document.getElementById('autofix-status').textContent = data.status;
+        })
+        .catch(err => {
+            console.error('AutoFix error:', err);
+            document.getElementById('autofix-status').textContent = 'Failed to trigger AutoFix.';
+        });
 }
 
 setInterval(refreshMarketMovers, 10000);

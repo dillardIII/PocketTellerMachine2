@@ -1,0 +1,40 @@
+<!-- === FILE: strategy_dashboard.html === -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Strategy Dashboard</title>
+  <style>
+    body { background-color: #0f0f0f; color: #00ffcc; font-family: monospace; padding: 2rem; }
+    .card { background: #1a1a1a; border: 1px solid #00ffcc; padding: 1rem; margin-bottom: 1rem; border-radius: 8px; }
+    .header { font-size: 1.5rem; margin-bottom: 1rem; }
+    .log-entry { margin-left: 1rem; color: #ccc; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">🧭 Strategy Mapper Squad Dashboard</div>
+    <div id="strategy-log">
+      Loading insights...
+    </div>
+  </div>
+
+  <script>
+    async function loadStrategyLog() {
+      const res = await fetch('/strategy/log');
+      const data = await res.json();
+      const container = document.getElementById("strategy-log");
+      container.innerHTML = "";
+      data.forEach(entry => {
+        const el = document.createElement("div");
+        el.className = "log-entry";
+        el.innerText = `[${entry.timestamp}] Priority: ${entry.priority} | Module: ${entry.module}`;
+        container.appendChild(el);
+      });
+    }
+
+    loadStrategyLog();
+    setInterval(loadStrategyLog, 30000); // Auto-refresh every 30 sec
+  </script>
+</body>
+</html>

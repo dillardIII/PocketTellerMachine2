@@ -1,5 +1,7 @@
 { pkgs }: {
   deps = [
+    pkgs.vercel-pkg
+    pkgs.temurin-bin-17
     pkgs.try
     pkgs.mailutils
     pkgs.python311

@@ -1,29 +1,32 @@
-# === FILE: auto_route_loader.py ===
+# auto_route_loader.py
+# Loads only valid Flask blueprints dynamically into PTM
 
 import os
 import importlib.util
 
-def load_all_routes(app):
-    route_dir = "routes"
-    if not os.path.exists(route_dir):
-        print("[AutoRouteLoader] Route directory not found.")
-        return
+def load_dynamic_routes(app, route_folder="."):
+    print("[AutoRouteLoader] 🚀 Scanning for blueprints...")
 
-    for filename in os.listdir(route_dir):
-        if filename.endswith("_route.py"):
-            module_name = filename[:-3]
-            file_path = os.path.join(route_dir, filename)
+    for file in os.listdir(route_folder):
+        if file.endswith("_route.py") and not file.startswith("__"):
+            route_path = os.path.join(route_folder, file)
 
             try:
-                spec = importlib.util.spec_from_file_location(module_name, file_path)
+                spec = importlib.util.spec_from_file_location("module.name", route_path)
                 module = importlib.util.module_from_spec(spec)
                 spec.loader.exec_module(module)
 
-                if hasattr(module, "bp"):
-                    app.register_blueprint(module.bp)
-                    print(f"[AutoRouteLoader] Loaded route: {filename}")
+                # Find any attributes ending in _bp (e.g., market_trend_bp)
+                blueprint = next(
+                    (getattr(module, attr) for attr in dir(module) if attr.endswith("_bp")),
+                    None
+                )
+
+                if blueprint:
+                    app.register_blueprint(blueprint)
+                    print(f"[AutoRouteLoader] ✅ Loaded {file}")
                 else:
-                    print(f"[AutoRouteLoader] No blueprint found in {filename}")
+                    print(f"[AutoRouteLoader] ⚠️ No blueprint found in {file}")
 
             except Exception as e:
-                print(f"[AutoRouteLoader] Failed to load {filename}: {e}")
+                print(f"[AutoRouteLoader] ❌ Failed to load {file}: {e}")

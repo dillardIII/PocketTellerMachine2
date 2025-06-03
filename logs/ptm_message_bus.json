@@ -1,0 +1,466 @@
+{
+  "messages": [
+    {
+      "timestamp": 1748835196.057959,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748835198.412727,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748840349.2418294,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748840350.7774038,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748843387.99658,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748843390.0624013,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748843906.9990563,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748843910.2871644,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748845370.9506717,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748845372.5286033,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748853590.1837661,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748853591.369056,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748854257.4522111,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748854258.630055,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748886603.6773915,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748886605.5687845,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748887479.3473935,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748887480.4610658,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748893134.222495,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748893135.1550057,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748893135.2442815,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748893136.1599495,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748906905.5472822,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748906906.530961,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748906906.5606298,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748906907.555905,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748909875.6693187,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748909876.7075942,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748910839.3396606,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748910840.370377,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748913684.890409,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748913685.8934586,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748914140.4143138,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748914141.4391956,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748919622.27429,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748919623.2769194,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748920590.524325,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748920591.5924804,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748920591.8084848,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748920592.8431237,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748923406.3965118,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    },
+    {
+      "timestamp": 1748923407.4369879,
+      "from": "PTM_Brain",
+      "to": "Strategist",
+      "command": "analyze_strategy",
+      "payload": {
+        "timestamp": "2025-05-25T00:49:55.588555",
+        "strategy": null,
+        "reason": "No backtest results found."
+      }
+    }
+  ]
+}

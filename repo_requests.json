@@ -1,0 +1,7 @@
+{
+  "needs": [
+    "bridge_sync_commander.py",
+    "repair_team_watcher.py",
+    "strategy_map_updater.py"
+  ]
+}

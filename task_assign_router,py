@@ -1,0 +1,42 @@
+# task_assign_router.py
+# Maps task requests to actual functions for bot execution
+
+def route_task(bot_id, task_name):
+    print(f"[Task Router] 🛰️ Assigning task '{task_name}' to bot {bot_id}")
+
+    task_map = {
+        "start_routine_check": routine_check,
+        "run_surveillance": run_surveillance,
+        "scan_errors": error_scan,
+        "idle": idle_mode
+    }
+
+    task_fn = task_map.get(task_name)
+
+    if task_fn:
+        return task_fn(bot_id)
+    else:
+        print(f"[Task Router] ⚠️ Unknown task: {task_name}")
+        return False
+
+
+# === Task Handlers ===
+
+def routine_check(bot_id):
+    print(f"[Routine] ✅ Bot {bot_id} running startup diagnostics")
+    return True
+
+
+def run_surveillance(bot_id):
+    print(f"[Surveillance] 🔍 Bot {bot_id} scanning system integrity")
+    return True
+
+
+def error_scan(bot_id):
+    print(f"[Repair] 🛠️ Bot {bot_id} scanning for faults")
+    return True
+
+
+def idle_mode(bot_id):
+    print(f"[Idle] 😴 Bot {bot_id} is on standby")
+    return True

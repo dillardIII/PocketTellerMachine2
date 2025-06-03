@@ -1,48 +1,51 @@
 # === FILE: cole_loop_controller.py ===
+# Main control loop for Cole – the core AI logic bot in PTM
 
 import time
-from cole_task_optimizer import cole_optimize_tasks
-from cole_prompt_generator import generate_prompt
-from cole_command_engine import submit_command
-from cole_project_planner import generate_tasks_from_roadmap
+from cole_brain import (
+    analyze_logs_and_adjust,
+    run_cole_thought_cycle
+)
+from cole_logger import log_core_metrics
+from cole_error_detector import scan_for_code_errors
+from cole_task_dispatcher import dispatch_pending_tasks
+from cole_self_evolver import evolve_logic_network
+from gpt_cole_sync import relay_to_gpt
+from system_logger import log_cole_action
 
 def run_cole_controller_loop():
-    print("[Cole Controller] Starting main loop...")
+    """
+    Cole’s master loop for diagnostics, self-learning, GPT sync,
+    strategic task dispatching, and logic evolution.
+    """
+    print("[Cole Core] 🔁 Starting master loop...")
+
     while True:
         try:
-            print("[Cole Controller] Choosing next core function...")
+            # Thought-action loop
+            action = run_cole_thought_cycle()
+            log_cole_action(action)
+            relay_to_gpt(action)
 
-            # === Generate Tasks from Roadmap ===
-            tasks = generate_tasks_from_roadmap()
-            if not tasks:
-                print("[Cole Controller] No tasks returned from roadmap. Using fallback command.")
-                task_input = "Develop an algorithm for predicting market trends using historical data and current news."
-                parsed = submit_command(task_input)
-                tasks = [parsed] if isinstance(parsed, dict) else []
+            # Phase 1: Analyze system logs and adjust behavior
+            analyze_logs_and_adjust()
 
-            # === Filter and Optimize Tasks ===
-            filtered_tasks = [t for t in tasks if isinstance(t, dict)]
-            task_list = cole_optimize_tasks(filtered_tasks)
-            if not task_list:
-                print("[Cole Controller] No optimized tasks to run.")
-                time.sleep(5)
-                continue
+            # Phase 2: Log current operational metrics
+            log_core_metrics()
 
-            print("[Cole Controller] Executing prompts...")
-            for task in task_list:
-                try:
-                    prompt = generate_prompt(task)
-                    print("[Cole Controller] Prompt:", prompt)
-                except Exception as e:
-                    print(f"[Cole Controller] Skipping bad task: {e}")
+            # Phase 3: Run code/system error scans
+            scan_for_code_errors()
 
-            print("[Cole Controller] Loop sleeping...")
-            time.sleep(5)
+            # Phase 4: Dispatch active tasks to PTM systems
+            dispatch_pending_tasks()
+
+            # Phase 5: Evolve neural/self-logic structure
+            evolve_logic_network()
+
+            print("[Cole Core] ✅ Loop cycle complete\n")
+
+            time.sleep(10)
 
         except Exception as e:
-            print("[Cole Controller] Loop crashed. Recovering:", str(e))
-            time.sleep(2)
-
-# === Entry Point ===
-if __name__ == "__main__":
-    run_cole_controller_loop()
+            print(f"[Cole Core] ❌ Error during loop: {e}")
+            time.sleep(5)

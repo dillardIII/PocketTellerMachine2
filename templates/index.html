@@ -49,18 +49,31 @@
       </p>
     </div>
 
+    <!-- === Self-Rebuilder Panel === -->
+    <div class="card p-4 mb-4 rounded shadow bg-dark text-white" style="margin-top: 40px;">
+      <h3 class="mb-3">🧠 PTM Self-Rebuilder</h3>
+
+      <button id="manualRebuildBtn" class="btn btn-warning mb-2">🔧 Trigger Manual Self-Rebuild</button>
+      <button id="refreshStatusBtn" class="btn btn-secondary">🔄 Refresh Status</button>
+
+      <div id="rebuilderStatus" class="mt-3 p-3 border rounded bg-light text-dark">
+        <strong>Status:</strong>
+        <pre id="rebuilderOutput">Waiting for status...</pre>
+      </div>
+    </div>
+
+    <!-- === Footer === -->
     <div class="footer" style="margin-top: 40px;">
       Built with purpose. Driven by data.
     </div>
   </div>
 
-  <!-- === Script === -->
+  <!-- === Script: Voice Trigger === -->
   <script>
     function triggerVoice() {
       const text = document.getElementById("voiceText").value;
       const persona = document.getElementById("voicePersona").value;
 
-      // Optional hardcoded mood traits
       const mood = "win";
       const gender = "male";
       const accent = "southern";
@@ -68,13 +81,7 @@
       fetch('/api/speak', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          text,
-          persona,
-          mood,
-          gender,
-          accent
-        })
+        body: JSON.stringify({ text, persona, mood, gender, accent })
       })
       .then(res => res.json())
       .then(data => {
@@ -87,6 +94,30 @@
         document.getElementById("voice-status").textContent = "Error generating voice.";
       });
     }
+  </script>
+
+  <!-- === Script: Self-Rebuilder Controls === -->
+  <script>
+    async function fetchRebuilderStatus() {
+      const res = await fetch("/self_rebuilder/status");
+      const data = await res.json();
+      document.getElementById("rebuilderOutput").textContent = JSON.stringify(data, null, 2);
+    }
+
+    async function triggerManualRebuild() {
+      const res = await fetch("/self_rebuilder/manual", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" }
+      });
+      const data = await res.json();
+      alert("Manual rebuild triggered:\n" + JSON.stringify(data, null, 2));
+      fetchRebuilderStatus();
+    }
+
+    document.getElementById("manualRebuildBtn").onclick = triggerManualRebuild;
+    document.getElementById("refreshStatusBtn").onclick = fetchRebuilderStatus;
+
+    window.onload = fetchRebuilderStatus;
   </script>
 
 </body>

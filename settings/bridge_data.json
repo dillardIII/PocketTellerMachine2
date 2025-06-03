@@ -1,0 +1,23 @@
+{
+  "bridges": [
+    {
+      "id": "bridge_001",
+      "name": "ReplitBot",
+      "status": "active",
+      "last_ping": "2025-06-01T20:00:00Z",
+      "type": "WebSocket",
+      "endpoint": "ws://localhost:8765"
+    },
+    {
+      "id": "bridge_002",
+      "name": "ReconBot",
+      "status": "inactive",
+      "last_ping": null,
+      "type": "ReconDaemon",
+      "endpoint": null
+    }
+  ],
+  "sync_interval_seconds": 15,
+  "last_global_sync": "2025-06-01T20:00:00Z",
+  "errors": []
+}

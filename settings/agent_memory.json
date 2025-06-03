@@ -1,0 +1,27 @@
+{
+  "Mentor": {
+    "role": "Educator",
+    "can_receive_from": ["Strategist", "GhostBot"],
+    "can_trigger": ["Cole"]
+  },
+  "Mo Cash": {
+    "role": "Aggressive Trader",
+    "can_receive_from": ["Malik", "Strategist"],
+    "can_trigger": ["Cole"]
+  },
+  "Strategist": {
+    "role": "Planner",
+    "can_receive_from": ["Mentor"],
+    "can_trigger": ["Mentor", "Cole"]
+  },
+  "Malik": {
+    "role": "Intel",
+    "can_receive_from": ["GhostBot"],
+    "can_trigger": ["Strategist", "Mo Cash"]
+  },
+  "Cole": {
+    "role": "Builder",
+    "can_receive_from": ["Mo Cash", "Mentor", "Strategist"],
+    "can_trigger": []
+  }
+}

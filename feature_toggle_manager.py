@@ -1,13 +1,15 @@
-# Feature Toggle Manager
-toggles = {
-    "voice_enabled": True,
+# feature_toggle_manager.py – Feature Flags Controller
+
+# Feature toggles (manually adjustable or dynamically set)
+FEATURE_FLAGS = {
     "strategy_autogen": True,
-    "real_trade_mode": False
+    "mood_engine": True,
+    "voice_recap": False,
+    "recon_scraper": True,
+    "vps_controller": True
 }
 
-def toggle_feature(name, state):
-    toggles[name] = state
-    print(f"[FeatureToggle] {name} set to {state}")
-
-def is_enabled(name):
-    return toggles.get(name, False)
+def is_enabled(feature_name):
+    enabled = FEATURE_FLAGS.get(feature_name, False)
+    print(f"[Feature Toggle] {feature_name} is {'enabled' if enabled else 'disabled'}.")
+    return enabled

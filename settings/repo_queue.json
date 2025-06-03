@@ -1,0 +1,16 @@
+{
+  "pending_tasks": [],
+  "active_tasks": [],
+  "completed_tasks": [
+    {
+      "task_id": "task-001",
+      "type": "diagnostic_scan",
+      "target": "cole_autopilot",
+      "assigned_bot": "Cole",
+      "priority": "high",
+      "details": {
+        "note": "Run initial system scan"
+      }
+    }
+  ]
+}

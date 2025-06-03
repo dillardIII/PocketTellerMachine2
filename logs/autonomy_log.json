@@ -1,0 +1,33 @@
+{
+  "bot_logs": [
+    {
+      "timestamp": "2025-06-02T00:40:54Z",
+      "bot": "Cole",
+      "action": "diagnostic_scan",
+      "target": "cole_autopilot",
+      "result": "routed"
+    },
+    {
+      "timestamp": "2025-06-02T00:40:55Z",
+      "bot": "Cole",
+      "action": "diagnostic_scan",
+      "target": "cole_autopilot",
+      "result": "completed"
+    },
+    {
+      "timestamp": "2025-06-02T00:41:04Z",
+      "bot": "Cole",
+      "action": "diagnostic_scan",
+      "target": "cole_autopilot",
+      "result": "completed"
+    },
+    {
+      "timestamp": "2025-06-02T00:43:59Z",
+      "bot": "Cole",
+      "action": "diagnostic_scan",
+      "target": "cole_autopilot",
+      "result": "completed"
+    }
+  ],
+  "last_updated": "2025-06-02T00:43:59Z"
+}

@@ -5759,5 +5759,482 @@
       "win_rate": 68,
       "confidence": 20
     }
+  },
+  "2025-05-31 16:43:08.222359": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 16:43:08.319196": {
+    "strategy": null
+  },
+  "2025-05-31 16:43:09.331033": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 16:43:09.503454": {
+    "strategy": null
+  },
+  "2025-05-31 16:46:46.480659": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 16:46:46.572196": {
+    "strategy": null
+  },
+  "2025-05-31 16:48:13.070929": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 16:48:13.160761": {
+    "strategy": null
+  },
+  "2025-05-31 16:59:16.584871": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 16:59:16.675013": {
+    "strategy": null
+  },
+  "2025-05-31 17:00:09.849921": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 17:00:09.959900": {
+    "strategy": null
+  },
+  "2025-05-31 17:04:52.794773": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 17:04:52.915561": {
+    "strategy": null
+  },
+  "2025-05-31 17:07:44.167796": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 17:07:44.252770": {
+    "strategy": null
+  },
+  "2025-05-31 17:08:16.831903": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 17:08:16.916313": {
+    "strategy": null
+  },
+  "2025-05-31 17:10:39.632679": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 17:10:39.751955": {
+    "strategy": null
+  },
+  "2025-05-31 17:12:03.382420": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 17:12:03.503718": {
+    "strategy": null
+  },
+  "2025-05-31 17:16:50.975093": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 17:16:51.076008": {
+    "strategy": null
+  },
+  "2025-05-31 17:19:34.645627": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 17:19:34.735253": {
+    "strategy": null
+  },
+  "2025-05-31 17:22:47.835954": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 17:22:47.922034": {
+    "strategy": null
+  },
+  "2025-05-31 17:23:26.463034": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 17:23:26.549855": {
+    "strategy": null
+  },
+  "2025-05-31 17:26:16.888769": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 17:26:16.972216": {
+    "strategy": null
+  },
+  "2025-05-31 17:27:43.641282": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 17:27:43.740940": {
+    "strategy": null
+  },
+  "2025-05-31 17:29:22.053739": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 17:29:22.134765": {
+    "strategy": null
+  },
+  "2025-05-31 17:31:12.632257": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 17:31:12.713472": {
+    "strategy": null
+  },
+  "2025-05-31 17:33:12.407674": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 17:33:12.526010": {
+    "strategy": null
+  },
+  "2025-05-31 17:34:28.116139": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 17:34:28.206781": {
+    "strategy": null
+  },
+  "2025-05-31 17:35:38.420266": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 17:35:38.497498": {
+    "strategy": null
+  },
+  "2025-05-31 17:42:12.819960": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 17:42:12.904657": {
+    "strategy": null
+  },
+  "2025-05-31 17:42:13.868013": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-05-31 17:42:13.948803": {
+    "strategy": null
+  },
+  "2025-06-02 18:04:40.391836": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-06-02 18:04:40.613653": {
+    "strategy": null
+  },
+  "2025-06-02 19:38:55.223353": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-06-02 19:38:55.274366": {
+    "strategy": null
+  },
+  "2025-06-02 19:38:56.164999": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-06-02 19:38:56.180040": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-06-02 19:38:56.232408": {
+    "strategy": null
+  },
+  "2025-06-02 23:28:26.548937": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-06-02 23:28:26.598461": {
+    "strategy": null
+  },
+  "2025-06-02 23:28:27.529946": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-06-02 23:28:27.558014": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-06-02 23:28:27.633201": {
+    "strategy": null
+  },
+  "2025-06-03 00:17:56.705788": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-06-03 00:17:56.747454": {
+    "strategy": null
+  },
+  "2025-06-03 00:19:29.998621": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-06-03 00:19:30.026363": {
+    "strategy": null
+  },
+  "2025-06-03 00:19:30.061119": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-06-03 00:34:00.348882": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-06-03 00:34:00.369771": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-06-03 00:34:00.402062": {
+    "strategy": null
+  },
+  "2025-06-03 00:45:29.436150": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-06-03 00:45:29.495350": {
+    "strategy": null
+  },
+  "2025-06-03 00:45:29.510131": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-06-03 01:21:25.898952": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-06-03 01:21:25.951207": {
+    "strategy": null
+  },
+  "2025-06-03 01:29:01.415556": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-06-03 01:29:01.443429": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-06-03 01:29:01.501814": {
+    "strategy": null
+  },
+  "2025-06-03 03:00:23.281706": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-06-03 03:00:23.319416": {
+    "strategy": null
+  },
+  "2025-06-03 03:16:31.546216": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-06-03 03:16:32.590879": {
+    "strategy": null
+  },
+  "2025-06-03 03:16:32.814461": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-06-03 03:16:32.855711": {
+    "strategy": null
+  },
+  "2025-06-03 04:03:27.394435": {
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    }
+  },
+  "2025-06-03 04:03:27.444899": {
+    "strategy": null
   }
 }

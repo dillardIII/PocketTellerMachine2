@@ -1,577 +1,5 @@
 [
   {
-    "timestamp": "2025-05-29 06:01:48.571027",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:02:48.636449",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:03:48.692202",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:04:48.748204",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:05:48.786463",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:06:48.842106",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:07:48.898878",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:08:48.951922",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:09:49.004930",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:10:49.066175",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:11:49.124199",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:12:49.177669",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:13:49.234498",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:14:49.293622",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:15:49.354845",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:16:49.411419",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:17:49.468605",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:18:49.525678",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:19:49.581450",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:20:49.641417",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:21:49.710091",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:22:49.767984",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:23:49.833662",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:24:49.887136",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:25:49.947562",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:26:50.012945",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:27:50.092565",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:28:50.172108",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:29:50.220531",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:30:50.280702",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:31:50.344983",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:32:50.402672",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:33:50.460307",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:34:50.520870",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:35:50.584291",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:36:50.639736",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:37:50.716702",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:38:50.770924",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:39:50.824290",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:40:50.885249",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:41:50.945682",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:42:50.996888",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:43:51.056462",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:44:51.113032",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:45:51.174913",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:46:51.233688",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:47:51.295027",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:48:51.355615",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:49:51.425047",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:50:51.547285",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:51:51.640913",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
-    "timestamp": "2025-05-29 06:52:51.712429",
-    "strategy": {
-      "name": "Fallback Covered Call",
-      "type": "bullish",
-      "win_rate": 68,
-      "confidence": 20
-    },
-    "status": "executed",
-    "notes": "Simulated execution - replace with live API logic."
-  },
-  {
     "timestamp": "2025-05-29 06:53:51.778222",
     "strategy": {
       "name": "Fallback Covered Call",
@@ -5490,6 +4918,578 @@
   },
   {
     "timestamp": "2025-05-31 12:40:10.224951",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 16:43:08.261252",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 16:43:09.462015",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 16:46:46.523578",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 16:48:13.115258",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 16:59:16.629256",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 17:00:09.898249",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 17:04:52.896347",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 17:07:44.199609",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 17:08:16.868494",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 17:10:39.741314",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 17:12:03.489928",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 17:16:51.061664",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 17:19:34.722606",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 17:22:47.909201",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 17:23:26.503440",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 17:26:16.920500",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 17:27:43.731529",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 17:29:22.125773",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 17:31:12.662088",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 17:33:12.514778",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 17:34:28.166185",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 17:35:38.487049",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 17:42:12.845610",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-05-31 17:42:13.901029",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-02 18:04:40.510797",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-02 18:04:40.591782",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-02 19:38:55.258858",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-02 19:38:56.197011",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-02 19:38:56.218184",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-02 23:28:26.586871",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-02 23:28:26.638154",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-02 23:28:27.606660",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-03 00:17:56.722659",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-03 00:17:56.737921",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-03 00:19:30.017808",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-03 00:19:30.089196",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-03 00:34:00.377022",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-03 00:34:00.420207",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-03 00:45:29.463138",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-03 00:45:29.570378",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-03 01:21:25.921701",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-03 01:21:25.939639",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-03 01:29:01.464055",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-03 01:29:01.489733",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-03 03:00:23.298432",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-03 03:00:23.309404",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-03 03:16:31.593456",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-03 03:16:31.614298",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-03 03:16:32.845373",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-03 03:16:32.891582",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-03 04:03:27.422893",
+    "strategy": {
+      "name": "Fallback Covered Call",
+      "type": "bullish",
+      "win_rate": 68,
+      "confidence": 20
+    },
+    "status": "executed",
+    "notes": "Simulated execution - replace with live API logic."
+  },
+  {
+    "timestamp": "2025-06-03 04:03:27.442037",
     "strategy": {
       "name": "Fallback Covered Call",
       "type": "bullish",

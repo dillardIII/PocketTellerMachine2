@@ -1,15 +1,5 @@
-# Trade Logger
-trade_history = []
+# trade_logger.py – Logs trade details for recordkeeping and analysis
 
 def log_trade(symbol, action, price, quantity):
-    trade = {
-        "symbol": symbol,
-        "action": action,
-        "price": price,
-        "quantity": quantity
-    }
-    trade_history.append(trade)
-    print(f"[Trade Logger] Logged trade: {trade}")
-
-def get_trade_history():
-    return trade_history
+    print(f"[Trade Logger] 📝 Logging trade: {action} {quantity} shares of {symbol} at ${price:.2f}")
+    # Future: Save to JSON, database, or cloud

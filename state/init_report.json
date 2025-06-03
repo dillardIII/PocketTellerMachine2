@@ -1,0 +1,25 @@
+{
+  "status": "ready",
+  "config": {
+    "mode": "live",
+    "version": "1.0.0",
+    "dark_mode": true,
+    "log_level": "info"
+  },
+  "personas": [
+    "Mentor",
+    "Mo Cash",
+    "Drill Instructor",
+    "Strategist",
+    "Shadow",
+    "Chill Trader",
+    "Optimist",
+    "OG"
+  ],
+  "diagnostics": {
+    "directories": true,
+    "memory_files": true,
+    "bots_online": true,
+    "pass": true
+  }
+}

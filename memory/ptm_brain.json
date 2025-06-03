@@ -1,0 +1,9 @@
+{
+  "strategy_reason_log.json": [
+    {
+      "timestamp": "2025-05-25T00:49:55.588555",
+      "strategy": null,
+      "reason": "No backtest results found."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-06-01T17:28:03.321260",
+    "detail": {
+      "issue": "bridge_sync_commander.py",
+      "result": "Failed",
+      "error": "'str' object has no attribute 'get'"
+    }
+  },
+  {
+    "timestamp": "2025-06-01T17:28:03.322715",
+    "detail": {
+      "issue": "repair_team_watcher.py",
+      "result": "Failed",
+      "error": "'str' object has no attribute 'get'"
+    }
+  },
+  {
+    "timestamp": "2025-06-01T17:28:03.324836",
+    "detail": {
+      "issue": "strategy_map_updater.py",
+      "result": "Failed",
+      "error": "'str' object has no attribute 'get'"
+    }
+  }
+]

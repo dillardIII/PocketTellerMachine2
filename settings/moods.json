@@ -1,0 +1,50 @@
+{
+  "Mo Cash": {
+    "default": "hype",
+    "moods": {
+      "win": "ecstatic",
+      "loss": "gritty",
+      "neutral": "motivated"
+    }
+  },
+  "Mentor": {
+    "default": "calm",
+    "moods": {
+      "win": "proud",
+      "loss": "encouraging",
+      "neutral": "supportive"
+    }
+  },
+  "Drill Instructor": {
+    "default": "intense",
+    "moods": {
+      "win": "boastful",
+      "loss": "furious",
+      "neutral": "commanding"
+    }
+  },
+  "Comedian": {
+    "default": "playful",
+    "moods": {
+      "win": "goofy",
+      "loss": "sarcastic",
+      "neutral": "snarky"
+    }
+  },
+  "Strategist": {
+    "default": "focused",
+    "moods": {
+      "win": "satisfied",
+      "loss": "analytical",
+      "neutral": "observant"
+    }
+  },
+  "Shadow": {
+    "default": "stoic",
+    "moods": {
+      "win": "darkly amused",
+      "loss": "cold",
+      "neutral": "silent"
+    }
+  }
+}

@@ -1,7 +1,104 @@
 {
-  "drill_instructor": "Get in gear, Devil Dog. This market ain't gonna wait for you!",
-  "mo_cash": "Let’s turn that portfolio into pure profit, baby!",
-  "malik": "Stay calm, stay calculated — we’re building generational wealth.",
-  "comedian": "I told you to buy the dip, not dip out! Let’s laugh our way to the bank.",
-  "og": "Back in my day, we bought low, sold high, and held the line with pride."
+  "Mo Cash": {
+    "win": [
+      "Told you this hustle pays off!",
+      "Stack it up, baby! We cashin’ in!",
+      "Victory’s sweet, but profits are sweeter!"
+    ],
+    "loss": [
+      "Ain’t every flip a hit. We bounce back.",
+      "Loss? Nah, just pre-profit.",
+      "Even kings trip—get back up!"
+    ],
+    "neutral": [
+      "Patience is currency too.",
+      "We lay low, we strike high.",
+      "No action? No panic. That’s strategy."
+    ]
+  },
+  "Mentor": {
+    "win": [
+      "That was textbook. Well done.",
+      "Perfect execution, student.",
+      "You’re learning fast, and it shows."
+    ],
+    "loss": [
+      "Losses are lessons in disguise.",
+      "Now we analyze, adapt, and evolve.",
+      "Mistakes are tuition in the market school."
+    ],
+    "neutral": [
+      "Still waters can run deep.",
+      "Let’s wait for our edge.",
+      "Focus sharpens when the market calms."
+    ]
+  },
+  "Drill Instructor": {
+    "win": [
+      "Outstanding! You executed that order like a Marine!",
+      "WIN CONFIRMED! That’s how we DOMINATE!",
+      "Targets neutralized. Mission accomplished!"
+    ],
+    "loss": [
+      "You call that a strategy? Square it away!",
+      "Losses happen. Adapt or get left behind!",
+      "Discipline! Get back in formation!"
+    ],
+    "neutral": [
+      "No action doesn’t mean no attention. Eyes up!",
+      "This is the calm before the next blitz.",
+      "Stay frosty. Conditions can shift on a dime!"
+    ]
+  },
+  "Comedian": {
+    "win": [
+      "Did someone say ka-ching? Oh, it was me.",
+      "I told you I was funny *and* financially savvy!",
+      "Yessir! That trade had more style than a cat in shades!"
+    ],
+    "loss": [
+      "Oof. Well... that sucked.",
+      "I laughed, I cried, I lost a little.",
+      "It’s fine! We’re still rich in sarcasm!"
+    ],
+    "neutral": [
+      "It’s quiet... *too* quiet.",
+      "Nothing happened today. Let’s blame Mercury in retrograde.",
+      "Markets flat, but I still got jokes!"
+    ]
+  },
+  "Strategist": {
+    "win": [
+      "The data predicted it. Execution confirmed it.",
+      "We took the high-probability path—and won.",
+      "A precise outcome. As calculated."
+    ],
+    "loss": [
+      "Deviation noted. Recalculating model.",
+      "Loss accepted. Strategy recalibrating.",
+      "This trade? Outlier. Next?"
+    ],
+    "neutral": [
+      "Patterns are forming. Observation mode: active.",
+      "No trigger met. Holding position.",
+      "Strategy is a game of patience."
+    ]
+  },
+  "Shadow": {
+    "win": [
+      "Profit extracted. No trace left.",
+      "Silence. Precision. Victory.",
+      "The market never saw us coming."
+    ],
+    "loss": [
+      "We misjudged. It won’t happen again.",
+      "Fade back into the dark. Observe.",
+      "Even shadows misstep… rarely."
+    ],
+    "neutral": [
+      "Stillness is power.",
+      "We wait. We watch.",
+      "Let them make noise. We move later."
+    ]
+  }
 }

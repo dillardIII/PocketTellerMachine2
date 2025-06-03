@@ -1,0 +1,47 @@
+# autonomy_lock_key.py – Final system unlocker for PTM Full Autonomy Protocol
+
+import time
+from memory_kernel_core import MemoryKernel
+from self_healing_watcher import SelfHealingWatcher
+from vps_bridge_controller import VPSBridge
+from autonomy_loop_controller import start_autonomy_daemon
+
+def full_autonomy_boot():
+    print("[AUTONOMY LOCK KEY] Initializing full autonomy mode...")
+
+    try:
+        memory = MemoryKernel()
+        memory.remember("mode", "full_autonomy")
+        print("[AUTONOMY LOCK KEY] Memory core initialized.")
+    except Exception as e:
+        print("[AUTONOMY LOCK KEY] MemoryKernel error:", str(e))
+
+    try:
+        print("[AUTONOMY LOCK KEY] Launching Autonomy Loop...")
+        start_autonomy_daemon()
+        print("[AUTONOMY LOCK KEY] Autonomy loop started.")
+    except Exception as e:
+        print("[AUTONOMY LOCK KEY] Autonomy loop error:", str(e))
+
+    try:
+        print("[AUTONOMY LOCK KEY] Starting Self-Healing Watcher...")
+        watcher = SelfHealingWatcher()
+        watcher.start()
+        print("[AUTONOMY LOCK KEY] Self-Healing Watcher active.")
+    except Exception as e:
+        print("[AUTONOMY LOCK KEY] Self-Healing Watcher error:", str(e))
+
+    try:
+        print("[AUTONOMY LOCK KEY] Connecting to VPS...")
+        bridge = VPSBridge()
+        bridge.connect()
+        bridge.sync_data()
+        bridge.start_remote_server()
+        print("[AUTONOMY LOCK KEY] VPS connected and synced.")
+    except Exception as e:
+        print("[AUTONOMY LOCK KEY] VPS Bridge error:", str(e))
+
+    print("[AUTONOMY LOCK KEY] FULL AUTONOMY ONLINE. Awaiting new orders.")
+
+if __name__ == "__main__":
+    full_autonomy_boot()

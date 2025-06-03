@@ -1,0 +1,34 @@
+{
+  "2025-06-01T20:00:00Z": {
+    "persona": "Mo Cash",
+    "event": "Flagged high-volume breakout",
+    "ticker": "NVDA",
+    "signal_strength": "strong",
+    "notes": "Watching NVDA for bullish confirmation after a volume spike above 150% average."
+  },
+  "2025-06-01T20:05:00Z": {
+    "persona": "Drill Instructor",
+    "event": "Discipline alert",
+    "ticker": "SPY",
+    "signal_strength": "medium",
+    "notes": "User broke SMA/RSI alignment protocol. Reminder issued to stick to trading plan."
+  },
+  "2025-06-01T20:10:00Z": {
+    "persona": "Mentor",
+    "event": "Educational trigger",
+    "topic": "Trailing Stop Loss",
+    "notes": "Suggested review of stop-loss settings to avoid over-tightening in volatile conditions."
+  },
+  "2025-06-01T20:15:00Z": {
+    "persona": "Comedian",
+    "event": "Morale Boost",
+    "notes": "Said: 'You held through that dip? You deserve a trophy and a nap!'"
+  },
+  "2025-06-01T20:20:00Z": {
+    "persona": "Shadow",
+    "event": "Pattern Detection",
+    "ticker": "TSLA",
+    "signal_strength": "high",
+    "notes": "Bearish head-and-shoulders forming on the 15-min chart."
+  }
+}

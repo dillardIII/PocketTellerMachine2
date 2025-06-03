@@ -1,7 +1,12 @@
-# PTM Main Brain Loop – Final Phase Wiring ✅
+# main.py – PTM Master Brain Loop + Flask Web Controller
 
+
+from run_ptm import *
 import threading
 import time
+from flask import Flask
+from boot_autonomy import start_all_autonomy
+from auto_route_loader import load_dynamic_routes
 
 # === Phase Boot Modules ===
 from autonomy_loop_controller import start_loop
@@ -30,16 +35,34 @@ from mood_engine import set_mood
 # === UI & Sync ===
 from ui_controller_sync import update_ui
 
-# === Boot ===
+# === Flask App Instance ===
+ptm_app = Flask(__name__)
+
+@ptm_app.route('/')
+def index():
+    return "ReconBot is running. Headless mode."
+
+# === Boot Function ===
 def boot_ptm():
-    print("[PTM Boot] 🔧 Starting PTM Brain...")
+    print("[Phase Manager] Phase set to: startup")
+    print("[BOOT] Starting background services...")
+
     connect_broker("your-api-key-here")
 
+    # Start autonomy systems
+    result = start_all_autonomy()
+    print(f"[PTM Autonomy Boot] ✅ Status: {result['status']}")
+    print("[BOOT] All background services launched.")
+
+    # Load valid routes
+    load_dynamic_routes(ptm_app)
+
+    # Start background logic loops
     threading.Thread(target=start_loop, daemon=True).start()
     threading.Thread(target=run_buildbot, daemon=True).start()
     threading.Thread(target=monitor, daemon=True).start()
 
-# === Master Loop ===
+# === Master Logic Loop ===
 def master_brain_loop():
     print("[PTM Brain] 🧠 Running main logic loop...")
     while True:
@@ -65,4 +88,5 @@ def master_brain_loop():
 # === GO TIME ===
 if __name__ == "__main__":
     boot_ptm()
-    master_brain_loop()
+    threading.Thread(target=master_brain_loop, daemon=True).start()
+    ptm_app.run(debug=True, host="0.0.0.0", port=8080)

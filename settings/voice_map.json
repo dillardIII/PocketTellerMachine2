@@ -1,86 +1,66 @@
 {
-  "drill_instructor": {
-    "male": {
-      "default": "21m00Tcm4TlvDq8ikWAM",
-      "southern": "TxGEqnHWrfWFTfGW9XjX",
-      "black": "yoZ06aMxZJJ28mfd3POQ",
-      "midwest": "MF3mGyEYCl7XYWbV9V6O",
-      "international": "pNInz6obpgDQGcFmaJgB"
-    },
-    "female": {
-      "default": "AZnzlk1XvdvUeBnXmlld",
-      "southern": "EXAVITQu4vr4xnSDxMaL",
-      "black": "LcfcDJNUP1GQjkzn1xUU",
-      "nyc": "N4MJ8GRb9cIxw7qb2jwL",
-      "international": "flq6f7yk4E4fJM5XTYuZ"
-    }
+  "Mo Cash": {
+    "voice_id": "mo_cash_voice_m",
+    "style": "bold",
+    "mood_set": "hype",
+    "gender": "male",
+    "accent": "urban",
+    "tone": "energetic"
   },
-  "mo_cash": {
-    "male": {
-      "default": "yoZ06aMxZJJ28mfd3POQ",
-      "nyc": "N4MJ8GRb9cIxw7qb2jwL",
-      "latino": "jBpfuIE2acCO8z3wKNLl",
-      "southern": "TxGEqnHWrfWFTfGW9XjX"
-    },
-    "female": {
-      "default": "LcfcDJNUP1GQjkzn1xUU",
-      "black": "yoZ06aMxZJJ28mfd3POQ",
-      "latina": "flq6f7yk4E4fJM5XTYuZ",
-      "sassy": "EXAVITQu4vr4xnSDxMaL"
-    }
+  "Mentor": {
+    "voice_id": "mentor_voice_m",
+    "style": "calm",
+    "mood_set": "balanced",
+    "gender": "male",
+    "accent": "standard",
+    "tone": "warm"
   },
-  "malik": {
-    "male": {
-      "default": "pNInz6obpgDQGcFmaJgB",
-      "smooth": "MF3mGyEYCl7XYWbV9V6O"
-    },
-    "female": {
-      "default": "AZnzlk1XvdvUeBnXmlld",
-      "calm": "bVMeCyTHy58xNoL34UHO",
-      "international": "flq6f7yk4E4fJM5XTYuZ"
-    }
+  "Drill Instructor": {
+    "voice_id": "drill_voice_m",
+    "style": "intense",
+    "mood_set": "commanding",
+    "gender": "male",
+    "accent": "military",
+    "tone": "gruff"
   },
-  "comedian": {
-    "male": {
-      "default": "yoZ06aMxZJJ28mfd3POQ",
-      "raspy": "N4MJ8GRb9cIxw7qb2jwL",
-      "latino": "jBpfuIE2acCO8z3wKNLl"
-    },
-    "female": {
-      "default": "LcfcDJNUP1GQjkzn1xUU",
-      "sassy": "EXAVITQu4vr4xnSDxMaL"
-    }
+  "Strategist": {
+    "voice_id": "strategist_voice_m",
+    "style": "analytical",
+    "mood_set": "calculated",
+    "gender": "neutral",
+    "accent": "tech",
+    "tone": "precise"
   },
-  "og": {
-    "male": {
-      "default": "TxGEqnHWrfWFTfGW9XjX",
-      "gritty": "pNInz6obpgDQGcFmaJgB",
-      "black": "yoZ06aMxZJJ28mfd3POQ"
-    },
-    "female": {
-      "default": "AZnzlk1XvdvUeBnXmlld",
-      "wise": "bVMeCyTHy58xNoL34UHO",
-      "latina": "flq6f7yk4E4fJM5XTYuZ"
-    }
+  "Comedian": {
+    "voice_id": "comedian_voice_m",
+    "style": "sarcastic",
+    "mood_set": "fun",
+    "gender": "male",
+    "accent": "varied",
+    "tone": "witty"
   },
-  "strategist": {
-    "male": {
-      "default": "MF3mGyEYCl7XYWbV9V6O"
-    },
-    "female": {
-      "default": "AZnzlk1XvdvUeBnXmlld",
-      "european": "21m00Tcm4TlvDq8ikWAM",
-      "black": "LcfcDJNUP1GQjkzn1xUU"
-    }
+  "Shadow": {
+    "voice_id": "shadow_voice_m",
+    "style": "whisper",
+    "mood_set": "stealth",
+    "gender": "neutral",
+    "accent": "mysterious",
+    "tone": "low"
   },
-  "analyst": {
-    "male": {
-      "default": "MF3mGyEYCl7XYWbV9V6O",
-      "british": "21m00Tcm4TlvDq8ikWAM"
-    },
-    "female": {
-      "default": "AZnzlk1XvdvUeBnXmlld",
-      "korean": "flq6f7yk4E4fJM5XTYuZ"
-    }
+  "Optimist": {
+    "voice_id": "optimist_voice_f",
+    "style": "uplifting",
+    "mood_set": "hopeful",
+    "gender": "female",
+    "accent": "light",
+    "tone": "cheerful"
+  },
+  "Chill Trader": {
+    "voice_id": "chill_voice_m",
+    "style": "relaxed",
+    "mood_set": "zen",
+    "gender": "male",
+    "accent": "west_coast",
+    "tone": "mellow"
   }
 }

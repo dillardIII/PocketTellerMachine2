@@ -1,64 +1,39 @@
 # === FILE: autonomy_meta_manager.py ===
+# Adjusts roadmap based on system feedback and current AI performance
 
 import json
-import os
-from datetime import datetime
-from ptm_gpt_agent import run_ptm_gpt_agent
-from cole_gpt_advisor import ask_gpt
+import time
 
-ROADMAP_FILE = "project_roadmap.json"
-LOG_FILE = "logs/autonomy_meta_log.json"
+from system_status import get_current_status
+from roadmap_generator import regenerate_roadmap
+from phase_status_monitor import update_phase_progress
 
 def review_and_reprioritize_roadmap():
-    if not os.path.exists(ROADMAP_FILE):
-        print("[MetaManager] No roadmap found.")
+    print("[Meta Manager] 📊 Reviewing system status and adjusting roadmap...")
+
+    status = get_current_status()
+    if not status:
+        print("[Meta Manager] ⚠️ No current status available.")
         return
 
-    with open(ROADMAP_FILE, "r") as f:
-        roadmap = json.load(f)
+    priority_level = calculate_priority_level(status)
+    new_roadmap = regenerate_roadmap(priority_level)
 
-    features = roadmap.get("features", [])
-    if not features:
-        print("[MetaManager] No features to evaluate.")
-        return
+    save_new_roadmap(new_roadmap)
+    update_phase_progress("roadmap", True)
 
-    print(f"[MetaManager] Reviewing {len(features)} roadmap items...")
+    print(f"[Meta Manager] ✅ Roadmap updated at {time.ctime()}")
 
-    summary_prompt = f"""
-You are a meta-strategy planner for an AI system called PTM.
-
-Here is the current roadmap:
-{json.dumps(features, indent=2)}
-
-Reprioritize these features by urgency, complexity, and autonomy level.
-Also mark any outdated, duplicate, or weak features.
-Return an updated roadmap JSON.
-"""
-
-    response = ask_gpt(summary_prompt)
-
-    try:
-        updated = json.loads(response)
-        with open(ROADMAP_FILE, "w") as f:
-            json.dump(updated, f, indent=2)
-        print("[MetaManager] Roadmap updated with GPT decisions.")
-        log_meta_action("Roadmap updated", updated)
-    except Exception as e:
-        print("[MetaManager] Failed to parse GPT output:", e)
-
-def log_meta_action(action, data):
-    os.makedirs("logs", exist_ok=True)
-    log = {
-        "timestamp": datetime.utcnow().isoformat(),
-        "action": action,
-        "data": data
-    }
-    if os.path.exists(LOG_FILE):
-        with open(LOG_FILE, "r") as f:
-            logs = json.load(f)
+def calculate_priority_level(status):
+    # Simulated priority algorithm
+    if status.get("errors_detected"):
+        return "critical"
+    elif status.get("lagging_components"):
+        return "high"
     else:
-        logs = []
+        return "normal"
 
-    logs.append(log)
-    with open(LOG_FILE, "w") as f:
-        json.dump(logs[-100:], f, indent=2)
+def save_new_roadmap(roadmap):
+    with open("system_roadmap.json", "w") as f:
+        json.dump(roadmap, f, indent=4)
+    print("[Meta Manager] 💾 New roadmap saved.")

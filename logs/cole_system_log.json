@@ -1,211 +1,41 @@
 [
   {
-    "timestamp": "2025-05-31T12:36:09.982066",
-    "level": "INFO",
-    "message": "[Trading Engine] \u2705 Executed: Unknown"
-  },
-  {
-    "timestamp": "2025-05-31T12:36:10.021988",
-    "level": "INFO",
-    "message": "[Trading Engine] \u2705 Executed: Unknown"
-  },
-  {
-    "timestamp": "2025-05-31T12:37:08.751105",
-    "level": "INFO",
-    "message": "[Cole Autopilot] \ud83d\ude80 Starting Cole Autopilot Cycle..."
-  },
-  {
-    "timestamp": "2025-05-31T12:37:08.751996",
+    "timestamp": "2025-06-03T04:03:27.388526",
     "level": "INFO",
     "message": "[Cole Autopilot] \u26a0\ufe0f No valid strategy to run. Injecting fallback strategy."
   },
   {
-    "timestamp": "2025-05-31T12:37:08.768455",
-    "level": "INFO",
-    "message": "[Cole Autopilot] \u2705 Strategy selected: Fallback Covered Call | Reason: Fallback injected due to missing backtest data."
-  },
-  {
-    "timestamp": "2025-05-31T12:37:08.768866",
-    "level": "INFO",
-    "message": "[Strategy Runner] \ud83d\ude80 Running strategy: Fallback Covered Call (bullish)"
-  },
-  {
-    "timestamp": "2025-05-31T12:37:08.775138",
-    "level": "INFO",
-    "message": "[Trading Engine] \u2705 Executed: Unknown"
-  },
-  {
-    "timestamp": "2025-05-31T12:37:10.022699",
-    "level": "INFO",
-    "message": "[Cole Autopilot] \ud83d\ude80 Starting Cole Autopilot Cycle..."
-  },
-  {
-    "timestamp": "2025-05-31T12:37:10.023230",
+    "timestamp": "2025-06-03T04:03:27.390785",
     "level": "INFO",
     "message": "[Cole Autopilot] \u26a0\ufe0f No valid strategy to run. Injecting fallback strategy."
   },
   {
-    "timestamp": "2025-05-31T12:37:10.040080",
+    "timestamp": "2025-06-03T04:03:27.413482",
     "level": "INFO",
     "message": "[Cole Autopilot] \u2705 Strategy selected: Fallback Covered Call | Reason: Fallback injected due to missing backtest data."
   },
   {
-    "timestamp": "2025-05-31T12:37:10.040434",
+    "timestamp": "2025-06-03T04:03:27.416768",
     "level": "INFO",
     "message": "[Strategy Runner] \ud83d\ude80 Running strategy: Fallback Covered Call (bullish)"
   },
   {
-    "timestamp": "2025-05-31T12:37:10.046795",
+    "timestamp": "2025-06-03T04:03:27.439528",
+    "level": "INFO",
+    "message": "[Cole Autopilot] \u2705 Strategy selected: Fallback Covered Call | Reason: Fallback injected due to missing backtest data."
+  },
+  {
+    "timestamp": "2025-06-03T04:03:27.441062",
     "level": "INFO",
     "message": "[Trading Engine] \u2705 Executed: Unknown"
   },
   {
-    "timestamp": "2025-05-31T12:38:08.777776",
-    "level": "INFO",
-    "message": "[Cole Autopilot] \ud83d\ude80 Starting Cole Autopilot Cycle..."
-  },
-  {
-    "timestamp": "2025-05-31T12:38:08.783005",
-    "level": "INFO",
-    "message": "[Cole Autopilot] \u26a0\ufe0f No valid strategy to run. Injecting fallback strategy."
-  },
-  {
-    "timestamp": "2025-05-31T12:38:08.818746",
-    "level": "INFO",
-    "message": "[Cole Autopilot] \u2705 Strategy selected: Fallback Covered Call | Reason: Fallback injected due to missing backtest data."
-  },
-  {
-    "timestamp": "2025-05-31T12:38:08.819371",
+    "timestamp": "2025-06-03T04:03:27.441792",
     "level": "INFO",
     "message": "[Strategy Runner] \ud83d\ude80 Running strategy: Fallback Covered Call (bullish)"
   },
   {
-    "timestamp": "2025-05-31T12:38:08.842355",
-    "level": "INFO",
-    "message": "[Trading Engine] \u2705 Executed: Unknown"
-  },
-  {
-    "timestamp": "2025-05-31T12:38:10.047841",
-    "level": "INFO",
-    "message": "[Cole Autopilot] \ud83d\ude80 Starting Cole Autopilot Cycle..."
-  },
-  {
-    "timestamp": "2025-05-31T12:38:10.048734",
-    "level": "INFO",
-    "message": "[Cole Autopilot] \u26a0\ufe0f No valid strategy to run. Injecting fallback strategy."
-  },
-  {
-    "timestamp": "2025-05-31T12:38:10.086473",
-    "level": "INFO",
-    "message": "[Cole Autopilot] \u2705 Strategy selected: Fallback Covered Call | Reason: Fallback injected due to missing backtest data."
-  },
-  {
-    "timestamp": "2025-05-31T12:38:10.087402",
-    "level": "INFO",
-    "message": "[Strategy Runner] \ud83d\ude80 Running strategy: Fallback Covered Call (bullish)"
-  },
-  {
-    "timestamp": "2025-05-31T12:38:10.123770",
-    "level": "INFO",
-    "message": "[Trading Engine] \u2705 Executed: Unknown"
-  },
-  {
-    "timestamp": "2025-05-31T12:39:08.843444",
-    "level": "INFO",
-    "message": "[Cole Autopilot] \ud83d\ude80 Starting Cole Autopilot Cycle..."
-  },
-  {
-    "timestamp": "2025-05-31T12:39:08.844895",
-    "level": "INFO",
-    "message": "[Cole Autopilot] \u26a0\ufe0f No valid strategy to run. Injecting fallback strategy."
-  },
-  {
-    "timestamp": "2025-05-31T12:39:08.876256",
-    "level": "INFO",
-    "message": "[Cole Autopilot] \u2705 Strategy selected: Fallback Covered Call | Reason: Fallback injected due to missing backtest data."
-  },
-  {
-    "timestamp": "2025-05-31T12:39:08.876862",
-    "level": "INFO",
-    "message": "[Strategy Runner] \ud83d\ude80 Running strategy: Fallback Covered Call (bullish)"
-  },
-  {
-    "timestamp": "2025-05-31T12:39:08.894652",
-    "level": "INFO",
-    "message": "[Trading Engine] \u2705 Executed: Unknown"
-  },
-  {
-    "timestamp": "2025-05-31T12:39:10.124716",
-    "level": "INFO",
-    "message": "[Cole Autopilot] \ud83d\ude80 Starting Cole Autopilot Cycle..."
-  },
-  {
-    "timestamp": "2025-05-31T12:39:10.125478",
-    "level": "INFO",
-    "message": "[Cole Autopilot] \u26a0\ufe0f No valid strategy to run. Injecting fallback strategy."
-  },
-  {
-    "timestamp": "2025-05-31T12:39:10.163635",
-    "level": "INFO",
-    "message": "[Cole Autopilot] \u2705 Strategy selected: Fallback Covered Call | Reason: Fallback injected due to missing backtest data."
-  },
-  {
-    "timestamp": "2025-05-31T12:39:10.164176",
-    "level": "INFO",
-    "message": "[Strategy Runner] \ud83d\ude80 Running strategy: Fallback Covered Call (bullish)"
-  },
-  {
-    "timestamp": "2025-05-31T12:39:10.178358",
-    "level": "INFO",
-    "message": "[Trading Engine] \u2705 Executed: Unknown"
-  },
-  {
-    "timestamp": "2025-05-31T12:40:08.895656",
-    "level": "INFO",
-    "message": "[Cole Autopilot] \ud83d\ude80 Starting Cole Autopilot Cycle..."
-  },
-  {
-    "timestamp": "2025-05-31T12:40:08.896503",
-    "level": "INFO",
-    "message": "[Cole Autopilot] \u26a0\ufe0f No valid strategy to run. Injecting fallback strategy."
-  },
-  {
-    "timestamp": "2025-05-31T12:40:08.924460",
-    "level": "INFO",
-    "message": "[Cole Autopilot] \u2705 Strategy selected: Fallback Covered Call | Reason: Fallback injected due to missing backtest data."
-  },
-  {
-    "timestamp": "2025-05-31T12:40:08.925206",
-    "level": "INFO",
-    "message": "[Strategy Runner] \ud83d\ude80 Running strategy: Fallback Covered Call (bullish)"
-  },
-  {
-    "timestamp": "2025-05-31T12:40:08.938820",
-    "level": "INFO",
-    "message": "[Trading Engine] \u2705 Executed: Unknown"
-  },
-  {
-    "timestamp": "2025-05-31T12:40:10.179085",
-    "level": "INFO",
-    "message": "[Cole Autopilot] \ud83d\ude80 Starting Cole Autopilot Cycle..."
-  },
-  {
-    "timestamp": "2025-05-31T12:40:10.179836",
-    "level": "INFO",
-    "message": "[Cole Autopilot] \u26a0\ufe0f No valid strategy to run. Injecting fallback strategy."
-  },
-  {
-    "timestamp": "2025-05-31T12:40:10.223499",
-    "level": "INFO",
-    "message": "[Cole Autopilot] \u2705 Strategy selected: Fallback Covered Call | Reason: Fallback injected due to missing backtest data."
-  },
-  {
-    "timestamp": "2025-05-31T12:40:10.224038",
-    "level": "INFO",
-    "message": "[Strategy Runner] \ud83d\ude80 Running strategy: Fallback Covered Call (bullish)"
-  },
-  {
-    "timestamp": "2025-05-31T12:40:10.233677",
+    "timestamp": "2025-06-03T04:03:27.451790",
     "level": "INFO",
     "message": "[Trading Engine] \u2705 Executed: Unknown"
   }
