@@ -1,15 +1,15 @@
-entrypoint = "main.py"
-modules = ["python-3.11"]
-
-[nix]
-channel = "stable-24_05"
-
-[unitTest]
-language = "python3"
-
-[gitHubImport]
-requiredFiles = [".replit", "replit.nix"]
-
-[deployment]
-run = ["python3", "main.py"]
-deploymentTarget = "cloudrun"
+{ pkgs }: {
+  deps = [
+    pkgs.SDL2
+    pkgs.portaudio
+    pkgs.alsa-lib
+    pkgs.ffmpeg-full
+    pkgs.libGL
+    pkgs.libGLU
+    pkgs.freetype
+    pkgs.pkg-config
+    pkgs.tcl
+    pkgs.tk
+    pkgs.python311Packages.sounddevice
+  ];
+}
