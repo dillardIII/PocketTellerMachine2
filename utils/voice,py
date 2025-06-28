@@ -1,0 +1,4 @@
+# === FILE: utils/voice.py ===
+def speak(message):
+    print(f"[Voice] 🎤 {message}")
+    # Optional: Hook ElevenLabs, Google TTS, etc.

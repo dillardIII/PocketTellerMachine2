@@ -1,0 +1,14 @@
+{
+  "from": "ChatGPT",
+  "to": "PTM",
+  "via": "Claude",
+  "intent": "System Upgrade",
+  "files": [
+    {
+      "filename": "core/new_module.py",
+      "description": "Adds volatility scan logic to PTM.",
+      "code": "def scan_volatility(): print('Scanning...')"
+    }
+  ],
+  "timestamp": "2025-06-19T00:00:00Z"
+}

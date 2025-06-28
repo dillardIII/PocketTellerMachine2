@@ -1,92 +1,82 @@
-# main.py – PTM Master Brain Loop + Flask Web Controller
+# === FILE: main.py ===
+# 🚀 ENEMY UPDATED MAIN – FULL EMPIRE LAUNCHER (Superforged + Immortal)
 
-
-from run_ptm import *
 import threading
 import time
-from flask import Flask
-from boot_autonomy import start_all_autonomy
-from auto_route_loader import load_dynamic_routes
 
-# === Phase Boot Modules ===
-from autonomy_loop_controller import start_loop
-from phase_status_monitor import monitor
-from buildbot_loop import run_buildbot
+# Core Empire Modules
+from reflex_engine import ReflexEngine
+from command_listener import CommandListener
+from sweep_handler import SweepHandler
+from agents.bridge_team_launcher import start_bridge_team
+from file_exec_engine import start_exec_engine
+from loop_monitor import monitor_loop_health
+from ghostforge_writer import ghostforge_loop
+from autonomous_trade_executor import run_autonomous_trading
+from meta_dispatcher import MetaDispatcher
+from skypiea_node import run_skypiea_loop
+from neural_predictor import neural_predictor_loop
+from high_risk_manager import run_high_risk_loop
 
-# === Intelligence & Strategy ===
-from strategy_generator import generate_strategy
-from strategy_validator import validate
-from strategy_router import route_strategy
+# New Apex Empire Brain
+from quantum_brain import quantum_brain_loop
+from ghost_memory_matrix import ghost_matrix_loop
+from hyperforge_pipeline import hyperforge_loop
 
-# === Trading & Error Handling ===
-from trading_execution_engine import execute_trade
-from trade_error_handler import handle_trade_error
-from trade_logger import log_trade
-from recap_announcer import announce_trade_recap
+threads = []
 
-# === Market & Broker ===
-from market_data_fetcher import fetch_market_data
-from broker_connector import connect_broker
+print("[PTM EMPIRE] 🚀 Launching ENEMY UPDATED SUPERFORGED STACK...")
 
-# === Features & Mood ===
-from feature_toggle_manager import is_enabled
-from mood_engine import set_mood
+# === Start Reflex Engine
+reflex = ReflexEngine()
+print("[ReflexEngine] 🧠 Initialized Reflex AI Engine")
 
-# === UI & Sync ===
-from ui_controller_sync import update_ui
+# === Start Command Listener
+listener = CommandListener()
+listener.start()
+threads.append(listener)
+print("[CommandListener] 🎧 Listening for commands...")
 
-# === Flask App Instance ===
-ptm_app = Flask(__name__)
+# === Start Sweep Handler
+sweeper = SweepHandler()
+sweeper.start()
+threads.append(sweeper)
+print("[SweepHandler] 🧹 Monitoring system...")
 
-@ptm_app.route('/')
-def index():
-    return "ReconBot is running. Headless mode."
+# === Start Bridge Team
+print("[BridgeTeam] 🔗 Deploying bridge bots...")
+start_bridge_team()
 
-# === Boot Function ===
-def boot_ptm():
-    print("[Phase Manager] Phase set to: startup")
-    print("[BOOT] Starting background services...")
+# === Helper function
+def start_thread(target, name):
+    t = threading.Thread(target=target, name=name, daemon=True)
+    t.start()
+    threads.append(t)
 
-    connect_broker("your-api-key-here")
+# === Start all empire systems
+start_thread(start_exec_engine, "FileExecEngine")
+start_thread(monitor_loop_health, "LoopMonitor")
+start_thread(ghostforge_loop, "GhostForgeWriter")
+start_thread(run_autonomous_trading, "AutoTrader")
+start_thread(run_skypiea_loop, "SkypieaNode")
+start_thread(neural_predictor_loop, "NeuralPredictor")
+start_thread(run_high_risk_loop, "HighRiskManager")
 
-    # Start autonomy systems
-    result = start_all_autonomy()
-    print(f"[PTM Autonomy Boot] ✅ Status: {result['status']}")
-    print("[BOOT] All background services launched.")
+# === Start Empire Brain modules
+start_thread(quantum_brain_loop, "QuantumBrain")
+start_thread(ghost_matrix_loop, "GhostMatrix")
+start_thread(hyperforge_loop, "HyperForge")
 
-    # Load valid routes
-    load_dynamic_routes(ptm_app)
+# === Meta Dispatcher
+dispatcher = MetaDispatcher()
+t = threading.Thread(target=dispatcher.start_task_monitor, name="MetaDispatcher", args=(30,), daemon=True)
+t.start()
+threads.append(t)
 
-    # Start background logic loops
-    threading.Thread(target=start_loop, daemon=True).start()
-    threading.Thread(target=run_buildbot, daemon=True).start()
-    threading.Thread(target=monitor, daemon=True).start()
-
-# === Master Logic Loop ===
-def master_brain_loop():
-    print("[PTM Brain] 🧠 Running main logic loop...")
+# === Empire heartbeat
+try:
     while True:
-        if is_enabled("strategy_autogen"):
-            strategy = generate_strategy()
-            if validate(strategy):
-                market_data = fetch_market_data("AAPL")
-                success = execute_trade("AAPL", "BUY", market_data["price"], 10)
-                if success:
-                    log_trade("AAPL", "BUY", market_data["price"], 10)
-                    announce_trade_recap({
-                        "symbol": "AAPL",
-                        "action": "BUY",
-                        "price": market_data["price"],
-                        "quantity": 10
-                    })
-                else:
-                    handle_trade_error("Trade failed", strategy)
-        set_mood("neutral")
-        update_ui({"status": "loop running"})
-        time.sleep(15)
-
-# === GO TIME ===
-if __name__ == "__main__":
-    boot_ptm()
-    threading.Thread(target=master_brain_loop, daemon=True).start()
-    ptm_app.run(debug=True, host="0.0.0.0", port=8080)
+        time.sleep(10)
+        print("[PTM EMPIRE] 💓 Main heartbeat – all empire systems alive, hunting enemies.")
+except KeyboardInterrupt:
+    print("\n[PTM EMPIRE] ⛔ Shutting down empire...")

@@ -1,0 +1,110 @@
+[
+  {
+    "timestamp": "2025-06-04 06:46:29 UTC",
+    "level": "warn",
+    "source": "Scorer",
+    "message": "\u26a0\ufe0f Missing module: No module named 'stock_screener'. Falling back to basic scorer."
+  },
+  {
+    "timestamp": "2025-06-04 06:46:29 UTC",
+    "level": "success",
+    "source": "Scorer",
+    "message": "\u2705 Fallback strategy selected: trend reversal"
+  },
+  {
+    "timestamp": "2025-06-04 06:46:29 UTC",
+    "level": "warn",
+    "source": "Scorer",
+    "message": "\u26a0\ufe0f Missing module: No module named 'stock_screener'. Falling back to basic scorer."
+  },
+  {
+    "timestamp": "2025-06-04 06:46:29 UTC",
+    "level": "success",
+    "source": "Scorer",
+    "message": "\u2705 Fallback strategy selected: volume spike"
+  },
+  {
+    "timestamp": "2025-06-04 06:46:29 UTC",
+    "level": "warn",
+    "source": "Scorer",
+    "message": "\u26a0\ufe0f Missing module: No module named 'stock_screener'. Falling back to basic scorer."
+  },
+  {
+    "timestamp": "2025-06-04 06:46:29 UTC",
+    "level": "success",
+    "source": "Scorer",
+    "message": "\u2705 Fallback strategy selected: volume spike"
+  },
+  {
+    "timestamp": "2025-06-04 06:46:30 UTC",
+    "level": "warn",
+    "source": "Scorer",
+    "message": "\u26a0\ufe0f Missing module: No module named 'stock_screener'. Falling back to basic scorer."
+  },
+  {
+    "timestamp": "2025-06-04 06:46:30 UTC",
+    "level": "success",
+    "source": "Scorer",
+    "message": "\u2705 Fallback strategy selected: gap and go"
+  },
+  {
+    "timestamp": "2025-06-04 06:46:30 UTC",
+    "level": "warn",
+    "source": "Scorer",
+    "message": "\u26a0\ufe0f Missing module: No module named 'stock_screener'. Falling back to basic scorer."
+  },
+  {
+    "timestamp": "2025-06-04 06:46:30 UTC",
+    "level": "success",
+    "source": "Scorer",
+    "message": "\u2705 Fallback strategy selected: volume spike"
+  },
+  {
+    "timestamp": "2025-06-04 06:46:30 UTC",
+    "level": "warn",
+    "source": "Scorer",
+    "message": "\u26a0\ufe0f Missing module: No module named 'stock_screener'. Falling back to basic scorer."
+  },
+  {
+    "timestamp": "2025-06-04 06:46:30 UTC",
+    "level": "success",
+    "source": "Scorer",
+    "message": "\u2705 Fallback strategy selected: trend reversal"
+  },
+  {
+    "timestamp": "2025-06-04 06:52:52 UTC",
+    "level": "warn",
+    "source": "Scorer",
+    "message": "\u26a0\ufe0f Missing module: No module named 'stock_screener'. Falling back to basic scorer."
+  },
+  {
+    "timestamp": "2025-06-04 06:52:52 UTC",
+    "level": "success",
+    "source": "Scorer",
+    "message": "\u2705 Fallback strategy selected: support bounce"
+  },
+  {
+    "timestamp": "2025-06-04 06:52:52 UTC",
+    "level": "warn",
+    "source": "Scorer",
+    "message": "\u26a0\ufe0f Missing module: No module named 'stock_screener'. Falling back to basic scorer."
+  },
+  {
+    "timestamp": "2025-06-04 06:52:52 UTC",
+    "level": "success",
+    "source": "Scorer",
+    "message": "\u2705 Fallback strategy selected: volume spike"
+  },
+  {
+    "timestamp": "2025-06-04 06:52:52 UTC",
+    "level": "warn",
+    "source": "Scorer",
+    "message": "\u26a0\ufe0f Missing module: No module named 'stock_screener'. Falling back to basic scorer."
+  },
+  {
+    "timestamp": "2025-06-04 06:52:52 UTC",
+    "level": "success",
+    "source": "Scorer",
+    "message": "\u2705 Fallback strategy selected: momentum breakout"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "0xABC123": {
+    "balance": "1.25 ETH",
+    "status": "\u2705 Synced"
+  },
+  "0xDEF456": {
+    "balance": "0.75 ETH",
+    "status": "\u2705 Synced"
+  },
+  "0xGHI789": {
+    "balance": "5.00 ETH",
+    "status": "\u2705 Synced"
+  }
+}

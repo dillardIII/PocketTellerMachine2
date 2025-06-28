@@ -1,0 +1,30 @@
+import os
+import json
+from datetime import datetime
+
+PACKET_DIR = "team_packets"
+os.makedirs(PACKET_DIR, exist_ok=True)
+
+def emit_packet_to_team(team, task):
+    packet = {
+        "recipient": team,
+        "task_name": task.get("task_name", "Unnamed_Task"),
+        "files": task.get("files", {}),
+        "instructions": task.get("instructions", "Follow task protocol."),
+        "timestamp": datetime.utcnow().isoformat(),
+        "status": "pending",
+        "metadata": task.get("metadata", {})
+    }
+
+    safe_name = packet["task_name"].replace(" ", "_")
+    filename = f"{team}_{safe_name}_{datetime.utcnow().strftime('%H%M%S')}.json"
+    path = os.path.join(PACKET_DIR, filename)
+
+    try:
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(packet, f, indent=2)
+        print(f"[EMITTER] Packet dropped to {path}")
+        return packet
+    except Exception as e:
+        print(f"[EMITTER ERROR] {e}")
+        return None 

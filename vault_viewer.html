@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vault Viewer</title>
+  <style>
+    body {
+      background: #0a0a0a;
+      color: #0ff;
+      font-family: 'Courier New', monospace;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1, h2 {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .vault-section {
+      border: 2px solid #0ff;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      background: #111;
+      box-shadow: 0 0 10px #0ff;
+    }
+
+    .vault-section h2 {
+      color: #0ff;
+      border-bottom: 1px solid #0ff;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .vault-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .vault-list li {
+      margin: 10px 0;
+      padding: 10px;
+      background-color: #1a1a1a;
+      border-left: 4px solid #0ff;
+      color: #fff;
+    }
+
+    .data-count {
+      float: right;
+      color: #aaa;
+    }
+
+    .category-label {
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      color: #444;
+      font-size: 0.9em;
+    }
+
+    .scroll-container {
+      max-height: 400px;
+      overflow-y: auto;
+      padding-right: 10px;
+    }
+
+    .btn {
+      background: #0ff;
+      color: #000;
+      padding: 10px 20px;
+      margin: 20px auto;
+      display: block;
+      text-align: center;
+      border: none;
+      font-weight: bold;
+      border-radius: 8px;
+      box-shadow: 0 0 5px #0ff;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #00cccc;
+    }
+
+    .persona-voice {
+      margin: 10px 0;
+      color: #0f0;
+      font-style: italic;
+    }
+
+    .status {
+      font-size: 0.85em;
+      color: #888;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>💠 Vault Viewer</h1>
+  <div class="vault-section">
+    <h2>🧠 AI Assistants</h2>
+    <ul class="vault-list scroll-container" id="aiList">
+      <!-- Dynamic: Filled by JS -->
+    </ul>
+  </div>
+
+  <div class="vault-section">
+    <h2>💰 Wallets & Coins</h2>
+    <ul class="vault-list scroll-container" id="walletList">
+      <!-- Dynamic: Filled by JS -->
+    </ul>
+  </div>
+
+  <div class="vault-section">
+    <h2>📁 Synced Files</h2>
+    <ul class="vault-list scroll-container" id="fileList">
+      <!-- Dynamic: Filled by JS -->
+    </ul>
+  </div>
+
+  <div class="vault-section">
+    <h2>🧩 Nodes & Explorers</h2>
+    <ul class="vault-list scroll-container" id="nodeList">
+      <!-- Dynamic: Filled by JS -->
+    </ul>
+  </div>
+
+  <div class="vault-section">
+    <h2>🎤 Squad Vocals</h2>
+    <ul class="vault-list scroll-container" id="squadList">
+      <!-- Dynamic: Filled by JS -->
+    </ul>
+  </div>
+
+  <button class="btn" onclick="refreshVault()">🔄 Refresh Vault</button>
+
+  <div class="footer">PTM Vault System – Synced Across Devices | Built by Boo & Co.</div>
+
+  <script>
+    const vaultData = {
+      aiAssistants: ["Spectra", "Mo Cash", "Mentor", "Drill Instructor", "Malik", "The Strategist", "Baron", "Varyn"],
+      wallets: ["MetaMask", "Coinbase", "Trust Wallet", "Exodus", "Crypto.com", "Webull Pay"],
+      syncedFiles: ["wallet_api_routes.py", "vault_viewer.html", "bridge_file_syncer.py", "ghostforge_core.py"],
+      nodes: ["Node 001 - Quantum Fork", "Node 007 - Dimensional Sync", "Node 011 - Asset Lock", "Node 013 - Multiverse Relay"],
+      squadVocals: ["Mentor: 'Stay calm, plan smart.'", "Mo Cash: 'Let’s bag this coin, baby!'", "Spectra: 'All systems are ready, Boo.'", "Drill: 'Discipline brings profit!'"]
+    };
+
+    function fillList(id, data) {
+      const ul = document.getElementById(id);
+      ul.innerHTML = '';
+      data.forEach((item, index) => {
+        const li = document.createElement('li');
+        li.innerHTML = `<span class="category-label">${item}</span> <span class="data-count">#${index + 1}</span>`;
+        ul.appendChild(li);
+      });
+    }
+
+    function refreshVault() {
+      fillList('aiList', vaultData.aiAssistants);
+      fillList('walletList', vaultData.wallets);
+      fillList('fileList', vaultData.syncedFiles);
+      fillList('nodeList', vaultData.nodes);
+      fillList('squadList', vaultData.squadVocals);
+      console.log("🔁 Vault refreshed.");
+    }
+
+    // Auto-load on page open
+    refreshVault();
+  </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+{"file": "vault/phantom_note.txt", "hits": ["haunted", "\ud83d\udc7b", "phantom"]}

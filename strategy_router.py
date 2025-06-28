@@ -1,57 +1,24 @@
-# strategy_router.py – Routes Validated Strategy to Proper Handler
+# === FILE: strategy_router.py ===
+# 📊 Strategy Router – Dynamically routes strategies by name
 
-def route_strategy(strategy):
-    print(f"[Strategy Router] 🚦 Routing strategy: {strategy}")
+import importlib
 
-    # Validate basic format
-    if not strategy or "symbol" not in strategy or "action" not in strategy:
-        print("[Strategy Router] ❌ Invalid strategy format.")
-        return False
+def run(strategy_name):
+    print(f"[StrategyRouter] 🔄 Attempting to load strategy: {strategy_name}")
 
-    # Type-specific handling
-    if "type" in strategy:
-        if strategy["type"] == "stock":
-            return handle_stock_strategy(strategy)
-        elif strategy["type"] == "options":
-            return handle_options_strategy(strategy)
-        elif strategy["type"] == "forex":
-            return handle_forex_strategy(strategy)
-        elif strategy["type"] == "crypto":
-            return handle_crypto_strategy(strategy)
+    try:
+        # Dynamically import the strategy module
+        module_name = f"strategies.{strategy_name}"
+        strategy_module = importlib.import_module(module_name)
+
+        # Run the strategy's entry point
+        if hasattr(strategy_module, "run"):
+            print(f"[StrategyRouter] 🧠 Running strategy '{strategy_name}'...")
+            strategy_module.run()
         else:
-            print(f"[Router] ❌ Unknown strategy type: {strategy['type']}")
-            return False
-    else:
-        # Fallback to action-based logic
-        symbol = strategy["symbol"]
-        action = strategy["action"]
+            print(f"[StrategyRouter] ❌ Strategy '{strategy_name}' has no run() function.")
 
-        if action == "BUY":
-            print(f"[Router] ➕ Route to BUY handler for {symbol}")
-            return True
-        elif action == "SELL":
-            print(f"[Router] ➖ Route to SELL handler for {symbol}")
-            return True
-        else:
-            print(f"[Router] ❌ Unknown action: {action}")
-            return False
-
-def handle_stock_strategy(strategy):
-    print(f"[Router] 📈 Handling stock strategy: {strategy}")
-    # Placeholder for future stock-specific logic
-    return True
-
-def handle_options_strategy(strategy):
-    print(f"[Router] 🧾 Handling options strategy: {strategy}")
-    # Placeholder for options logic (credit spreads, condors, etc.)
-    return True
-
-def handle_forex_strategy(strategy):
-    print(f"[Router] 💱 Handling forex strategy: {strategy}")
-    # Placeholder for forex-specific logic
-    return True
-
-def handle_crypto_strategy(strategy):
-    print(f"[Router] 🪙 Handling crypto strategy: {strategy}")
-    # Placeholder for crypto-specific logic
-    return True
+    except ModuleNotFoundError:
+        print(f"[StrategyRouter] ❌ Strategy module '{strategy_name}' not found.")
+    except Exception as e:
+        print(f"[StrategyRouter] 💥 Error while running strategy '{strategy_name}': {e}")

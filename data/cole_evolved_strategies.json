@@ -1,1 +1,1 @@
-[]
+[]{"id": "a20bf10a-8872-4852-9004-e1adb15bd24b", "key": "rsi_reversal_v2", "description": "RSI Reversal Strategy (tweaked for higher win rate)", "mutation_date": "2025-06-03T23:09:42.155057", "source_strategy": "rsi_reversal", "performance_snapshot": {"win_rate": 38.5, "avg_return": -2.3, "total_trades": 100}}

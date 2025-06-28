@@ -1,0 +1,37 @@
+{
+  "bots": {
+    "PTMBot": {
+      "handler": "ptm_handler",
+      "active": true
+    },
+    "ChatGPTBot": {
+      "handler": "chatgpt_handler",
+      "active": true
+    },
+    "RefluxBot": {
+      "handler": "reflux_handler",
+      "active": true
+    },
+    "GhostBot": {
+      "handler": "ghost_handler",
+      "active": true
+    },
+    "Strategist": {
+      "handler": "strategist_handler",
+      "active": true
+    },
+    "Malik": {
+      "handler": "malik_handler",
+      "active": true
+    },
+    "WhisperBot": {
+      "handler": "whisper_handler",
+      "active": true
+    }
+  },
+  "settings": {
+    "log_messages": true,
+    "max_hops": 5,
+    "use_context_sharing": true
+  }
+}

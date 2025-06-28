@@ -1,0 +1,66 @@
+<!-- === FILE: commander_console.html === -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>🧠 PTM Commander Console</title>
+  <style>
+    body { background: #000; color: #00ffcc; font-family: monospace; padding: 20px; }
+    h1 { color: #ffd700; }
+    input, select, textarea { background: #111; color: #00ffcc; border: 1px solid #333; padding: 5px; width: 100%; margin-top: 4px; }
+    .section { border: 1px solid #00ffcc; margin-bottom: 20px; padding: 10px; }
+    button { background: #111; color: #ffd700; border: 1px solid #333; padding: 6px 12px; cursor: pointer; }
+    button:hover { background: #222; }
+  </style>
+</head>
+<body>
+  <h1>🧠 PTM Commander Console</h1>
+
+  <div class="section">
+    <h3>📤 Inject New File</h3>
+    <form id="uploadForm">
+      <input type="text" name="filename" placeholder="example.py" required />
+      <textarea name="content" rows="6" placeholder="Paste your code here..."></textarea>
+      <button type="submit">Inject File</button>
+    </form>
+  </div>
+
+  <div class="section">
+    <h3>🧬 Manual Mutation Trigger</h3>
+    <input id="mutateFile" placeholder="filename.py" />
+    <button onclick="triggerMutation()">Mutate File</button>
+  </div>
+
+  <div class="section">
+    <h3>🎯 Promote to Champion</h3>
+    <input id="championFile" placeholder="filename.py" />
+    <button onclick="promoteChampion()">Promote</button>
+  </div>
+
+  <script>
+    document.getElementById("uploadForm").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const form = new FormData(e.target);
+      const res = await fetch("/api/inject_file", {
+        method: "POST",
+        body: form
+      });
+      const msg = await res.text();
+      alert("✅ " + msg);
+    });
+
+    async function triggerMutation() {
+      const file = document.getElementById("mutateFile").value;
+      const res = await fetch(`/api/mutate_strategy_ui?file=${file}`);
+      const msg = await res.text();
+      alert("🧬 " + msg);
+    }
+
+    async function promoteChampion() {
+      const file = document.getElementById("championFile").value;
+      const res = await fetch(`/api/promote_champion?file=${file}`);
+      const msg = await res.text();
+      alert("👑 " + msg);
+    }
+  </script>
+</body>
+</html>

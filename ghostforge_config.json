@@ -1,0 +1,8 @@
+{
+  "default_model": "gpt-4",
+  "comment_style": "inline",
+  "persona_behavior": "professional",
+  "tone": "autonomous",
+  "max_attempts": 3,
+  "deploy_on_success": true
+}

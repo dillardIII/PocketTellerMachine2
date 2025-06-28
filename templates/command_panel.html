@@ -1,0 +1,25 @@
+<!-- === FILE: templates/command_panel.html === -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PTM Command Center</title>
+  <link rel="stylesheet" href="/static/css/dashboard.css">
+</head>
+<body>
+  <h1>🧠 PTM Command Panel</h1>
+  <h2>Toggle Bots</h2>
+  <form method="POST" action="/toggle">
+    {% for bot, state in bot_status.items() %}
+      <div>
+        <label>
+          <input type="checkbox" name="{{ bot }}" {% if state %}checked{% endif %}>
+          {{ bot }}
+        </label>
+      </div>
+    {% endfor %}
+    <br>
+    <button type="submit">Update Bots</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!-- === FILE: response_monitor.html === -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>📨 Packet Responses</title>
+  <style>
+    body { font-family: monospace; background: #0A0A0A; color: #00FFAA; padding: 20px; }
+    h1 { color: #FFD700; }
+    .response { border: 1px solid #00FFAA; margin: 10px 10px 20px; padding: 10px; }
+    .status { color: #00FFAA; }
+    .notes { color: #FF69B4; }
+  </style>
+</head>
+<body>
+  <h1>📨 Team Response Log</h1>
+  <div id="responseDisplay">Loading...</div>
+
+  <script>
+    async function fetchResponses() {
+      const res = await fetch("/api/packet_responses");
+      const data = await res.json();
+      const container = document.getElementById("responseDisplay");
+      container.innerHTML = "";
+
+      if (!data.length) {
+        container.innerHTML = "<p>No responses yet. Waiting... 💤</p>";
+        return;
+      }
+
+      data.forEach(r => {
+        const div = document.createElement("div");
+        div.className = "response";
+        div.innerHTML = `
+          <div>📤 From: <b>${r.responder}</b></div>
+          <div>📥 To: <b>${r.original_sender}</b></div>
+          <div>🧠 Task: ${r.task}</div>
+          <div class="status">📌 Status: ${r.status}</div>
+          <div class="notes">💬 Notes: ${r.notes}</div>
+          <div>🕒 ${r.timestamp}</div>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    setInterval(fetchResponses, 4000);
+    fetchResponses();
+  </script>
+</body>
+</html>

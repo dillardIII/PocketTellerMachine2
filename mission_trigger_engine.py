@@ -1,0 +1,12 @@
+# === FILE: mission_trigger_engine.py ===
+
+# 📆 Mission Trigger Engine – Runs delayed or scheduled missions automatically
+
+import time
+from ghost_mission_planner import queue_mission
+
+def run_mission_cycle():
+    print("[MissionTrigger] 🧭 Starting mission loop...")
+    while True:
+        queue_mission("ghost_scan", {"target": "unexplored_symbols"})
+        time.sleep(120)  # Every 2 minutes

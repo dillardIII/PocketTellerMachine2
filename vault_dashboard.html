@@ -1,0 +1,37 @@
+<!-- === FILE: vault_dashboard.html === -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>👻 Vault Dashboard</title>
+  <style>
+    body { font-family: monospace; background: #0c0c0c; color: #eee; padding: 2em; }
+    h1 { color: #ff69b4; }
+    .ghost-file { color: #ff4d4d; margin: 0.5em 0; }
+    .clean-file { color: #55ff55; }
+  </style>
+</head>
+<body>
+  <h1>👻 PTM Vault Dashboard</h1>
+  <div id="summary">Loading vault summary...</div>
+  <script>
+    fetch('/vault/summary')
+      .then(res => res.json())
+      .then(data => {
+        const div = document.getElementById('summary');
+        div.innerHTML = `
+          <p>Total Files: ${data.total_files}</p>
+          <p>Ghost Hits: ${data.ghost_hits}</p>
+          <h3>👻 Ghost Files:</h3>
+          <ul>
+            ${data.ghost_files.map(g => `<li class="ghost-file">${g.file} → ${g.hits.join(", ")}</li>`).join("")}
+          </ul>
+        `;
+      })
+      .catch(err => {
+        document.getElementById('summary').innerText = "Failed to load vault data.";
+        console.error(err);
+      });
+  </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+[
+  {
+    "timestamp": "2025-06-23T06:08:11.033088",
+    "event": "Watchdog Triggered",
+    "data": {
+      "new_files": [
+        "test_strategy.py"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-23T06:08:11.033768",
+    "event": "System Boot",
+    "data": {
+      "status": "PTM Online"
+    }
+  },
+  {
+    "timestamp": "2025-06-23T06:08:11.034180",
+    "event": "Test Entry",
+    "data": {
+      "status": "Logging works!"
+    }
+  },
+  {
+    "timestamp": "2025-06-23T06:12:58.408423",
+    "event": "System Boot",
+    "data": {
+      "status": "PTM Online"
+    }
+  },
+  {
+    "timestamp": "2025-06-23T06:12:58.408866",
+    "event": "Test Entry",
+    "data": {
+      "status": "Logging works!"
+    }
+  },
+  {
+    "timestamp": "2025-06-23T06:12:58.410131",
+    "event": "Watchdog Triggered",
+    "data": {
+      "new_files": [
+        "test_strategy.py"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-23T06:13:25.591158",
+    "event": "Watchdog Triggered",
+    "data": {
+      "new_files": [
+        "test_strategy.py"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-23T06:13:25.592839",
+    "event": "System Boot",
+    "data": {
+      "status": "PTM Online"
+    }
+  },
+  {
+    "timestamp": "2025-06-23T06:13:25.593179",
+    "event": "Test Entry",
+    "data": {
+      "status": "Logging works!"
+    }
+  }
+]

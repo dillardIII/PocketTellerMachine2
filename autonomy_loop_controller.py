@@ -1,24 +1,12 @@
-# autonomy_loop_controller.py
-# Starts the autonomy daemon loop – now stripped of assistant_loader
+# === FILE: autonomy_loop_controller.py ===
+# 🔁 Autonomy Loop Controller – Oversees long-term PTM runtime and loop safety
 
-import threading
 import time
+from utils.logger import log_event
 
-# Placeholder for actual bot processing (to be replaced by bots when online)
-def run_brain_cycle_stub():
-    print("[AutonomyLoop] 🤖 Running brain cycle (stub)...")
-    time.sleep(5)
-
-def autonomy_loop():
-    print("[AutonomyLoop] 🔁 Starting autonomy loop...")
+def start_loop():
+    print("[AutonomyLoop] 🔁 Starting PTM loop controller...")
     while True:
-        try:
-            run_brain_cycle_stub()
-        except Exception as e:
-            print(f"[AutonomyLoop] ⚠️ Error in brain cycle: {e}")
-        time.sleep(1)
-
-def start_autonomy_daemon():
-    print("[AutonomyBoot] 🚀 Launching autonomy thread...")
-    t = threading.Thread(target=autonomy_loop, daemon=True)
-    t.start()
+        log_event("LoopCheck", {"status": "running"})
+        print("[AutonomyLoop] ✅ Loop alive.")
+        time.sleep(60)

@@ -1,57 +1,21 @@
 # === FILE: sandbox_monitor.py ===
-# 🧪 Sandbox Monitor – Tracks file-based sandboxes & simulated agent activity
+# 🧪 Sandbox Monitor – Watches test environments and flags runtime exceptions
 
-import os
 import time
-import random
-from pathlib import Path
+import os
+from utils.logger import log_event
 
-SANDBOX_DIR = "sandbox_envs"
-MONITOR_LOG = "logs/sandbox_monitor.log"
-
-SANDBOXES = [
-    "TradeSim-A",
-    "BotDev-Z",
-    "ReflexTest",
-    "OptionLab",
-    "VoiceTrainer",
-    "ChartRender-X"
-]
-
-# === Logger ===
-def log_sandbox(message):
-    Path("logs").mkdir(parents=True, exist_ok=True)
-    with open(MONITOR_LOG, "a", encoding="utf-8") as f:
-        f.write(f"{time.ctime()}: {message}\n")
-    print(f"[Sandbox Monitor] {message}")
-
-# === File-based sandbox watcher ===
-def list_sandboxes():
-    Path(SANDBOX_DIR).mkdir(parents=True, exist_ok=True)
-    return [f for f in os.listdir(SANDBOX_DIR) if f.endswith(".py") or f.endswith(".json")]
-
-# === Main Loop ===
 def monitor_sandboxes():
-    log_sandbox("🧪 Monitoring sandbox environments...")
-    known_files = set(list_sandboxes())
-
+    print("[Sandbox Monitor] 🧪 Watching test environments...")
     while True:
-        # Check for file-level sandbox changes
-        current_files = set(list_sandboxes())
-        added = current_files - known_files
-        removed = known_files - current_files
-
-        for f in added:
-            log_sandbox(f"📥 New sandbox file detected: {f}")
-        for f in removed:
-            log_sandbox(f"🗑️ Sandbox file removed: {f}")
-        known_files = current_files
-
-        # Simulated behavioral monitoring
-        sandbox = random.choice(SANDBOXES)
-        status = random.choice(["stable", "unstable", "crashed", "recovering"])
-        log_sandbox(f"🔍 {sandbox} status: {status}")
-        if status == "crashed":
-            log_sandbox(f"⚠️ ALERT: {sandbox} has crashed. Recommend fix or restart.")
-
-        time.sleep(15)
+        try:
+            if os.path.exists("sandbox/error.log"):
+                with open("sandbox/error.log", "r") as f:
+                    error = f.read()
+                    if error.strip():
+                        print(f"[Sandbox Monitor] ⚠️ Error detected:\n{error}")
+                        log_event("Sandbox Error", error)
+            time.sleep(20)
+        except Exception as e:
+            print(f"[Sandbox Monitor] ❌ {e}")
+            time.sleep(30)

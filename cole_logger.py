@@ -1,30 +1,56 @@
+"""
+Cole Logger:
+Unified logging utility for PTM botnet systems.
+Logs categorized events to rotating log files for each bot or service.
+"""
+
 import os
 import json
 from datetime import datetime
 
 LOG_DIR = "logs"
-LOG_FILE = os.path.join(LOG_DIR, "cole_system_log.json")
+os.makedirs(LOG_DIR, exist_ok=True)
 
-def log_info(message):
-    os.makedirs(LOG_DIR, exist_ok=True)
-    timestamp = datetime.now().isoformat()
+def get_log_file_path(source):
+    """
+    Generates a log file path based on the source.
+    """
+    filename = f"{source.lower().replace(' ', '_')}_log.json"
+    return os.path.join(LOG_DIR, filename)
 
+def log_event(source, message, level="info"):
+    """
+    Appends a log entry with timestamp and severity level.
+    """
     log_entry = {
-        "timestamp": timestamp,
-        "level": "INFO",
+        "timestamp": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
+        "level": level.lower(),
+        "source": source,
         "message": message
     }
 
-    logs = []
-    if os.path.exists(LOG_FILE):
+    log_file = get_log_file_path(source)
+
+    # Load existing logs or start new
+    if os.path.exists(log_file):
         try:
-            with open(LOG_FILE, "r") as f:
+            with open(log_file, "r") as f:
                 logs = json.load(f)
-        except:
+                if not isinstance(logs, list):
+                    logs = []
+        except Exception:
             logs = []
+    else:
+        logs = []
 
     logs.append(log_entry)
-    with open(LOG_FILE, "w") as f:
-        json.dump(logs[-500:], f, indent=2)
 
-    print(f"[{timestamp}] {message}")
+    # Save back to disk
+    try:
+        with open(log_file, "w") as f:
+            json.dump(logs, f, indent=2)
+    except Exception as e:
+        print(f"[Logger] ❌ Failed to write log: {e}")
+
+    # Optional: also print to console
+    print(f"[{level.upper()}] {source}: {message}")

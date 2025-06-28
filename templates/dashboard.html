@@ -1,247 +1,45 @@
-<!-- === FILE: strategy_dashboard.html === -->
+<!-- === FILE: templates/dashboard.html === -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>PTM Dashboard</title>
-    <style>
-        body { background: #121212; color: #f0f0f0; font-family: sans-serif; padding: 20px; }
-        h1 { color: #6fd672; }
-        .widget, .box { background: #1f1f1f; padding: 20px; border-radius: 10px; margin-top: 20px; }
-        .widget h3, .box h3 { margin-top: 0; }
-        pre { background: #000; color: #0f0; padding: 10px; border-radius: 5px; overflow-x: auto; }
-        input, button, select {
-            padding: 10px;
-            border-radius: 6px;
-            border: none;
-            font-size: 14px;
-            margin-top: 8px;
-        }
-        input { width: 60%; margin-right: 10px; }
-        button { background-color: #6fd672; color: #121212; font-weight: bold; cursor: pointer; }
-        button:hover { background-color: #89f58c; }
-        select { margin-left: 10px; }
-    </style>
+    <link rel="stylesheet" href="/static/css/dashboard.css">
 </head>
 <body>
+    <h1>🧠 PocketTellerMachine</h1>
+    <div id="status-section">
+        <h2>Status Monitor</h2>
+        <div id="bot-status"></div>
+    </div>
 
-<h1>Pocket Teller Machine Dashboard</h1>
+    <div id="log-section">
+        <h2>📜 System Logbook</h2>
+        <pre id="log-output">Loading logs...</pre>
+    </div>
 
-<!-- Market Movers Widget -->
-<div id="market-movers-widget" class="widget">
-    <h3>Market Movers</h3>
-    <pre id="market-movers-data">Loading top gainers & losers...</pre>
-</div>
-
-<!-- Market Screener Widget -->
-<div id="market-screener-widget" class="widget">
-    <h3>Market Screener Results</h3>
-    <pre id="market-screener-data">Loading screener results...</pre>
-</div>
-
-<!-- Market Screener Filter Controls -->
-<div id="market-screener-filters-widget" class="widget">
-    <h3>Market Screener Filters</h3>
-    <form id="filter-form">
-        <label>RSI Range:</label>
-        <input type="number" id="rsi-min" placeholder="Min RSI" step="0.1"> -
-        <input type="number" id="rsi-max" placeholder="Max RSI" step="0.1"><br><br>
-
-        <label>Volume Min:</label>
-        <input type="number" id="volume-min" placeholder="Min Volume"><br><br>
-
-        <label>Price Min:</label>
-        <input type="number" id="price-min" placeholder="Min Price" step="0.01"> -
-        <input type="number" id="price-max" placeholder="Max Price" step="0.01"><br><br>
-
-        <button type="submit">Apply Filters</button>
-    </form>
-    <p id="filter-status" style="margin-top: 10px; color: #6fd672;"></p>
-</div>
-
-<!-- GhostBuild Prompt Box -->
-<div class="box">
-  <h3>GhostBuild Command</h3>
-  <input id="ghostPrompt" placeholder="Describe what to build..." />
-  <button onclick="runGhost()">Send to Cole</button>
-</div>
-
-<!-- Voice Assistant Trigger Box -->
-<div class="box">
-  <h3>PTM Voice Generator</h3>
-  <input id="voiceText" placeholder="Type something for your assistant to say..." />
-  
-  <select id="voicePersona">
-    <option value="Mo Cash">Mo Cash</option>
-    <option value="Mentor">Mentor</option>
-    <option value="Drill Instructor">Drill Instructor</option>
-    <option value="Chill Trader">Chill Trader</option>
-    <option value="Comedian">Comedian</option>
-    <option value="OG">OG</option>
-  </select>
-
-  <button onclick="triggerVoice()">Speak It</button>
-  <p id="voice-status" style="color: #6fd672; margin-top: 10px;"></p>
-
-  <!-- ✅ Fixed path to output.mp3 -->
-  <audio id="voicePreview" controls style="margin-top: 10px;">
-    <source src="/static/audio/output.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-
-  <p>
-    <a href="/static/audio/output.mp3" download="output.mp3" style="color: #6fd672;">Download Voice MP3</a>
-  </p>
-</div>
-
-<!-- Voice Test Trigger -->
-<div class="box">
-  <h3>Test Voice Function</h3>
-  <button onclick="runVoiceTest()">Run Voice Test</button>
-  <p id="voice-test-status" style="color: #6fd672; margin-top: 10px;"></p>
-</div>
-
-<!-- ✅ Ghostshade Recon Card Link -->
-<div class="box">
-  <h3>Ghostshade Recon</h3>
-  <a href="/static/ui/ghostshade_card.html" target="_blank" style="color: #6fd672; font-weight: bold;">👁️ View Ghostshade Card</a>
-</div>
-
-<!-- 🔧 AutoFix Trigger -->
-<div class="box">
-  <h3>AutoFix Engine</h3>
-  <button onclick="triggerAutoFix()">🔧 Run AutoFix Engine</button>
-  <p id="autofix-status" style="color: #6fd672; margin-top: 10px;"></p>
-</div>
-
-<script>
-function refreshMarketMovers() {
-    fetch('/api/market_movers')
-        .then(res => res.json())
-        .then(data => {
-            const movers = data.movers || [];
-            const output = movers.length === 0
-                ? 'No data available.'
-                : movers.map(stock =>
-                    `${stock.ticker} | ${stock.name} | ${stock.change_percent > 0 ? '+' : ''}${stock.change_percent.toFixed(2)}%`
-                  ).join('\n');
-            document.getElementById('market-movers-data').textContent = output;
-        })
-        .catch(err => {
-            console.error('Error fetching market movers:', err);
-            document.getElementById('market-movers-data').textContent = 'Failed to load market movers data.';
-        });
-}
-
-function refreshMarketScreener() {
-    fetch('/api/market_screener')
-        .then(res => res.json())
-        .then(data => {
-            const results = data.results || [];
-            const output = results.length === 0
-                ? 'No results match current filters.'
-                : results.map(stock =>
-                    `${stock.ticker} | Price: $${stock.price.toFixed(2)} | Volume: ${stock.volume} | RSI: ${stock.rsi.toFixed(2)} | Signal: ${stock.signal}`
-                  ).join('\n');
-            document.getElementById('market-screener-data').textContent = output;
-        })
-        .catch(err => {
-            console.error('Error fetching market screener:', err);
-            document.getElementById('market-screener-data').textContent = 'Failed to load market screener data.';
-        });
-}
-
-document.getElementById('filter-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    const filters = {
-        rsi: {
-            min: parseFloat(document.getElementById('rsi-min').value) || null,
-            max: parseFloat(document.getElementById('rsi-max').value) || null
-        },
-        volume: {
-            min: parseInt(document.getElementById('volume-min').value) || null
-        },
-        price: {
-            min: parseFloat(document.getElementById('price-min').value) || null,
-            max: parseFloat(document.getElementById('price-max').value) || null
+    <script>
+        async function loadStatus() {
+            const res = await fetch("/status");
+            const data = await res.json();
+            let html = '';
+            for (let bot in data) {
+                const state = data[bot] ? '🟢 Online' : '🔴 Offline';
+                html += `<p><strong>${bot}:</strong> ${state}</p>`;
+            }
+            document.getElementById("bot-status").innerHTML = html;
         }
-    };
-    fetch('/api/screener_filters', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(filters)
-    })
-    .then(res => res.json())
-    .then(data => {
-        document.getElementById('filter-status').textContent =
-            data.status === 'success' ? 'Filters updated successfully.' : 'Failed to update filters.';
-    })
-    .catch(err => {
-        console.error('Error updating filters:', err);
-        document.getElementById('filter-status').textContent = 'Error updating filters.';
-    });
-});
 
-function runGhost() {
-    const prompt = document.getElementById("ghostPrompt").value;
-    fetch('/api/ghostbuild', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ prompt: prompt })
-    })
-    .then(res => res.json())
-    .then(data => alert(data.message));
-}
+        async function loadLogs() {
+            const res = await fetch("/logs");
+            const data = await res.json();
+            document.getElementById("log-output").textContent = data.logs.join('');
+        }
 
-function runVoiceTest() {
-    fetch("/voice_test")
-        .then(res => res.text())
-        .then(msg => {
-            document.getElementById("voice-test-status").textContent = msg;
-        });
-}
-
-function triggerVoice() {
-    const text = document.getElementById("voiceText").value;
-    const persona = document.getElementById("voicePersona").value;
-
-    fetch('/api/speak', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ text, persona })
-    })
-    .then(res => res.json())
-    .then(data => {
-        document.getElementById("voice-status").textContent = data.message;
-        document.getElementById("voicePreview").style.display = "block";
-        document.getElementById("voicePreview").load();
-    })
-    .catch(err => {
-        console.error('Voice error:', err);
-        document.getElementById("voice-status").textContent = "Error generating voice.";
-    });
-}
-
-function triggerAutoFix() {
-    fetch('/run-autofix')
-        .then(res => res.json())
-        .then(data => {
-            document.getElementById('autofix-status').textContent = data.status;
-        })
-        .catch(err => {
-            console.error('AutoFix error:', err);
-            document.getElementById('autofix-status').textContent = 'Failed to trigger AutoFix.';
-        });
-}
-
-setInterval(refreshMarketMovers, 10000);
-setInterval(refreshMarketScreener, 15000);
-
-window.onload = function() {
-    refreshMarketMovers();
-    refreshMarketScreener();
-};
-</script>
-
+        loadStatus();
+        loadLogs();
+        setInterval(loadStatus, 5000);
+        setInterval(loadLogs, 10000);
+    </script>
 </body>
 </html>

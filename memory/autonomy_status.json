@@ -1,0 +1,22 @@
+{
+  "Bridge Listener": {
+    "state": "inactive",
+    "updated": "1970-01-01T00:00:00Z"
+  },
+  "Voice Command Handler": {
+    "state": "inactive",
+    "updated": "1970-01-01T00:00:00Z"
+  },
+  "GhostForge Evolution Loop": {
+    "state": "inactive",
+    "updated": "1970-01-01T00:00:00Z"
+  },
+  "Temporal Reflex System": {
+    "state": "inactive",
+    "updated": "1970-01-01T00:00:00Z"
+  },
+  "Assistant Command Council": {
+    "state": "inactive",
+    "updated": "1970-01-01T00:00:00Z"
+  }
+}

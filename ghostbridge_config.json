@@ -1,0 +1,7 @@
+{
+  "bridge_inbox": "bridge_inbox",
+  "auto_deploy": true,
+  "claude_required": true,
+  "log_drops": true,
+  "backup_old_files": true
+}

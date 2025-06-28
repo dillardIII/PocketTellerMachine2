@@ -1,1 +1,29 @@
-{}
+{
+  "routed_task": {
+    "value": {
+      "task_type": "recap",
+      "to": "MoCash",
+      "from": "system",
+      "details": "No task"
+    },
+    "updated": "2025-06-03 23:02:09"
+  },
+  "ai_router_error": {
+    "value": "'dict' object has no attribute 'append'",
+    "updated": "2025-06-03 23:02:09"
+  },
+  "autonomy_error": {
+    "value": {
+      "error": "'dict' object has no attribute 'append'"
+    },
+    "updated": "2025-06-03 23:02:09"
+  },
+  "phase": {
+    "value": "startup",
+    "updated": "2025-06-04 07:16:52 UTC"
+  },
+  "ghost_sync": {
+    "value": "missing",
+    "updated": "2025-06-04 07:16:52 UTC"
+  }
+}

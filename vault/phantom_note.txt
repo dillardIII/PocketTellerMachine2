@@ -1,0 +1,2 @@
+This file contains haunted info 👻
+Definitely phantom-class data corruption.

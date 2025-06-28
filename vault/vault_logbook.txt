@@ -1,0 +1,157 @@
+Dropped: gostrategyrunner.py
+Dropped: vaultprep.py
+Dropped (macro): sniperentry.py
+Dropped (macro): riskfilter.py
+Dropped (macro): ghostconfirmation.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (via pack): gostrategyrunner.py
+Dropped (via pack): vaultprep.py
+Dropped (via pack): missionlauncher.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): sniperentry.py
+Dropped (macro): riskfilter.py
+Dropped (macro): ghostconfirmation.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): sniperentry.py
+Dropped (macro): riskfilter.py
+Dropped (macro): ghostconfirmation.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): sniperentry.py
+Dropped (macro): riskfilter.py
+Dropped (macro): ghostconfirmation.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): sniperentry.py
+Dropped (macro): riskfilter.py
+Dropped (macro): ghostconfirmation.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): sniperentry.py
+Dropped (macro): riskfilter.py
+Dropped (macro): ghostconfirmation.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): sniperentry.py
+Dropped (macro): riskfilter.py
+Dropped (macro): ghostconfirmation.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): sniperentry.py
+Dropped (macro): riskfilter.py
+Dropped (macro): ghostconfirmation.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): sniperentry.py
+Dropped (macro): riskfilter.py
+Dropped (macro): ghostconfirmation.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): sniperentry.py
+Dropped (macro): riskfilter.py
+Dropped (macro): ghostconfirmation.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): sniperentry.py
+Dropped (macro): riskfilter.py
+Dropped (macro): ghostconfirmation.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): sniperentry.py
+Dropped (macro): riskfilter.py
+Dropped (macro): ghostconfirmation.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): sniperentry.py
+Dropped (macro): riskfilter.py
+Dropped (macro): ghostconfirmation.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): sniperentry.py
+Dropped (macro): riskfilter.py
+Dropped (macro): ghostconfirmation.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): sniperentry.py
+Dropped (macro): riskfilter.py
+Dropped (macro): ghostconfirmation.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): sniperentry.py
+Dropped (macro): riskfilter.py
+Dropped (macro): ghostconfirmation.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): sniperentry.py
+Dropped (macro): riskfilter.py
+Dropped (macro): ghostconfirmation.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): sniperentry.py
+Dropped (macro): riskfilter.py
+Dropped (macro): ghostconfirmation.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): sniperentry.py
+Dropped (macro): riskfilter.py
+Dropped (macro): ghostconfirmation.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): missionlauncher.py
+Dropped (macro): vaultprep.py
+Dropped (macro): sniperentry.py
+Dropped (macro): riskfilter.py
+Dropped (macro): ghostconfirmation.py
+Dropped: proof_of_life.py
+[INIT] Vault logbook created.
+[BOOT] PTM launched: Reflex, Ghostwriter, Vault active.
+[LINK] Whisper awaiting voice commands.
+[STATUS] System autonomy entering active loop...
+[STATUS] Block 2 initialized: Status monitor and assistant mood panel online.
+[AI] Mo Cash mood: Hyped
+[AI] Mentor mood: Calm
+[AI] Strategist mood: Focused
+[LOGBOOK] System log panel now linked to dashboard.
+[AUTOUI] Strategy dashboard card generator active.
+[SYNC] Strategy ownership synced across assistant personas.
+[DREAM] Dreamstate planner created 5 upgrade tasks for AI self-improvement.
+[COMMAND_PANEL] Web-based bot control panel now live.
+[TOGGLE] Reflex turned ON
+[TOGGLE] DropAgent turned OFF
+[STRATEGY_BRAIN] Mo Cash executed Breakout Sniper
+[STRATEGY_BRAIN] Strategist executed RSI Bounce
+[ROTATOR] Breakout Sniper reassigned to Mentor due to 2 failed trades
+[AUTONOMY] PTM strategy system is now self-running.

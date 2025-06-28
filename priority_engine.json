@@ -1,0 +1,8 @@
+{
+  "Check market open": 100,
+  "Evaluate trade profit": 90,
+  "Review watchlist": 85,
+  "Run backtest": 80,
+  "Scan news headlines": 75,
+  "Idle behavior check": 20
+}

@@ -1,0 +1,2 @@
+{"timestamp": "2025-06-04 00:25:55", "source": "Cole", "type": "exception", "message": "Crash during autopilot: 'dict' object has no attribute 'append'"}
+{"timestamp": "2025-06-04 00:42:32", "source": "Cole", "type": "exception", "message": "Crash during autopilot: 'dict' object has no attribute 'append'"}

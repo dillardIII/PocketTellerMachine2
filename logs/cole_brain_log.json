@@ -1,0 +1,74 @@
+[
+  {
+    "timestamp": "2025-06-04 07:16:38 UTC",
+    "level": "info",
+    "source": "Cole Brain",
+    "message": "\ud83e\udde0 Logged memory: [sync_check] {'agent': 'ai_router_sync', 'status': 'ok', 'last_synced': '2025-06-03T22:22:00Z', 'sync_health': '\u26a0"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:38 UTC",
+    "level": "info",
+    "source": "Cole Brain",
+    "message": "\ud83e\udde0 Logged memory: [routed_task] {'task_type': 'recap', 'to': 'MoCash', 'from': 'system', 'details': 'No task'}"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:38 UTC",
+    "level": "info",
+    "source": "Cole Brain",
+    "message": "\ud83e\udde0 Logged memory: [autopilot_strategy] {'name': 'Credit Spread', 'risk': 'low', 'confidence': 0.7, 'reason': 'Stable volatility and predict"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:38 UTC",
+    "level": "info",
+    "source": "Cole Brain",
+    "message": "\ud83e\udde0 Logged memory: [strategy] {'name': 'Credit Spread', 'risk': 'low', 'confidence': 0.89, 'reason': 'Stable volatility and predic"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:52 UTC",
+    "level": "info",
+    "source": "Cole Brain",
+    "message": "\ud83e\udde0 Logged memory: [autopilot_strategy] {'name': 'Credit Spread', 'risk': 'low', 'confidence': 0.73, 'reason': 'Stable volatility and predic"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:52 UTC",
+    "level": "info",
+    "source": "Cole Brain",
+    "message": "\ud83e\udde0 Logged memory: [sync_check] {'agent': 'colr_sync', 'status': 'ok', 'last_synced': '2025-06-03T22:22:00Z', 'sync_health': '\u26a0\ufe0f Del"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:52 UTC",
+    "level": "info",
+    "source": "Cole Brain",
+    "message": "\ud83e\udde0 Logged memory: [sync_check] {'agent': 'ghost_sync', 'status': 'ok', 'last_synced': '2025-06-03T22:22:00Z', 'sync_health': '\u26a0\ufe0f De"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:52 UTC",
+    "level": "info",
+    "source": "Cole Brain",
+    "message": "\ud83e\udde0 Logged memory: [sync_check] {'agent': 'recap_sync', 'status': 'ok', 'last_synced': '2025-06-03T22:22:00Z', 'sync_health': '\u26a0\ufe0f De"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:52 UTC",
+    "level": "info",
+    "source": "Cole Brain",
+    "message": "\ud83e\udde0 Logged memory: [sync_check] {'agent': 'ai_router_sync', 'status': 'ok', 'last_synced': '2025-06-03T22:22:00Z', 'sync_health': '\u26a0"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:52 UTC",
+    "level": "info",
+    "source": "Cole Brain",
+    "message": "\ud83e\udde0 Logged memory: [routed_task] {'task_type': 'recap', 'to': 'MoCash', 'from': 'system', 'details': 'No task'}"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:52 UTC",
+    "level": "info",
+    "source": "Cole Brain",
+    "message": "\ud83e\udde0 Logged memory: [autopilot_strategy] {'name': 'Credit Spread', 'risk': 'low', 'confidence': 0.9, 'reason': 'Stable volatility and predict"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:52 UTC",
+    "level": "info",
+    "source": "Cole Brain",
+    "message": "\ud83e\udde0 Logged memory: [strategy] {'name': 'Credit Spread', 'risk': 'low', 'confidence': 0.89, 'reason': 'Stable volatility and predic"
+  }
+]

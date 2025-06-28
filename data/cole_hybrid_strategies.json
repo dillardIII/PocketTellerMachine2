@@ -1,0 +1,1 @@
+{"id": "cc30ea5b-c975-4908-a2e0-6e1c29db0e0e", "key": "sma_cross_rsi_reversal_Hybrid", "description": "Hybrid Strategy combining SMA Crossover Strategy and RSI Reversal Strategy", "parent_strategies": ["sma_cross", "rsi_reversal"], "creation_date": "2025-06-03T23:09:42.240320"}

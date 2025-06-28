@@ -1,0 +1,32 @@
+{
+  "devices": [
+    "z_fold_6",
+    "s10_ultra",
+    "predator_helios_16",
+    "steamdeck",
+    "slate_7",
+    "flipper_zero",
+    "muse_s",
+    "tp_link_travel_router",
+    "deeper_connect_mini"
+  ],
+  "bridges": {
+    "voice_to_directive": true,
+    "recursive_loop_enabled": true,
+    "command_council_online": true,
+    "shared_brain_mesh": true,
+    "autonomy_verified": true
+  },
+  "last_sync": "2025-06-19T00:00:00Z",
+  "next_deploy_window": "2025-06-20T00:00:00Z",
+  "status": "active",
+  "autonomy_phase": "Tier 12",
+  "bridge_handlers": [
+    "Spectra Nocturna",
+    "GhostBot",
+    "PTM Core Dispatch",
+    "Claude Validator",
+    "BridgeBot",
+    "VoiceLink.Daemon"
+  ]
+}

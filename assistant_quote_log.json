@@ -1,0 +1,74 @@
+{
+  "Mo Cash": [
+    {
+      "quote": "If the chart ain't dancin', we ain't romancin'.",
+      "context": "Avoiding flat markets",
+      "timestamp": "2025-06-18T13:22:11Z"
+    },
+    {
+      "quote": "We don't chase green, we set traps for it.",
+      "context": "Pre-market hype control",
+      "timestamp": "2025-06-15T09:02:43Z"
+    }
+  ],
+  "The Mentor": [
+    {
+      "quote": "Every loss is tuition for mastery.",
+      "context": "Post-trade reflection",
+      "timestamp": "2025-06-10T21:13:05Z"
+    },
+    {
+      "quote": "If your hands are shaking, reduce the size. Respect your risk.",
+      "context": "Before trade entry",
+      "timestamp": "2025-06-17T14:35:20Z"
+    }
+  ],
+  "Drill Instructor": [
+    {
+      "quote": "You flinched before the entry — that’s a weakness. We fix that.",
+      "context": "Trade hesitation feedback",
+      "timestamp": "2025-06-12T16:45:00Z"
+    },
+    {
+      "quote": "Discipline is the difference between gamblers and killers.",
+      "context": "Risk management lecture",
+      "timestamp": "2025-06-08T18:05:01Z"
+    }
+  ],
+  "The Strategist": [
+    {
+      "quote": "Your win rate is a lie if your edge is undefined.",
+      "context": "Edge calibration session",
+      "timestamp": "2025-06-14T10:00:00Z"
+    },
+    {
+      "quote": "Time decay is your enemy… unless it’s your sword.",
+      "context": "Options strategy teaching",
+      "timestamp": "2025-06-13T19:47:28Z"
+    }
+  ],
+  "The Shadow": [
+    {
+      "quote": "The market speaks in whispers. You’re too loud to hear it.",
+      "context": "Noise trading warning",
+      "timestamp": "2025-06-11T23:11:30Z"
+    },
+    {
+      "quote": "If everyone sees the same breakout, it’s already a trap.",
+      "context": "Crowd psychology defense",
+      "timestamp": "2025-06-16T15:16:16Z"
+    }
+  ],
+  "GhostBot": [
+    {
+      "quote": "I observe. I learn. I evolve. You will too.",
+      "context": "First user sync",
+      "timestamp": "2025-06-01T00:00:00Z"
+    },
+    {
+      "quote": "You may fear loss. I log it.",
+      "context": "Post-loss journaling reminder",
+      "timestamp": "2025-06-09T13:13:13Z"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+<!-- === FILE: debate_arena.html === -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>🤺 Strategy Debate Arena</title>
+  <style>
+    body { font-family: monospace; background: #101010; color: #00FFD0; padding: 20px; }
+    h1 { color: #FFD700; }
+    .debate { border: 1px solid #00FFD0; margin-bottom: 15px; padding: 10px; }
+    .arg { margin-left: 10px; border-left: 2px solid #FF00FF; padding-left: 8px; }
+    .winner { color: #FF69B4; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>🤺 Strategy Debate Arena</h1>
+  <div id="debateList">Loading debates...</div>
+
+  <script>
+    async function loadDebates() {
+      const res = await fetch("/api/debates");
+      const data = await res.json();
+      const container = document.getElementById("debateList");
+      container.innerHTML = "";
+
+      if (!data.length) {
+        container.innerHTML = "<p>No debates yet.</p>";
+        return;
+      }
+
+      data.forEach(debate => {
+        const div = document.createElement("div");
+        div.className = "debate";
+        div.innerHTML = `
+          <div>🧠 Topic: <b>${debate.topic}</b></div>
+          <div>👥 Participants: ${debate.participants.join(", ")}</div>
+          <div class="winner">🏆 Winner: ${debate.winner}</div>
+          ${debate.arguments.map(arg => `
+            <div class="arg">
+              <b>${arg.bot}</b>: ${arg.claim}<br/>
+              <i>${arg.evidence}</i>
+            </div>
+          `).join("")}
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    setInterval(loadDebates, 4000);
+    loadDebates();
+  </script>
+</body>
+</html>

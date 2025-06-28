@@ -1,0 +1,89 @@
+[
+  {
+    "timestamp": "2025-06-03 23:21:59",
+    "actor": "Mentor",
+    "category": "strategy",
+    "message": "Recommended mean reversion strategy.",
+    "tags": []
+  },
+  {
+    "timestamp": "2025-06-03 23:39:29",
+    "actor": "Cole",
+    "category": "exception",
+    "message": "Crash during autopilot: 'dict' object has no attribute 'append'",
+    "tags": [
+      "exception",
+      "autopilot"
+    ]
+  },
+  {
+    "timestamp": "2025-06-03 23:44:30",
+    "actor": "Cole",
+    "category": "exception",
+    "message": "Crash during autopilot: 'dict' object has no attribute 'append'",
+    "tags": [
+      "exception",
+      "autopilot"
+    ]
+  },
+  {
+    "timestamp": "2025-06-03 23:50:39",
+    "actor": "Cole",
+    "category": "exception",
+    "message": "Crash during autopilot: 'dict' object has no attribute 'append'",
+    "tags": [
+      "exception",
+      "autopilot"
+    ]
+  },
+  {
+    "timestamp": "2025-06-03 23:54:08",
+    "actor": "Cole",
+    "category": "exception",
+    "message": "Crash during autopilot: 'dict' object has no attribute 'append'",
+    "tags": [
+      "exception",
+      "autopilot"
+    ]
+  },
+  {
+    "timestamp": "2025-06-03 23:55:35",
+    "actor": "Cole",
+    "category": "exception",
+    "message": "Crash during autopilot: 'dict' object has no attribute 'append'",
+    "tags": [
+      "exception",
+      "autopilot"
+    ]
+  },
+  {
+    "timestamp": "2025-06-03 23:57:27",
+    "actor": "Cole",
+    "category": "exception",
+    "message": "Crash during autopilot: 'dict' object has no attribute 'append'",
+    "tags": [
+      "exception",
+      "autopilot"
+    ]
+  },
+  {
+    "timestamp": "2025-06-04 00:17:08",
+    "actor": "Cole",
+    "category": "exception",
+    "message": "Crash during autopilot: 'dict' object has no attribute 'append'",
+    "tags": [
+      "exception",
+      "autopilot"
+    ]
+  },
+  {
+    "timestamp": "2025-06-04 00:22:42",
+    "actor": "Cole",
+    "category": "exception",
+    "message": "Crash during autopilot: 'dict' object has no attribute 'append'",
+    "tags": [
+      "exception",
+      "autopilot"
+    ]
+  }
+]

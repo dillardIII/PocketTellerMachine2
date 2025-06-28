@@ -1,0 +1,7 @@
+{
+  "status": "stable",
+  "timestamp": "2025-06-19T00:00:00Z",
+  "last_rebalance": "2025-06-19T00:00:00Z",
+  "drift_detected": false,
+  "drift_reason": null
+}

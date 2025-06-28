@@ -1,33 +1,41 @@
-# === FILE: cole_autopilot_cycle.py ===
+"""
+Cole Autopilot Cycle:
+This module defines the core cycle for PTM's autonomous assistant loop.
+Executes strategy recommendation, trade logic, and memory logging.
+"""
 
 from strategy_scorer import recommend_best_strategy
-from strategy_runner import run_strategy
-from cole_brain import log_strategy_reason, log_memory
-from cole_logger import log_info
+from trade_executor import execute_trade_flow
+from cole_logger import log_event
+from cole_brain import log_memory
 
 def cole_autopilot_cycle():
-    log_info("[Cole Autopilot] 🚀 Starting Cole Autopilot Cycle...")
+    """
+    Runs the main decision-making and trade execution logic.
+    Can be extended with more layers: signals, filters, AI modules.
+    """
+    log_event("Cole Autopilot", "🧠 Starting autopilot decision cycle...", "info")
 
-    strategy_bundle = recommend_best_strategy()
+    try:
+        # Step 1: Recommend a strategy
+        strategy_bundle = recommend_best_strategy()
 
-    # === 💡 Force fallback if strategy is missing ===
-    if not strategy_bundle or not strategy_bundle.get("strategy"):
-        log_info("[Cole Autopilot] ⚠️ No valid strategy to run. Injecting fallback strategy.")
-        strategy_bundle = {
-            "strategy": {
-                "name": "Fallback Covered Call",
-                "type": "bullish",
-                "win_rate": 68,
-                "confidence": 20
-            },
-            "reason": "Fallback injected due to missing backtest data."
-        }
+        if not strategy_bundle or not strategy_bundle.get("strategy"):
+            log_event("Cole Autopilot", "❌ No strategy was returned.", "error")
+            log_memory("autopilot", "No strategy recommended.")
+            return
 
-    strategy = strategy_bundle["strategy"]
-    reason = strategy_bundle.get("reason", "No reason provided.")
+        strategy = strategy_bundle["strategy"]
+        reason = strategy_bundle.get("reason", "No reason provided.")
 
-    log_memory("strategy", strategy)
-    log_strategy_reason(strategy, reason)
+        log_event("Cole Autopilot", f"✅ Strategy: {strategy['name']} | Reason: {reason}", "info")
+        log_memory("autopilot_strategy", strategy)
 
-    log_info(f"[Cole Autopilot] ✅ Strategy selected: {strategy['name']} | Reason: {reason}")
-    run_strategy(strategy)
+        # Step 2: Execute trade flow
+        execute_trade_flow(strategy)
+
+        log_event("Cole Autopilot", "✅ Autopilot cycle completed.", "success")
+
+    except Exception as e:
+        log_event("Cole Autopilot", f"❌ Error during autopilot: {str(e)}", "error")
+        log_memory("autopilot_error", {"error": str(e)})

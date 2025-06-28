@@ -1,0 +1,12 @@
+[
+  {
+    "filename": "ai_personality_loader.py",
+    "purpose": "Load and manage AI persona behavior and voice config.",
+    "seed": "Create a dictionary loader that can parse persona traits and assign assistant voice, mood, and tone."
+  },
+  {
+    "filename": "trade_recovery_agent.py",
+    "purpose": "Auto-recover from failed trades and retry with backup logic.",
+    "seed": "Write a retry logic for failed trades using max attempts, cooldown, and alert system."
+  }
+]

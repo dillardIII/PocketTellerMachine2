@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wallet Visualizer</title>
+  <style>
+    body {
+      background: #0c0c0c;
+      color: #00ffff;
+      font-family: 'Courier New', monospace;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px 0;
+      font-size: 2em;
+    }
+
+    .wallet-container, .coin-container {
+      margin: 20px;
+      background: #111;
+      border: 2px solid #00ffff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px #00ffff;
+    }
+
+    h2 {
+      color: #00ffff;
+      border-bottom: 1px solid #00ffff;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+    }
+
+    .wallet, .coin {
+      padding: 12px;
+      background: #1b1b1b;
+      margin-bottom: 10px;
+      border-left: 4px solid #00ffff;
+    }
+
+    .wallet span, .coin span {
+      display: block;
+      padding: 3px 0;
+    }
+
+    .refresh-btn {
+      background: #00ffff;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 8px;
+      cursor: pointer;
+      display: block;
+      margin: 30px auto;
+      transition: background 0.3s;
+      box-shadow: 0 0 10px #00ffff;
+    }
+
+    .refresh-btn:hover {
+      background: #00dddd;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>💸 Wallet Visualizer</h1>
+
+  <div class="wallet-container">
+    <h2>🧾 Synced Wallets</h2>
+    <div id="wallets">
+      <!-- Wallets load here -->
+    </div>
+  </div>
+
+  <div class="coin-container">
+    <h2>🪙 Synced Coins</h2>
+    <div id="coins">
+      <!-- Coins load here -->
+    </div>
+  </div>
+
+  <button class="refresh-btn" onclick="loadWallets()">🔄 Refresh Wallets</button>
+
+  <div class="footer">Wallet Data Synced via PTM Core | Built for Boo</div>
+
+  <script>
+    async function loadWallets() {
+      try {
+        const walletRes = await fetch('/api/wallets');
+        const coinRes = await fetch('/api/coins');
+        const wallets = await walletRes.json();
+        const coins = await coinRes.json();
+
+        const walletContainer = document.getElementById('wallets');
+        const coinContainer = document.getElementById('coins');
+
+        walletContainer.innerHTML = '';
+        coinContainer.innerHTML = '';
+
+        Object.entries(wallets).forEach(([name, data]) => {
+          const div = document.createElement('div');
+          div.classList.add('wallet');
+          div.innerHTML = `
+            <span><strong>${name}</strong></span>
+            <span>Balance: $${data.balance}</span>
+            <span>Network: ${data.network}</span>
+            <span>Last Updated: ${data.updated}</span>
+          `;
+          walletContainer.appendChild(div);
+        });
+
+        Object.entries(coins).forEach(([symbol, data]) => {
+          const div = document.createElement('div');
+          div.classList.add('coin');
+          div.innerHTML = `
+            <span><strong>${symbol}</strong></span>
+            <span>Amount: ${data.amount}</span>
+            <span>Chain: ${data.chain}</span>
+            <span>Last Seen: ${data.last_seen}</span>
+          `;
+          coinContainer.appendChild(div);
+        });
+
+        console.log("✅ Wallets and coins loaded into visualizer.");
+      } catch (err) {
+        console.error("❌ Error loading wallets/coins:", err);
+      }
+    }
+
+    // Auto-load on page open
+    loadWallets();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!-- === FILE: wallet_charts.html === -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PTM Wallet Charts</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      background-color: #111;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 2rem;
+    }
+    canvas {
+      max-width: 900px;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <h2>💰 PTM Wallet Balance Chart</h2>
+  <canvas id="walletChart" width="400" height="200"></canvas>
+
+  <script>
+    async function loadChart() {
+      try {
+        const res = await fetch('/api/wallets');
+        const data = await res.json();
+
+        const labels = [];
+        const nativeBalances = [];
+
+        for (const [wallet, values] of Object.entries(data.wallets)) {
+          labels.push(wallet);
+          nativeBalances.push(values.native || 0);
+        }
+
+        const ctx = document.getElementById('walletChart').getContext('2d');
+        new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: labels,
+            datasets: [{
+              label: 'Native Balance (ETH, BNB, etc.)',
+              data: nativeBalances,
+              backgroundColor: 'deepskyblue',
+              borderWidth: 1
+            }]
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: {
+                labels: { color: 'white' }
+              },
+              tooltip: {
+                mode: 'index',
+                intersect: false
+              }
+            },
+            scales: {
+              y: {
+                beginAtZero: true,
+                ticks: { color: 'white' }
+              },
+              x: {
+                ticks: { color: 'white' }
+              }
+            }
+          }
+        });
+
+      } catch (err) {
+        document.body.innerHTML += `<p style="color:red;">Failed to load wallet data: ${err.message}</p>`;
+      }
+    }
+
+    loadChart();
+  </script>
+</body>
+</html>

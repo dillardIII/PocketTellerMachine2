@@ -1,0 +1,1 @@
+{"trade_id": "sample123", "symbol": "TSLA", "strategy": "protective_put", "result": -15, "grade": "D", "lesson": "Loss on protective_put for TSLA. Review entry points and risk controls.", "timestamp": "2025-06-03T23:09:42.329114"}

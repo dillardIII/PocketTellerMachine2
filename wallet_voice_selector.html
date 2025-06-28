@@ -1,0 +1,48 @@
+<!-- === FILE: wallet_voice_selector.html === -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voice Selector</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #0ff;
+            font-family: 'Courier New', monospace;
+            padding: 20px;
+        }
+        h1 { text-align: center; }
+        select, button {
+            padding: 10px;
+            font-size: 1em;
+            margin: 10px;
+            background: #000;
+            color: #0ff;
+            border: 1px solid #0ff;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎙️ Select Wallet Voice</h1>
+    <select id="voiceSelect">
+        <option value="amandamask">AmandaMask</option>
+        <option value="mo_cash_voice">Mo Cash</option>
+        <option value="mentor_voice_1">Mentor</option>
+        <option value="drill_voice">Drill Instructor</option>
+    </select>
+    <button onclick="chooseVoice()">Save Voice</button>
+
+    <script>
+        function chooseVoice() {
+            const voice = document.getElementById("voiceSelect").value;
+            fetch("/api/voice/choose", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ voice })
+            })
+            .then(res => res.json())
+            .then(data => alert(data.message || "Voice set!"));
+        }
+    </script>
+</body>
+</html>

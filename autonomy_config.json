@@ -1,6 +1,7 @@
 {
-  "bridge_timeout_sec": 3,
-  "auto_register_on_boot": true,
-  "fetch_packages_on_launch": false,
-  "max_retries": 5
+  "check_interval_minutes": 15,
+  "max_concurrent_tasks": 3,
+  "auto_execute_personas": ["Mo Cash", "Strategist", "GhostBot"],
+  "safety_mode": true,
+  "fallback_persona": "GhostBot"
 }

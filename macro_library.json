@@ -1,0 +1,28 @@
+[
+    {
+        "name": "SellHighBuyDip",
+        "trigger": "RSI > 80",
+        "actions": [
+            "Sell current position",
+            "Wait until RSI < 30",
+            "Re-buy position"
+        ],
+        "creator": "Strategist",
+        "risk_level": "moderate",
+        "created": "2025-06-20T00:00:00",
+        "last_used": null
+    },
+    {
+        "name": "Dip Hustle",
+        "trigger": "Price drops 5% in 24h",
+        "actions": [
+            "Alert user",
+            "Enter position with 30% of available funds",
+            "Set trailing stop-loss at 2%"
+        ],
+        "creator": "Mo Cash",
+        "risk_level": "high",
+        "created": "2025-06-20T00:01:00",
+        "last_used": null
+    }
+]

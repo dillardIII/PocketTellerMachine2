@@ -1,0 +1,17 @@
+{
+  "devices": [
+    "Z_Fold_6",
+    "S10",
+    "Predator",
+    "Slate_7",
+    "SteamDeck",
+    "FlipperZero",
+    "Muse_S",
+    "DeeperConnectMini",
+    "TP_Link_Travel_Router",
+    "Samsung_TV"
+  ],
+  "sync_mode": "auto_bidirectional",
+  "bridge_sync": true,
+  "voice_triggered": true
+}

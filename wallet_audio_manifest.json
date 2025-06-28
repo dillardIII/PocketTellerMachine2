@@ -1,0 +1,32 @@
+{
+  "ali_preview.mp3": {
+    "persona": "Ali",
+    "title": "Chill Trader",
+    "tone": "Relaxed, smooth",
+    "use_case": "Default wallet voice"
+  },
+  "mo_cash_preview.mp3": {
+    "persona": "Mo Cash",
+    "title": "The Hustler",
+    "tone": "Confident, aggressive",
+    "use_case": "Profit-chasing mode"
+  },
+  "mentor_preview.mp3": {
+    "persona": "Mentor",
+    "title": "The Wise One",
+    "tone": "Calm, intelligent",
+    "use_case": "Teaching or explaining"
+  },
+  "drill_preview.mp3": {
+    "persona": "Drill Instructor",
+    "title": "Marine Corps Mode",
+    "tone": "Harsh, commanding",
+    "use_case": "Alerts or warnings"
+  },
+  "malik_preview.mp3": {
+    "persona": "Malik",
+    "title": "Ghost Intel Officer",
+    "tone": "Authoritative, composed",
+    "use_case": "Intel summaries"
+  }
+}

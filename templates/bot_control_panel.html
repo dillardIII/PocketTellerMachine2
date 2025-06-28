@@ -1,0 +1,66 @@
+<!-- === FILE: templates/bot_control_panel.html === -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PTM Bot Control Panel</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #00ffcc;
+      font-family: monospace;
+      padding: 20px;
+    }
+    h1 {
+      color: #ffffff;
+    }
+    button {
+      background: #111;
+      color: #00ffcc;
+      padding: 12px 20px;
+      margin: 10px;
+      border: 2px solid #00ffcc;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #00ffcc;
+      color: #000;
+    }
+    .logbox {
+      margin-top: 20px;
+      background-color: #1a1a1a;
+      padding: 10px;
+      border: 1px solid #333;
+      height: 250px;
+      overflow-y: scroll;
+      color: #00ffcc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🤖 PTM Bot Control Panel</h1>
+
+  <button onclick="triggerBot('inspector')">Run InspectorBot</button>
+  <button onclick="triggerBot('watcher')">Run Repair Watcher</button>
+  <button onclick="triggerBot('autobuilder')">Run Autobuilder</button>
+  <button onclick="triggerBot('full')">Run Full System Sweep</button>
+
+  <div class="logbox" id="logOutput">
+    <strong>Logs will appear here...</strong>
+  </div>
+
+  <script>
+    async function triggerBot(botType) {
+      document.getElementById('logOutput').innerText = `Running ${botType}...`;
+
+      const res = await fetch(`/run_bot/${botType}`);
+      const data = await res.text();
+      document.getElementById('logOutput').innerText = data;
+    }
+  </script>
+
+</body>
+</html>

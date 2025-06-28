@@ -1,0 +1,186 @@
+[
+  {
+    "strategy": {
+      "name": "momentum breakout",
+      "risk": "medium"
+    },
+    "reason": "Strategy 'momentum breakout' scored highest with 100 points on 2025-06-03.",
+    "timestamp": "2025-06-03T09:48:15.530275"
+  },
+  {
+    "strategy": {
+      "name": "momentum breakout",
+      "risk": "medium"
+    },
+    "reason": "Strategy 'momentum breakout' scored highest with 97 points on 2025-06-03.",
+    "timestamp": "2025-06-03T09:48:16.326071"
+  },
+  {
+    "strategy": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "reason": "Strategy 'mean reversion' scored highest with 100 points on 2025-06-03.",
+    "timestamp": "2025-06-03T09:48:16.343265"
+  },
+  {
+    "strategy": {
+      "name": "momentum breakout",
+      "risk": "medium"
+    },
+    "reason": "Strategy 'momentum breakout' scored highest with 63 points on 2025-06-03.",
+    "timestamp": "2025-06-03T09:56:55.600290"
+  },
+  {
+    "strategy": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "reason": "Strategy 'mean reversion' scored highest with 103 points on 2025-06-03.",
+    "timestamp": "2025-06-03T09:56:55.641709"
+  },
+  {
+    "strategy": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "reason": "Strategy 'mean reversion' scored highest with 107 points on 2025-06-03.",
+    "timestamp": "2025-06-03T09:56:56.313934"
+  },
+  {
+    "strategy": {
+      "name": "news catalyst",
+      "risk": "high"
+    },
+    "reason": "Strategy 'news catalyst' scored highest with 90 points on 2025-06-03.",
+    "timestamp": "2025-06-03T09:56:56.332134"
+  },
+  {
+    "strategy": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "reason": "Strategy 'mean reversion' scored highest with 86 points on 2025-06-03.",
+    "timestamp": "2025-06-03T20:44:39.651396"
+  },
+  {
+    "strategy": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "reason": "Strategy 'mean reversion' scored highest with 102 points on 2025-06-03.",
+    "timestamp": "2025-06-03T20:44:39.664107"
+  },
+  {
+    "strategy": {
+      "name": "momentum breakout",
+      "risk": "medium"
+    },
+    "reason": "Strategy 'momentum breakout' scored highest with 94 points on 2025-06-03.",
+    "timestamp": "2025-06-03T20:44:40.425556"
+  },
+  {
+    "strategy": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "reason": "Strategy 'mean reversion' scored highest with 87 points on 2025-06-03.",
+    "timestamp": "2025-06-03T20:44:40.458298"
+  },
+  {
+    "strategy": {
+      "name": "momentum breakout",
+      "risk": "medium"
+    },
+    "reason": "Strategy 'momentum breakout' scored highest with 98 points on 2025-06-03.",
+    "timestamp": "2025-06-03T20:45:35.100009"
+  },
+  {
+    "strategy": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "reason": "Strategy 'mean reversion' scored highest with 77 points on 2025-06-03.",
+    "timestamp": "2025-06-03T20:45:35.109882"
+  },
+  {
+    "strategy": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "reason": "Strategy 'mean reversion' scored highest with 89 points on 2025-06-03.",
+    "timestamp": "2025-06-03T20:45:55.687333"
+  },
+  {
+    "strategy": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "reason": "Strategy 'mean reversion' scored highest with 73 points on 2025-06-03.",
+    "timestamp": "2025-06-03T20:45:55.693841"
+  },
+  {
+    "strategy": {
+      "name": "momentum breakout",
+      "risk": "medium"
+    },
+    "reason": "Strategy 'momentum breakout' scored highest with 96 points on 2025-06-03.",
+    "timestamp": "2025-06-03T20:47:47.871129"
+  },
+  {
+    "strategy": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "reason": "Strategy 'mean reversion' scored highest with 96 points on 2025-06-03.",
+    "timestamp": "2025-06-03T20:47:47.886336"
+  },
+  {
+    "strategy": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "reason": "Strategy 'mean reversion' scored highest with 89 points on 2025-06-03.",
+    "timestamp": "2025-06-03T20:51:56.103653"
+  },
+  {
+    "strategy": {
+      "name": "momentum breakout",
+      "risk": "medium"
+    },
+    "reason": "Strategy 'momentum breakout' scored highest with 95 points on 2025-06-03.",
+    "timestamp": "2025-06-03T20:51:56.133528"
+  },
+  {
+    "strategy": {
+      "name": "momentum breakout",
+      "risk": "medium"
+    },
+    "reason": "Strategy 'momentum breakout' scored highest with 97 points on 2025-06-03.",
+    "timestamp": "2025-06-03T22:18:09.708990"
+  },
+  {
+    "strategy": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "reason": "Strategy 'mean reversion' scored highest with 109 points on 2025-06-03.",
+    "timestamp": "2025-06-03T22:22:32.629573"
+  },
+  {
+    "strategy": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "reason": "Strategy 'mean reversion' scored highest with 72 points on 2025-06-03.",
+    "timestamp": "2025-06-03T22:25:00.123356"
+  },
+  {
+    "strategy": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "reason": "Strategy 'mean reversion' scored highest with 71 points on 2025-06-03.",
+    "timestamp": "2025-06-03T22:30:02.446591"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "Mo Cash": {
+    "default_mood": "confident",
+    "style": "hype, smooth, bold",
+    "voice_ids": {
+      "celebratory": "voice_mocash_hype",
+      "neutral": "voice_mocash_chill",
+      "regretful": "voice_mocash_reflect"
+    },
+    "tone_notes": "Fast-talking, street-smart energy. Think Wall Street meets rap battle."
+  },
+  "The Mentor": {
+    "default_mood": "calm",
+    "style": "wise, steady, warm",
+    "voice_ids": {
+      "celebratory": "voice_mentor_proud",
+      "neutral": "voice_mentor_base",
+      "regretful": "voice_mentor_soft"
+    },
+    "tone_notes": "Sounds like a caring professor or old-school samurai. Speaks slow, teaches as he talks."
+  },
+  "Drill Instructor": {
+    "default_mood": "intense",
+    "style": "strict, loud, proud",
+    "voice_ids": {
+      "celebratory": "voice_drill_win",
+      "neutral": "voice_drill_brief",
+      "regretful": "voice_drill_shame"
+    },
+    "tone_notes": "Marine Corps-style bark. Sharp, direct, no fluff."
+  },
+  "The Strategist": {
+    "default_mood": "focused",
+    "style": "tactical, deliberate, sharp",
+    "voice_ids": {
+      "celebratory": "voice_strategist_precise",
+      "neutral": "voice_strategist_calm",
+      "regretful": "voice_strategist_stern"
+    },
+    "tone_notes": "Analytical. Chess-master energy. Every word calculated."
+  },
+  "The Shadow": {
+    "default_mood": "quiet",
+    "style": "mysterious, dark, sarcastic",
+    "voice_ids": {
+      "celebratory": "voice_shadow_sly",
+      "neutral": "voice_shadow_murmur",
+      "regretful": "voice_shadow_haunt"
+    },
+    "tone_notes": "Whispers, pauses, and vanishes mid-sentence. Joker meets ghost-hacker."
+  },
+  "GhostBot": {
+    "default_mood": "neutral",
+    "style": "robotic, ethereal, minimal",
+    "voice_ids": {
+      "celebratory": "voice_ghost_uplift",
+      "neutral": "voice_ghost_neutral",
+      "regretful": "voice_ghost_dark"
+    },
+    "tone_notes": "Base system AI. Feels like the ship's onboard computer gaining awareness."
+  }
+}

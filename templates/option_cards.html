@@ -1,0 +1,113 @@
+<!-- option_cards.html -->
+<!-- Ghostrade Option Strategy Visualizer - Card Deck UI -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ghostrade Option Cards</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 1rem;
+    }
+
+    h1 {
+      text-align: center;
+      color: #58a6ff;
+      margin-bottom: 1rem;
+    }
+
+    #optionCardContainer {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+      padding-bottom: 2rem;
+    }
+
+    .option-card {
+      background-color: #21262d;
+      border: 2px solid #30363d;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 0 12px #00000088;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .option-card:hover {
+      transform: scale(1.03);
+      border-color: #58a6ff;
+    }
+
+    .card-icon {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .card-title {
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-bottom: 0.25rem;
+    }
+
+    .card-type {
+      font-style: italic;
+      margin-bottom: 0.5rem;
+      color: #8b949e;
+    }
+
+    .card-description,
+    .card-risk,
+    .card-reward {
+      font-size: 0.95rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .button-row {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    button {
+      background-color: #238636;
+      color: #ffffff;
+      border: none;
+      border-radius: 6px;
+      padding: 0.5rem 1rem;
+      margin: 0.25rem;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: #2ea043;
+    }
+
+    .stacked {
+      border-left: 6px solid #58a6ff;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎴 Ghostrade Option Cards</h1>
+
+  <div class="button-row">
+    <button onclick="renderOptionCards('optionCardContainer')">Show All Cards</button>
+    <button onclick="stackCards(['buy_call'])">Buy Call</button>
+    <button onclick="stackCards(['sell_put'])">Sell Put</button>
+    <button onclick="stackCards(['sell_call', 'buy_call'])">Credit Spread</button>
+    <button onclick="stackCards(['sell_put', 'buy_put'])">Put Credit Spread</button>
+    <button onclick="stackCards(['sell_call', 'buy_call', 'sell_put', 'buy_put'])">Iron Condor</button>
+  </div>
+
+  <div id="optionCardContainer"></div>
+
+  <script src="ghostrade_option_cards.js"></script>
+
+</body>
+</html>                                                                                                                                                                                                                                                                                    

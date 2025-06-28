@@ -1,11 +1,8 @@
 {
-  "merged_at": "2025-06-03T04:33:03.114965Z",
-  "entry_count": 1,
+  "merged_at": "2025-06-04T07:22:31.689053Z",
+  "entry_count": 2,
   "logs": [
-    {
-      "timestamp": "2025-05-25T00:49:55.588555",
-      "strategy": null,
-      "reason": "No backtest results found."
-    }
+    [],
+    []
   ]
 }

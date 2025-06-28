@@ -1,37 +1,52 @@
 # === FILE: strategy_runner.py ===
 
-from trading_engine import execute_trade
+import time
+from log_trade import log_trade
+from persona_recap_speaker import speak_recap
 from cole_logger import log_info
-from cole_task_queue import add_task
 
-def run_strategy(strategy):
-    """
-    Executes the selected strategy and performs all linked actions.
-    Logs and triggers tasks based on strategy type.
-    """
-    if not strategy:
-        log_info("[Strategy Runner] ❌ No strategy provided.")
-        return
-
+def run_strategy(strategy_bundle):
     try:
-        name = strategy.get("name", "Unnamed Strategy")
-        strategy_type = strategy.get("type", "neutral")
+        # Extract fields
+        symbol = strategy_bundle.get("symbol", "AAPL")
+        strategy_name = strategy_bundle.get("name", "Unnamed Strategy")
+        price = 100.00  # Placeholder for market price
+        shares = 10
+        action = "buy"
+        persona = strategy_bundle.get("persona", "MoCash")
+        result_status = "win"
 
-        log_info(f"[Strategy Runner] 🚀 Running strategy: {name} ({strategy_type})")
+        # Log execution start
+        log_info(f"[Strategy Runner] 🛠️ Executing '{strategy_name}' on {symbol}...")
 
-        # Trigger key trade execution logic
-        execute_trade(strategy)
+        # Simulate execution time
+        time.sleep(1)
 
-        # Add post-trade tasks
-        if strategy_type == "bullish":
-            add_task("Monitor for bullish continuation")
-        elif strategy_type == "bearish":
-            add_task("Set trailing stop")
-        else:
-            add_task("General review")
+        # Log trade
+        log_trade(
+            symbol=symbol,
+            strategy=strategy_name,
+            action=action,
+            price=price,
+            shares=shares,
+            result=result_status,
+            persona=persona
+        )
 
-        # Final confirmation log
-        print(f"[Strategy Runner] Strategy execution complete: {name}")
+        # Trigger voice recap
+        speak_recap({
+            "symbol": symbol,
+            "strategy": strategy_name,
+            "action": action,
+            "price": price,
+            "shares": shares,
+            "total": price * shares,
+            "datetime": "now",
+            "persona": persona,
+            "result": result_status
+        })
+
+        log_info(f"[Strategy Runner] ✅ Strategy '{strategy_name}' complete.")
 
     except Exception as e:
-        log_info(f"[Strategy Runner] ❌ Error executing strategy: {str(e)}")
+        log_info(f"[Strategy Runner] ❌ Error during execution: {e}")

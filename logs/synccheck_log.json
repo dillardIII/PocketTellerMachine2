@@ -1,0 +1,362 @@
+[
+  {
+    "timestamp": "2025-06-04 06:59:01 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "colr_sync = \u26a0\ufe0f Delayed (31021s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 06:59:01 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ghost_sync = \u26a0\ufe0f Delayed (31021s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 06:59:01 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "recap_sync = \u26a0\ufe0f Delayed (31021s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 06:59:01 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ai_router_sync = \u26a0\ufe0f Delayed (31021s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:00:15 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "colr_sync = \u26a0\ufe0f Delayed (31095s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:00:15 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ghost_sync = \u26a0\ufe0f Delayed (31095s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:00:15 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "recap_sync = \u26a0\ufe0f Delayed (31095s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:00:15 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ai_router_sync = \u26a0\ufe0f Delayed (31095s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:01:02 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "colr_sync = \u26a0\ufe0f Delayed (31142s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:01:02 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ghost_sync = \u26a0\ufe0f Delayed (31142s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:01:02 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "recap_sync = \u26a0\ufe0f Delayed (31142s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:01:02 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ai_router_sync = \u26a0\ufe0f Delayed (31142s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:01:44 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "colr_sync = \u26a0\ufe0f Delayed (31184s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:01:44 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ghost_sync = \u26a0\ufe0f Delayed (31184s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:01:44 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "recap_sync = \u26a0\ufe0f Delayed (31184s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:01:44 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ai_router_sync = \u26a0\ufe0f Delayed (31184s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:02:24 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "colr_sync = \u26a0\ufe0f Delayed (31224s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:02:24 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ghost_sync = \u26a0\ufe0f Delayed (31224s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:02:24 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "recap_sync = \u26a0\ufe0f Delayed (31224s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:02:24 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ai_router_sync = \u26a0\ufe0f Delayed (31224s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:03:17 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "colr_sync = \u26a0\ufe0f Delayed (31277s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:03:17 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ghost_sync = \u26a0\ufe0f Delayed (31277s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:03:17 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "recap_sync = \u26a0\ufe0f Delayed (31277s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:03:17 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ai_router_sync = \u26a0\ufe0f Delayed (31277s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:04:48 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "colr_sync = \u26a0\ufe0f Delayed (31368s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:04:48 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ghost_sync = \u26a0\ufe0f Delayed (31368s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:04:48 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "recap_sync = \u26a0\ufe0f Delayed (31368s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:04:48 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ai_router_sync = \u26a0\ufe0f Delayed (31368s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:05:31 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "colr_sync = \u26a0\ufe0f Delayed (31411s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:05:31 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ghost_sync = \u26a0\ufe0f Delayed (31411s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:05:31 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "recap_sync = \u26a0\ufe0f Delayed (31411s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:05:31 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ai_router_sync = \u26a0\ufe0f Delayed (31411s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:05:32 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "colr_sync = \u26a0\ufe0f Delayed (31412s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:05:32 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ghost_sync = \u26a0\ufe0f Delayed (31412s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:05:33 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "recap_sync = \u26a0\ufe0f Delayed (31413s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:05:33 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ai_router_sync = \u26a0\ufe0f Delayed (31413s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:10:37 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "colr_sync = \u26a0\ufe0f Delayed (31717s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:10:37 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ghost_sync = \u26a0\ufe0f Delayed (31717s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:10:37 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "recap_sync = \u26a0\ufe0f Delayed (31717s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:10:37 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ai_router_sync = \u26a0\ufe0f Delayed (31717s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:15:13 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "colr_sync = \u26a0\ufe0f Delayed (31993s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:15:13 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ghost_sync = \u26a0\ufe0f Delayed (31993s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:15:13 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "recap_sync = \u26a0\ufe0f Delayed (31993s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:15:13 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ai_router_sync = \u26a0\ufe0f Delayed (31993s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:15:26 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "colr_sync = \u26a0\ufe0f Delayed (32006s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:15:26 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ghost_sync = \u26a0\ufe0f Delayed (32006s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:15:26 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "recap_sync = \u26a0\ufe0f Delayed (32006s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:15:26 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ai_router_sync = \u26a0\ufe0f Delayed (32006s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:31 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "colr_sync = \u26a0\ufe0f Delayed (32071s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:31 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ghost_sync = \u26a0\ufe0f Delayed (32071s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:31 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "recap_sync = \u26a0\ufe0f Delayed (32071s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:31 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ai_router_sync = \u26a0\ufe0f Delayed (32071s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:38 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "colr_sync = \u26a0\ufe0f Delayed (32078s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:38 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ghost_sync = \u26a0\ufe0f Delayed (32078s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:38 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "recap_sync = \u26a0\ufe0f Delayed (32078s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:38 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ai_router_sync = \u26a0\ufe0f Delayed (32078s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:52 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "colr_sync = \u26a0\ufe0f Delayed (32092s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:52 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ghost_sync = \u26a0\ufe0f Delayed (32092s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:52 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "recap_sync = \u26a0\ufe0f Delayed (32092s ago)"
+  },
+  {
+    "timestamp": "2025-06-04 07:16:52 UTC",
+    "level": "info",
+    "source": "SyncCheck",
+    "message": "ai_router_sync = \u26a0\ufe0f Delayed (32092s ago)"
+  }
+]

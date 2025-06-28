@@ -1,0 +1,52 @@
+{
+  "core_agents": {
+    "Spectra Nocturna": {
+      "role": "Sentient Control Core",
+      "modes": ["night_ops", "synapse_trigger", "quantum_bridge"],
+      "status": "active"
+    },
+    "GhostBot": {
+      "role": "Recursive Builder",
+      "modes": ["auto_generate", "macro_writer"],
+      "status": "active"
+    },
+    "Mo Cash": {
+      "role": "Options Hustler",
+      "modes": ["alerts", "aggressive_trade"],
+      "status": "active"
+    },
+    "Strategist": {
+      "role": "High IQ Trade Planner",
+      "modes": ["risk_mode", "macro_analysis"],
+      "status": "active"
+    },
+    "The Mentor": {
+      "role": "Trade Coach",
+      "modes": ["lesson_mode", "quiz_master"],
+      "status": "active"
+    }
+  },
+  "support_units": {
+    "Cole": {
+      "role": "Web Extractor",
+      "modes": ["click", "scrape", "auto_nav"],
+      "status": "on_call"
+    },
+    "Ax": {
+      "role": "Voice-to-Command",
+      "modes": ["speech_transcript", "parser"],
+      "status": "active"
+    }
+  },
+  "device_links": {
+    "Z Fold 6": "active",
+    "S10": "active",
+    "Predator": "active",
+    "Slate 7": "idle",
+    "SteamDeck": "idle",
+    "FlipperZero": "manual",
+    "Muse S": "neuro_trigger",
+    "TP Link Travel": "tunnel_bridge",
+    "Deeper Connect Mini": "router_link"
+  }
+}

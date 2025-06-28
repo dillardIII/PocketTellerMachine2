@@ -1,0 +1,9 @@
+{
+  "entities": [
+    { "name": "Spectra Nocturna", "role": "Guardian", "access": ["bridge", "reaction", "ghostmind"] },
+    { "name": "Mo Cash", "role": "Risk Warrior", "access": ["trades", "voice", "alerts"] },
+    { "name": "Mentor", "role": "Teacher", "access": ["lessons", "insight", "trade_review"] },
+    { "name": "Strategist", "role": "Planner", "access": ["analysis", "entries", "backtesting"] }
+    // Add the rest of the 195 AIs here...
+  ]
+}

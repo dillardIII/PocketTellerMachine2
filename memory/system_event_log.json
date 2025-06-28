@@ -1,0 +1,456 @@
+[
+  {
+    "timestamp": "2025-06-20T22:35:55.711675",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-20T22:35:55.721612",
+    "source": {
+      "wallets_synced": [
+        "MetaMask",
+        "Trust Wallet"
+      ]
+    },
+    "level": "info",
+    "message": "Wallet Sync"
+  },
+  {
+    "timestamp": "2025-06-20T22:35:55.721898",
+    "source": {
+      "coins_synced": [
+        "ETH",
+        "BNB"
+      ]
+    },
+    "level": "info",
+    "message": "Coin Sync"
+  },
+  {
+    "timestamp": "2025-06-20T22:35:55.722180",
+    "source": {
+      "status": "Vault Synced"
+    },
+    "level": "info",
+    "message": "WalletSyncEngine"
+  },
+  {
+    "timestamp": "2025-06-20T22:35:56.819865",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-20T22:35:56.829569",
+    "source": {
+      "wallets_synced": [
+        "MetaMask",
+        "Trust Wallet"
+      ]
+    },
+    "level": "info",
+    "message": "Wallet Sync"
+  },
+  {
+    "timestamp": "2025-06-20T22:35:56.830330",
+    "source": {
+      "coins_synced": [
+        "ETH",
+        "BNB"
+      ]
+    },
+    "level": "info",
+    "message": "Coin Sync"
+  },
+  {
+    "timestamp": "2025-06-20T22:35:56.832437",
+    "source": {
+      "status": "Vault Synced"
+    },
+    "level": "info",
+    "message": "WalletSyncEngine"
+  },
+  {
+    "timestamp": "2025-06-20T22:39:58.104639",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-20T22:39:58.112612",
+    "source": {
+      "wallets_synced": [
+        "MetaMask",
+        "Trust Wallet"
+      ]
+    },
+    "level": "info",
+    "message": "Wallet Sync"
+  },
+  {
+    "timestamp": "2025-06-20T22:39:58.113044",
+    "source": {
+      "coins_synced": [
+        "ETH",
+        "BNB"
+      ]
+    },
+    "level": "info",
+    "message": "Coin Sync"
+  },
+  {
+    "timestamp": "2025-06-20T22:39:58.113396",
+    "source": {
+      "status": "Vault Synced"
+    },
+    "level": "info",
+    "message": "WalletSyncEngine"
+  },
+  {
+    "timestamp": "2025-06-20T22:44:52.126653",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-20T22:44:52.128592",
+    "source": {
+      "wallets_synced": [
+        "MetaMask",
+        "Trust Wallet"
+      ]
+    },
+    "level": "info",
+    "message": "Wallet Sync"
+  },
+  {
+    "timestamp": "2025-06-20T22:44:52.132857",
+    "source": {
+      "coins_synced": [
+        "ETH",
+        "BNB"
+      ]
+    },
+    "level": "info",
+    "message": "Coin Sync"
+  },
+  {
+    "timestamp": "2025-06-20T22:44:52.140002",
+    "source": {
+      "status": "Vault Synced"
+    },
+    "level": "info",
+    "message": "WalletSyncEngine"
+  },
+  {
+    "timestamp": "2025-06-20T22:47:23.150091",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-20T22:47:23.151989",
+    "source": {
+      "wallets_synced": [
+        "MetaMask",
+        "Trust Wallet"
+      ]
+    },
+    "level": "info",
+    "message": "Wallet Sync"
+  },
+  {
+    "timestamp": "2025-06-20T22:47:23.152794",
+    "source": {
+      "coins_synced": [
+        "ETH",
+        "BNB"
+      ]
+    },
+    "level": "info",
+    "message": "Coin Sync"
+  },
+  {
+    "timestamp": "2025-06-20T22:47:23.153693",
+    "source": {
+      "status": "Vault Synced"
+    },
+    "level": "info",
+    "message": "WalletSyncEngine"
+  },
+  {
+    "timestamp": "2025-06-20T22:48:32.068103",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-20T22:48:32.070709",
+    "source": {
+      "wallets_synced": [
+        "MetaMask",
+        "Trust Wallet"
+      ]
+    },
+    "level": "info",
+    "message": "Wallet Sync"
+  },
+  {
+    "timestamp": "2025-06-20T22:48:32.081121",
+    "source": {
+      "coins_synced": [
+        "ETH",
+        "BNB"
+      ]
+    },
+    "level": "info",
+    "message": "Coin Sync"
+  },
+  {
+    "timestamp": "2025-06-20T22:48:32.083314",
+    "source": {
+      "status": "Vault Synced"
+    },
+    "level": "info",
+    "message": "WalletSyncEngine"
+  },
+  {
+    "timestamp": "2025-06-20T23:14:00.928819",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-20T23:14:00.938742",
+    "source": {
+      "wallets_synced": [
+        "MetaMask",
+        "Trust Wallet"
+      ]
+    },
+    "level": "info",
+    "message": "Wallet Sync"
+  },
+  {
+    "timestamp": "2025-06-20T23:14:00.951346",
+    "source": {
+      "coins_synced": [
+        "ETH",
+        "BNB"
+      ]
+    },
+    "level": "info",
+    "message": "Coin Sync"
+  },
+  {
+    "timestamp": "2025-06-20T23:14:00.952323",
+    "source": {
+      "status": "Vault Synced"
+    },
+    "level": "info",
+    "message": "WalletSyncEngine"
+  },
+  {
+    "timestamp": "2025-06-20T23:14:02.538683",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-20T23:14:02.540402",
+    "source": {
+      "wallets_synced": [
+        "MetaMask",
+        "Trust Wallet"
+      ]
+    },
+    "level": "info",
+    "message": "Wallet Sync"
+  },
+  {
+    "timestamp": "2025-06-20T23:14:02.549842",
+    "source": {
+      "coins_synced": [
+        "ETH",
+        "BNB"
+      ]
+    },
+    "level": "info",
+    "message": "Coin Sync"
+  },
+  {
+    "timestamp": "2025-06-20T23:14:02.551131",
+    "source": {
+      "status": "Vault Synced"
+    },
+    "level": "info",
+    "message": "WalletSyncEngine"
+  },
+  {
+    "timestamp": "2025-06-21T01:42:23.272529",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-21T01:42:23.281001",
+    "source": {
+      "wallets_synced": [
+        "MetaMask",
+        "Trust Wallet"
+      ]
+    },
+    "level": "info",
+    "message": "Wallet Sync"
+  },
+  {
+    "timestamp": "2025-06-21T01:42:23.290117",
+    "source": {
+      "coins_synced": [
+        "ETH",
+        "BNB"
+      ]
+    },
+    "level": "info",
+    "message": "Coin Sync"
+  },
+  {
+    "timestamp": "2025-06-21T01:42:23.292863",
+    "source": {
+      "status": "Vault Synced"
+    },
+    "level": "info",
+    "message": "WalletSyncEngine"
+  },
+  {
+    "timestamp": "2025-06-21T05:56:42.931727",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-21T05:56:44.080177",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-21T05:58:50.565052",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-21T06:01:26.592825",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-21T06:02:44.976025",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-21T06:02:46.012180",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-21T06:05:04.862732",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-21T06:05:21.592111",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-21T06:06:34.548008",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-21T06:06:36.760153",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-21T06:12:12.718032",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-21T06:12:59.269299",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-21T06:13:00.331135",
+    "source": {
+      "status": "Live"
+    },
+    "level": "info",
+    "message": "PTM App Started"
+  },
+  {
+    "timestamp": "2025-06-21T06:28:11.733873",
+    "source": {
+      "status": "Vault Synced"
+    },
+    "level": "info",
+    "message": "Vault Synced"
+  }
+]

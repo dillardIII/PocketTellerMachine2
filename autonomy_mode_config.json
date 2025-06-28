@@ -1,0 +1,11 @@
+{
+  "mode": "full_auto",  
+  "allowed_modes": ["manual", "semi_auto", "full_auto", "safe_ai"],
+  "fail_safe": {
+    "max_drawdown_pct": 10,
+    "max_daily_loss": 1000,
+    "max_consecutive_losses": 5
+  },
+  "voice_alert_on_shutdown": true,
+  "logging_level": "verbose"
+}

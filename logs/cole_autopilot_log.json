@@ -1,0 +1,668 @@
+[
+  {
+    "timestamp": "2025-06-04 06:46:30 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 06:52:52 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 06:52:52 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 06:52:52 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 06:52:52 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 06:53:55 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 06:53:55 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 06:53:55 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 06:53:55 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 06:55:48 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 06:55:48 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Credit Spread | Reason: Stable volatility and predictable price channel."
+  },
+  {
+    "timestamp": "2025-06-04 06:55:48 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 06:55:48 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 06:55:48 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Credit Spread | Reason: Stable volatility and predictable price channel."
+  },
+  {
+    "timestamp": "2025-06-04 06:55:48 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 06:57:21 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 06:57:21 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Covered Call | Reason: Mild bullish bias detected."
+  },
+  {
+    "timestamp": "2025-06-04 06:57:21 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 06:57:21 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 06:57:21 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Credit Spread | Reason: Stable volatility and predictable price channel."
+  },
+  {
+    "timestamp": "2025-06-04 06:57:21 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 06:59:01 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 06:59:01 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Credit Spread | Reason: Stable volatility and predictable price channel."
+  },
+  {
+    "timestamp": "2025-06-04 06:59:01 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 06:59:01 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 06:59:01 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Covered Call | Reason: Mild bullish bias detected."
+  },
+  {
+    "timestamp": "2025-06-04 06:59:01 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:00:15 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:00:15 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Credit Spread | Reason: Stable volatility and predictable price channel."
+  },
+  {
+    "timestamp": "2025-06-04 07:00:15 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:00:15 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:00:15 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Iron Condor | Reason: Market is range-bound."
+  },
+  {
+    "timestamp": "2025-06-04 07:00:15 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:01:02 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:01:02 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Credit Spread | Reason: Stable volatility and predictable price channel."
+  },
+  {
+    "timestamp": "2025-06-04 07:01:02 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:01:02 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:01:02 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Iron Condor | Reason: Market is range-bound."
+  },
+  {
+    "timestamp": "2025-06-04 07:01:02 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:01:44 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:01:44 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Credit Spread | Reason: Stable volatility and predictable price channel."
+  },
+  {
+    "timestamp": "2025-06-04 07:01:44 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:01:44 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:01:44 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Credit Spread | Reason: Stable volatility and predictable price channel."
+  },
+  {
+    "timestamp": "2025-06-04 07:01:44 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:02:23 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:02:24 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Credit Spread | Reason: Stable volatility and predictable price channel."
+  },
+  {
+    "timestamp": "2025-06-04 07:02:24 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:02:24 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:02:24 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Covered Call | Reason: Mild bullish bias detected."
+  },
+  {
+    "timestamp": "2025-06-04 07:02:24 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:03:17 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:03:17 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Iron Condor | Reason: Market is range-bound."
+  },
+  {
+    "timestamp": "2025-06-04 07:03:17 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:03:17 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:03:17 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Credit Spread | Reason: Stable volatility and predictable price channel."
+  },
+  {
+    "timestamp": "2025-06-04 07:03:17 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:04:48 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:04:48 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Credit Spread | Reason: Stable volatility and predictable price channel."
+  },
+  {
+    "timestamp": "2025-06-04 07:04:48 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:04:48 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:04:48 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Credit Spread | Reason: Stable volatility and predictable price channel."
+  },
+  {
+    "timestamp": "2025-06-04 07:04:48 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:05:31 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:05:31 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Iron Condor | Reason: Market is range-bound."
+  },
+  {
+    "timestamp": "2025-06-04 07:05:31 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:05:31 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:05:31 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Iron Condor | Reason: Market is range-bound."
+  },
+  {
+    "timestamp": "2025-06-04 07:05:31 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:05:32 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:05:32 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Credit Spread | Reason: Stable volatility and predictable price channel."
+  },
+  {
+    "timestamp": "2025-06-04 07:05:33 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:05:33 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:05:33 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Credit Spread | Reason: Stable volatility and predictable price channel."
+  },
+  {
+    "timestamp": "2025-06-04 07:05:33 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:10:37 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:10:37 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Credit Spread | Reason: Stable volatility and predictable price channel."
+  },
+  {
+    "timestamp": "2025-06-04 07:10:37 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:10:37 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:10:37 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Iron Condor | Reason: Market is range-bound."
+  },
+  {
+    "timestamp": "2025-06-04 07:10:37 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:15:13 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:15:13 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Covered Call | Reason: Mild bullish bias detected."
+  },
+  {
+    "timestamp": "2025-06-04 07:15:13 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:15:13 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:15:13 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Covered Call | Reason: Mild bullish bias detected."
+  },
+  {
+    "timestamp": "2025-06-04 07:15:13 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:15:26 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:15:26 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Credit Spread | Reason: Stable volatility and predictable price channel."
+  },
+  {
+    "timestamp": "2025-06-04 07:15:26 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:15:26 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:15:26 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Iron Condor | Reason: Market is range-bound."
+  },
+  {
+    "timestamp": "2025-06-04 07:15:26 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:16:31 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:16:31 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Iron Condor | Reason: Market is range-bound."
+  },
+  {
+    "timestamp": "2025-06-04 07:16:32 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:16:32 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:16:32 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Credit Spread | Reason: Stable volatility and predictable price channel."
+  },
+  {
+    "timestamp": "2025-06-04 07:16:32 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:16:38 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:16:38 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Credit Spread | Reason: Stable volatility and predictable price channel."
+  },
+  {
+    "timestamp": "2025-06-04 07:16:38 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:16:38 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:16:38 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Credit Spread | Reason: Stable volatility and predictable price channel."
+  },
+  {
+    "timestamp": "2025-06-04 07:16:38 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:16:52 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:16:52 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Credit Spread | Reason: Stable volatility and predictable price channel."
+  },
+  {
+    "timestamp": "2025-06-04 07:16:52 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  },
+  {
+    "timestamp": "2025-06-04 07:16:52 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\ud83e\udde0 Starting autopilot decision cycle..."
+  },
+  {
+    "timestamp": "2025-06-04 07:16:52 UTC",
+    "level": "info",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Strategy: Credit Spread | Reason: Stable volatility and predictable price channel."
+  },
+  {
+    "timestamp": "2025-06-04 07:16:52 UTC",
+    "level": "success",
+    "source": "Cole Autopilot",
+    "message": "\u2705 Autopilot cycle completed."
+  }
+]

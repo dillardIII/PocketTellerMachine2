@@ -1,42 +1,42 @@
-# file_integrity_checker.py – Scans PTM system for file/import mismatches
+# === FILE: file_integrity_checker.py ===
+# 🔒 File Integrity Checker – Validates each incoming file’s SHA-256 before install.
 
 import os
+import hashlib
 
-EXPECTED_FILES = {
-    "cole_live_injector.py": ["inject_cole"],
-    "core_memory_logger.py": ["log_core_memory"],
-    "boot_autonomy.py": ["Flask", "CORS", "status_api"],
-    "autonomy_lock_key.py": ["MemoryKernel", "SelfHealingWatcher", "VPSBridge"],
-    "token_fetcher_bot.py": ["TokenFetcherBot"],
-}
+BRIDGE_FOLDER = "bridge/outbox"
+HASH_FILE = "bridge/expected_files.json"
 
-def validate_file_structure(base_path="."):
-    print("[FileChecker] 🔎 Scanning file structure for inconsistencies...\n")
-    missing_files = []
-    mismatch_alerts = []
+def compute_sha256(filepath):
+    sha256 = hashlib.sha256()
+    try:
+        with open(filepath, "rb") as f:
+            for block in iter(lambda: f.read(4096), b""):
+                sha256.update(block)
+        return sha256.hexdigest()
+    except Exception as e:
+        print(f"[IntegrityChecker] ❌ Failed to compute hash for {filepath}: {e}")
+        return None
 
-    for filename, expected_imports in EXPECTED_FILES.items():
-        filepath = os.path.join(base_path, filename)
-        if not os.path.exists(filepath):
-            print(f"❌ Missing file: {filename}")
-            missing_files.append(filename)
-            continue
+def check_integrity():
+    if not os.path.exists(HASH_FILE):
+        print("[IntegrityChecker] ⚠️ No expected_files.json found.")
+        return
 
-        with open(filepath, "r", encoding="utf-8") as f:
-            content = f.read()
+    try:
+        with open(HASH_FILE, "r") as f:
+            expected = json.load(f)
 
-        for imp in expected_imports:
-            if imp not in content:
-                mismatch_alerts.append(f"⚠️ '{imp}' not found in {filename}")
-    
-    if not missing_files and not mismatch_alerts:
-        print("✅ All expected files and imports are present.\n")
-    else:
-        print("\n--- VALIDATION REPORT ---")
-        for alert in mismatch_alerts:
-            print(alert)
-        if missing_files:
-            print("\nMissing files:", ", ".join(missing_files))
+        for file, expected_hash in expected.items():
+            path = os.path.join(BRIDGE_FOLDER, file)
+            if not os.path.isfile(path):
+                continue
 
-if __name__ == "__main__":
-    validate_file_structure()
+            actual_hash = compute_sha256(path)
+            if actual_hash != expected_hash:
+                print(f"[IntegrityChecker] ❌ Mismatch: {file}")
+            else:
+                print(f"[IntegrityChecker] ✅ Verified: {file}")
+
+    except Exception as e:
+        print(f"[IntegrityChecker] ❌ Error during check: {e}")

@@ -1,0 +1,158 @@
+<!-- strategy_council_mode.html -->
+<!-- Council Debate Interface for PTM Decision Autonomy System -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Strategy Council Mode</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background-color: #0d1117;
+            color: #ffffff;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #161b22;
+            padding: 1rem;
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: bold;
+            border-bottom: 1px solid #30363d;
+        }
+
+        .council {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+            padding: 1.5rem;
+        }
+
+        .persona-card {
+            background-color: #21262d;
+            border: 2px solid #30363d;
+            border-radius: 10px;
+            padding: 1rem;
+            box-shadow: 0 0 10px #00000088;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .persona-card:hover {
+            transform: scale(1.03);
+            border-color: #58a6ff;
+        }
+
+        .persona-name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .persona-quote {
+            font-style: italic;
+            margin-bottom: 0.75rem;
+        }
+
+        .vote {
+            font-size: 1.1rem;
+            padding: 0.5rem;
+            background-color: #238636;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 0.5rem;
+        }
+
+        .vote.reject {
+            background-color: #da3633;
+        }
+
+        .summary {
+            text-align: center;
+            margin: 1rem;
+            font-size: 1.4rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">🧠 Trade Strategy Council</div>
+
+    <div class="summary" id="voteSummary">
+        Evaluating Council Votes...
+    </div>
+
+    <div class="council" id="councilContainer">
+        <!-- Personas dynamically inserted here -->
+    </div>
+
+    <script>
+        const councilVotes = [
+            {
+                name: "Mo Cash",
+                quote: "We goin’ in heavy on this breakout! 💸",
+                vote: "Approve"
+            },
+            {
+                name: "The Mentor",
+                quote: "Patience is key. But this setup earns my nod.",
+                vote: "Approve"
+            },
+            {
+                name: "Drill Instructor",
+                quote: "If this trade fails, you're doing 100 push-ups. Approved.",
+                vote: "Approve"
+            },
+            {
+                name: "The Strategist",
+                quote: "Risk profile is clean. Tactical advantage: confirmed.",
+                vote: "Approve"
+            },
+            {
+                name: "The Shadow",
+                quote: "Too many eyes on this play. I reject it.",
+                vote: "Reject"
+            }
+        ];
+
+        function renderCouncil() {
+            const container = document.getElementById("councilContainer");
+            let approveCount = 0;
+
+            councilVotes.forEach(p => {
+                const card = document.createElement("div");
+                card.className = "persona-card";
+
+                const name = document.createElement("div");
+                name.className = "persona-name";
+                name.innerText = p.name;
+
+                const quote = document.createElement("div");
+                quote.className = "persona-quote";
+                quote.innerText = `"${p.quote}"`;
+
+                const vote = document.createElement("div");
+                vote.className = "vote" + (p.vote === "Reject" ? " reject" : "");
+                vote.innerText = p.vote;
+
+                if (p.vote === "Approve") approveCount++;
+
+                card.appendChild(name);
+                card.appendChild(quote);
+                card.appendChild(vote);
+                container.appendChild(card);
+            });
+
+            const result = document.getElementById("voteSummary");
+            const pass = approveCount >= Math.ceil(councilVotes.length / 2);
+            result.innerText = pass ? "✅ Trade Approved by Council" : "❌ Trade Rejected by Council";
+        }
+
+        renderCouncil();
+    </script>
+
+</body>
+</html>

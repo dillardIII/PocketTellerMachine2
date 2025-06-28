@@ -1,0 +1,42 @@
+<!-- === FILE: voice_console.html === -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voice Console</title>
+    <style>
+        body {
+            background: #000;
+            color: #0ff;
+            font-family: 'Courier New', monospace;
+            padding: 20px;
+        }
+        button {
+            margin: 10px;
+            padding: 12px;
+            background: #0ff;
+            color: #000;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎧 Voice Command Console</h1>
+
+    <button onclick="triggerLiveSummary()">🔊 Generate Live Voice Summary</button>
+    <button onclick="playSummary()">▶️ Play Latest Summary</button>
+
+    <script>
+        function triggerLiveSummary() {
+            fetch("/wallet_summary_live").then(res => res.text()).then(alert);
+        }
+
+        function playSummary() {
+            const audio = new Audio("/wallet_summary_voice");
+            audio.play();
+        }
+    </script>
+</body>
+</html>

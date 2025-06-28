@@ -1,0 +1,78 @@
+[
+  {
+    "timestamp": "2025-06-18T13:30:02Z",
+    "topic": "AAPL breakout strategy",
+    "conversation": [
+      {
+        "speaker": "The Strategist",
+        "to": "Mo Cash",
+        "relation": "challenges",
+        "message": "Let’s see who nails the better entry point, Mo Cash."
+      },
+      {
+        "speaker": "Mo Cash",
+        "to": "The Strategist",
+        "relation": "competes_with",
+        "message": "I already did. That candle’s mine. You’re late."
+      },
+      {
+        "speaker": "The Mentor",
+        "to": "All",
+        "relation": "guides",
+        "message": "Focus. A clear breakout above volume with confluence is what matters."
+      },
+      {
+        "speaker": "The Shadow",
+        "to": "Mo Cash",
+        "relation": "undermines",
+        "message": "That setup’s too obvious. It’s bait. Everyone’s watching it."
+      },
+      {
+        "speaker": "Drill Instructor",
+        "to": "All",
+        "relation": "corrects",
+        "message": "Eyes front! We follow confirmation, not emotion."
+      }
+    ],
+    "verdict": "approved",
+    "votes": {
+      "Mo Cash": "approve",
+      "The Mentor": "approve",
+      "Drill Instructor": "approve",
+      "The Strategist": "approve",
+      "The Shadow": "reject"
+    }
+  },
+  {
+    "timestamp": "2025-06-17T15:01:00Z",
+    "topic": "TSLA put credit spread",
+    "conversation": [
+      {
+        "speaker": "The Shadow",
+        "to": "Drill Instructor",
+        "relation": "avoids",
+        "message": "You charge too fast. Volatility’s saying chill."
+      },
+      {
+        "speaker": "Drill Instructor",
+        "to": "The Shadow",
+        "relation": "warns",
+        "message": "And you vanish when pressure hits. Grow a spine."
+      },
+      {
+        "speaker": "The Mentor",
+        "to": "All",
+        "relation": "balances",
+        "message": "Both of you — this one’s about risk spread and theta edge."
+      }
+    ],
+    "verdict": "rejected",
+    "votes": {
+      "Mo Cash": "reject",
+      "The Mentor": "reject",
+      "Drill Instructor": "approve",
+      "The Strategist": "reject",
+      "The Shadow": "reject"
+    }
+  }
+]

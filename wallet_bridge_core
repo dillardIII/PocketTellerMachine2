@@ -1,0 +1,86 @@
+# wallet_bridge_core.py
+# Purpose: API Mesh Bridge between PTM and all connected wallet/broker APIs
+# Supports Tradier, Robinhood, Coinbase, Public, Cash App, and more
+
+import json
+import os
+from utils.logger import log_event
+from connectors.tradier import TradierAPI
+from connectors.robinhood import RobinhoodAPI
+from connectors.coinbase import CoinbaseAPI
+from connectors.publicapp import PublicAPI
+from connectors.cashapp import CashAppAPI
+
+class WalletBridgeCore:
+    def __init__(self):
+        self.connected_services = {}
+        self.load_config()
+
+    def load_config(self):
+        """Load wallet config and API keys from local memory."""
+        if os.path.exists("memory/wallet_config.json"):
+            with open("memory/wallet_config.json", "r") as f:
+                config = json.load(f)
+                self.connect_all(config)
+        else:
+            log_event("Wallet Config Missing", {"status": "init_skipped"})
+
+    def connect_all(self, config):
+        """Attempt connection to all listed wallets/brokers."""
+        for service, creds in config.items():
+            self.connect_to_service(service, creds)
+
+    def connect_to_service(self, service, creds):
+        """Connect to individual service using credentials."""
+        try:
+            if service == "tradier":
+                self.connected_services["tradier"] = TradierAPI(creds)
+            elif service == "robinhood":
+                self.connected_services["robinhood"] = RobinhoodAPI(creds)
+            elif service == "coinbase":
+                self.connected_services["coinbase"] = CoinbaseAPI(creds)
+            elif service == "public":
+                self.connected_services["public"] = PublicAPI(creds)
+            elif service == "cashapp":
+                self.connected_services["cashapp"] = CashAppAPI(creds)
+
+            log_event("Wallet Connected", {"service": service, "status": "connected"})
+        except Exception as e:
+            log_event("Wallet Connection Failed", {"service": service, "error": str(e)})
+
+    def get_balances(self):
+        """Fetch balances from all connected wallets."""
+        balances = {}
+        for service, api in self.connected_services.items():
+            try:
+                balances[service] = api.get_balance()
+            except Exception as e:
+                balances[service] = {"error": str(e)}
+        return balances
+
+    def place_trade(self, service, trade_data):
+        """Send a trade to the selected platform."""
+        if service in self.connected_services:
+            try:
+                return self.connected_services[service].place_order(trade_data)
+            except Exception as e:
+                return {"status": "fail", "error": str(e)}
+        else:
+            return {"status": "fail", "error": "service_not_connected"}
+
+    def sync_all(self):
+        """Force sync across all connected wallets for real-time data."""
+        synced = {}
+        for service, api in self.connected_services.items():
+            try:
+                synced[service] = api.sync()
+            except Exception as e:
+                synced[service] = {"error": str(e)}
+        return synced
+
+
+# --- Manual Test Call ---
+if __name__ == "__main__":
+    bridge = WalletBridgeCore()
+    balances = bridge.get_balances()
+    print(json.dumps(balances, indent=4))

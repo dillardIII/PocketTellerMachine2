@@ -1,0 +1,20 @@
+[
+    {
+        "timestamp": 1749047455.7852795,
+        "source": "MoCash",
+        "type": "Crash",
+        "message": "Simulated failure in trade logic."
+    },
+    {
+        "timestamp": 1749047466.6486135,
+        "source": "MoCash",
+        "type": "Crash",
+        "message": "Simulated failure in trade logic."
+    },
+    {
+        "timestamp": 1749047478.2964816,
+        "source": "MoCash",
+        "type": "Crash",
+        "message": "Simulated failure in trade logic."
+    }
+]

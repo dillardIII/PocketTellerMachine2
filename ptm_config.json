@@ -1,0 +1,5 @@
+{
+  "autonomy_mode": "eternal",
+  "core_lock": true,
+  "self_repair": true
+}

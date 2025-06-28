@@ -1,0 +1,10 @@
+{
+  "app.py": "PLACEHOLDER_HASH_APP",
+  "strategy_api.py": "PLACEHOLDER_HASH_STRATEGY",
+  "ghost_intel_feed.py": "PLACEHOLDER_HASH_INTEL",
+  "heartbeat_writer.py": "PLACEHOLDER_HASH_HEART",
+  "command_listener.py": "PLACEHOLDER_HASH_COMMAND",
+  "reflex_engine.py": "PLACEHOLDER_HASH_REFLEX",
+  "sweep_handler.py": "PLACEHOLDER_HASH_SWEEP",
+  "inspector_bot.py": "PLACEHOLDER_HASH_INSPECTOR"
+}

@@ -1,38 +1,28 @@
-import random
-from datetime import datetime
-import pytz
+# === FILE: trade_executor.py ===
+# 🛠️ Trade Executor – Handles live/paper trade simulation or dispatch
 
-CENTRAL_TZ = pytz.timezone("US/Central")
+from utils.logger import log_event
+from soul_reactor import SoulReactor
 
-def get_local_time():
-    return datetime.now(CENTRAL_TZ)
+class TradeExecutor:
+    def __init__(self):
+        self.soul = SoulReactor()
 
-TRADES_FILE = "data/trades.json"
+    def execute_trade(self, symbol, strategy, confidence):
+        action = "BUY" if confidence > 0.8 else "WAIT"
+        result = "WIN" if confidence > 0.85 else "LOSS"
+        emotion = "Focused" if confidence > 0.75 else "Cautious"
+        reason = f"Auto-picked by MarketScannerCore"
 
-# === Paper Trade Executor ===
-def execute_paper_trade(ticker, strategy):
-    # Simulate trade outcome for now (real logic can use price comparison later)
-    result = random.choice(["win", "loss"])
-    profit = round(random.uniform(10, 100), 2) if result == "win" else round(random.uniform(-100, -10), 2)
+        self.soul.process_trade_result(
+            symbol=symbol,
+            action=action,
+            result=result,
+            emotion=emotion,
+            confidence=confidence,
+            reason=reason,
+            strategy=strategy
+        )
+        log_event(f"🚀 Executed {action} on {symbol} via {strategy} [{result}]")
 
-    trade = {
-        "timestamp": datetime.now().isoformat(),
-        "ticker": ticker,
-        "strategy": strategy,
-        "result": result,
-        "profit": profit
-    }
-
-    # Save to trades.json
-    try:
-        with open(TRADES_FILE, "r") as f:
-            data = json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        data = []
-
-    data.append(trade)
-
-    with open(TRADES_FILE, "w") as f:
-        json.dump(data, f, indent=2)
-
-    return trade
+# Used by scanner

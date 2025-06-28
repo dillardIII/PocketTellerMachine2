@@ -1,244 +1,124 @@
 # === FILE: cole_brain.py ===
+"""
+Cole Brain:
+Hybrid memory engine for PTM systems.
+Tracks long-term and short-term memory, emotional states, strategies, and decision logs.
+"""
 
 import os
 import json
-import datetime
-import traceback
-from datetime import datetime as dt
-from cole_gpt_advisor import ask_gpt
-from price_data import get_current_rsi, get_historical_prices
-from indicators import calc_rsi
-from cole_logger import log_info
-from cole_task_queue import add_task
+from datetime import datetime
+from pathlib import Path
+from cole_logger import log_event
 
-# === File Paths ===
-MEMORY_FILE = "data/cole_memory.json"
-RESULTS_FILE = "data/cole_results.json"
-GOALS_FILE = "data/cole_goals.json"
-BRAIN_LOG_FILE = "data/cole_brain_log.json"
-BRAIN_MEMORY_FILE = "data/cole_brain_memory.json"
-RULES_FILE = "data/cole_brain_trading_rules.json"
-MEMORY_LOG_PATH = "memory/cole_memory_log.json"
-STRATEGY_LOG_PATH = "memory/cole_strategy_log.json"
+# === Paths ===
+BRAIN_FILE = "data/cole_brain.json"          # Short-term memory
+MEMORY_FILE = "data/cole_memory.json"        # Long-term event memory
+Path("data").mkdir(parents=True, exist_ok=True)
 
-# === Logging Brain Activity ===
-def log_brain_activity(prompt, response):
-    os.makedirs("data", exist_ok=True)
-    log_entry = {
-        "timestamp": dt.now().isoformat(),
-        "prompt": prompt,
-        "response": response
-    }
-    logs = []
-    if os.path.exists(BRAIN_LOG_FILE):
+# === Timestamp generator ===
+def get_timestamp():
+    return datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+
+# === SHORT-TERM STATE ===
+def load_brain():
+    if os.path.exists(BRAIN_FILE):
         try:
-            with open(BRAIN_LOG_FILE, "r") as f:
-                logs = json.load(f)
-        except:
-            logs = []
-    logs.append(log_entry)
-    with open(BRAIN_LOG_FILE, "w") as f:
-        json.dump(logs[-500:], f, indent=2)
-    print(f"[Cole Brain] Logged brain activity.")
-
-# === Memory Handling ===
-def load_memory():
-    if not os.path.exists(MEMORY_FILE):
-        return {}
-    with open(MEMORY_FILE, "r") as f:
-        return json.load(f)
-
-def save_memory(memory):
-    with open(MEMORY_FILE, "w") as f:
-        json.dump(memory, f, indent=2)
-
-def load_brain_memory():
-    if not os.path.exists(BRAIN_MEMORY_FILE):
-        return {}
-    with open(BRAIN_MEMORY_FILE, "r") as f:
-        return json.load(f)
-
-def save_brain_memory(memory_data):
-    with open(BRAIN_MEMORY_FILE, "w") as f:
-        json.dump(memory_data, f, indent=2)
-    print("[Cole Brain] Memory updated.")
-
-# === Goals and Results ===
-def load_goals():
-    if os.path.exists(GOALS_FILE):
-        with open(GOALS_FILE, "r") as f:
-            return json.load(f)
+            with open(BRAIN_FILE, "r") as f:
+                return json.load(f)
+        except Exception:
+            return {}
     return {}
 
-def save_result(code, tag, explanation):
-    results = []
-    if os.path.exists(RESULTS_FILE):
-        with open(RESULTS_FILE, "r") as f:
-            results = json.load(f)
-    results.append({
-        "timestamp": str(datetime.datetime.now()),
-        "tag": tag,
-        "code": code,
-        "explanation": explanation
-    })
-    with open(RESULTS_FILE, "w") as f:
-        json.dump(results, f, indent=2)
+def save_brain(data):
+    with open(BRAIN_FILE, "w") as f:
+        json.dump(data, f, indent=2)
 
-# === Cole Think Engine ===
-def cole_think(prompt):
-    print(f"[Cole Brain] Thinking on prompt: {prompt}")
-    return ask_gpt(prompt)
-
-def log_brain_thought(content):
-    entry = {
-        "timestamp": dt.now().isoformat(),
-        "content": content
+def log_state(category, value):
+    brain = load_brain()
+    timestamp = get_timestamp()
+    brain[category] = {
+        "value": value,
+        "updated": timestamp
     }
+    save_brain(brain)
+    print(f"[Brain] 🧠 Logged '{category}' to state.")
 
-    brain = []
-    if os.path.exists(BRAIN_LOG_FILE):
-        try:
-            with open(BRAIN_LOG_FILE, "r") as f:
-                brain = json.load(f)
-        except:
-            brain = []
+def get_last(category):
+    brain = load_brain()
+    return brain.get(category, {}).get("value")
 
-    brain.append(entry)
-    with open(BRAIN_LOG_FILE, "w") as f:
-        json.dump(brain[-300:], f, indent=2)
+def clear_state(category=None):
+    brain = load_brain()
+    if category:
+        if category in brain:
+            del brain[category]
+            print(f"[Brain] 🧠 Cleared state: {category}")
+        else:
+            print(f"[Brain] ⚠️ Category '{category}' not found.")
+    else:
+        brain = {}
+        print("[Brain] 🧠 Full state cleared.")
+    save_brain(brain)
 
-# === Brain Trading Rules Logic ===
-def load_trading_rules():
-    if not os.path.exists(RULES_FILE):
+def get_brain_file():
+    return BRAIN_FILE
+
+# === LONG-TERM MEMORY ===
+def init_memory():
+    if not os.path.exists(MEMORY_FILE):
+        with open(MEMORY_FILE, "w") as f:
+            json.dump([], f)
+
+def load_memory():
+    try:
+        with open(MEMORY_FILE, "r") as f:
+            memory = json.load(f)
+            if not isinstance(memory, list):
+                memory = []
+            return memory
+    except Exception as e:
+        log_event("Cole Brain", f"❌ Failed to load memory: {e}", "error")
         return []
-    with open(RULES_FILE, "r") as f:
-        return json.load(f).get("rules", [])
 
-def evaluate_rsi_rule(symbol):
-    prices = get_historical_prices(symbol)
-    if not prices:
-        return False
-    rsi = calc_rsi(prices)
-    return rsi <= 30 or rsi >= 70
-
-def evaluate_strategy_rule(strategy):
-    return strategy.get("win_rate", 0) >= 65
-
-def evaluate_trend_alignment(strategy, trend):
-    return (strategy.get("type") == "bullish" and trend == "up") or (strategy.get("type") == "bearish" and trend == "down")
-
-def is_excluded_from_watchlist(symbol, exclusion_list):
-    return symbol in exclusion_list
-
-def brain_allows_trade(symbol, strategy, trend, exclusion_list=[]):
-    rules = load_trading_rules()
-    for rule in rules:
-        logic = rule.get("logic", {})
-        rule_type = logic.get("type")
-
-        if rule_type == "indicator_check" and not evaluate_rsi_rule(symbol):
-            return False
-        if rule_type == "strategy_filter" and not evaluate_strategy_rule(strategy):
-            return False
-        if rule_type == "trend_confirmation" and not evaluate_trend_alignment(strategy, trend):
-            return False
-        if rule_type == "watchlist_filter" and is_excluded_from_watchlist(symbol, exclusion_list):
-            return False
-    return True
-
-# === Brain Health Check ===
-def check_brain_health():
-    required_files = [
-        "data/cole_brain_log.json",
-        "data/strategy_scores.json",
-        "data/phase.json"
-    ]
-    for file in required_files:
-        if not os.path.exists(file):
-            with open(file, "w") as f:
-                json.dump([], f)
-            print(f"[Cole Brain] Created missing file: {file}")
-
-# === Phase & Strategy Memory Logger ===
-def log_phase_and_strategy(phase, strategy):
+def log_memory(tag, data):
+    memory = load_memory()
     entry = {
-        "timestamp": datetime.datetime.utcnow().isoformat(),
-        "phase": phase,
-        "strategy": strategy
+        "timestamp": datetime.utcnow().isoformat(),
+        "tag": tag,
+        "data": data
     }
-
+    memory.append(entry)
     try:
-        if os.path.exists(BRAIN_LOG_FILE):
-            with open(BRAIN_LOG_FILE, "r") as f:
-                data = json.load(f)
-        else:
-            data = []
-
-        data.append(entry)
-        with open(BRAIN_LOG_FILE, "w") as f:
-            json.dump(data[-500:], f, indent=2)
-
-        print(f"[Cole Brain] Memory logged: phase={phase}, strategy={strategy}")
-    except Exception as e:
-        print(f"[Cole Brain] Failed to log: {e}")
-
-# === Log memory events ===
-def log_memory(key, value):
-    try:
-        memory = {}
-        if os.path.exists(MEMORY_LOG_PATH):
-            with open(MEMORY_LOG_PATH) as f:
-                memory = json.load(f)
-        timestamp = str(datetime.datetime.now())
-        memory[timestamp] = {key: value}
-        os.makedirs(os.path.dirname(MEMORY_LOG_PATH), exist_ok=True)
-        with open(MEMORY_LOG_PATH, "w") as f:
+        with open(MEMORY_FILE, "w") as f:
             json.dump(memory, f, indent=2)
-        print(f"[Cole Brain] Memory logged: {key}={value}")
+        log_event("Cole Brain", f"🧠 Logged memory: [{tag}] {str(data)[:100]}", "info")
     except Exception as e:
-        print(f"[Cole Brain] ERROR logging memory: {str(e)}")
+        log_event("Cole Brain", f"💾 Write error: {e}", "error")
 
-# === Log strategy reasons ===
-def log_strategy_reason(strategy, reason):
-    try:
-        log = {}
-        if os.path.exists(STRATEGY_LOG_PATH):
-            with open(STRATEGY_LOG_PATH) as f:
-                log = json.load(f)
-        timestamp = str(datetime.datetime.now())
-        log[timestamp] = {
-            "strategy": strategy,
-            "reason": reason
-        }
-        os.makedirs(os.path.dirname(STRATEGY_LOG_PATH), exist_ok=True)
-        with open(STRATEGY_LOG_PATH, "w") as f:
-            json.dump(log, f, indent=2)
-        print(f"[Cole Brain] Strategy reason logged: {strategy} — {reason}")
-    except Exception as e:
-        print(f"[Cole Brain] ERROR logging strategy reason: {str(e)}")
+def get_latest_memory(tag=None):
+    memory = load_memory()
+    if not memory:
+        return None
+    if tag:
+        for entry in reversed(memory):
+            if entry["tag"] == tag:
+                return entry
+        return None
+    return memory[-1]
 
-# === Autopilot Decision Loop ===
-def run_decision_cycle():
-    log_info("[Cole Brain] Starting decision cycle...")
-    default_tasks = [
-        "Scan for RSI reversals",
-        "Check Bollinger Band breaches",
-        "Update EMA crossover table",
-        "Review Congress-based signals",
-        "Adjust risk weights on all trades"
-    ]
-    for task in default_tasks:
-        added = add_task(task)
-        if added:
-            log_info(f"[Cole Brain] Task added to queue: {task}")
-        else:
-            log_info(f"[Cole Brain] Task skipped or duplicate: {task}")
-    log_info("[Cole Brain] Decision cycle complete.")
+def wipe_memory():
+    with open(MEMORY_FILE, "w") as f:
+        json.dump([], f)
+    log_event("Cole Brain", "🧽 All memory wiped.", "warning")
 
-# === CLI Test ===
+def get_memory_file():
+    return MEMORY_FILE
+
+# === Local Test ===
 if __name__ == "__main__":
-    test_code = cole_think("Write API that returns system health on /api/system_health")
-    print(test_code)
-    test_strategy = { "name": "Covered Call", "type": "bullish", "win_rate": 72 }
-    allowed = brain_allows_trade("AAPL", test_strategy, "up", exclusion_list=["TSLA"])
-    print("Trade Approved:", allowed)
+    init_memory()
+    log_memory("strategy", {"name": "MACD", "score": 95})
+    log_state("market_phase", "bullish")
+    print("Latest Memory:", get_latest_memory("strategy"))
+    print("Current Brain:", load_brain())

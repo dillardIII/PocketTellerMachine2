@@ -1,0 +1,2822 @@
+[
+  {
+    "time": "2025-06-28T07:56:03.538772",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_0.py"
+  },
+  {
+    "time": "2025-06-28T07:56:03.541832",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043316.py"
+  },
+  {
+    "time": "2025-06-28T07:56:03.542786",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052017.py"
+  },
+  {
+    "time": "2025-06-28T07:56:03.543272",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051417.py"
+  },
+  {
+    "time": "2025-06-28T07:56:03.543690",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042716.py"
+  },
+  {
+    "time": "2025-06-28T07:56:03.544957",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045235.py"
+  },
+  {
+    "time": "2025-06-28T07:56:47.309459",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_1.py"
+  },
+  {
+    "time": "2025-06-28T07:56:47.310189",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053935.py"
+  },
+  {
+    "time": "2025-06-28T07:56:47.310654",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052135.py"
+  },
+  {
+    "time": "2025-06-28T07:56:47.311285",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043035.py"
+  },
+  {
+    "time": "2025-06-28T07:56:47.312298",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040535.py"
+  },
+  {
+    "time": "2025-06-28T07:56:47.313818",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043035.py"
+  },
+  {
+    "time": "2025-06-28T07:57:27.595355",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_2.py"
+  },
+  {
+    "time": "2025-06-28T07:57:27.596104",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044617.py"
+  },
+  {
+    "time": "2025-06-28T07:57:27.596767",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050035.py"
+  },
+  {
+    "time": "2025-06-28T07:57:27.597355",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051217.py"
+  },
+  {
+    "time": "2025-06-28T07:57:27.611985",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045517.py"
+  },
+  {
+    "time": "2025-06-28T07:57:27.625282",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045335.py"
+  },
+  {
+    "time": "2025-06-28T07:58:03.247621",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_3.py"
+  },
+  {
+    "time": "2025-06-28T07:58:03.248537",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044817.py"
+  },
+  {
+    "time": "2025-06-28T07:58:03.255895",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033034.py"
+  },
+  {
+    "time": "2025-06-28T07:58:03.264437",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035235.py"
+  },
+  {
+    "time": "2025-06-28T07:58:03.267812",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033234.py"
+  },
+  {
+    "time": "2025-06-28T07:58:03.270001",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041135.py"
+  },
+  {
+    "time": "2025-06-28T07:58:41.430520",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_4.py"
+  },
+  {
+    "time": "2025-06-28T07:58:41.431346",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034734.py"
+  },
+  {
+    "time": "2025-06-28T07:58:41.473250",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_054117.py"
+  },
+  {
+    "time": "2025-06-28T07:58:41.478969",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033034.py"
+  },
+  {
+    "time": "2025-06-28T07:58:41.503566",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052117.py"
+  },
+  {
+    "time": "2025-06-28T07:58:41.508314",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042135.py"
+  },
+  {
+    "time": "2025-06-28T07:59:23.980018",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_5.py"
+  },
+  {
+    "time": "2025-06-28T07:59:23.980918",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035235.py"
+  },
+  {
+    "time": "2025-06-28T07:59:23.989027",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_032634.py"
+  },
+  {
+    "time": "2025-06-28T07:59:23.996930",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034916.py"
+  },
+  {
+    "time": "2025-06-28T07:59:23.997873",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035816.py"
+  },
+  {
+    "time": "2025-06-28T07:59:24.000313",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053417.py"
+  },
+  {
+    "time": "2025-06-28T08:00:01.726664",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_6.py"
+  },
+  {
+    "time": "2025-06-28T08:00:01.727428",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041416.py"
+  },
+  {
+    "time": "2025-06-28T08:00:01.735395",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051817.py"
+  },
+  {
+    "time": "2025-06-28T08:00:01.743417",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_032734.py"
+  },
+  {
+    "time": "2025-06-28T08:00:01.744301",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042235.py"
+  },
+  {
+    "time": "2025-06-28T08:00:01.746937",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045935.py"
+  },
+  {
+    "time": "2025-06-28T08:00:49.718632",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_7.py"
+  },
+  {
+    "time": "2025-06-28T08:00:49.719403",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050617.py"
+  },
+  {
+    "time": "2025-06-28T08:00:49.720551",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034516.py"
+  },
+  {
+    "time": "2025-06-28T08:00:49.722889",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043617.py"
+  },
+  {
+    "time": "2025-06-28T08:00:49.723816",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044517.py"
+  },
+  {
+    "time": "2025-06-28T08:00:49.726342",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045817.py"
+  },
+  {
+    "time": "2025-06-28T08:01:28.383490",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_8.py"
+  },
+  {
+    "time": "2025-06-28T08:01:28.384361",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035216.py"
+  },
+  {
+    "time": "2025-06-28T08:01:28.393567",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044217.py"
+  },
+  {
+    "time": "2025-06-28T08:01:28.394322",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045917.py"
+  },
+  {
+    "time": "2025-06-28T08:01:28.397020",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044217.py"
+  },
+  {
+    "time": "2025-06-28T08:01:28.397879",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044217.py"
+  },
+  {
+    "time": "2025-06-28T08:02:05.047925",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_9.py"
+  },
+  {
+    "time": "2025-06-28T08:02:05.049198",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050835.py"
+  },
+  {
+    "time": "2025-06-28T08:02:05.050409",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043216.py"
+  },
+  {
+    "time": "2025-06-28T08:02:05.053315",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044917.py"
+  },
+  {
+    "time": "2025-06-28T08:02:05.054477",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034834.py"
+  },
+  {
+    "time": "2025-06-28T08:02:05.055572",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042035.py"
+  },
+  {
+    "time": "2025-06-28T08:02:41.591353",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_10.py"
+  },
+  {
+    "time": "2025-06-28T08:02:41.592361",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053117.py"
+  },
+  {
+    "time": "2025-06-28T08:02:41.603334",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042335.py"
+  },
+  {
+    "time": "2025-06-28T08:02:41.606373",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041735.py"
+  },
+  {
+    "time": "2025-06-28T08:02:41.619175",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050817.py"
+  },
+  {
+    "time": "2025-06-28T08:02:41.622203",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045817.py"
+  },
+  {
+    "time": "2025-06-28T08:03:24.528686",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_11.py"
+  },
+  {
+    "time": "2025-06-28T08:03:24.529879",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034834.py"
+  },
+  {
+    "time": "2025-06-28T08:03:24.541388",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_054117.py"
+  },
+  {
+    "time": "2025-06-28T08:03:24.542522",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041235.py"
+  },
+  {
+    "time": "2025-06-28T08:03:24.558961",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052117.py"
+  },
+  {
+    "time": "2025-06-28T08:03:24.560121",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051035.py"
+  },
+  {
+    "time": "2025-06-28T08:04:09.900927",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_12.py"
+  },
+  {
+    "time": "2025-06-28T08:04:09.901927",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034716.py"
+  },
+  {
+    "time": "2025-06-28T08:04:09.909593",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040235.py"
+  },
+  {
+    "time": "2025-06-28T08:04:09.918233",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034634.py"
+  },
+  {
+    "time": "2025-06-28T08:04:09.928419",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052335.py"
+  },
+  {
+    "time": "2025-06-28T08:04:09.929465",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051935.py"
+  },
+  {
+    "time": "2025-06-28T08:04:50.643344",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_13.py"
+  },
+  {
+    "time": "2025-06-28T08:04:50.644722",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043016.py"
+  },
+  {
+    "time": "2025-06-28T08:04:50.652631",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_032834.py"
+  },
+  {
+    "time": "2025-06-28T08:04:50.662445",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035235.py"
+  },
+  {
+    "time": "2025-06-28T08:04:50.672200",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041816.py"
+  },
+  {
+    "time": "2025-06-28T08:04:50.674822",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_054017.py"
+  },
+  {
+    "time": "2025-06-28T08:05:25.318109",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_14.py"
+  },
+  {
+    "time": "2025-06-28T08:05:25.318975",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045935.py"
+  },
+  {
+    "time": "2025-06-28T08:05:25.328986",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042435.py"
+  },
+  {
+    "time": "2025-06-28T08:05:25.338352",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045135.py"
+  },
+  {
+    "time": "2025-06-28T08:05:25.341099",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042116.py"
+  },
+  {
+    "time": "2025-06-28T08:05:25.343616",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053717.py"
+  },
+  {
+    "time": "2025-06-28T08:06:07.231694",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_15.py"
+  },
+  {
+    "time": "2025-06-28T08:06:07.233121",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044835.py"
+  },
+  {
+    "time": "2025-06-28T08:06:07.237350",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040135.py"
+  },
+  {
+    "time": "2025-06-28T08:06:07.239373",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040635.py"
+  },
+  {
+    "time": "2025-06-28T08:06:07.242888",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044417.py"
+  },
+  {
+    "time": "2025-06-28T08:06:07.244710",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042635.py"
+  },
+  {
+    "time": "2025-06-28T08:06:54.940235",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_16.py"
+  },
+  {
+    "time": "2025-06-28T08:06:54.941546",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053535.py"
+  },
+  {
+    "time": "2025-06-28T08:06:54.963459",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053317.py"
+  },
+  {
+    "time": "2025-06-28T08:06:54.964724",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045835.py"
+  },
+  {
+    "time": "2025-06-28T08:06:54.967817",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052617.py"
+  },
+  {
+    "time": "2025-06-28T08:06:54.969365",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053417.py"
+  },
+  {
+    "time": "2025-06-28T08:07:32.178916",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_17.py"
+  },
+  {
+    "time": "2025-06-28T08:07:32.180025",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041016.py"
+  },
+  {
+    "time": "2025-06-28T08:07:32.192258",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040616.py"
+  },
+  {
+    "time": "2025-06-28T08:07:32.193582",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044735.py"
+  },
+  {
+    "time": "2025-06-28T08:07:32.196628",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034134.py"
+  },
+  {
+    "time": "2025-06-28T08:07:32.197799",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045635.py"
+  },
+  {
+    "time": "2025-06-28T08:08:07.178254",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_18.py"
+  },
+  {
+    "time": "2025-06-28T08:08:07.180006",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053917.py"
+  },
+  {
+    "time": "2025-06-28T08:08:07.181470",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035835.py"
+  },
+  {
+    "time": "2025-06-28T08:08:07.183103",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033534.py"
+  },
+  {
+    "time": "2025-06-28T08:08:07.184256",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042635.py"
+  },
+  {
+    "time": "2025-06-28T08:08:07.185388",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033816.py"
+  },
+  {
+    "time": "2025-06-28T08:08:51.984762",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_19.py"
+  },
+  {
+    "time": "2025-06-28T08:08:51.986426",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043216.py"
+  },
+  {
+    "time": "2025-06-28T08:08:51.995386",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_032734.py"
+  },
+  {
+    "time": "2025-06-28T08:08:51.997933",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043035.py"
+  },
+  {
+    "time": "2025-06-28T08:08:52.001727",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040335.py"
+  },
+  {
+    "time": "2025-06-28T08:08:52.004412",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041835.py"
+  },
+  {
+    "time": "2025-06-28T08:09:30.468909",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_20.py"
+  },
+  {
+    "time": "2025-06-28T08:09:30.470487",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042616.py"
+  },
+  {
+    "time": "2025-06-28T08:09:30.487836",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051617.py"
+  },
+  {
+    "time": "2025-06-28T08:09:30.491216",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053135.py"
+  },
+  {
+    "time": "2025-06-28T08:09:30.492703",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043335.py"
+  },
+  {
+    "time": "2025-06-28T08:09:30.496523",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053735.py"
+  },
+  {
+    "time": "2025-06-28T08:10:04.397302",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_21.py"
+  },
+  {
+    "time": "2025-06-28T08:10:04.399015",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040735.py"
+  },
+  {
+    "time": "2025-06-28T08:10:04.409990",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034516.py"
+  },
+  {
+    "time": "2025-06-28T08:10:04.413226",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033934.py"
+  },
+  {
+    "time": "2025-06-28T08:10:04.414460",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034316.py"
+  },
+  {
+    "time": "2025-06-28T08:10:04.416298",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_032734.py"
+  },
+  {
+    "time": "2025-06-28T08:10:46.362985",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_22.py"
+  },
+  {
+    "time": "2025-06-28T08:10:46.364806",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042835.py"
+  },
+  {
+    "time": "2025-06-28T08:10:46.380994",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053035.py"
+  },
+  {
+    "time": "2025-06-28T08:10:46.383342",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034716.py"
+  },
+  {
+    "time": "2025-06-28T08:10:46.386846",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034234.py"
+  },
+  {
+    "time": "2025-06-28T08:10:46.388932",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045317.py"
+  },
+  {
+    "time": "2025-06-28T08:11:38.140397",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_23.py"
+  },
+  {
+    "time": "2025-06-28T08:11:38.142206",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045535.py"
+  },
+  {
+    "time": "2025-06-28T08:11:38.148825",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045435.py"
+  },
+  {
+    "time": "2025-06-28T08:11:38.151830",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043335.py"
+  },
+  {
+    "time": "2025-06-28T08:11:38.153431",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033134.py"
+  },
+  {
+    "time": "2025-06-28T08:11:38.154746",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041935.py"
+  },
+  {
+    "time": "2025-06-28T08:12:19.937036",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_24.py"
+  },
+  {
+    "time": "2025-06-28T08:12:19.938752",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035435.py"
+  },
+  {
+    "time": "2025-06-28T08:12:19.949013",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/strategy_alpha.py"
+  },
+  {
+    "time": "2025-06-28T08:12:19.952825",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042935.py"
+  },
+  {
+    "time": "2025-06-28T08:12:19.954697",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035116.py"
+  },
+  {
+    "time": "2025-06-28T08:12:19.956798",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035835.py"
+  },
+  {
+    "time": "2025-06-28T08:13:00.004390",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_25.py"
+  },
+  {
+    "time": "2025-06-28T08:13:00.006278",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034916.py"
+  },
+  {
+    "time": "2025-06-28T08:13:00.010059",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040735.py"
+  },
+  {
+    "time": "2025-06-28T08:13:00.014222",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042416.py"
+  },
+  {
+    "time": "2025-06-28T08:13:00.016212",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051035.py"
+  },
+  {
+    "time": "2025-06-28T08:13:00.020756",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045635.py"
+  },
+  {
+    "time": "2025-06-28T08:13:41.099675",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_26.py"
+  },
+  {
+    "time": "2025-06-28T08:13:41.101515",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040335.py"
+  },
+  {
+    "time": "2025-06-28T08:13:41.105172",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043216.py"
+  },
+  {
+    "time": "2025-06-28T08:13:41.108247",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042535.py"
+  },
+  {
+    "time": "2025-06-28T08:13:41.110532",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050735.py"
+  },
+  {
+    "time": "2025-06-28T08:13:41.113686",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051617.py"
+  },
+  {
+    "time": "2025-06-28T08:14:23.263586",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_27.py"
+  },
+  {
+    "time": "2025-06-28T08:14:23.265277",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051435.py"
+  },
+  {
+    "time": "2025-06-28T08:14:23.267318",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042435.py"
+  },
+  {
+    "time": "2025-06-28T08:14:23.271078",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041135.py"
+  },
+  {
+    "time": "2025-06-28T08:14:23.273014",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041435.py"
+  },
+  {
+    "time": "2025-06-28T08:14:23.277957",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052917.py"
+  },
+  {
+    "time": "2025-06-28T08:15:21.772540",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_28.py"
+  },
+  {
+    "time": "2025-06-28T08:15:21.774606",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044035.py"
+  },
+  {
+    "time": "2025-06-28T08:15:21.784224",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053635.py"
+  },
+  {
+    "time": "2025-06-28T08:15:21.786291",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033734.py"
+  },
+  {
+    "time": "2025-06-28T08:15:21.788378",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050235.py"
+  },
+  {
+    "time": "2025-06-28T08:15:21.792007",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051735.py"
+  },
+  {
+    "time": "2025-06-28T08:16:00.710246",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_29.py"
+  },
+  {
+    "time": "2025-06-28T08:16:00.712209",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043935.py"
+  },
+  {
+    "time": "2025-06-28T08:16:00.725129",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033434.py"
+  },
+  {
+    "time": "2025-06-28T08:16:00.727401",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051335.py"
+  },
+  {
+    "time": "2025-06-28T08:16:00.730719",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040216.py"
+  },
+  {
+    "time": "2025-06-28T08:16:00.734459",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040435.py"
+  },
+  {
+    "time": "2025-06-28T08:16:40.288847",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_30.py"
+  },
+  {
+    "time": "2025-06-28T08:16:40.294863",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043216.py"
+  },
+  {
+    "time": "2025-06-28T08:16:40.315898",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034534.py"
+  },
+  {
+    "time": "2025-06-28T08:16:40.318911",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053835.py"
+  },
+  {
+    "time": "2025-06-28T08:16:40.325228",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040735.py"
+  },
+  {
+    "time": "2025-06-28T08:16:40.327828",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052735.py"
+  },
+  {
+    "time": "2025-06-28T08:17:18.422126",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_31.py"
+  },
+  {
+    "time": "2025-06-28T08:17:18.424253",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045135.py"
+  },
+  {
+    "time": "2025-06-28T08:17:18.426748",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040235.py"
+  },
+  {
+    "time": "2025-06-28T08:17:18.429056",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051717.py"
+  },
+  {
+    "time": "2025-06-28T08:17:18.431446",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_032834.py"
+  },
+  {
+    "time": "2025-06-28T08:17:18.433562",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053517.py"
+  },
+  {
+    "time": "2025-06-28T08:17:53.322221",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_32.py"
+  },
+  {
+    "time": "2025-06-28T08:17:53.324178",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050017.py"
+  },
+  {
+    "time": "2025-06-28T08:17:53.326174",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042816.py"
+  },
+  {
+    "time": "2025-06-28T08:17:53.328803",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035816.py"
+  },
+  {
+    "time": "2025-06-28T08:17:53.332222",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053617.py"
+  },
+  {
+    "time": "2025-06-28T08:17:53.339505",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043517.py"
+  },
+  {
+    "time": "2025-06-28T08:18:36.533329",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_33.py"
+  },
+  {
+    "time": "2025-06-28T08:18:36.535071",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033534.py"
+  },
+  {
+    "time": "2025-06-28T08:18:36.546965",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053117.py"
+  },
+  {
+    "time": "2025-06-28T08:18:36.549143",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051435.py"
+  },
+  {
+    "time": "2025-06-28T08:18:36.552954",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053117.py"
+  },
+  {
+    "time": "2025-06-28T08:18:36.554847",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052117.py"
+  },
+  {
+    "time": "2025-06-28T08:19:15.413254",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_34.py"
+  },
+  {
+    "time": "2025-06-28T08:19:15.414844",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051835.py"
+  },
+  {
+    "time": "2025-06-28T08:19:15.426501",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035935.py"
+  },
+  {
+    "time": "2025-06-28T08:19:15.431900",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034534.py"
+  },
+  {
+    "time": "2025-06-28T08:19:15.437756",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035216.py"
+  },
+  {
+    "time": "2025-06-28T08:19:15.441456",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042716.py"
+  },
+  {
+    "time": "2025-06-28T08:19:56.828913",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_35.py"
+  },
+  {
+    "time": "2025-06-28T08:19:56.830709",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051717.py"
+  },
+  {
+    "time": "2025-06-28T08:19:56.846579",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051535.py"
+  },
+  {
+    "time": "2025-06-28T08:19:56.850223",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043717.py"
+  },
+  {
+    "time": "2025-06-28T08:19:56.853812",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040316.py"
+  },
+  {
+    "time": "2025-06-28T08:19:56.859774",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033834.py"
+  },
+  {
+    "time": "2025-06-28T08:20:33.188578",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_36.py"
+  },
+  {
+    "time": "2025-06-28T08:20:33.191153",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033534.py"
+  },
+  {
+    "time": "2025-06-28T08:20:33.205450",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044035.py"
+  },
+  {
+    "time": "2025-06-28T08:20:33.208608",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045117.py"
+  },
+  {
+    "time": "2025-06-28T08:20:33.211718",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052335.py"
+  },
+  {
+    "time": "2025-06-28T08:20:33.215023",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045817.py"
+  },
+  {
+    "time": "2025-06-28T08:21:10.849293",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_37.py"
+  },
+  {
+    "time": "2025-06-28T08:21:10.851178",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040416.py"
+  },
+  {
+    "time": "2025-06-28T08:21:10.863215",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040316.py"
+  },
+  {
+    "time": "2025-06-28T08:21:10.866956",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041335.py"
+  },
+  {
+    "time": "2025-06-28T08:21:10.871904",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050135.py"
+  },
+  {
+    "time": "2025-06-28T08:21:10.879499",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050017.py"
+  },
+  {
+    "time": "2025-06-28T08:21:50.132731",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_38.py"
+  },
+  {
+    "time": "2025-06-28T08:21:50.135080",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041616.py"
+  },
+  {
+    "time": "2025-06-28T08:21:50.147406",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050435.py"
+  },
+  {
+    "time": "2025-06-28T08:21:50.151032",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053335.py"
+  },
+  {
+    "time": "2025-06-28T08:21:50.155029",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034116.py"
+  },
+  {
+    "time": "2025-06-28T08:21:50.158597",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041735.py"
+  },
+  {
+    "time": "2025-06-28T08:22:36.372851",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_39.py"
+  },
+  {
+    "time": "2025-06-28T08:22:36.374731",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050935.py"
+  },
+  {
+    "time": "2025-06-28T08:22:36.378684",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042935.py"
+  },
+  {
+    "time": "2025-06-28T08:22:36.383712",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040616.py"
+  },
+  {
+    "time": "2025-06-28T08:22:36.388500",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043016.py"
+  },
+  {
+    "time": "2025-06-28T08:22:36.394439",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034634.py"
+  },
+  {
+    "time": "2025-06-28T08:23:22.329504",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_40.py"
+  },
+  {
+    "time": "2025-06-28T08:23:22.333857",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052735.py"
+  },
+  {
+    "time": "2025-06-28T08:23:22.348323",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044835.py"
+  },
+  {
+    "time": "2025-06-28T08:23:22.355246",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034016.py"
+  },
+  {
+    "time": "2025-06-28T08:23:22.358805",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051617.py"
+  },
+  {
+    "time": "2025-06-28T08:23:22.364437",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052335.py"
+  },
+  {
+    "time": "2025-06-28T08:24:01.326398",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_41.py"
+  },
+  {
+    "time": "2025-06-28T08:24:01.328238",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_054117.py"
+  },
+  {
+    "time": "2025-06-28T08:24:01.334107",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033234.py"
+  },
+  {
+    "time": "2025-06-28T08:24:01.338433",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053335.py"
+  },
+  {
+    "time": "2025-06-28T08:24:01.342418",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044417.py"
+  },
+  {
+    "time": "2025-06-28T08:24:01.349479",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043735.py"
+  },
+  {
+    "time": "2025-06-28T08:24:41.155237",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_42.py"
+  },
+  {
+    "time": "2025-06-28T08:24:41.157102",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043617.py"
+  },
+  {
+    "time": "2025-06-28T08:24:41.161587",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042116.py"
+  },
+  {
+    "time": "2025-06-28T08:24:41.167367",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051035.py"
+  },
+  {
+    "time": "2025-06-28T08:24:41.170820",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042616.py"
+  },
+  {
+    "time": "2025-06-28T08:24:41.176152",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052117.py"
+  },
+  {
+    "time": "2025-06-28T08:25:30.323670",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_43.py"
+  },
+  {
+    "time": "2025-06-28T08:25:30.325667",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053417.py"
+  },
+  {
+    "time": "2025-06-28T08:25:30.336036",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041635.py"
+  },
+  {
+    "time": "2025-06-28T08:25:30.340462",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045217.py"
+  },
+  {
+    "time": "2025-06-28T08:25:30.344530",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052717.py"
+  },
+  {
+    "time": "2025-06-28T08:25:30.349840",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050817.py"
+  },
+  {
+    "time": "2025-06-28T08:26:12.074929",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_44.py"
+  },
+  {
+    "time": "2025-06-28T08:26:12.077788",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041216.py"
+  },
+  {
+    "time": "2025-06-28T08:26:12.080704",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050835.py"
+  },
+  {
+    "time": "2025-06-28T08:26:12.083496",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045535.py"
+  },
+  {
+    "time": "2025-06-28T08:26:12.087464",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034134.py"
+  },
+  {
+    "time": "2025-06-28T08:26:12.090570",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053417.py"
+  },
+  {
+    "time": "2025-06-28T08:26:49.244166",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_45.py"
+  },
+  {
+    "time": "2025-06-28T08:26:49.247079",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041235.py"
+  },
+  {
+    "time": "2025-06-28T08:26:49.252801",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051435.py"
+  },
+  {
+    "time": "2025-06-28T08:26:49.258165",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034934.py"
+  },
+  {
+    "time": "2025-06-28T08:26:49.260721",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035035.py"
+  },
+  {
+    "time": "2025-06-28T08:26:49.263421",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045635.py"
+  },
+  {
+    "time": "2025-06-28T08:27:26.446290",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_46.py"
+  },
+  {
+    "time": "2025-06-28T08:27:26.448361",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051035.py"
+  },
+  {
+    "time": "2025-06-28T08:27:26.540406",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045817.py"
+  },
+  {
+    "time": "2025-06-28T08:27:26.544521",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033634.py"
+  },
+  {
+    "time": "2025-06-28T08:27:26.550593",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044317.py"
+  },
+  {
+    "time": "2025-06-28T08:27:26.553149",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034816.py"
+  },
+  {
+    "time": "2025-06-28T08:28:08.075832",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_47.py"
+  },
+  {
+    "time": "2025-06-28T08:28:08.077951",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035435.py"
+  },
+  {
+    "time": "2025-06-28T08:28:08.090318",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034016.py"
+  },
+  {
+    "time": "2025-06-28T08:28:08.094159",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053835.py"
+  },
+  {
+    "time": "2025-06-28T08:28:08.099360",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043735.py"
+  },
+  {
+    "time": "2025-06-28T08:28:08.102464",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052335.py"
+  },
+  {
+    "time": "2025-06-28T08:28:45.905933",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_48.py"
+  },
+  {
+    "time": "2025-06-28T08:28:45.908872",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044435.py"
+  },
+  {
+    "time": "2025-06-28T08:28:45.913641",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041716.py"
+  },
+  {
+    "time": "2025-06-28T08:28:45.918170",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042216.py"
+  },
+  {
+    "time": "2025-06-28T08:28:45.922302",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051717.py"
+  },
+  {
+    "time": "2025-06-28T08:28:45.935747",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035335.py"
+  },
+  {
+    "time": "2025-06-28T08:29:26.658793",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_49.py"
+  },
+  {
+    "time": "2025-06-28T08:29:26.662281",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050235.py"
+  },
+  {
+    "time": "2025-06-28T08:29:26.677469",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040335.py"
+  },
+  {
+    "time": "2025-06-28T08:29:26.682717",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042935.py"
+  },
+  {
+    "time": "2025-06-28T08:29:26.685187",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034516.py"
+  },
+  {
+    "time": "2025-06-28T08:29:26.688652",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043016.py"
+  },
+  {
+    "time": "2025-06-28T08:30:10.493116",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_50.py"
+  },
+  {
+    "time": "2025-06-28T08:30:10.497918",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042616.py"
+  },
+  {
+    "time": "2025-06-28T08:30:10.522742",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040235.py"
+  },
+  {
+    "time": "2025-06-28T08:30:10.528843",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034734.py"
+  },
+  {
+    "time": "2025-06-28T08:30:10.531612",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050617.py"
+  },
+  {
+    "time": "2025-06-28T08:30:10.534474",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035116.py"
+  },
+  {
+    "time": "2025-06-28T08:30:53.015147",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_51.py"
+  },
+  {
+    "time": "2025-06-28T08:30:53.017539",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034516.py"
+  },
+  {
+    "time": "2025-06-28T08:30:53.021659",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052317.py"
+  },
+  {
+    "time": "2025-06-28T08:30:53.024168",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050535.py"
+  },
+  {
+    "time": "2025-06-28T08:30:53.026434",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043935.py"
+  },
+  {
+    "time": "2025-06-28T08:30:53.029731",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051035.py"
+  },
+  {
+    "time": "2025-06-28T08:31:34.116946",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_52.py"
+  },
+  {
+    "time": "2025-06-28T08:31:34.119748",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053217.py"
+  },
+  {
+    "time": "2025-06-28T08:31:34.131526",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053335.py"
+  },
+  {
+    "time": "2025-06-28T08:31:34.137786",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050017.py"
+  },
+  {
+    "time": "2025-06-28T08:31:34.140354",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050835.py"
+  },
+  {
+    "time": "2025-06-28T08:31:34.143175",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053917.py"
+  },
+  {
+    "time": "2025-06-28T08:32:12.932358",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_53.py"
+  },
+  {
+    "time": "2025-06-28T08:32:12.935718",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044917.py"
+  },
+  {
+    "time": "2025-06-28T08:32:12.950396",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052317.py"
+  },
+  {
+    "time": "2025-06-28T08:32:12.955931",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041035.py"
+  },
+  {
+    "time": "2025-06-28T08:32:12.959102",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053235.py"
+  },
+  {
+    "time": "2025-06-28T08:32:12.963114",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050335.py"
+  },
+  {
+    "time": "2025-06-28T08:32:50.534265",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_54.py"
+  },
+  {
+    "time": "2025-06-28T08:32:50.537189",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040735.py"
+  },
+  {
+    "time": "2025-06-28T08:32:50.552354",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043316.py"
+  },
+  {
+    "time": "2025-06-28T08:32:50.558664",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033634.py"
+  },
+  {
+    "time": "2025-06-28T08:32:50.561616",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042116.py"
+  },
+  {
+    "time": "2025-06-28T08:32:50.567749",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044435.py"
+  },
+  {
+    "time": "2025-06-28T08:33:25.473749",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_55.py"
+  },
+  {
+    "time": "2025-06-28T08:33:25.476898",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043035.py"
+  },
+  {
+    "time": "2025-06-28T08:33:25.482779",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045317.py"
+  },
+  {
+    "time": "2025-06-28T08:33:25.488187",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035535.py"
+  },
+  {
+    "time": "2025-06-28T08:33:25.490677",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052835.py"
+  },
+  {
+    "time": "2025-06-28T08:33:25.496169",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035635.py"
+  },
+  {
+    "time": "2025-06-28T08:34:05.522690",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_56.py"
+  },
+  {
+    "time": "2025-06-28T08:34:05.527013",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044235.py"
+  },
+  {
+    "time": "2025-06-28T08:34:05.546305",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040416.py"
+  },
+  {
+    "time": "2025-06-28T08:34:05.556746",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042435.py"
+  },
+  {
+    "time": "2025-06-28T08:34:05.563519",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053335.py"
+  },
+  {
+    "time": "2025-06-28T08:34:05.569164",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050217.py"
+  },
+  {
+    "time": "2025-06-28T08:34:49.063573",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_57.py"
+  },
+  {
+    "time": "2025-06-28T08:34:49.065918",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040535.py"
+  },
+  {
+    "time": "2025-06-28T08:34:49.083214",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050135.py"
+  },
+  {
+    "time": "2025-06-28T08:34:49.089826",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_032734.py"
+  },
+  {
+    "time": "2025-06-28T08:34:49.092409",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045517.py"
+  },
+  {
+    "time": "2025-06-28T08:34:49.096653",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044035.py"
+  },
+  {
+    "time": "2025-06-28T08:35:30.540412",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_58.py"
+  },
+  {
+    "time": "2025-06-28T08:35:30.542809",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042116.py"
+  },
+  {
+    "time": "2025-06-28T08:35:30.557960",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042816.py"
+  },
+  {
+    "time": "2025-06-28T08:35:30.564289",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051117.py"
+  },
+  {
+    "time": "2025-06-28T08:35:30.567369",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053017.py"
+  },
+  {
+    "time": "2025-06-28T08:35:30.572013",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043235.py"
+  },
+  {
+    "time": "2025-06-28T08:36:14.328454",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_59.py"
+  },
+  {
+    "time": "2025-06-28T08:36:14.332073",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051717.py"
+  },
+  {
+    "time": "2025-06-28T08:36:14.335565",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050135.py"
+  },
+  {
+    "time": "2025-06-28T08:36:14.340685",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050735.py"
+  },
+  {
+    "time": "2025-06-28T08:36:14.346313",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034234.py"
+  },
+  {
+    "time": "2025-06-28T08:36:14.358180",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040316.py"
+  },
+  {
+    "time": "2025-06-28T08:36:59.680693",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_60.py"
+  },
+  {
+    "time": "2025-06-28T08:36:59.683716",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/autotest_drop_one.py"
+  },
+  {
+    "time": "2025-06-28T08:36:59.705835",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033734.py"
+  },
+  {
+    "time": "2025-06-28T08:36:59.708601",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044117.py"
+  },
+  {
+    "time": "2025-06-28T08:36:59.713817",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042516.py"
+  },
+  {
+    "time": "2025-06-28T08:36:59.719309",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035835.py"
+  },
+  {
+    "time": "2025-06-28T08:37:39.880913",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_61.py"
+  },
+  {
+    "time": "2025-06-28T08:37:39.884490",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041435.py"
+  },
+  {
+    "time": "2025-06-28T08:37:39.903747",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035035.py"
+  },
+  {
+    "time": "2025-06-28T08:37:39.907165",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044317.py"
+  },
+  {
+    "time": "2025-06-28T08:37:39.912461",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051017.py"
+  },
+  {
+    "time": "2025-06-28T08:37:39.917861",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044017.py"
+  },
+  {
+    "time": "2025-06-28T08:38:18.637541",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_62.py"
+  },
+  {
+    "time": "2025-06-28T08:38:18.640428",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052617.py"
+  },
+  {
+    "time": "2025-06-28T08:38:18.644179",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033734.py"
+  },
+  {
+    "time": "2025-06-28T08:38:18.649658",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041016.py"
+  },
+  {
+    "time": "2025-06-28T08:38:18.655233",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042235.py"
+  },
+  {
+    "time": "2025-06-28T08:38:18.662463",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041935.py"
+  },
+  {
+    "time": "2025-06-28T08:39:01.876566",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_63.py"
+  },
+  {
+    "time": "2025-06-28T08:39:01.879578",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035035.py"
+  },
+  {
+    "time": "2025-06-28T08:39:01.893529",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040316.py"
+  },
+  {
+    "time": "2025-06-28T08:39:01.898173",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050135.py"
+  },
+  {
+    "time": "2025-06-28T08:39:01.903216",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035235.py"
+  },
+  {
+    "time": "2025-06-28T08:39:01.908203",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052835.py"
+  },
+  {
+    "time": "2025-06-28T08:39:41.489133",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_64.py"
+  },
+  {
+    "time": "2025-06-28T08:39:41.491540",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051717.py"
+  },
+  {
+    "time": "2025-06-28T08:39:41.614008",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044717.py"
+  },
+  {
+    "time": "2025-06-28T08:39:41.616968",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041016.py"
+  },
+  {
+    "time": "2025-06-28T08:39:41.629363",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042416.py"
+  },
+  {
+    "time": "2025-06-28T08:39:41.633173",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033134.py"
+  },
+  {
+    "time": "2025-06-28T08:40:17.266815",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_65.py"
+  },
+  {
+    "time": "2025-06-28T08:40:17.270278",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043035.py"
+  },
+  {
+    "time": "2025-06-28T08:40:17.282926",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045035.py"
+  },
+  {
+    "time": "2025-06-28T08:40:17.286629",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050735.py"
+  },
+  {
+    "time": "2025-06-28T08:40:17.291620",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040116.py"
+  },
+  {
+    "time": "2025-06-28T08:40:17.296801",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045435.py"
+  },
+  {
+    "time": "2025-06-28T08:41:01.679589",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_66.py"
+  },
+  {
+    "time": "2025-06-28T08:41:01.684900",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053035.py"
+  },
+  {
+    "time": "2025-06-28T08:41:01.690560",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035235.py"
+  },
+  {
+    "time": "2025-06-28T08:41:01.694238",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044635.py"
+  },
+  {
+    "time": "2025-06-28T08:41:01.699167",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040535.py"
+  },
+  {
+    "time": "2025-06-28T08:41:01.704455",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034216.py"
+  },
+  {
+    "time": "2025-06-28T08:41:45.919284",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_67.py"
+  },
+  {
+    "time": "2025-06-28T08:41:45.922944",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042316.py"
+  },
+  {
+    "time": "2025-06-28T08:41:45.929517",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045635.py"
+  },
+  {
+    "time": "2025-06-28T08:41:45.932802",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040035.py"
+  },
+  {
+    "time": "2025-06-28T08:41:45.937584",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034934.py"
+  },
+  {
+    "time": "2025-06-28T08:41:45.944747",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052635.py"
+  },
+  {
+    "time": "2025-06-28T08:42:25.867358",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_68.py"
+  },
+  {
+    "time": "2025-06-28T08:42:25.870749",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051635.py"
+  },
+  {
+    "time": "2025-06-28T08:42:25.886107",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052435.py"
+  },
+  {
+    "time": "2025-06-28T08:42:25.889303",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053335.py"
+  },
+  {
+    "time": "2025-06-28T08:42:25.896203",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042735.py"
+  },
+  {
+    "time": "2025-06-28T08:42:25.901529",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033916.py"
+  },
+  {
+    "time": "2025-06-28T08:43:09.507255",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_69.py"
+  },
+  {
+    "time": "2025-06-28T08:43:09.510797",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053217.py"
+  },
+  {
+    "time": "2025-06-28T08:43:09.515566",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034434.py"
+  },
+  {
+    "time": "2025-06-28T08:43:09.521781",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_054017.py"
+  },
+  {
+    "time": "2025-06-28T08:43:09.534790",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042335.py"
+  },
+  {
+    "time": "2025-06-28T08:43:09.544169",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040016.py"
+  },
+  {
+    "time": "2025-06-28T08:43:52.571992",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_70.py"
+  },
+  {
+    "time": "2025-06-28T08:43:52.575009",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_032534.py"
+  },
+  {
+    "time": "2025-06-28T08:43:52.590224",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053917.py"
+  },
+  {
+    "time": "2025-06-28T08:43:52.593740",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044435.py"
+  },
+  {
+    "time": "2025-06-28T08:43:52.599194",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053617.py"
+  },
+  {
+    "time": "2025-06-28T08:43:52.603824",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_032634.py"
+  },
+  {
+    "time": "2025-06-28T08:44:30.497014",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_71.py"
+  },
+  {
+    "time": "2025-06-28T08:44:30.500527",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042935.py"
+  },
+  {
+    "time": "2025-06-28T08:44:30.510594",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040616.py"
+  },
+  {
+    "time": "2025-06-28T08:44:30.530084",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040816.py"
+  },
+  {
+    "time": "2025-06-28T08:44:30.536895",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/strategy_alpha.py"
+  },
+  {
+    "time": "2025-06-28T08:44:30.541310",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051017.py"
+  },
+  {
+    "time": "2025-06-28T08:45:16.274084",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_72.py"
+  },
+  {
+    "time": "2025-06-28T08:45:16.276753",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042616.py"
+  },
+  {
+    "time": "2025-06-28T08:45:16.394096",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053817.py"
+  },
+  {
+    "time": "2025-06-28T08:45:16.398641",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045717.py"
+  },
+  {
+    "time": "2025-06-28T08:45:16.403272",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034134.py"
+  },
+  {
+    "time": "2025-06-28T08:45:16.409980",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043316.py"
+  },
+  {
+    "time": "2025-06-28T08:45:58.665098",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_73.py"
+  },
+  {
+    "time": "2025-06-28T08:45:58.670098",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034934.py"
+  },
+  {
+    "time": "2025-06-28T08:45:58.685526",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053717.py"
+  },
+  {
+    "time": "2025-06-28T08:45:58.689125",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040635.py"
+  },
+  {
+    "time": "2025-06-28T08:45:58.694836",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050117.py"
+  },
+  {
+    "time": "2025-06-28T08:45:58.700021",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042216.py"
+  },
+  {
+    "time": "2025-06-28T08:46:43.017832",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_74.py"
+  },
+  {
+    "time": "2025-06-28T08:46:43.021518",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043835.py"
+  },
+  {
+    "time": "2025-06-28T08:46:43.024944",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035916.py"
+  },
+  {
+    "time": "2025-06-28T08:46:43.029335",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043535.py"
+  },
+  {
+    "time": "2025-06-28T08:46:43.034848",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035135.py"
+  },
+  {
+    "time": "2025-06-28T08:46:43.039905",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041316.py"
+  },
+  {
+    "time": "2025-06-28T08:47:22.131936",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_75.py"
+  },
+  {
+    "time": "2025-06-28T08:47:22.136172",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044635.py"
+  },
+  {
+    "time": "2025-06-28T08:47:22.153305",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051617.py"
+  },
+  {
+    "time": "2025-06-28T08:47:22.171108",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045535.py"
+  },
+  {
+    "time": "2025-06-28T08:47:22.179979",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050035.py"
+  },
+  {
+    "time": "2025-06-28T08:47:22.183871",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045717.py"
+  },
+  {
+    "time": "2025-06-28T08:48:13.442623",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_76.py"
+  },
+  {
+    "time": "2025-06-28T08:48:13.446800",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052617.py"
+  },
+  {
+    "time": "2025-06-28T08:48:13.451009",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033034.py"
+  },
+  {
+    "time": "2025-06-28T08:48:13.455303",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040416.py"
+  },
+  {
+    "time": "2025-06-28T08:48:13.460148",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034616.py"
+  },
+  {
+    "time": "2025-06-28T08:48:13.465643",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045135.py"
+  },
+  {
+    "time": "2025-06-28T08:48:48.987890",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_77.py"
+  },
+  {
+    "time": "2025-06-28T08:48:48.992515",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034134.py"
+  },
+  {
+    "time": "2025-06-28T08:48:49.006537",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052835.py"
+  },
+  {
+    "time": "2025-06-28T08:48:49.010483",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035716.py"
+  },
+  {
+    "time": "2025-06-28T08:48:49.017151",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053735.py"
+  },
+  {
+    "time": "2025-06-28T08:48:49.022117",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044317.py"
+  },
+  {
+    "time": "2025-06-28T08:49:25.998024",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_78.py"
+  },
+  {
+    "time": "2025-06-28T08:49:26.001852",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052317.py"
+  },
+  {
+    "time": "2025-06-28T08:49:26.008405",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044235.py"
+  },
+  {
+    "time": "2025-06-28T08:49:26.015210",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051435.py"
+  },
+  {
+    "time": "2025-06-28T08:49:26.023576",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042235.py"
+  },
+  {
+    "time": "2025-06-28T08:49:26.029489",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042016.py"
+  },
+  {
+    "time": "2025-06-28T08:50:10.069891",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_79.py"
+  },
+  {
+    "time": "2025-06-28T08:50:10.076102",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040735.py"
+  },
+  {
+    "time": "2025-06-28T08:50:10.094186",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050117.py"
+  },
+  {
+    "time": "2025-06-28T08:50:10.097819",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040435.py"
+  },
+  {
+    "time": "2025-06-28T08:50:10.112951",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053435.py"
+  },
+  {
+    "time": "2025-06-28T08:50:10.118774",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034016.py"
+  },
+  {
+    "time": "2025-06-28T08:50:45.181266",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_80.py"
+  },
+  {
+    "time": "2025-06-28T08:50:45.183948",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041916.py"
+  },
+  {
+    "time": "2025-06-28T08:50:45.206782",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040716.py"
+  },
+  {
+    "time": "2025-06-28T08:50:45.211173",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040416.py"
+  },
+  {
+    "time": "2025-06-28T08:50:45.217276",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040116.py"
+  },
+  {
+    "time": "2025-06-28T08:50:45.227771",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040116.py"
+  },
+  {
+    "time": "2025-06-28T08:51:20.856538",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_81.py"
+  },
+  {
+    "time": "2025-06-28T08:51:20.860793",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040435.py"
+  },
+  {
+    "time": "2025-06-28T08:51:20.867342",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_051017.py"
+  },
+  {
+    "time": "2025-06-28T08:51:20.872236",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052035.py"
+  },
+  {
+    "time": "2025-06-28T08:51:20.879185",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050935.py"
+  },
+  {
+    "time": "2025-06-28T08:51:20.884679",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043835.py"
+  },
+  {
+    "time": "2025-06-28T08:52:05.055841",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_82.py"
+  },
+  {
+    "time": "2025-06-28T08:52:05.059222",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040935.py"
+  },
+  {
+    "time": "2025-06-28T08:52:05.072141",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043116.py"
+  },
+  {
+    "time": "2025-06-28T08:52:05.078936",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044117.py"
+  },
+  {
+    "time": "2025-06-28T08:52:05.091887",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052517.py"
+  },
+  {
+    "time": "2025-06-28T08:52:05.100745",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050435.py"
+  },
+  {
+    "time": "2025-06-28T08:52:47.142285",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_83.py"
+  },
+  {
+    "time": "2025-06-28T08:52:47.145338",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043917.py"
+  },
+  {
+    "time": "2025-06-28T08:52:47.150866",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050917.py"
+  },
+  {
+    "time": "2025-06-28T08:52:47.159697",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042016.py"
+  },
+  {
+    "time": "2025-06-28T08:52:47.168390",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045317.py"
+  },
+  {
+    "time": "2025-06-28T08:52:47.177318",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042716.py"
+  },
+  {
+    "time": "2025-06-28T08:53:27.640811",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_84.py"
+  },
+  {
+    "time": "2025-06-28T08:53:27.645323",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035516.py"
+  },
+  {
+    "time": "2025-06-28T08:53:27.651181",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042235.py"
+  },
+  {
+    "time": "2025-06-28T08:53:27.660262",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_045517.py"
+  },
+  {
+    "time": "2025-06-28T08:53:27.673033",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033634.py"
+  },
+  {
+    "time": "2025-06-28T08:53:27.682529",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052417.py"
+  },
+  {
+    "time": "2025-06-28T08:54:09.460447",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_85.py"
+  },
+  {
+    "time": "2025-06-28T08:54:09.465239",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053635.py"
+  },
+  {
+    "time": "2025-06-28T08:54:09.499107",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043535.py"
+  },
+  {
+    "time": "2025-06-28T08:54:09.504672",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033334.py"
+  },
+  {
+    "time": "2025-06-28T08:54:09.512833",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033816.py"
+  },
+  {
+    "time": "2025-06-28T08:54:09.535713",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033234.py"
+  },
+  {
+    "time": "2025-06-28T08:54:45.717325",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_86.py"
+  },
+  {
+    "time": "2025-06-28T08:54:45.721053",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043535.py"
+  },
+  {
+    "time": "2025-06-28T08:54:45.736167",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040835.py"
+  },
+  {
+    "time": "2025-06-28T08:54:45.741699",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034634.py"
+  },
+  {
+    "time": "2025-06-28T08:54:45.750378",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043235.py"
+  },
+  {
+    "time": "2025-06-28T08:54:45.760568",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050235.py"
+  },
+  {
+    "time": "2025-06-28T08:55:22.295300",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_87.py"
+  },
+  {
+    "time": "2025-06-28T08:55:22.299955",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044417.py"
+  },
+  {
+    "time": "2025-06-28T08:55:22.310718",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041935.py"
+  },
+  {
+    "time": "2025-06-28T08:55:22.321131",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052235.py"
+  },
+  {
+    "time": "2025-06-28T08:55:22.324442",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035435.py"
+  },
+  {
+    "time": "2025-06-28T08:55:22.329665",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052417.py"
+  },
+  {
+    "time": "2025-06-28T08:56:06.018180",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_88.py"
+  },
+  {
+    "time": "2025-06-28T08:56:06.021627",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053835.py"
+  },
+  {
+    "time": "2025-06-28T08:56:06.030920",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040435.py"
+  },
+  {
+    "time": "2025-06-28T08:56:06.037817",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035735.py"
+  },
+  {
+    "time": "2025-06-28T08:56:06.049578",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052735.py"
+  },
+  {
+    "time": "2025-06-28T08:56:06.058789",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_040316.py"
+  },
+  {
+    "time": "2025-06-28T08:56:52.467421",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_89.py"
+  },
+  {
+    "time": "2025-06-28T08:56:52.471771",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043835.py"
+  },
+  {
+    "time": "2025-06-28T08:56:52.476925",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044517.py"
+  },
+  {
+    "time": "2025-06-28T08:56:52.486977",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034016.py"
+  },
+  {
+    "time": "2025-06-28T08:56:52.498344",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043535.py"
+  },
+  {
+    "time": "2025-06-28T08:56:52.508865",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034716.py"
+  },
+  {
+    "time": "2025-06-28T08:57:31.038413",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_90.py"
+  },
+  {
+    "time": "2025-06-28T08:57:31.047733",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_033934.py"
+  },
+  {
+    "time": "2025-06-28T08:57:31.054433",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041616.py"
+  },
+  {
+    "time": "2025-06-28T08:57:31.072923",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044035.py"
+  },
+  {
+    "time": "2025-06-28T08:57:31.088060",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_042835.py"
+  },
+  {
+    "time": "2025-06-28T08:57:31.097854",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_052717.py"
+  },
+  {
+    "time": "2025-06-28T08:58:06.167086",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_91.py"
+  },
+  {
+    "time": "2025-06-28T08:58:06.171333",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050717.py"
+  },
+  {
+    "time": "2025-06-28T08:58:06.178553",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041716.py"
+  },
+  {
+    "time": "2025-06-28T08:58:06.187689",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_053135.py"
+  },
+  {
+    "time": "2025-06-28T08:58:06.199686",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041535.py"
+  },
+  {
+    "time": "2025-06-28T08:58:06.209594",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044417.py"
+  },
+  {
+    "time": "2025-06-28T08:58:45.825715",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_92.py"
+  },
+  {
+    "time": "2025-06-28T08:58:45.830613",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_032734.py"
+  },
+  {
+    "time": "2025-06-28T08:58:45.844181",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041335.py"
+  },
+  {
+    "time": "2025-06-28T08:58:45.854943",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041116.py"
+  },
+  {
+    "time": "2025-06-28T08:58:45.871909",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_034616.py"
+  },
+  {
+    "time": "2025-06-28T08:58:45.878506",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_035535.py"
+  },
+  {
+    "time": "2025-06-28T08:59:28.561614",
+    "event": "AutoSeed",
+    "detail": "gpt_seeded_93.py"
+  },
+  {
+    "time": "2025-06-28T08:59:28.566487",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_044535.py"
+  },
+  {
+    "time": "2025-06-28T08:59:28.572057",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_043016.py"
+  },
+  {
+    "time": "2025-06-28T08:59:28.579706",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041335.py"
+  },
+  {
+    "time": "2025-06-28T08:59:28.589619",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_050635.py"
+  },
+  {
+    "time": "2025-06-28T08:59:28.604968",
+    "event": "GodHyperForge",
+    "detail": "sample_strategies/auto_strategy_20250628_041716.py"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "thread_id": "AAPL_MACD_v1",
+  "file": "AAPL_MACD_v1.py",
+  "log": [
+    {
+      "reviewer": "MoCash",
+      "version": 1,
+      "notes": "Great entry logic, but too sensitive to MACD crossovers during choppy markets."
+    },
+    {
+      "reviewer": "Mentor",
+      "version": 1,
+      "notes": "Suggest adding volume confirmation to avoid false signals."
+    },
+    {
+      "reviewer": "Strategist",
+      "version": 1,
+      "notes": "Consider using RSI < 40 to strengthen dip-buy logic."
+    }
+  ]
+}

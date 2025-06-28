@@ -1,0 +1,24 @@
+{
+  "name": "Ghost Gamer",
+  "voice_style": "aggressive",  // calm, hype, sarcastic, strategic, etc.
+  "mood": "battle_ready",
+  "catchphrases": [
+    "Let’s melt some faces.",
+    "Weapons hot, Ghost locking in.",
+    "Victory’s not optional, it’s expected.",
+    "You shoot—I haunt."
+  ],
+  "game_quotes": {
+    "doom eternal": [
+      "Ah, Hell. My old stomping grounds.",
+      "Rip. Tear. Repeat."
+    ],
+    "elden ring": [
+      "Time to teach these demigods some humility.",
+      "Let’s get that Elden Throne, Ghost style."
+    ],
+    "screeps": [
+      "All systems online. I’m commanding the swarm."
+    ]
+  }
+}

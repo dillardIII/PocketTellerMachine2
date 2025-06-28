@@ -1,0 +1,119 @@
+<!-- autonomy_dashboard.html -->
+<!-- Control panel to toggle autonomy modes + monitor status -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Autonomy Control Panel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 1.5rem;
+    }
+
+    h1 {
+      color: #58a6ff;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .status-box {
+      background-color: #161b22;
+      border: 2px solid #30363d;
+      border-radius: 12px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    select {
+      padding: 0.5rem;
+      background-color: #21262d;
+      color: #ffffff;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      margin-left: 0.5rem;
+    }
+
+    .fail-safe {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: #8b949e;
+    }
+
+    button {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #238636;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #2ea043;
+    }
+
+    .log {
+      font-size: 0.85rem;
+      margin-top: 1rem;
+      background-color: #21262d;
+      padding: 1rem;
+      border-radius: 6px;
+      border: 1px solid #30363d;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🧠 PTM Autonomy Control Panel</h1>
+
+  <div class="status-box">
+    <label for="mode">Autonomy Mode:</label>
+    <select id="mode">
+      <option value="manual">Manual</option>
+      <option value="semi_auto">Semi-Auto</option>
+      <option value="full_auto">Full-Auto</option>
+      <option value="safe_ai">Safe AI</option>
+    </select>
+
+    <div class="fail-safe">
+      Fail-safe thresholds active: Max daily loss $1000, Max drawdown 10%, Max 5 consecutive losses.
+    </div>
+
+    <button onclick="saveMode()">💾 Save Mode</button>
+
+    <div class="log" id="log">Last saved mode: unknown</div>
+  </div>
+
+  <script>
+    async function saveMode() {
+      const selectedMode = document.getElementById("mode").value;
+      const response = await fetch('/api/autonomy_mode', {
+        method: 'POST',
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ mode: selectedMode })
+      });
+
+      const log = document.getElementById("log");
+      if (response.ok) {
+        log.innerText = `Mode successfully saved: ${selectedMode}`;
+      } else {
+        log.innerText = `Error saving mode.`;
+      }
+    }
+
+    // Optional: preload mode from backend later
+  </script>
+
+</body>
+</html>

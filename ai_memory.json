@@ -1,0 +1,10 @@
+{
+    "RSI Bounce": {
+        "success": 3,
+        "fail": 0
+    },
+    "Breakout Sniper": {
+        "success": 1,
+        "fail": 2
+    }
+}

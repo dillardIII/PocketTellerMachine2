@@ -1,0 +1,534 @@
+[
+  {
+    "label": "strategy",
+    "data": {
+      "name": "news catalyst",
+      "risk": "high"
+    },
+    "timestamp": "2025-06-03T09:48:15.528855"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "momentum breakout",
+      "risk": "medium"
+    },
+    "timestamp": "2025-06-03T09:48:15.529783"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "momentum breakout",
+      "risk": "medium"
+    },
+    "timestamp": "2025-06-03T09:48:16.325392"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "timestamp": "2025-06-03T09:48:16.338816"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "momentum breakout",
+      "risk": "medium"
+    },
+    "timestamp": "2025-06-03T09:48:16.469953"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "momentum breakout",
+      "risk": "medium"
+    },
+    "timestamp": "2025-06-03T09:56:55.588532"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "timestamp": "2025-06-03T09:56:55.597374"
+  },
+  {
+    "label": "last_autopilot_trade",
+    "data": {
+      "symbol": "AAPL",
+      "strategy": "momentum breakout",
+      "action": "buy",
+      "price": 104.58,
+      "result": "win"
+    },
+    "timestamp": "2025-06-03T09:56:55.658111"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "timestamp": "2025-06-03T09:56:55.726456"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "timestamp": "2025-06-03T09:56:56.306258"
+  },
+  {
+    "label": "last_autopilot_trade",
+    "data": {
+      "symbol": "AAPL",
+      "strategy": "mean reversion",
+      "action": "sell",
+      "price": 104.67,
+      "result": "win"
+    },
+    "timestamp": "2025-06-03T09:56:56.316596"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "news catalyst",
+      "risk": "high"
+    },
+    "timestamp": "2025-06-03T09:56:56.321624"
+  },
+  {
+    "label": "last_autopilot_trade",
+    "data": {
+      "symbol": "AAPL",
+      "strategy": "news catalyst",
+      "action": "sell",
+      "price": 104.67,
+      "result": "win"
+    },
+    "timestamp": "2025-06-03T09:56:56.337399"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "timestamp": "2025-06-03T09:56:56.667589"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "timestamp": "2025-06-03T20:44:39.648558"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "timestamp": "2025-06-03T20:44:39.663062"
+  },
+  {
+    "label": "last_autopilot_trade",
+    "data": {
+      "symbol": "AAPL",
+      "strategy": "mean reversion",
+      "action": "sell",
+      "price": 103.25,
+      "result": "win"
+    },
+    "timestamp": "2025-06-03T20:44:39.668129"
+  },
+  {
+    "label": "last_autopilot_trade",
+    "data": {
+      "symbol": "AAPL",
+      "strategy": "mean reversion",
+      "action": "sell",
+      "price": 103.25,
+      "result": "win"
+    },
+    "timestamp": "2025-06-03T20:44:39.669515"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "support bounce",
+      "risk": "medium"
+    },
+    "timestamp": "2025-06-03T20:44:39.741547"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "momentum breakout",
+      "risk": "medium"
+    },
+    "timestamp": "2025-06-03T20:44:40.424394"
+  },
+  {
+    "label": "last_autopilot_trade",
+    "data": {
+      "symbol": "AAPL",
+      "strategy": "momentum breakout",
+      "action": "buy",
+      "price": 103.33,
+      "result": "win"
+    },
+    "timestamp": "2025-06-03T20:44:40.430286"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "timestamp": "2025-06-03T20:44:40.449125"
+  },
+  {
+    "label": "last_autopilot_trade",
+    "data": {
+      "symbol": "AAPL",
+      "strategy": "mean reversion",
+      "action": "sell",
+      "price": 103.33,
+      "result": "win"
+    },
+    "timestamp": "2025-06-03T20:44:40.459904"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "timestamp": "2025-06-03T20:44:40.533742"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "momentum breakout",
+      "risk": "medium"
+    },
+    "timestamp": "2025-06-03T20:45:35.090535"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "timestamp": "2025-06-03T20:45:35.098948"
+  },
+  {
+    "label": "last_autopilot_trade",
+    "data": {
+      "symbol": "AAPL",
+      "strategy": "momentum breakout",
+      "action": "buy",
+      "price": 102.92,
+      "result": "win"
+    },
+    "timestamp": "2025-06-03T20:45:35.104293"
+  },
+  {
+    "label": "last_autopilot_trade",
+    "data": {
+      "symbol": "AAPL",
+      "strategy": "mean reversion",
+      "action": "sell",
+      "price": 102.92,
+      "result": "win"
+    },
+    "timestamp": "2025-06-03T20:45:35.129394"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "support bounce",
+      "risk": "medium"
+    },
+    "timestamp": "2025-06-03T20:45:35.463659"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "timestamp": "2025-06-03T20:45:55.679583"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "timestamp": "2025-06-03T20:45:55.686642"
+  },
+  {
+    "label": "last_autopilot_trade",
+    "data": {
+      "symbol": "AAPL",
+      "strategy": "mean reversion",
+      "action": "sell",
+      "price": 104.58,
+      "result": "win"
+    },
+    "timestamp": "2025-06-03T20:45:55.697214"
+  },
+  {
+    "label": "last_autopilot_trade",
+    "data": {
+      "symbol": "AAPL",
+      "strategy": "mean reversion",
+      "action": "sell",
+      "price": 104.58,
+      "result": "win"
+    },
+    "timestamp": "2025-06-03T20:45:55.706490"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "timestamp": "2025-06-03T20:45:55.773702"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "momentum breakout",
+      "risk": "medium"
+    },
+    "timestamp": "2025-06-03T20:47:47.869184"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "timestamp": "2025-06-03T20:47:47.882219"
+  },
+  {
+    "label": "last_autopilot_trade",
+    "data": {
+      "symbol": "AAPL",
+      "strategy": "mean reversion",
+      "action": "sell",
+      "price": 103.92,
+      "result": "win"
+    },
+    "timestamp": "2025-06-03T20:47:47.891450"
+  },
+  {
+    "label": "autonomy_error",
+    "data": {
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "timestamp": "2025-06-03T20:47:47.903218"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "timestamp": "2025-06-03T20:51:56.098025"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "momentum breakout",
+      "risk": "medium"
+    },
+    "timestamp": "2025-06-03T20:51:56.109145"
+  },
+  {
+    "label": "last_autopilot_trade",
+    "data": {
+      "symbol": "AAPL",
+      "strategy": "mean reversion",
+      "action": "sell",
+      "price": 104.67,
+      "result": "win"
+    },
+    "timestamp": "2025-06-03T20:51:56.121075"
+  },
+  {
+    "label": "last_autopilot_trade",
+    "data": {
+      "symbol": "AAPL",
+      "strategy": "momentum breakout",
+      "action": "buy",
+      "price": 104.67,
+      "result": "win"
+    },
+    "timestamp": "2025-06-03T20:51:56.150012"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "momentum breakout",
+      "risk": "medium"
+    },
+    "timestamp": "2025-06-03T20:51:56.279909"
+  },
+  {
+    "label": "routed_task",
+    "data": "task",
+    "timestamp": "2025-06-03T22:14:48.741487"
+  },
+  {
+    "label": "autonomy_error",
+    "data": {
+      "error": "'str' object has no attribute 'get'"
+    },
+    "timestamp": "2025-06-03T22:14:48.747916"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "momentum breakout",
+      "risk": "medium"
+    },
+    "timestamp": "2025-06-03T22:18:09.707928"
+  },
+  {
+    "label": "last_autopilot_trade",
+    "data": {
+      "symbol": "AAPL",
+      "strategy": "momentum breakout",
+      "action": "buy",
+      "price": 100.75,
+      "result": "win"
+    },
+    "timestamp": "2025-06-03T22:18:09.719848"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "timestamp": "2025-06-03T22:18:10.792620"
+  },
+  {
+    "label": "routed_task",
+    "data": {
+      "assigned_to": "MoCash",
+      "type": "recap",
+      "task": "Recap the last trade with hype"
+    },
+    "timestamp": "2025-06-03T22:22:32.613526"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "timestamp": "2025-06-03T22:22:32.628418"
+  },
+  {
+    "label": "last_autopilot_trade",
+    "data": {
+      "symbol": "AAPL",
+      "strategy": "mean reversion",
+      "action": "sell",
+      "price": 102.67,
+      "result": "win"
+    },
+    "timestamp": "2025-06-03T22:22:32.636650"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "momentum breakout",
+      "risk": "medium"
+    },
+    "timestamp": "2025-06-03T22:22:33.717466"
+  },
+  {
+    "label": "routed_task",
+    "data": {
+      "assigned_to": "MoCash",
+      "type": "recap",
+      "details": "Analyze latest trade"
+    },
+    "timestamp": "2025-06-03T22:25:00.105432"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "timestamp": "2025-06-03T22:25:00.121903"
+  },
+  {
+    "label": "last_autopilot_trade",
+    "data": {
+      "symbol": "AAPL",
+      "strategy": "mean reversion",
+      "action": "sell",
+      "price": 100.0,
+      "result": "win"
+    },
+    "timestamp": "2025-06-03T22:25:00.125849"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "momentum breakout",
+      "risk": "medium"
+    },
+    "timestamp": "2025-06-03T22:25:01.185473"
+  },
+  {
+    "label": "routed_task",
+    "data": {
+      "assigned_to": "MoCash",
+      "type": "recap",
+      "details": "Analyze latest trade"
+    },
+    "timestamp": "2025-06-03T22:30:02.423250"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "timestamp": "2025-06-03T22:30:02.444830"
+  },
+  {
+    "label": "last_autopilot_trade",
+    "data": {
+      "symbol": "AAPL",
+      "strategy": "mean reversion",
+      "action": "sell",
+      "price": 100.17,
+      "result": "win"
+    },
+    "timestamp": "2025-06-03T22:30:02.449470"
+  },
+  {
+    "label": "strategy",
+    "data": {
+      "name": "mean reversion",
+      "risk": "low"
+    },
+    "timestamp": "2025-06-03T22:30:18.271641"
+  }
+]

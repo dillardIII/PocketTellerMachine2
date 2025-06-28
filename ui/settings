@@ -1,0 +1,76 @@
+<!-- === FILE: ui/settings.html === -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PTM Settings</title>
+  <style>
+    body {
+      background-color: #0b0b0b;
+      color: #00ffcc;
+      font-family: monospace;
+      padding: 30px;
+    }
+    h1 {
+      color: #ffffff;
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+    .card {
+      background-color: #111;
+      border: 1px solid #333;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .btn {
+      background-color: #00ffcc;
+      color: #000;
+      padding: 10px 16px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #009999;
+    }
+    pre {
+      white-space: pre-wrap;
+      background: #000;
+      padding: 10px;
+      border: 1px solid #222;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>⚙️ PTM Settings</h1>
+
+  <div class="card">
+    <h2>System Flags</h2>
+    <button class="btn" onclick="loadFlags()">Load Flags</button>
+    <pre id="flagsOutput">Click to load flags...</pre>
+  </div>
+
+  <div class="card">
+    <h2>Active Assistant</h2>
+    <button class="btn" onclick="loadAssistant()">Show Active Assistant</button>
+    <pre id="assistantOutput">Click to load active profile...</pre>
+  </div>
+
+  <script>
+    async function loadFlags() {
+      const res = await fetch("/system/status");
+      const data = await res.json();
+      document.getElementById("flagsOutput").textContent = JSON.stringify(data, null, 2);
+    }
+
+    async function loadAssistant() {
+      const res = await fetch("/assistants/active");
+      const data = await res.json();
+      document.getElementById("assistantOutput").textContent = JSON.stringify(data, null, 2);
+    }
+  </script>
+
+</body>
+</html>

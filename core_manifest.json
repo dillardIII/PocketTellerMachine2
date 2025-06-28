@@ -1,0 +1,11 @@
+{
+  "version": "9.0",
+  "deployed_at": "2025-06-19T07:50:36.798422Z",
+  "modules": [
+    "ghostmind_kernel.py",
+    "synapse_chainer.py",
+    "dream_trigger.py",
+    "identity_merge_hub.py",
+    "muse_s_bridge.py"
+  ]
+}

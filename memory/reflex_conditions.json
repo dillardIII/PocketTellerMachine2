@@ -1,0 +1,27 @@
+{
+  "reflex_001": {
+    "trigger_file": "memory/event_timeline_log.json",
+    "trigger_if_contains": "Tier 15 unlocked",
+    "response_code": "print('🧠 Tier 15 reflex activated! Running post-tier unlock scripts...')"
+  },
+  "reflex_002": {
+    "trigger_file": "memory/voice_command_log.json",
+    "trigger_if_contains": "sync all systems",
+    "response_code": "from ghost_sync_engine import full_sync; full_sync()"
+  },
+  "reflex_003": {
+    "trigger_file": "memory/bridge_sync.json",
+    "trigger_if_contains": "critical_patch",
+    "response_code": "from bridge_listener import check_for_new_scripts; check_for_new_scripts()"
+  },
+  "reflex_004": {
+    "trigger_file": "memory/ghost_status.json",
+    "trigger_if_contains": "\"status\": \"drifting\"",
+    "response_code": "print('🛑 Drift detected. Running stabilizer...')\nfrom ghost_stabilizer import rebalance; rebalance()"
+  },
+  "reflex_005": {
+    "trigger_file": "memory/reflex_log.json",
+    "trigger_if_contains": "reflex_001",
+    "response_code": "print('⏪ Recursive reflex triggered from reflex_001')"
+  }
+}

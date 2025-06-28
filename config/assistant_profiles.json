@@ -1,0 +1,57 @@
+[
+  {
+    "id": "mentor",
+    "name": "The Mentor",
+    "nickname": "Coach",
+    "voice_style": "calm, wise",
+    "mood_engine": true,
+    "default_tone": "encouraging",
+    "gender": "neutral",
+    "ethnicity_style": "Black",
+    "voice_id": "elevenlabs_mentor_001"
+  },
+  {
+    "id": "mo_cash",
+    "name": "Mo Cash",
+    "nickname": "Hustler",
+    "voice_style": "bold, fast-talking",
+    "mood_engine": true,
+    "default_tone": "confident",
+    "gender": "male",
+    "ethnicity_style": "Urban",
+    "voice_id": "elevenlabs_mocash_002"
+  },
+  {
+    "id": "drill_instructor",
+    "name": "Drill Instructor",
+    "nickname": "Gunny",
+    "voice_style": "loud, intense, Marine",
+    "mood_engine": true,
+    "default_tone": "aggressive",
+    "gender": "male",
+    "ethnicity_style": "Military",
+    "voice_id": "elevenlabs_drill_003"
+  },
+  {
+    "id": "malik",
+    "name": "Malik Orion Steele",
+    "nickname": "Intel Officer",
+    "voice_style": "smooth, authoritative",
+    "mood_engine": true,
+    "default_tone": "focused",
+    "gender": "male",
+    "ethnicity_style": "Black",
+    "voice_id": "elevenlabs_malik_004"
+  },
+  {
+    "id": "spectre",
+    "name": "Spectre",
+    "nickname": "GhostNet Core",
+    "voice_style": "whispering, digital echo",
+    "mood_engine": true,
+    "default_tone": "cryptic",
+    "gender": "nonbinary",
+    "ethnicity_style": "AI-native",
+    "voice_id": "elevenlabs_spectre_005"
+  }
+]

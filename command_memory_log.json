@@ -1,0 +1,5855 @@
+[
+  {
+    "timestamp": "2025-06-28T03:25:34.962806",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_032534.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:26:20.252834",
+    "event": "TradeExecuted",
+    "detail": "strategy_alpha.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:26:34.964277",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_032634.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:26:50.253757",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032634.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:27:20.254953",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032534.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:27:34.969531",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_032734.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:27:50.255940",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032534.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:28:20.256745",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032534.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:28:34.970397",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_032834.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:28:50.257938",
+    "event": "TradeExecuted",
+    "detail": "autotest_drop_one.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:29:20.258788",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032534.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:29:34.971264",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_032934.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:29:50.259797",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032734.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:30:20.260613",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032634.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:30:34.972196",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_033034.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:30:50.261426",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032934.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:31:20.262260",
+    "event": "TradeExecuted",
+    "detail": "strategy_alpha.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:31:34.973199",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_033134.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:31:50.263174",
+    "event": "TradeExecuted",
+    "detail": "strategy_alpha.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:32:20.264085",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033134.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:32:34.975955",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_033234.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:32:50.265137",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032634.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:33:20.266197",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033134.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:33:34.976910",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_033334.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:33:50.267109",
+    "event": "TradeExecuted",
+    "detail": "strategy_alpha.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:34:20.268194",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032634.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:34:34.977935",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_033434.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:34:50.269264",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033334.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:35:20.270284",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033034.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:35:34.978898",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_033534.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:35:50.271341",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032734.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:36:20.272422",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032834.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:36:34.980650",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_033634.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:36:50.273455",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032634.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:37:20.274470",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032534.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:37:34.982169",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_033734.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:37:50.275577",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033734.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:38:16.803637",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_033816.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:38:20.276649",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033334.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:38:34.983468",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_033834.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:38:47.911384",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 55,
+      "fear": 45
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:38:47.913097",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032634.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:38:50.277893",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033034.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:39:16.806014",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_033916.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:39:17.922514",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 60,
+      "fear": 40
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:39:17.923468",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033634.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:39:20.279095",
+    "event": "TradeExecuted",
+    "detail": "strategy_alpha.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:39:34.985159",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_033934.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:39:47.931144",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 55,
+      "fear": 45
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:39:47.931878",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033734.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T03:39:50.280602",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033934.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:40:16.807094",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_034016.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:40:17.940110",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 60,
+      "fear": 40
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:40:17.940778",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032934.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:40:20.283045",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033034.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:40:34.986402",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_034034.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:40:47.949098",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 65,
+      "fear": 35
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:40:47.950089",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033916.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:40:50.284457",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033916.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:41:16.808298",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_034116.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:41:17.959318",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:41:17.960032",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033334.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:41:20.285690",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033334.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:41:34.987652",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_034134.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:41:47.963286",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 65,
+      "fear": 35
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:41:47.964006",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033634.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T03:41:50.286813",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032534.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:42:16.809670",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_034216.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:42:17.978774",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 60,
+      "fear": 40
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:42:17.979844",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032934.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T03:42:20.288001",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032734.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:42:34.989046",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_034234.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:42:47.986161",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 65,
+      "fear": 35
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:42:47.987157",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032934.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:42:50.289429",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033434.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:43:16.811721",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_034316.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:43:17.996818",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:43:17.997931",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033434.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:43:20.291253",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034016.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:43:34.990507",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_034334.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:43:48.004593",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 65,
+      "fear": 35
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:43:48.005602",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032634.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T03:43:50.293299",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033434.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:44:16.813207",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_034416.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:44:18.014573",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:44:18.015521",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034034.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:44:20.294649",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033034.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:44:34.991826",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_034434.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:44:48.022279",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:44:48.023308",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033134.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:44:50.296199",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032934.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:45:16.814861",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_034516.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:45:18.035300",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:45:18.036105",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034416.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:45:20.297709",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034034.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:45:34.993994",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_034534.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:45:48.038719",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:45:48.039785",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034016.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T03:45:50.299393",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034316.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:46:16.816581",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_034616.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:46:18.274602",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:46:18.275342",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033734.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:46:20.300827",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034434.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:46:34.995436",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_034634.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:46:48.277587",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:46:48.278801",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033034.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T03:46:50.302509",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033834.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:47:16.818183",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_034716.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:47:18.287825",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:47:18.289001",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032734.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T03:47:20.303959",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033734.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:47:34.997022",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_034734.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:47:48.291352",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:47:48.292816",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034034.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:47:50.305745",
+    "event": "TradeExecuted",
+    "detail": "autotest_drop_one.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:48:16.819858",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_034816.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:48:18.303499",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:48:18.305181",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034516.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T03:48:20.307506",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034316.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:48:34.998633",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_034834.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:48:48.307934",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:48:48.309334",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033916.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:48:50.309003",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034616.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:49:16.822007",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_034916.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:49:18.319229",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:49:18.320963",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034316.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:49:20.310808",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034434.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:49:35.000453",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_034934.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:49:48.325695",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:49:48.326989",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033034.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T03:49:50.312687",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032734.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:50:16.823655",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_035016.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:50:18.336717",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:50:18.338047",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034234.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:50:20.314626",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034616.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:50:35.002350",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_035035.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:50:48.340789",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:50:48.342377",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034816.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T03:50:50.316370",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034534.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:51:16.825479",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_035116.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:51:18.352187",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:51:18.353625",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033834.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T03:51:20.318370",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034616.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:51:35.003870",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_035135.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:51:48.356263",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:51:48.358010",
+    "event": "TradeExecuted",
+    "detail": "autotest_drop_one.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:51:50.320466",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034434.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:52:16.828975",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_035216.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:52:18.368570",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:52:18.370673",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034434.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:52:20.322558",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033134.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:52:35.005620",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_035235.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:52:48.372941",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:52:48.374697",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033534.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T03:52:50.324640",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033634.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:53:16.830951",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_035316.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:53:18.388783",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:53:18.390142",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033134.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:53:20.326661",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033234.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:53:35.007657",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_035335.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:53:48.394873",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 85,
+      "fear": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:53:48.396559",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034816.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:53:50.328428",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034016.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:54:16.833126",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_035416.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:54:18.408276",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:54:18.409886",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033134.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T03:54:20.334017",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034816.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:54:35.010457",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_035435.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:54:48.412463",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 85,
+      "fear": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:54:48.414318",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033134.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:54:50.344903",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034334.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:55:16.835429",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_035516.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:55:18.424329",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 90,
+      "fear": 10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:55:18.426282",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034716.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:55:20.347042",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035135.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:55:35.012726",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_035535.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:55:48.429103",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 95,
+      "fear": 5
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:55:48.430745",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034616.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:55:50.349276",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034534.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:56:16.846529",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_035616.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:56:18.452070",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 90,
+      "fear": 10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:56:18.454402",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034234.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T03:56:20.351239",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034534.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:56:35.015181",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_035635.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:56:48.466766",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 85,
+      "fear": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:56:48.469266",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035616.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T03:56:50.353262",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035516.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:57:16.848712",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_035716.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:57:18.486439",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:57:18.488268",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035516.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T03:57:20.355656",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034534.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:57:35.017735",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_035735.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:57:48.497649",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 85,
+      "fear": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:57:48.499470",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034934.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:57:50.357984",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034016.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:58:16.850729",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_035816.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:58:18.510197",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:58:18.512454",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034016.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T03:58:20.360551",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034016.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:58:35.020127",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_035835.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:58:48.515656",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:58:48.517976",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035616.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T03:58:50.362820",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033234.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:59:16.852552",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_035916.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:59:18.532652",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:59:18.534470",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034516.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T03:59:20.365704",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035716.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:59:35.022411",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_035935.py"
+  },
+  {
+    "timestamp": "2025-06-28T03:59:48.543334",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T03:59:48.545143",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032934.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T03:59:50.368995",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032534.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:00:16.854806",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_040016.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:00:18.556497",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:00:18.557964",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034516.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:00:20.371624",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035835.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:00:35.025070",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_040035.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:00:48.566685",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:00:48.568714",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034516.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:00:50.374026",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033234.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:01:16.857147",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_040116.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:01:18.580252",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:01:18.581864",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033034.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:01:20.376728",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035716.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:01:35.028338",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_040135.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:01:48.592351",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 85,
+      "fear": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:01:48.594853",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032534.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:01:50.379244",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032634.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:02:16.859743",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_040216.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:02:18.607438",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 90,
+      "fear": 10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:02:18.610331",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034716.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:02:20.381848",
+    "event": "TradeExecuted",
+    "detail": "autotest_drop_one.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:02:35.030913",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_040235.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:02:48.615924",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 85,
+      "fear": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:02:48.618299",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033816.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:02:50.384901",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040135.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:03:16.862749",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_040316.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:03:18.631088",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 90,
+      "fear": 10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:03:18.633525",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040135.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:03:20.388131",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033134.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:03:35.033358",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_040335.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:03:48.643971",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 95,
+      "fear": 5
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:03:48.646213",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040335.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:03:50.390850",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034934.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:04:16.865493",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_040416.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:04:18.659675",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 90,
+      "fear": 10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:04:18.662251",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033034.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:04:20.393825",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035135.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:04:35.036337",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_040435.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:04:48.672436",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 95,
+      "fear": 5
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:04:48.675026",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034434.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:04:50.397017",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034834.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:05:16.868766",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_040516.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:05:18.687745",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 90,
+      "fear": 10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:05:18.690733",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033634.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:05:20.406533",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035935.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:05:35.040564",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_040535.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:05:48.703892",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 85,
+      "fear": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:05:48.706535",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033034.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:05:50.409407",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033034.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:06:16.871899",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_040616.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:06:18.719493",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 90,
+      "fear": 10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:06:18.722200",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032534.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:06:20.411766",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035035.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:06:35.043684",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_040635.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:06:48.727487",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 85,
+      "fear": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:06:48.730296",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035416.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:06:50.414875",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034534.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:07:16.874929",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_040716.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:07:18.741524",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 90,
+      "fear": 10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:07:18.744525",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034234.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:07:20.418167",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035116.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:07:35.048803",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_040735.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:07:48.751958",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 85,
+      "fear": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:07:48.754716",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034634.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:07:50.420484",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034016.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:08:16.877246",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_040816.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:08:18.758349",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:08:18.761154",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035816.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:08:20.423227",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034034.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:08:35.056425",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_040835.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:08:48.766644",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:08:48.769286",
+    "event": "TradeExecuted",
+    "detail": "autotest_drop_one.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:08:50.426222",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040235.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:09:16.879718",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_040916.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:09:18.780567",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:09:18.783505",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040616.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:09:20.429354",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040535.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:09:35.059250",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_040935.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:09:48.792871",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:09:48.795628",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035016.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:09:50.432517",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035116.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:10:16.882667",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_041016.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:10:18.807575",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:10:18.814495",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034134.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:10:20.436439",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034434.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:10:35.062198",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_041035.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:10:48.818183",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 85,
+      "fear": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:10:48.821211",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034216.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:10:50.439381",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035735.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:11:16.886418",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_041116.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:11:18.833616",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 90,
+      "fear": 10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:11:18.836799",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033634.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:11:20.443197",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035316.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:11:35.065573",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_041135.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:11:48.844889",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 95,
+      "fear": 5
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:11:48.847690",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040216.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:11:50.446943",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040116.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:12:16.889302",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_041216.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:12:18.861363",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 90,
+      "fear": 10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:12:18.864274",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033816.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:12:20.449620",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033634.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:12:35.069119",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_041235.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:12:48.872159",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 95,
+      "fear": 5
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:12:48.874613",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035616.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:12:50.452870",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032534.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:13:16.892099",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_041316.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:13:18.878950",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 90,
+      "fear": 10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:13:18.882106",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035835.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:13:20.456357",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035216.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:13:35.072717",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_041335.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:13:48.892287",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 85,
+      "fear": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:13:48.894923",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035335.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:13:50.458963",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040716.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:14:16.894722",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_041416.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:14:18.908992",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 90,
+      "fear": 10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:14:18.911081",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034634.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:14:20.462369",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034116.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:14:35.075811",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_041435.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:14:48.915892",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 85,
+      "fear": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:14:48.917964",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035016.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:14:50.466066",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034234.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:15:16.897963",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_041516.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:15:18.928508",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 90,
+      "fear": 10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:15:18.931135",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041135.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:15:20.469405",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040535.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:15:35.082947",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_041535.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:15:48.934830",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 95,
+      "fear": 5
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:15:48.938141",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035316.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:15:50.472873",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035616.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:16:16.901633",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_041616.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:16:18.949675",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 100,
+      "fear": 0
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:16:18.952004",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034516.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:16:20.476443",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034634.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:16:35.086125",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_041635.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:16:48.955901",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 105,
+      "fear": -5
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:16:48.958814",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034216.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:16:50.479507",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040035.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:17:16.905461",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_041716.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:17:18.970642",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 110,
+      "fear": -10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:17:18.974234",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033234.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:17:20.482928",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035116.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:17:35.090490",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_041735.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:17:48.981407",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 105,
+      "fear": -5
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:17:48.984461",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033334.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:17:50.486971",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040535.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:18:16.910043",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_041816.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:18:18.998621",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 100,
+      "fear": 0
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:18:19.001529",
+    "event": "TradeExecuted",
+    "detail": "autotest_drop_one.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:18:20.490577",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034516.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:18:35.093660",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_041835.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:18:49.006420",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 95,
+      "fear": 5
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:18:49.010466",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035816.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:18:50.494804",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041316.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:19:16.913658",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_041916.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:19:19.023665",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 100,
+      "fear": 0
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:19:19.027136",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032534.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:19:20.497831",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041035.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:19:35.097765",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_041935.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:19:49.033213",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 105,
+      "fear": -5
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:19:49.035688",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035035.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:19:50.501389",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033434.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:20:16.917454",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_042016.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:20:19.072428",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 110,
+      "fear": -10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:20:19.075847",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034616.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:20:20.505420",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035235.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:20:35.101455",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_042035.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:20:49.082519",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 115,
+      "fear": -15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:20:49.087000",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040816.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:20:50.508419",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032634.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:21:16.922597",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_042116.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:21:19.102793",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 110,
+      "fear": -10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:21:19.106205",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035835.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:21:20.511817",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041516.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:21:35.105569",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_042135.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:21:49.112467",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 115,
+      "fear": -15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:21:49.116833",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033434.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:21:50.515906",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035935.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:22:16.938844",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_042216.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:22:19.134464",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 110,
+      "fear": -10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:22:19.142629",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040716.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:22:20.521299",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041716.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:22:35.109431",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_042235.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:22:49.149273",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 115,
+      "fear": -15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:22:49.152319",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035535.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:22:50.526904",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041716.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:23:16.943260",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_042316.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:23:19.169389",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 110,
+      "fear": -10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:23:19.175186",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032934.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:23:20.530316",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041835.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:23:35.113959",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_042335.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:23:49.181352",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 105,
+      "fear": -5
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:23:49.184642",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033334.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:23:50.533588",
+    "event": "TradeExecuted",
+    "detail": "autotest_drop_one.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:24:16.949220",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_042416.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:24:19.199319",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 100,
+      "fear": 0
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:24:19.202687",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033334.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:24:20.537615",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034234.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:24:35.118488",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_042435.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:24:49.209271",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 95,
+      "fear": 5
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:24:49.213338",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040016.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:24:50.541437",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040716.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:25:16.952503",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_042516.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:25:19.226705",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 100,
+      "fear": 0
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:25:19.231305",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035116.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:25:20.546183",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035316.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:25:35.122754",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_042535.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:25:49.238979",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 105,
+      "fear": -5
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:25:49.242766",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033834.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:25:50.550637",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034734.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:26:16.956678",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_042616.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:26:19.256215",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 100,
+      "fear": 0
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:26:19.259404",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034734.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:26:20.554735",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033134.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:26:35.127385",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_042635.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:26:49.265790",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 95,
+      "fear": 5
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:26:49.269271",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034516.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:26:50.558981",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042335.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:27:16.961957",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_042716.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:27:19.284352",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 100,
+      "fear": 0
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:27:19.287037",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040016.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:27:20.562499",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034016.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:27:35.131561",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_042735.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:27:49.293540",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 95,
+      "fear": 5
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:27:49.304325",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033234.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:27:50.566037",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042735.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:28:16.966553",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_042816.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:28:19.320128",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 100,
+      "fear": 0
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:28:19.323937",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033534.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:28:20.569800",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035916.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:28:35.137581",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_042835.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:28:49.330874",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 95,
+      "fear": 5
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:28:49.335333",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041016.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:28:50.573585",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033816.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:29:16.973830",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_042916.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:29:19.351067",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 100,
+      "fear": 0
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:29:19.355247",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032734.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:29:20.577887",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034734.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:29:35.152191",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_042935.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:29:49.362620",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 95,
+      "fear": 5
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:29:49.367306",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041035.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:29:50.582345",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035935.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:30:16.979106",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_043016.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:30:19.380951",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 90,
+      "fear": 10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:30:19.385805",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035916.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:30:20.587521",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042916.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:30:35.157171",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_043035.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:30:49.396128",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 95,
+      "fear": 5
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:30:49.399499",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033134.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:30:50.591799",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034516.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:31:16.984233",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_043116.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:31:19.412742",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 90,
+      "fear": 10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:31:19.416511",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040835.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:31:20.596235",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035216.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:31:35.161579",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_043135.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:31:49.423559",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 95,
+      "fear": 5
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:31:49.427666",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033934.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:31:50.605337",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042835.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:32:16.987815",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_043216.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:32:19.444462",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 90,
+      "fear": 10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:32:19.449009",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035416.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:32:20.610268",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041216.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:32:35.167191",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_043235.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:32:49.456639",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 95,
+      "fear": 5
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:32:49.462233",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041316.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:32:50.615225",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040516.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:33:16.993411",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_043316.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:33:19.481357",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 90,
+      "fear": 10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:33:19.484668",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041616.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:33:20.631664",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041835.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:33:35.172871",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_043335.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:33:49.491008",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 95,
+      "fear": 5
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:33:49.494324",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034734.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:33:50.637478",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041016.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:34:16.997312",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_043416.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:34:19.509069",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 90,
+      "fear": 10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:34:19.512493",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041216.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:34:20.642497",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032534.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:34:35.177926",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_043435.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:34:49.520396",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 85,
+      "fear": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:34:49.526980",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034916.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:34:50.646386",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041516.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:35:17.001034",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_043517.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:35:19.545013",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:35:19.549693",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034334.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:35:20.651551",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041735.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:35:35.183008",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_043535.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:35:49.557081",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 85,
+      "fear": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:35:49.569932",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042035.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:35:50.656913",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041935.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:36:17.005187",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_043617.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:36:19.581311",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 90,
+      "fear": 10
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:36:19.585432",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034616.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:36:20.661770",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041416.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:36:35.189473",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_043635.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:36:49.594150",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 85,
+      "fear": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:36:49.600367",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032634.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:36:50.665995",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040735.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:37:17.009230",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_043717.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:37:19.616147",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:37:19.620711",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034416.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:37:20.673128",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043635.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:37:35.196882",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_043735.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:37:49.629429",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:37:49.634605",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035716.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:37:50.679493",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041635.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:38:17.012853",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_043817.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:38:19.652955",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:38:19.657133",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033334.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:38:20.684840",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041916.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:38:35.202541",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_043835.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:38:49.666167",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:38:49.670264",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034016.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:38:50.689460",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032734.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:39:17.017154",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_043917.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:39:19.686180",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:39:19.691435",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042916.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:39:20.694194",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041216.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:39:35.207341",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_043935.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:39:49.704563",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:39:49.709659",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040135.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:39:50.698580",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041635.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:40:17.023517",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_044017.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:40:19.723793",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:40:19.729209",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040616.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:40:20.703237",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033534.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:40:35.212685",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_044035.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:40:49.736893",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:40:49.740475",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034634.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:40:50.708116",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042516.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:41:17.028016",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_044117.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:41:19.756119",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:41:19.764237",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032634.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:41:20.713700",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041835.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:41:35.221829",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_044135.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:41:49.772568",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:41:49.777994",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035716.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:41:50.720047",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040416.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:42:17.033451",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_044217.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:42:19.793190",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:42:19.798386",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042716.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:42:20.724447",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043035.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:42:35.230174",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_044235.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:42:49.805210",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:42:49.810873",
+    "event": "TradeExecuted",
+    "detail": "strategy_alpha.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:42:50.728538",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040935.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:43:17.042761",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_044317.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:43:19.826248",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:43:19.831331",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040616.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:43:20.734049",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034816.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:43:35.235104",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_044335.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:43:49.837158",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:43:49.842746",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044317.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:43:50.738405",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042916.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:44:17.059856",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_044417.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:44:19.857179",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:44:19.861397",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035316.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:44:20.746099",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040135.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:44:35.239587",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_044435.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:44:49.871675",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 85,
+      "fear": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:44:49.876959",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042916.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:44:50.752221",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035216.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:45:17.066090",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_044517.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:45:19.892603",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:45:19.896651",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044317.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:45:20.757091",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043635.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:45:35.245901",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_044535.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:45:49.904336",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 85,
+      "fear": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:45:49.908688",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043717.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:45:50.761176",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041635.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:46:17.073331",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_044617.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:46:19.924199",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:46:19.941254",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043335.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:46:20.765468",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042135.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:46:35.252099",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_044635.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:46:49.949436",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:46:49.955255",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044335.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:46:50.770174",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034334.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:47:17.083807",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_044717.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:47:19.970423",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:47:19.979167",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035435.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:47:20.775754",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034234.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:47:35.288998",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_044735.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:47:49.986036",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 65,
+      "fear": 35
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:47:49.993514",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040235.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:47:50.781725",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034616.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:48:17.100771",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_044817.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:48:20.010699",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:48:20.014674",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041635.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:48:20.787255",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043016.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:48:35.296865",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_044835.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:48:50.021019",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:48:50.026500",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042016.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:48:50.793449",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044635.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:49:17.108551",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_044917.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:49:20.039017",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:49:20.043140",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032634.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:49:20.798271",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040616.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:49:35.303810",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_044935.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:49:50.048122",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 65,
+      "fear": 35
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:49:50.052716",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043416.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:49:50.803864",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040916.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:50:17.114624",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_045017.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:50:20.066323",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:50:20.072155",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035616.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:50:20.810179",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035035.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:50:35.308438",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_045035.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:50:50.078267",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 65,
+      "fear": 35
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:50:50.084718",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044735.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:50:50.816993",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044335.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:51:17.119887",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_045117.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:51:20.098490",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:51:20.103922",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035416.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:51:20.823178",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032834.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:51:35.315115",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_045135.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:51:50.110991",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 65,
+      "fear": 35
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:51:50.117140",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044835.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:51:50.829319",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040335.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:52:17.128535",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_045217.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:52:20.125539",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 60,
+      "fear": 40
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:52:20.132027",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042316.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:52:20.834013",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034516.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:52:35.322160",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_045235.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:52:50.138762",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 65,
+      "fear": 35
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:52:50.144313",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040916.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:52:50.839271",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042216.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:53:17.136263",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_045317.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:53:20.159092",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:53:20.165645",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033034.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:53:20.846283",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035035.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:53:35.333178",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_045335.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:53:50.173228",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:53:50.178798",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040516.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:53:50.852319",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035616.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:54:17.141867",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_045417.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:54:20.194418",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:54:20.200629",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042216.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:54:20.857710",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044135.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:54:35.339178",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_045435.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:54:50.207046",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 85,
+      "fear": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:54:50.212677",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040535.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:54:50.866631",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044535.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:55:17.147543",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_045517.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:55:20.254990",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:55:20.261755",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040635.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:55:20.873440",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034134.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:55:35.343989",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_045535.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:55:50.268766",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:55:50.274415",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041735.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:55:50.879547",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034534.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:56:17.152461",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_045617.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:56:20.291268",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:56:20.297572",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043935.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:56:20.885743",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044635.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:56:35.350821",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_045635.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:56:50.303934",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 85,
+      "fear": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:56:50.310966",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042135.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:56:50.891602",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043435.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:57:17.159272",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_045717.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:57:20.331455",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:57:20.337706",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035816.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:57:20.896918",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041235.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:57:35.357519",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_045735.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:57:50.344767",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:57:50.350927",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042935.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:57:50.901950",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035835.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:58:17.167268",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_045817.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:58:20.365122",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:58:20.371613",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041016.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:58:20.907569",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034016.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:58:35.365617",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_045835.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:58:50.378904",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 65,
+      "fear": 35
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:58:50.385045",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042235.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T04:58:50.913265",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042116.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:59:17.174530",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_045917.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:59:20.401333",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:59:20.406822",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041135.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:59:20.918978",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044817.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:59:35.371976",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_045935.py"
+  },
+  {
+    "timestamp": "2025-06-28T04:59:50.413288",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T04:59:50.420103",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041016.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T04:59:50.928237",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_045035.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:00:17.180716",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_050017.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:00:20.434533",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:00:20.439383",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044917.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:00:20.935651",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032934.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:00:35.380140",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_050035.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:00:50.448763",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 65,
+      "fear": 35
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:00:50.455498",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043416.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:00:50.943387",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033134.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:01:17.186620",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_050117.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:01:20.461829",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:01:20.468257",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040516.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:01:20.951129",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032534.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:01:35.393430",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_050135.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:01:50.476958",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:01:50.483611",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034634.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:01:50.957974",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042816.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:02:17.195656",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_050217.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:02:20.499917",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:02:20.506422",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035035.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:02:20.963478",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040135.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:02:35.403472",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_050235.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:02:50.514930",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 85,
+      "fear": 15
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:02:50.520752",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_045617.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:02:50.970671",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041816.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:03:17.202760",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_050317.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:03:20.532971",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:03:20.539432",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034434.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:03:20.976466",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034816.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:03:35.413575",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_050335.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:03:50.552738",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:03:50.559974",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035516.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:03:50.984449",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034416.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:04:17.213809",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_050417.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:04:20.576456",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:04:20.582914",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035135.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:04:20.993045",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033816.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:04:35.427021",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_050435.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:04:50.591882",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:04:50.598174",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040035.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:04:50.998673",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034734.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:05:17.226841",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_050517.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:05:20.613419",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:05:20.621010",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033834.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:05:21.006132",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_050435.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:05:35.437704",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_050535.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:05:50.629390",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:05:50.636237",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_045335.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:05:51.020762",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042616.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:06:17.236202",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_050617.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:06:20.653299",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:06:20.659917",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_050117.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:06:21.026778",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043435.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:06:35.445778",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_050635.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:06:50.680872",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:06:50.689888",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_045335.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:06:51.032197",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033034.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:07:17.250115",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_050717.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:07:20.715130",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:07:20.721201",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040735.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:07:21.047729",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043435.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:07:35.453767",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_050735.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:07:50.729609",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:07:50.740632",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034934.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:07:51.053415",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043016.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:08:17.257123",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_050817.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:08:20.758636",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:08:20.765551",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044917.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:08:21.060613",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035816.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:08:35.474689",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_050835.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:08:50.777250",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:08:50.784470",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041716.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:08:51.067490",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040316.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:09:17.262742",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_050917.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:09:20.804984",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:09:20.819688",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042816.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:09:21.082660",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042135.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:09:35.481343",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_050935.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:09:50.839942",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:09:50.847292",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_050035.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:09:51.105891",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040116.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:10:17.268957",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_051017.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:10:20.871356",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:10:20.877979",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043416.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:10:21.110929",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044935.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:10:35.488962",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_051035.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:10:50.888122",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 65,
+      "fear": 35
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:10:50.896246",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_050417.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:10:51.116492",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043917.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:11:17.276158",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_051117.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:11:20.914991",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 60,
+      "fear": 40
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:11:20.922196",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035916.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:11:21.127490",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035535.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:11:35.495843",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_051135.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:11:50.932790",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 55,
+      "fear": 45
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:11:50.939191",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042616.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:11:51.134518",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034116.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:12:17.284937",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_051217.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:12:20.975267",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 60,
+      "fear": 40
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:12:20.985437",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042035.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:12:21.141092",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_050935.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:12:35.503444",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_051235.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:12:50.998441",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 55,
+      "fear": 45
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:12:51.006517",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043035.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:12:51.147114",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044617.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:13:17.292982",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_051317.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:13:21.026507",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 50,
+      "fear": 50
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:13:21.053387",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041535.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:13:21.154432",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033734.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:13:35.512692",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_051335.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:13:51.065824",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 45,
+      "fear": 55
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:13:51.072436",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_051335.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:13:51.182393",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035835.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:14:17.302775",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_051417.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:14:21.090022",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 50,
+      "fear": 50
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:14:21.095264",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044435.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:14:21.190614",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043416.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:14:35.520768",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_051435.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:14:51.107808",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 55,
+      "fear": 45
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:14:51.115560",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044617.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:14:51.202804",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035516.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:15:17.309975",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_051517.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:15:21.139043",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 50,
+      "fear": 50
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:15:21.145699",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041216.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:15:21.210246",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035035.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:15:35.527706",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_051535.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:15:51.162906",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 55,
+      "fear": 45
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:15:51.170087",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042135.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:15:51.218501",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044217.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:16:17.318092",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_051617.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:16:21.191157",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 50,
+      "fear": 50
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:16:21.196157",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041935.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:16:21.227856",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041116.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:16:35.534422",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_051635.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:16:51.205784",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 55,
+      "fear": 45
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:16:51.214135",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_045417.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:16:51.236264",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041035.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:17:17.325521",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_051717.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:17:21.229532",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 60,
+      "fear": 40
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:17:21.235639",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_051335.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:17:35.541936",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_051735.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:17:51.242618",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_045535.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:18:17.336653",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_051817.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:18:21.250144",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:18:21.255769",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040135.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:18:21.276637",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033134.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:18:35.550355",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_051835.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:18:51.270477",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 65,
+      "fear": 35
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:18:51.277142",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041216.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:19:17.343094",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_051917.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:19:21.284598",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034034.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:19:21.675788",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:19:21.681622",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044017.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:19:35.562411",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_051935.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:19:51.290738",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_045017.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:19:51.692846",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:19:51.705610",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042916.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:20:17.351677",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_052017.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:20:21.296416",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034916.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:20:21.714351",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:20:21.722510",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043416.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:20:35.570987",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_052035.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:20:51.303773",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_050935.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:20:51.734983",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:20:51.742211",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042416.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:21:17.360288",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_052117.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:21:21.310374",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035216.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:21:21.753517",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:21:21.759870",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044717.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:21:35.582908",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_052135.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:21:51.317625",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041035.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:21:51.770688",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:21:51.778087",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041716.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:22:17.369515",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_052217.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:22:21.325153",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041516.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:22:21.795918",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 80,
+      "fear": 20
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:22:21.801445",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034234.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:22:35.602151",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_052235.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:22:51.333684",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035716.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:22:51.812501",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 75,
+      "fear": 25
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:22:51.820502",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043735.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:23:17.375480",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_052317.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:23:21.341514",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041235.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:23:21.830086",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 70,
+      "fear": 30
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:23:21.836176",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035935.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:23:35.614432",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_052335.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:23:51.350341",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043216.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:23:51.845249",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 65,
+      "fear": 35
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:23:51.852837",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_050117.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:24:17.383759",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_052417.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:24:21.357844",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044635.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:24:21.860844",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 60,
+      "fear": 40
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:24:21.868538",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_045535.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:24:35.620540",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_052435.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:24:51.364348",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035135.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:24:51.877957",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 55,
+      "fear": 45
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:24:51.886444",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032934.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:25:17.391315",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_052517.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:25:21.378543",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043035.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:25:21.898537",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 50,
+      "fear": 50
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:25:21.905155",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034734.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:25:35.627443",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_052535.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:25:51.387750",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_051035.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:25:51.915432",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 55,
+      "fear": 45
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:25:51.923747",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_051335.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:26:17.400253",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_052617.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:26:21.397041",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_051835.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:26:21.937517",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 50,
+      "fear": 50
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:26:21.943732",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035735.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:26:35.638987",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_052635.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:26:51.403283",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044617.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:26:51.954281",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 45,
+      "fear": 55
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:26:51.960508",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035635.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:27:17.410352",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_052717.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:27:21.415352",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041035.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:27:21.968714",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 50,
+      "fear": 50
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:27:21.977822",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034434.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:27:35.645625",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_052735.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:27:51.425094",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_051435.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:27:51.993094",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 55,
+      "fear": 45
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:27:52.002437",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034434.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:28:17.443221",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_052817.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:28:21.431929",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_050217.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:28:22.012603",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 60,
+      "fear": 40
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:28:22.019712",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_052735.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:28:35.652505",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_052835.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:28:51.439130",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_050735.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:28:52.032363",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 65,
+      "fear": 35
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:28:52.040046",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034834.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:29:17.451813",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_052917.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:29:21.445446",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044935.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:29:22.047613",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 60,
+      "fear": 40
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:29:22.053369",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_052917.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:29:35.661248",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_052935.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:29:51.452221",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043935.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:29:52.061119",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 65,
+      "fear": 35
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:29:52.066474",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_045335.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:30:17.460521",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_053017.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:30:21.459419",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_052017.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:30:22.077340",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 60,
+      "fear": 40
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:30:22.083983",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044335.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:30:35.669983",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_053035.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:30:51.467723",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043135.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:30:52.098091",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 55,
+      "fear": 45
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:30:52.103849",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044935.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:31:17.469295",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_053117.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:31:21.477426",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034216.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:31:22.120796",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 50,
+      "fear": 50
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:31:22.127725",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040516.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:31:35.677784",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_053135.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:31:51.486249",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_045735.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:31:52.136363",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 45,
+      "fear": 55
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:31:52.145359",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044335.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:32:17.477903",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_053217.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:32:21.495415",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_051017.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:32:22.156224",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 40,
+      "fear": 60
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:32:22.166488",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035616.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:32:35.686425",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_053235.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:32:51.501930",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034034.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:32:52.181519",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 35,
+      "fear": 65
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:32:52.187683",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035416.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:33:17.488183",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_053317.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:33:21.509543",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_051635.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:33:22.197252",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 40,
+      "fear": 60
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:33:22.205664",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033434.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:33:35.695783",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_053335.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:33:51.517822",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_050535.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:33:52.220436",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 45,
+      "fear": 55
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:33:52.228301",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_051317.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:34:17.498457",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_053417.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:34:21.528499",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_041116.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:34:22.239845",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 40,
+      "fear": 60
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:34:22.246923",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033834.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:34:35.704586",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_053435.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:34:51.537173",
+    "event": "TradeExecuted",
+    "detail": "autotest_drop_one.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:34:52.264428",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 35,
+      "fear": 65
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:34:52.278928",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044035.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:35:17.506087",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_053517.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:35:21.547375",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034734.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:35:22.296397",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 30,
+      "fear": 70
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:35:22.305625",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_032834.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:35:35.713155",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_053535.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:35:51.556447",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043717.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:35:52.320710",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 35,
+      "fear": 65
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:35:52.326592",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044835.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:36:17.513580",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_053617.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:36:21.565953",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_053035.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:36:22.334877",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 30,
+      "fear": 70
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:36:22.341777",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_045335.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:36:35.725160",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_053635.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:36:51.581524",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040535.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:36:52.363593",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 35,
+      "fear": 65
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:36:52.373987",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_051835.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:37:17.521703",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_053717.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:37:21.594530",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043416.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:37:22.386800",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 40,
+      "fear": 60
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:37:22.395957",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040735.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:37:35.731761",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_053735.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:37:51.602818",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040216.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:37:52.404166",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 35,
+      "fear": 65
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:37:52.413903",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044335.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:38:17.531443",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_053817.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:38:21.611826",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_052717.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:38:22.420991",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 40,
+      "fear": 60
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:38:22.427178",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034134.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:38:35.738277",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_053835.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:38:51.620572",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034816.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:38:52.438675",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 35,
+      "fear": 65
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:38:52.445162",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044035.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:39:17.540172",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_053917.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:39:21.628244",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_042416.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:39:22.457278",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 40,
+      "fear": 60
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:39:22.466227",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_052717.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:39:35.750072",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_053935.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:39:51.639121",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_034916.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:39:52.483967",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 35,
+      "fear": 65
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:39:52.495303",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_043517.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:40:17.550646",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_054017.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:40:21.646750",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040516.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:40:22.514229",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 30,
+      "fear": 70
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:40:22.524462",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_052617.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:40:35.893340",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_054035.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:40:51.653287",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_044435.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:40:52.550339",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 25,
+      "fear": 75
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:40:52.562544",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_052917.py result: loss"
+  },
+  {
+    "timestamp": "2025-06-28T05:41:17.558793",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_054117.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:41:21.662090",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_033434.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:41:22.580537",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 30,
+      "fear": 70
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:41:22.586822",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_040316.py result: win"
+  },
+  {
+    "timestamp": "2025-06-28T05:41:35.903452",
+    "event": "StrategyWritten",
+    "detail": "auto_strategy_20250628_054135.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:41:51.672357",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_035216.py"
+  },
+  {
+    "timestamp": "2025-06-28T05:41:52.600420",
+    "event": "EmotionAdjusted",
+    "detail": {
+      "confidence": 35,
+      "fear": 65
+    }
+  },
+  {
+    "timestamp": "2025-06-28T05:41:52.608114",
+    "event": "TradeExecuted",
+    "detail": "auto_strategy_20250628_053017.py result: win"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "wallet_snapshot": {
+    "0xABC123": {
+      "balance": "1.25 ETH",
+      "status": "\u2705 Synced"
+    },
+    "0xDEF456": {
+      "balance": "0.75 ETH",
+      "status": "\u2705 Synced"
+    },
+    "0xGHI789": {
+      "balance": "5.00 ETH",
+      "status": "\u2705 Synced"
+    }
+  },
+  "unlinked_files": [
+    {
+      "MetaMask": {
+        "balance": 1850.32,
+        "network": "Ethereum Mainnet",
+        "updated": "2025-06-21 01:42:23.275875"
+      },
+      "Trust Wallet": {
+        "balance": 2290.5,
+        "network": "Binance Smart Chain",
+        "updated": "2025-06-21 01:42:23.275890"
+      }
+    },
+    {
+      "ETH": {
+        "amount": 2.5,
+        "chain": "Ethereum",
+        "last_seen": "2025-06-21 01:42:23.275895"
+      },
+      "BNB": {
+        "amount": 10.75,
+        "chain": "Binance Smart Chain",
+        "last_seen": "2025-06-21 01:42:23.275899"
+      }
+    }
+  ]
+}

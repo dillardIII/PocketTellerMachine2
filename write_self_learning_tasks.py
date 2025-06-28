@@ -1,8 +1,9 @@
+
 import os
 import json
 
 # === Target file path ===
-file_path = "data/cole_self_learning_tasks.json"
+file_path = "data/cole_self_learning_tasks.json" 
 
 # === Safe content to write ===
 cole_self_learning_tasks = {

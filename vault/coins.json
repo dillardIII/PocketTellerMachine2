@@ -1,0 +1,12 @@
+{
+  "ETH": {
+    "amount": 2.5,
+    "chain": "Ethereum",
+    "last_seen": "2025-06-21 01:42:23.275895"
+  },
+  "BNB": {
+    "amount": 10.75,
+    "chain": "Binance Smart Chain",
+    "last_seen": "2025-06-21 01:42:23.275899"
+  }
+}

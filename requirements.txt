@@ -1,17 +1,40 @@
-Flask
+# === FILE: requirements.txt ===
+# 📦 PTM Required Libraries – Install with: pip install -r requirements.txt
+
+# === Core Flask + Server ===
+flask
 gunicorn
+
+# === API & Web Requests ===
 requests
 openai
-numpy
+
+# === Data Science ===
+numpy==2.2
 pandas
+
+# === AI / Voice / NLP ===
 elevenlabs==0.2.27
 wolframalpha
 replicate
 anthropic
 cohere
-cloudinary
 deeplake
 whisper
 tensorflow
 langchain
+speechrecognition
+pyaudio
+soundfile
+
+# === Automation / Web Interaction ===
 selenium
+
+# === Environment & Config ===
+python-dotenv
+
+# === Media Handling ===
+cloudinary
+
+# === Utility & System Tools ===
+# (Add more as needed)

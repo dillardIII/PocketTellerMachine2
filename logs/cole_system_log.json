@@ -1,42 +1,177 @@
 [
   {
-    "timestamp": "2025-06-03T04:03:27.388526",
+    "timestamp": "2025-06-03T20:51:56.134440",
     "level": "INFO",
-    "message": "[Cole Autopilot] \u26a0\ufe0f No valid strategy to run. Injecting fallback strategy."
+    "message": "[Cole Autopilot] \ud83c\udfaf Executed SELL on AAPL using mean reversion"
   },
   {
-    "timestamp": "2025-06-03T04:03:27.390785",
+    "timestamp": "2025-06-03T20:51:56.152086",
     "level": "INFO",
-    "message": "[Cole Autopilot] \u26a0\ufe0f No valid strategy to run. Injecting fallback strategy."
+    "message": "[Runner] Executing mean reversion on AAPL..."
   },
   {
-    "timestamp": "2025-06-03T04:03:27.413482",
+    "timestamp": "2025-06-03T20:51:56.165654",
     "level": "INFO",
-    "message": "[Cole Autopilot] \u2705 Strategy selected: Fallback Covered Call | Reason: Fallback injected due to missing backtest data."
+    "message": "[Cole Autopilot] \ud83c\udfaf Executed BUY on AAPL using momentum breakout"
   },
   {
-    "timestamp": "2025-06-03T04:03:27.416768",
+    "timestamp": "2025-06-03T20:51:56.166742",
     "level": "INFO",
-    "message": "[Strategy Runner] \ud83d\ude80 Running strategy: Fallback Covered Call (bullish)"
+    "message": "[Runner] Executing momentum breakout on AAPL..."
   },
   {
-    "timestamp": "2025-06-03T04:03:27.439528",
+    "timestamp": "2025-06-03T20:51:56.233396",
     "level": "INFO",
-    "message": "[Cole Autopilot] \u2705 Strategy selected: Fallback Covered Call | Reason: Fallback injected due to missing backtest data."
+    "message": "[Runner] \u274c Error running strategy: Voice 'hype' not found."
   },
   {
-    "timestamp": "2025-06-03T04:03:27.441062",
+    "timestamp": "2025-06-03T20:51:56.278787",
     "level": "INFO",
-    "message": "[Trading Engine] \u2705 Executed: Unknown"
+    "message": "[Runner] \u274c Error running strategy: Voice 'hype' not found."
   },
   {
-    "timestamp": "2025-06-03T04:03:27.441792",
+    "timestamp": "2025-06-03T22:14:48.740222",
     "level": "INFO",
-    "message": "[Strategy Runner] \ud83d\ude80 Running strategy: Fallback Covered Call (bullish)"
+    "message": "[Ghost Sync] \u26a0\ufe0f Corrupted sync file."
   },
   {
-    "timestamp": "2025-06-03T04:03:27.451790",
+    "timestamp": "2025-06-03T22:14:48.741130",
     "level": "INFO",
-    "message": "[Trading Engine] \u2705 Executed: Unknown"
+    "message": "[AI Router] \ud83d\udd04 Routing task: task"
+  },
+  {
+    "timestamp": "2025-06-03T22:18:09.705014",
+    "level": "INFO",
+    "message": "[Ghost Sync] \u26a0\ufe0f Corrupted sync file."
+  },
+  {
+    "timestamp": "2025-06-03T22:18:09.706112",
+    "level": "INFO",
+    "message": "[Cole Autopilot] \ud83d\ude80 Starting Cole Autopilot Cycle..."
+  },
+  {
+    "timestamp": "2025-06-03T22:18:09.718224",
+    "level": "INFO",
+    "message": "[Cole Autopilot] \u2705 Strategy selected: momentum breakout | Reason: Strategy 'momentum breakout' scored highest with 97 points on 2025-06-03."
+  },
+  {
+    "timestamp": "2025-06-03T22:18:09.726713",
+    "level": "INFO",
+    "message": "[Cole Autopilot] \ud83c\udfaf Executed BUY on AAPL using momentum breakout"
+  },
+  {
+    "timestamp": "2025-06-03T22:18:09.726972",
+    "level": "INFO",
+    "message": "[Strategy Runner] \ud83d\udee0\ufe0f Executing 'Unnamed Strategy' on AAPL..."
+  },
+  {
+    "timestamp": "2025-06-03T22:18:10.791423",
+    "level": "INFO",
+    "message": "[Strategy Runner] \u274c Error during execution: Voice 'hype' not found."
+  },
+  {
+    "timestamp": "2025-06-03T22:22:32.612166",
+    "level": "INFO",
+    "message": "[Ghost Sync] \u26a0\ufe0f Corrupted sync file."
+  },
+  {
+    "timestamp": "2025-06-03T22:22:32.614829",
+    "level": "INFO",
+    "message": "[AI Router] \ud83d\udcb0 Task assigned to MoCash: Recap the last trade with hype"
+  },
+  {
+    "timestamp": "2025-06-03T22:22:32.620355",
+    "level": "INFO",
+    "message": "[Cole Autopilot] \ud83d\ude80 Starting Cole Autopilot Cycle..."
+  },
+  {
+    "timestamp": "2025-06-03T22:22:32.630042",
+    "level": "INFO",
+    "message": "[Cole Autopilot] \u2705 Strategy selected: mean reversion | Reason: Strategy 'mean reversion' scored highest with 109 points on 2025-06-03."
+  },
+  {
+    "timestamp": "2025-06-03T22:22:32.637656",
+    "level": "INFO",
+    "message": "[Cole Autopilot] \ud83c\udfaf Executed SELL on AAPL using mean reversion"
+  },
+  {
+    "timestamp": "2025-06-03T22:22:32.637945",
+    "level": "INFO",
+    "message": "[Strategy Runner] \ud83d\udee0\ufe0f Executing 'Unnamed Strategy' on AAPL..."
+  },
+  {
+    "timestamp": "2025-06-03T22:22:33.716222",
+    "level": "INFO",
+    "message": "[Strategy Runner] \u274c Error during execution: Voice 'Adam' not found."
+  },
+  {
+    "timestamp": "2025-06-03T22:25:00.103456",
+    "level": "INFO",
+    "message": "[Ghost Sync] \u26a0\ufe0f Corrupted sync file."
+  },
+  {
+    "timestamp": "2025-06-03T22:25:00.107519",
+    "level": "INFO",
+    "message": "[AI Router] \ud83d\udcb0 Task assigned to MoCash: No task"
+  },
+  {
+    "timestamp": "2025-06-03T22:25:00.113580",
+    "level": "INFO",
+    "message": "[Cole Autopilot] \ud83d\ude80 Starting Cole Autopilot Cycle..."
+  },
+  {
+    "timestamp": "2025-06-03T22:25:00.123894",
+    "level": "INFO",
+    "message": "[Cole Autopilot] \u2705 Strategy selected: mean reversion | Reason: Strategy 'mean reversion' scored highest with 72 points on 2025-06-03."
+  },
+  {
+    "timestamp": "2025-06-03T22:25:00.127160",
+    "level": "INFO",
+    "message": "[Cole Autopilot] \ud83c\udfaf Executed SELL on AAPL using mean reversion"
+  },
+  {
+    "timestamp": "2025-06-03T22:25:00.127470",
+    "level": "INFO",
+    "message": "[Strategy Runner] \ud83d\udee0\ufe0f Executing 'Unnamed Strategy' on AAPL..."
+  },
+  {
+    "timestamp": "2025-06-03T22:25:01.184164",
+    "level": "INFO",
+    "message": "[Strategy Runner] \u2705 Strategy 'Unnamed Strategy' complete."
+  },
+  {
+    "timestamp": "2025-06-03T22:30:02.421837",
+    "level": "INFO",
+    "message": "[Ghost Sync] \u26a0\ufe0f Corrupted sync file."
+  },
+  {
+    "timestamp": "2025-06-03T22:30:02.424690",
+    "level": "INFO",
+    "message": "[AI Router] \ud83d\udcb0 Task assigned to MoCash: No task"
+  },
+  {
+    "timestamp": "2025-06-03T22:30:02.442623",
+    "level": "INFO",
+    "message": "[Cole Autopilot] \ud83d\ude80 Starting Cole Autopilot Cycle..."
+  },
+  {
+    "timestamp": "2025-06-03T22:30:02.447500",
+    "level": "INFO",
+    "message": "[Cole Autopilot] \u2705 Strategy selected: mean reversion | Reason: Strategy 'mean reversion' scored highest with 71 points on 2025-06-03."
+  },
+  {
+    "timestamp": "2025-06-03T22:30:02.454346",
+    "level": "INFO",
+    "message": "[Cole Autopilot] \ud83c\udfaf Executed SELL on AAPL using mean reversion"
+  },
+  {
+    "timestamp": "2025-06-03T22:30:02.454828",
+    "level": "INFO",
+    "message": "[Strategy Runner] \ud83d\udee0\ufe0f Executing 'Unnamed Strategy' on AAPL..."
+  },
+  {
+    "timestamp": "2025-06-03T22:30:18.269822",
+    "level": "INFO",
+    "message": "[Strategy Runner] \u2705 Strategy 'Unnamed Strategy' complete."
   }
 ]

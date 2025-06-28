@@ -1,0 +1,103 @@
+<!-- === FILE: gene_lab.html === -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PTM Gene Lab</title>
+  <style>
+    body {
+      font-family: monospace;
+      background: #0d1117;
+      color: #e6edf3;
+      padding: 20px;
+    }
+    h1 {
+      color: #58a6ff;
+    }
+    .file-box {
+      background: #161b22;
+      border: 1px solid #30363d;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    .btn {
+      background: #21262d;
+      color: #58a6ff;
+      padding: 4px 8px;
+      border: 1px solid #30363d;
+      cursor: pointer;
+      margin-left: 6px;
+    }
+    .btn:hover {
+      background: #30363d;
+    }
+    pre {
+      background: #0d1117;
+      border: 1px solid #30363d;
+      padding: 10px;
+      overflow-x: auto;
+      max-height: 300px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🧬 PTM Gene Lab</h1>
+  <div id="strategy-list">Loading strategies...</div>
+
+  <script>
+    async function fetchTree() {
+      const res = await fetch('/api/family_tree');
+      const tree = await res.json();
+
+      const perfRes = await fetch('/api/performance_log');
+      const perf = await perfRes.json();
+
+      const container = document.getElementById("strategy-list");
+      container.innerHTML = '';
+
+      for (let parent in tree) {
+        const card = document.createElement('div');
+        card.className = 'file-box';
+
+        const descendants = tree[parent].descendants.map(d => {
+          const stats = perf[d.child] || { wins: 0, losses: 0, draws: 0 };
+          return `<li>
+            ${d.child} – ${d.mutation_reason} 
+            <br>🏆 W:${stats.wins} | ❌ L:${stats.losses} | 🤝 D:${stats.draws}
+            <br>
+            <button class='btn' onclick='view("${d.child}")'>🔍 Preview</button>
+            <button class='btn' onclick='mutate("${d.child}", "${parent}")'>🧬 Mutate</button>
+            <button class='btn' onclick='promote("${d.child}")'>👑 Promote</button>
+          </li>`;
+        }).join('');
+
+        card.innerHTML = `<strong>${parent}</strong><ul>${descendants}</ul>`;
+        container.appendChild(card);
+      }
+    }
+
+    async function view(file) {
+      const res = await fetch(`/api/preview_strategy?file=${file}`);
+      const code = await res.text();
+      alert(`Preview of ${file}:\n\n` + code);
+    }
+
+    function promote(file) {
+      fetch(`/api/promote_champion?file=${file}`)
+        .then(res => res.text())
+        .then(msg => {
+          alert("👑 " + msg);
+        });
+    }
+
+    async function mutate(child, parent) {
+      const res = await fetch(`/api/mutate_strategy_ui?file=${child}&parent=${parent}`);
+      const msg = await res.text();
+      alert("🧬 " + msg);
+      fetchTree();
+    }
+
+    fetchTree();
+    setInterval(fetchTree, 10000); // Refresh every 10 seconds
+  </script>
+</body>
+</html>

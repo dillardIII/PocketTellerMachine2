@@ -1,0 +1,20 @@
+[
+    {
+        "name": "RSI Bounce",
+        "type": "Momentum",
+        "status": "Active",
+        "assigned": "Strategist"
+    },
+    {
+        "name": "MACD Trend Rider",
+        "type": "Trend",
+        "status": "Idle",
+        "assigned": "Mentor"
+    },
+    {
+        "name": "Breakout Sniper",
+        "type": "Scalp",
+        "status": "Ready",
+        "assigned": "Mo Cash"
+    }
+]

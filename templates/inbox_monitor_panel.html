@@ -1,0 +1,50 @@
+<!-- === FILE: inbox_monitor_panel.html === -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>📥 Team Inbox Monitor Panel</title>
+  <style>
+    body { font-family: monospace; background: #101820; color: #00FFAA; padding: 20px; }
+    h1 { color: #00FFAA; }
+    .packet { border: 1px solid #00FFAA; margin: 10px 0; padding: 10px; }
+    .filename { font-weight: bold; }
+    .team { color: #FFD700; }
+    .instructions { color: #FF69B4; }
+  </style>
+</head>
+<body>
+  <h1>📥 Incoming Packet Inbox</h1>
+  <div id="inboxDisplay">Loading...</div>
+
+  <script>
+    async function fetchPackets() {
+      const res = await fetch("/api/inbox_packets");
+      const packets = await res.json();
+      const container = document.getElementById("inboxDisplay");
+      container.innerHTML = "";
+
+      if (!packets.length) {
+        container.innerHTML = "<p>No pending packets. All clear. ✅</p>";
+        return;
+      }
+
+      packets.forEach(p => {
+        const div = document.createElement("div");
+        div.className = "packet";
+        div.innerHTML = `
+          <div class="filename">📄 ${p.filename}</div>
+          <div>📤 From: <span class="team">${p.sender}</span></div>
+          <div>📥 To: <span class="team">${p.recipient}</span></div>
+          <div>📦 Task: ${p.task_name}</div>
+          <div class="instructions">🧾 Instructions: ${p.instructions}</div>
+          <div>🗂️ Files: ${p.file_count}</div>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    setInterval(fetchPackets, 3000);
+    fetchPackets();
+  </script>
+</body>
+</html>

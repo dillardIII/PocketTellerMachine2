@@ -1,0 +1,6 @@
+{
+  "focus": "activate_voice_code",
+  "calm": "summon_persona",
+  "stress_spike": "pause_trades",
+  "neutral": "log_only"
+}

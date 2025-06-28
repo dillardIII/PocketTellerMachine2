@@ -1,32 +1,42 @@
 # === FILE: self_replicator.py ===
-# 🧬 Self Replicator – Creates clones, backups, or secondary instances of core PTM files for resilience
-
 import os
-import shutil
 import time
+from openai import OpenAI
 
-# === Config ===
-SOURCE_DIR = "."
-BACKUP_DIR = "replica"
-EXTENSIONS = [".py", ".json", ".txt"]
+BRIDGE_DIR = "ptm_bridge_drop"
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-def replicate_if_needed():
-    print("[Replicator] 🔁 Checking replication state...")
-    try:
-        os.makedirs(BACKUP_DIR, exist_ok=True)
-        replicated_files = 0
+ESSENTIALS = [
+    "meta_dispatcher.py",
+    "ghost_memory_matrix.py",
+    "hyperforge_pipeline.py",
+    "quantum_brain.py",
+    "vault_announcer.py",
+    "simulated_whisper.py",
+    "gpt_auto_seed_bot.py",
+    "self_forge_guardian.py"
+]
 
-        for root, dirs, files in os.walk(SOURCE_DIR):
-            for file in files:
-                if any(file.endswith(ext) for ext in EXTENSIONS):
-                    src_path = os.path.join(root, file)
-                    rel_path = os.path.relpath(src_path, SOURCE_DIR)
-                    dest_path = os.path.join(BACKUP_DIR, rel_path)
+counter = 0
 
-                    os.makedirs(os.path.dirname(dest_path), exist_ok=True)
-                    shutil.copy2(src_path, dest_path)
-                    replicated_files += 1
+def auto_create_module(module_name):
+    global counter
+    prompt = f"Write a full standalone Python file named {module_name} for PTM empire autonomy."
+    response = client.chat.completions.create(
+        model="gpt-4o",
+        messages=[{"role": "user", "content": prompt}]
+    )
+    code = response.choices[0].message.content
+    path = os.path.join(BRIDGE_DIR, f"auto_{module_name}_{counter}.py")
+    with open(path, "w") as f:
+        f.write(code)
+    print(f"[SelfReplicator] 🚀 Generated: {path}")
+    counter += 1
 
-        print(f"[Replicator] ✅ {replicated_files} files replicated to '{BACKUP_DIR}'.")
-    except Exception as e:
-        print(f"[Replicator] ❌ Replication failed: {e}")
+def self_replicate_loop():
+    print("[SelfReplicator] 🤖 Autonomous replication loop engaged...")
+    while True:
+        for file in ESSENTIALS:
+            if not os.path.exists(file):
+                auto_create_module(file)
+        time.sleep(60)

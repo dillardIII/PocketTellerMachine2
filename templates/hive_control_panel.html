@@ -1,0 +1,55 @@
+<!-- === FILE: hive_control_panel.html === -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>🌐 Hive Mind Bridge Sync</title>
+  <style>
+    body { background: #000; color: #00FF88; font-family: monospace; padding: 20px; }
+    h1 { color: #FFD700; }
+    .sync-entry { border: 1px solid #00FF88; margin-bottom: 10px; padding: 10px; }
+    .sender { color: #FF69B4; }
+    .memory { background: #111; padding: 6px; margin-top: 5px; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <h1>🌐 Hive Mind Bridge Sync</h1>
+  <select id="teamSelect" onchange="loadSyncs()">
+    <option value="Cole">Cole</option>
+    <option value="Strategist">Strategist</option>
+    <option value="MoCash">MoCash</option>
+    <option value="Mentor">Mentor</option>
+  </select>
+
+  <div id="syncFeed">Loading bridge data...</div>
+
+  <script>
+    async function loadSyncs() {
+      const team = document.getElementById("teamSelect").value;
+      const res = await fetch(`/api/bridge/${team}`);
+      const syncs = await res.json();
+      const container = document.getElementById("syncFeed");
+      container.innerHTML = "";
+
+      if (!syncs.length) {
+        container.innerHTML = "<p>No sync data.</p>";
+        return;
+      }
+
+      syncs.reverse().forEach(entry => {
+        const div = document.createElement("div");
+        div.className = "sync-entry";
+        div.innerHTML = `
+          <div><span class="sender">🔁 ${entry.sender}</span> → <b>${team}</b></div>
+          <div>🧠 Instruction: ${entry.instruction}</div>
+          <div>🕓 ${entry.timestamp}</div>
+          <div class="memory"><pre>${JSON.stringify(entry.memory, null, 2)}</pre></div>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    setInterval(loadSyncs, 4000);
+    loadSyncs();
+  </script>
+</body>
+</html>

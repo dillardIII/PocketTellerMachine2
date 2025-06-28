@@ -1,0 +1,34 @@
+[
+  {
+    "timestamp": "2025-06-04T06:46:29.155543",
+    "source": "Cole",
+    "destination": "GhostBot",
+    "type": "code_drop",
+    "status": "routed",
+    "notes": "Packet successfully routed."
+  },
+  {
+    "timestamp": "2025-06-04T06:46:29.178887",
+    "source": "Cole",
+    "destination": "GhostBot",
+    "type": "code_drop",
+    "status": "routed",
+    "notes": "Packet successfully routed."
+  },
+  {
+    "timestamp": "2025-06-04T06:46:30.434554",
+    "source": "Cole",
+    "destination": "GhostBot",
+    "type": "code_drop",
+    "status": "routed",
+    "notes": "Packet successfully routed."
+  },
+  {
+    "timestamp": "2025-06-04T06:46:30.436156",
+    "source": "Cole",
+    "destination": "GhostBot",
+    "type": "code_drop",
+    "status": "routed",
+    "notes": "Packet successfully routed."
+  }
+]

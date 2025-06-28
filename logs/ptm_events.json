@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2025-06-04 06:19:08 UTC",
+    "source": "Cole Autopilot",
+    "level": "error",
+    "message": "\ud83d\udd25 Autopilot crash: 'dict' object has no attribute 'append'"
+  },
+  {
+    "timestamp": "2025-06-04 06:19:08 UTC",
+    "source": "Cole Autopilot",
+    "level": "warning",
+    "message": "\u26a0\ufe0f Failed to log to GhostMesh: cannot import name 'speak_trade_recap' from 'persona_recap_speaker' (/home/runner/workspace/persona_recap_speaker.py)"
+  }
+]
