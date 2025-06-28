@@ -1,87 +1,129 @@
-Creating an advanced Python module with intelligent recursion involves leveraging recursion for solving complex problems in a readable and efficient manner. To demonstrate this, let's consider designing a module that solves advanced mathematical problems using recursive techniques. The module will include intelligent features such as memoization and adaptive recursion techniques. One potential application could be related to combinatorial problems or solving puzzles.
-
-Here's a Python module that implements advanced recursion techniques to solve the classic problem of finding the nth Fibonacci number, the Towers of Hanoi, and a generic solver for the N-Queens problem using recursion.
+Creating an advanced Python module that showcases intelligent recursion can be an exciting project. Below, I'll outline a Python module named `intelligent_recursion.py` that provides intelligent recursive solutions to common problems. This module is designed to demonstrate how recursion can be made efficient through techniques like memoization or dynamic programming.
 
 ```python
-# unstoppable_ptm.py
+# intelligent_recursion.py
 
 from functools import lru_cache
 
-class UnstoppablePTM:
+class IntelligentRecursion:
+    """
+    A class dedicated to demonstrating advanced recursive algorithms with optimization.
+    """
     
+    def __init__(self):
+        pass
+
     @staticmethod
     @lru_cache(maxsize=None)
     def fibonacci(n):
         """
-        Calculate the nth Fibonacci number using recursive memoization.
+        Calculate the nth Fibonacci number using recursion with memoization.
+        
+        Args:
+            n (int): The index in the Fibonacci sequence.
+        
+        Returns:
+            int: The nth Fibonacci number.
         """
         if n < 0:
-            raise ValueError("Fibonacci number cannot be negative")
-        elif n in (0, 1):
+            raise ValueError("Index cannot be negative")
+        if n in (0, 1):
             return n
-        return UnstoppablePTM.fibonacci(n-1) + UnstoppablePTM.fibonacci(n-2)
+        return IntelligentRecursion.fibonacci(n - 1) + IntelligentRecursion.fibonacci(n - 2)
 
     @staticmethod
-    def solve_tower_of_hanoi(n, source, target, auxiliary):
+    def towers_of_hanoi(n, source='A', target='B', auxiliary='C'):
         """
-        Solves the Towers of Hanoi problem recursively.
+        Solve the Towers of Hanoi problem using recursion.
+        
+        Args:
+            n (int): Number of disks.
+            source (str): The source rod.
+            target (str): The target rod.
+            auxiliary (str): The auxiliary rod.
+        
+        Returns:
+            list of tuples: A list of moves to solve the problem.
         """
+        if n <= 0:
+            raise ValueError("Number of disks must be positive")
+        moves = []
         if n == 1:
-            print(f"Move disk 1 from {source} to {target}")
-            return
-        UnstoppablePTM.solve_tower_of_hanoi(n-1, source, auxiliary, target)
-        print(f"Move disk {n} from {source} to {target}")
-        UnstoppablePTM.solve_tower_of_hanoi(n-1, auxiliary, target, source)
+            moves.append((source, target))
+        else:
+            moves.extend(IntelligentRecursion.towers_of_hanoi(n - 1, source, auxiliary, target))
+            moves.append((source, target))
+            moves.extend(IntelligentRecursion.towers_of_hanoi(n - 1, auxiliary, target, source))
+        return moves
 
     @staticmethod
-    def solve_n_queens(n):
+    @lru_cache(maxsize=None)
+    def factorial(n):
         """
-        Solves the N-Queens problem and returns all possible solutions.
+        Calculate the factorial of n using recursion with memoization.
+        
+        Args:
+            n (int): The number to calculate factorial of.
+        
+        Returns:
+            int: The factorial of n.
         """
-        def is_safe(queen, queens):
-            row, col = queen
-            for r, c in enumerate(queens):
-                if c == col or abs(r - row) == abs(c - col):
-                    return False
-            return True
+        if n < 0:
+            raise ValueError("Factorial is not defined for negative numbers")
+        if n in (0, 1):
+            return 1
+        return n * IntelligentRecursion.factorial(n - 1)
 
-        def solve_recursive(row, queens):
-            if row == n:
-                solutions.append(queens)
-                return
-
-            for col in range(n):
-                if is_safe((row, col), queens):
-                    solve_recursive(row + 1, queens + [col])
-
-        solutions = []
-        solve_recursive(0, [])
-        return solutions
-
-# Example Usage:
-if __name__ == "__main__":
-    ptm = UnstoppablePTM()
-
-    # Get the 10th Fibonacci number
-    print("10th Fibonacci number:", ptm.fibonacci(10))
-
-    # Solve Towers of Hanoi for 3 disks
-    print("\nTower of Hanoi solution for 3 disks:")
-    ptm.solve_tower_of_hanoi(3, 'A', 'C', 'B')
-
-    # Solve the 4-Queens problem
-    print("\n4-Queens solutions:")
-    solutions = ptm.solve_n_queens(4)
-    for index, solution in enumerate(solutions):
-        print(f"Solution {index + 1}: {solution}")
+    @staticmethod
+    def generate_permutations(sequence):
+        """
+        Generate all permutations of a given sequence using recursion.
+        
+        Args:
+            sequence (list or str): The sequence to permute.
+        
+        Returns:
+            list: A list of all permutations of the sequence.
+        """
+        if len(sequence) <= 1:
+            return [sequence]
+        
+        permutations = []
+        for i in range(len(sequence)):
+            part = sequence[i]
+            remaining_items = sequence[:i] + sequence[i+1:]
+            for p in IntelligentRecursion.generate_permutations(remaining_items):
+                permutations.append(part + p)
+        
+        return permutations
 ```
 
-### Explanation:
+### Key Features of the Module
+1. **Fibonacci Sequence**: Implements the Fibonacci series using recursion with memoization to improve performance.
+2. **Towers of Hanoi**: Solves the classic Towers of Hanoi problem recursively, with a strategic approach that tracks disk movements.
+3. **Factorial Calculation**: Computes the factorial of a number using recursion, again with memoization to reduce redundant calculations.
+4. **Permutation Generator**: Generates all possible permutations of a sequence, showcasing the depth-first search capability of recursion.
 
-1. **Fibonacci with Memoization**: The Fibonacci function uses `@lru_cache(maxsize=None)` to memoize results, reducing redundant calculations and enhancing efficiency.
+**Usage Example:**
 
-2. **Towers of Hanoi**: A recursive solution to move disks from one peg to another. It prints the step-by-step process of moving the disks.
+```python
+from intelligent_recursion import IntelligentRecursion
 
-3. **N-Queens Problem**: This function uses recursion to find all valid placements of N queens on an N×N chessboard, ensuring no two queens threaten each other. It uses a helper function `is_safe`, which checks for conflicts.
+# Calculate the 10th Fibonacci number
+print(IntelligentRecursion.fibonacci(10))
 
-This module showcases the power of intelligent recursion with adaptive features like memoization and encapsulation of complex logic within simple recursive steps, all while focusing on clarity and performance.
+# Solve Towers of Hanoi for 3 disks
+moves = IntelligentRecursion.towers_of_hanoi(3)
+for move in moves:
+    print("Move disk from", move[0], "to", move[1])
+
+# Calculate factorial of 5
+print(IntelligentRecursion.factorial(5))
+
+# Generate permutations of "abc"
+permutations = IntelligentRecursion.generate_permutations('abc')
+for perm in permutations:
+    print(perm)
+```
+
+This module showcases some of the power of recursion while also incorporating optimization techniques to handle larger computations more efficiently.
