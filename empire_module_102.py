@@ -1,82 +1,105 @@
-Creating a new, advanced Python module for a hypothetical "unstoppable PTM empire" with intelligent recursion would involve crafting a module that leverages recursion in an innovative and efficient way. Here, we'll create a module called `ptm_recursion` that contains functions demonstrating intelligent recursion in solving complex problems, such as a recursive solver for combinatorial problems and optimizing recursive algorithms using techniques like memoization or dynamic programming. This example shows a balance of complexity and clarity for educational purposes.
+Creating a Python module that incorporates advanced features like intelligent recursion can be quite useful for a variety of tasks, especially for complex problem-solving or data processing. Here is an example of what such a module might look like. This module will perform advanced operations intelligently, making use of recursion when necessary to optimize solutions for specific problems.
+
+### `intelligent_recursion.py`
 
 ```python
-# ptm_recursion.py
+# intelligent_recursion.py
 
-from functools import lru_cache
-from typing import Dict, Tuple, List
+import functools
 
-class PTMRecursion:
-    """A module encapsulating advanced recursive techniques."""
+class IntelligentRecursion:
+    """
+    A class to encapsulate intelligent recursion techniques.
+    """
 
-    @staticmethod
-    @lru_cache(maxsize=None)
-    def fibonacci(n: int) -> int:
+    def __init__(self):
+        self.memo = {}
+
+    def memoize(self, func):
+        """Memoization decorator to cache function results."""
+        @functools.wraps(func)
+        def wrapper(*args):
+            if args not in self.memo:
+                self.memo[args] = func(*args)
+            return self.memo[args]
+        return wrapper
+
+    def intelligent_fibonacci(self, n):
         """
-        Calculate the nth Fibonacci number using memoized recursion for optimization.
-
-        :param n: The index in the Fibonacci sequence.
-        :return: The nth Fibonacci number.
+        Calculate the n-th Fibonacci number using recursion with memoization.
         """
-        if n < 2:
-            return n
-        return PTMRecursion.fibonacci(n - 1) + PTMRecursion.fibonacci(n - 2)
-
-    @staticmethod
-    def count_paths(m: int, n: int) -> int:
-        """
-        Count the number of unique paths from the top-left to the bottom-right in an m x n grid.
-
-        :param m: Number of rows.
-        :param n: Number of columns.
-        :return: Number of unique paths.
-        """
-        # Initialize a cache to store intermediate results
-        cache: Dict[Tuple[int, int], int] = {}
-
-        def recurse(x: int, y: int) -> int:
-            # Base case: If we're at the last row or column
-            if x == m - 1 or y == n - 1:
+        if n <= 0:
+            raise ValueError("n must be a positive integer")
+        
+        @self.memoize
+        def _fibonacci(n):
+            if n in (1, 2):
                 return 1
-            # Check if result is cached
-            if (x, y) in cache:
-                return cache[(x, y)]
+            return _fibonacci(n - 1) + _fibonacci(n - 2)
 
-            # Recursive case: Sum of paths from the right and down
-            cache[(x, y)] = recurse(x + 1, y) + recurse(x, y + 1)
-            return cache[(x, y)]
-
-        return recurse(0, 0)
-
-    @staticmethod
-    def all_subsets(nums: List[int]) -> List[List[int]]:
+        return _fibonacci(n)
+    
+    def intelligent_factorial(self, n):
         """
-        Find all subsets of a set using intelligent recursion.
-
-        :param nums: The input list.
-        :return: A list of all subsets.
+        Calculate the factorial of n using recursion, with memoization for optimization.
         """
-        result: List[List[int]] = []
+        if n < 0:
+            raise ValueError("n must be a non-negative integer")
 
-        def recurse(index: int, current: List[int]):
-            # Base case: All elements considered
-            if index == len(nums):
-                result.append(current[:])
+        @self.memoize
+        def _factorial(n):
+            if n in (0, 1):
+                return 1
+            return n * _factorial(n - 1)
+
+        return _factorial(n)
+
+    def intelligent_tower_of_hanoi(self, n, source, target, auxiliary):
+        """
+        Solves the Tower of Hanoi problem for n disks.
+        """
+
+        def _tower_of_hanoi(n, source, target, auxiliary):
+            if n == 1:
+                print(f"Move disk 1 from {source} to {target}")
                 return
-            # Recursive case: Include the current element or not
-            recurse(index + 1, current + [nums[index]])
-            recurse(index + 1, current)
+            _tower_of_hanoi(n - 1, source, auxiliary, target)
+            print(f"Move disk {n} from {source} to {target}")
+            _tower_of_hanoi(n - 1, auxiliary, target, source)
 
-        recurse(0, [])
-        return result
+        _tower_of_hanoi(n, source, target, auxiliary)
+
+# Module level utility functions
+
+def calculate_fibonacci(n):
+    """Utility function to calculate Fibonacci numbers."""
+    ir = IntelligentRecursion()
+    return ir.intelligent_fibonacci(n)
+
+def calculate_factorial(n):
+    """Utility function to calculate factorial."""
+    ir = IntelligentRecursion()
+    return ir.intelligent_factorial(n)
+
+def solve_tower_of_hanoi(n, source='A', target='C', auxiliary='B'):
+    """Utility function to solve the Tower of Hanoi problem."""
+    ir = IntelligentRecursion()
+    ir.intelligent_tower_of_hanoi(n, source, target, auxiliary)
+
+if __name__ == '__main__':
+    # Example usage
+    print("Fibonacci(10):", calculate_fibonacci(10))
+    print("Factorial(5):", calculate_factorial(5))
+    print("Tower of Hanoi with 3 disks:")
+    solve_tower_of_hanoi(3)
 ```
 
-### Description:
+### Explanation:
 
-1. **Memoized Fibonacci:** Demonstrates optimizing recursion with memoization using `lru_cache`. This avoids redundant calculations by caching results of already computed Fibonacci numbers.
+- **Memoization**: This technique is used in the `memoize` decorator to cache results of expensive function calls, thereby avoiding redundant calculations.
 
-2. **Count Paths in a Grid:** Solves a classic combinatorial problem using recursion with a manual caching mechanism to reduce the time complexity.
+- **Recursive Methods**: `intelligent_fibonacci` and `intelligent_factorial` are optimized through memoization, while `intelligent_tower_of_hanoi` utilizes classic recursion as it is straightforward.
 
-3. **Subsets of a Set:** Uses recursion to generate all possible subsets of a given list, showcasing a divide-and-conquer technique by considering each element's inclusion or exclusion.
+- **Utility Functions**: These are provided at the module level to make the use of the `IntelligentRecursion` class convenient.
 
-This module can be expanded and improved based on specific requirements or use-cases within your PTM empire's broader applications. It aims to balance between recursive complexity and performance by leveraging intelligent optimization techniques.
+This module effectively demonstrates intelligent recursion through memoization as a method to improve the efficiency of recursive computations in Python.
