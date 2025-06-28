@@ -1,96 +1,90 @@
-Creating an "intelligent recursion" module for the fictional "unstoppable PTM empire" is quite an interesting challenge. To achieve the desired outcome, we'll focus on developing a Python module that demonstrates advanced functionality using recursive techniques enhanced with memoization to optimize performance. In this context, "intelligent" refers to enhancing recursion with techniques that prevent redundant calculations and improve efficiency.
+Creating a Python module for an "unstoppable PTM empire" that utilizes advanced concepts like intelligent recursion sounds like a fun and challenging project. Below is a high-level design for such a module, combining recursion with some advanced features, such as memoization, decorators, and type annotations, to create potentially more intelligent recursive functions.
 
-Let's construct a module named `intelligent_recursion.py` which can be a foundation for a smart computing library within the hypothetical PTM empire.
+Let's make an example module that handles complex mathematical operations involving recursion. A practical example might involve recursive calculations for certain sequences or problems like the "Unstoppable Growth Sequence" (UGS). For our purposes, we'll define UGS as a hypothetical mathematical sequence that we're interested in computing efficiently using recursion.
 
 ```python
-# Intelligent Recursion Module for the PTM Empire
+# unstoppable_ptm.py
 
-class IntelligentRecursion:
-    def __init__(self):
-        self.memo = {}
+from typing import Dict, Callable
+from functools import lru_cache, wraps
 
-    def fibonacci(self, n):
-        """
-        Compute the nth Fibonacci number using intelligent recursion
-        with memoization to optimize repeated calculations.
 
-        :param n: The n-th position in Fibonacci sequence to compute.
-        :return: The Fibonacci number at position n.
-        """
-        if n <= 0:
-            raise ValueError("n should be a positive integer")
-        if n in self.memo:
-            return self.memo[n]
-        if n == 1 or n == 2:
-            return 1
-        result = self.fibonacci(n - 1) + self.fibonacci(n - 2)
-        self.memo[n] = result
-        return result
+def intelligent_recursion(func: Callable) -> Callable:
+    """
+    A decorator to enhance a recursive function with memoization and logging capabilities.
+    """
+    memo: Dict = {}
 
-    def factorial(self, n):
-        """
-        Compute the factorial of n using recursion.
-
-        :param n: Non-negative integer to compute factorial for.
-        :return: Factorial of n.
-        """
-        if n < 0:
-            raise ValueError("n should be a non-negative integer")
-        if n == 0 or n == 1:
-            return 1
-        return n * self.factorial(n - 1)
-
-    def gcd(self, a, b):
-        """
-        Compute the greatest common divisor (GCD) of two numbers.
-
-        :param a: First integer.
-        :param b: Second integer.
-        :return: GCD of a and b.
-        """
-        if b == 0:
-            return a
-        return self.gcd(b, a % b)
-
-    def towers_of_hanoi(self, n, source='A', target='C', auxiliary='B', moves=None):
-        """
-        Solve the Towers of Hanoi problem and return the list of moves.
-
-        :param n: The number of disks.
-        :param source: The initial pole.
-        :param target: The target pole.
-        :param auxiliary: The auxiliary pole.
-        :param moves: The list that logs all the moves; primarily for internal use.
-        :return: List of moves as tuples (disk, from_peg, to_peg).
-        """
-        if moves is None:
-            moves = []
-
-        if n == 1:
-            moves.append((1, source, target))
+    @wraps(func)
+    def wrapper(*args):
+        if args in memo:
+            print(f"Fetching from memo: {args} -> {memo[args]}")
+            return memo[args]
         else:
-            self.towers_of_hanoi(n - 1, source, auxiliary, target, moves)
-            moves.append((n, source, target))
-            self.towers_of_hanoi(n - 1, auxiliary, target, source, moves)
+            result = func(*args)
+            print(f"Computing: {args} -> {result}")
+            memo[args] = result
+            return result
 
-        return moves
+    return wrapper
 
-# Example demonstration of the module
+
+@intelligent_recursion
+def ugs(n: int) -> int:
+    """
+    Calculate the n-th element of the Unstoppable Growth Sequence using intelligent recursion.
+    Hypothetical sequence formula: UGS(n) = UGS(n-1) + UGS(n-2) + UGS(n-3), with base cases defined.
+    """
+    if n < 0:
+        raise ValueError("Input cannot be negative.")
+    if n == 0:
+        return 1  # Base case
+    if n == 1:
+        return 2  # Base case
+    if n == 2:
+        return 4  # Base case
+
+    # Perform the recursive step by summing the previous three values
+    return ugs(n - 1) + ugs(n - 2) + ugs(n - 3)
+
+
+@lru_cache(maxsize=None)
+def factorial(n: int) -> int:
+    """
+    Calculate factorial using recursion with memoization to demonstrate recursion for another task.
+    """
+    if n < 0:
+        raise ValueError("Input cannot be negative.")
+    if n == 0 or n == 1:
+        return 1
+
+    return n * factorial(n - 1)
+
+
 if __name__ == "__main__":
-    ir = IntelligentRecursion()
-    print('Fibonacci(10):', ir.fibonacci(10))
-    print('Factorial(5):', ir.factorial(5))
-    print('GCD(48, 18):', ir.gcd(48, 18))
-    print('Towers of Hanoi(3):', ir.towers_of_hanoi(3))
+    # Example usage
+    try:
+        print("Unstoppable Growth Sequence:")
+        print(", ".join(str(ugs(i)) for i in range(10)))
+
+        print("\nFactorials:")
+        print(", ".join(f"{i}! = {factorial(i)}" for i in range(10)))
+    except Exception as e:
+        print(f"Error: {e}")
 ```
 
 ### Key Features:
 
-1. **Memoization with Fibonacci**: The `fibonacci` method utilizes a dictionary cache to store results of already computed Fibonacci numbers, making recursive calls much more efficient by avoiding repeated work.
+1. **Memoization with a Decorator**: Uses a custom `intelligent_recursion` decorator to cache the results of expensive function calls and return the cached result when a function is called with the same arguments again.
 
-2. **Recursive Algorithms**:
-   - **Factorial**: Simple demonstration of an efficient recursive approach.
-   - **GCD**: Classic example of Euclid's algorithm using recursion to find the greatest common divisor.
-   - **Towers of Hanoi**: A more complex problem solved using recursion, demonstrating how recursion can be used to break down a problem into simpler tasks.
+2. **Type Annotations**: This helps with static type checking and makes the code more self-documenting.
 
-This module showcases how powerful recursion enhanced with intelligent techniques like memoization can be in solving complex problems efficiently.
+3. **Logging**: It informs when a computation is done versus fetching a result from memory.
+
+4. **Advanced Recursion**: A complex sequence (`ugs`) is computed using recursion, exemplified by a hypothetical Unstoppable Growth Sequence problem.
+
+5. **Error Handling**: Includes basic error handling to address common issues.
+
+6. **LRU Cache**: Utilizes `functools.lru_cache` for factorial computation to optimize recursive calls further by caching them.
+
+This module provides examples of using recursion in efficient and maintainable ways, demonstrating how complex recursive computations can be tackled in Python using advanced techniques.
