@@ -1,114 +1,83 @@
-Creating an advanced Python module with intelligent recursion for the PTM empire could cover a specific problem or a set of tasks within the domain you are interested in. Without additional context, I can draft a hypothetical module for general intelligent recursion and dynamic programming techniques, which are often an integral part of optimizing recursive solutions. Let's call this module `intelligent_recursion.py`.
+Creating an advanced Python module for the "unstoppable PTM empire" using intelligent recursion requires an understanding of what "PTM" stands for, and what goals this module should achieve. Without specific details, I’ll create a generic module that could fit into a hypothetical empire needing efficient recursive solutions for various computational tasks, such as data processing, problem-solving, or organizational structuring.
+
+The module, named `intelligent_recursion`, employs techniques like memoization and dynamic decision-making to optimize recursive operations. I've added sample functions to illustrate its application.
 
 ```python
-# intelligent_recursion.py
+# Filename: intelligent_recursion.py
 
-from functools import lru_cache
+from functools import lru_cache, wraps
 import logging
 
-# Configure logging to help trace computation steps
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
+def intelligent_recursion_decorator(max_size=128):
+    def decorator(func):
+        cache = lru_cache(maxsize=max_size)(func)
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            logger.info(f"Calling function '{func.__name__}' with args: {args}, kwargs: {kwargs}")
+            result = cache(*args, **kwargs)
+            logger.info(f"Result of {func.__name__} with args {args}: {result}")
+            return result
+        return wrapper
+    return decorator
 
-class IntelligentRecursion:
-    def __init__(self):
-        """
-        Initialize the Intelligent Recursion class which will provide various
-        recursive solutions using intelligent approaches like memoization.
-        """
-        self.memo = {}
+# Example of an intelligent recursive function using Fibonacci sequence
+@intelligent_recursion_decorator(max_size=256)
+def fibonacci(n):
+    """Returns the nth Fibonacci number."""
+    if n < 0:
+        raise ValueError("Fibonacci number cannot be computed for negative indices.")
+    return n if n <= 1 else fibonacci(n - 1) + fibonacci(n - 2)
 
-    def fibonacci(self, n):
-        """
-        Calculate the n-th Fibonacci number using memoization.
-        
-        :param n: The position in the Fibonacci sequence.
-        :return: The n-th Fibonacci number.
-        """
-        if n in self.memo:
-            logging.debug(f'Fibonacci({n}) retrieved from cache: {self.memo[n]}')
-            return self.memo[n]
+# Example of intelligent recursion in a generic search problem (e.g., maze-solving)
+def solve_maze(maze, position=(0, 0), path=[]):
+    """Solves a maze represented as a grid of 1s (walls) and 0s (paths) starting from 'position'."""
+    x, y = position
+    # Check boundaries and walls
+    if not (0 <= x < len(maze) and 0 <= y < len(maze[0])) or maze[x][y] != 0:
+        return None
+    # End condition: reached the lower-right corner
+    if position == (len(maze)-1, len(maze[0])-1):
+        return path + [position]
+    
+    # Mark the current position as visited
+    maze[x][y] = 2
+    
+    # Explore neighbors: right, down, left, up
+    for direction in [(0, 1), (1, 0), (0, -1), (-1, 0)]:
+        next_position = (x + direction[0], y + direction[1])
+        if result := solve_maze(maze, next_position, path + [position]):
+            return result
+    
+    # Unmark the visited position (only if backtracking)
+    maze[x][y] = 0
+    return None
 
-        if n < 2:
-            result = n
-        else:
-            result = self.fibonacci(n - 1) + self.fibonacci(n - 2)
-
-        self.memo[n] = result
-        logging.debug(f'Fibonacci({n}) calculated as: {result}')
-        return result
-
-    @lru_cache(maxsize=None)
-    def factorial(self, n):
-        """
-        Calculate the factorial of n using dynamic programming with caching via lru_cache.
-        
-        :param n: The number to calculate the factorial for.
-        :return: The factorial of n.
-        """
-        if n < 2:
-            result = 1
-        else:
-            result = n * self.factorial(n - 1)
-
-        logging.debug(f'Factorial({n}) calculated as: {result}')
-        return result
-
-    def towers_of_hanoi(self, n, source='A', target='C', auxiliary='B'):
-        """
-        Solve the Towers of Hanoi problem and return the moves needed.
-
-        :param n: Number of disks.
-        :param source: Source peg.
-        :param target: Target peg.
-        :param auxiliary: Auxiliary peg.
-        :return: A list of moves.
-        """
-        moves = []
-        
-        def solve(n, source, target, auxiliary):
-            if n == 1:
-                moves.append((source, target))
-                logging.debug(f'Move disk from {source} to {target}')
-                return
-            solve(n - 1, source, auxiliary, target)
-            moves.append((source, target))
-            logging.debug(f'Move disk from {source} to {target}')
-            solve(n - 1, auxiliary, target, source)
-
-        solve(n, source, target, auxiliary)
-        return moves
-
-    def knapsack(self, weights, values, max_weight):
-        """
-        Solve the 0/1 Knapsack problem using dynamic programming.
-        
-        :param weights: List of item weights.
-        :param values: List of item values.
-        :param max_weight: Maximum weight capacity of the knapsack.
-        :return: Maximum value achievable with the given constraints.
-        """
-        n = len(values)
-        dp = [[0] * (max_weight + 1) for _ in range(n + 1)]
-
-        for i in range(1, n + 1):
-            for w in range(max_weight + 1):
-                if weights[i - 1] <= w:
-                    dp[i][w] = max(values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w])
-                else:
-                    dp[i][w] = dp[i - 1][w]
-                logging.debug(f'dp[{i}][{w}] = {dp[i][w]}')
-
-        return dp[n][max_weight]
+if __name__ == '__main__':
+    # Example usage
+    print("Fibonacci of 10:", fibonacci(10))
+    test_maze = [
+        [0, 1, 0, 0, 0],
+        [0, 1, 0, 1, 0],
+        [0, 0, 0, 1, 0],
+        [1, 1, 0, 0, 0],
+        [0, 0, 0, 1, 0]
+    ]
+    path = solve_maze(test_maze)
+    print("Maze path:", path)
 ```
 
+### Features
+1. **Intelligent Recursion Decorator**: Uses `lru_cache` to cache results and improve performance on repeated calls with the same parameters, reducing redundant computations.
+2. **Detailed Logging**: Logs function calls, parameters, and results to help trace the evolution of recursive calls.
+3. **Fibonacci Calculation**: Demonstrates intelligent recursion in a classic problem using memoization.
+4. **Maze Solver**: Implements recursion for a pathfinding algorithm in a grid, showcasing decision-making at each recursive step.
+
 ### Usage
+- Adjust the module for specific problem domains by creating additional recursive functions as needed.
+- Integrate this module into larger systems where recursion is a natural solution and performance optimization is critical.
 
-This module provides several functions that leverage advanced recursive techniques:
-
-- `fibonacci(n)`: Computes the \( n \)-th Fibonacci number using memoization.
-- `factorial(n)`: Computes the factorial of \( n \) using an LRU cache to store intermediate results.
-- `towers_of_hanoi(n, source, target, auxiliary)`: Solves the Towers of Hanoi puzzle for \( n \) disks.
-- `knapsack(weights, values, max_weight)`: Solves the 0/1 Knapsack problem using dynamic programming.
-
-These functions illustrate intelligent approaches to recursive problems using caching and dynamic programming techniques while providing detailed logging to trace calculations. Adjust logging levels as needed for more or less verbosity in the trace output.
+This module is a starter framework, customizable according to the empire's needs, providing flexibility, optimization, and traceability through intelligent recursion.
