@@ -3,7 +3,7 @@ modules = ["python-3.11"]
 
 [nix]
 channel = "stable-24_05"
-packages = ["SDL2", "SDL2_image", "SDL2_mixer", "SDL2_ttf", "cairo", "ffmpeg-full", "fontconfig", "freetype", "geckodriver", "ghostscript", "glibcLocales", "gobject-introspection", "gtk3", "libGL", "libGLU", "libjpeg", "libpng", "libxcrypt", "pkg-config", "portaudio", "portmidi", "qhull", "tcl", "tk", "nano"]
+packages = ["SDL2", "SDL2_image", "SDL2_mixer", "SDL2_ttf", "cairo", "ffmpeg-full", "fontconfig", "freetype", "geckodriver", "ghostscript", "glibcLocales", "gobject-introspection", "gtk3", "libGL", "libGLU", "libjpeg", "libpng", "libxcrypt", "nano", "pkg-config", "portaudio", "portmidi", "qhull", "tcl", "tk", "xsimd"]
 
 [unitTest]
 language = "python3"
