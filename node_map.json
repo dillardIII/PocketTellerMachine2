@@ -1,52 +1,52 @@
 [
   {
     "id": "node_0",
-    "status": "idle",
-    "last_ping": "2025-06-29T23:39:48.756669"
+    "status": "online",
+    "last_ping": "2025-06-29T23:40:08.758313"
   },
   {
     "id": "node_1",
-    "status": "processing",
-    "last_ping": "2025-06-29T23:39:48.756687"
+    "status": "online",
+    "last_ping": "2025-06-29T23:40:08.758329"
   },
   {
     "id": "node_2",
     "status": "idle",
-    "last_ping": "2025-06-29T23:39:48.756697"
+    "last_ping": "2025-06-29T23:40:08.758333"
   },
   {
     "id": "node_3",
     "status": "online",
-    "last_ping": "2025-06-29T23:39:48.756700"
+    "last_ping": "2025-06-29T23:40:08.758336"
   },
   {
     "id": "node_4",
-    "status": "idle",
-    "last_ping": "2025-06-29T23:39:48.756703"
+    "status": "processing",
+    "last_ping": "2025-06-29T23:40:08.758339"
   },
   {
     "id": "node_5",
-    "status": "processing",
-    "last_ping": "2025-06-29T23:39:48.756706"
+    "status": "online",
+    "last_ping": "2025-06-29T23:40:08.758342"
   },
   {
     "id": "node_6",
-    "status": "idle",
-    "last_ping": "2025-06-29T23:39:48.756709"
+    "status": "online",
+    "last_ping": "2025-06-29T23:40:08.758345"
   },
   {
     "id": "node_7",
-    "status": "processing",
-    "last_ping": "2025-06-29T23:39:48.756712"
+    "status": "idle",
+    "last_ping": "2025-06-29T23:40:08.758349"
   },
   {
     "id": "node_8",
     "status": "idle",
-    "last_ping": "2025-06-29T23:39:48.756715"
+    "last_ping": "2025-06-29T23:40:08.758352"
   },
   {
     "id": "node_9",
-    "status": "idle",
-    "last_ping": "2025-06-29T23:39:48.756718"
+    "status": "processing",
+    "last_ping": "2025-06-29T23:40:08.758355"
   }
 ]
