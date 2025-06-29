@@ -1,101 +1,102 @@
-Creating an advanced Python module that leverages intelligent recursion typically involves combining recursion with other programming concepts such as memoization, dynamic programming, or even machine learning techniques to optimize recursive algorithms. Below, I'll outline a Python module called `intelligent_recursion.py`, which includes an `IntelligentRecursion` class tailored for solving combinatorial problems efficiently. It incorporates memoization and a hint of dynamic optimization.
+Creating an advanced Python module for an entity like "PTM" using intelligent recursion would require a combination of advanced algorithms, efficient coding practices, and a clear understanding of the problem domain. Let's consider creating a module that exemplifies intelligent recursion by solving a complex problem, such as finding the optimal path in a graph with additional constraints.
+
+For demonstration purposes, we'll create a module named `ptm_graph_solver` which uses intelligent recursion to find the best path through a graph. To make it more advanced, we'll include memoization to optimize the recursive calls and handling constraints.
+
+Here's a possible implementation:
 
 ```python
-# intelligent_recursion.py
+# ptm_graph_solver.py
 
-class IntelligentRecursion:
-    """A class to demonstrate intelligent recursion using memoization."""
+from typing import Dict, List, Tuple, Any
+import heapq
 
-    def __init__(self):
-        # A dictionary to store calculated results for optimization
+class GraphSolver:
+    def __init__(self, graph: Dict[Any, List[Tuple[Any, int]]], start: Any, end: Any):
+        self.graph = graph
+        self.start = start
+        self.end = end
         self.memo = {}
 
-    def fibonacci(self, n):
-        """
-        Calculate the nth Fibonacci number using intelligent recursion.
-        
-        :param n: An integer index n.
-        :return: The nth Fibonacci number.
-        """
-        if n in self.memo:
-            return self.memo[n]
-        
-        if n <= 1:
-            result = n
-        else:
-            result = self.fibonacci(n - 1) + self.fibonacci(n - 2)
-        
-        self.memo[n] = result
-        return result
+    def find_optimal_path(self) -> Tuple[List[Any], int]:
+        # Using a priority queue to explore paths in order of their current cost
+        pq = [(0, self.start, [self.start])]
+        best_cost = float('inf')
+        best_path = []
 
-    def permute(self, nums):
-        """
-        Generate all permutations of a list of numbers using backtracking.
-        
-        :param nums: List of distinct integers.
-        :return: A list of all permutations.
-        """
-        results = []
-        self._backtrack_permute(nums, [], results)
-        return results
-    
-    def _backtrack_permute(self, nums, path, results):
-        if not nums:
-            results.append(path)
-        for i in range(len(nums)):
-            self._backtrack_permute(nums[:i] + nums[i+1:], path + [nums[i]], results)
+        while pq:
+            current_cost, current_node, path = heapq.heappop(pq)
 
-    def intelligent_factorial(self, n):
-        """
-        Calculate factorial with memoization optimization.
-        
-        :param n: An integer to calculate the factorial of.
-        :return: The factorial of n.
-        """
-        if n in self.memo:
-            return self.memo[n]
+            if current_node == self.end:
+                if current_cost < best_cost:
+                    best_cost = current_cost
+                    best_path = path
+                continue
 
-        if n <= 1:
-            result = 1
-        else:
-            result = n * self.intelligent_factorial(n - 1)
-        
-        self.memo[n] = result
-        return result
+            # Recursively explore neighbors
+            for neighbor, weight in self.graph.get(current_node, []):
+                if neighbor not in path:  # Avoid cycles
+                    new_cost = current_cost + weight
+                    if new_cost < self.memo.get((neighbor, len(path) + 1), float('inf')):
+                        self.memo[(neighbor, len(path) + 1)] = new_cost
+                        heapq.heappush(pq, (new_cost, neighbor, path + [neighbor]))
+
+        return best_path, best_cost if best_path else (None, float('inf'))
+
+    def find_all_paths(self, node: Any = None, path: List[Any] = None) -> List[List[Any]]:
+        if node is None:
+            node = self.start
+        if path is None:
+            path = [self.start]
+
+        if node == self.end:
+            return [path]
+
+        paths = []
+        for neighbor, _ in self.graph.get(node, []):
+            if neighbor not in path:  # Avoid cycles
+                new_paths = self.find_all_paths(neighbor, path + [neighbor])
+                for new_path in new_paths:
+                    paths.append(new_path)
+
+        return paths
+
 
 # Example usage
+def main():
+    graph = {
+        'A': [('B', 1), ('C', 2)],
+        'B': [('C', 2), ('D', 1)],
+        'C': [('D', 3)],
+        'D': []
+    }
+    
+    solver = GraphSolver(graph, 'A', 'D')
+    optimal_path, cost = solver.find_optimal_path()
+    print(f"Optimal Path: {optimal_path} with cost {cost}")
+
+    all_paths = solver.find_all_paths()
+    print(f"All Paths from start to end: {all_paths}")
+
 if __name__ == "__main__":
-    ir = IntelligentRecursion()
-    
-    # Demonstrating intelligent Fibonacci
-    print("Fibonacci sequence:")
-    for i in range(10):
-        print(f"F({i}) = {ir.fibonacci(i)}")
-    
-    # Demonstrating permutations
-    permutations = ir.permute([1, 2, 3])
-    print("\nPermutations of [1, 2, 3]:")
-    for perm in permutations:
-        print(perm)
-    
-    # Demonstrating intelligent factorial
-    print("\nFactorial calculations:")
-    for i in range(5):
-        print(f"{i}! = {ir.intelligent_factorial(i)}")
+    main()
 ```
 
-### Features of the Module:
+### Explanation
 
-1. **Memoization in Fibonacci and Factorial:**
-   - The `fibonacci` and `intelligent_factorial` methods use memoization to store previously calculated results to optimize performance and reduce redundant calculations.
-   
-2. **Backtracking in Permutations:**
-   - The `permute` method uses a backtracking approach to generate permutations of a list. While not strictly recursive, it showcases an efficient algorithmic design pattern often used alongside recursion.
+1. **Graph Data Structure**: The graph is represented as an adjacency list. Each node points to a list of tuples with child nodes and the associated edge weights.
 
-### Expansion Ideas:
+2. **GraphSolver Class**:
+   - Initializes with a graph, a start node, and an end node.
+   - Uses memoization to store path costs at nodes with specific path lengths, avoiding re-evaluation.
 
-- Integrate dynamic programming to solve more complex problems like the knapsack problem.
-- Implement machine learning techniques to predict typically recursive outcomes, streamlining parts of the recursive calls.
-- Add robust error handling and logging for debugging complex recursive operations.
+3. **find_optimal_path Method**:
+   - Utilizes a priority queue to explore the graph intelligently, considering paths based on their cumulative cost.
+   - Updates the best path and cost when reaching the target node.
+   - Uses memoization to avoid redundant calculations.
 
-This module provides a glimpse into the potential of intelligent recursion to solve classic problems more efficiently while maintaining readability and simplicity.
+4. **find_all_paths Method**:
+   - Recursively traverses the graph to find all paths from the start node to the end node, avoiding cycles.
+
+5. **Example Usage**: Illustrates how the module works with a sample graph. The module prints the optimal path based on cost and lists all possible paths from `start` to `end`.
+
+This module demonstrates advanced techniques like recursion with memoization, pathfinding with constraints, and priority queues for efficient graph traversal.
