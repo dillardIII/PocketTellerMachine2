@@ -1,6 +1,5 @@
 # === FILE: replit_task_sq.py ===
-# 🚀 Replit Task Sequencer (ReplitTaskSQ)
-# Watches gpt_task_queue.txt and executes build or run commands autonomously
+# 🏗 Replit Task Sequencer (ReplicTaskSQ) – Picks up tasks from gpt_task_queue.txt and executes them
 
 import os
 import time
@@ -27,7 +26,6 @@ def process_task(line):
         print(f"[ReplitTaskSQ] ❓ Unknown command: {cmd}")
 
 def main_loop():
-    print("[ReplitTaskSQ] 🔥 Watching task queue...")
     while True:
         if os.path.exists(QUEUE_FILE):
             with open(QUEUE_FILE) as f:
