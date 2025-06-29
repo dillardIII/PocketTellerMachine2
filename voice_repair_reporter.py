@@ -4,22 +4,34 @@
 import os
 import datetime
 from datetime import datetime as dt
-from gpt_voice_bridge import speak_gpt_response
+
+# Optional: GPT voice system if present
+try:
+    from gpt_voice_bridge import speak_gpt_response
+except ImportError:
+    speak_gpt_response = None
 
 # === 📢 PRIMARY GPT-BASED VOICE SYSTEM ===
 def generate_voice_report(file, summary, result):
     spoken_summary = f"PTM just patched {file}. The change was: {summary}. Result: {result}."
     print(f"[🎤 Voice Report] {spoken_summary}")
 
-    try:
-        voice_path = speak_gpt_response(spoken_summary)
-        log_voice_event(file, spoken_summary, voice_path)
-        return {"status": "spoken", "file": file, "audio": voice_path}
-    except Exception as e:
-        print(f"[Voice Reporter ERROR] {str(e)}")
-        return {"status": "error", "message": str(e)}
+    if speak_gpt_response:
+        try:
+            voice_path = speak_gpt_response(spoken_summary)
+            log_voice_event(file, spoken_summary, voice_path)
+            return {"status": "spoken", "file": file, "audio": voice_path}
+        except Exception as e:
+            print(f"[Voice Reporter ERROR] {str(e)}")
+            return {"status": "error", "message": str(e)}
+    else:
+        print("[VoiceReport] ⚠️ GPT voice system not loaded. Defaulting to console.")
+        log_voice_event(file, spoken_summary, "console_only")
+        return {"status": "console", "file": file}
 
+# === 📜 LOGGING ===
 def log_voice_event(file, text, path):
+    os.makedirs("logs", exist_ok=True)
     with open("logs/voice_repair.log", "a") as log:
         log.write(f"\n[{dt.utcnow()}] {file}\n{text}\nMP3: {path}\n")
 
@@ -50,3 +62,7 @@ def fallback_generate_voice_report(file_path, context, deploy_result):
         text_to_speech(summary, output_file)
     except Exception as e:
         print(f"[VOICE REPORT ERROR] ❌ {e}")
+
+# === 🗣️ LIGHTWEIGHT CONSOLE-ONLY FOR BASIC RUNS ===
+def simple_console_voice_report(file_path, context, deploy_status):
+    print(f"[VoiceReport] 🎙️ {context} on {file_path} – Status: {deploy_status}")

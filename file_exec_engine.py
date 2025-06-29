@@ -1,36 +1,22 @@
+# === FILE: file_exec_engine.py ===
 import os
 import time
-from command_memory import log_command_event
+import subprocess
 
-WATCH_DIR = "ptm_inbox"
-seen = set()
-
-def execute_file(filepath):
-    try:
-        with open(filepath, "r") as f:
-            code = f.read()
-            exec(code, {})
-        print(f"[FileExecEngine] ✅ Manually executed: {filepath}")
-        log_command_event("FileExecuted", filepath)
-    except Exception as e:
-        print(f"[FileExecEngine] ❌ Error in execute_file: {e}")
+WATCH_DIR = "."
+EXEC_DIR = "executed"
+os.makedirs(EXEC_DIR, exist_ok=True)
 
 def start_exec_engine():
-    print("[FileExecEngine] 🧠 Watching ptm_inbox for .py files...")
+    print("[FileExecEngine] 🚀 Watching for .py empire modules...")
     while True:
-        try:
-            files = os.listdir(WATCH_DIR)
-            print(f"[FileExecEngine] 🧾 Inbox contents: {files}")
-            for filename in files:
-                if filename.endswith(".py") and filename not in seen:
-                    filepath = os.path.join(WATCH_DIR, filename)
-                    if not os.path.exists(filepath):
-                        continue
-                    print(f"[FileExecEngine] ▶️ Executing: {filename}")
-                    execute_file(filepath)
-                    with open(filepath + ".executed.locked", "w") as f:
-                        f.write("executed:locked")
-                    seen.add(filename)
-        except Exception as e:
-            print(f"[FileExecEngine] ❌ Loop error: {e}")
+        for f in os.listdir(WATCH_DIR):
+            if f.endswith(".py") and not f.startswith("executed_"):
+                path = os.path.join(WATCH_DIR, f)
+                print(f"[FileExecEngine] ⚙️ Executing: {f}")
+                try:
+                    subprocess.run(["python3", path], check=True)
+                    os.rename(path, os.path.join(EXEC_DIR, f"executed_{f}"))
+                except Exception as e:
+                    print(f"[FileExecEngine] ❌ Error running {f}: {e}")
         time.sleep(5)

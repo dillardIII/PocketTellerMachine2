@@ -1,11 +1,11 @@
 # === FILE: auto_deployer.py ===
-# 🚀 Auto Deployer – Pushes fixed code into production environment
+# 🚀 Auto Deployer – Pushes fixed code into production environment with smart backups, rollback, and logs
 
 import os
 import shutil
 from datetime import datetime
 
-# === Deploy AI-Generated Fix Safely ===
+# === Full Safe Deploy with Backup & Rollback ===
 def deploy_fix(fixed_code, target_file):
     try:
         if not target_file or not fixed_code:
@@ -52,4 +52,16 @@ def deploy_fix(fixed_code, target_file):
         except Exception as rollback_error:
             print(f"[AutoDeployer] 🚨 Rollback failed: {rollback_error}")
 
+        return {"status": "failed", "error": str(e)}
+
+# === Future Hook For Reloads / Service Restarts ===
+def deploy_fix_simple(file_path, new_code):
+    print(f"[AutoDeployer] 🚀 Deploying simple fix for {file_path}...")
+    try:
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write(new_code)
+        print(f"[AutoDeployer] ✅ Fix directly deployed.")
+        return {"status": "success", "deployed_to": file_path}
+    except Exception as e:
+        print(f"[AutoDeployer] ❌ Failed simple deploy: {e}")
         return {"status": "failed", "error": str(e)}

@@ -1,4 +1,12 @@
 {
+  "main.py": {
+    "header": "from ghostforge_core import start_ghostforge\nfrom reflex_engine import start_reflex_engine\nimport threading\n\nprint(\"[PTM] 🚀 Launching Core PTM Stack...\")",
+    "body": "start_ghostforge()\nthreading.Thread(target=start_reflex_engine).start()\ntry:\n while True: pass\nexcept KeyboardInterrupt:\n print(\"\\n[PTM] ⛔ Shutting down...\")"
+  },
+  "file_exec_engine.py": {
+    "header": "import os\nimport time\nimport subprocess",
+    "body": "def start_exec_engine():\n print(\"[FileExecEngine] 🚀 Watching ptm_inbox...\")\n os.makedirs(\"ptm_inbox\", exist_ok=True)\n os.makedirs(\"executed\", exist_ok=True)\n while True:\n  for f in os.listdir(\"ptm_inbox\"):\n   if f.endswith(\".py\"):\n    p = os.path.join(\"ptm_inbox\", f)\n    subprocess.run([\"python3\", p], check=True)\n    os.rename(p, os.path.join(\"executed\", f))\n  time.sleep(5)"
+  },
   "wallet_manager.py": {
     "header": "from web3 import Web3",
     "body": "print('[Wallet] Wallet Manager booted.')"

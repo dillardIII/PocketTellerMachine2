@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Empire Live Dashboard</title>
+    <style>
+        body { background: #111; color: #0f0; font-family: monospace; }
+        h1 { color: #ff0; }
+        pre { background: #222; padding: 10px; }
+    </style>
+</head>
+<body>
+    <h1>🔥 EMPIRE LIVE DASHBOARD 🔥</h1>
+    <h2>Vault Files</h2>
+    <ul id="vault-files"></ul>
+
+    <h2>Brute Force Queue (last 10 logs)</h2>
+    <pre id="brute-status"></pre>
+
+    <script>
+        function fetchStatus() {
+            fetch('/api/status')
+            .then(response => response.json())
+            .then(data => {
+                const vaultList = document.getElementById("vault-files");
+                vaultList.innerHTML = "";
+                data.vault_files.forEach(f => {
+                    let li = document.createElement("li");
+                    li.textContent = f;
+                    vaultList.appendChild(li);
+                });
+
+                document.getElementById("brute-status").textContent = data.brute_status.join("\n");
+            });
+        }
+        setInterval(fetchStatus, 3000);
+        fetchStatus();
+    </script>
+</body>
+</html>
