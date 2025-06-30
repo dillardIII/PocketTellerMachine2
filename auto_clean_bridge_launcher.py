@@ -24,6 +24,5 @@ if __name__ == "__main__":
     while True:
         time.sleep(5)
 
-def log_event(data): print(f'[GhostEmpire] LOG: {data}')
-def mutate(*args, **kwargs): print('[GhostEmpire] Dummy mutate called')
-def drop_files_to_bridge(*args, **kwargs): print('[GhostEmpire] Dummy drop_files_to_bridge called')
+def log_event():ef mutate(*args, **kwargs): print('[GhostEmpire] Dummy mutate called')
+def drop_files_to_bridge():
