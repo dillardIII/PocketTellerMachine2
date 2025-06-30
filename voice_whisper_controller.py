@@ -1,30 +1,43 @@
 # === FILE: voice_whisper_controller.py ===
-# 🎤 Voice Whisper Controller – Takes your voice commands to evolve empire
-import speech_recognition as sr
-from ghost_self_coder import generate_file
+# 🎤 Voice Whisper Controller – listens, transcribes, and executes empire commands
+# 🚀 Includes integration with Replit AI Orchestrator to generate new modules by voice.
 
-r = sr.Recognizer()
+import time
+import random
 
-def listen_for_commands():
-    with sr.Microphone() as source:
-        print("[VoiceController] 🎙️ Listening for command...")
-        audio = r.listen(source)
-    try:
-        command = r.recognize_google(audio)
-        print(f"[VoiceController] 🎤 Heard: {command}")
-        handle_command(command.lower())
-    except Exception as e:
-        print(f"[VoiceController] ❌ Could not understand: {e}")
+# This would normally be your actual Whisper pipeline. Here we simulate input.
+def listen_to_microphone():
+    sample_commands = [
+        "build empire module to analyze ethereum order books",
+        "scan stock market dips and create alert",
+        "launch vault dashboard",
+        "create quantum strategy mutation",
+        "exit"
+    ]
+    return random.choice(sample_commands)
 
-def handle_command(text):
-    if "dashboard" in text:
-        generate_file("dashboard")
-    elif "trade" in text or "trader" in text:
-        generate_file("trader")
-    elif "scraper" in text:
-        generate_file("data_scraper")
+from replit_ai_orchestrator import orchestrate_generation
+
+def handle_voice_command(text):
+    print(f"[Whisper] 🎤 Heard: '{text}'")
+    if "build empire module" in text.lower() or "create" in text.lower():
+        orchestrate_generation(text)
+    elif "launch vault dashboard" in text.lower():
+        print("[Whisper] 🖥️ Would route to vault dashboard launch.")
+    elif "scan stock" in text.lower():
+        orchestrate_generation("create empire module to scan stock market for volatility spikes")
+    elif "exit" in text.lower():
+        print("[Whisper] 👋 Shutting down voice whisper controller.")
+        exit()
     else:
-        print("[VoiceController] 🤔 Unrecognized instruction.")
+        print(f"[Whisper] 🤷‍♂️ No specific handler for: '{text}'")
 
-while True:
-    listen_for_commands()
+def voice_whisper_loop():
+    print("[WhisperController] 🎧 Voice controller active. Listening...")
+    while True:
+        text = listen_to_microphone()
+        handle_voice_command(text)
+        time.sleep(10)
+
+if __name__ == "__main__":
+    voice_whisper_loop()
