@@ -108,3 +108,50 @@
 [2025-06-30 06:16:42] [AutoBuilder] ARB balance: 0.00000
 [2025-06-30 06:16:42] [AutoBuilder] Δ ARB: 0.00000
 [2025-06-30 06:16:42] [AutoBuilder] 🧬 Crossbred ema_mod_5759.py + bollingerbands_macd_8448.py -> ema_mo_bollin_x_2628
+[2025-06-30 06:16:44] [ghost_bridge_watcher] 🔗 Synced all platforms.
+[2025-06-30 06:16:54] [AutoBuilder] ⚠️ Failed to check ETH balance: 401 Client Error: Unauthorized for url: https://mainnet.infura.io/v3/YOUR_INFURA_KEY
+[2025-06-30 06:16:54] [AutoBuilder] BNB balance: 0.00000
+[2025-06-30 06:16:54] [AutoBuilder] Δ BNB: 0.00000
+[2025-06-30 06:16:54] [AutoBuilder] MATIC balance: 0.00000
+[2025-06-30 06:16:54] [AutoBuilder] ⚠️ Failed to check MATIC balance: unsupported operand type(s) for +=: 'float' and 'decimal.Decimal'
+[2025-06-30 06:16:54] [AutoBuilder] ARB balance: 0.00000
+[2025-06-30 06:16:54] [AutoBuilder] Δ ARB: 0.00000
+[2025-06-30 06:16:54] [AutoBuilder] 🧬 Crossbred ema_mod_5759.py + bollingerbands_macd_8448.py -> ema_mo_bollin_x_5676
+[2025-06-30 06:17:06] [AutoBuilder] ⚠️ Failed to check ETH balance: 401 Client Error: Unauthorized for url: https://mainnet.infura.io/v3/YOUR_INFURA_KEY
+[2025-06-30 06:17:06] [AutoBuilder] BNB balance: 0.00000
+[2025-06-30 06:17:06] [AutoBuilder] Δ BNB: 0.00000
+[2025-06-30 06:17:06] [AutoBuilder] MATIC balance: 0.00000
+[2025-06-30 06:17:06] [AutoBuilder] ⚠️ Failed to check MATIC balance: unsupported operand type(s) for +=: 'float' and 'decimal.Decimal'
+[2025-06-30 06:17:07] [AutoBuilder] ARB balance: 0.00000
+[2025-06-30 06:17:07] [AutoBuilder] Δ ARB: 0.00000
+[2025-06-30 06:17:07] [AutoBuilder] 🧬 Crossbred ema_mod_5759.py + bollingerbands_macd_8448.py -> ema_mo_bollin_x_1755
+[2025-06-30 06:17:08] [AutoCoder] 🧬 Created new module: rsi_mod_2965.py with RSI
+[2025-06-30 06:17:08] [AutoCoder] ➕ Queued execution: python rsi_mod_2965.py
+[2025-06-30 06:17:19] [AutoBuilder] ⚠️ Failed to check ETH balance: 401 Client Error: Unauthorized for url: https://mainnet.infura.io/v3/YOUR_INFURA_KEY
+[2025-06-30 06:17:19] [AutoBuilder] BNB balance: 0.00000
+[2025-06-30 06:17:19] [AutoBuilder] Δ BNB: 0.00000
+[2025-06-30 06:17:19] [AutoBuilder] MATIC balance: 0.00000
+[2025-06-30 06:17:19] [AutoBuilder] ⚠️ Failed to check MATIC balance: unsupported operand type(s) for +=: 'float' and 'decimal.Decimal'
+[2025-06-30 06:17:19] [AutoBuilder] ARB balance: 0.00000
+[2025-06-30 06:17:19] [AutoBuilder] Δ ARB: 0.00000
+[2025-06-30 06:17:19] [AutoBuilder] 🧬 Crossbred ema_mod_5759.py + bollingerbands_macd_8448.py -> ema_mo_bollin_x_3229
+[2025-06-30 06:17:31] [AutoBuilder] ⚠️ Failed to check ETH balance: 401 Client Error: Unauthorized for url: https://mainnet.infura.io/v3/YOUR_INFURA_KEY
+[2025-06-30 06:17:31] [AutoBuilder] BNB balance: 0.00000
+[2025-06-30 06:17:31] [AutoBuilder] Δ BNB: 0.00000
+[2025-06-30 06:17:31] [AutoBuilder] MATIC balance: 0.00000
+[2025-06-30 06:17:31] [AutoBuilder] ⚠️ Failed to check MATIC balance: unsupported operand type(s) for +=: 'float' and 'decimal.Decimal'
+[2025-06-30 06:17:31] [AutoBuilder] ARB balance: 0.00000
+[2025-06-30 06:17:31] [AutoBuilder] Δ ARB: 0.00000
+[2025-06-30 06:17:31] [AutoBuilder] 🧬 Crossbred ema_mod_5759.py + bollingerbands_macd_8448.py -> ema_mo_bollin_x_9074
+[2025-06-30 06:17:38] [SelfArchitect] 🏗️ Created multi-strategy module: rsi_ema_atr_3231.py
+[2025-06-30 06:17:38] [SelfArchitect] ➕ Queued execution: python rsi_ema_atr_3231.py
+[2025-06-30 06:17:38] [AutoCoder] 🧬 Created new module: atr_mod_9337.py with ATR
+[2025-06-30 06:17:38] [AutoCoder] ➕ Queued execution: python atr_mod_9337.py
+[2025-06-30 06:17:43] [AutoBuilder] ⚠️ Failed to check ETH balance: 401 Client Error: Unauthorized for url: https://mainnet.infura.io/v3/YOUR_INFURA_KEY
+[2025-06-30 06:17:43] [AutoBuilder] BNB balance: 0.00000
+[2025-06-30 06:17:43] [AutoBuilder] Δ BNB: 0.00000
+[2025-06-30 06:17:43] [AutoBuilder] MATIC balance: 0.00000
+[2025-06-30 06:17:43] [AutoBuilder] ⚠️ Failed to check MATIC balance: unsupported operand type(s) for +=: 'float' and 'decimal.Decimal'
+[2025-06-30 06:17:43] [AutoBuilder] ARB balance: 0.00000
+[2025-06-30 06:17:43] [AutoBuilder] Δ ARB: 0.00000
+[2025-06-30 06:17:43] [AutoBuilder] 🧬 Crossbred ema_mod_5759.py + bollingerbands_macd_8448.py -> ema_mo_bollin_x_6075

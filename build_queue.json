@@ -13,5 +13,8 @@
     "python atr_mod_7725.py",
     "python atr_mod_1382.py",
     "python ema_macd_rsi_3010.py",
-    "python macd_mod_8821.py"
+    "python macd_mod_8821.py",
+    "python rsi_mod_2965.py",
+    "python rsi_ema_atr_3231.py",
+    "python atr_mod_9337.py"
 ]
