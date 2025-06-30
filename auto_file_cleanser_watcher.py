@@ -18,5 +18,4 @@ while True:
     KNOWN_FILES = current_files
     time.sleep(3)
 
-def log_event():ef mutate(*args, **kwargs): print('[GhostEmpire] Dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():
