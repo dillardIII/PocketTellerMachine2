@@ -283,3 +283,62 @@
 [2025-06-30 06:28:08] [SelfArchitect] ➕ Queued execution: python macd_rsi_atr_ema_6484.py
 [2025-06-30 06:28:08] [AutoCoder] 🧬 Created new module: atr_mod_6092.py with ATR
 [2025-06-30 06:28:08] [AutoCoder] ➕ Queued execution: python atr_mod_6092.py
+[2025-06-30 06:28:10] [ghost_bridge_watcher] 🔗 Synced all platforms.
+[2025-06-30 06:28:12] [AutoBuilder] ⚠️ Failed to check ETH balance: 401 Client Error: Unauthorized for url: https://mainnet.infura.io/v3/YOUR_INFURA_KEY
+[2025-06-30 06:28:12] [AutoBuilder] BNB balance: 0.00000
+[2025-06-30 06:28:12] [AutoBuilder] MATIC balance: 0.00000
+[2025-06-30 06:28:12] [Hunter] Failed ETH balance: 401 Client Error: Unauthorized for url: https://mainnet.infura.io/v3/YOUR_INFURA_KEY
+[2025-06-30 06:28:12] [AutoBuilder] ARB balance: 0.00000
+[2025-06-30 06:28:12] [AutoBuilder] 🧬 Crossbred ema_mod_5759.py + bollingerbands_macd_8448.py -> ema_mo_bollin_x_2757
+[2025-06-30 06:28:14] [Hunter] No new micro pairs or getReserves failed: 401 Client Error: Unauthorized for url: https://mainnet.infura.io/v3/YOUR_INFURA_KEY
+[2025-06-30 06:28:19] [Hunter] Failed ETH balance: 401 Client Error: Unauthorized for url: https://mainnet.infura.io/v3/YOUR_INFURA_KEY
+[2025-06-30 06:28:19] [Hunter] BNB balance: 0.00000
+[2025-06-30 06:28:19] [Hunter] No new micro pairs or getReserves failed: ('Address has an invalid EIP-55 checksum. After looking up the address from the original source, try again.', '0xCA143Ce32Fe78f1f7019d7d551a6402fC5350c73')
+[2025-06-30 06:28:22] [Hunter] BNB balance: 0.00000
+[2025-06-30 06:28:22] [Hunter] MATIC balance: 0.00000
+[2025-06-30 06:28:22] [Hunter] No new micro pairs or getReserves failed: ('web3.py only accepts checksum addresses. The software that gave you this non-checksum address should be considered unsafe, please file it as a bug on their platform. Try using an ENS name instead. Or, if you must accept lower safety, use Web3.to_checksum_address(lower_case_address).', '0x5757371414417b8c6caad45baef941abc7d3ab32')
+[2025-06-30 06:28:23] [ghost_entropy_mutator] 🔥 Generated new entropy pool.
+[2025-06-30 06:28:24] [AutoBuilder] ⚠️ Failed to check ETH balance: 401 Client Error: Unauthorized for url: https://mainnet.infura.io/v3/YOUR_INFURA_KEY
+[2025-06-30 06:28:24] [AutoBuilder] BNB balance: 0.00000
+[2025-06-30 06:28:24] [AutoBuilder] Δ BNB: 0.00000
+[2025-06-30 06:28:24] [AutoBuilder] MATIC balance: 0.00000
+[2025-06-30 06:28:24] [AutoBuilder] ⚠️ Failed to check MATIC balance: unsupported operand type(s) for +=: 'float' and 'decimal.Decimal'
+[2025-06-30 06:28:24] [AutoBuilder] ARB balance: 0.00000
+[2025-06-30 06:28:24] [AutoBuilder] Δ ARB: 0.00000
+[2025-06-30 06:28:24] [AutoBuilder] 🧬 Crossbred ema_mod_5759.py + bollingerbands_macd_8448.py -> ema_mo_bollin_x_9986
+[2025-06-30 06:28:25] [Hunter] MATIC balance: 0.00000
+[2025-06-30 06:28:36] [AutoBuilder] ⚠️ Failed to check ETH balance: 401 Client Error: Unauthorized for url: https://mainnet.infura.io/v3/YOUR_INFURA_KEY
+[2025-06-30 06:28:36] [AutoBuilder] BNB balance: 0.00000
+[2025-06-30 06:28:36] [AutoBuilder] Δ BNB: 0.00000
+[2025-06-30 06:28:36] [AutoBuilder] MATIC balance: 0.00000
+[2025-06-30 06:28:36] [AutoBuilder] ⚠️ Failed to check MATIC balance: unsupported operand type(s) for +=: 'float' and 'decimal.Decimal'
+[2025-06-30 06:28:36] [AutoBuilder] ARB balance: 0.00000
+[2025-06-30 06:28:36] [AutoBuilder] Δ ARB: 0.00000
+[2025-06-30 06:28:36] [AutoBuilder] 🧬 Crossbred ema_mod_5759.py + bollingerbands_macd_8448.py -> ema_mo_bollin_x_5735
+[2025-06-30 06:28:38] [ghost_entropy_mutator] 🔥 Generated new entropy pool.
+[2025-06-30 06:28:38] [ghost_qubit_optimizer] ⚛️ Ran quantum bias on entropy pool.
+[2025-06-30 06:28:38] [AutoCoder] 🧬 Created new module: bollingerbands_mod_1466.py with BollingerBands
+[2025-06-30 06:28:38] [AutoCoder] ➕ Queued execution: python bollingerbands_mod_1466.py
+[2025-06-30 06:28:48] [AutoBuilder] ⚠️ Failed to check ETH balance: 401 Client Error: Unauthorized for url: https://mainnet.infura.io/v3/YOUR_INFURA_KEY
+[2025-06-30 06:28:48] [AutoBuilder] BNB balance: 0.00000
+[2025-06-30 06:28:48] [AutoBuilder] Δ BNB: 0.00000
+[2025-06-30 06:28:48] [AutoBuilder] MATIC balance: 0.00000
+[2025-06-30 06:28:48] [AutoBuilder] ⚠️ Failed to check MATIC balance: unsupported operand type(s) for +=: 'float' and 'decimal.Decimal'
+[2025-06-30 06:28:48] [AutoBuilder] ARB balance: 0.00000
+[2025-06-30 06:28:48] [AutoBuilder] Δ ARB: 0.00000
+[2025-06-30 06:28:48] [AutoBuilder] 🧬 Crossbred ema_mod_5759.py + bollingerbands_macd_8448.py -> ema_mo_bollin_x_1663
+[2025-06-30 06:28:53] [ghost_entropy_mutator] 🔥 Generated new entropy pool.
+[2025-06-30 06:29:00] [AutoBuilder] ⚠️ Failed to check ETH balance: 401 Client Error: Unauthorized for url: https://mainnet.infura.io/v3/YOUR_INFURA_KEY
+[2025-06-30 06:29:00] [AutoBuilder] BNB balance: 0.00000
+[2025-06-30 06:29:00] [AutoBuilder] Δ BNB: 0.00000
+[2025-06-30 06:29:00] [AutoBuilder] MATIC balance: 0.00000
+[2025-06-30 06:29:00] [AutoBuilder] ⚠️ Failed to check MATIC balance: unsupported operand type(s) for +=: 'float' and 'decimal.Decimal'
+[2025-06-30 06:29:01] [AutoBuilder] ARB balance: 0.00000
+[2025-06-30 06:29:01] [AutoBuilder] Δ ARB: 0.00000
+[2025-06-30 06:29:01] [AutoBuilder] 🧬 Crossbred ema_mod_5759.py + bollingerbands_macd_8448.py -> ema_mo_bollin_x_6531
+[2025-06-30 06:29:08] [ghost_entropy_mutator] 🔥 Generated new entropy pool.
+[2025-06-30 06:29:08] [ghost_qubit_optimizer] ⚛️ Ran quantum bias on entropy pool.
+[2025-06-30 06:29:08] [SelfArchitect] 🏗️ Created multi-strategy module: ema_macd_4076.py
+[2025-06-30 06:29:08] [SelfArchitect] ➕ Queued execution: python ema_macd_4076.py
+[2025-06-30 06:29:08] [AutoCoder] 🧬 Created new module: atr_mod_1570.py with ATR
+[2025-06-30 06:29:08] [AutoCoder] ➕ Queued execution: python atr_mod_1570.py

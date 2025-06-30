@@ -25,5 +25,8 @@
     "python rsi_mod_8448.py",
     "python atr_mod_5728.py",
     "python macd_rsi_atr_ema_6484.py",
-    "python atr_mod_6092.py"
+    "python atr_mod_6092.py",
+    "python bollingerbands_mod_1466.py",
+    "python ema_macd_4076.py",
+    "python atr_mod_1570.py"
 ]
