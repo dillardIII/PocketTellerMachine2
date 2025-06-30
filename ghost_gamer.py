@@ -1,6 +1,6 @@
-# === FILE: ghost_filter.py ===
-# 👻 GHOST FILTER
-# Prunes underperforming DNA lines automatically.
+# === FILE: ghost_gamer.py ===
+# 👻 GHOST GAMER
+# Adds XP to surviving DNA lines, levels up best strategies.
 
 import json
 from datetime import datetime
@@ -13,25 +13,21 @@ def log_action(message):
     with open(LOGBOOK_FILE, "a") as f:
         f.write(f"[{timestamp}] {message}\n")
 
-def filter_dna():
+def award_xp():
     try:
         with open(DNA_FILE, "r") as f:
             dna = json.load(f)
     except FileNotFoundError:
         dna = {}
-    survivors = {}
     for key, stats in dna.items():
-        score = stats.get("profits",0) - stats.get("losses",0)
-        if score >= -2:
-            survivors[key] = stats
-        else:
-            log_action(f"[ghost_filter] 🪓 Pruned {key} for score {score}")
+        stats["xp"] = stats.get("xp",0) + 1
     with open(DNA_FILE, "w") as f:
-        json.dump(survivors, f, indent=4)
+        json.dump(dna, f, indent=4)
+    log_action("[ghost_gamer] 🎮 Awarded XP to all DNA lines.")
 
 def main():
-    print("[ghost_filter] 👻 Running DNA pruning...")
-    filter_dna()
+    print("[ghost_gamer] 👻 Running gamification XP...")
+    award_xp()
 
 if __name__ == "__main__":
     main()

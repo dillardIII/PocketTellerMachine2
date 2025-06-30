@@ -10,5 +10,41 @@
     {
         "task": "Write ai_propaganda_orchestrator.py to broadcast hype stories and signals to Discord/Telegram.",
         "time": "2025-06-30 01:59:13"
+    },
+    {
+        "task": "Write modules that take vault data from ghost_bank_manager and adjust risk automatically.",
+        "time": "2025-06-30 02:23:47"
+    },
+    {
+        "task": "Write modules that fuse ghost personalities from ghost_biofabricator with trade sizing.",
+        "time": "2025-06-30 02:24:54"
+    },
+    {
+        "task": "Write modules that generate propaganda based on ghost_bank_manager vault state and ghost_trade_executor win rates.",
+        "time": "2025-06-30 02:41:46"
+    },
+    {
+        "task": "Write modules that scan new blockchains for liquidity sniping opportunities.",
+        "time": "2025-06-30 02:48:07"
+    },
+    {
+        "task": "Write ghost_solana_sniper.py that probes thin liquidity and links to ghost_cyber_state.json",
+        "time": "2025-06-30 02:57:07"
+    },
+    {
+        "task": "Write ghost_voice_strategist.py that reads ghost_cyber_state.json, ghost_memory.json and narrates live trade plans, sniper executions, liquidity hunts using an AI voice API",
+        "time": "2025-06-30 03:05:41"
+    },
+    {
+        "task": "Write ghost_narrator.py that listens to ghost_memory.json and tells dark ghost stories of victories, losses, propaganda pushes, and future targets with randomized emotional tones",
+        "time": "2025-06-30 03:06:47"
+    },
+    {
+        "task": "Integrate ghost_voice_strategist.py to report current aggression, greed, stealth, next trade plan, and cross-chain sniper positioning every 5 min",
+        "time": "2025-06-30 03:07:52"
+    },
+    {
+        "task": "Integrate ghost_narrator.py to speak war stories, vault surveys, propaganda victories or humiliations, adapting mood from ghost_cyber_state.json",
+        "time": "2025-06-30 03:08:59"
     }
 ]
