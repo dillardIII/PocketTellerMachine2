@@ -16,5 +16,8 @@
     "python macd_mod_8821.py",
     "python rsi_mod_2965.py",
     "python rsi_ema_atr_3231.py",
-    "python atr_mod_9337.py"
+    "python atr_mod_9337.py",
+    "python bollingerbands_mod_2320.py",
+    "python rsi_bollingerbands_ema_macd_5272.py",
+    "python bollingerbands_mod_1628.py"
 ]
