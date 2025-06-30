@@ -11,9 +11,7 @@ REPAIR_LOG = "logs/repair_log.txt"
 
 def list_python_files():eturn py_files
 
-def repair_file():ssues = inspect_code_quality(code)
-
-    if issues:
+def repair_file():f issues:
         print(f"[Repair Bot] ⚠️ Issues found in {path}: {issues}")
         fixed_code = auto_fix_syntax(code, issues)
         with open(path, 'w') as file:
@@ -43,5 +41,4 @@ if name == "main": run_repair_team():
 :
 
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

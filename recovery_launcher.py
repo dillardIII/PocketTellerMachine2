@@ -15,5 +15,4 @@ def launch_recovery_sweep():
             except:
                 print(f"[RecoveryLauncher] ❌ Failed to recover {file}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

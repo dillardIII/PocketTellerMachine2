@@ -127,5 +127,4 @@ if __name__ == "__main__":
 
 This is a basic setup, but the module can be expanded with more complex decision logic, additional nodes, and other functionalities specific to the needs of your "PTM empire."
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

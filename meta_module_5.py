@@ -123,5 +123,4 @@ if __name__ == "__main__":
 
 By structuring the `PTMEmpire` module with these principles, it provides a strong foundation for a self-evolving autonomy stack that can adapt and expand in response to new challenges and opportunities.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

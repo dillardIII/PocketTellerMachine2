@@ -16,5 +16,4 @@ def log_macro(trigger, result, bot="System"):
 if __name__ == "__main__":
     log_macro("Dreamstate Planner", "Generated 5 tasks", "GhostBot")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

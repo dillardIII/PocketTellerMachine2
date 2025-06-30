@@ -28,5 +28,4 @@ def scale_quantum_brains():
 if __name__ == "__main__":
     scale_quantum_brains()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

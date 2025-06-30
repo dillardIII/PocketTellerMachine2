@@ -15,5 +15,4 @@ def process_tasks():
         task = task_queue.pop(0)
         print(f"[MetaDispatch] 🎯 Dispatching task: {task}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

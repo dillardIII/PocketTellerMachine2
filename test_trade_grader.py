@@ -13,5 +13,4 @@ for r in results:
 trade = execute_trade("MSFT", "covered_call", 55)
 print("[TRADE EXECUTION AND GRADING]:", trade)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

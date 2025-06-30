@@ -91,5 +91,4 @@ while True:
     print("[AutoStart] ❤️ Empire heartbeat. Systems evolving, voice + console + spells online.")
     time.sleep(60)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

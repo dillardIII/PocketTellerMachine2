@@ -74,5 +74,4 @@ with open(AVATAR_TEMPLATE_FILE, "w") as f:
 
 print("[PERSONA STUDIO TEMPLATES]: Persona, Mood, Voice, and Avatar templates saved successfully.")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -69,5 +69,4 @@ if __name__ == "__main__":
 
 This script aims to assist players in maximizing their empire's productivity by intelligently assigning production efforts where they can have the most impact. It can be further expanded to include more complex strategies, player interactions, and historical data analytics.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

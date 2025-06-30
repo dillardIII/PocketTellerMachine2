@@ -21,5 +21,4 @@ def save_brain_memory(memory):
     with open(BRAIN_MEMORY_FILE, "w") as f:
         json.dump(memory, f, indent=2)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

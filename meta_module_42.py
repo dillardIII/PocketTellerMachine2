@@ -126,5 +126,4 @@ if __name__ == "__main__":
 
 This architecture builds a foundation for an adaptive, self-improving system within the PTM empire's autonomy stack, capable of evolving its strategies and models over time.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

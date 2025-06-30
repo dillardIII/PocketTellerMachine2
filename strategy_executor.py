@@ -53,5 +53,4 @@ def log_trade_outcome(task, result, grade):
     except Exception as e:
         print("[Logger ERROR]", e)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

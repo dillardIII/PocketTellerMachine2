@@ -101,5 +101,4 @@ if __name__ == "__main__":
 
 This utility is easy to expand by adding more resource types, events, random occurrences, or advanced economic systems.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

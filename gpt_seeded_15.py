@@ -94,5 +94,4 @@ empire.optimize_supply_chain()
 
 This setup provides a basic framework you can expand upon, adding features like dynamic production adjustment, resource types, or more complex transportation networks for a more sophisticated empire management simulation.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -74,5 +74,4 @@ except Exception as e:
     except Exception as uc_error:
         print(f"❌ Fallback also failed. Error: {uc_error}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

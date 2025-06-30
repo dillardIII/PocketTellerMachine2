@@ -78,5 +78,4 @@ if __name__ == "__main__":
 
 This concept can be expanded further by implementing more complex logic such as transportation costs, city preferences, or prioritizing certain resource distributions.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

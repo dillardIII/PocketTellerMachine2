@@ -110,5 +110,4 @@ empire_1.trade_resources(empire_2, {'gold': 100}, {'food': 200})
 
 This utility provides a basic framework that can be expanded to include more complex features like combat systems, territory expansion, and event handling to simulate a richer strategy game environment.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

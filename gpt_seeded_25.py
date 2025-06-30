@@ -76,5 +76,4 @@ empire_optimizer.report()
 
 This utility is quite simplified but can serve as a basis for more intricate resource management systems in simulation games. You can expand it by adding additional constraints and dynamics like resource production and consumption rates.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -31,5 +31,4 @@ def speak_thread_summary(thread_file, voice="default", save_path="static/audio/t
     print(f"[THREAD_RECAP] Recap generated and saved to {save_path}")
     return save_path
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

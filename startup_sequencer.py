@@ -43,5 +43,4 @@ class StartupSequencer:
         time.sleep(0.3)
         print("[StartupSequencer] 📝 Boot status logged.")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

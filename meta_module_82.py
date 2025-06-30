@@ -106,5 +106,4 @@ if __name__ == "__main__":
 
 By expanding the PTM empire's autonomy stack with such a module, the capability for self-organization, scalability, and adaptability can be significantly enhanced, supporting advanced autonomous operations.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

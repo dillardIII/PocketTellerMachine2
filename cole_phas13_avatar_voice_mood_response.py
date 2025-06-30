@@ -51,5 +51,4 @@ def log_voice_response_event(mood, avatar_name):
         with open("data/avatar_voice_response_log.json", "w") as f:
             json.dump(logs[-100:], f, indent=2)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

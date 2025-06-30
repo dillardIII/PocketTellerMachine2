@@ -28,5 +28,4 @@ if __name__ == "__main__":
         evolve_cycle()
         time.sleep(LOOP_INTERVAL)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -31,5 +31,4 @@ def log_strategy_reason(strategy_name, reason):
     except Exception as e:
         print(f"[Cole Brain] Failed to log strategy reason: {e}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

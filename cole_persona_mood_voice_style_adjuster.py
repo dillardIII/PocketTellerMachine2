@@ -38,5 +38,4 @@ if __name__ == "__main__":
         voice_style = get_voice_style_for_persona(persona)
         print(f"[VOICE STYLE]: {persona} → {voice_style} style based on mood.")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

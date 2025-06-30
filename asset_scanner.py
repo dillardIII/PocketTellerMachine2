@@ -41,5 +41,4 @@ class AssetScanner:
         print(f"[AssetScanner] ✅ Report saved to {ASSET_REPORT}")
         return self.assets
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -44,5 +44,4 @@ def train_strategy_until_win(loser_path, champion_path, max_generations=5, requi
     print("[TRAINING] Max generations reached.")
     return current_path, history
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

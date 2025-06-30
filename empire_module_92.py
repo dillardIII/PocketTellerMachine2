@@ -95,5 +95,4 @@ print("Call Statistics:", recursor.get_call_statistics())
 
 You can easily adapt and expand this module for different types of recursive functions by replacing `factorial` with any other recursive algorithm. Simply create an instance of `IntelliRecurse` with your target function and call `intelligent_recursion` to utilize the intelligent recursion capabilities.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

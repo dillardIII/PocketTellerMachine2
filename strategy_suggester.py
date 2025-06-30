@@ -71,5 +71,4 @@ if __name__ == "__main__":
     example_thread = os.path.join(THREADS_DIR, "mentor_review_aapl.json")
     suggest_next_version(example_thread, bot_name="Mentor", use_fallback=False)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

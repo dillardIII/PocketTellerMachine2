@@ -99,5 +99,4 @@ if __name__ == "__main__":
 
 This utility offers a basic framework for a turn-based empire management game. You can expand this script by adding more complexities, such as trading, events, enemy invasions, or diplomatic relations.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -89,5 +89,4 @@ empire.run_simulation(steps=5)
 
 This utility could serve as a starting point for a text-based strategy game and could be further expanded with more complex dynamics and interactions.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

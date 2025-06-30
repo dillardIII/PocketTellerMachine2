@@ -21,7 +21,7 @@ def run_file(file_path):
 
 def main():
     while True:
-        files = [f for f in os.listdir(BRIDGE_DIR) if f.endswith(".py")]
+        files = [f for f in os.listdir(BRIDGE_DIR) if f.endswith(".py")]:
         for f in files:
             src = os.path.join(BRIDGE_DIR, f)
             dst = os.path.join(".", f)

@@ -85,5 +85,4 @@ def inject_code_api():
     result = inject_and_run_code(code, task)
     return jsonify(result)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

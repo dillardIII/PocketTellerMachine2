@@ -39,5 +39,4 @@ class GPTFileDropAgent:
                 print(f"[GPT Drop Agent] ❌ Error during drop: {e}")
             time.sleep(self.check_interval)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

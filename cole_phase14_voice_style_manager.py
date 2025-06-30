@@ -53,5 +53,4 @@ if __name__ == "__main__":
     print("[VOICE STYLE]: After update:")
     print(json.dumps(load_voice_styles(), indent=2))
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

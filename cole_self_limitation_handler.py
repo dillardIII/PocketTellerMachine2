@@ -68,5 +68,4 @@ def self_limitation_loop():
 if __name__ == "__main__":
     self_limitation_loop()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -29,5 +29,4 @@ def route_synapse_trigger(trigger):
     elif action == "summon_persona":
         print("[PTM Action] Activating Spectra Nocturna.")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -48,5 +48,4 @@ def run_full_sweep():
     output3 = run_python_module("bots/ghostforge_autobuilder")
     return Response(output1 + "\n\n" + output2 + "\n\n" + output3, mimetype="text/plain")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

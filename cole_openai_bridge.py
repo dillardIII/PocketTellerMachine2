@@ -21,5 +21,4 @@ def ask_gpt(prompt, model="gpt-4"):
         print(f"[GPT-Bridge ERROR] {e}")
         return "# Error generating code from GPT."
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

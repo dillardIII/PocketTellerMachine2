@@ -78,5 +78,4 @@ if __name__ == "__main__":
 
 This code provides a foundation for a simple empire management game that can progressively be expanded with additional mechanics, balancing, and strategy elements.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

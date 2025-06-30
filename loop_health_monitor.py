@@ -23,5 +23,4 @@ def update_loop_status(name):
     with open(STATUS_FILE, "w") as f:
         json.dump(status, f, indent=2)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

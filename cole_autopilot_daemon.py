@@ -6,5 +6,4 @@ def run_autopilot():
     strategy = get_fallback_strategy()
     print(f"[Cole Autopilot] ✅ Strategy selected: {strategy['name']} | Reason: Fallback injected due to missing backtest data.")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

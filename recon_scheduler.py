@@ -29,5 +29,4 @@ def start_scheduler():
     for target in recon_targets:
         threading.Thread(target=recon_worker, args=(target,), daemon=True).start()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -57,5 +57,4 @@ def log_optimizer_event(entry):
     with open(OPTIMIZER_LOG, "w") as f:
         json.dump(data, f, indent=2)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -58,5 +58,4 @@ if __name__ == "__main__":
     save_emotion_state("Mentor", "win")
     print(get_recent_emotion("Mentor"))
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

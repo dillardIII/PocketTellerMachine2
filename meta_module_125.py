@@ -90,5 +90,4 @@ if __name__ == "__main__":
 
 This design utilizes recursion along with a form of meta-optimization, ensuring that the PTM empire's autonomy stack can self-evolve, becoming more refined and capable with each cycle of learning and optimization.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

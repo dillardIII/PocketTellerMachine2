@@ -82,5 +82,4 @@ def get_repo_status():
     print(f"[Repo] 📥 GitHub bot status: {github.get('status', 'unknown')} | Last: {github.get('last_ping', 'n/a')}")
     return github
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -39,5 +39,4 @@ if __name__ == "__main__":
     last_error = "ModuleNotFoundError: No module named 'assistant_loader'"
     request_replit_ai_assistance(last_error)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

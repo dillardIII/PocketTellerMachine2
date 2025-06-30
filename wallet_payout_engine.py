@@ -62,5 +62,4 @@ def payout_from_profit_log(log_path="vault/profit_log.json"):
         print(f"[PayoutEngine] ❌ Error reading profit log: {e}")
         return None
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

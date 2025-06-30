@@ -52,5 +52,4 @@ def run_strategy(strategy_bundle):
     except Exception as e:
         log_info(f"[Strategy Runner] ❌ Error during execution: {e}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

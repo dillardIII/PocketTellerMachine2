@@ -49,5 +49,4 @@ def get_bridge_status():
 def is_fully_synced():
     return all(bot["connected"] for bot in AIs.values())
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

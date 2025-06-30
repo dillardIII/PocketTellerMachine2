@@ -34,5 +34,4 @@ def dark_signal_loop():
 if __name__ == "__main__":
     dark_signal_loop()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

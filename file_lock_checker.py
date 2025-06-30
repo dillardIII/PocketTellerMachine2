@@ -26,5 +26,4 @@ def is_file_locked(file_name):
     current_hash = hash_file(full_path)
     return locked.get(file_name) == current_hash
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -33,5 +33,4 @@ def run_autonomy_core():
     threading.Thread(target=write_heartbeat, daemon=True).start()
     print("[Autonomy Core] ❤️ Heartbeat writer thread running.")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

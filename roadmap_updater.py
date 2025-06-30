@@ -54,5 +54,4 @@ def run_roadmap_update_cycle():
     clean_roadmap()
     promote_low_priority_if_needed()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

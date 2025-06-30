@@ -25,5 +25,4 @@ def congress_overlay_page():
     
     return render_template('congress_overlay.html', symbol=default_symbol, influence_score=influence_score)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

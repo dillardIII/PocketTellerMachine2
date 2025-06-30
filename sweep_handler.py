@@ -39,5 +39,4 @@ def start_sweep_loop():
             os.remove("drop_trigger.txt")
         time.sleep(5)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

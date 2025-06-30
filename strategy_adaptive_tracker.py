@@ -124,5 +124,4 @@ def run_strategy_brain_evolution():
     trends = detect_strategy_patterns(trades)
     evaluate_and_log_patterns(trends)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -51,5 +51,4 @@ def ghostbuild_task(prompt, filename=None, inject=True):
         print(f"[GhostBuild Error] Failed to write or inject code: {e}")
         return None
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

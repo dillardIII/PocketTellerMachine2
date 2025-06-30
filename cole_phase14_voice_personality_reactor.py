@@ -62,5 +62,4 @@ if __name__ == "__main__":
         voice_choice = select_voice_for_persona(persona)
         print(f"{persona} should now speak using voice: {voice_choice['voice']} and style: {voice_choice['style']}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -31,5 +31,4 @@ def auto_seed_loop():
             print(f"[GPTAutoSeed] ⚠️ Error: {e}")
         time.sleep(60)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

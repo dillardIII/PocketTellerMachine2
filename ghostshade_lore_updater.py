@@ -62,5 +62,4 @@ def evolve_ghostshade(new_mission):
 
         print(f"[GHOSTSHADE EVOLUTION] XP: {gs['xp']} | Level: {gs['level']} | Badges: {gs['badges']}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

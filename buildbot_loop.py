@@ -20,5 +20,4 @@ def run_buildbot():
         print(f"[BuildBot] 🔄 {task}")
         time.sleep(20)  # Pace the upgrades
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

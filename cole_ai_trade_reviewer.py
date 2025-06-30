@@ -65,5 +65,4 @@ if __name__ == "__main__":
     reviews, voice_summaries = analyze_trades_for_review(INPUT_FILE)
     save_review_reports(reviews, voice_summaries)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

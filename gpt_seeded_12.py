@@ -76,5 +76,4 @@ empire_resources.display_resources()
 
 This `ResourceManager` class provides a foundation for managing resources within a strategy game. It includes methods to add resources, use them for building, trade between different types of resources, and produce resources over time. This could be integrated into a larger game loop where these functions are called to modify and report on the empire’s resource status dynamically.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -13,5 +13,4 @@ if __name__ == "__main__":
     add_task("write_line empire_core.py print('👑 Empire online')")
     add_task("run_script empire_core.py")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

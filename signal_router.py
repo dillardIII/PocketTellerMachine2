@@ -54,5 +54,4 @@ router.register_handler(SignalType.SYSTEM, system_handler)
 # If you want to test:
 # asyncio.run(router.route({'type': 'SYSTEM', 'subtype': 'PING'}))
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

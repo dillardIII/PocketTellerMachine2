@@ -46,5 +46,4 @@ def log_mutation(parent_file, child_file, reason="parameter adjustment"):
 
     print(f"[FAMILY TREE] {child} logged as descendant of {parent}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

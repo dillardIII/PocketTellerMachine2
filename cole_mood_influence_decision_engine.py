@@ -50,5 +50,4 @@ if __name__ == "__main__":
         influence = determine_influence(persona)
         print(f"[MOOD INFLUENCE]: {persona} mood influence → {influence}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

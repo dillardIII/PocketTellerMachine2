@@ -119,5 +119,4 @@ def empire_simulation():
 ### Note:
 Uncomment the `empire_simulation()` call to start the program when testing it in an actual Python environment.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

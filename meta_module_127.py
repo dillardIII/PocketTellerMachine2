@@ -102,5 +102,4 @@ autonomy_module.recursive_decision(initial_state)
 
 This basic setup can be expanded and tailored further to include more sophisticated strategies tailored to specific autonomy use cases within the PTM framework.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

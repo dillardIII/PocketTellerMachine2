@@ -113,5 +113,4 @@ if __name__ == "__main__":
     broadcast_memory_event("trade_success", "Closed $TSLA with 9% gain")
     log_memory("trade_success", {"symbol": "TSLA", "result": "gain", "percent": 9})
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

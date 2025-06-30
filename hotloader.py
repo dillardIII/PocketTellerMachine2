@@ -36,5 +36,4 @@ def watch_and_load(interval=5):
         except Exception as e:
             print(f"[Hotloader] ⚠️ Error loading module: {e}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

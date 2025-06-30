@@ -44,5 +44,4 @@ Developing an autonomous trading strategy using reinforcement learning (RL) invo
 
 This strategy should be tailored to PTM's specific resources, risk appetite, and domain expertise. It is important to start with comprehensive simulations and paper trading before committing real capital to ensure that the model is robust and operates effectively under various market conditions.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

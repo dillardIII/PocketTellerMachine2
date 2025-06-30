@@ -27,5 +27,4 @@ def scheduled_autopilot_run():
     cole_auto_run(config)
     log_autopilot_run(config)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

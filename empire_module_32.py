@@ -98,5 +98,4 @@ if __name__ == "__main__":
 
 This module is a scaffold for creating more specified and sophisticated transformations within the PTM empire. Adjust it as necessary for complex use cases.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -28,7 +28,6 @@ for filename in required_files:
         print(f"❌ Missing: {filename}")
 
 if not found_any:
-    print("⚠️ No core bridge files found. Check if sync failed or file locations are incorrect.")
+    print("⚠️ No core bridge files found. Check if sync failed or file locations are incorrect."):
 :
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

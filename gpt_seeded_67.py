@@ -68,5 +68,4 @@ trade_on_signal(new_data)
 
 This code is a starting skeleton that highlights how a machine learning model can guide trading decisions, though it would need to be embedded within the full infrastructure described above to realize the complete vision of an autonomous, evolving financial empire building strategy.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

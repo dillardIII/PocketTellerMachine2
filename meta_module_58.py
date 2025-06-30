@@ -131,5 +131,4 @@ class SimulationPlatform:
 
 This setup allows for future development and expansion, aligning with the evolving needs of the PTM empire’s autonomy stack. The focus is on adaptability, recursive improvement, and innovation within the autonomy systems.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

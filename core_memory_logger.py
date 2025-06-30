@@ -20,5 +20,4 @@ def log_game_action(game_name, action, source="Unknown"):
     with open(filename, "a") as f:
         f.write(json.dumps(log_entry) + "\n")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

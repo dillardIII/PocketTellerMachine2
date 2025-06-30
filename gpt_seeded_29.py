@@ -67,5 +67,4 @@ empire.print_status()
 
 This utility serves as a foundation for more complex game mechanics, such as expanding into other aspects of empire management, including trade, diplomacy, and military conquest.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

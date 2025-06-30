@@ -27,5 +27,4 @@ def api_trade_history():
 
     return jsonify(trades[::-1])  # Most recent first
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

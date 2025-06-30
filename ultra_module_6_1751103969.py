@@ -61,5 +61,4 @@ Creating a self-replicating pipeline that drops files to a specific location eve
 
 This example assumes that the file creation is harmless and controlled. For real-world applications, it’s critical to ensure that such scripts do not lead to unintended negative consequences.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

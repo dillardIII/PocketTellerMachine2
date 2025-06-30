@@ -82,5 +82,4 @@ def run_strategy_duel(file_a, file_b, rounds=10):
     print(f"[DUEL] {log['strategy_A']} vs {log['strategy_B']} — Winner: {winner}")
     return winner, log
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -44,5 +44,4 @@ if __name__ == "__main__":
     print("Can MoCash review Mentor?", can_send("MoCash", "Mentor", "review"))     # ✅
     print("Can ChillTrader escalate to MoCash?", can_send("ChillTrader", "MoCash", "escalate"))  # ❌
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -32,5 +32,4 @@ def drop_to_bridge(filename, code, description=""):
 
     print(f"📦 Dropped {filename} into bridge_inbox/")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

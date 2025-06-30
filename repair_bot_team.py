@@ -49,5 +49,4 @@ def auto_patch(file_path, error_list):
         print(f"[RepairBot] ⚠️ No fixes applied for {file_path}")
         return {"status": "unchanged", "reason": "no_applicable_fixes"}
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

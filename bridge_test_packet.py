@@ -22,5 +22,4 @@ def drop_test_packet():
 if __name__ == "__main__":
     drop_test_packet()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

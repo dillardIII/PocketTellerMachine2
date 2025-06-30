@@ -34,5 +34,4 @@ def plot_trade_signals(trades, ticker="AAPL"):
     plt.style.use("dark_background")
     plt.show()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

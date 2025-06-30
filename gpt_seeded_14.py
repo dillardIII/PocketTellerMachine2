@@ -89,5 +89,4 @@ if __name__ == "__main__":
 
 This utility can be expanded by adding more resource types, introducing additional features like resource production, and integrating with other game mechanics.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

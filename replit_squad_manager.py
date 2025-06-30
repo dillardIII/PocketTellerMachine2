@@ -29,5 +29,4 @@ def deploy_replit_ai_review_squad():
 
 # This gets called on launcher startup or manually triggered
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -10,5 +10,4 @@ default_voice_config = {
 def load_voice_config():
     return default_voice_config
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

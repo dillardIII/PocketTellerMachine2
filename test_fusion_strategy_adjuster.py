@@ -11,5 +11,4 @@ def adjust_strategy_based_on_bias(strategy_key, bias):
 adjusted_strategy = adjust_strategy_based_on_bias("RSI_Reversal", "Bullish Bias")
 print("[ADJUSTED STRATEGY]:", adjusted_strategy)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

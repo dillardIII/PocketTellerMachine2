@@ -23,5 +23,4 @@ with open(output_path, "wb") as f:
 
 print(f"[MP3 Writer] ✅ Silent output.mp3 saved to {output_path}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -32,5 +32,4 @@ def load_dynamic_routes(app, route_folder="."):
             except Exception as e:
                 print(f"[AutoRouteLoader] ❌ Failed to load {file}: {e}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

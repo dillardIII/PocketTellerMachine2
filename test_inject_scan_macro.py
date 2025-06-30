@@ -22,5 +22,4 @@ def scan_functions():
                         for i, line in enumerate(lines):
                             match = re.match(r'\\s*def\\s+([a-zA-Z_][a-zA-Z0-9_]*)\\s*\
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -90,5 +90,4 @@ In this module, `advanced_factorial` and `fibonacci` showcase the application of
 
 When adapting this to actual needs within the PTM empire, you might want to add additional intelligent heuristics that choose between iterative and recursive solutions or handle specific data structures and inputs optimally.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

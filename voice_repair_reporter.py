@@ -68,5 +68,4 @@ def fallback_generate_voice_report(file_path, context, deploy_result):
 def simple_console_voice_report(file_path, context, deploy_status):
     print(f"[VoiceReport] 🎙️ {context} on {file_path} – Status: {deploy_status}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

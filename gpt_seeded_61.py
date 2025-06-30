@@ -93,5 +93,4 @@ pip install scipy
 
 This utility can be further expanded by introducing additional categories or more sophisticated constraints based on the requirements of the game.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

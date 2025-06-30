@@ -100,5 +100,4 @@ def log_code_write(task, code):
 
     print(f"[Code Logger] Logged task: {task}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -13,5 +13,4 @@ def launch_autonomy():
 ''')
 print("[rebuild_trigger_stack] ✅ autonomy_trigger_stack.py rebuilt.")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

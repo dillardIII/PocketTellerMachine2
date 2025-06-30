@@ -86,5 +86,4 @@ if __name__ == "__main__":
 
 This utility is flexible and extensible. You can add more resource types, refine the trade logic, or introduce additional mechanics like resource decay over time, city growth, or even adversities like plagues or pillages to add complexity to the simulation.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

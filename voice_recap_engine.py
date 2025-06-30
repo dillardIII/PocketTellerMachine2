@@ -71,5 +71,4 @@ def create_voice_recap_with_traits(text, voice_name="Mo Cash", mood="neutral", g
         print(f"[VoiceRecap] Error generating styled voice: {e}")
         return None
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

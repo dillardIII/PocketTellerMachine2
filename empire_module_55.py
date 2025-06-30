@@ -134,5 +134,4 @@ expr_result = ir.optimize_expression("3 + 2 * (1 + 1)")
 
 This is a sophisticated example where recursion is optimized and applied thoughtfully, demonstrating applications in solving mathematical problems, navigating paths, and parsing mathematical expressions.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

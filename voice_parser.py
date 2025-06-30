@@ -59,5 +59,4 @@ if __name__ == "__main__":
     test = "Mo Cash, upgrade the last strategy and send it to Replit."
     print(parse_voice_command(test))
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

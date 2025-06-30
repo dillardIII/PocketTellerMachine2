@@ -60,7 +60,6 @@ class TradeLogger:
 :
     def filter_trades_by_result(self, result):
         """Return only trades with a certain result (win/loss/etc)."""
-        return [t for t in self.get_all_trades() if t.get("result") == result.lower()]
+        return [t for t in self.get_all_trades() if t.get("result") == result.lower()]:
 :
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

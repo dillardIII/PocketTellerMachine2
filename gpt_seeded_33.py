@@ -90,5 +90,4 @@ my_empire.generate_resources()
 
 This script offers a simple framework that can be expanded with more features such as trading, military actions, or technological advancements. Players can run simulations by calling different methods and making strategic decisions based on their resource status and hints.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

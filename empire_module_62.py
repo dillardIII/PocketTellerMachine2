@@ -94,5 +94,4 @@ if __name__ == "__main__":
 - Develop a richer vocabulary and more complex logic for word selection, considering semantic coherence and syntactical structure.
 - Add features for advanced context management and world-dynamics simulation within the 'PTM empire'.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

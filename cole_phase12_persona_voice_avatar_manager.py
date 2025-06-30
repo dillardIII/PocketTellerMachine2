@@ -75,5 +75,4 @@ def demo_persona_full_update():
 if __name__ == "__main__":
     demo_persona_full_update()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

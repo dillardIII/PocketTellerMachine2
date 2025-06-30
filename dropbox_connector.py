@@ -17,5 +17,4 @@ def download_from_dropbox(dropbox_path, local_path):
         f.write(res.content)
     print(f"[Dropbox] Downloaded {dropbox_path} to {local_path}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

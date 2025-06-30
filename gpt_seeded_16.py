@@ -101,5 +101,4 @@ if __name__ == "__main__":
 
 This utility helps visualize managing resources efficiently within an empire, adding a strategic layer in resource management for games.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

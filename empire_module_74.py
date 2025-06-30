@@ -127,5 +127,4 @@ if __name__ == "__main__":
 
 Each function is documented with a docstring to clarify its purpose, parameters, and return values. Implementations are left flexible, especially for `get_children`, `base_case_reached`, and similar functions, to be adaptable to specific use cases.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

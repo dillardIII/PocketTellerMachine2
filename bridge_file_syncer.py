@@ -20,5 +20,4 @@ def sync_bridge_to_ptm():
                 print(f"[BridgeSync] 📦 Synced file: {filename}")
         time.sleep(SYNC_INTERVAL)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

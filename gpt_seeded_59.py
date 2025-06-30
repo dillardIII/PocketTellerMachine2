@@ -100,5 +100,4 @@ This is a basic utility that can be extended with functionalities such as:
 
 This code forms the foundation of a resource management system for a strategy or empire game, providing players with necessary tools to manage their empires efficiently.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

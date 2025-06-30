@@ -41,5 +41,4 @@ def evaluate_last_code_results():
     print(f"[Cole Results] Last result summary: {last['result']}")
     return last
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

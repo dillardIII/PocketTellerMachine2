@@ -31,5 +31,4 @@ def drop_file(sender, recipient, filename, content, purpose="General"):
 
     print(f"[DROPBOX] {sender} dropped '{filename}' for {recipient} — {purpose}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

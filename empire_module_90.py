@@ -107,5 +107,4 @@ if __name__ == "__main__":
 
 With this modular architecture, you can customize traversal behaviors easily for different hierarchical or recursive data scenarios within the PTM system.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

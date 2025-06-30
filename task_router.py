@@ -35,5 +35,4 @@ def route_task(structured_command):
         traceback.print_exc()
         return f"[ERROR in Task Router]: {str(e)}"
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

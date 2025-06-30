@@ -22,5 +22,4 @@ def start_bridge_sync():
     thread.start()
     print("[Bridge Sync] ✅ Bridge heartbeat sync started in background.")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

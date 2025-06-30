@@ -48,5 +48,4 @@ def generate_malik_intel_mp3(ticker="TSLA"):
 if __name__ == "__main__":
     generate_malik_intel_mp3("TSLA")  # Change "TSLA" to test other tickers
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

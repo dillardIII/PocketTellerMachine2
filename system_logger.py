@@ -47,5 +47,4 @@ def log_patch_event(file_name, status, notes=""):
     print(f"[PatchLog] 🛠️ {file_name} => {status}")
     _write_log(PATCH_LOG, entry)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

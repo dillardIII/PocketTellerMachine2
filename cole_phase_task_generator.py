@@ -36,5 +36,4 @@ def add_task_to_pool(task_description):
     save_task_pool(tasks)
     print(f"[Phase Task Generator] Added task: {task_description}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

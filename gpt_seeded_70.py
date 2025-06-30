@@ -63,5 +63,4 @@ In conclusion, this strategy leverages cutting-edge technologies and techniques,
 
 **Disclaimer**: While powerful, this strategy requires extensive testing and resources. Trading in financial markets involves risk and is not suited for everyone; ensure proper due diligence is conducted.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

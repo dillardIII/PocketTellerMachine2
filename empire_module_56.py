@@ -106,5 +106,4 @@ if __name__ == "__main__":
 
 This module can be expanded with more complex functionality such as data validation, error handling, different types of transformations, and logging mechanisms, depending on the requirements of the PTM empire.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

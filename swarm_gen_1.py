@@ -75,5 +75,4 @@ Once you have the basic framework, consider:
 
 This example provides a basic framework to get you started and can be expanded or modified to fit more complex requirement and integration needs specific to your PTM Empire architecture.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

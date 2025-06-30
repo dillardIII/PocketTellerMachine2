@@ -17,5 +17,4 @@ def generate_ai_code(prompt):
         print(f"[GPT] ❌ Failed: {e}")
         return "# Failed to generate new code"
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

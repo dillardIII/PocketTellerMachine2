@@ -11,7 +11,6 @@ folder = "required_files"
 
 for file in REQUIRED_FILES:
     path = os.path.join(folder, file)
-    print(f"{file}: {'✅ Found' if os.path.exists(path) else '❌ Missing'}")
+    print(f"{file}: {'✅ Found' if os.path.exists(path) else '❌ Missing'}"):
 :
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

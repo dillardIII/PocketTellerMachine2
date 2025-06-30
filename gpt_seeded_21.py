@@ -87,5 +87,4 @@ empire2.display_status()
 
 This utility allows creating instances of different empires and simulating resource allocation, expansion attempts, and conflicts. It will serve as a basic strategic gameplay simulator.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

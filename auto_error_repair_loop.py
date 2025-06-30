@@ -32,5 +32,4 @@ def auto_error_repair_loop():
             log_fix(f"Auto-repair triggered at {datetime.utcnow()}")
             print(f"[AutoRepair] 🔁 Repair triggered: {e}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -93,5 +93,4 @@ if __name__ == "__main__":
 
 This utility can help players strategically place cities to maximize resource gain and foster a strong economy in their empire-building game. Adjustments and expansion of the script can be made to include more complex gameplay dynamics and strategic considerations.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

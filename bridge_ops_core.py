@@ -47,5 +47,4 @@ if __name__ == "__main__":
     broken_code = "def hi():
     print(core.dispatch("AutoFixer", "diagnose", broken_code))
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

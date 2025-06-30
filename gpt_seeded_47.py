@@ -88,5 +88,4 @@ if __name__ == "__main__":
 ### Usage:
 You can run the code as-is and modify or expand it to add more complexity, such as battles between territories, resource trading, or events affecting resource yield and territory status. This foundational script provides a framework on which to build more intricate mechanics.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

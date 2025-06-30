@@ -22,5 +22,4 @@ def scan_and_trigger(folder="ptm_inbox"):
         seen = files
         time.sleep(5)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

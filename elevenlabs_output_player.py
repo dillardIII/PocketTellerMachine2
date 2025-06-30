@@ -44,5 +44,4 @@ def _play_audio(file_path):
 if __name__ == "__main__":
     speak_text("System online. Welcome back, Boo.")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

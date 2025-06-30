@@ -27,5 +27,4 @@ if __name__ == "__main__":
     route_memory_event("latest_market_trigger", {"symbol": "AAPL", "signal": "bullish breakout"}, source="Strategist")
     print("Recalled:", recall_shared_memory("latest_market_trigger"))
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

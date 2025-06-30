@@ -52,5 +52,4 @@ def get_mood(persona_name):
 def list_all_moods():
     return load_moods()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

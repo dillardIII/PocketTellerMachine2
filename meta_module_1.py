@@ -154,5 +154,4 @@ class RecursiveStrategy:
 
 This outline sketches a flexible and extensible Python module designed to empower PTM's evolving autonomy stack. Each component serves a critical role, ensuring the system can adapt and improve autonomously over time. The integration of recursive strategies ensures continuous self-improvement, making the system robust and forward-adaptive.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

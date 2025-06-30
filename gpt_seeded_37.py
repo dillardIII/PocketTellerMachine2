@@ -99,5 +99,4 @@ empire.print_status()
 
 This utility could be integrated into a larger game to help manage resource allocation dynamically, adapting to changing priorities and conditions in the empire-building scenario.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

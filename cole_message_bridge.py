@@ -97,5 +97,4 @@ if __name__ == "__main__":
     # 3. Read Cole's reply from outbox
     read_cole_responses()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

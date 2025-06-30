@@ -105,5 +105,4 @@ class RecursiveFeedbackLoop:
 
 This setup provides a foundation for an autonomy stack with a focus on recursive, self-improving strategies that help the PTM empire maintain an adaptive edge.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

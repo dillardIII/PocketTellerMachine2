@@ -72,5 +72,4 @@ if __name__ == "__main__":
 
 This utility can serve as the basis for a more complex empire-building simulator. Players could eventually face random events, trade opportunities, and further strategic decisions to enhance the depth of gameplay.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

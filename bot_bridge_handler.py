@@ -84,5 +84,4 @@ if __name__ == "__main__":
     send_to_bot("MoCash", "Mentor", {"symbol": "AAPL", "rating": 90}, task="review", file="AAPL_strategy_v1.py")
     print(read_bridge("Mentor"))
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

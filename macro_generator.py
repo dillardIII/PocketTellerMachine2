@@ -7,5 +7,4 @@ def generate_macro(task):
     print(f"[MacroGen] 🔁 Creating macro for: {task}")
     return f"# Macro for {task}\ndef run():n"
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -76,5 +76,4 @@ if __name__ == "__main__":
 :
 This utility provides a basic framework to issue strategic advice based on predefined heuristic rules. To improve this advisor, you could integrate more complex decision algorithms or data-driven strategies by analyzing past gameplay statistics or utilizing machine learning for adaptive advice.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

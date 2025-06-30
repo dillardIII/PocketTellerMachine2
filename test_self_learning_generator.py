@@ -14,5 +14,4 @@ for task in tasks:
 print("\n=== Running Cole's Self-Learning Generator Manually ===")
 run_self_learning_generator()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -73,5 +73,4 @@ def autonomous_decision_loop(interval_seconds=600):
 if __name__ == "__main__":
     autonomous_decision_loop(600)  # Every 10 minutes (adjustable)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

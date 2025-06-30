@@ -118,5 +118,4 @@ class SelfImprovingModule:
 
 This high-level design emphasizes adaptability, efficiency, and scalability to ensure the PTM empire’s autonomy stack evolves and excels in dynamic environments.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

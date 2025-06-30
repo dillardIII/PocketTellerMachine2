@@ -29,5 +29,4 @@ while True:
     print(f"[QuantumFilter] 🧬 Outcome logged: {data}")
     time.sleep(45)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

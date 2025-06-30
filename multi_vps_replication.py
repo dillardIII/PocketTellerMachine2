@@ -28,5 +28,4 @@ while True:
     # Wait 10 minutes before next replication cycle
     time.sleep(600)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

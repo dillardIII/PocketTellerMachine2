@@ -55,5 +55,4 @@ if __name__ == "__main__":
     pull_from_shared_brain()
     print("🔍 Synced devices:", list_synced_devices())
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

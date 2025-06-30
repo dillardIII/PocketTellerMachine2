@@ -71,5 +71,4 @@ def run_strategy_merger(thread_file):
     print(f"[MERGER] Created hybrid strategy: {new_name}")
     return new_path
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

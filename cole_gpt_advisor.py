@@ -61,5 +61,4 @@ def log_gpt_chat(prompt, reply):
     except Exception as e:
         print(f"[GPT Logger] Error logging chat: {e}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

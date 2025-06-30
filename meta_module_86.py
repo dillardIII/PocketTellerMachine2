@@ -78,5 +78,4 @@ rle.iterate()  # Recursive refinement based on evaluation
 
 This design proposal for the `ptm_autonomy` module focuses on recursive and adaptive strategies to enhance autonomy in diverse and dynamic environments. By integrating innovative learning, execution, and optimization mechanisms, the module aims to support the PTM empire's self-evolving autonomy stack's growth and effectiveness.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

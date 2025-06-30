@@ -119,5 +119,4 @@ if __name__ == "__main__":
 
 This template can be adapted to suit the specific needs of the PTM empire, with customization of the processing function and integration into larger systems as required.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

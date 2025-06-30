@@ -40,5 +40,4 @@ example_performance = {"win_rate": 38.5, "avg_return": -2.3, "total_trades": 100
 
 evolve_strategy(example_strategy, example_performance)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

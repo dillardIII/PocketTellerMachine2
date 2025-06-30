@@ -7,5 +7,4 @@ def handle_trade_error(error_message, strategy=None):
         print(f"[Trade Error Handler] 🧠 Strategy that failed: {strategy}")
     # Future: Add retry logic, fallback strategy, or alert system here
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

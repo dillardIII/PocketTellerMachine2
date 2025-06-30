@@ -40,5 +40,4 @@ def get_bot_status():
     with open(STATUS_FILE, "r", encoding="utf-8") as f:
         return json.load(f)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

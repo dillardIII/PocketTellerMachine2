@@ -13,5 +13,4 @@ def mutate_code(code):
         code = code.replace("20", str(random.randint(10, 30)))
     return code
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

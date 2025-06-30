@@ -53,5 +53,4 @@ def clear_memories():
         os.remove(MEMORY_FILE)
         print("[Memory] Long-term memory wiped.")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

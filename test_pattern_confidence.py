@@ -16,5 +16,4 @@ rsi_reversal_results = [-5, -3, 2, -4, -1, -3, 1, -6, 0, -2]
 print("[CONFIDENCE SCORE]: SMA Cross:", assign_pattern_confidence(sma_cross_results))
 print("[CONFIDENCE SCORE]: RSI Reversal:", assign_pattern_confidence(rsi_reversal_results))
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

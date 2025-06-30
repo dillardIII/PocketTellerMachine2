@@ -91,5 +91,4 @@ Consider adding features like:
 
 This utility could be expanded or integrated into a larger game backend, helping players make informed decisions on resource management.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -35,5 +35,4 @@ def validate_bridges(reference_dir):
         results[bridge] = mismatches if mismatches else ["✅ All files match"]:
     return results
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

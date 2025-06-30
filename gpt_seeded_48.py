@@ -85,5 +85,4 @@ if __name__ == "__main__":
 
 This utility can be expanded with additional features, such as trading between resources, advanced strategy rules, or player notifications when resources run low.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

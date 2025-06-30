@@ -21,5 +21,4 @@ def safe_push():
 if __name__ == "__main__":
     safe_push()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

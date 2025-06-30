@@ -49,5 +49,4 @@ def run_self_upgrade_cycle():
 
         print(f"[UPGRADE] New version saved as: {filename}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

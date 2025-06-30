@@ -8,5 +8,4 @@ def launch_full_stack():
     print("[Autonomy Launcher] 🧠 Launching full autonomy core...")
     run_autonomy_core()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

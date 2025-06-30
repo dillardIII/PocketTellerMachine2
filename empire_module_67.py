@@ -73,5 +73,4 @@ if __name__ == "__main__":
 
 This Python module provides a general framework that can be adapted for different data transformation needs, using intelligent recursion to repeatedly apply transformations up to a specified depth. You can extend the module with more sophisticated transformation functions tailored to specific domains within your "PTM empire."
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

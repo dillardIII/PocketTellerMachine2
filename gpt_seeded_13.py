@@ -89,5 +89,4 @@ if __name__ == "__main__":
 
 This utility is a basic simulation, but it can be expanded with more complexity, like diplomatic actions, trade, events, or AI opponents for a richer game experience.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

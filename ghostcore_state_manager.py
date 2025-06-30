@@ -7,5 +7,4 @@ def request_file_repair(filename):
     print(f"[GhostCore] 🛠️ Requesting repair for: {filename}")
     # This will later integrate with GPT file regenerator
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -12,5 +12,4 @@ def patch_file(file_path, new_code):
         print(f"[Patcher] ❌ Failed patching {file_path}: {e}")
         return {"status": "error", "message": str(e)}
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

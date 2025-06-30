@@ -9,5 +9,4 @@ def update_ui(status_dict):
     print(f"[UI Sync] 🔄 Updating UI with status: {status_dict}")
     # Placeholder – Extend with real UI websocket or API updates
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

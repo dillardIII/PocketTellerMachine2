@@ -61,5 +61,4 @@ def start_all_autonomy():
     print(f"[PTM Autonomy Boot] ✅ Status: {boot_result['status']}")
     return boot_result
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

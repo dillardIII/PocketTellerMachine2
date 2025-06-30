@@ -13,5 +13,4 @@ def auto_drop_code(filename="auto_dropped.py"):
 ''')
 print("[rebuild_auto_code_dropper] ✅ auto_code_dropper.py rebuilt.")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

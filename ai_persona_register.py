@@ -56,5 +56,4 @@ AI_PERSONAS = {
 def get_persona(name):
     return AI_PERSONAS.get(name, None)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -48,5 +48,4 @@ def launch_bot():
     bot_thread = threading.Thread(target=master_bot_loop, daemon=True)
     bot_thread.start()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

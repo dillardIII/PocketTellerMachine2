@@ -59,5 +59,4 @@ if __name__ == "__main__":
 
 In a full implementation, these agents would involve actual computation (perhaps running small models), inter-swarm communication, and handling more complex decision-making processes, including learning and optimizing for task-specific requirements.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

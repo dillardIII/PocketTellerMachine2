@@ -18,5 +18,4 @@ def run_high_risk_loop():
         print(f"[HighRisk] ⚔️ Adjusted scale: {risk_multiplier:.2f}x | Emotion: {emotion}")
         time.sleep(60)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

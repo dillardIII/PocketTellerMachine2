@@ -39,5 +39,4 @@ def plot_mutation_history(history, title="Mutation Evolution", output_file="muta
     print(f"[CHART] Evolution chart saved to {full_path}")
     return full_path
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

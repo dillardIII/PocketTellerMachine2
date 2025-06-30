@@ -25,5 +25,4 @@ python skypiea_mode.py
 
 Make sure that you have Python installed on your system. The script will print(the specified message to the console when executed.)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

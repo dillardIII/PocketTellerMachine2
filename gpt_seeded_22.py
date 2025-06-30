@@ -92,5 +92,4 @@ empire.show_status()
 
 This basic script can be the foundation for a more detailed empire-building simulation, with potential additions like resource trade, detailed battle strategies, or more complex diplomatic relations.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

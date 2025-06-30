@@ -74,5 +74,4 @@ if __name__ == "__main__":
 
 This module is a starting point and can be expanded with more sophisticated task dependencies, intelligent decision-making processes, and error handling to genuinely reflect the complexity of an "unstoppable PTM empire."
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -43,5 +43,4 @@ Creating an autonomous trading strategy for the PTM Empire incorporating reinfor
 :
 This framework is a baseline and requires iterative development, continuous learning, and process optimization to ensure the final strategy is robust and profitable across different market conditions.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

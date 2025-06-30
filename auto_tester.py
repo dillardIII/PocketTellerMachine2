@@ -70,5 +70,4 @@ def run_basic_tests(target_path):
         print("[AUTO TESTER] ⚠️ No test file found. Assuming success.")
         return {"status": "passed", "file": target_path, "stdout": "No tests run."}
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

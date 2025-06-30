@@ -33,5 +33,4 @@ if __name__ == "__main__":
         sound = trigger_sound_for_emotion(emotion)
         print(f"[{emotion}]: {sound}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -50,5 +50,4 @@ print('All risk analyses are complete.')
 ### Additional Enhancements:
 For a more advanced setup involving real-time data analysis or collaboration between threads, consider using queues, logging, or even async features for improved performance and organization. If the application grows beyond simple analysis, integrating libraries like `pandas` for data handling or `numpy` for efficient numerical operations will enhance capabilities.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

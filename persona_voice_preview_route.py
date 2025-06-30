@@ -22,5 +22,4 @@ def list_voice_previews():
     files = [f for f in os.listdir(VOICE_FOLDER) if f.endswith(".mp3")]:
     return jsonify(files)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

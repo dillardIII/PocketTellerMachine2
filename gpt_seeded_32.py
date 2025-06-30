@@ -74,5 +74,4 @@ if __name__ == "__main__":
 
 This script offers a simple, expandable utility for managing resources effectively within a strategy or empire game context, and serves as a foundation for further development and customization.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -37,7 +37,6 @@ def weave_insight(event_type, description, related_nodes=[]):
 
 def retrieve_by_event(event_type):
     memory_log = load_memory()
-    return [entry for entry in memory_log if entry["event_type"] == event_type]
+    return [entry for entry in memory_log if entry["event_type"] == event_type]:
 :
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

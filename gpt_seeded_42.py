@@ -92,5 +92,4 @@ if __name__ == "__main__":
 
 Feel free to modify, expand, or integrate this utility into a larger game system!
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -44,5 +44,4 @@ def paper_execute_trade_order(ticker, side="buy", confidence=0.5):
     print(f"[PAPER TRADE RESULT] {ticker} → {result.upper()} | PnL: {profit}")
     return {"status": result, "pnl": profit}
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -18,5 +18,4 @@ def launch_dashboard(dash_name):
     else:
         print(f"[DashboardLauncher] ❌ Unknown dashboard: {dash_name}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

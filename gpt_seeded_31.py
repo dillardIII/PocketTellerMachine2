@@ -103,5 +103,4 @@ if __name__ == "__main__":
 
 This simple utility could be expanded further with more complex decision-making logic, additional building types, and external events affecting the empire's status.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

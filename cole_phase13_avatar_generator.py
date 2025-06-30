@@ -55,5 +55,4 @@ if __name__ == "__main__":
     generate_avatar("Mo Cash", style="hype", color="green")
     generate_avatar("Sunny", style="cheerful", color="orange")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

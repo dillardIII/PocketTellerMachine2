@@ -60,5 +60,4 @@ if __name__ == "__main__":
     print("🧠 Council Decision Summary:")
     print(json.dumps(summarize_vote(test), indent=2))
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

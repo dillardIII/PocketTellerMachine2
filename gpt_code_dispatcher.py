@@ -23,5 +23,4 @@ if __name__ == "__main__":
     sample_code = "# Example: Hello World Script\nprint('Hello from GPT Dispatcher')"
     dispatch_code("hello_gpt.py", sample_code)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -95,5 +95,4 @@ def log_command(prompt, result):
     with open(LOG_FILE, "w") as f:
         json.dump(logs[-200:], f, indent=2)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -91,5 +91,4 @@ def self_rebuilder_loop():
             log_status("Rebuild failed", exception=traceback.format_exc())
         time.sleep(600)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

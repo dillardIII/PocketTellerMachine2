@@ -13,5 +13,4 @@ def play_voice_summary():
 if __name__ == "__main__":
     play_voice_summary()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

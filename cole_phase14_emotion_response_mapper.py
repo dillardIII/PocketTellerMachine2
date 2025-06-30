@@ -44,5 +44,4 @@ if __name__ == "__main__":
     print("Dominant Emotion:", get_dominant_emotion())
     print("Use this tone:", generate_emotion_response_prefix())
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

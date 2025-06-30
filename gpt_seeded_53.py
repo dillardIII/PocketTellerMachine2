@@ -84,5 +84,4 @@ if __name__ == "__main__":
 
 This utility provides a basic framework for understanding resource management in strategy games. You could expand it with more complex systems, technologies, different types of structures, or AI decision-making for a complete empire-building simulation.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

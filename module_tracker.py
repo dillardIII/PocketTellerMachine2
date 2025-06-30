@@ -69,5 +69,4 @@ if __name__ == "__main__":
         if not is_dupe:
             update_executed_hash("test_script.py", h)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

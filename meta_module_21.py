@@ -120,5 +120,4 @@ if __name__ == "__main__":
 
 Remember to thoroughly test any module in a controlled environment before deploying it into a live scenario.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

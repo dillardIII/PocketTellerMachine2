@@ -101,5 +101,4 @@ erm.update_resources(gold=200, food=-100)
 
 This utility is a simple yet functional tool that can be expanded with additional resources, more complex trade mechanisms, or strategic advice based on overall gameplay mechanics.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

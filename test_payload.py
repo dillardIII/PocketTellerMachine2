@@ -7,5 +7,4 @@ print("[TestPayload] ✅ Payload received and executed.")
 with open("ptm_outbox/payload_result.txt", "w") as f:
     f.write("Payload executed successfully by PTM.")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -53,5 +53,4 @@ def display_status():
         print(f"  {system}: Last Sync @ {status.get('last_sync')} | Health: {status.get('health')}")
     print("--------------------------------------------------\n")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

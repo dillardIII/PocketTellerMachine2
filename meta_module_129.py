@@ -116,5 +116,4 @@ if __name__ == "__main__":
 
 Feel free to expand or customize this framework according to the specific needs and goals of the PTM empire's autonomy stack.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

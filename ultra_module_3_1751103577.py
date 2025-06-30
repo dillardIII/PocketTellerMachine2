@@ -115,5 +115,4 @@ plt.show()
 
 This code provides a basic framework for a predictive model in PTM trading. For a production environment, consider more sophisticated techniques, larger datasets, and additional features.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

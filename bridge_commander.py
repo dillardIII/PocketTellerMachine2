@@ -84,5 +84,4 @@ def mark_packet_complete(packet):
 
     log_bridge_event(packet["from"], packet["to"], "packet_complete", packet["payload"])
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

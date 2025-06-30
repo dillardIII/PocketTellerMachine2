@@ -17,5 +17,4 @@ def register_node(ghostnet):
     ghostnet.add_node(node_info)
     print(f"[Node] 🧬 Registered node: {node_info['id']}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

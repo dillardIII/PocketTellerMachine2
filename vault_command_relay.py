@@ -24,5 +24,4 @@ def check_for_commands(path="vault/vault_command.json"):
     except Exception as e:
         print(f"[VaultRelay] ❌ Failed to process vault command: {e}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

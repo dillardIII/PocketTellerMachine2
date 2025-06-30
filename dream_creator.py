@@ -28,5 +28,4 @@ def generate_dream():
 if __name__ == "__main__":
     generate_dream()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

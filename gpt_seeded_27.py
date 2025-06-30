@@ -104,5 +104,4 @@ if __name__ == "__main__":
 
 With `EmpireManager`, you can manage the growth and challenges faced by your empire, testing strategic resource allocation and response to events.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

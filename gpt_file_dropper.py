@@ -21,5 +21,4 @@ def log_drop(filename):
     with open(log_file, 'a', encoding='utf-8') as log:
         log.write(f"{datetime.now().isoformat()} :: Dropped file: {filename}\n")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

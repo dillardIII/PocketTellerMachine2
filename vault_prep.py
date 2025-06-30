@@ -39,5 +39,4 @@ log_to_vault(vault_entry)
 
 print("🔐 [VaultPrep] Logged vault_prep.py execution to vault_logbook.json")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

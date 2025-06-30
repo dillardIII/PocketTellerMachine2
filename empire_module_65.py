@@ -81,5 +81,4 @@ To use this module, adjust the `_process_individual` method according to the spe
 
 This design aims to serve as a flexible foundation for expanding processing capabilities across a variety of recursively-structured datasets typical in advanced data systems employed by enterprises like the hypothetical PTM empire.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

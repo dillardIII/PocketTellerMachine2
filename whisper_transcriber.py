@@ -11,5 +11,4 @@ def transcribe_audio_to_text(file_path):
     print(f"[Transcriber] 📝 {result['text']}")
     return result["text"]
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

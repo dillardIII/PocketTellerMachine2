@@ -95,5 +95,4 @@ if __name__ == "__main__":
 
 This example is basic and serves as a starting point for building more complex AI swarm architectures.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

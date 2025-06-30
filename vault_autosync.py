@@ -16,5 +16,4 @@ def sync_vault(destination_folder="vault_backup"):
     except Exception as e:
         print(f"[VaultAutoSync] ❌ Sync failed: {e}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

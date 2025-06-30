@@ -109,5 +109,4 @@ if __name__ == "__main__":
 :
 This script can be expanded with more complexity, such as trade, war, alliances, technology advancements, and more. It serves as a foundational exercise in resource management and turn-based strategic decision-making in a simplistic empire scenario.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

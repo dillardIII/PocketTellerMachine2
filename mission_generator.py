@@ -19,5 +19,4 @@ if __name__ == "__main__":
     filename, code = generate_random_mission()
     inject_task(filename, code, source="MissionGen")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

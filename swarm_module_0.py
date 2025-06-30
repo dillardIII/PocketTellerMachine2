@@ -99,5 +99,4 @@ if __name__ == '__main__':
 
 Building a successful RL trading script is a complex, iterative process requiring continuous monitoring and adjustments. This script serves as a foundational framework, which should be tailored and extended to meet the specific requirements and constraints of the PTM empire's trading operations.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

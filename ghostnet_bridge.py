@@ -63,5 +63,4 @@ def ghostnet_monitor(bot_id, metadata=None):
     thread = threading.Thread(target=monitor, daemon=True)
     thread.start()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

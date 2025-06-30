@@ -86,5 +86,4 @@ if __name__ == "__main__":
 
 Ensure to replace the placeholder values with actual details like RPC URLs, router addresses, private key, and token address. Make sure to download the ABI for Uniswap or PancakeSwap router and save it as `uniswap_router_abi.json`.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

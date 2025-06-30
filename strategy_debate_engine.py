@@ -57,5 +57,4 @@ def run_strategy_debate(thread_file, save_path="static/audio/debate_recap.mp3"):
     print(f"[DEBATE] Recap saved to {save_path}")
     return full_debate
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

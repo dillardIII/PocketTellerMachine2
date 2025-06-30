@@ -104,5 +104,4 @@ if __name__ == '__main__':
 
 This is a conceptual framework. To use it in real scenarios, you'd replace placeholders with the logic specific to your problems and requirements.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

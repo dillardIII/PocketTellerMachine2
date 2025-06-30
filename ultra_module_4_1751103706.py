@@ -84,5 +84,4 @@ Creating a watchdog script for automatically repairing files in a PTM Empire set
 
 By following these steps, you should be able to set up a basic watchdog script for monitoring and attempting repairs on files in your PTM Empire environment. Adapt the repair logic as necessary to suit the specific issues you encounter.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

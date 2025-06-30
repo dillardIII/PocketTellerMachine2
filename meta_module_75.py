@@ -145,5 +145,4 @@ class DecisionEngine:
 
 This facilitates a versatile structure to support self-evolving autonomy within the PTM empire's broader frameworks.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

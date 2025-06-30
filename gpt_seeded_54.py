@@ -117,5 +117,4 @@ empire.display_resources()
 
 This Python utility provides a foundation for players to efficiently manage resources and make strategic decisions in their empire-building games. Feel free to expand upon this with additional features and complexities as needed!
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

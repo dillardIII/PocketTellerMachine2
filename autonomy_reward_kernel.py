@@ -47,5 +47,4 @@ def process_reward_event(event_type, context=""):
     log_reward(event_type, score, context)
     return score
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

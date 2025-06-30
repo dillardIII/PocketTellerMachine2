@@ -95,5 +95,4 @@ def log_reaction(trigger, action):
 feedback = forge.enable_recursive_building(reflex_modules)
 print("\n".join(feedback))
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

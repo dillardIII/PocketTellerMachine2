@@ -16,5 +16,4 @@ def fetch_market_data(symbol):
         "timestamp": "2025-05-31T00:00:00Z"
     }
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

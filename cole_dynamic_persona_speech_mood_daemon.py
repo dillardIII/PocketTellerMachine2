@@ -75,5 +75,4 @@ def persona_mood_cycle_daemon():
 if __name__ == "__main__":
     persona_mood_cycle_daemon()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

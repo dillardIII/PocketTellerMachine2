@@ -22,5 +22,4 @@ def auto_respond_to_events():
 while True:
     auto_respond_to_events()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

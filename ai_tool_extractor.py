@@ -21,5 +21,4 @@ def extract_ai_tools(text):
     print(f"[AI Extractor] ✅ Found {len(found)} tools: {found}")
     return found
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -1,0 +1,18 @@
+[
+  {
+    "timestamp": "2025-06-30T09:07:36.943779",
+    "action": "BUY",
+    "quantity": 10,
+    "price": 150.0,
+    "result": "neutral",
+    "notes": "Initial position"
+  },
+  {
+    "timestamp": "2025-06-30T09:07:36.943779",
+    "action": "SELL",
+    "quantity": 5,
+    "price": 155.0,
+    "result": "win",
+    "notes": "Partial profit"
+  }
+]

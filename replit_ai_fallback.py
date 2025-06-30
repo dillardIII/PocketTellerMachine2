@@ -10,5 +10,4 @@ def fallback_generate_code(filename, prompt):
 if __name__ == "__main__":
     fallback_generate_code("new_module.py", "Create a smart stock analyzer with email alerts.")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

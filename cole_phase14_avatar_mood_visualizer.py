@@ -58,5 +58,4 @@ if __name__ == "__main__":
         visual = get_avatar_visual_for_persona(persona)
         print(f"{persona} → Avatar: {visual['avatar']} | Style: {visual['style']}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

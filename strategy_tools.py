@@ -46,5 +46,4 @@ def deduce_logic_from_notes(notes):
     else:
         return "data['5MA'] > data['20MA']"
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

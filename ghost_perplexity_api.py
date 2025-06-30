@@ -51,5 +51,4 @@ def query_perplexity(query, sources=["news", "finance"], num_results=5):
         print(f"[PERPLEXITY API ERROR] ❌ {e}")
         return {"error": str(e), "query": query}
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

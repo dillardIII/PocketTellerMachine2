@@ -66,5 +66,4 @@ if __name__ == "__main__":
     update_persona("Mentor", mood="focused", memory="Reviewing last week's trades")
     print(get_persona_state("Mentor"))
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

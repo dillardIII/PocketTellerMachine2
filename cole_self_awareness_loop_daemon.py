@@ -124,5 +124,4 @@ def monitor_and_self_audit(interval_seconds=3600):
 if __name__ == "__main__":
     monitor_and_self_audit(3600)  # Every 1 hour (adjustable)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

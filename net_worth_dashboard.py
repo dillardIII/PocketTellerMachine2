@@ -6,5 +6,4 @@ def show_net_worth():
     total = get_total_assets()
     print(f"[Net Worth] 💰 Current net worth: ${total}")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

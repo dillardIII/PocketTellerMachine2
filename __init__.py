@@ -8,5 +8,4 @@ from bridge_team_launcher import start_bridge_team
 print("[PTM Bridge Init] Initializing Bridge System...")
 start_bridge_team()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

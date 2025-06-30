@@ -70,5 +70,4 @@ if __name__ == "__main__":
     set_mood("win", intensity=0.8, source="cli_test")
     print("✅ Updated:", mood_summary())
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

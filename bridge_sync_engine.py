@@ -57,5 +57,4 @@ def update_bridge_state(agent_from, agent_to, file_path, status="success", error
 def get_bridge_status():
     return load_bridge_state()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

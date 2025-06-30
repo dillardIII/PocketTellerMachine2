@@ -67,5 +67,4 @@ for i in range(5):
 
 This example focuses on code generation and automation using basic scripting practices in Python. For real-world scenarios where actual models or task handlers are used, further integration with existing systems and thorough testing are essential.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

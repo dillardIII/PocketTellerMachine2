@@ -89,5 +89,4 @@ if __name__ == "__main__":
 
 This utility not only serves as a foundation for developing a more complex empire simulation but also provides an understanding of managing resources and workforce in a strategic manner.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -11,5 +11,4 @@ def start_bridge_system():
     sync_thread = threading.Thread(target=sync_bridge_to_replit, daemon=True)
     sync_thread.start()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -37,5 +37,4 @@ def neural_predictor_loop():
         print(f"[NeuralPredictor] 🧠 Predicted {threshold:.2f}, result: {outcome}, weight: {model['weight']:.2f}")
         time.sleep(30)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

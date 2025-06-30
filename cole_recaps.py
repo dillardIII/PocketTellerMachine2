@@ -63,5 +63,4 @@ if __name__ == "__main__":
     result = generate_recap_from_last_trade()
     print("Trade Recap:", result)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

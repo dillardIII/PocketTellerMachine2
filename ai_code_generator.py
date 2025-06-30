@@ -16,5 +16,4 @@ def suggest_improvements(existing_code):
     print("[AI_CodeGen] 🤖 Suggesting improvements on existing code...")
     return existing_code + "\n# Suggested improvement: add more robust error handling."
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -23,5 +23,4 @@ def build_instruction_packet(sender, recipient, files, instructions, task_name="
     print(f"[INSTRUCTION_PACKET_ROUTER] Packet saved: {filename}")
     return path
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

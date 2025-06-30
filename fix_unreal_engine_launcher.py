@@ -15,5 +15,4 @@ start "" "C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicG
 echo Launcher Restarted.
 pause
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

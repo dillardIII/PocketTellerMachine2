@@ -36,5 +36,4 @@ def show_leaderboard():
         print(f"{agent}: Wins {score.get('wins', 0)}, Losses {score.get('losses', 0)}, Profit {round(score.get('profit', 0), 2)}")
     print("=========================\n")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

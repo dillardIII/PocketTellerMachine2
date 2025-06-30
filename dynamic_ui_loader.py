@@ -21,5 +21,4 @@ def load_assistant_profile(name):
     except Exception as e:
         return f"❌ Assistant profile failed to load: {e}", 500
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

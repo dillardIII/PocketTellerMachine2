@@ -7,5 +7,4 @@ from autonomy_router import route_task
 def assign_persona(task_name):
     return route_task(task_name)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

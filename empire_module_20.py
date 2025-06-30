@@ -126,5 +126,4 @@ if __name__ == "__main__":
 
 This example demonstrates using recursion to solve several common problems efficiently and offers a basis for more complex recursive strategies in the future, like memoization and intelligent parsing.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

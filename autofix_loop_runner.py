@@ -20,5 +20,4 @@ def start_autofix_loop(interval=3600):  # 3600 sec = 1 hour
 if __name__ == "__main__":
     start_autofix_loop()
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

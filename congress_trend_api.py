@@ -27,5 +27,4 @@ def congress_trend():
 
     return jsonify({"symbol": symbol, "trend": trend_data})
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

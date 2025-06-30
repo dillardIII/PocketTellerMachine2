@@ -17,5 +17,4 @@ def shadow_speak(text, mood="ominous"):
     audio = generate(text=message, voice=SHADOW_VOICE_ID, model="eleven_monolingual_v1")
     play(audio)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

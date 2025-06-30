@@ -49,5 +49,4 @@ if __name__ == "__main__":
     print("[COLE PHASE 11 LOG STREAMER]: Running on port 8080...")
     app.run(host='0.0.0.0', port=8080, debug=True)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

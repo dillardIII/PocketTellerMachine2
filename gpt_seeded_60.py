@@ -96,5 +96,4 @@ empire.resource_summary()
 
 This can be extended or integrated into a larger game simulation to manage more complex scenarios or resource types.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

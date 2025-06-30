@@ -70,5 +70,4 @@ if __name__ == "__main__":
 
 Players can modify production rates, current resources, and troop counts to see how their strategy should adapt based on this utility. The utility can act as a guide to maximize empire growth and security effectively.
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

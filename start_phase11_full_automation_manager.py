@@ -116,5 +116,4 @@ except KeyboardInterrupt:
     code_update_listener_daemon.terminate()
     print("[SHUTDOWN]: All services stopped.")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

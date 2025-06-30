@@ -34,5 +34,4 @@ class GPTFileGenerator:
         with open(VAULT_LOG, "a") as log:
             log.write(f"[{int(time.time())}] Auto-generated file: {filename}\n")
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

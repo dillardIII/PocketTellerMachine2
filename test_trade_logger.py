@@ -10,5 +10,4 @@ logger = TradeLogger(TradierClient(), get_sentiment, grade_risk)
 # Log a trade
 logger.log_trade("AAPL", "buy_call", quantity=2)
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():

@@ -39,5 +39,4 @@ def draw_family_tree(output_file="evolution/family_tree.png"):
     print(f"[FAMILY TREE] Diagram saved to {output_path}")
     return output_path
 
-def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
-def drop_files_to_bridge():
+def log_event():ef drop_files_to_bridge():
