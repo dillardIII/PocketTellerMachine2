@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a simple Python code that uses pandas library to analyze market trends. However, please note that this is a very basic example and real-world financial analysis requires more complex algorithms and data sources.
 
 ```python

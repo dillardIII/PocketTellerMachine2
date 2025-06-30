@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate a trade and gather data on market performance, you can use various Python libraries such as pandas, yfinance, and alpaca_trade_api. Below is a simple example of how you can use these libraries to initiate a trade and gather data.
 
 Please replace `APCA-API-KEY-ID` and `APCA-API-SECRET-KEY` with your actual Alpaca API keys.

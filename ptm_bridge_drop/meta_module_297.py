@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module to expand the PTM (Presumably "Predictive Trajectory Management") empire's self-evolving autonomy stack involves creating software that can autonomously learn and improve its decision-making over time. Here, I'll outline a high-level design for such a module, focusing on recursive strategies, modularity, and machine learning components to ensure continuous self-improvement.
 
 ### Module Name: `ptm_autonomy`

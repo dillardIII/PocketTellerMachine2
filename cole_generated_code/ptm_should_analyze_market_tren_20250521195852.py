@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python script for analyzing market trends and data is a complex task and requires a deep understanding of both financial markets and data analysis. Here is a simple example of how you could start developing such a system using Python and pandas library. This code will fetch historical data, calculate simple moving average and generate a basic trading signal.
 
 Please note that this is a very basic example and real-world trading systems are much more complex and take into account many more factors.

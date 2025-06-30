@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghostmind_layer_5.py ===
 # 👁️ GhostMind Layer 5 – Multi-perception + mood + forecasting integration
 

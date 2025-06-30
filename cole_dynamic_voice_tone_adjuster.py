@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_dynamic_voice_tone_adjuster.py
 
 import os

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code snippet that can help you track the progress of PTM's wins and losses:
 
 ```python

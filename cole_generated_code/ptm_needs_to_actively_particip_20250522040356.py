@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code that simulates trading for PTM. The code uses random function to simulate the unpredictability of the stock market. 
 
 ```python

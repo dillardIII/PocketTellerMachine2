@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and patterns is a complex task that involves a lot of data processing and machine learning. Here is a simple example of how you could use Python to analyze stock prices. In this example, we will use the pandas library to handle data, yfinance to download stock price data, and matplotlib to visualize the data.
 
 ```python

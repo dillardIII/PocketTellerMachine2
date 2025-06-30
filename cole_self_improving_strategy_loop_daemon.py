@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 import time
@@ -63,3 +64,6 @@ def strategy_improvement_loop():
 # === CLI Trigger ===
 if __name__ == "__main__":
     strategy_improvement_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: utils/logger.py ===
 # 📜 Logger – Safely logs PTM activity into system_log.json as a valid JSON list
 

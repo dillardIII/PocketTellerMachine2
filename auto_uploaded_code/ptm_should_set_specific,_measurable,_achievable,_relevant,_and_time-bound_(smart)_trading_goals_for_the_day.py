@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of how you might set SMART trading goals using Python. This code will not perform any real trading operations, but it's a good starting point for setting up your trading goals.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghostgate_ops.py ===
 # 🌐 GhostGate External Ops – External sensors, feeds, wallet syncs, and live triggers
 

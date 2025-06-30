@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To design a Python module that expands the PTM (Presumably a hypothetical company or could relate to the Path To Mastery) empire's self-evolving autonomy stack with innovative recursive strategies, we need to take into account the following components:
 
 1. **Recursive Learning and Decision Making**: Implement mechanisms for recursive learning and decision-making, allowing the system to improve over time.

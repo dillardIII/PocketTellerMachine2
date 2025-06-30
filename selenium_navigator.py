@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -17,3 +18,6 @@ def click_element_by_text(driver, text):
         print(f"[PTM Selenium] Clicked element with text: {text}")
     except Exception as e:
         print(f"[PTM Selenium] Error clicking: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

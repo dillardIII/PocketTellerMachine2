@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # ai_registry.py
 # Purpose: Registry of all AI tools, personas, modules, and APIs for PTM introspection & coordination
 

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presumably an empire-focused technology, but for the sake of this example, we'll refer to it as the "Powerful Technology Module") empire's self-evolving autonomy stack involves creating a system that can learn, adapt, and recursively improve itself over time. Here's an outline and basic structure for such a module:
 
 ### Module Name: `self_evolver`

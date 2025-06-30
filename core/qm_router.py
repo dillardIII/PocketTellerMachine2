@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # qm_router.py
 # Routes thoughts through the quantum AI matrix
 

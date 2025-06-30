@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_persona_dynamic_emotion_narrator.py
 
 import os
@@ -80,3 +81,6 @@ def persona_emotion_narrator_loop():
 
 if __name__ == "__main__":
     persona_emotion_narrator_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, to implement and test different trading strategies, we can use Python's pandas library for data manipulation and backtrader library for backtesting trading strategies. Here's a simple example of a moving average crossover strategy:
 
 ```python

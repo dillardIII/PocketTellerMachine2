@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bootstrapper.py ===
 # 🚀 PTM Bootstrapper – Initializes environment and launches self-rebuilder
 
@@ -12,8 +13,8 @@ def initialize_environment():
     # Create required folders
     os.makedirs("logs", exist_ok=True)
 
-    # Placeholder: Add other init tasks if needed (e.g., loading configs)
-
+    # Placeholder: Add other init tasks if needed (e.g., loading configs):
+:
     print("[BOOTSTRAP] ✅ Environment ready.")
 
 def launch_background_rebuilder():
@@ -35,3 +36,6 @@ def start():
 # === If run directly ===
 if __name__ == "__main__":
     start()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

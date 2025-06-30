@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code that uses pandas and yfinance libraries to implement two trading strategies: Moving Average Crossover and Relative Strength Index (RSI). 
 
 Please note that this is a very basic implementation and real-world trading strategies would be much more complex and would also consider many other factors.

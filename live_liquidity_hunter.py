@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: live_liquidity_hunter.py ===
 # 👻 LIVE LIQUIDITY HUNTER WITH GETRESERVES & NEW PAIR CHASING
 # Watches PairCreated logs, calls getReserves(), hunts optimal pools across ETH, BNB, MATIC, ARB.
@@ -135,3 +136,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

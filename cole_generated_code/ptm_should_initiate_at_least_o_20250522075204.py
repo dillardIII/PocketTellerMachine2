@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate a trade, you would typically use an API provided by your brokerage. Here is a simple example of how you might do this using Alpaca's API. This example will initiate a trade to buy 1 share of Apple stock.
 
 ```python

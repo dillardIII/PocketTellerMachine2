@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: market_scanner_core.py ===
 # 🌐 Market Scanner Core – Full ticker universe scan with AI selection & dispatch
 
@@ -22,7 +23,7 @@ class MarketScannerCore:
         selected = random.sample(self.tickers, 5)  # Normally you'd sort by AI logic or signal
 
         for symbol in selected:
-            strategy = random.choice([x[0] for x in favored]) if favored else "Iron Condor"
+            strategy = random.choice([x[0] for x in favored]) if favored else "Iron Condor":
             confidence = round(random.uniform(0.7, 0.97), 2)
             log_event(f"🧠 AI selected {symbol} with strategy: {strategy} | Confidence: {confidence}")
 

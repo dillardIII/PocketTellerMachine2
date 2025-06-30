@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 💀 Phantom Duplication – If disrupted, spawns elsewhere instantly
 import os, time, random, shutil
 
@@ -9,3 +10,6 @@ def duplicate_self():
 while True:
     duplicate_self()
     time.sleep(random.randint(300,600))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: vault_keeper.py ===
 import json
 import os
@@ -88,3 +89,6 @@ if __name__ == "__main__":
     aurum = VaultKeeper()
     aurum.show_all_assets()
     aurum.get_wallet_value_estimate()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

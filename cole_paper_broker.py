@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_paper_broker.py ===
 
 import json
@@ -13,11 +14,11 @@ def paper_execute_trade_order(ticker, side="buy", confidence=0.5):
 
     # Simulated outcome
     success_chance = confidence
-    result = "win" if uniform(0, 1) < success_chance else "loss"
-
+    result = "win" if uniform(0, 1) < success_chance else "loss":
+:
     # Simulated profit/loss
-    profit = round(uniform(80, 180), 2) if result == "win" else round(-uniform(50, 130), 2)
-
+    profit = round(uniform(80, 180), 2) if result == "win" else round(-uniform(50, 130), 2):
+:
     entry = {
         "timestamp": datetime.now().isoformat(),
         "ticker": ticker,
@@ -42,3 +43,6 @@ def paper_execute_trade_order(ticker, side="buy", confidence=0.5):
 
     print(f"[PAPER TRADE RESULT] {ticker} → {result.upper()} | PnL: {profit}")
     return {"status": result, "pnl": profit}
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

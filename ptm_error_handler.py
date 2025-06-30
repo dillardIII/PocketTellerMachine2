@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ptm_error_handler.py ===
 # 🛡️ PTM Error Handler – Detects crashes, restarts stuck processes, logs everything
 

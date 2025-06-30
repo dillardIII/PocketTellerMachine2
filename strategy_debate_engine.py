@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: strategy_debate_engine.py ===
 import os
 import json
@@ -19,7 +20,7 @@ def generate_opinion(bot_name, thread_data):
     logic_bank = {
         "buy aapl": [
             f"{bot_name}: AAPL is solid, but let's consider market conditions.",
-            f"{bot_name}: I'd only support this if volume confirms strength.",
+            f"{bot_name}: I'd only support this if volume confirms strength.",:
             f"{bot_name}: Looks decent, but I'd add an exit trigger."
         ],
         "macd": [
@@ -55,3 +56,6 @@ def run_strategy_debate(thread_file, save_path="static/audio/debate_recap.mp3"):
     save(audio, save_path)
     print(f"[DEBATE] Recap saved to {save_path}")
     return full_debate
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

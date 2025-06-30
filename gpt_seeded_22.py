@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a comprehensive utility for building and managing an empire in a strategic simulation game can be both entertaining and educational. Here, I'll outline a Python script called `EmpireManager`, which provides various utilities for managing the resources, military expansion, and diplomacy of your empire. This implementation is simplified for a text-based simulation but sets the groundwork for more complex systems.
 
 ```python
@@ -90,3 +91,6 @@ empire.show_status()
 - **Territory Expansion**: An element of chance and strategic military deployment determine expansion success.
 
 This basic script can be the foundation for a more detailed empire-building simulation, with potential additions like resource trade, detailed battle strategies, or more complex diplomatic relations.
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

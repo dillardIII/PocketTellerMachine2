@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: dropbox_api_routes.py ===
 from flask import Blueprint, jsonify, request
 import os
@@ -14,3 +15,6 @@ def get_team_dropbox(team_name):
     with open(dropbox_path, "r") as f:
         data = json.load(f)
     return jsonify(data)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

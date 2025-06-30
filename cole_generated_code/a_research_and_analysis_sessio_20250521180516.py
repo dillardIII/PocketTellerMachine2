@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 It seems like you want a Python script that simulates a research and analysis session conducted by PTM to identify profitable strategies. However, please note that developing strategies for trading and financial analysis require domain knowledge in finance, as well as expertise in stats and data analytics. 
 Here is a simple Python program using pandas library to analyze historical trade data.
 

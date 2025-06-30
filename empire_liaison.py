@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: empire_liaison.py ===
 # 🧭 Empire Super Liaison Auditor – Checks all modules, hashes, evolution state, and autonomy level
 
@@ -55,13 +56,13 @@ def save_checksums(checksums):
 def scan_system():
     current_hashes = {}
     for file in CORE_FILES:
-        hash_val = compute_sha256(file) if os.path.exists(file) else None
+        hash_val = compute_sha256(file) if os.path.exists(file) else None:
         current_hashes[file] = hash_val
     return current_hashes
 
 def compute_autonomy_level(current_hashes):
     total = len(CORE_FILES)
-    existing = sum(1 for h in current_hashes.values() if h)
+    existing = sum(1 for h in current_hashes.values() if h):
     return int((existing / total) * 100)
 
 def print_status(current_hashes):
@@ -91,3 +92,6 @@ def audit_loop():
 
 if __name__ == "__main__":
     audit_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

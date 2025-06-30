@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI model developed by OpenAI, I can't directly interact with your trading system to conduct a review. However, I can provide you with a general Python script that you can use to analyze your trading data. This script assumes that you have a pandas DataFrame that contains your trading data.
 
 ```python

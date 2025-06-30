@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python module to contribute to the PTM (Presumably Technologically-Minded) empire's self-evolving autonomy stack involves designing a system that leverages machine learning, recursive strategies, and possibly some form of meta-learning or continuous learning framework. Below is an outline and a basic implementation to illustrate how you might design such a module.
 
 ### Design Concepts

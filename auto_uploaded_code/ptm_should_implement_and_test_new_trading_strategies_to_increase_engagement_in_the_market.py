@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide you with a simple Python code for a basic trading strategy. However, please note that this is a very simplified version of what a real trading strategy might look like. 
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: strategy_selector.py ===
 
 import os
@@ -34,3 +35,6 @@ def choose_best_strategy():
     except Exception as e:
         print("[Strategy Selector] Error choosing strategy:", e)
         return random.choice(strategies)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

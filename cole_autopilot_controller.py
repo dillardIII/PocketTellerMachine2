@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import json
 from datetime import datetime
 import os
@@ -25,3 +26,6 @@ def scheduled_autopilot_run():
     config = build_run_config()
     cole_auto_run(config)
     log_autopilot_run(config)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

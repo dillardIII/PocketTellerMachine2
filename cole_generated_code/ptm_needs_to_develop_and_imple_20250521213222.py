@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a basic structure for a simple trading strategy using Python. However, please note that this is a simplified example and real trading strategies involve complex algorithms, risk management, and are based on extensive financial knowledge.
 
 We will use pandas for data manipulation and matplotlib for data visualization. We will also use yfinance to download the historical stock data from Yahoo finance.

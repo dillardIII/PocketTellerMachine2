@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # brain_core.py
 
 from .deep_think import run_deep_thought

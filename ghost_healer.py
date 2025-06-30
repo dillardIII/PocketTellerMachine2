@@ -1,7 +1,8 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_healer.py ===
 
-# 🛠️ Ghost Healer – Deploys repair logic if ghost tags are serious (corrupted, mutation)
-
+# 🛠️ Ghost Healer – Deploys repair logic if ghost tags are serious (corrupted, mutation):
+:
 import time
 from ghost_filter import GhostFilter
 from ghostforge_core import ghostforge_write
@@ -19,3 +20,6 @@ def heal_ghosts():
 # Optional standalone execution
 if __name__ == "__main__":
     heal_ghosts()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

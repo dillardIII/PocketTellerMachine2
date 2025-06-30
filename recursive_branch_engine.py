@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Recursive Branch Engine
 Generates, scores, and stores forks in logic paths to explore alternate PTM behavior outcomes.
@@ -45,3 +46,6 @@ def mark_branch_outcome(index, result, reward_type="objective_completed"):
         save_branches(branches)
         return True
     return False
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

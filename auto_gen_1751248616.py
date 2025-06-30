@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 ```python
 # ghost_trade_fusion.py
 
@@ -64,3 +65,6 @@ if __name__ == "__main__":
     trade_decision = TradeDecision(base_risk=0.6, base_size=500, account_balance=5000)
     trade_decision.execute_trade()
 ```
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: dimensional_gateway.py ===
 # 🌌 Dimensional Gateway – Alternate outcome engine for trade what-ifs and future routes
 

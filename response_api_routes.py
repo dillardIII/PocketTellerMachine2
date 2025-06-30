@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: response_api_routes.py ===
 from flask import Blueprint, jsonify
 import os
@@ -24,3 +25,6 @@ def packet_responses():
                 "timestamp": data.get("timestamp")
             })
     return jsonify(responses)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

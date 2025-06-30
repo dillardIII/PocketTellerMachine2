@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of a trading strategy in Python using the pandas library. This strategy is called the Moving Average Crossover Strategy. It's a very basic strategy often used for illustrative purposes.
 
 ```python

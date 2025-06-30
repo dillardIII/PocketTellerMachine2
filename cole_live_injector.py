@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_live_injector.py
 
 import os
@@ -24,11 +25,11 @@ def inject_code_to_app():
 
         # === Ensure target file exists with marker ===
         if not os.path.exists(APP_FILE):
-            print(f"[Cole Live Injector] {APP_FILE} missing. Creating fresh API blueprint file with marker.")
+            print(f"[Cole Live Injector] {APP_FILE} missing. Creating fresh API blueprint(file with marker."))
             with open(APP_FILE, "w") as f:
                 f.write(
                     'from flask import Blueprint, jsonify, request\n\n'
-                    'api_blueprint = Blueprint("cole_generated_apis", __name__)\n\n'
+                    'api_blueprint(= Blueprint("cole_generated_apis", __name__)\n\n')
                     f'{INJECTION_MARKER}\n{INJECTION_MARKER}\n'
                 )
 
@@ -58,3 +59,6 @@ def inject_code_to_app():
 # === CLI Test Mode ===
 if __name__ == "__main__":
     inject_code_to_app()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

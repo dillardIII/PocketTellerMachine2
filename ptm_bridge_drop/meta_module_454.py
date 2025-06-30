@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (which I will assume stands for "Pattern-to-Matter") empire's self-evolving autonomy stack requires a focus on several key areas: recursive improvements, adaptability, scalability, and efficient learning algorithms. Below are the conceptual foundations and sample code snippets illustrating how such a module might be constructed, leveraging recursive strategies.
 
 ### Conceptual Framework

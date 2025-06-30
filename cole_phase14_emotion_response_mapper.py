@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase14_emotion_response_mapper.py
 
 import json
@@ -42,3 +43,6 @@ def generate_emotion_response_prefix():
 if __name__ == "__main__":
     print("Dominant Emotion:", get_dominant_emotion())
     print("Use this tone:", generate_emotion_response_prefix())
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

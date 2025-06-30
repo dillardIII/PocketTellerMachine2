@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI model developed by OpenAI, I'm unable to directly conduct a market analysis due to my inability to connect to real-time data or external databases. However, I can certainly help you write a Python script that uses an API to fetch market data and analyze it. Here's an example using the Alpha Vantage API:
 
 ```python

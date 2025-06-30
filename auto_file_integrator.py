@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_file_integrator.py ===
 # 🤖 Auto File Integrator – Monitors ptm_bridge and executes or installs incoming files
 
@@ -41,3 +42,6 @@ def watch_bridge():
 
 if __name__ == "__main__":
     watch_bridge()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

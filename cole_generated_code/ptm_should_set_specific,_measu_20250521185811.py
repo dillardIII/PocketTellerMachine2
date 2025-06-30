@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code that can be used to track the progress of PTM's wins and losses. This code uses a dictionary to store the goals and the current status.
 
 ```python

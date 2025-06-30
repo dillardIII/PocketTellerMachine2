@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # bridge_ops_core.py
 # Central logic hub for bot communication and deployment across platforms
 
@@ -43,5 +44,8 @@ if __name__ == "__main__":
 
     # Dispatch test
     print(core.dispatch("AutoFixer", "set_language", "python"))
-    broken_code = "def hi(\n print('hi')"
+    broken_code = "def hi():
     print(core.dispatch("AutoFixer", "diagnose", broken_code))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

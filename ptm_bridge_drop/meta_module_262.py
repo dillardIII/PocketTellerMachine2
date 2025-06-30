@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module to expand the PTM (Presumed Task Management) empire’s self-evolving autonomy stack involves creating a framework that supports continuous learning, adaptation, and self-optimization. This module would leverage advanced AI techniques, recursive strategies, and modular architecture to enhance autonomous decision-making and efficiency. Let's walk through how you can approach designing this innovative system.
 
 ### Key Features:

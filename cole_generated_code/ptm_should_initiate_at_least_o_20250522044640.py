@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate a trade and gain insights on market trends, you would need to interact with a trading API. Here is an example of how you might do this using the Alpaca API, a popular choice for algorithmic trading. This code will initiate a trade (buying 1 share of Apple stock) and then print the current price of Apple stock to give some insight into the market trend.
 
 Please note that you need to replace `APCA-API-KEY-ID` and `APCA-API-SECRET-KEY` with your actual API keys.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate a trade and gain insights on market trends, we would need to interact with a trading API. Here's an example of how you might do this using the Alpaca API, which is a popular choice for algorithmic trading. 
 
 Before you proceed, make sure you have installed the Alpaca API by using pip install alpaca-trade-api.

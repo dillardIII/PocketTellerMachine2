@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presumably "Plantain Tech and Manufacturing" or any similar entity) empire's self-evolving autonomy stack involves creating a system that can adapt, learn, and improve itself over time using recursive strategies. Below is a high-level design outline and a sample implementation:
 
 ### High-Level Design

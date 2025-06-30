@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase14_persona_interaction_manager.py
 
 import random
@@ -29,7 +30,7 @@ DIALOGUE_PATTERNS = [
 # === Generate Interaction Line ===
 def generate_persona_interaction():
     speaker = get_active_persona_name()
-    listener = random.choice([p for p in PERSONAS if p != speaker])
+    listener = random.choice([p for p in PERSONAS if p != speaker]):
     emotion = generate_emotion_response_prefix()
     pattern = random.choice(DIALOGUE_PATTERNS)
     dialogue = pattern.format(speaker=speaker, listener=listener, emotion=emotion)
@@ -39,3 +40,6 @@ def generate_persona_interaction():
 if __name__ == "__main__":
     for _ in range(3):
         print(generate_persona_interaction())
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and opportunities, we need to use historical market data. Python has several libraries that can help us with this task. Here is a simple example of how you can analyze market trends using Python. 
 
 In this example, we will use the `pandas` library to handle data, `yfinance` to download the stock price data, and `matplotlib` to plot data. We will calculate the moving average of the stock price to identify the trend.

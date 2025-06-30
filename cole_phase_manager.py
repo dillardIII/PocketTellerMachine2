@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_phase_manager.py ===
 
 import os
@@ -101,3 +102,6 @@ def phase_task_filter(tasks, current_phase):
 if __name__ == "__main__":
     phase = auto_detect_phase()
     print("Detected Phase:", phase)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

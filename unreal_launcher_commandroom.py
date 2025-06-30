@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: unreal_launcher_commandroom.py ===
 
 # 🎮 Unreal Uplink – Launches the 3D Command Room with AI Avatars
@@ -31,3 +32,6 @@ def launch_command_room():
 
 if __name__ == "__main__":
     launch_command_room()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

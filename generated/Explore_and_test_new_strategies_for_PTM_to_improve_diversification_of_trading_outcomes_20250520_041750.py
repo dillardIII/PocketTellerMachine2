@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # Explore and test new strategies for PTM to improve diversification of trading outcomes
 # 
 

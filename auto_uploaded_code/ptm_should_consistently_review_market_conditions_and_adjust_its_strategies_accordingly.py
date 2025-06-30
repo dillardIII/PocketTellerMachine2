@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Since you are asking for Python code, I'll assume that PTM is a trading bot implemented in Python. However, the task is quite broad, as 'reviewing market conditions' can entail many things, depending on which market data we should review, which trading strategies we should adjust, and how we should adjust them. Here's a basic outline of how it might work:
 
 Remember, to connect with most trading platforms and gain access to real-time market data, we would typically use their provided API. Depending on the platform you are using, you'll need to find the specific API documentation to understand how to connect and use it properly.

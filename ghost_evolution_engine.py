@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_evolution_engine.py ===
 
 # 🧠 Ghost Evolution Engine – Creates and deploys new files automatically
@@ -18,3 +19,6 @@ def evolve():
 
 if __name__ == "__main__":
     evolve()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

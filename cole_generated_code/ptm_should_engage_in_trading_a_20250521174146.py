@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Your request seems to seek some Python code that would trigger trading activities if no wins or losses were reported for a trading system on a specific day. However, without knowing more specifics about the trading system, I can only give a general overview using pseudo code. Please note this isn't a complete code and will need a lot of adjustment to fit into an existing system.
 
 A possibility could be something like:

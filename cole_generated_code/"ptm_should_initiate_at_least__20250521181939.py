@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 The Python code below assumes that PTM (Portfolio Trade Management) is a Python class conducting trades by calling the 'initiate_trade' method. The evaluation of the performance is done by calling 'evaluate_performance' method.
 
 ```python

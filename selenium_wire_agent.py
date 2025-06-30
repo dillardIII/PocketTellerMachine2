@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # selenium_wire_agent.py
 
 from seleniumwire import webdriver
@@ -73,3 +74,6 @@ def run_selenium_recon(target="screeps"):
 
     finally:
         driver.quit()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

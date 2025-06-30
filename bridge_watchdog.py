@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_watchdog.py ===
 # 🛡️ Bridge Watchdog – Monitors the bridge for new files, triggers execution, and logs events
 
@@ -16,7 +17,7 @@ def start_watchdog():
         try:
             current_files = set([
                 f for f in os.listdir(INBOX_FOLDER)
-                if f.endswith(".py")
+                if f.endswith(".py"):
             ])
 
             new_files = current_files - seen_files

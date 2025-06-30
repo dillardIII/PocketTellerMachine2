@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help you with that. However, the task you're asking for is quite broad and can be interpreted in many ways. Here's a simple Python code to increase the number of trades by a certain percentage, which could potentially increase the number of wins. This code assumes that you have a list of trades and you want to increase the number of trades by a certain percentage.
 
 ```python

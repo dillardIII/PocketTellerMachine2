@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Assistant Handoff Router:
 Enables bots to pass tasks, data, or requests to one another.
@@ -34,7 +35,7 @@ def fetch_handoffs(receiver_name):
     with open(HANDOFF_FILE, "r") as f:
         queue = json.load(f)
 
-    tasks = [h for h in queue if h["to"] == receiver_name and h["status"] == "pending"]
+    tasks = [h for h in queue if h["to"] == receiver_name and h["status"] == "pending"]:
     return tasks
 
 def mark_handoff_complete(handoff):
@@ -47,3 +48,6 @@ def mark_handoff_complete(handoff):
 
     with open(HANDOFF_FILE, "w") as f:
         json.dump(queue, f, indent=4)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

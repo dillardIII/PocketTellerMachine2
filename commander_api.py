@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Commander API – Controls main interface commands between PTM and user
 
@@ -49,3 +50,6 @@ def get_status():
         "timestamp": now,
         "message": "Command center standing by. All systems nominal."
     })
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

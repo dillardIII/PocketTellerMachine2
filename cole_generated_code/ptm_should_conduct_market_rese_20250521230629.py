@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct market research, we can use APIs to fetch real-time data from the stock market. Here is a simple example of how to do this using the yfinance library in Python, which allows you to download stock data from Yahoo Finance.
 
 ```python

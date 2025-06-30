@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Below is a Python script file that implements a simple trading strategy. The strategy uses moving averages to generate buy and sell signals. This script assumes you are familiar with obtaining and handling stock price data, and it's intended to be expanded or integrated with your existing data acquisition methods.
 
 ```python

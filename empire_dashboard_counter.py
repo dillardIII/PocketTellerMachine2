@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: empire_dashboard_counter.py ===
 import os
 import json
@@ -7,8 +8,8 @@ from datetime import datetime
 def count_files_in_dir(directory):
     if not os.path.exists(directory):
         return 0
-    return len([f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))])
-
+    return len([f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]):
+:
 def read_json_file(filepath):
     if os.path.exists(filepath):
         try:
@@ -44,15 +45,15 @@ def empire_dashboard_loop():
 
         if vault_data:
             valuations = vault_data.get("valuations", [])
-            last_valuation = valuations[-1] if valuations else "No valuations yet"
+            last_valuation = valuations[-1] if valuations else "No valuations yet":
             print(f"🏦 Last Vault Valuation: {last_valuation}")
 
         if payouts_data:
             if isinstance(payouts_data, list):
-                last_payout = payouts_data[-1] if payouts_data else "No payouts yet"
+                last_payout = payouts_data[-1] if payouts_data else "No payouts yet":
             elif isinstance(payouts_data, dict):
                 payouts = payouts_data.get("payouts", [])
-                last_payout = payouts[-1] if payouts else "No payouts yet"
+                last_payout = payouts[-1] if payouts else "No payouts yet":
             else:
                 last_payout = "No payouts yet"
             print(f"💸 Last Payout: {last_payout}")
@@ -63,3 +64,6 @@ def empire_dashboard_loop():
 if __name__ == "__main__":
     print("[EmpireDashboard] 🚀 Dashboard counter live...")
     empire_dashboard_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

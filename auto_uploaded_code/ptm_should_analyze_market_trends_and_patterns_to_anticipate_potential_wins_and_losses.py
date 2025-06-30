@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python script to analyze market trends and patterns is a complex task and requires a deep understanding of both financial markets and machine learning. Here is a simple example of how you can start analyzing market trends using Python. In this example, we will use the pandas library to handle our data and the yfinance library to get the stock data. We will analyze the closing price of a stock.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here's a simple Python code that uses a moving average crossover strategy. This strategy is one of the most common systematic trading strategies that uses two moving averages, one short and one long. When the short moving average crosses above the long moving average, it means that recent prices are getting higher than older ones, which might be an indication of the beginning of an uptrend and a good point to buy. Conversely, when the short moving average crosses below the long moving average, it might be a good point to sell.
 
 ```python

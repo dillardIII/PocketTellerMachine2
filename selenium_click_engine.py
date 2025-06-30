@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: selenium_click_engine.py ===
 
 from selenium import webdriver
@@ -41,3 +42,6 @@ def type_into_field(driver, selector, text, by=By.CSS_SELECTOR):
 def close_browser(driver):
     driver.quit()
     print("[PTM Click Engine] Browser closed.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

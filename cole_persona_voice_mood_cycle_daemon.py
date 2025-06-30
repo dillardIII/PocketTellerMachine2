@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_persona_voice_mood_cycle_daemon.py
 
 import os

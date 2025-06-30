@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_command_handler.py ===
 
 import os
@@ -26,8 +27,8 @@ def now():
 # === Log Command Run ===
 def log_command_run(command, success, output, error=None):
     timestamp = datetime.utcnow().isoformat()
-    log_entry = f"[{timestamp}] CMD: {command}\nSTATUS: {'SUCCESS' if success else 'FAIL'}\n"
-
+    log_entry = f"[{timestamp}] CMD: {command}\nSTATUS: {'SUCCESS' if success else 'FAIL'}\n":
+:
     if output:
         log_entry += f"OUTPUT:\n{output.strip()}\n"
     if error:
@@ -38,8 +39,8 @@ def log_command_run(command, success, output, error=None):
     with open(COMMAND_LOG_FILE, "a") as f:
         f.write(log_entry)
 
-    print(f"[Command Runner] {'SUCCESS' if success else 'FAIL'} → {command}")
-
+    print(f"[Command Runner] {'SUCCESS' if success else 'FAIL'} → {command}"):
+:
 # === Log File Injection ===
 def log_injection(entry):
     if os.path.exists(INJECTION_LOG):
@@ -88,12 +89,12 @@ def run_file(file_path):
         )
 
         success = result.returncode == 0
-        log_command_run(file_path, success, result.stdout, result.stderr if not success else "")
+        log_command_run(file_path, success, result.stdout, result.stderr if not success else ""):
         log_execution({
             "timestamp": now(),
             "path": file_path,
             "output": result.stdout.strip(),
-            "error": result.stderr.strip() if not success else ""
+            "error": result.stderr.strip() if not success else "":
         })
     except subprocess.TimeoutExpired:
         log_command_run(file_path, False, "", "Execution timed out.")
@@ -158,3 +159,6 @@ def handle_injection_command(command_data):
 if __name__ == "__main__":
     print("[Command Runner] Manual test start")
     run_all_in_dir()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

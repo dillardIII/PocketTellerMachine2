@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a basic Python implementation for a risk assessment system:
 
 ```python

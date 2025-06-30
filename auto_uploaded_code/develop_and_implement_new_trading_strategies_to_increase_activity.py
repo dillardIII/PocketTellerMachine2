@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to implement a trading strategy, we can use Python's Pandas library to analyze and manipulate data. Here's a simple example of a moving average crossover strategy, which is a common algorithmic trading strategy.
 
 ```python

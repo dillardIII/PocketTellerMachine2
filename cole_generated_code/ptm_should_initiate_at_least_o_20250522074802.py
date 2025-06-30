@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code using `yfinance` library to initiate a trade. In this example, we will buy 1 share of Apple Inc. Please note that this is a simulated trade and won't actually execute because it requires a real trading API to connect with a brokerage.
 
 ```python

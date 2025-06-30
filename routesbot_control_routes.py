@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: routes/bot_control_routes.py ===
 
 # 🎮 Bot Control Routes – Flask routes to trigger PTM bots from the control panel UI
@@ -46,3 +47,6 @@ def run_full_sweep():
     output2 = run_python_module("ghostforge_repair_watcher")
     output3 = run_python_module("bots/ghostforge_autobuilder")
     return Response(output1 + "\n\n" + output2 + "\n\n" + output3, mimetype="text/plain")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

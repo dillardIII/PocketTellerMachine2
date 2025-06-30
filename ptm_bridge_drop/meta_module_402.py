@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module for expanding PTM empire's self-evolving autonomy stack involves leveraging recursive strategies at the core of its functionality. Here’s a conceptual overview and code outline of a module that implements innovative recursive strategies for decision-making and learning. The focus is on adaptability and self-optimization.
 
 ### Module Overview

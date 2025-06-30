@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghostforge_core.py ===
 import os
 import json
@@ -28,7 +29,7 @@ def evolve_strategy_prompt():
             dashboard = json.load(f)
             confidence = dashboard.get("emotion_state", {}).get("confidence", 50)
     # Determine style
-    style = "aggressive" if confidence > 65 else "balanced"
+    style = "aggressive" if confidence > 65 else "balanced":
     prompt = f"Write a {style} Python trading strategy."
     # Ensure prompt dir exists
     os.makedirs(PROMPT_DIR, exist_ok=True)
@@ -78,3 +79,6 @@ class GhostForge:
     def evolve_logic(self):
         print("[GhostForge] 🧬 Evolving bot logic...")
         # Placeholder for future AI logic mutation
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

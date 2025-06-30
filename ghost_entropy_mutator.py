@@ -1,35 +1,32 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_entropy_mutator.py ===
-# 👻 GHOST ENTROPY MUTATOR
-# Generates and mutates entropy pools for wallet key attempts.
+# 👻 Mutates entropy pools for private key generation experiments.
 
 import os
-import json
 import random
 import time
-from datetime import datetime
+from dotenv import load_dotenv
 
-CHAOS_FILE = "ghost_chaos.json"
-LOGBOOK_FILE = "vault_logbook.txt"
+load_dotenv()
+INFURA_KEY = os.getenv("INFURA_KEY")
+VAULT_ADDRESS = os.getenv("VAULT_ADDRESS")
 
-def log_action(message):
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    with open(LOGBOOK_FILE, "a") as f:
-        f.write(f"[{timestamp}] {message}\n")
+if not INFURA_KEY or not VAULT_ADDRESS:
+    print("[FATAL] Missing INFURA_KEY or VAULT_ADDRESS in .env!")
+    exit(1)
 
-def mutate_entropy():
-    entropy = []
-    for _ in range(1000):
-        num = random.getrandbits(256)
-        entropy.append(hex(num))
-    with open(CHAOS_FILE, "w") as f:
-        json.dump(entropy, f, indent=4)
-    log_action("[ghost_entropy_mutator] 🔥 Generated new entropy pool.")
+print(f"[entropy_mutator] 👻 Loaded .env with INFURA_KEY={INFURA_KEY[:6]}... VAULT={VAULT_ADDRESS[:8]}...")
 
-def main():
-    print("[ghost_entropy_mutator] 👻 Running entropy mutations...")
-    while True:
-        mutate_entropy()
-        time.sleep(15)
+entropy_pool = []
 
-if __name__ == "__main__":
-    main()
+def generate_entropy():
+    e = random.getrandbits(256)
+    entropy_pool.append(e)
+    print(f"[entropy_mutator] 🔥 Generated entropy: {hex(e)[:10]}...")
+
+while True:
+    generate_entropy()
+    time.sleep(2)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

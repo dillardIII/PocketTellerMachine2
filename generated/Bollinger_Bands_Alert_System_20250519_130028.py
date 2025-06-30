@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # Bollinger Bands Alert System
 # Autopilot fallback mode
 

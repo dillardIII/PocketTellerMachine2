@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: repair_team_commander.py ===
 # Routes REPO task requests to internal PTM repair handlers
 
@@ -50,3 +51,6 @@ def rescan_for_errors():
     # Simulated error scan
     print("[RepairCommander] 🧪 Scanning for code errors...")
     return "No critical errors found"
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module to enhance the PTM (Presumably a hypothetical or proprietary entity, as no specific context is available) empire's self-evolving autonomy stack with innovative recursive strategies can be approached from a modular software engineering perspective. This entails incorporating machine learning, evolutionary algorithms, and recursive function designs to facilitate adaptability and self-improvement over time.
 
 Let's outline a high-level design for this module:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presumably "Prototype Technology Modules" or some similar entity) empire's self-evolving autonomy stack with innovative recursive strategies requires several key components. This new module will need to incorporate elements of artificial intelligence, optimization algorithms, and self-improvement techniques. 
 
 ### Objective

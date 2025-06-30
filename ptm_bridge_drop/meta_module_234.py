@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module to expand the PTM (Presumably Physical, Tactical, and Mental) empire's self-evolving autonomy stack involves creating a system that can support self-improvement and adaptation over time. This system should be able to assess its current performance, identify areas for improvement, and recursively enhance its strategies and capabilities.
 
 Here's a blueprint for such a module with key elements and a high-level approach:

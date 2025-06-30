@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 👻 GhostUI Tactician – autonomously generates new dashboard UI modules
 # Each cycle, it writes new HTML/JS snippets for trading dashboards.
 
@@ -48,3 +49,6 @@ def tactician_loop():
 
 if __name__ == "__main__":
     tactician_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

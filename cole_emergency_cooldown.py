@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 from datetime import datetime, timedelta
@@ -23,7 +24,7 @@ def save_escalation_state(state):
     with open(ESCALATION_STATE_FILE, "w") as f:
         json.dump(state, f, indent=2)
 
-# === Check if Cooldown Recovery Passed ===
+# === Check if Cooldown Recovery Passed ===:
 def recover_if_cooldown_passed():
     state = load_escalation_state()
 
@@ -34,7 +35,7 @@ def recover_if_cooldown_passed():
     if not health:
         return False
 
-    # Check if system is healthy (no overload indicators)
+    # Check if system is healthy (no overload indicators):
     if health.get("cpu_percent", 0) < 70 and health.get("memory_percent", 0) < 70:
         state["healthy_streak"] = state.get("healthy_streak", 0) + 1
     else:
@@ -67,3 +68,6 @@ if __name__ == "__main__":
         print("Cooldown recovery executed successfully.")
     else:
         print("Cooldown not met. No recovery performed.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

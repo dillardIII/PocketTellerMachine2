@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # ghost_emotion_mapper.py
 # Interprets emotional tone from AI assistant interactions, data flow, and user input.
 
@@ -39,3 +40,6 @@ def log_emotion(emotion, source="system"):
 
     with open("memory/emotion_log.json", "w") as f:
         json.dump(history[-300:], f, indent=2)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: vault_profit_trigger.py ===
 
 # 📃 Vault Profit Trigger – Monitors the vault and sends real ETH payouts
@@ -27,6 +28,6 @@ def vault_profit_loop():
         
         time.sleep(PROFIT_CHECK_INTERVAL)
 
-# === Start loop if run directly ===
+# === Start loop if run directly ===:
 if __name__ == '__main__':
     vault_profit_loop()

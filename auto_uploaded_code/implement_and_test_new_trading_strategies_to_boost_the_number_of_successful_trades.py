@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Implementing and testing new trading strategies involve financial data analysis and machine learning models for prediction of market trends. Below is an example of a simple moving average crossover strategy, implemented with help of the pandas data analysis library and data available in csv format. 
 
 Before running the Python script, ensure that you have installed necessary Python packages like pandas and matplotlib.

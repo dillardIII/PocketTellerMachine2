@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new Python utility for strategy or empire games can enhance the gameplay experience by automating mundane tasks, providing strategic advice, or improving in-game decision-making processes. Let's create a Python utility called "Empire Advisor" that provides strategic recommendations based on a player’s current assets and objectives. This utility will utilize simple heuristics to suggest optimal actions for resource allocation, expansion, and defense.
 
 ```python
@@ -62,8 +63,8 @@ if __name__ == "__main__":
 ### Features of "Empire Advisor":
 
 1. **Resource Evaluation**:
-   - Determines if the empire has enough resources for expansion, military reinforcement, or research.
-
+   - Determines if the empire has enough resources for expansion, military reinforcement, or research.:
+:
 2. **Target Territory Selection**:
    - For expansion, the utility selects a random adjacent territory, simulating a simplified strategic decision.
 
@@ -71,6 +72,9 @@ if __name__ == "__main__":
    - Provides advice on whether the empire's military strength is sufficient relative to the number of territories owned.
 
 4. **Research Investment**:
-   - Suggests investing in research if resources exceed a certain threshold.
-
+   - Suggests investing in research if resources exceed a certain threshold.:
+:
 This utility provides a basic framework to issue strategic advice based on predefined heuristic rules. To improve this advisor, you could integrate more complex decision algorithms or data-driven strategies by analyzing past gameplay statistics or utilizing machine learning for adaptive advice.
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

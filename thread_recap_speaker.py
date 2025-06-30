@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: thread_recap_speaker.py ===
 import os
 import json
@@ -29,3 +30,6 @@ def speak_thread_summary(thread_file, voice="default", save_path="static/audio/t
     save(audio, save_path)
     print(f"[THREAD_RECAP] Recap generated and saved to {save_path}")
     return save_path
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

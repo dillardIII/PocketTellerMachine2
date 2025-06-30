@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module to expand the PTM (Presumably "Post-Transformer Model") empire's self-evolving autonomy stack with innovative recursive strategies is a complex task. This module needs to incorporate modern concepts from artificial intelligence, autonomous systems, recursion, and perhaps self-improving algorithms. Here’s a structured approach to designing such a module, considering Python's capabilities and trends in AI:
 
 ### Module Overview

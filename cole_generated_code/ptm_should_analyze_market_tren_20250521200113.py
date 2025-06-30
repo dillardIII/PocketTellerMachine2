@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and adjust strategies, we need historical market data. Python has several libraries like pandas, numpy for data analysis and manipulation, and libraries like yfinance to fetch historical market data. We can use machine learning to predict future trends.
 
 Here is a simple example of how you can fetch market data and analyze it. Note that this is a very basic example and real-world trading systems are much more complex and involve more factors.

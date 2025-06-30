@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module to expand the PTM (Presumably a Pathfinding and Task Management) empire's self-evolving autonomy stack requires addressing several complex components. Here, we'll outline a conceptual approach with some code examples that could be part of such a module. The focus will be on innovative recursive strategies combined with machine learning and adaptive algorithms.
 
 ### Conceptual Overview

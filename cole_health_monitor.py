@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_health_monitor.py ===
 
 import os
@@ -74,3 +75,6 @@ def check_health():
         malik_report(f"[Health Alert] Thresholds breached:\n- " + "\n- ".join(health["issues"]))
 
     return health
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

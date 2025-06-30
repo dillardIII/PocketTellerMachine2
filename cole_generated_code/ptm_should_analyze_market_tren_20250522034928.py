@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and patterns, we can use Python's pandas library for data manipulation and analysis, and yfinance to download historical market data from Yahoo! finance. We can also use matplotlib for data visualization and statsmodels for statistical modeling.
 
 Here is a simple Python code that downloads historical data for a specific stock, calculates its moving averages, and plots the data:

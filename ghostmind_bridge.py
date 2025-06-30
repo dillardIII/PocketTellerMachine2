@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # ghostmind_bridge.py
 # Purpose: External AI coordination and system sync layer (Claude, Replit, GitHub, Render)
 

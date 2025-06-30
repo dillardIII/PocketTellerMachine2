@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_voice_avatar_sync_daemon.py
 
 import os
@@ -57,7 +58,7 @@ def sync_voices_and_avatars():
         avatar = avatars.get(persona, None)
         synced[persona] = {
             "voice": voice,
-            "avatar": avatar if avatar else "No Avatar Assigned"
+            "avatar": avatar if avatar else "No Avatar Assigned":
         }
 
     with open("data/persona_voice_avatar_sync.json", "w") as f:

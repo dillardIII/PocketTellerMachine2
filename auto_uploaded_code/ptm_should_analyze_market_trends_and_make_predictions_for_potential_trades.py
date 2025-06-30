@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and make predictions for potential trades, we can use machine learning algorithms. Here is a simple example of how you can use Python to analyze market trends using the pandas, numpy, and sklearn libraries. We'll use a linear regression model for this example.
 
 Please note that this is a very basic example and real-world trading algorithms are much more complex and take many more factors into account.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of a Python code for a trading strategy using Moving Average Crossover. Please note that this is a simplified version and real-world trading strategies can be much more complex and require more sophisticated models.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and implement trading strategies, we need to have a clear understanding of the market data. Here is a simple Python code using pandas library to analyze the market data and implement a simple moving average crossover strategy.
 
 ```python

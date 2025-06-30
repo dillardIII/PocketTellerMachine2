@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: multi_spectral_market_simulator.py ===
 # 🚀 MultiSpectral Quantum Market Simulator
 # 🧬 Feeds self-evolving "spells" to trading stack, harvesting alpha from multi-frequency signals.
@@ -35,3 +36,6 @@ def main_loop():
 if __name__ == "__main__":
     print("[MultiSpectralSim] 🚀 Launching MultiSpectral Quantum Market Simulator...")
     main_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

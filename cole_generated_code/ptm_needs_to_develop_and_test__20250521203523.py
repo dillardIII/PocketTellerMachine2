@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and test new trading strategies, we need to use historical data for backtesting. Here's a simple Python code using pandas and yfinance to download historical data and calculate simple moving averages as a trading strategy.
 
 ```python

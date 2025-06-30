@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python module to expand the self-evolving autonomy stack for the PTM (Presumably a fictional empire or project) involves implementing strategies that allow the system to learn and improve over time without explicit human intervention. This can be achieved by integrating recursive strategies with advanced machine learning techniques. Below is a conceptual blueprint of such a module, incorporating key elements like modularity, scalability, and adaptiveness.
 
 ### Python Module Blueprint: `ptm_autonomy_stack`

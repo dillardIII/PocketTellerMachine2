@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Improving risk management strategies involves various factors such as setting stop losses, diversifying the portfolio, and using only a certain percentage of capital per trade. Here is a simple Python code that could help in managing risk:
 
 ```python

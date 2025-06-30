@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 It seems like you're asking for a Python code to simulate a trade for PTM. However, please note that actual trading involves real money and should be done through secure, authorized platforms. Python is not typically used for executing real trades, but it can be used for backtesting trading strategies, analyzing financial data, or simulating trading scenarios.
 
 Here's a simple example of a trading simulation in Python:

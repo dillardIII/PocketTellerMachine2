@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_sniper_arbitrage_hunter.py ===
 # 👻 GHOST SNIPER & ARBITRAGE HUNTER
 # Finds micro pools by getReserves(), detects cross-pool price gaps, executes live trades, evolves DNA on profits.
@@ -106,7 +107,7 @@ def arbitrage_scan_and_execute(providers):
     price_1 = random.uniform(1900, 2100)
     price_2 = random.uniform(1900, 2100)
     if abs(price_1 - price_2) > 10:
-        chosen = c1 if price_1 < price_2 else c2
+        chosen = c1 if price_1 < price_2 else c2:
         w3 = providers[chosen]
         try:
             tx = {
@@ -161,3 +162,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

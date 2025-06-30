@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_voice_listener.py
 
 import speech_recognition as sr
@@ -18,7 +19,7 @@ def start_voice_listener():
                 recognizer.adjust_for_ambient_noise(source)
                 audio = recognizer.listen(source, timeout=5, phrase_time_limit=15)
 
-            # Recognize speech using Google Speech (or use Whisper if installed)
+            # Recognize speech using Google Speech (or use Whisper if installed):
             command_text = recognizer.recognize_google(audio)
             command_text = command_text.strip()
 
@@ -43,3 +44,6 @@ def start_voice_listener():
 # === CLI Direct Run ===
 if __name__ == "__main__":
     start_voice_listener()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

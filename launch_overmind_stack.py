@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: launch_overmind_stack.py ===
 import threading
 import time
@@ -17,3 +18,6 @@ try:
         time.sleep(45)
 except KeyboardInterrupt:
     print("[LaunchOvermind] ⛔ Shutdown requested.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

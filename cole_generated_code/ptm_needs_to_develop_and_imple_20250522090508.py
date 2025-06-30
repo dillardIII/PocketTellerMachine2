@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple example of a Python code that implements two basic trading strategies: Mean Reversion and Momentum. This is a simple simulation and doesn't involve real money. For real trading strategies, you would need to use APIs provided by your brokerage, which can be complex and risky.
 
 ```python

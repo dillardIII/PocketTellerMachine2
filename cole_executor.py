@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 import random
@@ -12,7 +13,7 @@ def run_trade_with_strategy(strategy, params={}):
 
 # === Analyze the Trade Result ===
 def analyze_trade_result(result):
-    grade = "A" if result > 100 else "B" if result > 50 else "C" if result > 0 else "F"
+    grade = "A" if result > 100 else "B" if result > 50 else "C" if result > 0 else "F":
     analysis = {
         "grade": grade,
         "symbol": "AAPL",  # Temporary placeholder
@@ -46,3 +47,6 @@ def log_trade_outcome(trade_entry):
         json.dump(logs[-500:], f, indent=2)
 
     print(f"[Cole Executor] Outcome logged to {file_path}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

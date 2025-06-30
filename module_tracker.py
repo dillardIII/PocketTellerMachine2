@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Module Tracker:
 Tracks which modules have been executed by Cole or other PTM bots.
@@ -51,8 +52,8 @@ def update_executed_hash(module_name, file_hash):
 # === CHECK FOR REPEAT ===
 def is_duplicate_execution(module_name, file_hash):
     """
-    Checks if the given file hash already exists in the log.
-    Returns True if identical module hash already executed.
+    Checks if the given file hash already exists in the log.:
+    Returns True if identical module hash already executed.:
     """
     hashes = get_executed_hashes()
     existing = hashes.get(module_name, {}).get("hash")
@@ -67,3 +68,6 @@ if __name__ == "__main__":
         print("Duplicate?", is_dupe)
         if not is_dupe:
             update_executed_hash("test_script.py", h)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

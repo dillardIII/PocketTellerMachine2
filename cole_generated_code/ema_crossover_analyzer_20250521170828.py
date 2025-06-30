@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze the EMA (Exponential Moving Average) crossover, we need to calculate EMA for two different periods and then detect when the EMA of the shorter period crosses the EMA of the longer period. This usually indicates a potential price trend change and is considered a buy or sell signal by traders. 
 
 A simple Python script using Pandas library to calculate EMA and to find the crossover points is as follows:

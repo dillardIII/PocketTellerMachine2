@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to analyze market trends and adjust strategies accordingly, we would need to use some kind of machine learning or data analysis library. Here is a simple example of how you might start to set up such a system using the pandas library for data analysis and the yfinance library to get stock market data.
 
 ```python

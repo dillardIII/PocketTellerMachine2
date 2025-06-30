@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_persona_speech_simulator.py
 
 import random
@@ -28,3 +29,6 @@ def run_simulation(cycles=5):
 
 if __name__ == "__main__":
     run_simulation()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

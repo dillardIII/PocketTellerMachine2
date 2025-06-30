@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 One way to mitigate inactive market days is by building an algorithm that will execute trades when certain conditions are met.
 
 The following Python code implements a simple trading algorithm that uses moving averages to decide when to buy or sell. It will only execute a trade if the market is active (i.e. the current price is not equal to the previous day's closing price).

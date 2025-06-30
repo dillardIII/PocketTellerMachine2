@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presumably Machine-related) empire’s self-evolving autonomy stack involves developing a framework that emphasizes recursive learning, adaptability, and self-improvement. This module will be equipped with advanced strategies for self-optimization, structural adaptability, and knowledge expansion. Below, I outline a conceptual design for such a module, including key components and strategies.
 
 ### Module Name: `self_evolver`

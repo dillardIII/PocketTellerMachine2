@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 from datetime import datetime
@@ -63,3 +64,6 @@ def backtest_signal_logic(stock, filters):
 # === CLI Test Mode ===
 if __name__ == "__main__":
     run_screener_backtest()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

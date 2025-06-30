@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here's a Python script for a simple trading strategy that uses a combination of the Relative Strength Index (RSI) and the Moving Average Convergence Divergence (MACD) indicators to make buy and sell decisions. This strategy will generate buy signals when the RSI is below a certain threshold and the MACD line crosses above the signal line. It will generate sell signals when the RSI is above a certain threshold and the MACD line crosses below the signal line.
 
 ```python

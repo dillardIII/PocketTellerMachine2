@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python script to calculate Exponential Moving Average (EMA) and analyze its crossover. This script uses the `pandas` library to calculate EMA and `matplotlib` to plot the data.
 
 ```python

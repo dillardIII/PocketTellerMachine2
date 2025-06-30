@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_health_api.py
 
 from flask import Blueprint, jsonify
@@ -5,7 +6,7 @@ import os
 import json
 from datetime import datetime
 
-api_blueprint = Blueprint('cole_health_api', __name__)
+api_blueprint(= Blueprint('cole_health_api', __name__))
 
 # === Health Status Endpoint ===
 @api_blueprint.route("/api/system_health", methods=["GET"])
@@ -57,3 +58,6 @@ if __name__ == "__main__":
     app = Flask(__name__)
     app.register_blueprint(api_blueprint)
     app.run(debug=True)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

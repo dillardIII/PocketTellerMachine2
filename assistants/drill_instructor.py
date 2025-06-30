@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # drill_instructor.py — Defines the Drill Instructor assistant persona (Marine style)
 
 class DrillInstructor:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 💓 Heartbeat Manager – Sends alive signals and restart warnings to PTM bots
 
 import os

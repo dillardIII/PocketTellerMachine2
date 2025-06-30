@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: sweep_handler.py ===
 import os
 import time
@@ -8,7 +9,7 @@ class SweepHandler:
         self.strategy_dir = strategy_dir
 
     def route_inbox_strategies(self):
-        """Monitors ptm_inbox for .py files, routes them to strategy_dir if executed."""
+        """Monitors ptm_inbox for .py files, routes them to strategy_dir if executed.""":
         for filename in os.listdir(self.watch_dir):
             if filename.endswith(".py"):
                 src = os.path.join(self.watch_dir, filename)
@@ -34,6 +35,9 @@ def start_sweep_loop():
             with open("drop_trigger.txt") as f:
                 command = f.read().strip()
                 print(f"[SweepHandler] ▶️ Executing command: {command}")
-                # You could add actual command exec here if desired
+                # You could add actual command exec here if desired:
             os.remove("drop_trigger.txt")
         time.sleep(5)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

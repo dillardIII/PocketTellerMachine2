@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # adaptive_recon_launcher.py
 
 def launch_recon(target="screeps"):
@@ -37,3 +38,6 @@ def launch_recon(target="screeps"):
     # STEP 4: Hard fallback (future: PyAutoGUI, TagUI, MacroDroid relay)
     print("[GHOSTSHADE] All recon tools failed. No mission executed.")
     return None
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 RSI (Relative Strength Index) is a momentum oscillator that measures the speed and change of price movements. Here is a simple Python RSI strategy:
 
 ```python

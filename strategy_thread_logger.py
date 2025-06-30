@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: strategy_thread_logger.py ===
 """
 Strategy Thread Logger:
@@ -19,7 +20,7 @@ def get_thread_log_path(file_name):
 
 def init_thread(file_name, originator, notes=""):
     """
-    Starts a new thread log for a strategy if one doesn't exist.
+    Starts a new thread log for a strategy if one doesn't exist.:
     """
     path = get_thread_log_path(file_name)
     if os.path.exists(path):
@@ -79,3 +80,6 @@ def dump_all_threads():
             with open(os.path.join(THREAD_LOG_DIR, fname), "r") as f:
                 all_logs[fname] = json.load(f)
     return all_logs
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

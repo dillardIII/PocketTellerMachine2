@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate a trade and gain insights on market behavior, we need to connect to a trading API, execute a trade, and then analyze the market data. Here's a simple example using the Alpaca API, a commission-free trading platform. 
 
 Please note that you need to replace `APCA-API-KEY-ID` and `APCA-API-SECRET-KEY` with your own API keys.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: neural_uplink_muses.py ===
 
 # 🧠 Muse S Uplink – Placeholder to sync EEG brainwave states into PTM
@@ -24,3 +25,6 @@ def route_to_strategy(brain_state):
 if __name__ == "__main__":
     brain = read_muse_s()
     print(f"[NeuralUplink] Routing strategy: {route_to_strategy(brain)}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

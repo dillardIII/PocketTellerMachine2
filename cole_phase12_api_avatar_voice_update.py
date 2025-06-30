@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase12_api_avatar_voice_update.py
 
 from flask import Blueprint, request, jsonify
@@ -5,7 +6,7 @@ import os
 import json
 from datetime import datetime
 
-# === Blueprint for Avatar & Voice Management ===
+# === Blueprint(for Avatar & Voice Management ===)
 avatar_voice_api = Blueprint('avatar_voice_api', __name__)
 
 # === Paths ===
@@ -49,3 +50,6 @@ def update_persona_avatar_voice():
         return jsonify({"status": "success", "message": f"{persona_name} avatar & voice updated."})
     except Exception as e:
         return jsonify({"status": "error", "message": str(e)}), 500
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

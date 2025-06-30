@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_gateway_api.py ===
 
 import os
@@ -63,3 +64,6 @@ def handle_gateway_command():
         return jsonify({"status": "ok", "task": task})
 
     return jsonify({"status": "error", "message": "Unknown command type"}), 400
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

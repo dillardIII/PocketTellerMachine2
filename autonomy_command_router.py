@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # autonomy_command_router.py – Routes external AI or assistant commands into PTM actions
 
 from flask import Blueprint, request, jsonify
@@ -31,3 +32,6 @@ def handle_command():
 
     except Exception as e:
         return jsonify({"error": f"Command execution failed: {str(e)}"}), 500
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_market_trader.py ===
 import random
 import time
@@ -11,7 +12,7 @@ def fake_fetch_market_data():
     }
 
 def strategy_check(data):
-    # Sample simple strategy: buy if RSI < 30, sell if RSI > 70
+    # Sample simple strategy: buy if RSI < 30, sell if RSI > 70:
     if data["rsi"] < 30:
         return "BUY"
     elif data["rsi"] > 70:
@@ -40,3 +41,6 @@ def market_trader_loop():
 if __name__ == "__main__":
     print("[MarketTrader] 🚀 Autonomous market trader started.")
     market_trader_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

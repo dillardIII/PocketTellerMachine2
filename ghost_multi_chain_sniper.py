@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_multi_chain_sniper.py ===
 # 🕷️ GhostMultiChainSniper – multi-chain liquidity sniping bot for PTM empire
 
@@ -48,3 +49,6 @@ def sniper_loop():
 
 if __name__ == "__main__":
     sniper_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

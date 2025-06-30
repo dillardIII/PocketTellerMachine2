@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code that uses a hypothetical PTM (Python Trading Module) to analyze market conditions and set trading parameters. Please note that this is a simplified example and real-world trading algorithms are much more complex and require robust error handling and security measures.
 
 ```python

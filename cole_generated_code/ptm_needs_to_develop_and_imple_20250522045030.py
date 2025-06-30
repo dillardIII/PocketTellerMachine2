@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of a trading strategy implemented in Python using the pandas library for data manipulation and analysis. This strategy is based on moving averages, a common indicator in technical analysis.
 
 Please note that this is a very basic strategy and should not be used for actual trading without further refinement and testing. Also, this code assumes that you have historical trading data in a pandas DataFrame called `df` with 'Close' prices.

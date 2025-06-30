@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To simulate trading activities, we can create a simple Python script that generates random wins and losses for PTM. Here's a simple example:
 
 ```python

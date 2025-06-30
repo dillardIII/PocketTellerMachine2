@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code using pandas and yfinance to analyze market trends and patterns. This code will fetch historical data for a specific stock, calculate its moving averages, and plot the data. 
 
 Please note that this is a very basic example and real trading algorithms are much more complex and take into account many more factors.

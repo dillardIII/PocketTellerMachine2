@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To diversify a portfolio, we can invest in different types of assets such as stocks, bonds, and commodities from various sectors. Here is a simple Python code that simulates diversification using random weights for each asset in the portfolio.
 
 ```python

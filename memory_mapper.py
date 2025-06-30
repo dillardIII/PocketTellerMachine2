@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: memory_mapper.py ===
 # 🧠 Memory Mapper – Tracks, tags, and snapshots runtime memory for AI modules and bots
 

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: autobuild_inbox_monitor.py ===
 import os
 import json
@@ -18,3 +19,6 @@ def check_autobuild_inbox(team_name):
             # Archive or delete packet
             os.remove(file_path)
             print(f"[INBOX MONITOR] Task complete. Removed: {filename}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

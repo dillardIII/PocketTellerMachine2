@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: secure_asset_loader.py ===
 # 🔐 Secure Asset Loader – loads & decrypts protected AI modules into memory only.
 
@@ -24,3 +25,6 @@ def decrypt_asset():
 if __name__ == "__main__":
     data = decrypt_asset()
     print("[SecureLoader] ✅ Data ready:", data)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

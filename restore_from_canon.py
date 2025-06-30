@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: restore_from_canon.py ===
 
 # ♻️ Canon Restore – Rewrites any corrupted files using the last locked canon copy
@@ -31,3 +32,6 @@ def restore():
 
 if __name__ == "__main__":
     restore()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

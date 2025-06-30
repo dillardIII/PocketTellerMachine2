@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of a Python trading bot using the Moving Average Crossover strategy. This strategy is based on the principle that if the short-term moving average of a stock price crosses above its long-term moving average, it's a buy signal, and if it crosses below, it's a sell signal.
 
 Please note that this is a simplified example and doesn't include important aspects like error handling, logging, or sophisticated order management. Also, it assumes that you have an account with Alpaca (a commission-free API-first stock brokerage) and you have set your API key and secret key as environment variables.

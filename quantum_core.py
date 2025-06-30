@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: quantum_core.py ===
 # 🧬 Quantum Core – Simulated multi-AI quantum brain (syncs logic, memory, intuition)
 
@@ -50,3 +51,6 @@ def update_quantum_core(agent_name, insight, sync_flags=None):
 
 def get_quantum_status():
     return load_quantum_core()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

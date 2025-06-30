@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase14_avatar_mood_overlay.py
 
 import os
@@ -32,3 +33,6 @@ def display_avatar_with_overlay(base_avatar="avatar_base.png"):
 # === Test Display Call ===
 if __name__ == "__main__":
     print(display_avatar_with_overlay())
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

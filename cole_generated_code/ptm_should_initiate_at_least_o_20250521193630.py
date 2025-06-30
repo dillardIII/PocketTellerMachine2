@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code snippet that simulates a trading system. This code doesn't connect to a real trading platform, but it can be a starting point for your real trading bot.
 
 ```python

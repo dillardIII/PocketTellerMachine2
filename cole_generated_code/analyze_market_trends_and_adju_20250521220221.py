@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 This task requires a significant amount of data and a complex algorithm to analyze market trends and adjust trading parameters. Here is a simplified example of how you might start to approach this task using Python. 
 
 In this example, we will use the pandas library to analyze data and the yfinance library to get stock market data. We will analyze the trend of a specific stock and adjust a simple trading parameter (buy if the stock has been going up for the past 5 days).

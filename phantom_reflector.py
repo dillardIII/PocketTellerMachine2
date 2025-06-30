@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: phantom_reflector.py ===
 # 🕯️ Phantom Reflector – Self-challenger AI to question and evolve PTM's behavior
 

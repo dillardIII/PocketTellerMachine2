@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: phase_status_monitor.py ===
 # 🧩 Phase Status Monitor – Watches system health, boot phase, and module status
 

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: gpt_advisor.py ===
 
 import openai
@@ -50,3 +51,6 @@ def ask_gpt(prompt, model="gpt-4"):
     except Exception as e:
         log_gpt_response("error", str(e))
         return f"[GPT ERROR] {str(e)}"
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

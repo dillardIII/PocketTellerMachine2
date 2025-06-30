@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market conditions and identify potential trading opportunities, we can use a variety of indicators such as Moving Averages, Relative Strength Index (RSI), etc. Here is a simple example of how we can do this using Python, pandas and yfinance library to fetch the stock data.
 
 Please note that this is a very basic example and real-world trading systems are much more complex and take into account many more factors.

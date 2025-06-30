@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # system_status_reporter.py
 # Purpose: Log hourly health snapshot of PTM system to keep a full audit trail
 
@@ -55,7 +56,7 @@ class SystemStatusReporter:
             if os.path.exists(TRADE_LOG):
                 with open(TRADE_LOG, "r") as f:
                     trades = json.load(f)
-                self.status["open_trades"] = len([t for t in trades if t.get("status") != "closed"])
+                self.status["open_trades"] = len([t for t in trades if t.get("status") != "closed"]):
         except Exception as e:
             self.status["errors"].append(f"Trade log read error: {e}")
 

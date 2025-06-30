@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_health_checker.py ===
 # 🔍 Bridge Health Checker – Scans bridge folder integrity and prints status.
 
@@ -22,3 +23,6 @@ def check_bridge_health():
     for line in status:
         print(f"[Bridge Health] {line}")
     print("[Bridge Health Check] -------------------------\n")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

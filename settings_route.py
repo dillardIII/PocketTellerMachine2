@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: settings_route.py ===
 
 from flask import Blueprint, request, jsonify
@@ -31,3 +32,6 @@ def save_settings():
         json.dump(new_settings, f, indent=2)
 
     return jsonify({"status": "saved"})
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

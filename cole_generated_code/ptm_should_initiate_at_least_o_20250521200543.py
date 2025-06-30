@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code that simulates a trading algorithm. This code will initiate at least one trade and calculate the potential wins or losses based on the random price movement.
 
 Please note that this is a very basic example and real-world trading algorithms are much more complex and involve sophisticated strategies and risk management techniques.

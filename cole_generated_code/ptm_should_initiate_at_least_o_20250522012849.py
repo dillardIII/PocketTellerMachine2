@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a simple example of how you might initiate a trade using a Python library like `ccxt` which is used for cryptocurrency trading. Please note that this is a basic example and real-world trading involves more considerations like error handling, trade management, and more.
 
 ```python

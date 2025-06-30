@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 from datetime import datetime
@@ -46,3 +47,6 @@ def run_trigger_rules_check():
 # === CLI Test ===
 if __name__ == "__main__":
     run_trigger_rules_check()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

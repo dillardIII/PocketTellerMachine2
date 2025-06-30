@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # vps_initializer.py – Initializes and boots up the VPS environment
 
 import subprocess
@@ -19,3 +20,6 @@ def start_vps():
     except Exception as e:
         print(f"[VPS Init] ❌ Exception during VPS start: {e}")
         return False
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a simple example of a Python code for a trading strategy. This strategy will be based on simple moving average (SMA). The idea is to buy when the short-term SMA crosses above the long-term SMA and sell when the short-term SMA crosses below the long-term SMA.
 
 Please note that this is a simplified example and real-world trading strategies are much more complex and take into account many other factors.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ai_harmony_configurator.py ===
 # 🎛️ AI Harmony Configurator – Defines and manages collaborative dynamics between AI agents/personas in PTM
 
@@ -82,3 +83,6 @@ class AIHarmonyConfigurator:
                 if persona in self.config.get(partner, {}).get("preferred_partners", []):
                     pairs.append((persona, partner))
         return pairs
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

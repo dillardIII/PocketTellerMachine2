@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module to expand the PTM (Presumably, a fictional or hypothetical entity) empire’s self-evolving autonomy stack involves a blend of advanced AI concepts with robust, recursive strategies. Below is an outline for this new Python module, embedding innovative recursive strategies into the stack to enhance self-evolving capabilities.
 
 ### Module Name: `PTM_EvoStack`

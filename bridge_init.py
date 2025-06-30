@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_init.py ===
 # 🧱 Bridge Init – Ensures folder structure for bridge system exists
 
@@ -18,3 +19,6 @@ def ensure_bridge_folders():
             print(f"[Bridge Init] ✅ Ensured folder exists: {folder}")
         except Exception as e:
             print(f"[Bridge Init] ❌ Could not create {folder}: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

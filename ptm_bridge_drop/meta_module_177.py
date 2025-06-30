@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python module for an autonomous system such as the PTM (Presumably a hypothetical autonomous entity or robotic system) empire with self-evolving capabilities involves a blend of machine learning, sensor fusion, decision-making algorithms, and more. I'll outline a conceptual design and suggest implementation strategies, focusing specifically on recursive and self-evolving components.
 
 ### Module Design Overview

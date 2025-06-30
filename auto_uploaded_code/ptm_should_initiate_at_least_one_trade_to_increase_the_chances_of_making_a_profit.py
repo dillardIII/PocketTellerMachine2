@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code to simulate a trading bot. This bot will initiate at least one trade when the current price is lower than the average price, which increases the chances of making a profit when the price goes up.
 
 ```python

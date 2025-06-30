@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: gpt_outbound/file_creator.py ===
 # ✍️ File Creator – GPT bots save files in outbound for drop agent
 

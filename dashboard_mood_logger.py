@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from flask import Blueprint, request, jsonify
 import os
 import json
@@ -83,3 +84,6 @@ def log_mood_entry_alt():
     except Exception as e:
         print(f"[Mood Logger] Error logging mood entry: {e}")
         return jsonify({"status": "error", "message": str(e)}), 500
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

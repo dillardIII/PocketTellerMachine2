@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and set up alerts for potential trading opportunities, we can use the pandas library for data analysis and manipulation, yfinance to download historical market data from Yahoo finance, and smtplib for setting up email alerts. Here is a simple example of how you could do this:
 
 ```python

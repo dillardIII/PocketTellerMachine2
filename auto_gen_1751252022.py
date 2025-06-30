@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 ```python
 # dark_liquidity_watcher.py
 
@@ -13,7 +14,7 @@ class MockMarketDataFeed:
     """Mock class to simulate market data feed."""
     
     @staticmethod
-    def get_order_book() -> dict:
+    def get_order_book():> dict:
         # Simulating a market order book with potential dark liquidity walls
         order_book = {
             'bids': [
@@ -38,7 +39,7 @@ class LiquidityWallWatcher:
         self.threshold = threshold
         self.market_data_feed = MockMarketDataFeed()
 
-    def analyze_order_book(self, order_book: dict) -> List[str]:
+    def analyze_order_book():> List[str]:
         suspicious_activities = []
         for side in ['bids', 'asks']:
             for order in order_book.get(side, []):
@@ -47,14 +48,14 @@ class LiquidityWallWatcher:
                     suspicious_activities.append(activity)
         return suspicious_activities
                 
-    def log_suspicious_activities(self, suspicious_activities: List[str]) -> None:
+    def log_suspicious_activities():> None:
         if suspicious_activities:
             for activity in suspicious_activities:
                 logging.info(activity)
         else:
             logging.info("No suspicious activity detected in this cycle.")
 
-    def watch(self, interval: float = 5.0) -> None:
+    def watch():> None:
         while True:
             order_book = self.market_data_feed.get_order_book()
             suspicious_activities = self.analyze_order_book(order_book)
@@ -65,3 +66,7 @@ if __name__ == "__main__":
     watcher = LiquidityWallWatcher(threshold=100.0)
     watcher.watch(interval=10.0)
 ```
+
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

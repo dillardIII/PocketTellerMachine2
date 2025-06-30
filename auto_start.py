@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_start.py ===
 # 🚀 FULL EMPIRE STACK AUTO-STARTER
 # 🧬 Includes quantum auto-scale, idle mutation, autogenesis, template mutator,
@@ -89,3 +90,6 @@ launch_full_empire()
 while True:
     print("[AutoStart] ❤️ Empire heartbeat. Systems evolving, voice + console + spells online.")
     time.sleep(60)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

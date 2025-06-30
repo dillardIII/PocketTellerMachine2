@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: replit_bot_installer.py ===
 # 🤖 Replit Bot Installer – Monitors bridge folder and installs files into PTM.
 
@@ -28,3 +29,6 @@ def install_files():
 
 if __name__ == "__main__":
     install_files()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to analyze market trends and adjust trading parameters, we need to use some sort of machine learning or statistical model. Here is a simple example of how you might use a linear regression model to analyze market trends and adjust trading parameters. 
 
 This example assumes that you have a dataset with historical market data, and that you're using the 'pandas' library to handle your data and 'sklearn' to create the linear regression model.

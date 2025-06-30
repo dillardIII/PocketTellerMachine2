@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: shark_clean_bridge.py ===
 """
 Interfaces with MacroDroid or task launcher to control Shark Clean routines.
@@ -33,3 +34,6 @@ def trigger_shark_clean(routine="standard_clean"):
 
 if __name__ == "__main__":
     trigger_shark_clean("standard_clean")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

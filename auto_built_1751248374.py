@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 ```python
 # ghost_ai.py
 
@@ -52,3 +53,7 @@ if __name__ == "__main__":
         print(f"Spawned Ghost ID: {ghost.id}")
         print(ghost.speak())
 ```
+
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

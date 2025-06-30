@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a reinforcement learning (RL) trading script for the PTM empire involves developing a system that can autonomously learn to trade financial instruments with the goal of maximizing profit. Below is a high-level outline of what such a script might look like. Note that actually implementing and deploying such a system requires expertise in machine learning, programming, and finance, and it involves proper risk management and ethical considerations.
 
 ### Prerequisites
@@ -97,3 +98,6 @@ if __name__ == '__main__':
 ### Final Notes
 
 Building a successful RL trading script is a complex, iterative process requiring continuous monitoring and adjustments. This script serves as a foundational framework, which should be tailored and extended to meet the specific requirements and constraints of the PTM empire's trading operations.
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

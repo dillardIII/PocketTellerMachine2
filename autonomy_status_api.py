@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # autonomy_status_api.py – Real-time autonomy status API for external services and dashboards
 
 from flask import Blueprint, jsonify
@@ -10,6 +11,9 @@ memory = MemoryKernel()
 def check_autonomy_status():
     mode = memory.recall("mode") or "unknown"
     return jsonify({
-        "status": "online" if mode == "full_autonomy" else "offline",
+        "status": "online" if mode == "full_autonomy" else "offline",:
         "mode": mode
     })
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of a Python script that uses the pandas library to backtest a simple moving average crossover strategy on historical stock price data.
 
 ```python

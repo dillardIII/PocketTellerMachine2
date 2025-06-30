@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: module_status_panel.py ===
 # 📊 Module Status Panel – Displays health, uptime, and status of all core PTM modules
 
@@ -29,7 +30,7 @@ def display_module_status():
         active = set(get_active_modules())
 
         for module in MODULES:
-            status = "🟢 Online" if module in active else "🔴 Offline"
+            status = "🟢 Online" if module in active else "🔴 Offline":
             table.add_row(module, status)
 
         console.clear()
@@ -39,3 +40,6 @@ def display_module_status():
 
 if __name__ == "__main__":
     display_module_status()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code to implement a basic trading strategy using moving averages. This strategy is not guaranteed to generate wins, but it is a common starting point for developing more complex strategies. 
 
 This code assumes that you have historical price data in a pandas DataFrame called `df` with 'Close' prices. It calculates the short-term (50 days) and long-term (200 days) moving averages, and generates 'Buy' signals when the short-term average crosses above the long-term average, and 'Sell' signals when it crosses below.

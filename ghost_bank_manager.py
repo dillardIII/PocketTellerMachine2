@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_bank_manager.py ===
 # 💰 GhostBankManager – watches wallet balances across chains
 
@@ -28,3 +29,6 @@ def bank_loop():
 
 if __name__ == "__main__":
     bank_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

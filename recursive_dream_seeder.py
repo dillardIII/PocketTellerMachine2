@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🌙 Recursive Dream Seeder – plans new module ideas, seeds new goals
 
 import time
@@ -27,3 +28,6 @@ def dream_loop():
 
 if __name__ == "__main__":
     dream_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

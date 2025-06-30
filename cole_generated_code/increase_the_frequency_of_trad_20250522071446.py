@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To increase the frequency of trades, we need to modify the trading algorithm. However, without knowing the specifics of the existing trading algorithm, it's difficult to provide a specific Python code. 
 
 Here's a simple hypothetical example of how you might increase the frequency of trades in a basic trading bot:

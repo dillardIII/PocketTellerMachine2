@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🔗 Integrates any new scripts into empire modules automatically
 import os
 import shutil
@@ -17,3 +18,6 @@ while True:
             shutil.move(src, dest)
             print(f"[Integrator] ✅ Integrated module: {f}")
     time.sleep(5)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

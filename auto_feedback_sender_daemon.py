@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # auto_feedback_sender_daemon.py
 
 import os
@@ -79,3 +80,6 @@ if __name__ == "__main__":
     # while True:
     #     print("[Daemon]: Auto Feedback Sender Daemon running... (simulated)")
     #     time.sleep(900)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

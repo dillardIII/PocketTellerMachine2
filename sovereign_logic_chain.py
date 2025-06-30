@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Sovereign Logic Chain
 Core processor for PTM's self-directing AI logic.
@@ -53,3 +54,6 @@ def run_logic_chain(previous_result, context, ethics):
         "ethics": ethics
     }, decision)
     return decision
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

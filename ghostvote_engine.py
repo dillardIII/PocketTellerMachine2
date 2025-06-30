@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghostvote_engine.py ===
 # 👻 GhostVote Engine – Persona voting system for democratic or weighted decisions
 

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import time
 import json
@@ -38,13 +39,13 @@ def should_add_strategy():
         return True
 
     last_20 = logs[-20:]
-    losses = [entry for entry in last_20 if entry["result"].get("outcome") == "loss"]
+    losses = [entry for entry in last_20 if entry["result"].get("outcome") == "loss"]:
     win_rate = 1 - (len(losses) / len(last_20))
 
     print(f"[Researcher] Win Rate Check: {win_rate*100:.1f}%")
 
-    return win_rate < 0.55  # Trigger if win rate drops below 55%
-
+    return win_rate < 0.55  # Trigger if win rate drops below 55%:
+:
 def log_task(task, filename, result):
     os.makedirs("data", exist_ok=True)
     entry = {
@@ -66,3 +67,6 @@ def log_task(task, filename, result):
         json.dump(log, f, indent=2)
 
     print("[Researcher] Task completed and logged.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

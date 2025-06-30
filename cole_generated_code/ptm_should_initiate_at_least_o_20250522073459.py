@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, to initiate a trade, you would need to use an API provided by your broker. Here is an example of how you might do this using the Alpaca API, which is a popular API for trading stocks:
 
 ```python

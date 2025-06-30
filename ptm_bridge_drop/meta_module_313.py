@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To design a Python module that expands the PTM empire's self-evolving autonomy stack with innovative recursive strategies, we can incorporate concepts from machine learning, recursive algorithms, and self-adaptive systems. We'll focus on creating a framework that facilitates the self-evolution of tasks and learning models using recursive strategies, ensuring that the system can improve and adapt over time. Here's an outline of the module, which I'll refer to as `self_evolving_stack`.
 
 ### Module: `self_evolving_stack`

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a creative Python utility that simulates a simple resource management system for an empire-building game. This utility can be expanded upon or integrated into a larger game.
 
 ```python
@@ -90,3 +91,6 @@ if __name__ == "__main__":
 - **Simulation**: Runs a simple turn-based simulation where the empire gathers resources and randomly constructs buildings.
 
 Feel free to modify, expand, or integrate this utility into a larger game system!
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

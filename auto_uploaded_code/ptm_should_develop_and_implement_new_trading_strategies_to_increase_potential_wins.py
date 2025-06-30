@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As a language model AI developed by OpenAI, I can provide you with a basic example of a Python code that simulates a simple trading strategy. However, please note that this is a very simplified version and real-world trading involves many more factors and complexities. This code is for educational purposes only and should not be used for real trading without proper knowledge and understanding.
 
 ```python

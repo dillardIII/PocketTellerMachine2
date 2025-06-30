@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a simple example of how you might analyze market trends and patterns using Python. For this example, I'll use the pandas library to handle data, yfinance to download stock data, and matplotlib to plot data.
 
 Please note that this is a very basic example and real-world trading algorithms are much more complex and consider many more factors. Also, remember that trading stocks always comes with risks.

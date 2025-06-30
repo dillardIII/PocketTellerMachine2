@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module to expand the PTM (Presumably Part-Time Millionaires, or any named entity) empire's self-evolving autonomy stack requires a clear understanding of recursive strategies, autonomy in computational systems, and an innovative approach to making the stack self-improving. Below is a high-level design, incorporating recursive strategies and self-optimization techniques.
 
 ### Module Name

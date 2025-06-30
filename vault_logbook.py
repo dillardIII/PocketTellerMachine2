@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: vault_logbook.py ===
 # 📜 Vault Logbook Interface – Fetches logs from vault_logbook.txt
 
@@ -12,3 +13,6 @@ if __name__ == "__main__":
     logs = get_logs()
     for line in logs:
         print(line.strip())
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

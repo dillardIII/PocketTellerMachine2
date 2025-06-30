@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # ghost_executor.py
 # Core listener for executing commands sent to the autonomous AI system.
 
@@ -33,3 +34,6 @@ def listen_and_execute():
 
 if __name__ == "__main__":
     listen_and_execute()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

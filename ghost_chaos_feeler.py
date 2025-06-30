@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_chaos_feeler.py ===
 # 👻 Ghost Chaos Feeler – MacGyver AI
 # Uses chaotic hardware timing & entropy to decide next mutations.
@@ -49,7 +50,7 @@ def decide_next_mutations(signal_strength):
     modules = ["VaultViewer", "GhostFilter", "GhostTrader", "GhostGamer", "AutoFarmer", "EntropyHunter"]
     weighted = []
     for mod in modules:
-        if random.random() < (signal_strength % 1):  # fractional chaos guides probability
+        if random.random() < (signal_strength % 1):  # fractional chaos guides probability:
             weighted.append(mod)
     if not weighted:
         weighted.append(random.choice(modules))
@@ -89,3 +90,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

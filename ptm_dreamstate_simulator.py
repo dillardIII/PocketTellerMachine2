@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ptm_dreamstate_simulator.py ===
 
 # 🌌 DreamState Simulator – PTM imagines trades, scenarios, failures, wins before they occur
@@ -22,3 +23,6 @@ def run_dream():
 if __name__ == "__main__":
     for _ in range(3):
         run_dream()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To increase market monitoring, we can use Python libraries such as yfinance to fetch real-time market data. Here's a simple example of how you can do it. This script will monitor the market for a particular stock (in this case, Apple Inc.) and print the current trading price every 5 seconds.
 
 ```python

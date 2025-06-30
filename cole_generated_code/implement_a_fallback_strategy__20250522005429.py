@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help with that. However, I need to know what the fallback strategy should be. For instance, should it return a default value, raise an exception, or perform some other action? 
 
 Assuming we want to return a default value, here's a simple example of how you might implement this in Python:

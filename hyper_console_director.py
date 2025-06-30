@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: hyper_console_director.py ===
 # 🧙 Hyper Console Director – type micro commands to control the empire in real time
 
@@ -25,3 +26,6 @@ def console_loop():
 
 if __name__ == "__main__":
     console_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

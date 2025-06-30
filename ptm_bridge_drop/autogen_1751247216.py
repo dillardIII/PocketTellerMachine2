@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Below is a Python trading strategy focusing on a simple moving average crossover with some additional conditions to enhance its logic. This strategy is primarily designed for educational purposes and may need further refinement for real-life application:
 
 ```python

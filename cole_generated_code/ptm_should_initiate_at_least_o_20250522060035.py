@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is an example of Python code that could be used to initiate a trade using the Alpaca API, which is a popular API for stock trading. This is a simple example and doesn't include any logic for deciding when to buy or sell, it just executes a single trade for demonstration purposes.
 
 ```python

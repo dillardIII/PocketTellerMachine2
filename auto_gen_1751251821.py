@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 ```python
 # ghost_personality.py
 
@@ -37,3 +38,7 @@ if __name__ == "__main__":
     new_mood = ghost.update_mood()
     print(f"{ghost.name} now feels {new_mood}.")
 ```
+
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

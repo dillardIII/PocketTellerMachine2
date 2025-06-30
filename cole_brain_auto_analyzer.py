@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from auto_analyze_trades_from_memory import auto_analyze_trades_from_memory
 from datetime import datetime
 
@@ -8,3 +9,6 @@ def trigger_ai_brain_analysis():
 # Example direct trigger
 if __name__ == "__main__":
     trigger_ai_brain_analysis()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

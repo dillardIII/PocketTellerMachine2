@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: dashboard.py ===
 from flask import Flask, render_template_string
 import json, threading
@@ -23,3 +24,6 @@ def run_dash():
     app.run(host="0.0.0.0", port=5000)
 
 threading.Thread(target=run_dash, daemon=True).start()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

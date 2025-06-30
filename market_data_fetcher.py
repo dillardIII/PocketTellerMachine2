@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # market_data_fetcher.py – Grabs live market prices
 
 import random
@@ -14,3 +15,6 @@ def fetch_market_data(symbol):
         "price": simulated_price,
         "timestamp": "2025-05-31T00:00:00Z"
     }
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

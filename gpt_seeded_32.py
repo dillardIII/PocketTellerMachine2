@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new strategy or empire utility in Python can be quite engaging. One idea is to create a resource management tool for a hypothetical strategy game. This utility will help players optimize their empire's resource allocation to maximize productivity and efficiency. We'll focus on key resources like food, gold, and labor, and incorporate a simple algorithm to recommend optimal allocation.
 
 Below is a Python script for such a utility:
@@ -72,3 +73,6 @@ if __name__ == "__main__":
 - You could extend this utility to accommodate other resources or constraints, introduce more sophisticated algorithms (such as linear programming), or integrate it into a larger game framework.
 
 This script offers a simple, expandable utility for managing resources effectively within a strategy or empire game context, and serves as a foundation for further development and customization.
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghostseed_uploader.py ===
 # 🌱 GhostSeed – Sends compressed PTM DNA to other nodes or servers
 

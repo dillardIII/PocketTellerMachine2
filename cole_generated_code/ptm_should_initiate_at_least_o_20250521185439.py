@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code using Alpaca API to initiate a trade. Please replace the placeholders with your actual API keys and desired stock symbol.
 
 ```python

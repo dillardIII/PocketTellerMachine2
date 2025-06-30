@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: unreal_installer_bot.py ===
 # 🎮 Scans for UE Launcher and installs or repairs it silently
 
@@ -13,7 +14,7 @@ def is_unreal_installed():
     if system == "Windows":
         ue_path = "C:\\Program Files\\Epic Games\\Launcher\\Portal\\Binaries\\Win64\\EpicGamesLauncher.exe"
         return os.path.exists(ue_path), ue_path
-    elif system == "Darwin":  # macOS
+    elif system == "Darwin":  # macOS:
         ue_path = "/Applications/Epic Games Launcher.app"
         return os.path.exists(ue_path), ue_path
     elif system == "Linux":
@@ -54,3 +55,6 @@ def run_check_and_repair():
 
 if __name__ == "__main__":
     run_check_and_repair()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

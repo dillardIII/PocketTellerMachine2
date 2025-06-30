@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_persona_avatar_loader_daemon.py
 
 import os
@@ -44,8 +45,8 @@ def save_avatar_config(config):
 
 # === Scan Avatars ===
 def scan_avatars():
-    return [f for f in os.listdir(AVATAR_DIRECTORY) if f.lower().endswith(('.png', '.jpg', '.jpeg', '.gif'))]
-
+    return [f for f in os.listdir(AVATAR_DIRECTORY) if f.lower().endswith(('.png', '.jpg', '.jpeg', '.gif'))]:
+:
 # === Update Avatar Config ===
 def update_avatar_config():
     avatars = scan_avatars()

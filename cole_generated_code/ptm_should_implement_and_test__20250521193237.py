@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To implement and test new trading strategies, we can create a simple backtesting framework using Python. Here's a simple example:
 
 ```python

@@ -1,7 +1,8 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 GhostBot Scheduler – Runs both:
 1. Autonomous trade cycles every 15 minutes
-2. Dormant strategy modules every 5 minutes (if not already run)
+2. Dormant strategy modules every 5 minutes (if not already run):
 Logs execution hash, time, file size, and duration.
 """
 
@@ -62,7 +63,7 @@ def run_dormant_strategies():
         log_event(BOT_NAME, f"⚠️ No strategy folder found at {STRATEGY_FOLDER}", "warn")
         return
 
-    files = [f for f in os.listdir(STRATEGY_FOLDER) if f.endswith(".py")]
+    files = [f for f in os.listdir(STRATEGY_FOLDER) if f.endswith(".py")]:
     if not files:
         log_event(BOT_NAME, "🛌 No dormant strategy modules to execute.", "neutral")
         return
@@ -86,7 +87,7 @@ def run_dormant_strategies():
 
             run_func = next(
                 (getattr(module, f) for f in dir(module)
-                 if callable(getattr(module, f)) and f.startswith("run_")),
+                 if callable(getattr(module, f)) and f.startswith("run_")),:
                 None
             )
 

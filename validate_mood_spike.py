@@ -1,5 +1,6 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: validate_mood_spike.py ===
-# This script checks if the mood.spike.json file is valid JSON.
+# This script checks if the mood.spike.json file is valid JSON.:
 # It helps prevent BridgeBot crashes from bad formatting.
 
 import json
@@ -10,3 +11,6 @@ try:
     print("✅ mood_spike.json is valid.")
 except Exception as e:
     print("❌ JSON error:", e)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

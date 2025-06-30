@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import time
 import json
@@ -65,3 +66,6 @@ def watch_and_backtest():
 # === CLI Trigger ===
 if __name__ == "__main__":
     watch_and_backtest()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

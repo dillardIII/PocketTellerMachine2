@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code for a Mean Reversion trading strategy. This strategy assumes that the price of a stock will revert to its mean or average price over time. If the stock price is below the mean, it's a good time to buy. If it's above the mean, it's a good time to sell.
 
 ```python

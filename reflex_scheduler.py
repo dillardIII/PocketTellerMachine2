@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: reflex_scheduler.py ===
 
 # ⏰ Reflex Scheduler – Triggers feedback loop every 10 minutes
@@ -10,3 +11,6 @@ def reflex_loop(interval=600):  # 600 sec = 10 minutes
     while True:
         monitor_and_adapt()
         time.sleep(interval)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

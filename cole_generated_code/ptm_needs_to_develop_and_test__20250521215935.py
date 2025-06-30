@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide you with a simple Python code that simulates a basic trading strategy. However, please note that this is a very simplified version and real trading strategies involve complex algorithms, risk management and are based on deep financial knowledge.
 
 This Python code uses a simple moving average crossover strategy. When the short-term average is above the long-term average, it indicates a buy signal, and when the short-term average is below the long-term average, it indicates a sell signal.

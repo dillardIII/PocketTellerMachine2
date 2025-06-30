@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Implementing a trading strategy using Python involves using a library like pandas for data manipulation and backtrader for backtesting the strategy. Below is a simple implementation of a Moving Average Crossover strategy. This strategy is one of the most commonly used strategies in trading. It involves two moving averages, one short and one long. When the short moving average crosses above the long moving average, it's a signal to buy. Conversely, when the short moving average crosses below the long moving average, it's a signal to sell.
 
 ```python

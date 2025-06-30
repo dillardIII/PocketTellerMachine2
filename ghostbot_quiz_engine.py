@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # ghostbot_quiz_engine.py
 # Purpose: Quiz engine for GhostBot education module
 # Generates multiple-choice quizzes, scores results, tracks grades and XP

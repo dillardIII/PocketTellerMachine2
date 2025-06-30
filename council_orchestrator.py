@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: council_orchestrator.py ===
 # 🧠 Council Orchestrator – Manages debates, votes, and resolutions among assistant personas
 

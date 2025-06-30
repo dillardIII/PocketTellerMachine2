@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 RSI (Relative Strength Index) is a popular technical indicator used in trading to identify overbought or oversold conditions in the market. Here is a simple Python code to generate a basic RSI strategy:
 
 ```python

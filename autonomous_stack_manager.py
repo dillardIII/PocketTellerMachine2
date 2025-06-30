@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: autonomous_stack_manager.py ===
 # 🛠 Autonomous Stack Manager – Ensures empire modules always exist and self-heal
 
@@ -22,3 +23,6 @@ while True:
     check_and_repair()
     print("[StackManager] ✅ Stack integrity verified.")
     time.sleep(120)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

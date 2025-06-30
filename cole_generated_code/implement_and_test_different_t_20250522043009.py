@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To implement and test different trading strategies, we can use the `backtrader` library in Python. This library allows us to backtest trading strategies, analyze the results, and optimize the strategies. 
 
 Here's a simple example of how you can implement and test a moving average crossover strategy:

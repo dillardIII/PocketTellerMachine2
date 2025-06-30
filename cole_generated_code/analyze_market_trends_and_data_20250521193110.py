@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and data to identify potential profitable trades involves complex algorithms and data analysis. It requires historical data, real-time data, and various libraries to perform the analysis. Here is a simple example of how you could analyze historical stock data using Python, pandas, and yfinance library.
 
 ```python

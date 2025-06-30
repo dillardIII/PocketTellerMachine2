@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presumably "Progressive Transport Machine") empire's self-evolving autonomy stack requires a deep integration of recursive strategies and machine learning principles. Here's a conceptual overview of how this module could be structured:
 
 ### Module Overview

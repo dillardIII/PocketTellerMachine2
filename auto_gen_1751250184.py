@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 ```python
 import time
 import logging
@@ -68,3 +69,7 @@ if __name__ == '__main__':
     for chain_name, chain_config in chains.items():
         stealth_liquidity_hunter(chain_name, chain_config)
 ```
+
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

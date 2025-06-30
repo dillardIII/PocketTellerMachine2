@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Persona Memory Router – Role-Based Memory Management System
 
@@ -66,3 +67,6 @@ def store_memory_for_persona(persona, memory_type, content):
 if __name__ == "__main__":
     store_memory_for_persona("MoCash", "profits", "Closed $NVDA for $1400 gain")
     store_memory_for_persona("Mentor", "failures", "Missed entry on $TSLA breakout")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

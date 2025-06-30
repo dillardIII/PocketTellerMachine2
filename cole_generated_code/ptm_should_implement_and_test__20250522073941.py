@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To implement and test new trading strategies, we can use Python's pandas library for data manipulation and analysis. We will also use numpy for numerical computations. The following is a simple example of a moving average crossover strategy, which is one of the most common systematic trading strategies.
 
 Please note that this is a very simplified example and real-world trading strategies are much more complex and require careful consideration of many factors.

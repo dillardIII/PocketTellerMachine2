@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_trade_fusion.py ===
 # 👻 GhostTradeFusion – combines ghost personalities with liquidity signals to drive trades
 
@@ -38,3 +39,6 @@ def fusion_trade_loop():
 
 if __name__ == "__main__":
     fusion_trade_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI, I can't review and update trading strategies in real-time as I don't have access to live data. However, I can provide you with a Python code template that you can use to update your trading strategies based on the market conditions. 
 
 This code will use the pandas library to analyze the data and update the strategies accordingly. Please replace 'your_data.csv' with your actual data file and 'your_strategy' with your actual strategy.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 from datetime import datetime
@@ -98,3 +99,6 @@ def log_code_write(task, code):
         json.dump(logs[-300:], f, indent=2)
 
     print(f"[Code Logger] Logged task: {task}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

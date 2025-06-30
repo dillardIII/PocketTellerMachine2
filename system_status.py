@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: system_status.py ===
 # 📡 System Status Routes – Provides health and phase information
 
@@ -17,3 +18,6 @@ def status_check():
 @system_status_routes.route("/ping", methods=["GET"])
 def ping():
     return jsonify({"ping": "pong"})
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

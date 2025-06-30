@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # start_phase5_full_automation_manager.py
 
 import subprocess
@@ -46,3 +47,6 @@ except KeyboardInterrupt:
     brain_daemon.terminate()
     cleaner_daemon.terminate()
     print("[SHUTDOWN]: All services have been stopped.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and adjust trading parameters, we would need access to real-time market data. This data is usually provided by APIs from financial market data providers like Alpha Vantage, Yahoo Finance, etc. 
 
 Below is a simple example of how you might use Python to analyze market trends using the pandas library for data manipulation and matplotlib for data visualization. This example uses the yfinance library to download stock price data from Yahoo Finance.

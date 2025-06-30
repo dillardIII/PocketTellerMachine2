@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presumably Predictive Technology Model) empire's self-evolving autonomy stack involves integrating machine learning, recursive algorithms, and potentially self-improving mechanisms. Here’s a high-level design plan for your module, which we'll call `AutoExpansion`.
 
 ### Module Overview

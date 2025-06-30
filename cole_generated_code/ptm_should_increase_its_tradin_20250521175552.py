@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Below is a simple Python code that uses a variable `trading_volume` to represent PTM's current trading volume. The value of `trading_volume` is then increased by a certain percentage (in this case, 10%) to boost chances of recording wins and losses.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Predicting future market trends and movements is a complex task that involves machine learning and data analysis. Here is a simple example of how you can use Python to analyze historical stock price data and make predictions using a linear regression model. We'll use the pandas library to handle our data and the sklearn library to create the regression model.
 
 Please note that this is a very basic model and real-world trading algorithms are much more complex and take many more factors into account.

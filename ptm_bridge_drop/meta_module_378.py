@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python module to expand the PTM (presumably a fictional organization in your query) empire’s self-evolving autonomy stack can involve numerous advanced and innovative strategies. This includes developing an ecosystem that can adapt and evolve over time using recursive strategies—self-improvement algorithms that build upon previous iterations. Below is a basic outline and some ideas for implementing such a module:
 
 ### Module: `ptm_evolving_stack`

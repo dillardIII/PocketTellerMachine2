@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, to analyze market trends, we need to fetch market data first. We can use pandas_datareader library to fetch data from Yahoo Finance. Then we can use pandas to analyze the data. Here is a simple example:
 
 ```python

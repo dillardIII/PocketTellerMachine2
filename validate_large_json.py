@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: validate_large_json.py ===
 # Scans large JSON arrays like self_commands_log.json safely
 
@@ -32,3 +33,6 @@ except json.JSONDecodeError as e:
     print(f"❌ JSON decode error: {e}")
 except Exception as e:
     print(f"❌ General error: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

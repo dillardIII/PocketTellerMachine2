@@ -1,29 +1,32 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_vault_payoff_engine.py ===
-# 👻 GHOST VAULT PAYOFF ENGINE
-# Watches your vault, logs final net gains.
+# 👻 Monitors your vault address balance forever.
 
+import os
 import time
-from datetime import datetime
-from web3 import Web3
+from web3 import Web3, HTTPProvider
+from dotenv import load_dotenv
 
-LOGBOOK_FILE = "vault_logbook.txt"
-WEB3_PROVIDER = "https://mainnet.infura.io/v3/YOUR_INFURA_KEY"
-VAULT = "0xYOUR_VAULT_ADDRESS"
+load_dotenv()
+INFURA_KEY = os.getenv("INFURA_KEY")
+VAULT_ADDRESS = os.getenv("VAULT_ADDRESS")
 
-w3 = Web3(Web3.HTTPProvider(WEB3_PROVIDER))
+if not INFURA_KEY or not VAULT_ADDRESS:
+    print("[FATAL] Missing INFURA_KEY or VAULT_ADDRESS in .env!")
+    exit(1)
 
-def log_action(message):
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    with open(LOGBOOK_FILE, "a") as f:
-        f.write(f"[{timestamp}] {message}\n")
+print(f"[vault_engine] 👻 Loaded .env with INFURA_KEY={INFURA_KEY[:6]}... VAULT={VAULT_ADDRESS[:8]}...")
 
-def main():
-    print("[ghost_vault_payoff_engine] 👻 Watching vault...")
-    while True:
-        bal = w3.eth.get_balance(VAULT)
-        eth_balance = w3.from_wei(bal, 'ether')
-        log_action(f"[ghost_vault_payoff_engine] 💎 Vault holds: {eth_balance} ETH")
-        time.sleep(60)
+w3 = Web3(HTTPProvider(f"https://mainnet.infura.io/v3/{INFURA_KEY}"))
 
-if __name__ == "__main__":
-    main()
+def check_vault():
+    balance = w3.eth.get_balance(VAULT_ADDRESS)
+    eth = w3.fromWei(balance, 'ether')
+    print(f"[vault_engine] 💎 Vault {VAULT_ADDRESS[:8]}... holds {eth} ETH")
+
+while True:
+    check_vault()
+    time.sleep(5)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

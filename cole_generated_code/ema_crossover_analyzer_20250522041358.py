@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 The Exponential Moving Average (EMA) Crossover is a popular tool among traders because it can indicate potential buying or selling opportunities. Here is a simple Python code using pandas library to analyze EMA crossover.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate a trade and gain insights into market trends and dynamics, we can use the yfinance library in Python which allows us to access the financial data available on Yahoo Finance.
 
 Here is a simple example of how you can initiate a trade for PTM:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bootstrap_autonomous.py ===
 # 🚀 PTM Bootstrap Autonomous – Starts ALL core modules in parallel
 #    This is your one-command empire launcher.
@@ -50,3 +51,6 @@ if __name__ == "__main__":
             time.sleep(10)
     except KeyboardInterrupt:
         print("\n[PTM Bootstrap] ⛔ Shutdown by user.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

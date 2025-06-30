@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I will create a simple Python code to implement and test two trading strategies: Moving Average Crossover and Mean Reversion. For this, we will use the `pandas` library for data manipulation and `yfinance` to download stock price data.
 
 ```python

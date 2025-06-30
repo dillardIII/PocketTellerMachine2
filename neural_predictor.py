@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: neural_predictor.py ===
 import random
 import json
@@ -31,7 +32,10 @@ def neural_predictor_loop():
     model = load_model()
     while True:
         threshold = predict_threshold(model)
-        outcome = "win" if random.random() > 0.5 else "loss"
+        outcome = "win" if random.random() > 0.5 else "loss":
         train_model(model, outcome)
         print(f"[NeuralPredictor] 🧠 Predicted {threshold:.2f}, result: {outcome}, weight: {model['weight']:.2f}")
         time.sleep(30)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

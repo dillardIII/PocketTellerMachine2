@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help you with that. But first, I need to know what PTM stands for in this context and what kind of trading we are doing. Are we trading stocks, forex, cryptocurrency, or something else? Also, what kind of trading strategy are we using? Are we doing day trading, swing trading, or long-term investing? 
 
 Assuming PTM stands for a trading bot and we are trading stocks using a simple moving average crossover strategy, here's a simple Python code:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To diversify a portfolio, you may want to invest in different asset classes such as stocks, bonds, commodities, real estate, etc. Here is a simple Python code that simulates the diversification of a portfolio.
 
 Please note that this is a very simplified version of portfolio diversification. In real-world scenarios, you would need to consider many other factors such as correlation between assets, risk tolerance, investment horizon, etc.

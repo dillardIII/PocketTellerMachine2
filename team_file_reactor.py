@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: team_file_reactor.py ===
 import os
 import importlib.util
@@ -39,3 +40,6 @@ def _log_response(team_name, file_name, response):
     with open(log_path, "a") as f:
         f.write(f"--- Reaction to {file_name} ---\n")
         f.write(f"{response}\n\n")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # market_trend_analysis_route.py – Handles real-time market trend evaluation
 
 from flask import Blueprint, jsonify, request
@@ -16,3 +17,6 @@ def market_trend():
         })
     else:
         return jsonify({"error": "Unknown route"}), 400
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

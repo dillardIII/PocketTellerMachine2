@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI model developed by OpenAI, I can't conduct a review of trading algorithms directly. However, I can provide you with a Python code example that simulates a review process of a simple trading algorithm. You can modify this example to suit your specific needs.
 
 ```python

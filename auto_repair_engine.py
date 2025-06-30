@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_repair_engine.py ===
 
 # 🔧 Auto Repair Engine – Detects missing files and regenerates them, plus a live fallback loop
@@ -38,3 +39,6 @@ def run_auto_repair():
             with open("main.py", "w") as f:
                 f.write("# Emergency fallback main.py\nprint('[Main] ⚡ Recovered emergency main.')")
         time.sleep(15)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

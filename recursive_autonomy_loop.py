@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """ 
 Recursive Autonomy Loop
 Continuously evaluates PTM system state, checks for module gaps,
@@ -30,8 +31,8 @@ def evaluate_gaps():
     required_modules = ["dream_infusion_hub", "temporal_reflex_daemon", "phantom_logic_spool"]
     state = load_json(STATE_FILE)
     existing = state.get("modules", [])
-    return [m for m in required_modules if m not in existing]
-
+    return [m for m in required_modules if m not in existing]:
+:
 def request_generation(missing_modules):
     forge = GhostForge("Spectra")
     for mod in missing_modules:

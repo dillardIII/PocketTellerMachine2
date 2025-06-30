@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: core_squad_initializer.py ===
 # Assembles internal GPT squad to assist lead dev in autonomy delivery
 
@@ -15,11 +16,7 @@ class InternalBot:
         return self.task(file)
 
 # === Core Squad Tasks ===
-def check_duplicates(file): return update_ledger(file)
-def check_syntax_and_quality(file): return validate_file(file)
-def check_autonomy_value(file): return update_autonomy_score(file)
-
-# === Launch Team ===
+def check_duplicates():ef check_autonomy_value(): === Launch Team ===
 def deploy_internal_squad(file):
     squad = [
         InternalBot("LedgerMaster", check_duplicates),
@@ -29,3 +26,6 @@ def deploy_internal_squad(file):
 
     for bot in squad:
         bot.run(file)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

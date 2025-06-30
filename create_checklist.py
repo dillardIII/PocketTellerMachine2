@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import json
 
 checklist = [
@@ -103,3 +104,6 @@ with open("ptm_checklist.json", "w") as f:
     json.dump(checklist, f, indent=4)
 
 print("Checklist created successfully as ptm_checklist.json")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

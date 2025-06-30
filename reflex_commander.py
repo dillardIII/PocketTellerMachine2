@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: reflex_commander.py ===
 
 # 🧠 Reflex Commander – Thinks, decides, triggers macros based on time/logic
@@ -41,3 +42,6 @@ class ReflexCommander:
     def log_reflex(self, macro_name):
         with open("vault/reflex_log.txt", "a") as log:
             log.write(f"[{int(time.time())}] Reflex triggered: {macro_name}\n")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,7 +1,8 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: wallet_voice_summary.py ===
 # 🎙️ PTM Wallet Voice Summary – Speaks live wallet balances using Chill Trader (Ali)
-# + serves voice summary over Flask if requested
-
+# + serves voice summary over Flask if requested:
+:
 import os
 import pygame
 from flask import send_file, jsonify
@@ -31,7 +32,7 @@ def generate_wallet_summary_text():
 # === CLI/Local Speaker Trigger ===
 def play_wallet_summary():
     """
-    Plays a pre-recorded voice summary, or speaks generated summary if voice AI connected.
+    Plays a pre-recorded voice summary, or speaks generated summary if voice AI connected.:
     """
     try:
         pygame.mixer.init()

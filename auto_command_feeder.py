@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_command_feeder.py ===
 
 # 🧠 AutoCommandFeeder – Feeds autonomous commands into PTM inbox
@@ -39,3 +40,6 @@ def start_command_loop():
         except Exception as e:
             print(f"[Feeder] ⚠️ Loop error: {e}")
             time.sleep(10)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

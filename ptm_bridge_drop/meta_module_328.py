@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python module to expand an autonomous system like the PTM (Predictive Text Models) empire with self-evolving capabilities can be a complex task. Here, I'll provide a high-level design and implementation strategy for a module that incorporates innovative recursive strategies.
 
 ### Module Overview

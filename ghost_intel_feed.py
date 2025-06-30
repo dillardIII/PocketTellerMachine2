@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_intel_feed.py ===
 
 # 👻 Ghost Intel Feed – Serves assistant-delivered intelligence reports from external or internal sources
@@ -28,3 +29,6 @@ def get_intel():
         return jsonify(report), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

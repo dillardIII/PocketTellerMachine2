@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help with that. However, developing trading strategies is a complex task and requires a deep understanding of financial markets. Here is a simple example of a Python code that implements a basic moving average crossover strategy using the pandas library. This strategy is not guaranteed to be profitable and is just for illustrative purposes.
 
 ```python

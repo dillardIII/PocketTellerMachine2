@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FULLY PATCHED cole_autonomy_loop.py ===
 
 import time
@@ -66,3 +67,6 @@ def start_autonomy_engine():
         except Exception as e:
             print(f"[ERROR] Autonomy Loop crashed: {e}")
             time.sleep(10)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

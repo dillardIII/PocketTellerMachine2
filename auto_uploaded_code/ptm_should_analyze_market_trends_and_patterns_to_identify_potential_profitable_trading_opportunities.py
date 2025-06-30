@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a trading bot that analyzes market trends and patterns is a complex task that requires a deep understanding of both programming and finance. Here is a simplified example of how you might start to approach this task using Python and the pandas library for data analysis.
 
 ```python

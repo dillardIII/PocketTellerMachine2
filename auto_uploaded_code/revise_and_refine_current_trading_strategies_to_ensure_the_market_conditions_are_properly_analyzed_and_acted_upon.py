@@ -1,1 +1,2 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 generated/Revise_and_refine_current_trading_strategies_to_ensure_the_market_conditions_are_properly_analyzed_and_acted_upon_20250520_045142.py

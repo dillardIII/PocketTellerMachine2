@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # autonomous_builder.py
 
 from file_autowriter import write_file
@@ -70,3 +71,6 @@ def check_and_build_required():
         check_and_repair(f)
 
     build_all()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

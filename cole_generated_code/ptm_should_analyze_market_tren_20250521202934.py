@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and data, we would need historical data of the market. This data could be obtained from various sources. For simplicity, let's assume we have this data in a CSV file. We will use Python's pandas library to analyze this data.
 
 Here is a simple Python code that uses pandas to analyze market trends:

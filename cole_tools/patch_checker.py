@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # patch_checker.py (now at root)
 import time
 import json

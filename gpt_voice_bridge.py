@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: gpt_voice_bridge.py ===
 # 🎙️ GPT Voice Bridge – Converts GPT text into spoken MP3 output & handles voice command relay
 
@@ -122,3 +123,6 @@ if __name__ == "__main__":
     start_voice_bridge()
     while True:
         time.sleep(60)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

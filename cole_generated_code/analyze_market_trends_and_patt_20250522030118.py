@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and patterns is a complex task that involves machine learning and data analysis. Here is a simple example of how you might use Python to analyze stock data using pandas and matplotlib. This example uses historical data of a stock to plot its closing price and volume of stocks traded each day.
 
 ```python

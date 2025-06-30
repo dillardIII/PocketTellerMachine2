@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: update_trade_dashboard.py ===
 
 import json
@@ -17,7 +18,7 @@ def load_trade_log():
 def build_trade_table(trades):
     rows = ""
     for trade in reversed(trades):
-        color = "green" if trade.get("result") == "win" else "red" if trade.get("result") == "loss" else "gray"
+        color = "green" if trade.get("result") == "win" else "red" if trade.get("result") == "loss" else "gray":
         datetime_str = trade.get("datetime", "[Unknown Time]")
         row = f"""
         <tr style="color:{color};">
@@ -83,3 +84,6 @@ def update_dashboard():
 
 if __name__ == "__main__":
     update_dashboard()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

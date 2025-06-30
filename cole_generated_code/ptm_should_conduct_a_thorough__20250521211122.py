@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As a language model AI developed by OpenAI, I can provide you with a basic structure of Python code that could be used to analyze market data. However, please note that this is a simplified example and real-world trading analysis would require more complex algorithms, data sources, and possibly machine learning models.
 
 ```python

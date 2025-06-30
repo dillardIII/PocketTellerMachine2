@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, a machine learning model can be built to analyze market trends and make predictions for future trades. Predictive models like these require historical data in order to be trained. For the purpose of simplicity, let's assume that we already have data collected.
 
 Firstly you will need to load and preprocess this data:

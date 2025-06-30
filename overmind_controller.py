@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: overmind_controller.py ===
 import time
 from meta_dispatcher import MetaDispatcher
@@ -8,3 +9,6 @@ def overmind_loop():
     while True:
         dispatcher.list_status()
         time.sleep(30)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

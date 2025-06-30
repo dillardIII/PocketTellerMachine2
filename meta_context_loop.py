@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: meta_context_loop.py ===
 # 🧠 Meta Context – long-term learning, orator growth, moral sliders, goal tracking
 
@@ -29,3 +30,6 @@ def evolve_context():
 while True:
     evolve_context()
     time.sleep(60)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

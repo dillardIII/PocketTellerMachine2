@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct a market analysis, we need data. We can use the `pandas` library to handle our data and `yfinance` to download stock market data. Here's a simple Python script that downloads the last 5 years of daily data for the S&P 500 index:
 
 ```python

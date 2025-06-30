@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_feature_builder.py ===
 
 import os
@@ -26,7 +27,7 @@ def build_feature(task):
     with open(html_file, "w") as f:
         f.write(html_content)
 
-    # === Flask Route Blueprint Generation ===
+    # === Flask Route Blueprint(Generation ===)
     route_code = f"""
 from flask import Blueprint, render_template
 
@@ -47,3 +48,6 @@ def show_{name}():
         "html": html_file,
         "route": route_file
     }
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

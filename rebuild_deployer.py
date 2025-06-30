@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: rebuild_deployer.py ===
 # 🧰 Fixed: Executes rebuild scripts using execute_file()
 
@@ -29,3 +30,6 @@ def deploy_all_rebuilders():
                 print(f"[RebuildDeployer] ❌ Error running {script}: {e}")
         else:
             print(f"[RebuildDeployer] ⚠️ Missing: {script}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

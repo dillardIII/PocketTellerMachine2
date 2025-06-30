@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help with that. However, I need more specific details to write a Python code. For instance, what kind of trading are we talking about? Is it stock trading, forex trading, cryptocurrency trading? What factors should be considered for a trade to be executed? 
 
 Assuming we are talking about stock trading and we want to execute a trade when the stock price is lower than a certain threshold, here is a simple Python code:

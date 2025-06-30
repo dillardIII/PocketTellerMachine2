@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: main.py ===
 # 🚀 PTM Core Launcher – Starts bots, assistants, bridge, and systems
 
@@ -118,3 +119,6 @@ try:
         print("[PTM EMPIRE] 💓 Main heartbeat – all empire systems alive, hunting enemies.")
 except KeyboardInterrupt:
     print("\n[PTM EMPIRE] ⛔ Shutting down empire...")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python script to analyze market trends and indicators is a complex task. It involves fetching data from financial market, processing it and applying various financial analysis techniques. Here is a simplified example of how you might start developing such a script using Python, pandas and yfinance libraries. 
 
 This script fetches historical data for a specific stock symbol and calculates its Simple Moving Average (SMA) and Exponential Moving Average (EMA) as indicators. It's a very basic form of analysis and you would need to add more indicators and analysis logic to make it useful for identifying trading opportunities.

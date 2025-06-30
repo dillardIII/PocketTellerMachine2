@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I have written a basic implementation of Python code based on your requirement. The fallback strategy here is just simply showing a message saying no backtest results are found as alternative action could be highly specific based on the trading strategy or system in place.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Below is a standalone Python file (trading_strategy_3.py) that implements a simple trading strategy. This strategy uses a combination of exponential moving averages (EMAs) and the Relative Strength Index (RSI) to generate buy and sell signals.
 
 ```python

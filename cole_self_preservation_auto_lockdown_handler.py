@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_self_preservation_auto_lockdown_handler.py
 
 import os

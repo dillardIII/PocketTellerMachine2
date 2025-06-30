@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase13_avatar_voice_event_logger.py
 
 import os
@@ -31,3 +32,6 @@ def get_recent_voice_events(limit=20):
             logs = json.load(f)
         return logs[-limit:]
     return []
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

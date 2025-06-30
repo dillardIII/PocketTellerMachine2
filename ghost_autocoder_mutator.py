@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_autocoder_mutator.py ===
 # 👻 AUTO CODE GEN – Ghost builds new indicator modules, tests them, logs their success or death.
 
@@ -73,3 +74,6 @@ def main():
         time.sleep(30)  # builds a new strategy module every 30 sec
 if __name__ == "__main__":
     main()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

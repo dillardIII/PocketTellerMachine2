@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Emotion Inference Engine:
 Analyzes text-based responses from assistants to infer emotional state.
@@ -28,3 +29,6 @@ if __name__ == "__main__":
     ]
     for msg in test_msgs:
         print(f"Msg: {msg}\n➤ Emotion: {infer_emotion_from_text(msg)}\n")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # synapse_trigger_router.py
 # Routes brainwave triggers to PTM system actions
 
@@ -27,3 +28,6 @@ def route_synapse_trigger(trigger):
         print("[PTM Action] Launching voice-to-code engine.")
     elif action == "summon_persona":
         print("[PTM Action] Activating Spectra Nocturna.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

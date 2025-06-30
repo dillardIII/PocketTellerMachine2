@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: self_forge_installer.py ===
 # 👷 SelfForge Installer – Ensures all core PTM files exist by writing them using GPT
 
@@ -36,3 +37,6 @@ def self_forge_loop():
         time.sleep(60)  # Every minute, check and restore
 if __name__ == "__main__":
     self_forge_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from ghostforge_core import GhostForge
 
 forge = GhostForge()
@@ -55,8 +56,8 @@ def log_dream(idea):
 
     "core/evolve_decider.py": """
 # evolve_decider.py
-# Decides if an idea is worthy of evolution
-
+# Decides if an idea is worthy of evolution:
+:
 def should_evolve(idea):
     # Super basic for now: evolve everything with a name and code
     return bool(idea.get("name") and idea.get("code"))
@@ -71,12 +72,12 @@ def seed_ideas():
         {
             "name": "ghost_ping",
             "path": "modules/ghost_ping.py",
-            "code": "def ghost_ping(): print('[GhostPing] 👻 Hello from the dream layer!')"
+            "code": "def ghost_ping():
         },
         {
             "name": "auto_commenter",
             "path": "modules/auto_commenter.py",
-            "code": "def auto_comment(code): return '\\n'.join(['# ' + line for line in code.splitlines()])"
+            "code": "def auto_comment():
         }
     ]
 """
@@ -84,3 +85,6 @@ def seed_ideas():
 
 feedback = forge.enable_recursive_building(modules)
 print("\n".join(feedback))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

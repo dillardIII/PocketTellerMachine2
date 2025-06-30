@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 import time
@@ -63,7 +64,7 @@ def start_daemon(name, cmd):
     processes[name] = subprocess.Popen(cmd)
     log_heartbeat_event(f"[START]: {name} started.")
 
-# === Check & Restart Daemons if Down ===
+# === Check & Restart Daemons if Down ===:
 def check_and_restart_daemons():
     for name, cmd in DAEMONS.items():
         proc = processes.get(name)
@@ -88,3 +89,6 @@ def monitor_heartbeat():
 # === CLI Trigger ===
 if __name__ == "__main__":
     monitor_heartbeat()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

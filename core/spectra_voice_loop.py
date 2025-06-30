@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # spectra_voice_loop.py
 # Full loop that listens for voice input and builds actual code
 

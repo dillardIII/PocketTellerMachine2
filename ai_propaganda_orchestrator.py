@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ai_propaganda_orchestrator.py ===
 # 👻 AI Propaganda Orchestrator – broadcasts hype & legends across channels
 
@@ -40,3 +41,6 @@ def propaganda_loop():
 
 if __name__ == "__main__":
     propaganda_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

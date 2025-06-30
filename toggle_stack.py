@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: toggle_stack.py ===
 # 🔁 Toggle Stack – Handles bot status on/off updates from Command Center
 
@@ -20,3 +21,6 @@ def register_toggle_route(app):
             json.dump(current_status, f, indent=4)
 
         return redirect("/command-panel")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 import time
@@ -22,7 +23,7 @@ def log_sync_event(file, success=True, msg=""):
     entry = {
         "file": file,
         "timestamp": datetime.now().isoformat(),
-        "status": "success" if success else "fail",
+        "status": "success" if success else "fail",:
         "message": msg
     }
     if not os.path.exists(LOG_FILE):
@@ -56,7 +57,7 @@ def process_drops():
         if os.path.exists(full_path):
             success, msg = execute_file(full_path)
             log_sync_event(file, success, msg)
-            print(f"[{'✔' if success else '✘'}] {file}: {msg}")
+            print(f"[{'✔' if success else '✘'}] {file}: {msg}"):
         else:
             updated_pending.append(file)
 
@@ -68,3 +69,6 @@ if __name__ == "__main__":
     while True:
         process_drops()
         time.sleep(5)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

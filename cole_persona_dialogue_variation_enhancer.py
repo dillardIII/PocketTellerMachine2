@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_persona_dialogue_variation_enhancer.py
 
 import os
@@ -16,7 +17,7 @@ DIALOGUE_VARIATIONS = {
 
 DIALOGUE_STYLES = {
     "friendly": lambda text: f"{text} :)",
-    "short": lambda text: text.split(".")[0] if "." in text else text,
+    "short": lambda text: text.split(".")[0] if "." in text else text,:
     "balanced": lambda text: text,
     "default": lambda text: text,
 }
@@ -53,3 +54,6 @@ if __name__ == "__main__":
     for persona in personas:
         enhanced = enhance_dialogue(persona, message)
         print(f"[{persona}]: {enhanced}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

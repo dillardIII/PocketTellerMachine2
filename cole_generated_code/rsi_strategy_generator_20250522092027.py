@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple implementation of a Relative Strength Index (RSI) strategy generator in Python using the `pandas` and `yfinance` libraries. This strategy will generate buy signals when the RSI is below 30 (oversold) and sell signals when the RSI is above 70 (overbought).
 
 ```python

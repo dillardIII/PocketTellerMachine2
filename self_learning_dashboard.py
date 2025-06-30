@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # self_learning_dashboard.py
 
 from flask import Flask, render_template_string, jsonify
@@ -34,7 +35,7 @@ def self_learning_dashboard():
         </head>
         <body>
             <h1>Cole Self-Learning Log</h1>
-            {% if message %}
+            {% if message %}:
             <div class="message">{{ message }}</div>
             {% else %}
             <table>
@@ -53,7 +54,7 @@ def self_learning_dashboard():
                 </tr>
                 {% endfor %}
             </table>
-            {% endif %}
+            {% endif %}:
         </body>
         </html>
         """
@@ -76,3 +77,6 @@ def api_self_learning_log():
 # === CLI Direct Run ===
 if __name__ == '__main__':
     app.run(port=5001, debug=True)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # voice_to_code_engine.py
 # Converts spoken or text input into actual .py or .json code modules
 

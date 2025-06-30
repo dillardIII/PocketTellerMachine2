@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: soul_reactor.py ===
 # 🔥 Soul Reactor – Synthesizes trade memories, mood, and strategy wins into evolution
 

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import requests
 import os
 
@@ -32,10 +33,13 @@ response = requests.post(
     }
 )
 
-# Save voice MP3 or print error
+# Save voice MP3 or print(error)
 if response.status_code == 200:
     with open("static/voices/drill_male_southern.mp3", "wb") as f:
         f.write(response.content)
     print("Voice file for drill_male_southern saved successfully.")
 else:
     print("Error generating voice:", response.status_code, response.text)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

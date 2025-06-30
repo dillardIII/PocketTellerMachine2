@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: trading_engine.py ===
 
 import datetime
@@ -43,3 +44,6 @@ def execute_trade(strategy):
             "status": "fail",
             "reason": str(e)
         }
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

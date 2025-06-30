@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: test_pipeline_trigger.py ===
 # 🧪 Full Pipeline Test – Dispatches victory test file to gpt_outbox
 
@@ -10,3 +11,6 @@ print("🎉 TEST PASSED: Full GPT ➜ BRIDGE ➜ EXECUTION pipeline is working!"
 
 # Name of the test file
 dispatch_code("victory_test.py", test_code)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

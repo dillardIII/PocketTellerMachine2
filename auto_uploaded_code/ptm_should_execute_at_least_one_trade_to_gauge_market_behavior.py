@@ -1,1 +1,2 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 generated/PTM_should_execute_at_least_one_trade_to_gauge_market_behavior_20250520_035358.py

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: reflex_macro_trigger.py ===
 
 # 🧠 Reflex Macro Trigger – Watches inputs and fires macros automatically
@@ -15,3 +16,6 @@ class ReflexMacroTrigger:
             self.macro_handler.run_macro(macro_name)
             return True
         return False
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 While I can provide you with a starting point for creating a diversified trading strategy in Python, providing an all-encompassing code is not possible due to the complexity and risk associated with trading strategies. Depending on the type of strategies (like momentum, mean-reversion, statistical arbitrage, pairs trading, etc.) the codes can greatly differ. 
 
 However, I can provide you with a rudimentary framework for a python script that calculates simple moving averages (SMA), which could be a very basic part of a trading strategy.

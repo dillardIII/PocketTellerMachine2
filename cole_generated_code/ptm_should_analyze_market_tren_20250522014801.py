@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we will use Python's pandas library for data manipulation and analysis, and yfinance to download the historical market data. We will also use matplotlib for data visualization. Please note that this is a simplified version of market analysis and real trading algorithms involve much more complex calculations and considerations.
 
 ```python

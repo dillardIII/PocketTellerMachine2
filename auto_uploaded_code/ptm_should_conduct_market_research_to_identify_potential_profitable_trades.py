@@ -1,1 +1,2 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 generated/PTM_should_conduct_market_research_to_identify_potential_profitable_trades_20250520_035402.py

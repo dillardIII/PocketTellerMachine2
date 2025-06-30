@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presumably "Phoenix Tech Movement" or "Prime Tech Management", etc.) empire's self-evolving autonomy stack involves creating components that focus on learning, adaptation, and recursive improvement. Below, I'll outline a high-level design for such a module with innovative recursive strategies:
 
 ### Python Module: `ptm_autonomy`

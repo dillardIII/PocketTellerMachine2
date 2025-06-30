@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate a trade and gain insights on market trends, we can use the yfinance library in Python which allows us to download stock market data from Yahoo Finance. Here is a simple example of how to initiate a trade and analyze the market trend of a specific stock, in this case, we'll use 'AAPL' (Apple Inc.).
 
 Please note that this is a simulation of a trade initiation and does not involve real trading.

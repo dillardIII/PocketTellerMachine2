@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, Here's a Python code to do EMA (Exponential Moving Average) Crossover analysis on a financial time series data. In this code, I'll assume you have a `pandas DataFrame` that contains date-wise stock prices.
 
 ```python

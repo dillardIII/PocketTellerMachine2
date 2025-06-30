@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here are some basic examples of trading strategies implemented in Python. Note that these are very simplified versions of the strategies and real-world implementation would require much more complexity and risk management.
 
 1. Buy and Hold Strategy: This strategy involves buying a stock and holding it for a long period of time, regardless of fluctuations in the market.

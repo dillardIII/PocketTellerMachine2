@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct a thorough market analysis, we would need access to a lot of real-time financial data. This data is usually not freely available and is provided by financial data vendors such as Bloomberg, Reuters, etc. 
 
 However, for the purpose of this task, we can use the `yfinance` library in Python, which allows us to download stock price data from Yahoo Finance, which is free to use. 

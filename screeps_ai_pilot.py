@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: screeps_ai_pilot.py ===
 from screepsapi import API
 
@@ -15,3 +16,6 @@ def run_ai_loop():
 
     # Update PTM logs
     print("✅ Screeps AI loop completed.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

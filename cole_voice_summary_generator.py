@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_voice_summary_generator.py
 
 import json
@@ -47,3 +48,6 @@ def create_summary(trade):
 
 if __name__ == "__main__":
     generate_voice_summaries()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

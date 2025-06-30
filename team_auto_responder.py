@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Team Auto Responder – AI Persona Communication Hub
 
@@ -11,7 +12,7 @@ from flask import Blueprint, jsonify, request
 import random
 import datetime
 
-# === Blueprint Setup ===
+# === Blueprint(Setup ===)
 team_auto_responder = Blueprint("team_auto_responder", __name__)
 
 # === Persona Profiles ===
@@ -81,3 +82,6 @@ def trigger_team_response():
     result = responder.respond(trigger_type)
 
     return jsonify(result)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

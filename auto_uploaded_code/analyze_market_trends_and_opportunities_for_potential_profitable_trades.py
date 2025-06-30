@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and opportunities for potential profitable trades requires a comprehensive understanding of financial data analysis. This task can be accomplished using Python libraries such as pandas, numpy, and matplotlib for data manipulation and visualization, and yfinance to download the stock data.
 
 Here's a simple example of how you might analyze the trend of a single stock (e.g., Apple Inc.):

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and opportunities to identify potential profitable trades involves complex algorithms and requires real-time data which is usually obtained from APIs provided by trading platforms. Here is a simple example of how you might use Python to analyze historical stock data using the pandas library and Yahoo Finance.
 
 Please note that this is a very basic example and real trading algorithms can be extremely complex. Also, this code will not actually execute any trades.

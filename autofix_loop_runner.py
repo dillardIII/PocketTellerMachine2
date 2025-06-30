@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: autofix_loop_runner.py ===
 # Runs AutoFix Engine on a loop to detect and resolve issues hourly
 
@@ -18,3 +19,6 @@ def start_autofix_loop(interval=3600):  # 3600 sec = 1 hour
 
 if __name__ == "__main__":
     start_autofix_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

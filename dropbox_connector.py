@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: dropbox_connector.py ===
 import dropbox
 import os
@@ -15,3 +16,6 @@ def download_from_dropbox(dropbox_path, local_path):
     with open(local_path, "wb") as f:
         f.write(res.content)
     print(f"[Dropbox] Downloaded {dropbox_path} to {local_path}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

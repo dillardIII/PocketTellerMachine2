@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and opportunities, we would need to use some kind of market data. For this example, let's use Yahoo Finance data. We'll use the `yfinance` library to download the data and `pandas` to analyze it. We'll also use `matplotlib` to visualize the data.
 
 Here's a simple example of how you might identify potential trades based on moving averages:

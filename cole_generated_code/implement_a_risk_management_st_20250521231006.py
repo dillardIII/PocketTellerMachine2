@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code that implements a risk management strategy. This strategy is based on setting a stop loss level for each trade. If the price falls to this level, the trade is automatically closed to prevent further losses.
 
 ```python

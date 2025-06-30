@@ -1,9 +1,10 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: voice_utils.py ===
 
 import os
 import requests
 
-# === Voice IDs (replace with yours if needed) ===
+# === Voice IDs (replace with yours if needed) ===:
 VOICE_IDS = {
     "Mo Cash": "your_mo_cash_voice_id_here",
     "Mentor": "your_mentor_voice_id_here"
@@ -42,3 +43,6 @@ def generate_voice_mp3(text, persona, filename):
     else:
         print(f"[ERROR] ElevenLabs response: {response.status_code}")
         return None
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

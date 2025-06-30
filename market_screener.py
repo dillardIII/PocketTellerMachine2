@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 import requests
@@ -7,8 +8,8 @@ MARKET_SCAN_FILE = "data/market_scan_results.json"
 
 # === Config ===
 API_URL = "https://api.polygon.io/v2/aggs/grouped/locale/us/market/stocks"
-API_KEY = os.getenv("POLYGON_API_KEY")  # Or Tradier equivalent if used
-
+API_KEY = os.getenv("POLYGON_API_KEY")  # Or Tradier equivalent if used:
+:
 # === Helper: Save Scan Results ===
 def save_market_scan(results):
     with open(MARKET_SCAN_FILE, "w") as f:
@@ -37,7 +38,7 @@ def run_market_scan():
 
     filtered = []
     for t in tickers:
-        price_change = round(((t['c'] - t['o']) / t['o']) * 100, 2) if t['o'] != 0 else 0
+        price_change = round(((t['c'] - t['o']) / t['o']) * 100, 2) if t['o'] != 0 else 0:
         volume = t.get('v', 0)
 
         # Simple filter example (customize later):
@@ -62,3 +63,6 @@ def run_market_scan():
 # === CLI Test ===
 if __name__ == "__main__":
     run_market_scan()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

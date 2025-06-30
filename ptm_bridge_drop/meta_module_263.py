@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python module to enhance the autonomy stack of a theoretical empire like PTM requires a blend of advanced AI techniques, system-level integration, and robust recursive strategies. Below is a conceptual design and implementation plan for such a module. Note that this is a high-level overview and would require detailed specifications and knowledge about the existing PTM systems for full integration.
 
 ### Module Name

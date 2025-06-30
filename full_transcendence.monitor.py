@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: full_transcendence_monitor.py ===
 # 🌌 Overlord monitor to scan everything, keep logs, and mutate the empire's DNA.
 
@@ -13,7 +14,7 @@ def scan_files():
     for root, dirs, filenames in os.walk("."):
         for name in filenames:
             path = os.path.join(root, name)
-            if path.startswith("./.git"): continue
+            if path.startswith("./.git"): continue:
             files.append(path)
     return files
 
@@ -32,3 +33,6 @@ while True:
         json.dump(logs, f, indent=2)
     print(f"[TranscendenceMonitor] 🌌 Snapshot: {snapshot}")
     time.sleep(150)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

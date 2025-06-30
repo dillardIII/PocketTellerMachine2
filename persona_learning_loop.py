@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # persona_learning_loop.py
 # Purpose: Let AI personas learn from trade outcomes and evolve behavior over time
 # Each persona develops a unique trading profile based on results, feedback, and trade memory
@@ -57,7 +58,7 @@ class PersonaLearningLoop:
         # Adjust strategy preferences
         strat_stats = profile["preferred_strategies"]
         if strategy not in strat_stats:
-            strat_stats[strategy] = {"used": 1, "wins": 1 if result == "win" else 0}
+            strat_stats[strategy] = {"used": 1, "wins": 1 if result == "win" else 0}:
         else:
             strat_stats[strategy]["used"] += 1
             if result == "win":

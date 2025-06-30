@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_memory_core.py ===
 # 🧠 Ghost Memory Core – Centralized memory for all major PTM events and experiences
 
@@ -36,8 +37,8 @@ class GhostMemoryCore:
     def recall(self, category=None):
         if not category:
             return self.memory[-10:]  # Last 10
-        return [m for m in self.memory if m["category"] == category][-5:]
-
+        return [m for m in self.memory if m["category"] == category][-5:]:
+:
 # Example usage
 if __name__ == "__main__":
     core = GhostMemoryCore()

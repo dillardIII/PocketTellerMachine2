@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_healer.py ===
 # 🛡️ Auto-Healer – Monitors PTM health & applies recovery logic or triggers GhostForge
 

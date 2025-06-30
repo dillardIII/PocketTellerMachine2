@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_smart_feedback_responder_handler.py
 
 import os
@@ -128,3 +129,6 @@ def launch_all():
 
 if __name__ == "__main__":
     launch_all()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

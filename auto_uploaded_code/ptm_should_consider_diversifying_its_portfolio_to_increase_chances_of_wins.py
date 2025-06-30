@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To diversify a portfolio, you need to invest in different types of assets such as stocks, bonds, mutual funds, etc. Here is a simple Python code that simulates diversification of a portfolio:
 
 ```python

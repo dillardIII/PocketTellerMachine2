@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help you with that. However, I need more specific details to write the code. Here's a simple example of how you might track wins and losses in trading using Python. This is a very basic example and might not fit your specific needs.
 
 ```python

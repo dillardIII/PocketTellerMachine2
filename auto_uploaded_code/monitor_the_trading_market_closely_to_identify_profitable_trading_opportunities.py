@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To fulfill this task demands five main steps to it:
 
 1. Connect to the API. Depending on the platform Cole is trading on, you should have the API documentation for this step.

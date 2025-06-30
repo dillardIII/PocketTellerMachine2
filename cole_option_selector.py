@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import random
 import json
 import os
@@ -21,7 +22,7 @@ def select_random_strategy():
 # === Filter-Based Strategy Selector ===
 def select_strategy_by_risk(risk_level="medium"):
     strategies = load_option_strategies()
-    filtered = [s for s in strategies if s.get("risk") == risk_level.lower()]
+    filtered = [s for s in strategies if s.get("risk") == risk_level.lower()]:
     if not filtered:
         return {"error": f"No strategies found with risk level '{risk_level}'."}
     return random.choice(filtered)
@@ -32,12 +33,12 @@ def select_strategy_by_criteria(name=None, risk=None, strategy_type=None):
     filtered = strategies
 
     if name:
-        filtered = [s for s in filtered if s.get("name", "").lower() == name.lower()]
+        filtered = [s for s in filtered if s.get("name", "").lower() == name.lower()]:
     if risk:
-        filtered = [s for s in filtered if s.get("risk", "").lower() == risk.lower()]
+        filtered = [s for s in filtered if s.get("risk", "").lower() == risk.lower()]:
     if strategy_type:
-        filtered = [s for s in filtered if s.get("type", "").lower() == strategy_type.lower()]
-
+        filtered = [s for s in filtered if s.get("type", "").lower() == strategy_type.lower()]:
+:
     if not filtered:
         return {"error": "No strategy matches all the given criteria."}
     
@@ -48,3 +49,6 @@ if __name__ == "__main__":
     print("Random Strategy:", select_random_strategy())
     print("Low Risk Strategy:", select_strategy_by_risk("low"))
     print("Covered Call Search:", select_strategy_by_criteria(name="Covered Call"))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

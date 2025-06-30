@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 📈 Ghostrade Trade Watcher – Monitors live and paper trades, logs activity for AI learning
 
 import os
@@ -22,8 +23,8 @@ def load_last_trade_state():
 # === Compare new state to last state
 def detect_new_trades(old_state, new_state):
     old_ids = set(t.get("id") for t in old_state)
-    return [t for t in new_state if t.get("id") not in old_ids]
-
+    return [t for t in new_state if t.get("id") not in old_ids]:
+:
 # === Main watcher loop
 def ghostrade_trade_loop():
     print("[GhostradeWatcher] 👁️ Watching for new trades...")

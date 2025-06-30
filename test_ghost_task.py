@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: test_ghost_task.py ===
 from ghostforge_core import GhostForge
 
@@ -17,3 +18,6 @@ def praise_user(name):
 
 # Generate it
 gf.generate_module(module_name, purpose, base_code)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

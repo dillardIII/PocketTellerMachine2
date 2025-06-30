@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and patterns, we need to use some sort of data analysis. Python has a library called pandas that is great for this kind of task. We also need data to analyze. There are many sources of market data, but for this example, we'll use Yahoo Finance, which we can access using the yfinance library.
 
 Here's a simple example of how you might start to analyze market trends and patterns:

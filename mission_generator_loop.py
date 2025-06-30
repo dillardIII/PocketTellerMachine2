@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: mission_generator_loop.py ===
 
 import time
@@ -14,3 +15,6 @@ def start_mission_loop(interval=300):  # every 5 min
 
 if __name__ == "__main__":
     start_mission_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

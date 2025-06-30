@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Module Loader – Dynamic Plugin and Hot Reload System for PTM
 
@@ -51,3 +52,6 @@ if __name__ == "__main__":
             print("Loaded:", list_loaded_modules())
         else:
             print("Commands: load <name>, unload <name>, list, exit")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

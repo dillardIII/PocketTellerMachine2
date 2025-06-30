@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 📝 Auto File Writer + Git Committer + GitHub Pusher
 import os
 import subprocess
@@ -27,3 +28,6 @@ if __name__ == "__main__":
     content = "print('This is an auto-generated trading strategy.')"
     write_file(filename, content)
     git_commit_push(filename)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

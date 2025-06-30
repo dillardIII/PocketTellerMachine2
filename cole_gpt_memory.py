@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_gpt_memory.py ===
 
 import os
@@ -36,3 +37,6 @@ def get_all_prompts():
         with open(GPT_MEMORY_FILE, "r") as f:
             return json.load(f)
     return []
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

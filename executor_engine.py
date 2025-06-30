@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: executor_engine.py ===
 # ⚙️ Executor Engine – Handles queued tasks from other bots or user commands
 

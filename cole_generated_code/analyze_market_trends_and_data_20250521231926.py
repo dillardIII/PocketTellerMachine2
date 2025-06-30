@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and data involves complex algorithms and machine learning models. However, I can provide a simple example of how you might analyze stock data using Python. In this example, we will use the pandas library to analyze data and matplotlib library to visualize it.
 
 Please note that this is a very basic example and real-world trading decisions require much more complex analysis.

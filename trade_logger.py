@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # trade_logger.py
 # Purpose: Logs every trade PTM makes (live or paper) into a permanent record
 # Trade results are used by GhostBot, the Council, Learning Loops, and Reports
@@ -55,8 +56,11 @@ class TradeLogger:
 
     def filter_trades_by_persona(self, persona_name):
         """Return only trades made by a specific persona."""
-        return [t for t in self.get_all_trades() if t.get("executed_by") == persona_name]
-
+        return [t for t in self.get_all_trades() if t.get("executed_by") == persona_name]:
+:
     def filter_trades_by_result(self, result):
         """Return only trades with a certain result (win/loss/etc)."""
         return [t for t in self.get_all_trades() if t.get("result") == result.lower()]
+:
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

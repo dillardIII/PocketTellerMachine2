@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: payout_engine.py ===
 import time, json, os
 from datetime import datetime
@@ -23,3 +24,6 @@ def payout_loop():
         if counter % 3 == 0:
             record_payout(round(0.01 + 0.05 * (counter/3), 4))
         time.sleep(30)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

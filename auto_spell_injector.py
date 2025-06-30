@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_spell_injector.py ===
 # 🔮 Auto Spell Injector – reads spectral spells and injects them as evolving empire tasks
 
@@ -23,7 +24,7 @@ def main_loop():
         if os.path.exists(SPECTRAL_FILE):
             with open(SPECTRAL_FILE) as f:
                 spells = json.load(f)
-            new_spells = [s for s in spells if s not in loaded_spells]
+            new_spells = [s for s in spells if s not in loaded_spells]:
             for spell in new_spells:
                 inject_spell(spell)
                 loaded_spells.append(spell)
@@ -32,3 +33,6 @@ def main_loop():
 if __name__ == "__main__":
     print("[AutoSpellInjector] 🔥 Watching for new spells...")
     main_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

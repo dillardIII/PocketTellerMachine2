@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a basic example of how you might set up a Python script to initiate trades and evaluate the effectiveness of your current strategies. This example uses the `yfinance` library to get stock data, and `pandas` for data manipulation.
 
 Please note that this is a simplified example and real trading involves more complexities. This script also assumes that you have a function `evaluate_strategy()` that takes a DataFrame of trades and returns some evaluation of the strategy's effectiveness.

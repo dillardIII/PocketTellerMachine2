@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import random
 
 def get_historical_prices(symbol, days=15):
@@ -11,3 +12,6 @@ def get_historical_prices(symbol, days=15):
 def get_current_rsi(symbol):
     # Simulated RSI value for testing (replace with real RSI calculation using price history)
     return random.randint(20, 60)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

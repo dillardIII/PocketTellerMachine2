@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and data to make informed trading decisions involves complex algorithms and machine learning models. However, I can provide a simple example of how you can analyze stock prices using Python.
 
 Here's a simple Python code using pandas and yfinance libraries to fetch historical stock data and analyze it:

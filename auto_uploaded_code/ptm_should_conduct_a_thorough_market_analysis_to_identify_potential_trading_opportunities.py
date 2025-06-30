@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct a thorough market analysis, you would typically need access to market data. This data could come from a variety of sources, but for simplicity, let's assume you have access to a Python library that provides this data, such as `yfinance` for Yahoo Finance data. 
 
 Here's a simple example of how you might use this library to analyze the market:

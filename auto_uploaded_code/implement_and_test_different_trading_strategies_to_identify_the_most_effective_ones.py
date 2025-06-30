@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example where we'll implement and test two basic trading strategies: Moving Average Crossover and Mean Reversion. We'll use the `yfinance` library to get historical stock data and `pandas` for data manipulation.
 
 ```python

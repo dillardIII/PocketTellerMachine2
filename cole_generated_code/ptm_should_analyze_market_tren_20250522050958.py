@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and adjust trading approach accordingly, we would need to use machine learning techniques. Here is a simplified example of how you could implement this using Python. In this example, we'll use a simple moving average strategy and adjust the trading approach based on the trend.
 
 Please note that this is a simplified example and real-world trading algorithms are much more complex and take into account many more factors.

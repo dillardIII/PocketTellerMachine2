@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI model developed by OpenAI, I can provide you with a general idea of how you might approach this task in Python. However, I can't write specific code for you without knowing the details of your current trading algorithms. 
 
 Here is a general approach:

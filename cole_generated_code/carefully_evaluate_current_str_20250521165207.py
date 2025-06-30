@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As your assistant, I don't have access to the APIs or data sources that Cole's trading algorithm uses. However, I can provide some general Python code that might help troubleshooting.
 
 For example, it would include checking the trading conditions, the status of the trading system, and the current market conditions.

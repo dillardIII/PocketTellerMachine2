@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 While I can't literally increase PTM's market trend prediction efforts, I can write a Python code to analyze it's current market trends. However, for a complete market analysis, I would need a vast amount of market data, which is beyond the scope of this assistant.
 
 However, I'll show you a simple function which uses pandas and Python's stock market analysis library 'yfinance' to get PTM's latest stock data and calculate its moving averages for trend analysis. Please note that this is a simplistic example and real-world market trend prediction algorithms can be extremely complex and resource-intensive.

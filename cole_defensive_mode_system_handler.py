@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_defensive_mode_system_handler.py
 
 import os
@@ -50,8 +51,8 @@ def check_and_escalate_defense():
         return status
 
     # Basic escalation logic based on number of recent threats
-    recent_threats = [t for t in threats if "CRITICAL" in t.get("severity", "").upper()]
-
+    recent_threats = [t for t in threats if "CRITICAL" in t.get("severity", "").upper()]:
+:
     if recent_threats:
         new_status = DEFENSIVE_STATES.get(status["status"], "REINFORCED")
         if status["status"] != new_status:
@@ -88,3 +89,6 @@ def defensive_mode_loop():
 
 if __name__ == "__main__":
     defensive_mode_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

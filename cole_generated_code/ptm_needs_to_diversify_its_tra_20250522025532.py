@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To diversify trading strategies, we can use different techniques such as trend following, mean reversion, momentum, breakout, etc. Here, I'll provide a simple example of diversifying between trend following and mean reversion strategies. 
 
 ```python

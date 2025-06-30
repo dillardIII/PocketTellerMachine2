@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_assistant_avatar_expression_updater.py
 
 import os

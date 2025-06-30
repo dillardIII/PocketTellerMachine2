@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module to expand the PTM (Presumably an Autonomous System) empire’s self-evolving autonomy stack is an intriguing task. Let us consider developing a framework that supports recursive learning and decision-making strategies, fostering an environment of continuous improvement and adaptation.
 
 ### Module Overview

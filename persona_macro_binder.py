@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: persona_macro_binder.py ===
 # 🤝 Persona Macro Binder – Connects macros to assistant personas for logic ownership and execution
 

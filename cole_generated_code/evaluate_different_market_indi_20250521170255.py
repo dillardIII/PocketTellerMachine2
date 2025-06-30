@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here's a simple Python code using Pandas library to analyze the trading data and predict some investment opportunities based on market indicators:
 
 ```python

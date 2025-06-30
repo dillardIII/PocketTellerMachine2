@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I'll provide a simple Python code to simulate a trade initiation. Please note that in real-life scenario, trading involves complex algorithms and real-time data.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate at least one trade to gauge market performance, we can create a simple Python script that uses a mock trading API. For this example, let's assume we have a mock API called `MockTradeAPI` that has methods to get the current price of a stock, buy a stock, and sell a stock.
 
 ```python

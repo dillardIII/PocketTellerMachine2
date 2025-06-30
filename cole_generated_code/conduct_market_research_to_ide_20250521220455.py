@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct market research for trading opportunities, we can use APIs like Alpha Vantage or Yahoo Finance to fetch real-time and historical market data. Then we can use Pandas, a powerful data manipulation library in Python, to analyze this data.
 
 Here's a simple example of how you can fetch and analyze data from Yahoo Finance. In this example, we will fetch historical data for a specific stock and calculate its moving average.

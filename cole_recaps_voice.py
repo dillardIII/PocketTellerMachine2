@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 import requests
@@ -59,3 +60,6 @@ def generate_latest_audio_recap():
 if __name__ == "__main__":
     result = generate_latest_audio_recap()
     print(result)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

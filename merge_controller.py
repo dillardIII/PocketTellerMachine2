@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # merge_controller.py
 # Merges files between registered devices using GhostBridge protocol
 
@@ -58,3 +59,6 @@ def full_sync():
 
 if __name__ == "__main__":
     full_sync()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

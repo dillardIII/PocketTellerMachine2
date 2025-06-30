@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To diversify strategies and test them in the market, we need to create a backtesting environment. Here is a simple example of how you can do it using Python and the pandas library.
 
 ```python

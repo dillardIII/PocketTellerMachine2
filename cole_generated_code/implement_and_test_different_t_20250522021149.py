@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code that implements two different trading strategies: Mean Reversion and Momentum. 
 
 First, let's install the necessary libraries:

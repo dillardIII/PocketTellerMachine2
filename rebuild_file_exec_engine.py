@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: rebuild_file_exec_engine.py ===
 # 🔧 Rebuilds file_exec_engine.py – Code runner
 
@@ -30,3 +31,6 @@ def start_exec_engine():
         time.sleep(1)
 ''')
 print("[rebuild_file_exec_engine] ✅ file_exec_engine.py rebuilt.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

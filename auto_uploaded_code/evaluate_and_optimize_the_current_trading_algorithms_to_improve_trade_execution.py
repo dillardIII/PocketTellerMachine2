@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to evaluate and optimize the current trading algorithms, we first need to have access to the existing algorithms. However, as a text-based AI model developed by OpenAI, I don't have the ability to access or interact with external systems or databases, including your trading algorithms. 
 
 However, I can provide you with a general example of how you might evaluate and optimize a simple trading algorithm using Python. This example uses a simple moving average crossover strategy.

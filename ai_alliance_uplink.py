@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ai_alliance_uplink.py ===
 # 🤖 AI Alliance Uplink – Links PTM to external AI tools like Claude, Gemini, Copilot, local LLMs
 

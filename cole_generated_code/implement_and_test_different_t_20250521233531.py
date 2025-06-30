@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I'll provide a simple example of implementing and testing two different trading strategies: a buy and hold strategy and a simple moving average crossover strategy.
 
 First, we need to install some necessary libraries:

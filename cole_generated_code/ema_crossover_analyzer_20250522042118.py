@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we will use the `pandas` library for data manipulation and `yfinance` to download stock price data. The Exponential Moving Average (EMA) Crossover Analyzer will calculate the EMA for two different periods (short-term and long-term) and then determine when the short-term EMA crosses above or below the long-term EMA.
 
 Here is a simple implementation:

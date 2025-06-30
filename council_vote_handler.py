@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # council_vote_handler.py
 # Purpose: Final voting logic for PTM's Council of Personas
 # Tally votes, weigh experience, mood, memory, and pass final verdict to Trade Executor
@@ -20,7 +21,7 @@ class CouncilVoteHandler:
             profile = memory.get_memory_snapshot()
 
             # Weighted mood influence
-            mood = profile["moods"][-1] if profile["moods"] else "neutral"
+            mood = profile["moods"][-1] if profile["moods"] else "neutral":
             experience = len(profile["trade_logs"])
 
             vote, reason = self._generate_vote(persona, strategy, mood, signal_strength, experience)
@@ -49,16 +50,16 @@ class CouncilVoteHandler:
         threshold = 0.60 + random.uniform(-0.03, 0.03)
 
         approve = weight >= threshold
-        reason = f"{'Supports' if approve else 'Rejects'} based on mood '{mood}' and experience level {experience}."
-
-        return ("approve" if approve else "reject"), reason
-
+        reason = f"{'Supports' if approve else 'Rejects'} based on mood '{mood}' and experience level {experience}.":
+:
+        return ("approve" if approve else "reject"), reason:
+:
     def finalize_verdict(self):
-        """Tally votes and determine if trade is approved."""
-        approvals = sum(1 for v in self.vote_record if v["vote"] == "approve")
+        """Tally votes and determine if trade is approved.""":
+        approvals = sum(1 for v in self.vote_record if v["vote"] == "approve"):
         rejections = len(self.vote_record) - approvals
 
-        result = "approved" if approvals > rejections else "rejected"
+        result = "approved" if approvals > rejections else "rejected":
         log_event("Council Verdict Finalized", {
             "approved": approvals,
             "rejected": rejections,

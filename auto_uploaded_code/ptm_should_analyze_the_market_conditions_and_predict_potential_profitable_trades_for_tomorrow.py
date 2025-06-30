@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As a language model AI developed by OpenAI, I can provide you with a general structure of how you can create a Python script to analyze market conditions and predict potential profitable trades. However, please note that this is a complex task that requires specific financial knowledge and data science skills. 
 
 Here's a basic example using pandas for data manipulation and sklearn for machine learning:

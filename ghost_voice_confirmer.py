@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 from playsound import playsound  # Assumes playsound is supported in your environment
 
@@ -10,3 +11,6 @@ def confirm_sync(file_name):
         playsound(VOICE_CLIP_PATH)
     except Exception as e:
         print(f"⚠️ Voice playback failed: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

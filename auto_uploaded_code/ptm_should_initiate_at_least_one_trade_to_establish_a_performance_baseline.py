@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code to initiate a trade. Please note that this code is a simulation and doesn't actually execute any real trades. It's just a representation of how a trade could be initiated in Python. 
 
 ```python

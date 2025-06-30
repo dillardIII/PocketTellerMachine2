@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: start_gpt_bots.py ===
 
 # 🧠 GPT Bot Startup – Now with full macro + reflex command logic
@@ -33,3 +34,6 @@ if __name__ == "__main__":
             reflex_trigger.process(cmd)
         else:
             trigger.handle_command(cmd)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

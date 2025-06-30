@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 import random
@@ -73,7 +74,7 @@ def ghostbot_think_and_trade(ticker="AAPL"):
             json.dump(logs, f, indent=2)
         return log_entry
 
-    # === RiskGuardian: Check if trade is allowed ===
+    # === RiskGuardian: Check if trade is allowed ===:
     allowed, reason = is_trade_allowed()
     if not allowed:
         print(f"[RiskGuardian] Trade Blocked: {reason}")
@@ -111,8 +112,8 @@ def ghostbot_think_and_trade(ticker="AAPL"):
     decision = "buy_call"
     qty = 1
     simulated_result = round(random.uniform(-100, 300), 2)
-    outcome = "win" if simulated_result > 0 else "loss"
-
+    outcome = "win" if simulated_result > 0 else "loss":
+:
     # === Execute the Trade ===
     execution = execute_trade(
         strategy=best_strategy,
@@ -167,3 +168,6 @@ def ghostbot_think_and_trade(ticker="AAPL"):
     speak_trade_recap(log_entry, speaker=active_persona)
 
     return log_entry
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

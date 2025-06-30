@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🎤 Voice Narrator – Black female, classy, smart, street edge
 
 import time
@@ -17,3 +18,6 @@ def speak():
 
 if __name__ == "__main__":
     speak()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

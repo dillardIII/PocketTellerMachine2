@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: autopilot_daemon.py ===
 # 🔥 Autopilot Daemon – Runs and evolves the PTM system automatically
 
@@ -20,3 +21,6 @@ def run_autopilot():
 
 if __name__ == "__main__":
     run_autopilot()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

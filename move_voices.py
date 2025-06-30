@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import shutil
 
@@ -43,3 +44,6 @@ for original, new_name in rename_map.items():
         print(f"Moved: {original} → {new_name}")
     else:
         print(f"Missing: {original}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

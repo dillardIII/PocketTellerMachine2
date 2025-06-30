@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Since I am an AI assistant, I can only create some general code snippets for classes that might hold some methods or variables. A typical analysis and review could involve detailed statistical analysis, so here is a hypothetical code that might be useful. 
 
 This code makes use of packages such as pandas, numpy and matplotlib to fetch the trading data, analyze it for performance metrics and visualize the results.

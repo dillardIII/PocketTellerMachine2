@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, below is a simple implementation of the task given in python:
 
 ```python

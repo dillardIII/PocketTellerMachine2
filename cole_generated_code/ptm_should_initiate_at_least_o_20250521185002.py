@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help you draft a basic Python code for initiating a trade. However, please note that this is a simplified version and actual trading systems are far more complex and require additional security measures.
 
 ```python

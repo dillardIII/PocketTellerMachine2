@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To generate an RSI strategy, we need to calculate RSI (Relative Strength Index) for the assets. Here's the example of Python code for it.
 
 Install the required Libraries

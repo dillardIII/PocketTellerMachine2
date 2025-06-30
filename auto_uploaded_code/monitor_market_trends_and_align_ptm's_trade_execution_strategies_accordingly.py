@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 This kind of task requires extensive coding and is only exposed via certain API's, usually provided from Brokerage firms. There are many approaches to this task, so below I've outlined a very simplified layout of what the architecture of such a program might look like.
 
 The script below uses the yfinance library (Yahoo Finance's API) to retrieve market data, and pandas library to manipulate the data.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: replit_pickup_agent.py ===
 # 🤖 Pickup Agent – Replit bot pulls from bridge and installs into PTM
 
@@ -29,3 +30,6 @@ def pick_up_from_bridge():
             print(f"[Pickup Agent] ❌ Error: {e}")
 
         time.sleep(5)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

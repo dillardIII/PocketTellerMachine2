@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: replit_autobuilder.py ===
 import os
 from build_manifest_handler import log_build_manifest
@@ -25,3 +26,6 @@ def execute_build_payload(packet):
 
     # At the END of execute_build_payload():
     send_response(packet, status="✅ Build complete", notes="Files installed successfully.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

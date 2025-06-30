@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide you with a basic Python code that uses pandas library to analyze market data. However, please note that this is a very simplified code and real market analysis would require more complex algorithms and more data.
 
 ```python

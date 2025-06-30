@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import random
 import time
 from cole_event_logger import (
@@ -52,3 +53,6 @@ if __name__ == "__main__":
     simulate_cooldown_recovery()
 
     print("\n=== Failsafe Test Completed ===")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

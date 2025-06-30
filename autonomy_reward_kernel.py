@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Autonomy Reward Kernel
 Evaluates outcomes and assigns synthetic reinforcement signals to drive future decisions.
@@ -45,3 +46,6 @@ def process_reward_event(event_type, context=""):
     score = score_event(event_type)
     log_reward(event_type, score, context)
     return score
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

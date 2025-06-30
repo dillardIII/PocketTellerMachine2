@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 💀 GhostMeld – fuses existing modules into new hybrid AI constructs
 # Creates brand new .py files from combining parts of old modules
 
@@ -9,8 +10,8 @@ SOURCE_DIR = "."
 OUTPUT_DIR = "ptm_bridge"
 
 def get_ghost_files():
-    return [f for f in os.listdir(SOURCE_DIR) if f.startswith("ghost_") and f.endswith(".py")]
-
+    return [f for f in os.listdir(SOURCE_DIR) if f.startswith("ghost_") and f.endswith(".py")]:
+:
 def meld_files(file1, file2):
     with open(file1, "r") as f1, open(file2, "r") as f2:
         content1 = f1.readlines()
@@ -39,3 +40,6 @@ def ghost_meld_loop():
 
 if __name__ == "__main__":
     ghost_meld_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

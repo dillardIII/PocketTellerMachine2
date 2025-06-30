@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: telemetry_bridge.py ===
 # 📡 Telemetry Bridge – Collects and broadcasts logs, metrics, and system health
 
@@ -97,3 +98,6 @@ if __name__ == "__main__":
     start_telemetry_bridge()
     while True:
         time.sleep(60)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

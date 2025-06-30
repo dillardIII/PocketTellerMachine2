@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 import requests
@@ -54,3 +55,6 @@ def run_task_chain(task_desc, filename):
     print("[Chain] Installing code...")
     result = install_code_file(filename, code)
     return result
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

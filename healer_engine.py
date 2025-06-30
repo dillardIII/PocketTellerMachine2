@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: healer_engine.py ===
 # 🛠️ Healer Engine – Repairs broken files and dispatches to Auto Deployer
 
@@ -53,3 +54,6 @@ def log_diff(broken_path, diff_lines):
     except Exception as e:
         print(f"[HEALER] ❌ Failed to write diff log: {e}")
         return None
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

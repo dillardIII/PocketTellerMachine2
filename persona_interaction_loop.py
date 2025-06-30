@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Persona Interaction Loop – Inter-AI Conversations & Debates
 
@@ -78,3 +79,6 @@ def persona_interaction_loop():
 # Manual run
 if __name__ == "__main__":
     persona_interaction_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

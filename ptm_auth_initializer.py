@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from google_auth_oauthlib.flow import InstalledAppFlow
 import pickle
 
@@ -10,3 +11,6 @@ with open("token.pkl", "wb") as token:
     pickle.dump(creds, token)
 
 print("Google OAuth Complete.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

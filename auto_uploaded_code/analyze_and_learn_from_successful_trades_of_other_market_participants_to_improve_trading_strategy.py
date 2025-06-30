@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 This task involves machine learning and data analysis, which is a complex process and requires a large amount of data. Here is a simplified example of how you might approach this using Python, pandas for data manipulation, and scikit-learn for machine learning.
 
 ```python

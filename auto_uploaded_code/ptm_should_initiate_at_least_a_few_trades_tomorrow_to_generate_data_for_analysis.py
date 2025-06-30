@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate trades, we need to have a trading algorithm. Here is a simple example of a trading algorithm using Python. This algorithm will initiate trades based on simple moving average (SMA) strategy. 
 
 Please note that this is a simplified example and real-world trading algorithms are much more complex and take into account many more factors.

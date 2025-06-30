@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 def acquire_api_key(api_name, credentials):
     # Ghost sends POST to provider, handles 2FA or captcha via Varyn
     response = GhostBot.request_key(api_name, credentials)

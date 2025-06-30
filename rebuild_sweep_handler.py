@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: rebuild_sweep_handler.py ===
 # 🔧 Rebuilds sweep_handler.py – File Routing Logic
 
@@ -27,3 +28,6 @@ class SweepHandler:
             time.sleep(1)
 ''')
 print("[rebuild_sweep_handler] ✅ sweep_handler.py rebuilt.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

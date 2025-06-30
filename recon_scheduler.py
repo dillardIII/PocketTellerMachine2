@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # recon_scheduler.py – Schedules recurring recon tasks
 
 import threading
@@ -19,7 +20,7 @@ def recon_worker(target):
         if now - target["last_run"] >= target["interval"]:
             print(f"[Scheduler] 🔁 Running recon for {target['url']}")
             data = scrape_webpage(target["url"])
-            print(f"[Scheduler] 📥 Data pulled: {len(data) if data else 0} items")
+            print(f"[Scheduler] 📥 Data pulled: {len(data) if data else 0} items"):
             target["last_run"] = now
         time.sleep(5)
 
@@ -27,3 +28,6 @@ def start_scheduler():
     print("[Scheduler] 🕒 Starting Recon Scheduler")
     for target in recon_targets:
         threading.Thread(target=recon_worker, args=(target,), daemon=True).start()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

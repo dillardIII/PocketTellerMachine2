@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a basic implementation of an EMA (Exponential Moving Average) Crossover Analyzer in Python using the pandas library. This program will analyze a given dataset for EMA crossovers, which are often used in trading as signals to buy or sell.
 
 Please replace 'data.csv' with your actual data file. The data file should contain 'Close' price data. You can also adjust the short and long window parameters as per your requirements.

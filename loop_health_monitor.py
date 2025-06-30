@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: loop_health_monitor.py ===
 
 import time
@@ -21,3 +22,6 @@ def update_loop_status(name):
 
     with open(STATUS_FILE, "w") as f:
         json.dump(status, f, indent=2)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

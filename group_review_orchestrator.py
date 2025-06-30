@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: group_review_orchestrator.py ===
 import os
 from team_file_router import send_file_to_team
@@ -27,3 +28,6 @@ def start_group_review(sender, file_path):
             description=f"{sender} submitted this for group review."
         )
         print(f"[GROUP_REVIEW] Sent copy to {reviewer}: {review_copy}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

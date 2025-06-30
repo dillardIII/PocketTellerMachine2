@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 from flask import Blueprint, jsonify, request
@@ -22,3 +23,6 @@ def market_screener_backtest_api():
         "backtest_results": results,
         "count": len(results)
     })
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

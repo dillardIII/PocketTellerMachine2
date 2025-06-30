@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and patterns to identify potential trading opportunities is a complex task that involves machine learning and data analysis. Here's a simplified example of how you might approach this using Python. In this example, we will use the `pandas` library for data manipulation and `yfinance` to fetch the stock data.
 
 Please note that this is a very basic example and real-world trading algorithms are much more complex and take into account many more factors.

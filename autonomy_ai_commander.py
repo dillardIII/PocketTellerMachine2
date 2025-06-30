@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # autonomy_ai_commander.py
 # Routes commands, assigns tasks based on phase and bot focus
 
@@ -30,3 +31,6 @@ def command_loop():
             assign_task_to_bot(bot["id"], "idle")
 
     print("[AI Commander] ✅ Task assignment complete.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

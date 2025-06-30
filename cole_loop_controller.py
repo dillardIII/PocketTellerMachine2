@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_loop_controller.py ===
 # Main control loop for Cole – the core AI logic bot in PTM
 
@@ -49,3 +50,6 @@ def run_cole_controller_loop():
         except Exception as e:
             print(f"[Cole Core] ❌ Error during loop: {e}")
             time.sleep(5)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

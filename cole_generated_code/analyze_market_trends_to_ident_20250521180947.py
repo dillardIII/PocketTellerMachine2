@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In this program, we are going to use the yfinance library to fetch stock market data of a particular company. We will analyze its Close prices using Simple Moving Average (SMA) strategy. 
 
 One of the most popular and simple strategies is called the Moving Average Crossover. This will be our trading signal. If the short-term moving average crosses above the long-term moving average, it may be a good time to buy. If it crosses below, it may be a good time to sell.

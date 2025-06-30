@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_sync_status_panel.py ===
 """
 Bridge Sync Status Panel
@@ -42,7 +43,7 @@ def display_status():
     
     for system, data in comm_data.items():
         delay = get_delay_minutes(data["last_ping"])
-        health = "✅ Healthy" if delay is not None and delay < 5 else "⚠️ Delayed"
+        health = "✅ Healthy" if delay is not None and delay < 5 else "⚠️ Delayed":
         print(f"[{system.upper()}] Status: {data['status'].upper()} | Last Ping: {data['last_ping']} | Delay: {delay} min | Health: {health}")
         print(f"  Message: {data['message']}")
     
@@ -51,3 +52,6 @@ def display_status():
     for system, status in sync_data.items():
         print(f"  {system}: Last Sync @ {status.get('last_sync')} | Health: {status.get('health')}")
     print("--------------------------------------------------\n")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

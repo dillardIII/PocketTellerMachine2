@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and patterns to identify potential trading opportunities is a complex task that involves machine learning and data analysis. Here is a simple example of how you might approach this task using Python, pandas, and scikit-learn. 
 
 This code is a very basic example and should be expanded upon for real-world use. It uses a simple moving average strategy to identify potential trading opportunities.

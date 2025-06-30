@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to evaluate and analyze market trends using Python, we'll need to fetch some historical data from a financial market source. We will use the `yfinance` API to fetch stock data of a specific company (for example, Google). Then we use `pandas` to manipulate the data and `matplotlib` to visualize it.
 Since it is a broad topic, this application is simple and will do the following:
 - Fetching Google's historical data,

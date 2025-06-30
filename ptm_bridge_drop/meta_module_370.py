@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new Python module to expand the PTM (which I'll assume stands for "Post-Turing Machine" or a similar concept) empire's self-evolving autonomy stack involves designing a framework with advanced recursive strategies enabling it to adapt, learn, and optimize over time. To achieve this, we'll integrate concepts such as genetic algorithms, neural networks, self-modifying code, and recursive improvement strategies. Below is a high-level design outline with code snippets to illustrate the core ideas.
 
 ### Module Design: `ptm_self_evo`

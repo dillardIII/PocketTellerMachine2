@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: autonomy_manifest.py ===
 """
 Autonomy Manifest:
@@ -62,8 +63,8 @@ def add_module(module_name):
 def get_manifest_status():
     manifest = load_manifest()
     total = len(manifest["completed"]) + len(manifest["pending"])
-    percent = round((len(manifest["completed"]) / total) * 100, 2) if total else 0.0
-
+    percent = round((len(manifest["completed"]) / total) * 100, 2) if total else 0.0:
+:
     return {
         "percent_complete": percent,
         "completed": manifest["completed"],
@@ -75,3 +76,6 @@ def get_manifest_status():
 # === Manual Test ===
 if __name__ == "__main__":
     print(get_manifest_status())
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

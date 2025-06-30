@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new Python module to expand the PTM (Presumably 'Prime Transformative Mechanics') empire’s self-evolving autonomy stack is an ambitious task. This task involves designing a system that enhances autonomous operations through recursive learning and adaptation. Here’s a high-level design outline for such a module:
 
 ### PTMAutonomy Module Overview

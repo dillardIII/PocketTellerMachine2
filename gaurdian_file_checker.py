@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: guardian_file_checker.py ===
 # 🛡️ Guardian File Checker – Auto-heals missing files using GhostForge + Execution
 
@@ -52,3 +53,6 @@ def guardian_run_command(command):
             print(f"[Guardian] ❌ Unknown file: {filename}")
     else:
         print(f"[Guardian] ❓ Unknown command: {command}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

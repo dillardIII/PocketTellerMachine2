@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code that simulates a basic trading strategy. This strategy is based on moving averages. When the short term average is higher than the long term average, it's a signal to buy. Conversely, when the short term average is lower than the long term average, it's a signal to sell.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop a trading strategy, we can use the concept of moving averages, a common strategy used in trading. This strategy can be implemented using Python with the help of the pandas library. Here is a simple example of a trading strategy using moving averages:
 
 ```python

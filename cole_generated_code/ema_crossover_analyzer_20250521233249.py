@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help you with that. Here's a simple example of how you might implement an EMA (Exponential Moving Average) Crossover Analyzer in Python using pandas for data manipulation and yfinance to download stock price data.
 
 ```python

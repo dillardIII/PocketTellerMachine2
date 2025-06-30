@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and patterns, we need historical market data. We can use libraries like pandas, numpy, matplotlib for data manipulation, analysis and visualization, and yfinance to download the market data. 
 
 Here is a basic example of how you could implement this:

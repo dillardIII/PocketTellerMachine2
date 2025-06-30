@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: assistant_routes.py ===
 # 🧠 Assistant Selector – Allows switching AI assistant personas
 
@@ -21,3 +22,6 @@ def select_persona():
 @assistant_routes.route("/assistants/active", methods=["GET"])
 def current_persona():
     return jsonify({"active": active_persona})
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

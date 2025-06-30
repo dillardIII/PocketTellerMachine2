@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As a language model AI developed by OpenAI, I'm unable to execute Python code or interact with live databases or APIs. However, I can provide you with a Python code example that could be used to analyze stock data for potential profitable trades. This code uses the `pandas` library to analyze data and `yfinance` to download stock data. 
 
 This is a simple example and does not take into account many factors that could influence stock prices. Please use this as a starting point and consult with a financial advisor or use more advanced techniques for actual trading.

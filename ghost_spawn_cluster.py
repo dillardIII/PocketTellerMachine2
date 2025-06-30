@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 👻 GhostSpawnCluster – spawns new AIs or fusions on demand
 # Each spawn inherits part of previous intelligence plus random new traits.
 
@@ -29,3 +30,6 @@ def spawn_cluster(count=12):
 
 if __name__ == "__main__":
     spawn_cluster()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to develop and implement new trading strategies, we first need to define what kind of strategies we are going to use. For this example, let's use a simple moving average crossover strategy. This strategy is based on two moving averages, a "fast" and a "slow" moving average. When the fast moving average crosses above the slow moving average, it's a signal to buy. When it crosses below, it's a signal to sell.
 
 Here is a simple implementation of this strategy using Python and the pandas library:

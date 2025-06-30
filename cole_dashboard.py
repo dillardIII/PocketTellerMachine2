@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from flask import Flask, render_template_string, jsonify
 from cole_autopilot_cycle import cole_autopilot_cycle  # ✅ Corrected import
 from cole_self_learning_task_generator import generate_self_learning_tasks
@@ -66,7 +67,7 @@ def dashboard_page():
     """
     return render_template_string(html_template)
 
-# === Routes if running cole_dashboard.py directly ===
+# === Routes if running cole_dashboard.py directly ===:
 @app.route('/')
 def dashboard_direct():
     return dashboard_page()
@@ -109,3 +110,6 @@ def get_malik_log():
 # === CLI direct run mode ===
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=3000, debug=True)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

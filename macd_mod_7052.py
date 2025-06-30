@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 
 # === FILE: macd_mod_7052.py ===
 # Auto-generated strategy using MACD
@@ -13,3 +14,7 @@ def run():
 
 if __name__ == "__main__":
     run()
+
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # assistant_interaction_matrix.py
 # Purpose: Create persona-to-persona interactions for PTM's internal council logic
 # Enables AI assistants to debate, challenge, teach, and influence one another

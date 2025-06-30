@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # vps_bridge_controller.py - Handles syncing PTM with remote VPS environments
 
 import os
@@ -39,3 +40,6 @@ if __name__ == "__main__":
     bridge.connect()
     bridge.sync_data()
     bridge.start_remote_server()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

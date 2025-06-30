@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code that simulates diversification of a portfolio. This code uses the `yfinance` library to download stock data, `pandas` for data manipulation, and `numpy` for calculations. 
 
 Please note that this is a very basic example and real portfolio diversification involves more complex analysis and strategic decision-making.

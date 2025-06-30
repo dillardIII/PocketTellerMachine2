@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To start creating and executing trading strategies, a trading bot using Python can be implemented. This bot will use the Python library 'Alpaca', which connects to Alpaca's trade API, allowing trading on U.S. markets using the account.
 
 To illustrate, below is a simple Python script that runs a basic trading strategy. Note that you need to install the Alpaca trade API by running `pip install alpaca-trade-api`.

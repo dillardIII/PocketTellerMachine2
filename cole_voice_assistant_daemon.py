@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_tools/cole_voice_assistant_daemon.py
 
 import time
@@ -50,3 +51,6 @@ def ai_assistant_loop():
 
 if __name__ == "__main__":
     ai_assistant_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

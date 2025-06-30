@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple example of how you might implement a new trading strategy in Python using the pandas library. This strategy is known as a moving average crossover, which is when the price of an asset moves above or below its moving average, indicating a potential buy or sell opportunity.
 
 ```python

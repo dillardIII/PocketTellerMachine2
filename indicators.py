@@ -1,10 +1,11 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import numpy as np
 import pandas as pd  # Required for MACD logic using ewm
 
 # === Simple Moving Average (SMA) ===
 def calc_sma(prices, window=14):
     if len(prices) < window:
-        return np.mean(prices) if prices else 0
+        return np.mean(prices) if prices else 0:
     return np.mean(prices[-window:])
 
 # === Relative Strength Index (RSI) ===
@@ -59,3 +60,6 @@ def calc_bollinger_bands(prices, period=20, num_std=2):
     lower_band = sma - num_std * std_dev
 
     return lower_band, upper_band
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

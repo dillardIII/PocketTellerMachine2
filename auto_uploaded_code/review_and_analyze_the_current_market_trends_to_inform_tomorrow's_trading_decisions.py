@@ -1,1 +1,2 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 generated/Review_and_analyze_the_current_market_trends_to_inform_tomorrow's_trading_decisions_20250520_042417.py

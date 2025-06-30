@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module to expand the PTM (Presumably "Perception, Transfer, Manipulation") empire's self-evolving autonomy stack with innovative recursive strategies involves several core components. To achieve this, we'll focus on creating a flexible, recursive data-processing framework that uses principles from machine learning, reinforcement learning, and active learning to ensure continuous improvement and adaptation. Here's a high-level overview and a design outline for this module:
 
 ### Module Overview

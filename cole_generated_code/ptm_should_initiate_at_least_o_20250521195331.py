@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code that simulates a trade initiation. In this example, I'll use the `yfinance` package to fetch stock data and `pandas` to handle the data. Please note that this is a very basic example and real trading involves more complex strategies and risk management.
 
 ```python

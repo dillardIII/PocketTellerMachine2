@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ai_file_listener_writer.py ===
 # 🧠 AI File Listener Writer – watches a directory for new module specs, creates files, hands off to PTM stack.
 
@@ -31,3 +32,6 @@ def main_loop():
 
 if __name__ == "__main__":
     main_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

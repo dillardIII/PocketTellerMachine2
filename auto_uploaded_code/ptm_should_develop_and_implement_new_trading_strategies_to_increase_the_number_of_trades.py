@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 While I can't write a full trading strategy for you (as it would require knowledge of your current trading strategies, risk tolerance, and other factors), I can provide you with a simple Python code that uses a moving average crossover strategy. This strategy is a common one where a short-term average crosses a long-term average, often used as a signal to buy or sell.
 
 ```python

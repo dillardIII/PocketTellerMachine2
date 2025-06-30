@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a simple example of a Python code for a trading strategy using Moving Average Crossover. This strategy is one of the simplest to understand and implement. It involves two moving averages, one short and one long. When the short moving average crosses above the long moving average, it signals a buy, and when it crosses below, it signals a sell.
 
 Before we start, please make sure you have the `pandas`, `numpy`, `matplotlib`, and `yfinance` libraries installed in your Python environment. If not, you can install them using pip:

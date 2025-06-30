@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: log_monitor.py ===
 # 📉 Log Monitor – Watches logs and triggers reflex fixes on error patterns
 
@@ -30,3 +31,6 @@ def start_log_monitor():
             time.sleep(10)
 
     threading.Thread(target=monitor_loop, daemon=True).start()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

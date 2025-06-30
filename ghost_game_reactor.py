@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_game_reactor.py ===
 """
 Listens for game updates and triggers Ghost Gamer reactions,
@@ -49,3 +50,6 @@ def start_game_reactor():
 
 if __name__ == "__main__":
     start_game_reactor()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

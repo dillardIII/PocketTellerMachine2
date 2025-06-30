@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code that simulates a trade initiation for PTM (Python Trading Machine). Please note that this is a very basic example and real-world trading involves more complex algorithms and risk management strategies.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of how you might initiate a trade using Python. This code assumes you have a function called `evaluate_strategy()` that determines whether to buy or sell based on your current strategies.
 
 ```python

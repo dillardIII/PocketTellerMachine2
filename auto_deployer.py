@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_deployer.py ===
 # 🚀 Auto Deployer – Pushes fixed code into production environment with smart backups, rollback, and logs
 
@@ -42,7 +43,7 @@ def deploy_fix(fixed_code, target_file):
         print(f"[AutoDeployer] ❌ Deployment failed: {e}")
         print("[AutoDeployer] 🛠️ Attempting rollback...")
 
-        # === Rollback if something goes wrong ===
+        # === Rollback if something goes wrong ===:
         try:
             if os.path.exists(backup_path):
                 shutil.copy2(backup_path, target_file)
@@ -65,3 +66,6 @@ def deploy_fix_simple(file_path, new_code):
     except Exception as e:
         print(f"[AutoDeployer] ❌ Failed simple deploy: {e}")
         return {"status": "failed", "error": str(e)}
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

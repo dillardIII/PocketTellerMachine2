@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: strategy_mutator.py ===
 import os
 import re
@@ -54,3 +55,6 @@ def mutate_strategy(file_path, bot_name="Mutator"):
 
     print(f"[MUTATOR] Created mutated strategy: {new_name}")
     return new_path
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

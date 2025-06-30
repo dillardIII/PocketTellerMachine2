@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 AI Memory Linker – Shared Memory Pool Across Assistants
 
@@ -42,7 +43,7 @@ def recall_memories(topic=None, limit=10):
         memories = json.load(f)
 
     if topic:
-        filtered = [m for m in memories if m["topic"] == topic]
+        filtered = [m for m in memories if m["topic"] == topic]:
         return filtered[-limit:]
     else:
         return memories[-limit:]
@@ -51,3 +52,6 @@ def clear_memories():
     if os.path.exists(MEMORY_FILE):
         os.remove(MEMORY_FILE)
         print("[Memory] Long-term memory wiped.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

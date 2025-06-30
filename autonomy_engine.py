@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: autonomy_engine.py ===
 
 # 🧠 Autonomy Engine – Watches queues, triggers GhostForge rebuilds, logs results
@@ -53,3 +54,6 @@ def run_autonomy_engine():
 # === Optional standalone runner ===
 if __name__ == "__main__":
     run_autonomy_engine()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

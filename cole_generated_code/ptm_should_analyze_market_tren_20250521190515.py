@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To write a Python code for analyzing market trends and opportunities for potential profitable trades, we need to use libraries like pandas for data manipulation, matplotlib for data visualization, and yfinance to download the stock data. Here is a simple example:
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: vaultkey_authority.py ===
 # 🔐 VaultKey Authority – Secure access handler for vault, bots, and external AI collaborators
 

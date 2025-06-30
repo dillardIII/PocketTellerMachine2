@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presumably PropTech Management or Personalized Transportation Module? Clarification would be needed in a real-world scenario) empire's self-evolving autonomy stack involves creating features that support autonomous decision-making, adaptability, and system growth. Given the execution involves recursive strategies, we'll focus on recursive learning, autonomous system evaluations, and self-optimization.
 
 Below is a conceptual design for such a module:

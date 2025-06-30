@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a basic structure of a Python code that simulates a simple trading strategy. However, please note that this is a simplified example and real-world trading strategies involve complex algorithms, real-time data processing, and rigorous backtesting.
 
 ```python

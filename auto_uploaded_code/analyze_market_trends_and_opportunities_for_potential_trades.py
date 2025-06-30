@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and opportunities for potential trades involves complex data analysis and machine learning algorithms. Here is a simple Python code using pandas and yfinance libraries to fetch historical data of a particular stock and analyze it:
 
 ```python

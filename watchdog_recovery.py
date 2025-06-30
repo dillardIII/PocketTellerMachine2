@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🛡️ Watchdog Recovery – Detects system lockups and force restarts stuck modules
 
 import os

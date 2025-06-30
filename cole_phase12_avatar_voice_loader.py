@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase12_avatar_voice_loader.py
 
 import os
@@ -28,3 +29,6 @@ def get_persona_avatar_voice(persona_name):
             "avatar_style": "default"
         }
     return persona_data
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

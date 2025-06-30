@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🧠 Bridge File Exec Engine – Executes Python files dropped into the incoming folder
 
 import os
@@ -22,3 +23,6 @@ def execute_incoming_files():
                 print(f"[FileExecEngine] ✅ Executed: {filename}")
             except Exception as e:
                 print(f"[FileExecEngine] ❌ Failed to execute {filename}:\n{traceback.format_exc()}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

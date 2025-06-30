@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 import threading
@@ -44,7 +45,7 @@ def record_daily_snapshot():
 def congress_scheduler_loop():
     while True:
         now = datetime.now()
-        if now.hour == 18 and now.minute == 0:  # Runs daily at 6:00 PM
+        if now.hour == 18 and now.minute == 0:  # Runs daily at 6:00 PM:
             record_daily_snapshot()
             time.sleep(60)  # Prevent re-triggering the same minute
         time.sleep(30)
@@ -58,3 +59,6 @@ def start_congress_scheduler():
 # === Manual Test Run ===
 if __name__ == "__main__":
     record_daily_snapshot()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Below is a simple Python trading strategy that you can expand upon. This example focuses on a momentum-based trading strategy using moving averages.
 
 ```python

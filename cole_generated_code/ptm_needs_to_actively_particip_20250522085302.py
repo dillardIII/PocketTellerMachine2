@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 It seems like you're asking for a Python code that simulates trading activities for PTM (which I assume is a trading bot or a trading entity). Here's a simple Python code that simulates buying and selling stocks using random values. 
 
 ```python

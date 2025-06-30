@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # spectral_autonomy_matrix.py
 """
 Tier 10 Final: Spectral Autonomy Matrix
@@ -59,3 +60,6 @@ if __name__ == "__main__":
     matrix = SpectralMatrix()
     matrix.update_personas(["Spectra", "Mo Cash", "Mentor", "Strategist", "Shadow", "GhostBot"])
     matrix.sync_matrix()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

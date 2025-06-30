@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code that uses the Alpaca API for trading. This code will initiate a trade by buying one share of Apple stock.
 
 ```python

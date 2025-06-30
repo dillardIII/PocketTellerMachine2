@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_queries.py ===
 # 🧠 Ghost Intel Feed Engine – Queries and curates real-time insights
 
@@ -116,3 +117,6 @@ def log_ghost_results(results):
         json.dump(results, f, indent=2)
 
     return log_file
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

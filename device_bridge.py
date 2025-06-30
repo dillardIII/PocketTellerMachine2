@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: device_bridge.py ===
 # 🌐 Device Bridge – Syncs PTM states, files, and configs across connected devices
 

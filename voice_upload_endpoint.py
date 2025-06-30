@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: voice_upload_endpoint.py ===
 # 🔊 Voice Upload Endpoint – Accepts MP3 files for assistant previews
 
@@ -22,3 +23,6 @@ def upload_voice():
     file.save(path)
 
     return jsonify({"message": f"Voice file saved: {file.filename}"}), 200
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code for a trading strategy using Moving Average Crossover. This strategy is based on two moving averages, a "fast" and a "slow" moving average. When the fast moving average crosses above the slow moving average, it's a signal to buy. When it crosses below, it's a signal to sell.
 
 This is a simple strategy and doesn't take into account many factors that could influence trading decisions in real-world scenarios. Please note that this is a simulation and should not be used for real trading without proper adjustments and strategy validation.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: command_listener.py ===
 import threading
 
@@ -10,3 +11,7 @@ class CommandListener(threading.Thread):
                 exec(cmd)
             except Exception as e:
                 print(f"[CommandListener] ❌ {e}")
+
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

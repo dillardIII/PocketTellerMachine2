@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module for the PTM empire's self-evolving autonomy stack involves creating an architecture that leverages recursive strategies to enable adaptive learning and decision-making. This module will utilize various AI and machine learning techniques to provide a system that can evolve its operational tactics dynamically. Here’s a conceptual design and some code snippets to illustrate how this module could be structured:
 
 ### Module Overview

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bot_bridge_handler.py ===
 """
 Bot Bridge Handler:
@@ -57,7 +58,7 @@ def read_bridge(receiver):
         if fname.endswith(".json") and f"_to_{receiver}" in fname:
             with open(os.path.join(BRIDGE_DIR, fname), "r") as f:
                 data = json.load(f)
-                pending = [msg for msg in data["messages"] if msg["status"] == "pending"]
+                pending = [msg for msg in data["messages"] if msg["status"] == "pending"]:
                 results.extend(pending)
     return results
 
@@ -82,3 +83,6 @@ def mark_task_complete(sender, receiver, timestamp):
 if __name__ == "__main__":
     send_to_bot("MoCash", "Mentor", {"symbol": "AAPL", "rating": 90}, task="review", file="AAPL_strategy_v1.py")
     print(read_bridge("Mentor"))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # trigger_engine.py
 """
 Module to check whether a trade alert condition is met.

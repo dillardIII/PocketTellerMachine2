@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new Python module to expand the PTM (which could stand for anything from Pathfinding Technology Module to Predictive Traffic Management, depending on the context) empire’s self-evolving autonomy stack involves integrating innovative recursive strategies and ensuring that the system can learn and evolve independently. Here’s a high-level design of such a module:
 
 ### Module: `pta_autonomy`

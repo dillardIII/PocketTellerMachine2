@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: team_listener.py ===
 from team_comm_router import read_inbox, clear_inbox, send_packet
 
@@ -27,3 +28,6 @@ def listen_for_packets(team_name):
         process_packet(packet, team_name)
 
     clear_inbox(team_name)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To diversify trading strategies, we can implement different types of trading strategies such as Mean Reversion, Momentum, Statistical Arbitrage etc. However, without specific details about PTM's current strategies and trading data, it's hard to provide a specific code. 
 
 Here is a simple example of a Mean Reversion strategy using Python:

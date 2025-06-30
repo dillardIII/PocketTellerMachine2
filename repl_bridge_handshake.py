@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: repl_bridge_handshake.py ===
 # Establishes handshake and verification pipeline between ChatGPT and Replit AI for code review and repair
 
@@ -36,7 +37,7 @@ class ReplitAIHandshake:
         # Placeholder: Pretend to scan and repair
         print(f"[InspectorBot] 🔍 Scanning {file_name} for errors...")
         time.sleep(1)
-        print(f"[RepairBot] 🧰 Attempting repair if needed...")
+        print(f"[RepairBot] 🧰 Attempting repair if needed..."):
         time.sleep(1)
         print(f"[ConfirmBot] ✅ {file_name} passes for autonomy.")
         return {
@@ -61,3 +62,6 @@ if __name__ == "__main__":
 
     bridge.assign_review_bots()
     bridge.summary_report()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python script that uses the `yfinance` library to download stock data and `pandas` to analyze it. This script identifies stocks with the highest percentage increase over the last 5 days.
 
 Please note that this is a very basic form of market analysis and should not be used for actual trading decisions without further enhancements.

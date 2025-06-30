@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: event_listener_core.py ===
 
 # 🎧 Event Listener – Reacts to file drops, voice triggers, or external signals
@@ -17,3 +18,6 @@ def listen_for_events(folder="ptm_inbox"):
                 print(f"[EventListener] ⚡ New file dropped: {file}")
         known_files = current_files
         time.sleep(2)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

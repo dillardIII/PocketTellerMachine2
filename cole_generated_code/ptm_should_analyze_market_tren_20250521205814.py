@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and patterns, we need historical market data. We can use libraries like pandas for data manipulation, numpy for numerical computation, and matplotlib for visualization. We can use yfinance to download historical market data from Yahoo Finance.
 
 Here is a simple Python script that uses Moving Average Convergence Divergence (MACD) to identify potential trading opportunities. MACD is a trend-following momentum indicator that shows the relationship between two moving averages of a security’s price.

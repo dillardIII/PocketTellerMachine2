@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple example of how you might implement a trading bot in Python using the Alpaca API. Please note that you need to replace `APCA-API-KEY-ID` and `APCA-API-SECRET-KEY` with your own Alpaca API keys.
 
 ```python

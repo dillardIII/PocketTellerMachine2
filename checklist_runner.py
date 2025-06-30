@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from cole_brain import cole_think
 from cole_executor import cole_auto_run
 from cole_auto_task_creator import auto_generate_tasks
@@ -33,7 +34,7 @@ def run_pre_market_checklist():
 
     # Brain Quick Test
     try:
-        result = cole_think("Create a Python function that buys TSLA if RSI is below 30.")
+        result = cole_think("Create a Python function that buys TSLA if RSI is below 30."):
         if "def" in result:
             print("[Checklist] Cole Brain PASS")
         else:
@@ -76,3 +77,6 @@ def run_pre_market_checklist():
 # === Run Directly ===
 if __name__ == "__main__":
     run_pre_market_checklist()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

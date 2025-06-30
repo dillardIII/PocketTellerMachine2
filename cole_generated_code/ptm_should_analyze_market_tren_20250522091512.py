@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and patterns, we need historical market data. We can use libraries like pandas, numpy, and yfinance to fetch and analyze this data. Here's a simple Python script that fetches historical data for a particular stock and calculates its moving averages to identify potential trading opportunities:
 
 ```python

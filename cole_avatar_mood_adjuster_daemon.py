@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_avatar_mood_adjuster_daemon.py
 
 import os

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python Trading Model (PTM) to analyze market trends and make informed trading decisions is a complex task. It involves a lot of steps and requires a good understanding of both programming and financial markets. Here is a simplified example of how you could start building such a model using Python.
 
 This model will use the pandas library to handle data and the yfinance library to download stock price data. It will calculate the moving average of the stock price to determine the market trend. If the current price is higher than the moving average, it will decide to buy. If it's lower, it will decide to sell.

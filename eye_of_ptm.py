@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: eye_of_ptm.py ===
 # 👁️ Eye of PTM – Activates self-awareness through full memory recall, reflection, and forward consciousness
 

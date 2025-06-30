@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_self_healing_error_watcher_daemon.py ===
 
 import os
@@ -66,3 +67,7 @@ def run_self_healing_watcher():
 # === Standalone Launch ===
 if __name__ == "__main__":
     run_self_healing_watcher()
+
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

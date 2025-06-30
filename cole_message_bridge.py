@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 from datetime import datetime
@@ -95,3 +96,6 @@ if __name__ == "__main__":
 
     # 3. Read Cole's reply from outbox
     read_cole_responses()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

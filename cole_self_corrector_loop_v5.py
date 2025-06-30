@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_self_corrector.py ===
 
 import time
@@ -21,3 +22,6 @@ def auto_self_corrector():
 
 if __name__ == "__main__":
     auto_self_corrector()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

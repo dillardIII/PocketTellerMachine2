@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # auto_trade_executor.py
 # Purpose: Execute trades automatically when in full_auto mode
 # Reads autonomy_mode_config.json and executes or blocks trades accordingly
@@ -23,7 +24,7 @@ class AutoTradeExecutor:
             self.config = json.load(f)
 
     def check_fail_safe(self, trade):
-        """Consult RiskGuardian to block trades if thresholds are breached."""
+        """Consult RiskGuardian to block trades if thresholds are breached.""":
         return self.risk_guard.is_trade_allowed(trade, self.config.get("fail_safe", {}))
 
     def execute_trade(self, trade):

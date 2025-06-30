@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI, I can provide a basic Python code to analyze stock market data. However, it's important to note that real-world trading analysis involves complex algorithms and risk management strategies. Here's a simple example using pandas library and Yahoo Finance data:
 
 ```python

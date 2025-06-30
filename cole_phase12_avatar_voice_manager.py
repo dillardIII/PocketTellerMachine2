@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from flask import Blueprint, jsonify, request
 import os, json
 
@@ -41,8 +42,11 @@ def add_avatar():
 def delete_avatar(name):
     try:
         profiles = load_profiles()
-        profiles = [p for p in profiles if p.get("name") != name]
+        profiles = [p for p in profiles if p.get("name") != name]:
         save_profiles(profiles)
         return jsonify({"status": "success", "message": f"Avatar '{name}' deleted."})
     except Exception as e:
         return jsonify({"status": "error", "message": str(e)}), 500
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

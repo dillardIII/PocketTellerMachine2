@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and adjust trading strategies, we can use a variety of tools and techniques. Here is a simple example of how you might use Python to analyze market trends using pandas, numpy and sklearn libraries. This is a very basic example and real-world trading algorithms are much more complex and take many more factors into account.
 
 ```python

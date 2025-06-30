@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI model developed by OpenAI, I can't conduct real-time market research or execute trades. However, I can provide a basic example of how you might use Python to analyze historical market data. 
 
 You could use the `pandas` library to analyze data, and `yfinance` to download historical market data from Yahoo Finance. Here's a simple example:

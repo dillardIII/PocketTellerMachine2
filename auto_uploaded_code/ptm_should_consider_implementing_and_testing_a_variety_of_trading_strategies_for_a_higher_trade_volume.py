@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Your request is very broad and it's hard to know what specifically you want as trading strategies can vary a lot. But here's a basic example of backtesting the simple moving average crossover strategy using Python. This is just a simple strategy for demonstration and might not be effective in actual trading. We'll use the pandas and yfinance libraries to get historical price data and to manipulate it:
 
 ```python

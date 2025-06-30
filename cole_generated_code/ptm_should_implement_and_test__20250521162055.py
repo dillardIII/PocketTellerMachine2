@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Before we can start with the task, you need to be aware that implementing trading strategies is a complex task that requires analysis of financial markets and careful code structuring. Also, we need trading data and possibly access to an online broker, which we obviously cannot realize in this context.
 
 But I can show you a basic simulation of a trading strategy using a simple moving average (SMA) crossover strategy with artificial data:

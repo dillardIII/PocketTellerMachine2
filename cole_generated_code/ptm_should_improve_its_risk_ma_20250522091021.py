@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI, I can provide you with a Python code example that could be used as a part of a risk management system. However, the risk management system is a complex structure that involves not only programming but also financial expertise, regulations, and company policies. Here's a simple example of how you might use Python to calculate Value at Risk (VaR), a risk management technique:
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # persona_scheduler.py
 # Purpose: Schedule autonomous persona activity across PTM system
 # Each persona runs their task cycle on a timer or based on mood/triggers
@@ -43,7 +44,7 @@ class PersonaScheduler:
         if decision == "generate":
             module_name = f"{self.persona.lower()}_task_{datetime.now().strftime('%H%M%S')}"
             purpose = f"Routine task loop by {self.persona}"
-            base_code = f"def run():\n    print('Executed by {self.persona}')"
+            base_code = f"def run():
             path = self.ghostforge.generate_module(module_name, purpose, base_code, trigger_source="auto-cycle")
             return f"[{self.persona}] Generated: {path}"
 

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and patterns, we can use libraries such as pandas for data manipulation, yfinance to download the stock price data, matplotlib for plotting, and sklearn for machine learning. Here is a simple example of how you can analyze market trends and patterns:
 
 ```python

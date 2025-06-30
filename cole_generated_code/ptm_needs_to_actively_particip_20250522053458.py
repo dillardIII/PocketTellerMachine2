@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To actively participate in the market, PTM (let's assume it's a trading bot) needs to perform actions such as buying and selling stocks. Here is a simple Python code that simulates this process:
 
 ```python

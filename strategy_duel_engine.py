@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: strategy_duel_engine.py ===
 import importlib.util
 import os
@@ -60,8 +61,8 @@ def run_strategy_duel(file_a, file_b, rounds=10):
     score_a = score_strategy(results_a)
     score_b = score_strategy(results_b)
 
-    winner = "A" if score_a > score_b else "B" if score_b > score_a else "Draw"
-
+    winner = "A" if score_a > score_b else "B" if score_b > score_a else "Draw":
+:
     log = {
         "strategy_A": os.path.basename(file_a),
         "strategy_B": os.path.basename(file_b),
@@ -80,3 +81,6 @@ def run_strategy_duel(file_a, file_b, rounds=10):
 
     print(f"[DUEL] {log['strategy_A']} vs {log['strategy_B']} — Winner: {winner}")
     return winner, log
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

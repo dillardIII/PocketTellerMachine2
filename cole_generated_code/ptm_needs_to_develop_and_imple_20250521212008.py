@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and implement trading strategies, we would need to use a variety of tools and techniques. Here's a simple example of a Python code that uses the Moving Average Crossover strategy. This strategy is one of the most commonly used strategies in trading. It uses two moving averages, one short (fast) and one long (slow). When the short moving average crosses above the long moving average, it indicates a buy signal. Conversely, when the short moving average crosses below the long moving average, it indicates a sell signal.
 
 Please note that this is a simplified example and actual trading strategies can be much more complex and would require careful consideration of various factors such as transaction costs, risk management, etc.

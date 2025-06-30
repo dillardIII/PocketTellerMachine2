@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: reflex_task_memory.py ===
 
 # 🧠 Reflex Task Memory – Tracks completed missions to avoid repetition
@@ -26,3 +27,6 @@ def record_task(filename):
 def is_repeat(filename):
     memory = load_memory()
     return filename in memory
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

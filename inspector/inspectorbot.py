@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: inspector_bot.py ===
 # 🕵️ InspectorBot – Scans PTM for critical files, missing modules, and build consistency
 

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Python code below designs a simple moving average crossover trading strategy. We make an assumption that if the short term average crosses above the long term average then it's a signal to buy and vice versa. It's important to mention that this is a simplified version and in practice, more complexities have to be tackled.
 
 ```python

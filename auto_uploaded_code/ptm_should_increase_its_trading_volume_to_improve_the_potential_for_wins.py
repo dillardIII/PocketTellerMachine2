@@ -1,1 +1,2 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 generated/PTM_should_increase_its_trading_volume_to_improve_the_potential_for_wins_20250520_034809.py

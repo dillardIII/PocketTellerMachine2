@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's an example of a simple risk management system written in Python, using a stop-loss strategy. The example assumes we have critical functions to fetch current price and place trades. The Stop-Loss strategy is a simple and effective risk management technique. It is designed to limit an investor's loss on a trade.
 
 Please note, this is a simplified approach and a real-world application should take many more factors into consideration.

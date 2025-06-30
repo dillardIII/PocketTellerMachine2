@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_grand_strategy_propaganda.py ===
 # 🏛️🧠 GhostGrandStrategyPropaganda – fuses ghost council votes with instant propaganda campaigns
 
@@ -99,3 +100,6 @@ def council_loop():
 
 if __name__ == "__main__":
     council_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

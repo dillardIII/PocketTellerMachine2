@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: core/app.py ===
 
 # 🚀 PTM Core App Launcher – Entry point for bot command logic (optional split from Flask)

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a simple example of a trading strategy using Python. This strategy will be based on moving averages, which is a common trading strategy. We will use the pandas library to handle our data and calculate the moving averages.
 
 Please note that this is a very basic strategy and real-world trading involves much more complexity and risk.

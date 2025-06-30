@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: backtest_plotter.py ===
 
 import matplotlib.pyplot as plt
@@ -12,12 +13,12 @@ def plot_trade_signals(trades, ticker="AAPL"):
     prices = [t['close'] for t in trades]
     signals = [t['signal'] for t in trades]
 
-    buy_dates = [dates[i] for i, s in enumerate(signals) if s == "buy"]
-    buy_prices = [prices[i] for i, s in enumerate(signals) if s == "buy"]
-
-    sell_dates = [dates[i] for i, s in enumerate(signals) if s == "sell"]
-    sell_prices = [prices[i] for i, s in enumerate(signals) if s == "sell"]
-
+    buy_dates = [dates[i] for i, s in enumerate(signals) if s == "buy"]:
+    buy_prices = [prices[i] for i, s in enumerate(signals) if s == "buy"]:
+:
+    sell_dates = [dates[i] for i, s in enumerate(signals) if s == "sell"]:
+    sell_prices = [prices[i] for i, s in enumerate(signals) if s == "sell"]:
+:
     plt.figure(figsize=(14, 6))
     plt.plot(dates, prices, label="Close Price", color="#00ffe5")
 
@@ -32,3 +33,6 @@ def plot_trade_signals(trades, ticker="AAPL"):
     plt.tight_layout()
     plt.style.use("dark_background")
     plt.show()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

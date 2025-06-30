@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_council_throne.py ===
 # 👑 Ghost Council Throne Room – The final logic chamber where all strategies and personas vote with context, emotion, and history
 
@@ -30,3 +31,6 @@ class GhostCouncilThrone:
 if __name__ == "__main__":
     throne = GhostCouncilThrone()
     throne.initiate_session("Rebalance Portfolio?", ["Yes", "No", "Wait"])
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

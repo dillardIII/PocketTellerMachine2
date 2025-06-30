@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: autonomy_core.py ===
 # 🧠 Autonomy Core – Main boot brain for PTM's logic, bridge, recon, reflex, and voice systems
 
@@ -31,3 +32,6 @@ def run_autonomy_core():
     # === Heartbeat Writer Thread ===
     threading.Thread(target=write_heartbeat, daemon=True).start()
     print("[Autonomy Core] ❤️ Heartbeat writer thread running.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

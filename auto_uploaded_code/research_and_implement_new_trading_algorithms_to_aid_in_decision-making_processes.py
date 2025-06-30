@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 The process of creating a trading algorithm involves handling financial data, creating strategies, backtesting them, and deploying them for investment use. Here's an example of a simple trading algorithm using Python and the libraries pandas, numpy, and yfinance.
 
 ```python

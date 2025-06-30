@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # ai_router_controller.py
 # Routes AI commands and messages to appropriate modules
 
@@ -72,3 +73,6 @@ if __name__ == "__main__":
     while True:
         user_input = input(">> ")
         router.route_command(user_input)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

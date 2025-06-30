@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and data to identify potential profitable trading opportunities is a complex task that involves machine learning, data analysis, and financial knowledge. Here's a simplified example of how you might approach this using Python, pandas, and sklearn.
 
 In this example, we'll use a simple moving average crossover strategy, which is a common algorithmic trading strategy.

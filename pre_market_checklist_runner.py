@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import datetime
 from cole_brain import cole_think
@@ -15,7 +16,7 @@ def pre_market_checklist():
     # 1. Check Cole Brain Response Capability
     try:
         log("Testing Cole Brain Thinking...")
-        result = cole_think("Check TSLA RSI and decide if action is needed.")
+        result = cole_think("Check TSLA RSI and decide if action is needed."):
         log(f"Cole Brain Response: {result}")
     except Exception as e:
         log(f"ERROR: Cole Brain failed to respond. {str(e)}")
@@ -48,3 +49,6 @@ def pre_market_checklist():
 
 if __name__ == "__main__":
     pre_market_checklist()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

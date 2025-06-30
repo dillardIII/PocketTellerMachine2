@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 ```python
 # ghost_personality.py
 
@@ -21,7 +22,7 @@ class Mood:
         self.change_interval = random.randint(5, 15)  # minutes
 
     def evolve(self):
-        if random.random() < 0.2:  # 20% chance to change mood
+        if random.random() < 0.2:  # 20% chance to change mood:
             self.current = random.choice(self.MOODS)
 
 class GhostAI:
@@ -84,3 +85,7 @@ if __name__ == "__main__":
     # For testing
     simulate_ghosts(3)
 ```
+
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

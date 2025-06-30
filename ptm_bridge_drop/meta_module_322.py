@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating an innovative Python module to expand the PTM (Presumably meaning "Partially Trained Model" or another term if this is a fictional empire) empire's self-evolving autonomy stack involves a blend of advanced AI techniques, recursive strategies, and modular design. Here's a high-level conceptual design for such a module.
 
 ### Module Overview: `ptm_autonomy_stack`

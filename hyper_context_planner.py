@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: hyper_context_planner.py ===
 # 🧠 Hyper Context Planner – plans next empire evolutions using weighted goals.
 
@@ -34,3 +35,6 @@ while True:
     plan = generate_plan()
     write_plan(plan)
     time.sleep(120)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

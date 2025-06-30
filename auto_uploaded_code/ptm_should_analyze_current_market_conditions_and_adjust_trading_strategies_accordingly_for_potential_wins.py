@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a basic Python code that uses a simple moving average strategy to analyze market conditions and adjust trading strategies. This code uses the `yfinance` library to get stock data and `pandas` to analyze it.
 
 Please note that this is a simple example and real trading algorithms can be much more complex and consider many more factors.

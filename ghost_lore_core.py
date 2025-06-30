@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_lore_core.py ===
 
 # 📖 Ghost Lore Core – Assigns memory, personality, backstory to each AI agent
@@ -41,3 +42,6 @@ def get_persona(name):
 
 if __name__ == "__main__":
     print(get_persona("Mo Cash"))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

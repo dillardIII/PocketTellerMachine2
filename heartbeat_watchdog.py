@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: heartbeat_watchdog.py ===
 # ❤️ Heartbeat Watchdog – Keeps PTM bots alive and restarts crashed ones
 

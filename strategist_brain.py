@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # strategist_brain.py
 def evaluate_strategy(payload):
     """
@@ -12,3 +13,6 @@ def evaluate_strategy(payload):
         return "EMA Crossover"
     else:
         return "Wait and Watch"
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # ✍️ InfiniteBuilder – recursive empire expansion with enforced valid Python
 import os, time
 from openai import OpenAI
@@ -12,7 +13,7 @@ def infinite_build():
     while True:
         prompt = (
             "Generate a new standalone Python file with correct syntax, "
-            "including imports, functions, and an if __name__=='__main__' block. "
+            "including imports, functions, and an if __name__=='__main__' block. ":
             "Output ONLY raw Python."
         )
         response = client.chat.completions.create(
@@ -27,3 +28,6 @@ def infinite_build():
         print(f"[InfiniteBuilder] ✍️ Dropped: {path}")
         counter += 1
         time.sleep(120)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

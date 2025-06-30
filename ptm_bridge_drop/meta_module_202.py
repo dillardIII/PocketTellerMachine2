@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To design a new Python module for expanding PTM (Presumably an acronym for a fictitious "Prime Tech Module" or similar) empire’s self-evolving autonomy stack, we need to focus on integrating recursive strategies that allow the system to adapt and enhance itself over time. We can draw upon concepts from machine learning, genetic programming, and reinforcement learning to create a module that can train and evolve autonomously. Below is a high-level overview and example code for such a module.
 
 ### Module: `ptm_autonomy`

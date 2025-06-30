@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module for an autonomous system is a challenging task that involves integrating multiple aspects like perception, decision-making, and control. For the PTM empire's self-evolving autonomy stack, we can create an innovative module that emphasizes recursive learning and adaptation strategies to enhance the system's autonomy. Below is a conceptual design for the module:
 
 ### Module Name: `ptm_autonomy`

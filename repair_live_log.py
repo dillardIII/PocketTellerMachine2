@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: repair_live_log.py ===
 # Live repair log tracker and display stream
 
@@ -32,3 +33,6 @@ def stream_live_repair_log(interval=2):
 
 if __name__ == "__main__":
     stream_live_repair_log()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

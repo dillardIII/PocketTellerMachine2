@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: fix_logger.py ===
 
 import os
@@ -62,3 +63,7 @@ def log_fix_entry(file_path, error_message, fix_code):
 
     except Exception as e:
         print(f"[Fix Logger] Error logging fix: {e}")
+
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python script that analyzes market trends and opportunities to identify potential profitable trades involves using financial libraries like Pandas, NumPy, and yfinance to fetch historical market data and perform analysis. Here is a simple example of how to do it:
 
 ```python

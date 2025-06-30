@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and test out new trading strategies, we will use the pandas library for data analysis, numpy for numerical calculations, and matplotlib for visualizations (plotting trading strategies). We will use a basic moving average crossover strategy for demonstration.
 
 Before writing the code, make sure that you have installed necessary libraries by running:

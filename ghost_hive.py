@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_hive.py ===
 # 👑 GHOST HIVE SUPER MERGE
 # The full empire orchestration running everything at once.
@@ -171,3 +172,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

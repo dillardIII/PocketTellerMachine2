@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 ```python
 # evolution_module.py
 
@@ -94,3 +95,6 @@ if __name__ == "__main__":
     vault_manager.manage_vault_payouts(payouts)
     print(vault_manager.get_vault_balances())
 ```
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

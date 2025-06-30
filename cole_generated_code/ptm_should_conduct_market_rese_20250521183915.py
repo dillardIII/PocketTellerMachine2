@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI, I can't conduct real-time market research or predict future market trends. However, I can provide you with a basic Python code that uses pandas library to analyze historical data from a CSV file. This code will calculate the simple moving average (SMA) for a specific stock. Traders often use SMA as an indicator to identify potential profitable trades.
 
 Please note that this is a very basic form of market analysis. Real world trading involves complex algorithms and high-frequency trading systems.

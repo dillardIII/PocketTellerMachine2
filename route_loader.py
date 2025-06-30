@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # route_loader.py – Dynamically loads all Flask routes into the app
 
 import importlib
@@ -23,6 +24,9 @@ def load_routes(app, routes_directory="routes"):
                     app.register_blueprint(module.market_trend_bp)
                     print(f"[Route Loader] ✅ Loaded market trend route: {module_name}")
                 else:
-                    print(f"[Route Loader] ⚠️ No blueprint found in: {module_name}")
+                    print(f"[Route Loader] ⚠️ No blueprint(found in: {module_name}"))
             except Exception as e:
                 print(f"[Route Loader] ❌ Failed to load {module_name}: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

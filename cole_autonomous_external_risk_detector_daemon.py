@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_autonomous_external_risk_detector_daemon.py
 
 import os

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Due to the complexity of trading algorithms, without specifics, it's hard to give a proper sample code. However, I can give you a generic structure of evaluating and optimizing a trading algorithm using python and few libraries such as Pandas and Quantopian.
 
 ```python

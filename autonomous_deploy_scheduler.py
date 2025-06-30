@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # autonomous_deploy_scheduler.py – Allows bots to trigger bot deployments, restarts, and rotations autonomously
 
 import time
@@ -46,3 +47,6 @@ if __name__ == "__main__":
     scheduler.start_loop()
     while True:
         time.sleep(3600)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # Relative Strength Index (RSI) Strategy
 def run_strategy():
     rsi = 72

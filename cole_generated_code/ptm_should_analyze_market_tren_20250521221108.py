@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we would need to use a library like pandas for data analysis and manipulation, and yfinance to download historical market data from Yahoo finance. We might also use matplotlib for data visualization.
 
 Here's a simple example of how we might start:

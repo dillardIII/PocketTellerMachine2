@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module for expanding the PTM (Presumed Task Management) empire’s self-evolving autonomy stack involves creating a recursive, adaptable system that enhances autonomy over time. Below is a conceptual outline for such a module, focusing on recursive strategies and innovative concepts:
 
 ### Module Overview: `ptm_auto_evolution`

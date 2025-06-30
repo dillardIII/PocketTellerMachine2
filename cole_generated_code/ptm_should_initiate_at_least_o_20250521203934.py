@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help you with that. However, I need to clarify that trading involves risks and there's no guaranteed way to always make a profit. Here's a simple Python code that uses a fictional trading API to initiate a trade. 
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple example of how you might initiate trades using Python. In this example, I will use the `yfinance` library to download stock data and `backtrader` for backtesting trading strategies.
 
 Please note that this is a very basic example and real trading involves many more factors like handling transaction costs, slippage, risk management etc.

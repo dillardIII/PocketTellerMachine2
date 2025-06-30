@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I'll provide a basic example of a simple moving average crossover strategy using Python and the pandas library. This strategy is not guaranteed to be profitable and is just for illustrative purposes. You should always backtest and adjust your strategies based on your own research and risk tolerance.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === retro_engine.py ===
 """
 Retro Engine – Temporal Lens System
@@ -77,7 +78,7 @@ class RetroEngine:
             with open(full_path, "r") as f:
                 try:
                     data = json.load(f)
-                    self.timeline.extend(data if isinstance(data, list) else [data])
+                    self.timeline.extend(data if isinstance(data, list) else [data]):
                 except json.JSONDecodeError:
                     log_event("Corrupt retro log", {"file": filename})
 

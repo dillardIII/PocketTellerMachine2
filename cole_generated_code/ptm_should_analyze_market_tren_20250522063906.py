@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Predictive Trading Model (PTM) involves complex machine learning algorithms and requires a lot of data manipulation. Here is a simple example of how you might start to build such a model using Python. In this example, we'll use the pandas library to handle our data and the sklearn library to create a simple linear regression model.
 
 ```python

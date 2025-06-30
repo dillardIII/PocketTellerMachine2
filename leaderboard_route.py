@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # leaderboard_route.py – Leaderboard tracking for performance rankings
 
 from flask import Blueprint, jsonify
@@ -17,3 +18,6 @@ def get_leaderboard():
         "leaderboard": leaderboard_data,
         "timestamp": "2025-05-31T00:00:00Z"
     })
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

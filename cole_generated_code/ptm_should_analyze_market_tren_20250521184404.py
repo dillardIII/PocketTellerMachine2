@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python script to analyze market trends and patterns is a complex task that involves a lot of data analysis and machine learning. Here is a very basic example of how you could start to approach this using the pandas and yfinance libraries to get stock data, and then calculating simple moving averages to identify potential trading opportunities. 
 
 This code does not make actual trades, it just identifies potential opportunities based on the moving averages.

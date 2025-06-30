@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code for a trading strategy using Moving Average Crossover. This strategy is based on two moving averages, one short and one long. When the short moving average crosses above the long moving average, it's a signal to buy. When it crosses below, it's a signal to sell.
 
 Please note that this is a very basic strategy and may not be suitable for real trading. You should consider factors like transaction costs, slippage, and risk management.

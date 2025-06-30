@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here's a simple Python script that uses Alpha Vantage's API to monitor market price changes for a specific stock, in this case, Apple Inc. (AAPL). This will give us some idea of market trends in real-time. For the purpose of illustration, I'll assume that we're identifying trading opportunities as situations where the stock price has gone down 5% or more from the latest high price.
 
 Please note that Alpha Vantage's free tier includes up to 5 API requests per minute and up to 500 requests per day.

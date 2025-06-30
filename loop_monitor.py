@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import threading
 import time
 from file_exec_engine import start_exec_engine
@@ -13,3 +14,6 @@ def monitor_loop_health():
             threading.Thread(target=start_exec_engine, name="FileExecEngine").start()
             log_command_event("EngineRestart", "FileExecEngine restarted by LoopMonitor")
         time.sleep(10)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

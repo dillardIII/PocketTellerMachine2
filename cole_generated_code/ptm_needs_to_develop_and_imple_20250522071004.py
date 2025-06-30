@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and implement trading strategies, we can use Python libraries like pandas for data manipulation and analysis, numpy for mathematical operations, matplotlib for data visualization, and sklearn for machine learning.
 
 Here is a simple Python code that implements a basic moving average crossover strategy. This strategy generates a buy signal when the short-term moving average crosses above the long-term moving average and a sell signal when the short-term moving average crosses below the long-term moving average.

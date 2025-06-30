@@ -1,1 +1,2 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 generated/Devise_and_implement_at_least_one_new_strategy_to_instigate_trading_activity_20250520_035453.py

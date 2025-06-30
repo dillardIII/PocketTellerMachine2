@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python module for expanding an autonomy stack involves combining advanced computational structures with machine learning, robotics, and self-improving algorithms. The goal is to create a self-evolving system where the components can improve their efficiency and performance over time. Here is a conceptual outline and initial implementation for a module named `autonomy_stack`.
 
 ### Key Concepts

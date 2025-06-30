@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === strategy_executor.py ===
 
 import random
@@ -51,3 +52,6 @@ def log_trade_outcome(task, result, grade):
 
     except Exception as e:
         print("[Logger ERROR]", e)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_mood_driven_strategy_adjuster.py
 
 import os
@@ -73,3 +74,6 @@ def mood_driven_strategy_adjuster_loop():
 
 if __name__ == "__main__":
     mood_driven_strategy_adjuster_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

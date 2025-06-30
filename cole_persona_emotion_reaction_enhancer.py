@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_persona_emotion_reaction_enhancer.py
 
 import os
@@ -18,7 +19,7 @@ REACTIONS = {
     "frustrated": {
         "win": "Finally, something good happened. Let's stay sharp.",
         "loss": "This is unacceptable. Fix it NOW.",
-        "neutral": "Meh. Let's see if we can shake things up."
+        "neutral": "Meh. Let's see if we can shake things up.":
     },
     "calm": {
         "win": "Excellent result. Stay steady and controlled.",
@@ -82,3 +83,6 @@ if __name__ == "__main__":
         for event in events:
             reaction = generate_reaction(persona, event)
             print(f"[{persona} - {event}]: {reaction}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

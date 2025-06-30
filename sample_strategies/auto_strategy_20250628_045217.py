@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # ⚡ GOD MUTATION at 2025-06-28 08:25:30.339991
 
 def run_strategy():

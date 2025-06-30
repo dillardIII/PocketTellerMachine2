@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct a market analysis, we'll need to use some financial data. We can use the `yfinance` library in Python to fetch this data. Here's a basic example of how you might set up a script to analyze the market.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to enhance the PTM empire's self-evolving autonomy stack requires incorporating innovative features that leverage recursive strategies for autonomous decision-making, learning, and adaptation. Below is a conceptual outline of such a module, named `AutonomyKernel`, focusing on innovative recursive approaches.
 
 ### Module Overview: `AutonomyKernel`

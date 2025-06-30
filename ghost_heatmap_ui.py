@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_heatmap_ui.py ===
 from flask import Flask, render_template_string
 import json
@@ -41,3 +42,6 @@ def heatmap():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5001)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

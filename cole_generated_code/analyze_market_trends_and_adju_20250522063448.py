@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To accomplish this task, we would need to use a machine learning model to analyze market trends and adjust trading parameters. Here's a simplified example using Python, pandas for data manipulation and sklearn for machine learning:
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: gpt_command_uplink.py ===
 # 🧠 GPT Command Uplink – Allows external AI or human orders to be written to the queue.
 
@@ -33,3 +34,6 @@ if __name__ == "__main__":
         if cmd.lower() == "exit":
             break
         send_command(cmd)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

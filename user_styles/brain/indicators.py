@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # brain/indicators.py
 
 def calculate_rsi(close_prices, period=14):

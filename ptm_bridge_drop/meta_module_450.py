@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presumably Parallel Task Management) empire's self-evolving autonomy stack with innovative recursive strategies requires a thoughtful approach. Below is a high-level outline and code example of such a module, focusing on recursive learning and decision-making processes that enable self-improvement and adaptability.
 
 ### Module Outline

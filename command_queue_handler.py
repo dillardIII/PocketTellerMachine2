@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: command_queue_handler.py ===
 # 📬 Command Queue Handler – Reads and manages incoming command orders.
 
@@ -26,3 +27,6 @@ def get_next_command():
     except Exception as e:
         print(f"[CommandQueue] ❌ Failed to read queue: {e}")
         return None
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

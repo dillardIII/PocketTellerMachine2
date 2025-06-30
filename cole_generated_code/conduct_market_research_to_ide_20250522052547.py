@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct market research, you need to have access to real-time financial data. There are several APIs available that provide this data, such as Alpha Vantage, Yahoo Finance, etc. Below is a simple example of how you can use the Alpha Vantage API to get stock data and identify potential profitable trading opportunities. 
 
 Please note that this is a very basic example and real trading algorithms can be very complex and use a lot more data and sophisticated statistical methods.

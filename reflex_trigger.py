@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: reflex_trigger.py ===
 # 🧠 Reflex Trigger – Handles file fix requests from log_monitor
 

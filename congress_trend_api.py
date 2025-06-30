@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 from flask import Blueprint, jsonify, request
@@ -25,3 +26,6 @@ def congress_trend():
     trend_data.sort(key=lambda x: x['date'])
 
     return jsonify({"symbol": symbol, "trend": trend_data})
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

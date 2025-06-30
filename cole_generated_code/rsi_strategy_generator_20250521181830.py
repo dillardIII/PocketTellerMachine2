@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 RSI (Relative Strength Index) is a momentum oscillator that measures the speed and change of price movements. It is usually used as tool in technical analysis in stock trading.
 
 A simple RSI Strategy might involve buying when the RSI is under some low threshold (implying the asset is oversold) and selling when the RSI is above some high threshold (implying the asset is overbought). Below is a sample Python code that implements a basic RSI strategy.

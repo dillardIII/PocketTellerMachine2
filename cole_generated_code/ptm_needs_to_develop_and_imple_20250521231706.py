@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 I'm sorry, but your request is a bit vague. Developing trading strategies involves complex algorithms and depends on various factors such as the type of trading (stocks, forex, commodities, etc.), the trading style (day trading, swing trading, etc.), risk tolerance, and more. However, I can provide a simple example of a Python code that uses a simple moving average (SMA) crossover strategy. This strategy is one of the most common systematic trading strategies.
 
 Please note that this is a very basic example and real-world trading involves many more factors. Also, this script assumes that you have a dataset named 'data.csv' with 'Date' and 'Close' columns.

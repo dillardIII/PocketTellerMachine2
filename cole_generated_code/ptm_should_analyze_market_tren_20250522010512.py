@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we'll need to use Python libraries that can handle data analysis and machine learning. Here's a basic example of how you could set up a system to analyze market trends and adjust trading approach. This example uses the pandas library for data handling and the sklearn library for machine learning.
 
 ```python

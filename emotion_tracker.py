@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Emotion Tracker:
 Records and monitors the mood of each assistant over time.
@@ -52,3 +53,6 @@ def get_latest_mood(persona_name):
 if __name__ == "__main__":
     log_emotion("MoCash", "win")
     print("MoCash mood:", get_latest_mood("MoCash"))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

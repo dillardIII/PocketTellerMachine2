@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python code that analyzes market trends and adjusts trading approaches is a complex task. It involves the use of machine learning and data analysis libraries. Here's a simplified example of how you might start building such a system using pandas for data analysis and sklearn for machine learning:
 
 ```python

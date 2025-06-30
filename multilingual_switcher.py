@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # multilingual_switcher.py
 # Enables dynamic language switching across all bot responses
 
@@ -35,3 +36,6 @@ class MultilingualSwitcher:
             return text
         except Exception as e:
             return f"[ERROR] Input translation failed: {e}"
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

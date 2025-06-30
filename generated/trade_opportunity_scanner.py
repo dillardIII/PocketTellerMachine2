@@ -1,1 +1,2 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 generated/Create_trade_opportunity_scanner.py_to_scan_tickers_for_RSI_signals_20250520_033847.py

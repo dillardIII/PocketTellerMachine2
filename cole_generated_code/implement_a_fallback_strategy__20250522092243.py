@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple way to implement a fallback strategy using Python. The fallback strategy could be anything, but for this example, let's assume that we will just print a message and return an empty list.
 
 ```python

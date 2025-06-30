@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: dynamic_ui_loader.py ===
 # 🖼️ Dynamic UI Loader – Handles HTML injection, dashboard loading, and route preview logic
 
@@ -19,3 +20,6 @@ def load_assistant_profile(name):
         return render_template("assistants/profile_view.html", name=name)
     except Exception as e:
         return f"❌ Assistant profile failed to load: {e}", 500
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

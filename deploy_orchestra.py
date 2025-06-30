@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: deploy_orchestrator.py ===
 # 🚀 Deploy Orchestrator – Triggers secondary builds, ghost drops, backups, or delayed modules
 

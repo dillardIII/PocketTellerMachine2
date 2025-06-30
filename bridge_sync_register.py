@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_sync_register.py ===
 """
 Registers assistant personas, modules, and bots into the bridge_sync.json.
@@ -56,3 +57,6 @@ def register_components(custom_components=None):
 
 if __name__ == "__main__":
     register_components()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

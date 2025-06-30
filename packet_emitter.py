@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: packet_emitter.py ===
 # Sends packets (build tasks, signals) to other bot teams
 
@@ -22,3 +23,6 @@ def emit_packet(target_team, payload):
         json.dump(packet, f, indent=2)
 
     print(f"[📦 EMIT] Sent packet to {target_team} | {filename}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

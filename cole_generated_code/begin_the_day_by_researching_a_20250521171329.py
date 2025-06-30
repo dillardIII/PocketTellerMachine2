@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Unfortunately, it's not possible to write Python script to research and identify feasible trading strategies because research requires qualitative analysis, reading financial news, watching market trends, understanding geopolitical events - all of which cannot be automated through Python code.
 
 However, python can be used to scrape financial data, to analyze historical data and to backtest certain quantitive trading strategies. Here is an example of how python can be used to backtest a simple moving average trading strategy using Yahoo financial data.

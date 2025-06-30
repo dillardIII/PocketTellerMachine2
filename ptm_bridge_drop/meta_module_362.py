@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module to expand the PTM (Presumably "PTM" stands for something specific in your context, such as an organization or a system) empire's self-evolving autonomy stack would involve several key considerations. Firstly, we need to ensure modularity, scalability, and adaptability. Recursive strategies can be particularly powerful for tasks that involve self-improvement, learning, and problem-solving.
 
 Here's a conceptual outline of how you could design such a module using Python. The module will feature a recursive learning component, which allows the system to evaluate and improve itself iteratively.

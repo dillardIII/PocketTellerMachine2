@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: mission_generator.py ===
 
 # 🧪 Mission Generator – Autonomously spawns PTM tasks based on internal logic
@@ -17,3 +18,6 @@ def generate_random_mission():
 if __name__ == "__main__":
     filename, code = generate_random_mission()
     inject_task(filename, code, source="MissionGen")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

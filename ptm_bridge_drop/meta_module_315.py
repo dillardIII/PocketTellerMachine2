@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new Python module to expand a self-evolving autonomy stack for the PTM (Prescriptive, Transformative, and Meta-adaptive) empire involves integrating recursive adaptive strategies that enable the system to self-optimize and evolve over time. Below is a conceptual design of such a module, focusing on architectural principles and potential features. 
 
 ### Module: `ptm_self_evolve`

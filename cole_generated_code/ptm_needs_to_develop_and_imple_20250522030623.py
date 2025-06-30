@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI model, I can provide a basic structure for a Python code that simulates a simple trading strategy. However, it's important to note that developing a successful trading strategy involves complex algorithms, backtesting, and market knowledge that goes beyond this simple example.
 
 Here's a simple example of a Python code using pandas library to implement a moving average crossover strategy. This strategy is one of the most common systematic trading strategies that uses two moving averages, one short and one long. The strategy goes long when the short moving average crosses above the long moving average, and goes short when the short moving average crosses below the long moving average.

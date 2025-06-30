@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code that uses a basic trading strategy called Moving Average Crossover. This strategy is used to identify changes in trends and can be used as a basis for a trading strategy.
 
 In this strategy, we calculate two moving averages of different periods, like a 50-day and a 200-day moving average. When the short-term moving average crosses above the long-term moving average, it may be a good time to buy. Conversely, when the short-term moving average crosses below the long-term moving average, it may be a good time to sell.

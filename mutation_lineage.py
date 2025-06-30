@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: mutation_lineage.py ===
 import os
 import json
@@ -44,3 +45,6 @@ def log_mutation(parent_file, child_file, reason="parameter adjustment"):
         json.dump(tree, f, indent=2)
 
     print(f"[FAMILY TREE] {child} logged as descendant of {parent}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

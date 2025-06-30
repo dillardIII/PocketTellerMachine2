@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: voice_bridge_elevenlabs.py ===
 # 🔊 ElevenLabs Voice Bridge – Converts assistant text to speech using ElevenLabs API
 

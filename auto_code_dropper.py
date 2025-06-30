@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_code_dropper.py ===
 # 🚀 GPT-4 Autonomous Code Dropper & Mutator for PTM Empire
 # Generates new .py files from prompts + random ideas, mutates existing files, and self-seeds forever.
@@ -38,7 +39,7 @@ def create_random_prompt():
 
 def mutate_existing_file():
     files = [f for f in os.listdir(MAIN_WORKSPACE)
-             if f.endswith(".py") and not f.startswith("auto_code_dropper")]
+             if f.endswith(".py") and not f.startswith("auto_code_dropper")]:
     if not files:
         return
     target = random.choice(files)
@@ -84,3 +85,6 @@ def dropper_loop():
 
 if __name__ == "__main__":
     dropper_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

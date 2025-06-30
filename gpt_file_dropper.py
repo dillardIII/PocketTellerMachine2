@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: gpt_file_dropper.py ===
 
 import os
@@ -19,3 +20,6 @@ def log_drop(filename):
     log_file = os.path.join(BRIDGE_FOLDER, "gpt_file_log.txt")
     with open(log_file, 'a', encoding='utf-8') as log:
         log.write(f"{datetime.now().isoformat()} :: Dropped file: {filename}\n")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

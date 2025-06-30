@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_file_writer_gpt.py ===
 # 📜 AutoFileWriterGPT – Grimoire of evolving trading spells
 # 🧬 Feeds empire with ever-mutating trading strategies (spells) via GPT
@@ -58,3 +59,6 @@ def auto_writer_loop():
 if __name__ == "__main__":
     print("[AutoFileWriterGPT] 🚀 Starting your perpetual trading grimoire...")
     auto_writer_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

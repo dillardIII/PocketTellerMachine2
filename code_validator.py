@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import subprocess
 
 def validate_fix(file_path, new_code):
@@ -30,3 +31,6 @@ def validate_fix(file_path, new_code):
     except Exception as e:
         print(f"[Validator] Validation failed: {e}")
         return False
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

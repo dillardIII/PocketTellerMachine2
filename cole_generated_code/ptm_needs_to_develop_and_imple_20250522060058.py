@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop a trading strategy, we will use the Python programming language along with some libraries such as pandas for data manipulation, numpy for numerical computations, and matplotlib for data visualization. Here is a simple example of a moving average crossover strategy.
 
 ```python

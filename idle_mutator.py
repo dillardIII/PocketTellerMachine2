@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: idle_mutator.py ===
 # 🌱 Idle Mutator – generates new salvage, brute or scan tasks when idle
 
@@ -17,3 +18,6 @@ def mutate_idle():
 
 if __name__ == "__main__":
     mutate_idle()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

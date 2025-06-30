@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and conditions, we need to use historical market data. This data can be obtained from various sources. For this example, we will use the yfinance library to download historical market data from Yahoo Finance. We will also use the pandas library to manipulate and analyze this data.
 
 Here is a simple Python script that identifies potential trading opportunities based on simple moving average (SMA) crossovers:

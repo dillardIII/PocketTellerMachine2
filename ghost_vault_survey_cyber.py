@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_vault_survey_cyber.py ===
 import json
 import random
@@ -27,3 +28,6 @@ def survey_loop():
 
 if __name__ == "__main__":
     survey_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To increase the number of trades, we can simply increase the number of iterations in a trading loop. However, please note that increasing the number of trades doesn't necessarily improve the chances of recording wins. It depends on the trading strategy, market conditions, and many other factors. Here is a simple example of how you might increase the number of trades in a Python trading bot:
 
 ```python

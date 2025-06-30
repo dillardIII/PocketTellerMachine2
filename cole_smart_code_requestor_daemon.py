@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_smart_code_requestor_daemon.py
 from datetime import datetime
 import pytz
@@ -53,9 +54,9 @@ def should_request_code_critical():
     except:
         ghost_logs = []
 
-    recent_errors = [log for log in logs if "[CRITICAL ERROR]" in log.get("message", "")][-5:]
-    ghost_warnings = [log for log in ghost_logs if "ALERT" in log.get("message", "")][-5:]
-
+    recent_errors = [log for log in logs if "[CRITICAL ERROR]" in log.get("message", "")][-5:]:
+    ghost_warnings = [log for log in ghost_logs if "ALERT" in log.get("message", "")][-5:]:
+:
     if recent_errors or ghost_warnings:
         print(f"[SMART TRIGGER]: Detected {len(recent_errors)} critical errors and {len(ghost_warnings)} alerts.")
         return True
@@ -73,7 +74,7 @@ def should_request_code_inactivity():
     now_ts = datetime.now().timestamp()
     recent = [
         entry for entry in inbox
-        if datetime.fromisoformat(entry.get("received_at", datetime.now().isoformat())).timestamp() > (now_ts - threshold_minutes * 60)
+        if datetime.fromisoformat(entry.get("received_at", datetime.now().isoformat())).timestamp() > (now_ts - threshold_minutes * 60):
     ]
 
     if not recent:
@@ -177,3 +178,6 @@ if __name__ == "__main__":
     # while True:
     #     print("[Daemon]: Smart Code Requestor running... (simulated)")
     #     time.sleep(1800)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: strategy_brain.py ===
 # 🧠 Strategy Brain – Chooses which persona runs which strategy and executes logic
 
@@ -15,7 +16,7 @@ def run_strategy(strategy):
     success = strategy["name"] != "Breakout Sniper"  # Fake condition
     time.sleep(1)
 
-    log_macro(strategy["name"], "Success" if success else "Failure", strategy["assigned"])
+    log_macro(strategy["name"], "Success" if success else "Failure", strategy["assigned"]):
     log_experience(strategy["name"], success)
     return success
 
@@ -29,3 +30,6 @@ def run_all_assigned():
 
 if __name__ == "__main__":
     run_all_assigned()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

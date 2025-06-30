@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🔥 HyperForge Mutation at 2025-06-28 08:44:44.619027
 # ⚡ GOD MUTATION at 2025-06-28 08:24:41.156753
 # ⚡ GOD MUTATION at 2025-06-28 08:00:49.722704

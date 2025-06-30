@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: voice_mic_listener.py ===
 # 🎙️ Voice Mic Listener – Listens to microphone input and sends commands to AssistantDispatch
 
@@ -36,3 +37,6 @@ class VoiceMicListener:
                     print(f"[VoiceMicListener] 🔌 Request error: {e}")
                 except Exception as e:
                     print(f"[VoiceMicListener] 💥 Error: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

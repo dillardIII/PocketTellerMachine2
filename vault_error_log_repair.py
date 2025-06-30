@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🧾 Vault Error Log Repair – Attempts auto-correction of broken or partial logs in the vault
 
 import os

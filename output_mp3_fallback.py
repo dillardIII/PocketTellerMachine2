@@ -1,6 +1,7 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: output_mp3_fallback.py ===
-# 🔈 MP3 Fallback Speaker – Plays local MP3 voice files if ElevenLabs or TTS is down
-
+# 🔈 MP3 Fallback Speaker – Plays local MP3 voice files if ElevenLabs or TTS is down:
+:
 import os
 import random
 
@@ -23,7 +24,7 @@ try:
     from playsound import playsound
     USE_PLAYSOUND = True
 except ImportError:
-    print("[MP3 Fallback] ❌ playsound module missing. Using fallback print method.")
+    print("[MP3 Fallback] ❌ playsound module missing. Using fallback print(method."))
     USE_PLAYSOUND = False
 
 # === Random audio trigger ===
@@ -32,7 +33,7 @@ def play_random_line():
         print(f"[MP3 Fallback] 🔇 Directory '{VOICE_DIR}' not found.")
         return
 
-    files = [f for f in os.listdir(VOICE_DIR) if f.endswith(".mp3")]
+    files = [f for f in os.listdir(VOICE_DIR) if f.endswith(".mp3")]:
     if not files:
         print("[MP3 Fallback] ❌ No MP3 files found.")
         return
@@ -52,3 +53,6 @@ def play_random_line():
 # === Manual test runner ===
 if __name__ == "__main__":
     play_random_line()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

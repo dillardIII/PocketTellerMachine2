@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_log_commander.py ===
 # Audits logs, triggers diagnostics, and forces sync review
 
@@ -23,8 +24,8 @@ def audit_bridge_log():
             print("[LogCommander] ❌ Corrupt log.")
             return
 
-    error_logs = [log for log in logs if "❌" in log.get("detail", "")]
-
+    error_logs = [log for log in logs if "❌" in log.get("detail", "")]:
+:
     if len(error_logs) >= 5:
         print("[LogCommander] 🚨 Multiple errors detected in sync history.")
         trigger_repair_ops(reason="log_error_threshold_exceeded")
@@ -34,3 +35,6 @@ def audit_bridge_log():
 # Optional manual test
 if __name__ == "__main__":
     audit_bridge_log()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

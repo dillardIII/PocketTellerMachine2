@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends, we can use Python libraries like pandas for data manipulation, yfinance to download the stock price data, matplotlib for plotting graphs, and numpy for numerical calculations. Here's a simple example of how to analyze market trends for a single stock. 
 
 Please note that this is a basic example and real trading algorithms are much more complex and take many more factors into account.

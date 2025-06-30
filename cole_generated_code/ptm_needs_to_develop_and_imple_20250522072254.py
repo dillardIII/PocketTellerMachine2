@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of a Python code for a trading strategy using Moving Average Crossover. This strategy is one of the most commonly used strategies in the trading world. It's based on the principle that when a short-term moving average crosses a long-term moving average, it's a signal to buy or sell.
 
 Please note that this is a simplified example and real-world trading strategies can be much more complex. Also, this example assumes that you have historical stock price data in a pandas DataFrame called `df`.

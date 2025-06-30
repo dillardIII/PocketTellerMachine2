@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new Python module to expand the PTM (Presumably a hypothetical company or entity) empire's self-evolving autonomy stack involves leveraging modern AI and machine learning techniques. Innovative recursive strategies could involve recursive neural networks, recursive feature elimination, and more. Below, I’ll outline a high-level design for such a module and provide a basic implementation example.
 
 ### High-Level Design

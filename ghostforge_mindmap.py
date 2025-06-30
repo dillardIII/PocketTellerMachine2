@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🧠 GhostForge MindMap – Tracks relationships between bots, missions, and memory cores
 
 import json

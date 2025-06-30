@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a module that evolves ghost memory weights based on the last 10 trades involves implementing a system that updates its understanding or memory of trades dynamically. The "ghost memory" term typically refers to an augmented, temporary, or simulated memory that can adapt to new information. Here is a simple implementation in Python to illustrate this concept. We'll use a mock trading system where weights are adjusted with each trade.
 
 ```python
@@ -57,8 +58,8 @@ if __name__ == "__main__":
 
 1. **Initialization**: The `GhostMemory` class is initialized with a maximum number of trades (defaulted to 10) and a list of initial weights.
 
-2. **Adding Trades**: The `add_trade` method adds a new trade to the list, popping the oldest if the list exceeds the maximum allowed number. It then calls `evolve_weights`.
-
+2. **Adding Trades**: The `add_trade` method adds a new trade to the list, popping the oldest if the list exceeds the maximum allowed number. It then calls `evolve_weights`.:
+:
 3. **Evolving Weights**: The `evolve_weights` method updates the weights based on the proportion of each trade relative to the total, simulating a moving average effect. It normalizes weights so that they sum to 1.
 
 4. **Weighted Average**: `get_weighted_average` computes the weighted average of the trades using the current weights.
@@ -66,3 +67,6 @@ if __name__ == "__main__":
 5. **Output**: The example usage simulates the behavior of the `GhostMemory` with a sequence of trades, printing the trades, weights, and weighted average after each addition.
 
 This structure can be further refined or replaced with more sophisticated methods like exponential moving averages, neural networks, or other statistical techniques depending on the desired complexity and accuracy.
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

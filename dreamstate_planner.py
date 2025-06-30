@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: dreamstate_planner.py ===
 # 🌌 Dreamstate Planner – Background AI task planner for upgrades and improvements
 
@@ -26,3 +27,6 @@ def dream_loop(duration=10):
 
 if __name__ == "__main__":
     dream_loop(5)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

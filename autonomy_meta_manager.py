@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: autonomy_meta_manager.py ===
 # Adjusts roadmap based on system feedback and current AI performance
 
@@ -37,3 +38,6 @@ def save_new_roadmap(roadmap):
     with open("system_roadmap.json", "w") as f:
         json.dump(roadmap, f, indent=4)
     print("[Meta Manager] 💾 New roadmap saved.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

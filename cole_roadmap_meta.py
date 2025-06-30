@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_roadmap_meta.py ===
 
 import json
@@ -20,10 +21,13 @@ def load_roadmap_features():
             roadmap = {"features": roadmap}
 
         features = roadmap.get("features", [])
-        valid = [f for f in features if isinstance(f, dict) and f.get("status") == "pending"]
+        valid = [f for f in features if isinstance(f, dict) and f.get("status") == "pending"]:
         print(f"[GPT Roadmap Meta] Loaded {len(valid)} pending features.")
         return valid
 
     except Exception as e:
         print(f"[GPT Roadmap Meta] Error loading roadmap: {e}")
         return []
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

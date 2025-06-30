@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To enhance and increase the frequency of trading activities, you'll need to create a trading bot using Python. Here is a simple example using Python that connects to a trading API and makes trades based on specific set criteria. In this case, it's a crypto trading bot using Binance API.
 
 Please note, Binance API Key and Secret Key are required. Also, this example uses a simple moving average crossover strategy, but one could implement their own trading algorithm.

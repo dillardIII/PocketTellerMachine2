@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase13_avatar_manager.py
 
 import os
@@ -27,7 +28,7 @@ def initialize_avatars():
 def add_avatar(name, image, style):
     with open(AVATAR_FILE, "r") as f:
         avatars = json.load(f)
-    a = next((x for x in avatars if x['name'] == name), None)
+    a = next((x for x in avatars if x['name'] == name), None):
     if a:
         a.update({"image": image, "style": style})
         log_avatar_event(name, "Updated avatar.")
@@ -61,3 +62,6 @@ def get_avatars():
 if __name__ == "__main__":
     initialize_avatars()
     print("[AVATAR MANAGER]: Ready. Avatars loaded.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

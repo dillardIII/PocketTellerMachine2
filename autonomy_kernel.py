@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # autonomy_kernel.py
 # Purpose: Continuous core loop for autonomy. Watches events, heals, builds, and evolves system.
 

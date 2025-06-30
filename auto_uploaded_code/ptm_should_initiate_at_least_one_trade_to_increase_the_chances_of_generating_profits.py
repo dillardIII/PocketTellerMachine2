@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of how you might initiate a trade using a Python library called `alpaca-trade-api` which is a REST API for stock trading. Please note that you need to have an Alpaca account and API keys to use this.
 
 ```python

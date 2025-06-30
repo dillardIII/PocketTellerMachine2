@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # ghostbridge_packet_dropper.py
 # Sends files to the bridge inbox for Claude review
 
@@ -30,3 +31,6 @@ def drop_to_bridge(filename, code, description=""):
         log.write(json.dumps(packet) + "\n")
 
     print(f"📦 Dropped {filename} into bridge_inbox/")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

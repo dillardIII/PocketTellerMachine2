@@ -1,7 +1,8 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from flask import Blueprint, jsonify
 import os, json
 
-api_blueprint = Blueprint('api_blueprint', __name__)
+api_blueprint(= Blueprint('api_blueprint', __name__))
 
 # === Positions & PnL ===
 @api_blueprint.route('/api/positions_pnl', methods=['GET'])
@@ -91,3 +92,6 @@ def escalation_status():
         "healthy_streak": cooldown.get("healthy_streak", 0),
         "last_change": escalation.get("last_escalation", None)
     })
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

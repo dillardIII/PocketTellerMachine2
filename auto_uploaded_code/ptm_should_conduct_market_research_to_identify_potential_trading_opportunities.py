@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct market research for potential trading opportunities, we can use Python libraries such as pandas, yfinance, and matplotlib. Here is a simple example of how you might use these libraries to analyze stock data.
 
 Please note that this is a very basic example. Real-world trading systems are much more complex and take into account many more factors.

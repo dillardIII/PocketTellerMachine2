@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import time
 import subprocess
@@ -8,7 +9,7 @@ COLE_API_HEALTH_URL = "http://localhost:5000/trade_health"
 COLE_BRAIN_PROCESS = None
 COLE_APP_PROCESS = None
 
-# === Check if Cole API is running ===
+# === Check if Cole API is running ===:
 def is_cole_online():
     try:
         response = requests.get(COLE_API_HEALTH_URL, timeout=5)
@@ -47,3 +48,6 @@ def run_daemon_loop():
 
 if __name__ == "__main__":
     run_daemon_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

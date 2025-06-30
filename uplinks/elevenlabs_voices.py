@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: uplinks/elevenlabs_voice.py ===
 # 🗣️ ElevenLabs Voice – Speaks messages in AI voice
 

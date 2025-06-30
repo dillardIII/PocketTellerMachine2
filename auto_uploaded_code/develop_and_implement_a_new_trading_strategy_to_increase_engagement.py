@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and implement a new trading strategy, we can use Python's pandas library for data manipulation and analysis. We'll also use yfinance to download historical market data from Yahoo finance. The trading strategy we'll implement is a simple moving average crossover strategy. This strategy is based on the idea that if the short term moving average crosses the long term moving average, it may be a signal of future price movement.
 
 Here is a simple Python code to implement this strategy:

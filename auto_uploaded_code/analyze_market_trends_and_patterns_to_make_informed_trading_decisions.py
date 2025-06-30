@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and patterns involves complex algorithms and requires historical market data. Here is a simple example of how you might use Python to analyze stock prices using the pandas library for data manipulation and matplotlib for data visualization. 
 
 This code fetches historical stock data from Yahoo Finance, calculates the moving average of the stock price, and plots the stock price and its moving average.

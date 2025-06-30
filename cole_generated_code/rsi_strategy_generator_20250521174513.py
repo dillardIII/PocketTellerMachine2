@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 The Relative Strength Index (RSI) is a popular technical analysis tool in trading which is primarily used for generating potential buy and sell signals.
 
 Below is a Python implementation of a basic RSI Strategy generator using pandas and yfinance to get historical price data.

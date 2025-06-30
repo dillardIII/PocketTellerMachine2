@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To evaluate the current stock market trends, we can use Python libraries such as pandas for data manipulation, yfinance to download the stock data, and matplotlib for data visualization.
 
 However, it is crucial to note that this is a simplistic way of analyzing stock market trends and should not be used for making actual trading decisions. 

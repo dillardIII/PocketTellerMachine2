@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: godloop_controller.py ===
 # 🔁 Godloop Controller – Central recursive loop that coordinates bot tasks, syncs harmony, and deploys fixes
 
@@ -53,3 +54,6 @@ class GodloopController:
     def stop(self):
         self.running = False
         print("[Godloop] 🛑 Stopping Godloop Controller.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

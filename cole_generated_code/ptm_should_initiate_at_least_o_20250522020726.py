@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code that simulates a trading bot. This bot will initiate at least one trade. Please note that this is a very basic example and real trading bots require complex algorithms and security measures.
 
 ```python

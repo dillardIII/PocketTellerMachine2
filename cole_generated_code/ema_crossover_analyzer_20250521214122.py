@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple implementation of an EMA (Exponential Moving Average) Crossover Analyzer in Python using the `pandas` library. This script will calculate the EMA for two different periods (short and long) and then determine when the short period EMA crosses above or below the long period EMA.
 
 ```python

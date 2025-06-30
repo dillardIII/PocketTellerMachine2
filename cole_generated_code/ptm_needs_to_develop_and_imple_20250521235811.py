@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and implement new trading strategies, we need to have a clear understanding of the financial market data. Here is a simple Python code using pandas and yfinance libraries to fetch the stock market data. We can then analyze this data to develop new trading strategies.
 
 ```python

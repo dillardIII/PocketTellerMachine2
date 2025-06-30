@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase14_persona_voice_avatar_dashboard.py
 
 from flask import Flask, render_template_string, jsonify
@@ -79,3 +80,6 @@ def api_avatar_styles():
 
 if __name__ == '__main__':
     app.run(port=5055, debug=True)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

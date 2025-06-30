@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # voice_trigger_agent.py
 # Converts live voice commands into bot instructions routed through BridgeOpsCore
 
@@ -33,7 +34,7 @@ class VoiceTriggerAgent:
             tokens = phrase.lower().split()
             target = tokens[0]  # Bot name
             command = tokens[1]  # Command
-            args = tokens[2:] if len(tokens) > 2 else []
+            args = tokens[2:] if len(tokens) > 2 else []:
             return self.bridge.dispatch(target, command, *args)
         except Exception as e:
             return f"[ERROR] Failed to parse command: {e}"
@@ -53,3 +54,6 @@ if __name__ == "__main__":
 
     agent = VoiceTriggerAgent(bridge)
     agent.loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

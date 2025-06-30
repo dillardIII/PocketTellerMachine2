@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import time
 import json
 from error_parser import get_latest_error
@@ -56,3 +57,6 @@ def log_fix(error_data, fixed_code):
 # === Entry Point ===
 if __name__ == "__main__":
     self_fix_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

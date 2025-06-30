@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: quantum_filter_pipeline.py ===
 # ⚛️ Quantum Filter Pipeline – logs probabilistic outcomes for empire strategy evolution.
 
@@ -27,3 +28,6 @@ while True:
         json.dump(logs, f, indent=2)
     print(f"[QuantumFilter] 🧬 Outcome logged: {data}")
     time.sleep(45)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

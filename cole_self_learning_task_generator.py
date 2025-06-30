@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_self_learning_task_generator.py ===
 
 import os
@@ -24,7 +25,7 @@ TASK_LEARNING_LOG = "data/cole_self_learning_task_log.json"
 TASK_FILE = "data/self_learning_tasks.json"
 TASK_LOG_HISTORY = "logs/self_learning_task_log.json"
 
-# === Create folders if missing ===
+# === Create folders if missing ===:
 os.makedirs("data", exist_ok=True)
 os.makedirs("logs", exist_ok=True)
 
@@ -85,9 +86,9 @@ def check_for_inactive_strategies(trades):
     for t in trades:
         strat = t.get('strategy', 'unknown')
         strategies[strat] = strategies.get(strat, 0) + 1
-    recent = trades[-50:] if len(trades) > 50 else trades
+    recent = trades[-50:] if len(trades) > 50 else trades:
     recent_strategies = set(t.get('strategy', 'unknown') for t in recent)
-    inactive = [s for s in strategies if s not in recent_strategies]
+    inactive = [s for s in strategies if s not in recent_strategies]:
     return inactive
 
 # === Pattern-Based Self-Learning Task Generator ===
@@ -125,7 +126,7 @@ def generate_pattern_based_tasks():
     for strategy, results in strategy_results.items():
         if len(results) < 5:
             continue
-        win_rate = sum(1 for r in results if r > 0) / len(results) * 100
+        win_rate = sum(1 for r in results if r > 0) / len(results) * 100:
         avg_result = sum(results) / len(results)
 
         if win_rate < 40 or avg_result < 0:
@@ -193,3 +194,6 @@ def run_self_learning_generator():
 # === CLI Trigger ===
 if __name__ == "__main__":
     generate_self_learning_tasks()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

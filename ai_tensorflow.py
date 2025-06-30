@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
@@ -40,3 +41,6 @@ class TensorFlowModel:
 
     def load_weights(self, path="tf_model_weights.h5"):
         self.model.load_weights(path)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

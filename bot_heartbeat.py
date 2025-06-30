@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bot_heartbeat.py ===
 
 import time
@@ -27,7 +28,7 @@ def save_ghostnet_state(state):
 
 
 def check_heartbeats():
-    """Check each bot's last seen time and mark inactive if too long."""
+    """Check each bot's last seen time and mark inactive if too long.""":
     while True:
         print("[Heartbeat] Checking bot statuses...")
         state = load_ghostnet_state()
@@ -53,6 +54,9 @@ def check_heartbeats():
         time.sleep(HEARTBEAT_INTERVAL)
 
 
-# Start monitoring immediately if run directly
+# Start monitoring immediately if run directly:
 if __name__ == "__main__":
     check_heartbeats()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

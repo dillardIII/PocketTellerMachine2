@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_sync_engine.py ===
 # 🌉 AI Bridge Sync Engine – Syncs files, thoughts, and directives between Replit, ChatGPT, and PTM
 
@@ -55,3 +56,6 @@ def update_bridge_state(agent_from, agent_to, file_path, status="success", error
 
 def get_bridge_status():
     return load_bridge_state()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

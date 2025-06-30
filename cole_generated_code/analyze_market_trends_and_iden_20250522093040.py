@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and identify potential profitable trades, we would need historical market data. Python provides several libraries like pandas, numpy, matplotlib, seaborn, and yfinance to analyze and visualize this data. Here's a simple example of how you could use these libraries to analyze the closing prices of a stock (e.g., Apple Inc.) and identify potential profitable trades.
 
 Please note that this is a very basic example and actual trading algorithms can be very complex, involving Machine Learning and other advanced techniques.

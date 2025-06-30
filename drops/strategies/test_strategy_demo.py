@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 def run_test_strategy_demo(data):
     print("✅ Running test_strategy_demo with data:", data)
     return {

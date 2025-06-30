@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and patterns, you would need historical market data. This data can be obtained from various sources, such as Yahoo Finance, Google Finance, or any other financial data provider. Here is a basic example of how you can use Python to analyze market trends and patterns using pandas, numpy, matplotlib, and yfinance libraries.
 
 Please note that this is a simple example and real-world trading systems are much more complex and take into account many more factors.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python program to analyze market trends and identify potential trading opportunities involves a number of steps. Here's a simplified example using pandas and yfinance libraries to fetch historical stock data, calculate moving averages, and identify potential buy/sell opportunities based on a simple moving average crossover strategy.
 
 ```python

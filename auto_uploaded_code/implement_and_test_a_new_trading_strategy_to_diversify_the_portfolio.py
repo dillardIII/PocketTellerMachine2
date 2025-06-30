@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code that implements a diversification strategy using the Modern Portfolio Theory (MPT). This strategy uses historical returns of different stocks to create a portfolio that maximizes return for a given level of risk.
 
 Please note that this is a simplified example and actual trading strategies would require more complex models and risk management techniques.

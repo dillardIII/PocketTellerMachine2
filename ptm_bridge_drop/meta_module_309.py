@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presumably Transformative Model) empire's self-evolving autonomy stack involves crafting an architecture that leverages recursive strategies to allow for continual self-improvement and adaptation. We can focus on several core components: self-evaluation, feedback loops, dynamic learning architectures, and automated decision-making capabilities. Below is a high-level design outline, including a brief description of the strategies and potential code structure.
 
 ### Module Name: `autonomo`

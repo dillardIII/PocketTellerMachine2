@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: runtime_watcher.py ===
 # 👁️ PTM Runtime Watcher – Monitors PTM scripts and triggers rebuild on crash
 
@@ -42,3 +43,6 @@ def monitor_and_heal():
 # === If run directly ===
 if __name__ == "__main__":
     monitor_and_heal()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

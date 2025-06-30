@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here's a simple Python code using `yfinance` library to download the historical market data and initiate a trade. This example uses a simple strategy: if the closing price of the last trading day is lower than the day before, it will initiate a buy order for the next day.
 
 Please note that this is a very basic strategy and should not be used for real trading. This is for illustrative purposes only.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Autonomy Heartbeat Engine
 Maintains a looped pulse to trigger system scans, persona checks, and evolution tasks.

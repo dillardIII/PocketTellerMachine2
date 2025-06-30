@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: command_listener.py ===
 # 🕹️ Command Listener – Listens for and reacts to commands from inside or outside the system
 

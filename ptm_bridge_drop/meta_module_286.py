@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module to enhance the PTM (Presumably a Part of a Robotics or AI Empire) with self-evolving autonomy involves integrating sophisticated algorithms that enable recursive learning, adaptability, and decision-making. Here's a conceptual outline for such a module:
 
 ```python

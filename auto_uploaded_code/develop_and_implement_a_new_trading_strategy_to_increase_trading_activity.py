@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code that implements a basic trading strategy known as the Moving Average Crossover Strategy. This strategy is used to identify new trading opportunities by comparing a short-term moving average with a long-term moving average.
 
 ```python

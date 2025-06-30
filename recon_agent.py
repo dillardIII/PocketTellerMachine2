@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: recon_agent.py ===
 # 🛰️ Recon Agent – Scans wallet addresses, fetches balances, reports to vault + AI
 

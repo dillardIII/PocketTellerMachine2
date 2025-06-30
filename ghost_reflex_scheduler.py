@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Ghost Reflex Scheduler
 Watches for known reflex patterns and auto-executes handlers across PTM systems.
@@ -72,3 +73,6 @@ def start_reflex_loop():
 # Optional CLI entry
 if __name__ == "__main__":
     start_reflex_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

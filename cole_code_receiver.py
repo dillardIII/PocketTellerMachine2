@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === cole_code_receiver.py ===
 
 import os
@@ -64,3 +65,6 @@ def log_code_install(filename, code):
 
     except Exception as e:
         print(f"[ERROR] Could not log install: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

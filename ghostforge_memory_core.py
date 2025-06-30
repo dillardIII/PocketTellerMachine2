@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🧠 GhostForge Memory Core – Stores, updates, and retrieves long-term bot memories
 
 import json

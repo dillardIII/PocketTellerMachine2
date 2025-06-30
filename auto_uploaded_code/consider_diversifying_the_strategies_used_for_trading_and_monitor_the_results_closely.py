@@ -1,1 +1,2 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 generated/Consider_diversifying_the_strategies_used_for_trading_and_monitor_the_results_closely_20250520_034811.py

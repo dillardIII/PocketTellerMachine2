@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To increase the trading volume, we can create a Python function that increases the number of trades made by PTM. However, please note that increasing trading volume doesn't necessarily guarantee wins or losses. It only increases the number of trades, which could result in either wins or losses depending on the market situation and the trading strategy.
 
 Here is a simple Python code snippet that can be used to increase the trading volume:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_mood_aware_persona_speech_enhancer.py
 
 import os

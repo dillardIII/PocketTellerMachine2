@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct market research for potential profitable trades, we need to analyze historical data and current market trends. We can use libraries like pandas for data manipulation, yfinance to download stock data, and sklearn for prediction models. Here is a simple example of how you can do it.
 
 Please note that this is a very basic example and real trading algorithms are much more complex and take into account many more factors.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: agents/bridge_pickup_agent.py ===
 
 import os

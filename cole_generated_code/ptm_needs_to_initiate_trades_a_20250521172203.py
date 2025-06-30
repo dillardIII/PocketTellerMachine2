@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, let's initiate some trades for PTM. But remember, the following is a basic simulation of trades and not advice or an algorithm to choose stocks. Please input your own parameters and strategy according to your requirements.
 
 ```python

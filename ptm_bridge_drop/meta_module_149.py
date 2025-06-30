@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module for the PTM (Presumably a placeholder name) empire's self-evolving autonomy stack involves creating a robust architecture that supports recursive strategies, allowing the system to learn, adapt, and self-improve over time. Below is a conceptual design for such a module, along with some Python code to illustrate the components.
 
 ### Module Name: EvolvingAutonomy

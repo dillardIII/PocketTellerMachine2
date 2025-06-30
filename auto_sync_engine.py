@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_sync_engine.py ===
 
 import threading
@@ -16,3 +17,6 @@ def start_hourly_sync():
 
     thread = threading.Thread(target=sync_job, daemon=True)
     thread.start()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

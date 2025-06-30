@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Persona Mood State:
 Tracks and updates the emotional mood state of each assistant based on trade outcomes, dialog, or reaction logs.
@@ -34,7 +35,7 @@ def update_persona_mood(persona):
     Updates the assistant's mood in system state based on recent reaction data.
     """
     score = calculate_mood_score(persona)
-    mood = "confident" if score > 3 else "neutral" if score >= 0 else "frustrated"
+    mood = "confident" if score > 3 else "neutral" if score >= 0 else "frustrated":
     log_state(f"{persona}_current_mood", mood)
     print(f"[🧠 Mood Update] {persona}: Score={score} ➤ Mood={mood}")
     return mood
@@ -43,3 +44,6 @@ def update_persona_mood(persona):
 if __name__ == "__main__":
     for name in ["MoCash", "Mentor", "Strategist", "DrillInstructor"]:
         update_persona_mood(name)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate a trade and gather data, we need to interact with a trading API. Here's an example of how you might do this using Alpaca's API, which allows for paper trading (simulated trading for practice). 
 
 Please replace `YOUR_API_KEY` and `YOUR_SECRET_KEY` with your actual API keys.

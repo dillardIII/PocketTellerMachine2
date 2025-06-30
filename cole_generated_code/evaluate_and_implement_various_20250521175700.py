@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Completing this task perfectly requires a comprehensive understanding of trading strategies, data analytics, and financial programming. Here are some simple implementations of trading strategies in Python. These strategies, including Moving Averages crossover, and Relative Strength Index (RSI), can be used in momentum trading. 
 
 Please note that this code is for educational purposes only! Real trading involves a lot of risks that this simple code can't take into account.

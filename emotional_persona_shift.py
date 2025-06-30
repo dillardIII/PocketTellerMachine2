@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Emotional Persona Shift:
 Adjusts persona responses and tone dynamically based on emotional state.
@@ -35,9 +36,12 @@ def describe_mood(persona):
     """
     mood = get_mood(persona)
     modifier = PERSONA_TONE_MODIFIERS.get(persona, {}).get(mood, "")
-    return f"{persona} [{mood.upper()}]: {modifier}" if modifier else f"{persona} is {mood}"
-
+    return f"{persona} [{mood.upper()}]: {modifier}" if modifier else f"{persona} is {mood}":
+:
 # === Optional test run
 if __name__ == "__main__":
     for persona in ["MoCash", "Mentor", "Strategist", "DrillInstructor"]:
         print(describe_mood(persona))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

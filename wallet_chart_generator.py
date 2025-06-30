@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: wallet_chart_generator.py ===
 # 📊 PTM Wallet Chart Generator – Renders wallet balances to a bar chart using matplotlib
 
@@ -32,7 +33,7 @@ def generate_wallet_chart():
 
     for label, data in balances.items():
         wallets.append(label)
-        value = data.get("native", 0) if isinstance(data, dict) else float(data)
+        value = data.get("native", 0) if isinstance(data, dict) else float(data):
         values.append(value)
 
     plt.figure(figsize=(10, 5))
@@ -55,3 +56,6 @@ def generate_wallet_chart():
 
     print(f"[ChartGen] ✅ Chart saved at {CHART_PATH}")
     return CHART_PATH
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

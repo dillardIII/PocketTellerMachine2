@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_emotional_reaction_speech_generator.py
 
 import os

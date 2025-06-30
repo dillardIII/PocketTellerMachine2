@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate a trade and gain insights on market trends, we would need to use an API that allows us to interact with the market. For this example, I'll use the Alpaca API, a commission-free API for trading. 
 
 Please note that you need to replace `YOUR_API_KEY_ID` and `YOUR_SECRET_KEY` with your actual Alpaca API key and secret key. Also, this is a simple example of initiating a trade, you should implement more complex strategies and error handling in a real-world scenario.

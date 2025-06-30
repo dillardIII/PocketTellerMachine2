@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from error_parser import detect_latest_error
 from ai_code_generator import generate_code_fix
 from code_validator import validate_fix
@@ -50,3 +51,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

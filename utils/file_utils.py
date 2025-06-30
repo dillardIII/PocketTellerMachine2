@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: utils/file_utils.py ===
 # 🛠️ File Utilities – Scans for missing files, manages directories, repairs module gaps, and writes generated files
 

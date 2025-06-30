@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, in order to implement a fallback strategy we must first define what the fallback strategy is. Supposing it was to return a default list of results when no backtest results are found, the code might look something like the below:
 
 ```python

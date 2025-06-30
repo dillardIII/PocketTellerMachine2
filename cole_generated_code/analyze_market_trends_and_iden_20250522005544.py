@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 This task requires a complex solution and a lot of data, which is usually provided by APIs such as Alpha Vantage, Yahoo Finance, etc. Here is a simplified example of how you could use Python and the pandas library to analyze market trends. This example uses the pandas_datareader library to fetch data from Yahoo Finance.
 
 ```python

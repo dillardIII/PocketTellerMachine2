@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_market_scanner.py
 
 import asyncio
@@ -27,7 +28,7 @@ async def scan_stock(symbol):
     result = {
         "symbol": symbol,
         "rsi": rsi,
-        "signal": "Buy" if rsi < 30 else "No action"
+        "signal": "Buy" if rsi < 30 else "No action":
     }
     print(f"[Cole Scanner] {symbol}: RSI={rsi} => {result['signal']}")
     return result
@@ -44,3 +45,6 @@ async def cole_market_scan():
 # === CLI Runner ===
 if __name__ == "__main__":
     asyncio.run(cole_market_scan())
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

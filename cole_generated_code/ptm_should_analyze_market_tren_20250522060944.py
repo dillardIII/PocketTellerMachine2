@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To create a Python program that analyzes market trends and patterns to identify potential trading opportunities, we would need to use libraries like pandas for data manipulation, numpy for numerical computations, matplotlib for data visualization, and sklearn for machine learning. 
 
 However, writing a complete trading algorithm is a complex task and requires a deep understanding of financial markets, machine learning algorithms, and programming. Here is a simple example of how you could start analyzing market trends using Python:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_brain_sync.py ===
 # 👻 Ghost Brain Sync – Stores & syncs persistent memories: trades, lessons, insights, mood changes
 # Cross-persona mood and memory harmonization layer for GhostNet
@@ -58,7 +59,7 @@ def get_memory(log_type=None):
     with open(MEMORY_FILE, "r", encoding="utf-8") as f:
         memory = json.load(f)
     if log_type:
-        return [entry for entry in memory["entries"] if entry["type"] == log_type]
+        return [entry for entry in memory["entries"] if entry["type"] == log_type]:
     return memory["entries"]
 
 
@@ -111,3 +112,6 @@ if __name__ == "__main__":
     update_mood("MoCash", "hype")
     broadcast_memory_event("trade_success", "Closed $TSLA with 9% gain")
     log_memory("trade_success", {"symbol": "TSLA", "result": "gain", "percent": 9})
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

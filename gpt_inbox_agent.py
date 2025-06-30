@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: gpt_inbox_agent.py ===
 
 # 📥 GPT Inbox Agent – Monitors PTM inbox and reacts with file generation
@@ -20,3 +21,6 @@ def scan_and_trigger(folder="ptm_inbox"):
                 generate_autocode_file("Auto_Response_" + f.replace("trigger_", ""), "# Generated in response to trigger")
         seen = files
         time.sleep(5)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

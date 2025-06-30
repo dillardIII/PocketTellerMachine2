@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: strategy_mapper.py ===
 # FixOps Commander: Error trend analysis and tactical insight generator
 
@@ -93,3 +94,6 @@ def run_strategy_mapper():
 
 if __name__ == "__main__":
     run_strategy_mapper()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

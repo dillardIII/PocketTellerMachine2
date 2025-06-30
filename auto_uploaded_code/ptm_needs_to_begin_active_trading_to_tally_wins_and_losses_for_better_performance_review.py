@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a basic implementation of the trading strategy using Python. It uses simple buy low sell high strategy and tallies wins and losses at end of day.
 
 Note: Please replace the 'stocks_database.csv' with your own dataset as it's just an arbitrary name.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 #=== FILE: inter_bot_router.py ===
 
 #🛰 Inter-Bot Router – Bridges communication between ChatGPT, Claude, Phind, PTM, and Replit
@@ -51,3 +52,7 @@ Launch router in background
 
 router = InterBotRouter() threading.Thread(target=router.route_loop, daemon=True).start()
 
+
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

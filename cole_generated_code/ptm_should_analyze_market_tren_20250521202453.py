@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 While I can provide a basic example of how to analyze market trends using Python, it's important to note that creating a complete trading system is a complex task that requires a deep understanding of financial markets, trading strategies, and programming. Also, it's impossible to completely avoid losses in trading. The goal is to manage risk and make profits that outweigh the losses over time. 
 
 Here's a simple example of how you might use Python to analyze market trends using a moving average crossover strategy. This strategy assumes that the market trend can be determined by comparing a short-term moving average to a long-term moving average. 

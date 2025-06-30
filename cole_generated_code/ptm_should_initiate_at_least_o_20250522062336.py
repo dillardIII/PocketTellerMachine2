@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a basic Python code for a trading bot using a simple strategy. Please note that this is a very simplified version and real-world trading bots require a lot more considerations such as handling API rate limits, error handling, etc.
 
 ```python

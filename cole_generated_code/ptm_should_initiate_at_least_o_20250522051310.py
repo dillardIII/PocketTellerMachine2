@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a very basic example of how you might initiate a trade using the python-binance API. This example will buy 100 BNB coins at market price. Please note that you need to replace `api_key` and `api_secret` with your actual Binance API key and secret.
 
 ```python

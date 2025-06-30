@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Ghost Hivemind Link
 Creates a decentralized neural relay mesh between all active PTM agents, assistants, and modules.

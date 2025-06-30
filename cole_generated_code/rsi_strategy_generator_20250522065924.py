@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code that uses the `pandas` library to calculate the Relative Strength Index (RSI) for a given stock. This is a basic strategy generator and does not include the trading part.
 
 ```python

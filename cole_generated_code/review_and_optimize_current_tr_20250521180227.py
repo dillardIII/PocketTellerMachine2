@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Reviewing and optimizing trading algorithms is an involved process based on the detailed analysis of the existing algorithms. This process may involve tweaking parameters, using different methods for prediction, or employing different data processing techniques.
 
 However, without the specific trading algorithm, it's impossible to come up with a concrete Python code that caters to this request. A generic Python code for a simple trading bot using pandas, numpy, and sklearn could look like this:

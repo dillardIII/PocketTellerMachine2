@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct a thorough market analysis, we would need to use a combination of data analysis libraries like pandas, numpy, and matplotlib, as well as financial data from sources like Yahoo Finance or Alpha Vantage. Here's a basic example of how you might start this analysis using Python:
 
 ```python

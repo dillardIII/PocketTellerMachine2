@@ -1,4 +1,5 @@
-# 🗺️ GhostForge System Map – Blueprint of all core services, files, and AI functions
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
+# 🗺️ GhostForge System Map – Blueprint(of all core services, files, and AI functions)
 
 import json
 from utils.logger import log_event

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To design a Python module that expands the PTM (Presumably some company or project name) empire’s self-evolving autonomy stack with innovative recursive strategies, we need to consider several aspects:
 
 1. **Architecture**: The module should be capable of handling a variety of tasks autonomously, learning from data, and adapting over time.

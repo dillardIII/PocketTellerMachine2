@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple example of how you can simulate a trading bot in Python. This bot will randomly decide whether to buy or sell a stock, and then learn from the outcome of that decision. This is a very basic example and in a real-world scenario, you would want your bot to make decisions based on more sophisticated algorithms and data analysis.
 
 ```python

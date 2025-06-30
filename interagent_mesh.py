@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 InterAgent Mesh Network
 Enables all AI personas to communicate, challenge, and collaborate on internal decisions.
@@ -47,3 +48,6 @@ def simulate_conversation(topic: str, turns: int = 4):
 # Example
 if __name__ == "__main__":
     simulate_conversation("risk tolerance in volatile markets")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

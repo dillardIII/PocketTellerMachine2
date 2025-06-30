@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_relay_bot.py ===
 
 # 📡 Ghost Relay – Listens for GPT/AI-generated tasks and appends them to the mission queue
@@ -46,3 +47,6 @@ if __name__ == "__main__":
         "# GhostPing\nprint('[GhostRelay] 👻 Ping received.')",
         source="ManualTest"
     )
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

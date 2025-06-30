@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase14_mood_state_dashboard_api.py
 
 from flask import Flask, jsonify, request, render_template
@@ -68,3 +69,6 @@ def mood_dashboard():
 # === Run the Daemon ===
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5020, debug=True)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: json_file_checker.py ===
 
 import os
@@ -35,3 +36,6 @@ def patch_empty_json_files():
 # === Optional Run ===
 if __name__ == "__main__":
     patch_empty_json_files()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

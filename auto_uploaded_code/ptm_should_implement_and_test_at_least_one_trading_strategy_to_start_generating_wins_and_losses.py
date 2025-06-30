@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple implementation of a moving average crossover strategy using Python and the pandas library. This strategy buys when the short term moving average crosses above the long term moving average and sells when the short term moving average crosses below the long term moving average.
 
 ```python

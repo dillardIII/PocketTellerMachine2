@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import json
 import os
 from datetime import datetime
@@ -54,3 +55,6 @@ log_memory_event("trades", example_trade)
 
 # === Example: Logging a pattern observation ===
 log_pattern_observation("RSI Reversal", "Fails during high volatility markets. Needs filters.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

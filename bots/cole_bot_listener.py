@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bots/cole_bot_listener.py ===
 # Purpose: Simulates Cole reading and responding to tasks
 

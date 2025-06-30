@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge/inbox/test_strategy.py ===
 print("[TestStrategy] 🔍 Executing basic RSI test strategy.")
 

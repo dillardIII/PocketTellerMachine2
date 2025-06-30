@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: gpt_prompt_api.py ===
 # GPT Prompt Router API for Code Review, Repair Suggestions, Chat Comms, and Voice Interaction
 
@@ -14,10 +15,10 @@ from error_parser import get_latest_error
 from ai_code_generator import generate_code_fix, suggest_improvements
 from auto_deployer import deploy_fix
 
-# === Set OpenAI Key (Fallback if used) ===
+# === Set OpenAI Key (Fallback if used) ===:
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-# === Flask Blueprint ===
+# === Flask Blueprint(===)
 gpt_prompt_bp = Blueprint("gpt_prompt", __name__)
 
 # === Web UI Page for Prompt Entry ===
@@ -103,3 +104,6 @@ def gpt_code_review_handler():
         return jsonify({"review": review})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

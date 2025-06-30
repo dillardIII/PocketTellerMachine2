@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: team_dropbox.py ===
 import os
 import json
@@ -29,3 +30,6 @@ def drop_file(sender, recipient, filename, content, purpose="General"):
         json.dump(entries, f, indent=2)
 
     print(f"[DROPBOX] {sender} dropped '{filename}' for {recipient} — {purpose}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

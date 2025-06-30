@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: gpt_cole_sync.py ===
 
 import os
@@ -71,3 +72,6 @@ def log_sync(result):
     logs.append(entry)
     with open(SYNC_LOG_FILE, "w") as f:
         json.dump(logs[-100:], f, indent=2)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

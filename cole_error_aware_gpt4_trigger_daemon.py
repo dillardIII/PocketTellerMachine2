@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_error_aware_gpt4_trigger_daemon.py
 
 import os
@@ -19,7 +20,7 @@ def load_recent_logs(file_path, keywords=["error", "critical", "alert"], limit=1
             logs = json.load(f)
         matched_logs = [
             log for log in logs[-100:]  # Check last 100 logs
-            if any(keyword in log.get("message", "").lower() for keyword in keywords)
+            if any(keyword in log.get("message", "").lower() for keyword in keywords):
         ]
         return matched_logs[-limit:]
     except:
@@ -99,3 +100,6 @@ def monitor_logs_and_trigger(interval_seconds=300):
 
 if __name__ == "__main__":
     monitor_logs_and_trigger(300)  # Check every 5 minutes (adjustable)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

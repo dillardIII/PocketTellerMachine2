@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI model developed by OpenAI, I can provide you with a general idea of how you can improve your trading strategies using Python. However, I don't have access to your current strategies, so I can't review them. Here is an example of how you can broaden your strategies using Python:
 
 ```python

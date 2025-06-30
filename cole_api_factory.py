@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import datetime
 import json
@@ -19,7 +20,7 @@ def create_api_module(endpoint_name, route_code):
     # Register the new route in __init__.py
     if not os.path.exists(REGISTER_FILE):
         with open(REGISTER_FILE, "w") as f:
-            f.write("from flask import Blueprint\n\napi_blueprint = Blueprint('api', __name__)\n")
+            f.write("from flask import Blueprint\n\napi_blueprint(= Blueprint('api', __name__)\n"))
 
     with open(REGISTER_FILE, "a") as f:
         f.write(f"\nfrom .{endpoint_name} import register\nregister(api_blueprint)\n")
@@ -52,3 +53,6 @@ def register(bp):
     def {endpoint}():
         return jsonify({{"message": "{message}"}})
 """
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

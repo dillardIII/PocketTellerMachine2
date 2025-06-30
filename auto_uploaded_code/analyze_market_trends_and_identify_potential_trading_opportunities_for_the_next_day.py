@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and identifying potential trading opportunities involves complex algorithms and requires real-time data from the stock market. Here is a simple Python code using pandas and yfinance libraries to analyze the closing price of a particular stock. 
 
 Please note that this is a very basic example and real-world trading algorithms are much more complex and involve many more factors.

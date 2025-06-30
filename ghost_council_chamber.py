@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_council_chamber.py ===
 # 🏛️ GhostCouncilChamber – lets your ghost AIs vote on new modules to build
 
@@ -30,7 +31,7 @@ def translate_focus_to_task(focus):
     if "liquidity" in focus:
         return "Write a module that hunts liquidity pools across chains and exploits thin walls."
     elif "vault" in focus:
-        return "Write a module that adds vault circuit breakers if balances drop too fast."
+        return "Write a module that adds vault circuit breakers if balances drop too fast.":
     elif "dark alpha" in focus:
         return "Write a module that listens for darknet signals on mixers & large transfers."
     elif "propaganda" in focus:
@@ -63,3 +64,6 @@ def council_loop():
 
 if __name__ == "__main__":
     council_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

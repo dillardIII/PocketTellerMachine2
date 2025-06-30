@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code that uses pandas to analyze market trends. In this example, we will use historical stock data from Yahoo Finance. Please note that this is a very basic example and real-world trading algorithms are much more complex and involve additional factors.
 
 ```python

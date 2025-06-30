@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Persona Sync Channel – Thought Sharing Between Assistant Personas
 
@@ -47,3 +48,6 @@ def clear_sync_feed():
     if os.path.exists(SYNC_FILE):
         os.remove(SYNC_FILE)
         print("[Sync Channel] Feed cleared.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase13_voice_persona_manager_daemon.py
 
 import os
@@ -67,3 +68,6 @@ def voice_persona_manager_loop():
 
 if __name__ == "__main__":
     voice_persona_manager_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

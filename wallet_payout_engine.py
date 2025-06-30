@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: wallet_payout_engine.py ===
 # 💸 PTM Wallet Payout Engine – Sends real crypto to user wallet after trade profits
 
@@ -60,3 +61,6 @@ def payout_from_profit_log(log_path="vault/profit_log.json"):
     except Exception as e:
         print(f"[PayoutEngine] ❌ Error reading profit log: {e}")
         return None
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

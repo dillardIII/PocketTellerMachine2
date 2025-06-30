@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghostforge_repair_watcher.py ===
 
 # 🔧 GhostForge Repair Watcher – Monitors repair requests and activates GhostForge recovery.
@@ -92,3 +93,6 @@ def process_repair_requests():
 # === Boot trigger
 if __name__ == "__main__":
     process_repair_requests()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

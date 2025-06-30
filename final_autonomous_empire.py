@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🚀 FINAL AUTONOMOUS EMPIRE STACK – FULL SELF-BUILDING AI SYSTEM
 import threading
 import time
@@ -14,7 +15,7 @@ from pickup_bot_loop import pickup_loop
 from vault_sentience import vault_loop
 from payout_engine import payout_loop
 
-# Optional: Try to import if found (to hook ultra systems)
+# Optional: Try to import if found (to hook ultra systems):
 try:
     from deepswarm import deep_swarm_loop
 except ImportError:
@@ -58,3 +59,6 @@ try:
         time.sleep(60)
 except KeyboardInterrupt:
     print("[FinalEmpire] ⛔ Shutdown requested.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

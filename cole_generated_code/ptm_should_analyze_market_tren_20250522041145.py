@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and adjust trading approach, we can use machine learning algorithms. Here is a simple example of how you could use Python to analyze market trends using a linear regression model from the sklearn library. This is a very basic example and real-world trading algorithms are much more complex and take into account many more factors.
 
 ```python

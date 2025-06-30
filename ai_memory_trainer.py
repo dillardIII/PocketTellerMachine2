@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ai_memory_trainer.py ===
 # 🧠 AI Memory Trainer – Builds internal patterns from success/failure feedback
 
@@ -28,3 +29,6 @@ def log_experience(trigger, success=True):
 if __name__ == "__main__":
     log_experience("RSI Bounce", True)
     log_experience("Breakout Sniper", False)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

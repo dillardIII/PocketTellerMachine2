@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To increase trading activity, we can create a Python script that will automate trading operations. Here's a simple example using a fictional trading API:
 
 ```python

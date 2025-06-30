@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In Python, a simple way to implement a fallback strategy is by using control flow with a conditional statement like `if...else`. Here's an example of how you can code a fallback strategy when no backtest results are found:
 
 ```python

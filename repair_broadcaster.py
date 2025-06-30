@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: repair_broadcaster.py ===
 # Distributes repair events across active bot systems
 
@@ -36,3 +37,6 @@ def start_broadcast_loop(interval=10):
 
 if __name__ == "__main__":
     start_broadcast_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

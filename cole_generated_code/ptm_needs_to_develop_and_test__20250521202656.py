@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and test new trading strategies, we can use Python libraries like pandas for data manipulation, numpy for numerical computation, matplotlib for visualization, and yfinance to fetch historical market data. Here's a simple example of a moving average crossover strategy.
 
 ```python

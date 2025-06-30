@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_error_repair_loop.py ===
 # 🛠️ Auto Error Repair – Self-heals runtime issues in PTM
 
@@ -30,3 +31,6 @@ def auto_error_repair_loop():
             log_error(error_msg)
             log_fix(f"Auto-repair triggered at {datetime.utcnow()}")
             print(f"[AutoRepair] 🔁 Repair triggered: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

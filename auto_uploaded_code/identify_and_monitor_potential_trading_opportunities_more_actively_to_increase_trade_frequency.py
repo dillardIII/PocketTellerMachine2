@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Given the high-level nature of your request, below is a simple example of how to monitor trading opportunities using Python. This code isn't designed for live trading, but it should give you an idea of how it can be done.
 
 This script will check if Company_X's moving average over the last 10 days is higher than the moving average over the past 50 days. If so, it might represent a buying opportunity. If the 10-day moving average is less than the 50-day average, it might represent a selling opportunity.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and opportunities to identify potential trades involves complex algorithms and requires real-time data. Here's a simple example of how you might use Python to analyze historical stock data using the pandas library and Yahoo Finance.
 
 This code will analyze the moving average of a stock to identify potential trading opportunities. A moving average smooths out price data to create a constantly updated average price, which can be used to identify trends.

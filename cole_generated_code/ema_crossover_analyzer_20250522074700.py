@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help you write a Python code to analyze EMA crossover. Here's a simple example using pandas library for data manipulation and yfinance to download stock price data.
 
 ```python

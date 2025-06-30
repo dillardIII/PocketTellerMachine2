@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module for a self-evolving autonomy stack is an exciting challenge. Such an architecture could involve recursive strategies that enable the system to adapt and improve itself over time. Below is an outline and implementation strategy for a Python module named `ptm_selfevolve`.
 
 ### Module Overview

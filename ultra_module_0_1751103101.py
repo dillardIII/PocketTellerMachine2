@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating an autonomous trading strategy with reinforcement learning elements involves several steps, including defining the trading environment, designing the reinforcement learning model, and implementing a framework to test and optimize the strategy. Here's a high-level outline and some detailed steps for setting up such a trading strategy for the PTM empire:
 
 ### 1. Define the Trading Environment
@@ -27,8 +28,8 @@ Creating an autonomous trading strategy with reinforcement learning elements inv
 
 - **Normalization**: Normalize data to ensure stability and consistency in training.
 - **Feature Selection**: Use techniques to select the most relevant features for the model.
-- **Dimensionality Reduction**: Apply dimensionality reduction techniques if needed (e.g., PCA).
-
+- **Dimensionality Reduction**: Apply dimensionality reduction techniques if needed (e.g., PCA).:
+:
 ### 4. Training the Model
 
 - **Training Loop**: Implement the training loop, where the agent interacts with the environment, collects experience, and updates its policy.
@@ -58,3 +59,6 @@ Creating an autonomous trading strategy with reinforcement learning elements inv
 - **Technical Challenges**: Address latency issues in data processing and order execution.
 
 Implement this strategy incrementally, starting with simulations on historical data, then transitioning to paper trading and finally live trading. Ensure robust testing and validation processes are in place to handle different market conditions effectively.
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of a Python code that initiates a trade using a hypothetical trading API. In this example, we'll use a fictional stock symbol "XYZ". Please replace it with the actual stock symbol and the trading API you're using.
 
 ```python

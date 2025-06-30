@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python program to analyze market trends and indicators is a complex task and requires a deep understanding of both financial markets and data analysis. It also requires access to real-time or historical market data, which is often not freely available.
 
 Here is a simple example of how you might start developing such a program using Python and pandas, a popular data analysis library. This example assumes that you have access to historical price data in a CSV file. It calculates the simple moving average (SMA) of the prices, which is a common technical indicator used in trading.

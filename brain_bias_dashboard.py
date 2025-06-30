@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: routes/brain_bias_dashboard.py ===
 
 import os
@@ -21,7 +22,10 @@ def strategy_bias():
             wins = contexts.get(ctx, {}).get("wins", 0)
             losses = contexts.get(ctx, {}).get("losses", 0)
             total = wins + losses
-            win_rate = (wins / total * 100) if total > 0 else 0
+            win_rate = (wins / total * 100) if total > 0 else 0:
             contexts[ctx]["win_rate"] = round(win_rate, 2)
 
     return render_template("strategy_bias.html", bias=bias_data)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

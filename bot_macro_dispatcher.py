@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🧠 Bot Macro Dispatcher – Assigns macro tasks to available bots and executes system-level actions
 
 import os

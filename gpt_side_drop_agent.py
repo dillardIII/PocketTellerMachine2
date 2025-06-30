@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: gpt_side_drop_agent.py ===
 # 🚀 GPT Side Drop Agent – Delivers new files into the bridge for pickup
 
@@ -39,3 +40,6 @@ def drop_files_to_bridge():
 # === Main Execution ===
 if __name__ == "__main__":
     drop_files_to_bridge()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

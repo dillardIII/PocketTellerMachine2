@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code that sets specific trading goals for the day. This code sets a goal for the number of trades to be made in a day and keeps track of the number of trades made. Once the goal is reached, it prints a congratulatory message.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 ### PTM Empire's Self-Evolving Autonomy Stack: The `AutonomyEngine` Module
 
 The new Python module, `AutonomyEngine`, is designed to leverage cutting-edge recursive strategies for building and expanding the PTM empire's self-evolving autonomy stack. It introduces several key components and strategies that allow for dynamic decision-making and adaptability in complex environments.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of a Python trading bot using the Moving Average Crossover strategy. It's a basic strategy where the bot buys when the short term moving average crosses above the long term moving average and sells when the short term moving average crosses below the long term moving average.
 
 Please note that this is a simplified version and real trading bots will require much more complexity including error handling, more sophisticated strategies, and use of real-time data.

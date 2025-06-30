@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and conditions, we can use Python libraries such as pandas for data manipulation, yfinance to download historical market data, and ta (Technical Analysis library) to compute trading indicators. Here's a simple example of how you might set this up:
 
 ```python

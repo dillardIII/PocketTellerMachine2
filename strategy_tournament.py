@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: strategy_tournament.py ===
 import os
 import random
@@ -32,7 +33,7 @@ def run_tournament(strategies):
 
             winner, log = run_strategy_duel(strat_a, strat_b)
 
-            winning_path = strat_a if winner == "A" else strat_b if winner == "B" else random.choice([strat_a, strat_b])
+            winning_path = strat_a if winner == "A" else strat_b if winner == "B" else random.choice([strat_a, strat_b]):
             next_round.append(winning_path)
 
             history.append({
@@ -55,3 +56,6 @@ def run_tournament(strategies):
         json.dump(history, f, indent=2)
 
     return final_winner, history
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Without a clear understanding of your existing code, I am providing you a general idea/structure of how a fallback can be implemented when no backtest results are found. In this case, the null result is going to be handled by returning an alternative value or running a separate piece of logic.
 
 

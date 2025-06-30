@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_council_mutation.py ===
 # 👻 PTM GhostCouncil Evolution Mutation
 # Reads ghost council votes, generates new strategy modules, queues them for execution, logs everything.
@@ -78,3 +79,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 
 # === FILE: bollingerbands_macd_8448.py ===
 # Auto-generated multi-strategy using BollingerBands, MACD
@@ -14,3 +15,7 @@ def run():
 
 if __name__ == "__main__":
     run()
+
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

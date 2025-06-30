@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 from flask import Blueprint, jsonify
@@ -28,3 +29,6 @@ def get_congress_snapshot():
         "latest_score": latest_score,
         "date": latest_date
     })
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

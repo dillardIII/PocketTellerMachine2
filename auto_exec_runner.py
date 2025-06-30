@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_exec_runner.py ===
 import os
 import subprocess
@@ -21,3 +22,6 @@ while True:
             log_exec(f)
             EXECUTED.add(f)
     time.sleep(10)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: log_command_results.py ===
 # 📜 Log Command Results – Adds sample command result logging to PTM
 

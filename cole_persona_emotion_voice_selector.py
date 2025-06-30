@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_persona_emotion_voice_selector.py
 
 import os
@@ -59,3 +60,6 @@ if __name__ == "__main__":
     for persona in personas:
         voice = select_voice_for_persona(persona)
         print(f"[{persona}]: Selected voice profile → {voice}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

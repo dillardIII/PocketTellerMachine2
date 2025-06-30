@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presumably a fictional or specific empire) empire's self-evolving autonomy stack with innovative recursive strategies involves creating a sophisticated and flexible architecture. Here’s a conceptual outline for such a module:
 
 ### Module: `autonomy_stack`

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code using pandas and yfinance libraries to monitor market trends. This code fetches the data of a specific stock (in this case, Apple Inc.) and calculates its moving average to determine the trend. Please note that this is a very basic implementation and real-world trading decisions involve much more complex algorithms and factors.
 
 ```python

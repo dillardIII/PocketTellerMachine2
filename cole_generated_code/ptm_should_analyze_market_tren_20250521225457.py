@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and identify potential profitable trades, we can use Python libraries like pandas for data manipulation, numpy for numerical computations, matplotlib for data visualization, and sklearn for machine learning. 
 
 Here is a simple example of how you can use Python to analyze market trends. In this example, we will use a simple moving average strategy. If the price is above the moving average, it's a signal to buy. If the price is below the moving average, it's a signal to sell.

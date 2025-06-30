@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: launch_all.py ===
 # 🚀 FULL EMPIRE AUTONOMOUS STACK LAUNCHER
 
@@ -41,3 +42,6 @@ try:
         time.sleep(15)
 except KeyboardInterrupt:
     print("[Empire] 🛑 Shutdown requested by user.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

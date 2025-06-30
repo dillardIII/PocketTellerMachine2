@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, below is a simple scaffold of the Python code to implement different trading strategies. For demonstration, I'll create two simple naive strategies: 'buy_low_sell_high' and 'invest_fixed_amount'
 
 ```python

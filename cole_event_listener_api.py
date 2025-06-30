@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from flask import Flask, request, jsonify
 from test_fusion_ai_executor import ai_fusion_execute
 from trade_logger import log_trade_to_memory
@@ -38,3 +39,6 @@ def event_trigger():
 # === Run Event Listener API ===
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5002, debug=True)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

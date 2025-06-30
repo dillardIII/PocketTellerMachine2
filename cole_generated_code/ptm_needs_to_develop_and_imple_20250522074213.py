@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a simple Python code for a basic trading strategy. However, please note that this is a very simplified version and real-world trading strategies involve complex algorithms, machine learning, and deep knowledge of financial markets.
 
 In this example, we will use a simple Moving Average Crossover strategy. This strategy is based on the principle that if the short-term moving average of a stock price crosses above its long-term moving average, it's a buy signal. Conversely, if it crosses below, it's a sell signal.

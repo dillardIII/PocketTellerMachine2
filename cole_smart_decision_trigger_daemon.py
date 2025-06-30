@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 import time
@@ -35,9 +36,9 @@ def analyze_logs_for_decision():
             logs = json.load(f)
     except:
         logs = []
-    error_entries = [log for log in logs if "error" in log.get("event", "").lower()]
-    return error_entries[-5:] if error_entries else []
-
+    error_entries = [log for log in logs if "error" in log.get("event", "").lower()]:
+    return error_entries[-5:] if error_entries else []:
+:
 # === Generate Fix Code via OpenAI ===
 def generate_decision_command(errors):
     error_summary = "\n".join([f"{e.get('timestamp')} - {e.get('event')}" for e in errors])
@@ -135,3 +136,6 @@ def decision_trigger_daemon_loop():
 # === CLI Entry ===
 if __name__ == "__main__":
     decision_trigger_daemon_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Self-Patch Cycle – PTM Auto-Healing + Bot Recovery System
 
@@ -28,7 +29,7 @@ def monitor_for_failures():
         errors = json.load(f)
 
     now = time.time()
-    recent = [e for e in errors if now - e.get("timestamp", 0) < RETRY_WINDOW]
+    recent = [e for e in errors if now - e.get("timestamp", 0) < RETRY_WINDOW]:
     return recent
 
 def attempt_auto_patch():
@@ -58,3 +59,6 @@ def self_patch_loop():
 # Manual run
 if __name__ == "__main__":
     self_patch_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

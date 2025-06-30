@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === botnet_sync.py ===
 """
 Botnet Sync – Connects and synchronizes commands, memory, and updates across PTM AI units.
@@ -64,10 +65,10 @@ class BotnetSync:
         })
 
     def get_pending_commands(self, node_id):
-        return [cmd for cmd in self.command_queue if cmd["node"] == node_id]
-
+        return [cmd for cmd in self.command_queue if cmd["node"] == node_id]:
+:
     def clear_commands(self, node_id):
-        self.command_queue = [cmd for cmd in self.command_queue if cmd["node"] != node_id]
+        self.command_queue = [cmd for cmd in self.command_queue if cmd["node"] != node_id]:
         self.save_commands()
 
 if __name__ == "__main__":

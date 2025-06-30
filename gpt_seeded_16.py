@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here’s a Python utility crafted for a strategy or empire-building game. This utility manages the production and allocation of resources across various colonies within your empire. The system is called the "Resource Allocation and Production Manager" (RAPM):
 
 ```python
@@ -99,3 +100,6 @@ if __name__ == "__main__":
 - Resources are produced each round, and then a transfer between colonies is demonstrated.
 
 This utility helps visualize managing resources efficiently within an empire, adding a strategic layer in resource management for games.
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

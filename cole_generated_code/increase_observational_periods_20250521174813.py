@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Implementing this task as a Python application will involve designing a system to process real-time data and increase observational periods during peak trading times.
 
 Here's a simplified concept of how it can be done:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to enhance the PTM (Presumably an acronym for a fictional organization in this context) empire's self-evolving autonomy stack is a complex task that involves implementing recursive strategies. A self-evolving stack suggests the system can learn and adapt over time by iteratively improving its capabilities. Below is a conceptual design of such a module, focusing on recursive strategies and showcasing an innovative approach.
 
 ---

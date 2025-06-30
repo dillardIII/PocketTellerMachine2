@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: build_manifest_handler.py ===
 import os
 import json
@@ -21,3 +22,6 @@ def log_build_manifest(team, task, files, instructions):
         json.dump(manifest, f, indent=2)
 
     print(f"[MANIFEST] Build logged: {filename}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

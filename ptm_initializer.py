@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ptm_initializer.py ===
 # 🧠 PTM Initializer – Handles boot checks, system scans, config load, and persona prep
 
@@ -24,8 +25,8 @@ class PTMInitializer:
         # Run diagnostics
         diagnostics = self.run_diagnostics()
         self.ready = diagnostics["pass"]
-        self.status = "ready" if self.ready else "fail"
-
+        self.status = "ready" if self.ready else "fail":
+:
         # Save results to file
         Path("state").mkdir(parents=True, exist_ok=True)
         with open("state/init_report.json", "w", encoding="utf-8") as f:
@@ -103,3 +104,6 @@ class PTMInitializer:
             "ready": self.ready,
             "personas": self.personas
         }
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

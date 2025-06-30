@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and patterns, we can use the pandas library in Python to manipulate and analyze data. We can also use yfinance to download historical market data from Yahoo Finance. For simplicity, let's assume that we are looking for opportunities in the stock market and we will use a simple moving average crossover strategy to identify these opportunities.
 
 Here's a simple Python script that does this:

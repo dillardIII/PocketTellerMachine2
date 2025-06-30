@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and making informed trading decisions involves complex algorithms and requires real-time data. Here's a simple example of how you might start to approach this using Python. This code uses the pandas library to analyze historical stock data, and the yfinance library to download the stock data. 
 
 Please note that this is a very basic example and doesn't actually make trading decisions. Real-world trading algorithms are much more complex and take many more factors into account.

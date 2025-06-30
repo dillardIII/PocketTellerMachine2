@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To accomplish this task, we will need to use the pandas library for data manipulation and the yfinance library to download the stock price data. The Moving Average Convergence Divergence (MACD) is a trend-following momentum indicator that shows the relationship between two moving averages of a security’s price.
 
 Here is a simple Python code to calculate the MACD and Signal line indicators and then scan for the condition where MACD crosses above the Signal line.

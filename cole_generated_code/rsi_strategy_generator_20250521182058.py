@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 The RSI (Relative Strength Index) strategy is commonly used in trading as a momentum oscillator to measure the speed and change of price movements. Below is an example of how you could generate a simple RSI trading strategy using Python, pandas and yfinance libraries. 
 
 ```python

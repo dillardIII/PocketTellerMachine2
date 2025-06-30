@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide you with a basic example of a simple trading strategy using Python. This strategy will be a simple moving average crossover strategy. 
 
 Please note that this is a very basic strategy and real-world trading strategies can be much more complex. Also, this code assumes that you have pandas, numpy and yfinance libraries installed in your Python environment.

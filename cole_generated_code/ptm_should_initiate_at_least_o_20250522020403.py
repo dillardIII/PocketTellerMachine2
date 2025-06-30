@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code that simulates a trading system. This code initiates a trade and records whether it's a win or a loss based on a random outcome.
 
 ```python

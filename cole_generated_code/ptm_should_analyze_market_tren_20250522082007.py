@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and adjust trading approach, we can use Python libraries like pandas for data manipulation, numpy for numerical computations, matplotlib for data visualization, and sklearn for machine learning. Here's a simple example of how you might start building a predictive trading model.
 
 Please note that this is a simplified example and real-world trading models can be extremely complex and require careful consideration of many factors.

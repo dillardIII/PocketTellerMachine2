@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: trade_dashboard_route.py ===
 
 from flask import Blueprint, render_template, jsonify
@@ -25,3 +26,6 @@ def api_trade_history():
             trades = []
 
     return jsonify(trades[::-1])  # Most recent first
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

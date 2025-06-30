@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === courier_ai.py ===
 """
 Courier AI – Autonomous Bridge File Transporter
@@ -42,8 +43,8 @@ class CourierAI:
 
     def deliver_file(self, filename, destination_bridge_name):
         source_path = os.path.join(INBOX_DIR, filename)
-        bridge = next((b for b in self.bridges if b["name"] == destination_bridge_name), None)
-
+        bridge = next((b for b in self.bridges if b["name"] == destination_bridge_name), None):
+:
         if not bridge:
             log_event("Courier Delivery Failed", {"error": "Bridge not found", "target": destination_bridge_name})
             return False

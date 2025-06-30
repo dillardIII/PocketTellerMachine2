@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: voice_recap.py ===
 
 import os
@@ -23,3 +24,6 @@ def generate_voice_recap(text):
     except Exception as e:
         print(f"[VoiceRecap] Error generating audio: {e}")
         return None
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

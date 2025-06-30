@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Developing a trading strategy involves a lot of factors and can be quite complex. Here's a simple example of a Python code that uses a basic moving average crossover strategy for trading. This strategy buys when the short-term moving average crosses above the long-term moving average, and sells when the short-term moving average crosses below the long-term moving average.
 
 Please note that this is a simplified example and real-world trading strategies involve much more factors and complex algorithms.

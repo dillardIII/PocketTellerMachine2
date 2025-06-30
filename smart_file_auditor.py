@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: smart_file_auditor.py ===
 
 # 🧠 SmartFile Auditor – Scans PTM directories for missing, outdated, or corrupted files.
@@ -120,7 +121,10 @@ def run_audit():
 
     return results
 
-# === Run Audit Automatically if Called Directly ===
+# === Run Audit Automatically if Called Directly ===:
 if __name__ == "__main__":
     audit_results = run_audit()
     print(json.dumps(audit_results, indent=2))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

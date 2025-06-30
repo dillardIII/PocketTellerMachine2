@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, please first check your system to see if backtest results are available. When no backtest results are found, you will see a fallback message or action. The code you need depends on how your system is set up, but a very simple case might look like this:
 
 ```python

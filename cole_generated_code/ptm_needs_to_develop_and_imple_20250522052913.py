@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a basic structure of a Python code for a simple trading strategy. However, please note that this is a very simplified version of what a real trading strategy might look like. Also, you need to have a good understanding of financial markets and Python programming to develop and implement effective trading strategies.
 
 ```python

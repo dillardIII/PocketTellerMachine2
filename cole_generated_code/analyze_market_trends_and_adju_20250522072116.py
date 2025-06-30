@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we would need real-time market data. Python has several libraries that can be used to fetch this data. For this example, we will use the `yfinance` library to fetch stock market data. We will also use `pandas` for data manipulation and `numpy` for calculations. We will use `matplotlib` for plotting the data.
 
 Please note that this is a very basic example of how you can analyze market trends and adjust trading strategies. In real-world scenarios, you would need much more complex algorithms and a lot more data to make accurate predictions.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: startup_sequencer.py ===
 
 # 🔄 Startup Sequencer – Initializes repair systems, logs boot stages, and performs readiness checks
@@ -41,3 +42,6 @@ class StartupSequencer:
         print("[StartupSequencer] 📝 Logging boot status...")
         time.sleep(0.3)
         print("[StartupSequencer] 📝 Boot status logged.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

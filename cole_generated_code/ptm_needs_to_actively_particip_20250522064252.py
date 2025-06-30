@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we can create a simple simulation where PTM (Presume it's a trading company) participates in the market. We will use Python's random module to simulate the randomness of the market. 
 
 Here's a simple Python code:

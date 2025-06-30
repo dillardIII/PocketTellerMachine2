@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # task_router.py
 # Routes interpreted commands to the correct bot, module, or action pipeline.
 
@@ -33,3 +34,6 @@ def route_task(structured_command):
     except Exception as e:
         traceback.print_exc()
         return f"[ERROR in Task Router]: {str(e)}"
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: uplinks/perplexity_feed.py ===
 # 📡 Perplexity Feed – Grabs live intel from Perplexity
 

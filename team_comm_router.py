@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: team_comm_router.py ===
 """
 Team Communication Router:
@@ -79,3 +80,6 @@ def clear_inbox(team_name):
     filename = f"{COMM_LOG_DIR}/{team_name.lower()}_inbox.json"
     with open(filename, "w") as f:
         json.dump([], f)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

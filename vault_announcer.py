@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import json
 import time
 from datetime import datetime
@@ -19,3 +20,6 @@ def vault_announce_loop():
         except Exception as e:
             print(f"[VaultAnnouncer] ❌ Vault error: {e}")
         time.sleep(15)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,1 +1,2 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 generated/Investigate_why_no_trades_were_made_today_and_address_any_technical_or_strategical_issues_20250520_045139.py

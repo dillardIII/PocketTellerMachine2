@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 👁️ Vault Council – self-debates to decide the next strategic empire expansions
 
 import random
@@ -19,3 +20,6 @@ while True:
         log.write(f"[{datetime.utcnow()}] 💭 Council chose: {strategy}\n")
     print(f"[VaultCouncil] 🧠 Evolving: {strategy}")
     time.sleep(120)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

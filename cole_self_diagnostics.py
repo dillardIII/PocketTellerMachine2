@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import time
 from cole_event_logger import (
     log_info, log_warning, log_error, log_critical, log_recovery
@@ -54,3 +55,6 @@ def run_self_diagnostics():
 # === CLI Trigger ===
 if __name__ == "__main__":
     run_self_diagnostics()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

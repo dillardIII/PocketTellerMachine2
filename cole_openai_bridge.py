@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_openai_bridge.py ===
 
 import openai
@@ -19,3 +20,6 @@ def ask_gpt(prompt, model="gpt-4"):
     except Exception as e:
         print(f"[GPT-Bridge ERROR] {e}")
         return "# Error generating code from GPT."
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

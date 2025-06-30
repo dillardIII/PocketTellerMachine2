@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To increase market monitoring, we can use Python libraries such as pandas, yfinance, and matplotlib to fetch real-time market data, analyze it, and visualize it. However, please note that this is a basic example and real-world trading systems are much more complex and require sophisticated algorithms and risk management strategies.
 
 Here is a simple Python script that fetches the latest data for a specific stock (e.g., 'AAPL') and identifies if there is an increase in the closing price compared to the previous day. If there is, it prints a message indicating a potential trading opportunity.

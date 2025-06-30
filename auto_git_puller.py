@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🔄 Auto Git Puller for Replit
 import subprocess
 import time
@@ -10,3 +11,6 @@ while True:
     except subprocess.CalledProcessError as e:
         print(f"[AutoPull] ⚠️ Pull failed: {e}")
     time.sleep(60)  # pulls every 60 sec
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

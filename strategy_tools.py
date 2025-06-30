@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: strategy_tools.py ===
 # 🛠️ Strategy Tools – AI-driven strategy forking and dynamic code generation
 
@@ -17,7 +18,7 @@ def generate_strategy_fork(notes, bot_name="Mentor"):
 def run_strategy(data):
     """
     Auto-generated strategy based on feedback notes:
-    {" | ".join(notes[-3:]) if notes else "No notes provided"}
+    {" | ".join(notes[-3:]) if notes else "No notes provided"}:
     """
     if {logic}:
         return "Buy AAPL"
@@ -30,7 +31,7 @@ def deduce_logic_from_notes(notes):
     Naive logic parser – analyzes last few notes and forms a conditional expression.
     Replace this with full LLM-powered parser later.
     """
-    last = " ".join(notes[-3:]).lower() if notes else ""
+    last = " ".join(notes[-3:]).lower() if notes else "":
     
     if "oversold" in last or "RSI < 30" in last:
         return "data['RSI'] < 30"
@@ -44,3 +45,6 @@ def deduce_logic_from_notes(notes):
         return "data['trend'] == 'reversal'"
     else:
         return "data['5MA'] > data['20MA']"
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

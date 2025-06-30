@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI, I can't review and optimize the trading algorithms directly since I don't have access to your codebase and data. However, I can provide a general Python code structure for optimizing a trading algorithm using machine learning techniques. 
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze the EMA (Exponential Moving Average) Crossover, we need to calculate the EMA for two different periods, typically a short period and a longer period. Let's say we will use the 9-day and 21-day periods, which are common in trend analysis. Then we will determine the points where the short period EMA crosses the long period EMA. 
 
 Here's a possible Python script using Pandas for this task:

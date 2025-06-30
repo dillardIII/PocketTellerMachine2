@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and data, we need to use some libraries such as pandas for data manipulation, matplotlib for data visualization, and yfinance to download the stock data. Here's a simple example of how you might start building a Python Trading Model (PTM).
 
 Please note that this is a very basic example and real trading models involve much more complex algorithms and data analysis.

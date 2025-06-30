@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_file_listener_writer.py ===
 import os
 import time
@@ -18,3 +19,6 @@ def copy_new_modules():
 while True:
     copy_new_modules()
     time.sleep(30)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

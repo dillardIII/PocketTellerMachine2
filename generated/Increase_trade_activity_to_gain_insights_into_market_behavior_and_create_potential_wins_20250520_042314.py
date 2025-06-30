@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # Increase trade activity to gain insights into market behavior and create potential wins
 # 
 

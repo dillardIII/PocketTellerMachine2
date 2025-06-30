@@ -1,1 +1,2 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from cole_tools.brain_core import run_backtest_for_all_strategies, calculate_grade

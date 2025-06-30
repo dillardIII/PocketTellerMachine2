@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, to accomplish this task we can use the `yfinance` library in Python to download stock data. However, please note that identifying potential winning trades involves complex algorithms and strategies that consider various factors like price trends, trading volumes, market news, company fundamentals, etc. Here is a simple Python code that fetches the latest stock data and calculates the percentage change:
 
 ```python

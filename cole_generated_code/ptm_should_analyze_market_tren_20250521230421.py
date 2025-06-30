@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python script using the `pandas` library to analyze market trends. This script will calculate the moving average of a stock price over a certain period of time, which is a common method used to identify potential trading opportunities.
 
 Please note that this is a very basic example and real-world trading algorithms are much more complex and take many more factors into account.

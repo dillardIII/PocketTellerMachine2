@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python program to analyze market trends and patterns is a complex task that involves multiple steps. It requires knowledge of financial markets, data analysis, and machine learning. Here is a simplified example of how you might start to approach this problem using Python and pandas library. This code will fetch historical data, calculate simple moving average and identify potential trading opportunities based on that.
 
 ```python

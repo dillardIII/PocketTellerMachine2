@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a simple implementation of a moving average crossover strategy using Python. This is a common strategy used in algorithmic trading where you maintain a short term and long term moving average of a stock price, and make trades based on when these averages cross over each other. 
 
 Please note that this is a very simplified version of a trading bot and it's recommended to use more sophisticated strategies and risk management for actual trading. Also, you need to install `pandas`, `yfinance`, `matplotlib` and `numpy` libraries to run this code.

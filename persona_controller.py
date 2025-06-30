@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: persona_controller.py ===
 # 🎭 Persona Controller – Switches, tracks, and manages assistant personas in PTM
 
@@ -33,3 +34,6 @@ def get_persona():
 def persona_summary():
     p = get_persona()
     return f"🎙️ Persona: {p['name']} ({p['voice']}) – Mood: {p['mood']} | Title: {p['custom_title']}"
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: guardian_superloop.py ===
 import os
 import time
@@ -26,3 +27,6 @@ def super_guardian_loop():
         quantum_brain_loop()
         guardian_loop()
         time.sleep(120)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

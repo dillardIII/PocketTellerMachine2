@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to improve risk management strategies, we can use Python to create a simple risk management tool. This tool will calculate the position size for a trade based on the stop loss level and the amount of capital we are willing to risk.
 
 Here is a simple Python function that calculates the position size:

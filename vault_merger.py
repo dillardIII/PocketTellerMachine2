@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: vault_merger.py ===
 # 🧠 VaultMerger – Merges all device dumps into unified vault with XP and Level tracking
 
@@ -42,3 +43,6 @@ def merge_vaults():
 
 if __name__ == "__main__":
     merge_vaults()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

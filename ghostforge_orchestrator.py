@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghostforge_orchestrator.py ===
 # 🔁 GhostForge Orchestrator – Runs GhostForge loop and dispatches AI file generation
 

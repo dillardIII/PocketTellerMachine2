@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: assistant_mood_engine.py ===
 """
 Assistant Mood Engine:
@@ -50,3 +51,6 @@ def get_mood(persona_name):
 
 def list_all_moods():
     return load_moods()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

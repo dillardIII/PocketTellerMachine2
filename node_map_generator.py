@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: node_map_generator.py ===
 import json
 import time
@@ -33,3 +34,6 @@ if __name__ == "__main__":
         update_node_map()
         update_brain_status()
         time.sleep(10)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

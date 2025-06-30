@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: rebuild_auto_code_dropper.py ===
 # 🔧 Rebuilds auto_code_dropper.py – Auto file generation logic
 
@@ -11,3 +12,6 @@ def auto_drop_code(filename="auto_dropped.py"):
     print(f"[AutoDropper] ✅ Dropped: {filename}")
 ''')
 print("[rebuild_auto_code_dropper] ✅ auto_code_dropper.py rebuilt.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

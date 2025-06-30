@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: generate_ptm_voice_previews.py ===
 # 🎤 Generates voice previews for PTM assistant personas using ElevenLabs
 
@@ -60,3 +61,6 @@ for persona in personas:
     save(audio, os.path.join(output_folder, f"{persona['name'].lower()}.mp3"))
 
 print("✅ All voice previews generated.") 
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

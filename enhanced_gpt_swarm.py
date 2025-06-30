@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: enhanced_gpt_swarm.py ===
 import os, time, random
 from datetime import datetime
@@ -39,3 +40,6 @@ def swarm_loop():
 
 if __name__ == "__main__":
     swarm_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

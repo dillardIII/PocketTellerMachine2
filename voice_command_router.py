@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: voice_command_router.py ===
 # 🗣️ Voice Command Router – Converts user speech into executable PTM commands
 

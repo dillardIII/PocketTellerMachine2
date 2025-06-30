@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple example of a Python code implementing a basic trading strategy using Moving Average Crossover. Please note that you need to install pandas_datareader and matplotlib libraries to run this code. 
 
 ```python

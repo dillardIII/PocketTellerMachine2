@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 ```python
 # trading_strategy_mutator.py
 
@@ -87,7 +88,11 @@ if __name__ == "__main__":
     # Mutate strategy based on volatility
     strategy_mutator.mutate_strategy(base_signal)
 
-    # Retrieve and print the mutated strategy
+    # Retrieve and print(the mutated strategy)
     mutated_strategy_df = strategy_mutator.get_mutated_strategy()
     print(mutated_strategy_df.head())
 ```
+
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

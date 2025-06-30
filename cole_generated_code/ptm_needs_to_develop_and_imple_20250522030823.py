@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, but please note that a trading strategy is a complex topic and requires a lot more information and data to be effective. However, I can provide a simple example of a Python code that uses a basic trading strategy. This strategy is based on moving averages, a common indicator used in technical analysis.
 
 ```python

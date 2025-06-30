@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: gpt_file_generator.py ===
 
 # 🤖 GPT File Generator – Generates custom .py files based on input
@@ -32,3 +33,6 @@ class GPTFileGenerator:
     def _log(self, filename):
         with open(VAULT_LOG, "a") as log:
             log.write(f"[{int(time.time())}] Auto-generated file: {filename}\n")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

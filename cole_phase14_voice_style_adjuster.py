@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase14_voice_style_adjuster.py
 
 import os
@@ -36,3 +37,6 @@ def create_voice_command(text):
 if __name__ == "__main__":
     sample_text = "Here is your portfolio performance update."
     print("Simulated Voice Command:", create_voice_command(sample_text))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: phase_manager.py ===
 # 🎛️ PTM Phase Manager – Handles operational mode control across all modules
 

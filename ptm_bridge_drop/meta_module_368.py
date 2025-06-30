@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new Python module to enhance the PTM (Presumably, an organization or system focused on autonomous technology) empire's self-evolving autonomy stack involves several innovative and recursive strategies. Below is a conceptual design for such a module, focusing on creating a robust, self-improving, and adaptable architecture.
 
 ### Module: AERIS (Autonomous Evolution Recursive Intelligence System)

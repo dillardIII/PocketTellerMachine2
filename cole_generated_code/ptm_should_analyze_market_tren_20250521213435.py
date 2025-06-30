@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and data, we can use the pandas library in Python to handle the data and matplotlib to visualize it. We also need to get the data from somewhere, for example, Yahoo Finance. We can use the yfinance library to download it.
 
 Here is a simple example of how you can analyze the closing price of a stock:

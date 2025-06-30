@@ -1,6 +1,7 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Temporal Reflex Daemon
-Monitors anchor points and auto-triggers actions or logs if deadlines or time-based events occur.
+Monitors anchor points and auto-triggers actions or logs if deadlines or time-based events occur.:
 Works with temporal_sync_engine to drive cause-effect logic over time.
 """
 

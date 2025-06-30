@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: dynamic_exec_orchestrator.py ===
 # 🚀 Dynamic Execution Orchestrator – pulls files from bridge, runs them, commits to git
 
@@ -36,3 +37,6 @@ while True:
             except Exception as e:
                 print(f"[ExecOrchestrator] ❌ Error executing {file}: {e}")
     time.sleep(10)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

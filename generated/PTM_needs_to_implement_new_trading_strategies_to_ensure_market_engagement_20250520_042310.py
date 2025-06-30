@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # PTM needs to implement new trading strategies to ensure market engagement
 # 
 

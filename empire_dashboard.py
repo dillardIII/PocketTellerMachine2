@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: empire_dashboard.py ===
 from flask import Flask, render_template_string, send_file
 import json
@@ -52,3 +53,6 @@ def vault_log():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

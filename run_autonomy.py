@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: run_autonomy.py ===
 # 🚀 PTM Launch Trigger – Activates full AI stack, autonomy modules, and monitoring systems
 
@@ -32,3 +33,6 @@ def boot_ptm():
 
 if __name__ == "__main__":
     boot_ptm()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

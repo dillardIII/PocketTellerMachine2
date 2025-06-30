@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help with that. However, I need more details about what the fallback strategy should do when no backtest results are found. For example, should it return a default value, raise an exception, or perform a different action? 
 
 For now, I'll assume that we want to return a default value. Here's a simple example:

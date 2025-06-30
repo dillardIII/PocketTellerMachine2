@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new Python module to expand an autonomous system, particularly for something as complex as a "self-evolving autonomy stack" for an organization like PTM, involves several innovative and technical components. Below, I'll outline a conceptual design and some example code snippets for implementing recursive strategies in Python.
 
 ### Conceptual Overview

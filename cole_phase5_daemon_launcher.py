@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import time
 import requests
 import os
@@ -42,3 +43,6 @@ if __name__ == "__main__":
 if __name__ == "__main__":
     print("[DAEMON]: Phase 5 Autonomous Bridge Daemon running...")
     auto_monitor_bridge_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

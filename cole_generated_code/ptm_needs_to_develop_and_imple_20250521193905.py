@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and implement trading strategies, you would need to use historical data to analyze trends, make predictions, and develop a strategy based on those predictions. Here's a simple example of how you might do this in Python using a moving average strategy.
 
 Please note that this is a very basic strategy and may not necessarily increase the chance of wins. Trading involves risk and this should not be taken as financial advice.

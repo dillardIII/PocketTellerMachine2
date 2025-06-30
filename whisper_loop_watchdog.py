@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: whisper_loop_watchdog.py ===
 
 # 🎙️ Whisper Watchdog – Keeps Whisper engine always running
@@ -12,3 +13,6 @@ def watchdog_loop():
             start_whisper_listener()
         except Exception as e:
             print(f"[WhisperWatchdog] ❌ Restarting Whisper due to error: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

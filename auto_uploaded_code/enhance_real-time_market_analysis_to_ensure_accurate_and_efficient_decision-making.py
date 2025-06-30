@@ -1,1 +1,2 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 generated/Enhance_real-time_market_analysis_to_ensure_accurate_and_efficient_decision-making_20250520_043405.py

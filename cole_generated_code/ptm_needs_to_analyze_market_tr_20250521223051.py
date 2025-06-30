@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple example of how you could analyze market trends using Python. This example uses the `pandas` library to handle data and the `yfinance` library to download stock price data from Yahoo Finance.
 
 ```python

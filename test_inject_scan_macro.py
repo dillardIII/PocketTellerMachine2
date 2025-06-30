@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: test_inject_scan_macro.py ===
 from gpt_code_dispatcher import dispatch_code
 
@@ -20,3 +21,6 @@ def scan_functions():
                         lines = f.readlines()
                         for i, line in enumerate(lines):
                             match = re.match(r'\\s*def\\s+([a-zA-Z_][a-zA-Z0-9_]*)\\s*\
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

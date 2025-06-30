@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple function to run a backtest. It includes a fallback strategy for when no results are found:
 
 ```python

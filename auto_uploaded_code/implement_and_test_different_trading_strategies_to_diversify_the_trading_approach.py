@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple implementation of two trading strategies using Python. We'll use the `pandas_datareader` library to fetch historical stock data from Yahoo Finance, and `pandas` to handle the data. The two strategies we'll implement are:
 
 1. Moving Average Crossover Strategy: This strategy is based on the idea that a short-term moving average crossing above a long-term moving average is a buy signal, and vice versa.

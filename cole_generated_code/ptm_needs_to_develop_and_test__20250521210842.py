@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and test new trading strategies, we need to use a backtesting framework. Here's a simple example using the `bt` library in Python. This library allows us to create and test strategies in a simple and straightforward way.
 
 First, we need to install the `bt` library. You can do this by running the command `pip install bt`.

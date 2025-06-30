@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: system_status_dashboard.py ===
 # 🧭 PTM System Status Dashboard
 # Prints active threads and what they're doing in real time.
@@ -16,3 +17,6 @@ def print_system_status():
 
 if __name__ == "__main__":
     print_system_status()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

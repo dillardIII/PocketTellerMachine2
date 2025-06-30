@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python utility for managing a strategy or empire-style game involves handling several components such as resources, military units, and expansion. Below is an example of a simplified strategy utility for managing resources and territories within a fictional empire-style game. This script will allow players to allocate resources, grow their empire, and handle basic interactions between territories.
 
 ```python
@@ -86,3 +87,6 @@ if __name__ == "__main__":
 
 ### Usage:
 You can run the code as-is and modify or expand it to add more complexity, such as battles between territories, resource trading, or events affecting resource yield and territory status. This foundational script provides a framework on which to build more intricate mechanics.
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

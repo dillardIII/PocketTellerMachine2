@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Cole Logger:
 Unified event logging system for PTM bots and assistants.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 ```python
 # dark_liquidity_watcher.py
 
@@ -36,7 +37,7 @@ class DarkLiquidityWatcher:
         :param data: List of liquidity levels.
         :return: List of indexes where the liquidity walls are above the threshold.
         """
-        suspicious_indexes = [index for index, level in enumerate(data) if level > self.threshold]
+        suspicious_indexes = [index for index, level in enumerate(data) if level > self.threshold]:
         return suspicious_indexes
 
     def log_suspicious_activity(self, suspicious_indexes, data):
@@ -79,3 +80,6 @@ if __name__ == "__main__":
     watcher = DarkLiquidityWatcher()
     watcher.watch_market()
 ```
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

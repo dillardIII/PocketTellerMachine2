@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Writing a Python code for analyzing market trends and indicators is a complex task and requires a good understanding of both finance and programming. Here's a simple example of how you might start to build such a system using Python and the pandas library. This is a very basic example and real-world trading systems are much more complex and take into account many more factors.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from flask import Blueprint, jsonify
 import json
 import os
@@ -23,3 +24,6 @@ def get_market_backtest():
             return jsonify({"status": "success", "results": dummy_results})
     except Exception as e:
         return jsonify({"status": "error", "message": str(e)})
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: persona_voice_player.py ===
 # 🔊 Persona Voice Player – Plays selected MP3 lines per persona
 

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 from flask import Blueprint, jsonify, request
@@ -27,3 +28,6 @@ def get_congress_sparklines():
             result.append({"symbol": symbol, "history": scores})
 
     return jsonify({"data": result})
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

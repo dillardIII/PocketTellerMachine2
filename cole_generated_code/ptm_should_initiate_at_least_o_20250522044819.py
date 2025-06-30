@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple example of a Python code that simulates a trading bot. This bot will initiate at least one trade. The outcome of the trade (win or loss) is randomly determined.
 
 ```python

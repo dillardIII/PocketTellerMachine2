@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Potentially Theoretical Model) empire's self-evolving autonomy stack with innovative recursive strategies requires a blend of advanced machine learning concepts, self-optimization techniques, and self-improvement mechanisms. Here, I will outline a conceptual design for such a module, focusing on the recursive strategies element, which can adapt and improve autonomously over time.
 
 ### Module Name: `PTMEvolveStack`

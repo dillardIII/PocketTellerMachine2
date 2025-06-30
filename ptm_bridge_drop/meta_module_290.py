@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presumably a fictional empire or company) empire's self-evolving autonomy stack with innovative recursive strategies involves a considerable amount of planning and creativity. Below is a conceptual outline and a snippet of code that illustrates how to structure such a module. For the purposes of this explanation, we'll assume PTM's stack involves autonomous decision-making, learning, and adaptation, perhaps in scenarios like robotics, AI strategy games, or autonomous vehicles.
 
 ### Conceptual Outline

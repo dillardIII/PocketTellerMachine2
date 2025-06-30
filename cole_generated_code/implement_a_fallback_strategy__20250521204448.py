@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help with that. However, I'll need a bit more context to provide a more accurate solution. For now, I'll assume that you have a function called `run_backtest()` that returns backtest results and that you want to implement a fallback strategy when no results are returned.
 
 Here's a simple Python code snippet that implements this:

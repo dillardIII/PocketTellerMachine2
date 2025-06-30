@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ai_commander.py ===
 # 🧠 AI Commander – Directs AI tasks, assigns modules, and tracks progress
 
@@ -54,3 +55,6 @@ class AICommander:
 
 # Instantiate commander globally
 commander = AICommander()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

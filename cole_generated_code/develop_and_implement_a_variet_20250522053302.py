@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code that uses the `yfinance` library to download stock data and implement three different trading strategies: Mean Reversion, Momentum, and Buy and Hold. 
 
 Please note that this is a very basic implementation and real-world trading strategies would be much more complex and would also consider other factors such as transaction costs, slippage, risk management, etc.

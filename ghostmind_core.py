@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghostmind_core.py ===
 
 # 🧠 GhostMind Core – Identifies missing PTM files and writes them
@@ -25,3 +26,6 @@ def scan_and_build():
 
 if __name__ == "__main__":
     scan_and_build()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

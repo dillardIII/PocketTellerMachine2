@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_auto_executor.py
 
 import os
@@ -95,3 +96,6 @@ def auto_execute_generated_code():
 # === Manual Test Mode ===
 if __name__ == "__main__":
     auto_execute_generated_code()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

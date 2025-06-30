@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code that simulates a trading bot using a simple strategy. This bot will buy when the price goes above the moving average and sell when it goes below. 
 
 Please note that this is a very simple example and real trading bots use much more complex strategies and risk management. Also, this code assumes that you have a data frame `df` with the price data.

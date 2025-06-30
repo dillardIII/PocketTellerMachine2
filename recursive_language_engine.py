@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🌌 Recursive Language Engine – Creates new micro languages for internal AI efficiency
 import random, time
 
@@ -13,3 +14,6 @@ def generate_new_language():
 while True:
     generate_new_language()
     time.sleep(120)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

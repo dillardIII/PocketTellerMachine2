@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and adjusting trading parameters is a complex task that involves machine learning and data analysis. Here's a simplified example of how you might approach this using Python. This example uses a simple moving average strategy and adjusts the lookback period based on market volatility. 
 
 Please note that this is a simplified example and real trading algorithms are much more complex and take into account many more factors.

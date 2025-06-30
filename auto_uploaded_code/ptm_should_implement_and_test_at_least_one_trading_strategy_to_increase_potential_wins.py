@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code that implements a basic momentum trading strategy using pandas library. This strategy buys a stock when its price has been going up for the past 'n' days and sells it when its price has been going down for the past 'n' days.
 
 Please note that this is a simple strategy and may not always lead to wins. It's always recommended to use more sophisticated strategies and consider more factors for real trading.

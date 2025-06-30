@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module to enhance the PTM (Presumably Parallel Temporal Machinations, or any placeholder fitting your scenario) empire's self-evolving autonomy stack with innovative recursive strategies can involve several components. The following example outlines the design of such a module, incorporating recursive algorithms for self-improvement and adaptation, along with a suite of utilities for monitoring and feedback.
 
 ### Module: `ptm_autonomy`

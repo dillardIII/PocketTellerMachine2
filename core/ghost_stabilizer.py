@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Ghost Stabilizer
 Monitors the ghost_status.json for signs of instability or drift,

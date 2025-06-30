@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, we can make a simple basic moving average crossover strategy using Python. This strategy will go long if the short-term moving average crosses above the long-term moving average, and short if the short-term moving average crosses below the long-term moving average.
 
 We will use Python's `yfinance` package to fetch stock price data and `pandas` to calculate moving averages. If you currently don't have these in your Python environment, you may need to install this by running `pip install yfinance pandas` in your console.

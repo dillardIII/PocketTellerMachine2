@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Implementing this task would be a complex process, as live trading involves continuous data stream from the stock market, processing this data in real time, making predictions, and performing operations based on these predictions. To simply lay out a basic skeleton for this task, we would need to consider Python libraries such as pandas for data manipulation, yfinance to download historical market data from Yahoo finance, and perhaps also some machine learning libraries to make predictions.
 
 Below is a very basic skeleton:

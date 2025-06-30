@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here are two basic trading strategies in implemented Python code:
 
 1. Mean Reversion Strategy: This strategy assumes that the price will return to its mean after a certain period of time.

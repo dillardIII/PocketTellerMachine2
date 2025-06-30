@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and patterns, we can use Python libraries like pandas for data manipulation, numpy for numerical computation, matplotlib for visualization, and sklearn for machine learning. 
 
 Here is a simple example of how you might use these libraries to analyze stock price data and identify potential profitable trades. This example uses a simple moving average strategy, which is a common technique in stock market analysis.

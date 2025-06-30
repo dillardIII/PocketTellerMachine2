@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bot_inbox_handler.py ===
 """
 Bot Inbox Handler:
@@ -17,7 +18,7 @@ def get_inbox_path(bot_name):
 
 def send_message(sender, receiver, task_type, payload):
     """
-    Send a message to a bot's inbox if allowed by the comms matrix.
+    Send a message to a bot's inbox if allowed by the comms matrix.:
     """
     if not can_send(sender, receiver, task_type):
         print(f"[❌ Unauthorized] {sender} cannot send {task_type} to {receiver}")
@@ -70,3 +71,6 @@ if __name__ == "__main__":
     send_message("ChillTrader", "MoCash", "comment", {"tip": "RSI looks high"})
     print(read_messages("Mentor"))
     print(read_messages("MoCash"))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

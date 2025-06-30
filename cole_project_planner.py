@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_project_planner.py ===
 
 import json
@@ -34,3 +35,6 @@ def generate_tasks_from_roadmap():
 
     print(f"[Planner] Generated {len(tasks)} tasks from roadmap.")
     return tasks
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

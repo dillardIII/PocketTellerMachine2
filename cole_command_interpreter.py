@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 from datetime import datetime
@@ -81,8 +82,8 @@ def cole_interpret_command(command_text):
         elif command_lower.startswith("add_task"):
             task_text = command_text.split(" ", 1)[1]
             added = add_task(task_text)
-            result = f"Task added: {task_text}" if added else f"Task already exists: {task_text}"
-
+            result = f"Task added: {task_text}" if added else f"Task already exists: {task_text}":
+:
         elif command_lower.startswith("write_code"):
             task_text = command_text.split(" ", 1)[1]
             generated_code = cole_write_code(task_text)
@@ -158,3 +159,6 @@ if __name__ == "__main__":
             break
         reply = cole_interpret_command(user_input)
         print(f"Cole: {reply}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

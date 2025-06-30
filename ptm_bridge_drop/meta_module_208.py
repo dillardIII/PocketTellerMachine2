@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python module to expand the PTM (Presumably a hypothetical concept such as "Predictive Temporal Model") empire's self-evolving autonomy stack involves combining advanced algorithms with innovative recursive strategies. Here’s a conceptual outline for how such a module might be structured, using machine learning, neural networks, and recursive algorithms for continuous learning and adaptation:
 
 ### Module: `ptm_self_evolver.py`

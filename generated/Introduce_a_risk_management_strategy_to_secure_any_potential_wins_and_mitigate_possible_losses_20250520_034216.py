@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # Introduce a risk management strategy to secure any potential wins and mitigate possible losses
 # 
 

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === what_if_engine.py ===
 """
 What-If Engine – Alternate Timeline Simulator
@@ -71,7 +72,7 @@ class WhatIfEngine:
 if __name__ == "__main__":
     engine = WhatIfEngine()
     test = engine.simulate_alternate(
-        question="What if PTM had launched with full bridge sync from day 1?",
+        question="What if PTM had launched with full bridge sync from day 1?",:
         variable_changes=["Bridge sync enabled", "Auto-deployment live"],
         baseline="Initial manual deployment process"
     )

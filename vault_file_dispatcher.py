@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: vault_file_dispatcher.py ===
 # 🔐 Vault File Dispatcher – Tags, secures, and logs files into the vault system
 
@@ -38,3 +39,6 @@ class VaultFileDispatcher:
         self.logged_hashes.add(file_hash)
 
         print(f"[VaultDispatcher] 💾 Vaulted {filename} as {new_name}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

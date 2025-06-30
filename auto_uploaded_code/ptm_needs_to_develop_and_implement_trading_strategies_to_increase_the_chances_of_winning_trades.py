@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a simple example of a trading strategy using Python. This strategy is based on a simple Moving Average Crossover, which is one of the most popular trading strategies. 
 
 In this strategy, we will use two moving averages: a fast one (short term) and a slow one (long term). When the fast moving average crosses above the slow moving average, it indicates a bullish signal, and we should buy. Conversely, when the fast moving average crosses below the slow moving average, it indicates a bearish signal, and we should sell.

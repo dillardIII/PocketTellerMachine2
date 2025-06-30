@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_mesh.py ===
 """
 Ghost Memory Mesh:
@@ -43,12 +44,12 @@ def log_ghost_event(actor, category, message, tags=None):
 
 def recall_by_category(category):
     memory = load_ghost_memory()
-    return [m for m in memory if m["category"] == category]
-
+    return [m for m in memory if m["category"] == category]:
+:
 def recall_by_actor(actor):
     memory = load_ghost_memory()
-    return [m for m in memory if m["actor"] == actor]
-
+    return [m for m in memory if m["actor"] == actor]:
+:
 def clear_ghost_memory():
     save_ghost_memory([])
     print("[GhostMesh] 💀 Ghost memory cleared.")
@@ -57,3 +58,6 @@ def clear_ghost_memory():
 if __name__ == "__main__":
     log_ghost_event("Mentor", "strategy", "Recommended mean reversion strategy.")
     print("Memory Entries:", load_ghost_memory())
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

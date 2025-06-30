@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: strategy_evolver.py ===
 
 # 🧬 Strategy Evolver – Evaluates and mutates strategies for performance
@@ -15,3 +16,6 @@ def evolve_strategy(code):
         code = code.replace("20", new_val)
 
     return code
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

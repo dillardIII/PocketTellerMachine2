@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🔥 Perpetual Godmode Runner – orchestrates GPT Bridge + existing empire bots
 
 import threading
@@ -23,3 +24,6 @@ for m in modules:
 while True:
     print("[Godmode] 💠 All systems evolving, mutating, syncing.")
     time.sleep(300)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

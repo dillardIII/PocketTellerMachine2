@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_mind_hyper_predator.py ===
 # 👻 GHOST MIND HYPER PREDATOR
 # Fuses chaos + profit scoring + reflex mutations.
@@ -135,3 +136,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

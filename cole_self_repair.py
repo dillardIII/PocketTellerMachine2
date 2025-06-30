@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 from cole_code_writer import cole_write_code
@@ -33,3 +34,6 @@ def repair_strategy(task, reason):
     else:
         print("[REPAIR] Failed to auto-repair the strategy.")
         return None
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

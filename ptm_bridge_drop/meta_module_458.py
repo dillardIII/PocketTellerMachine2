@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To design a Python module that expands the PTM (Presumably some fictional entity you're referring to) empire's self-evolving autonomy stack, we need to focus on concepts such as recursive programming, machine learning, autonomous decision-making, and evolving algorithms. Here’s a high-level overview and code of what such a module could look like:
 
 ### Overview

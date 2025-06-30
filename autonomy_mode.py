@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: autonomy_mode.py ===
 
 import time
@@ -51,3 +52,6 @@ def assign_tasks(project=DEFAULT_PROJECT):
 if __name__ == "__main__":
     start_autonomy_mode()
     assign_tasks()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

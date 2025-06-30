@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to implement and test different trading strategies, we can use Python libraries such as pandas, numpy, and yfinance to fetch and analyze stock data. Here's a simple example of how you might implement and test a moving average crossover strategy:
 
 ```python

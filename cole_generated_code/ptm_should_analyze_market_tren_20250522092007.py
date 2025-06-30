@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and patterns, we can use various libraries in Python like pandas, numpy, matplotlib, and sklearn. Here is a simple example of how you can analyze market trends using moving averages:
 
 ```python

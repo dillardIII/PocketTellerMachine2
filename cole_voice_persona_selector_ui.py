@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_voice_persona_selector_ui.py
 
 from flask import Flask, request, jsonify, render_template_string
@@ -65,3 +66,6 @@ def assign_voice_tone():
 # === Run UI App ===
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5100, debug=True)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

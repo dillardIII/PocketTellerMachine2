@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop a trading strategy, we need to define a set of rules to guide our trading decisions. This could be based on various factors such as moving averages, momentum indicators, market trends, etc. 
 
 Here is a simple Python code using pandas library to implement a moving average crossover strategy. This strategy is based on two moving averages, a short-term (fast) and a long-term (slow). The basic idea is to buy when the fast moving average crosses above the slow moving average and sell when the fast moving average crosses below the slow moving average.

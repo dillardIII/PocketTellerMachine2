@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I will provide a simple example of a Python code for a mean reversion trading strategy. This strategy assumes that the price of a stock will revert to its mean over time. If the price is above the mean, it's expected to decrease, if it's below the mean, it's expected to increase.
 
 Please note that this is a simplified example and real-world trading strategies are much more complex and involve risk management, transaction costs, and other factors.

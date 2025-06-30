@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: gpt_file_generator_trigger.py ===
 
 # 🔥 Command Trigger for GPT File Generator
@@ -21,3 +22,6 @@ class GPTFileGenTrigger:
         except Exception as e:
             print(f"[GPTFileGenTrigger] ❌ Failed to parse command: {e}")
             return False
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

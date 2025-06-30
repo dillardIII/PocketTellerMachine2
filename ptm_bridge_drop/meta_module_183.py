@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module to expand the PTM (Presumably Pragmatic Temporal Management) empire’s self-evolving autonomy stack with innovative recursive strategies requires careful planning and implementation of several key elements. Below is an outline and some example code that might serve as a foundation for such a module. The focus will be on self-adaptation, recursive strategies, and autonomous decision-making.
 
 ### Module Objectives:

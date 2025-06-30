@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Without the exact details of your trading system, I can only provide you with the general framework for implementing a fallback mechanism. In this case, I have declared a hypothetical `backtest()` function, which contains all the logic of the back-testing of your trading strategies.
 ```python
 def backtest(strategy):

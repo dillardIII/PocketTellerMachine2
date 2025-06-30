@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: autonomy_core_boot.py ===
 # 🚀 PTM Autonomy Core Boot – Initializes God Mode stack and Phase 2 operations
 
@@ -57,3 +58,6 @@ try:
         pass
 except KeyboardInterrupt:
     print("\n[PTM] ⚠️ God Mode stack interrupted by user.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

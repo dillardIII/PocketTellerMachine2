@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code that can be used to track the daily wins and losses for PTM. This code assumes that the data for wins and losses is input manually. 
 
 ```python

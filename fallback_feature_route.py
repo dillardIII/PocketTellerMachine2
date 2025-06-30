@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # fallback_feature_route.py – Fallback activation for failed or missing features
 
 from flask import Blueprint, jsonify
@@ -12,3 +13,6 @@ def fallback_handler():
         "action_taken": "Fallback logic triggered",
         "timestamp": "2025-05-31T00:00:00Z"
     })
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

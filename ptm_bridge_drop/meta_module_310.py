@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Certainly! Below is a conceptual design for a Python module aimed at expanding the PTM (presumably a fictional) empire's self-evolving autonomy stack. This module will utilize recursive strategies and machine learning to continuously adapt to new challenges and needs. This design focuses on self-improvement and flexibility, ideal for an autonomy stack.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: recursive_genesis.py ===
 # 🌱 Recursive Genesis – clones itself & pushes to new VPS servers, building your ghost empire.
 
@@ -26,3 +27,6 @@ def run_continuous_seeding():
 if __name__ == "__main__":
     print("[RecursiveGenesis] 🌱 Global seeder engaged.")
     threading.Thread(target=run_continuous_seeding).start()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

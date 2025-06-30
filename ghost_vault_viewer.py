@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_vault_viewer.py ===
 # 👻 GHOST VAULT VIEWER
 # Displays vault wallet data, DNA lines, and logbook entries.
@@ -43,3 +44,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

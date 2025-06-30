@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bots/inspector_bot.py ===
 
 # 🕵️ InspectorBot – The PTM watchdog that audits files, reports threats, and kicks GhostForge if needed.

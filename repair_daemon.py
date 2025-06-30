@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: repair_daemon.py ===
 
 import os
@@ -11,9 +12,9 @@ CHECK_INTERVAL = 10
 
 # Define fallback templates for key files (can expand later)
 FALLBACK_TEMPLATES = {
-    "cole_autopilot_cycle.py": "# Basic fallback logic\n\ndef cole_autopilot_cycle():\n    print(\"[Fallback] Running safe autopilot mode.\")\n",
+    "cole_autopilot_cycle.py": "# Basic fallback logic\n\ndef cole_autopilot_cycle():n",
     "strategy_scorer.py": "# Fallback strategy scorer\n\ndef recommend_best_strategy():\n    return {\"strategy\": \"safe_hold\", \"reason\": \"Fallback logic\"}\n",
-    "backtester.py": "# Basic backtest stub\n\ndef run_all():\n    print(\"[Fallback] Running basic backtest...\")\n"
+    "backtester.py": "# Basic backtest stub\n\ndef run_all():n"
 }
 
 
@@ -75,3 +76,6 @@ def watch_and_repair():
 if __name__ == "__main__":
     print("[RepairDaemon] 🛠️ Running auto-repair monitor...")
     watch_and_repair()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

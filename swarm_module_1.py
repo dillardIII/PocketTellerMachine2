@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a GPT-driven module to read logs and suggest improvements involves several steps, including data preprocessing, model integration, and the deployment of user-friendly interfaces. Here is a step-by-step guide to help you build such a module:
 
 ### Step 1: Define the Objectives
@@ -36,3 +37,6 @@ Creating a GPT-driven module to read logs and suggest improvements involves seve
 - **Secure Access**: Implement secure access controls to protect sensitive information contained within logs.
 
 By executing these steps, you can create a robust and intelligent module that efficiently analyzes logs and offers valuable insights for continuous improvement in IT operations.
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: voice_parser.py ===
 """
 Voice Parser:
@@ -44,8 +45,8 @@ def parse_voice_command(command):
     else:
         # Try detecting a known assistant name
         match = re.search(r"(mo cash|mentor|strategist|drill instructor|malik)", cmd)
-        target = match.group(0).title() if match else "Unassigned"
-
+        target = match.group(0).title() if match else "Unassigned":
+:
     return {
         "intent": intent,
         "target": target,
@@ -57,3 +58,6 @@ def parse_voice_command(command):
 if __name__ == "__main__":
     test = "Mo Cash, upgrade the last strategy and send it to Replit."
     print(parse_voice_command(test))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

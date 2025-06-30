@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import time
 import requests
 from datetime import datetime
@@ -38,3 +39,6 @@ def phase11_command_orchestrator_loop():
 # === Run Daemon ===
 if __name__ == "__main__":
     phase11_command_orchestrator_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple example of how you might implement this in Python. This is a very basic example and doesn't represent a real trading system. It's just a simple simulation to illustrate the concept.
 
 ```python

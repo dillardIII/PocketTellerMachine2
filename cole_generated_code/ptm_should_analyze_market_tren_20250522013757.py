@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python code to analyze market trends and data is a complex task that involves multiple steps. Here is a simplified version of how you might start to approach this task using the pandas library for data analysis and matplotlib for data visualization. 
 
 This code does not actually predict winning trades, but it can help you analyze market trends by visualizing the moving average of a stock.

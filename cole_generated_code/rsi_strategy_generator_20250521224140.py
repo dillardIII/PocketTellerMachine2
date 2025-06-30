@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple implementation of a Relative Strength Index (RSI) strategy generator in Python using the pandas library. This strategy generator will create a trading strategy based on the RSI indicator. The RSI is a momentum indicator that measures the speed and change of price movements. 
 
 ```python

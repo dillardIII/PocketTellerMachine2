@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: log_merger_bot.py ===
 # Daemonized Merger Bot for PTM – Combines logs into self_commands_log.json every 30 seconds
 # Supports manual merge and live status check
@@ -105,3 +106,6 @@ def get_merger_status():
 
 if __name__ == "__main__":
     run_merger()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

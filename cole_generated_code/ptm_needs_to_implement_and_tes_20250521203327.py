@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code that can be used to implement and test various trading strategies. For simplicity, let's assume we have two strategies: 'Buy and Hold' and 'Sell and Short'. We will use the pandas library to handle our data and the yfinance library to get the stock data.
 
 ```python

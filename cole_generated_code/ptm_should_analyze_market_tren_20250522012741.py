@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and identify potential winning trades, we can use Python libraries such as pandas for data manipulation, yfinance to download stock price data, and matplotlib to visualize the data. Here is a simple Python script that uses moving average strategy to identify potential winning trades:
 
 ```python

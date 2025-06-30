@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: test_voice_trigger.py ===
 # 🧪 Voice Trigger Test – Runs voice-to-command routing using an audio file
 
@@ -8,3 +9,6 @@ vt = VoiceTrigger()
 
 # Run the file-based transcription and command dispatch
 vt.transcribe_and_execute("voice_input.wav")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

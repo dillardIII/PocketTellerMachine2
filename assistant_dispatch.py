@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: assistant_dispatch.py ===
 # 🎙️ Assistant Dispatch – Routes strategies, summaries, alerts, commands, and emotional tones to AI personas in PTM
 

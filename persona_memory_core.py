@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # persona_memory_core.py
 # Purpose: Give each assistant persona their own evolving memory profile
 # Tracks dialogue, trade participation, mood history, reflections, and user interaction logs
@@ -71,3 +72,6 @@ class PersonaMemoryCore:
 
     def get_memory_snapshot(self):
         return self._load_memory()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_trade_decision_engine.py ===
 
 import os
@@ -70,8 +71,8 @@ def evaluate_trade_decision(ticker, sentiment_data):
     adjusted_confidence = max(0, min(1, adjusted_confidence))
 
     # Decision
-    action = "buy" if adjusted_confidence >= 0.6 else "hold" if adjusted_confidence >= 0.4 else "avoid"
-
+    action = "buy" if adjusted_confidence >= 0.6 else "hold" if adjusted_confidence >= 0.4 else "avoid":
+:
     decision = {
         "timestamp": datetime.now().isoformat(),
         "ticker": ticker,
@@ -101,7 +102,7 @@ def run_trade_decision_engine():
         # Log the decision
         log_trade_decision(decision)
 
-        # Execute trade if actionable
+        # Execute trade if actionable:
         if decision["action"] == "buy":
             result = execute_trade_order(ticker, "buy", confidence=decision["final_confidence"])
             malik_report(f"[Trade Executed] {ticker} | Confidence: {decision['final_confidence']:.2f} | Result: {result.get('status', 'unknown')}")
@@ -140,3 +141,6 @@ def grade_to_score(grade):
 # === CLI Trigger ===
 if __name__ == "__main__":
     run_trade_decision_engine()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

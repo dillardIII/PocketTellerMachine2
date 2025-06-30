@@ -1,10 +1,11 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase12_persona_builder.py
 
 import os
 import json
 from datetime import datetime
 
-# === Persona Blueprint ===
+# === Persona Blueprint(===)
 PERSONA_BLUEPRINT = {
     "name": "",
     "role": "",
@@ -70,3 +71,6 @@ def bootstrap_default_personas():
 
 if __name__ == "__main__":
     bootstrap_default_personas()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

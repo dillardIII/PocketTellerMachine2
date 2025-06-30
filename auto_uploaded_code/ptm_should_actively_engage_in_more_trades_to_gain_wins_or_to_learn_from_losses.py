@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To engage PTM (Python Trading Machine) in more trades, you'll need a Python script that uses a financial library, like yfinance for pulling historical stock data, and a predictive model library, such as sklearn for the prediction. Here is a simplified example of a trading bot:
 
 **Please Note:**

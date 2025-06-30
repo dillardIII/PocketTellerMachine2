@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === crypto_scavenger.py ===
 """
 PTM Crypto Scavenger
@@ -53,7 +54,7 @@ def analyze_for_salvage(data):
     hits = []
     for entry in data:
         if isinstance(entry["data"], dict):
-            # For ETH / BTC: check if there are transactions or unspent outputs
+            # For ETH / BTC: check if there are transactions or unspent outputs:
             if "result" in entry["data"] and entry["data"]["result"]:
                 hits.append(entry)
     return hits

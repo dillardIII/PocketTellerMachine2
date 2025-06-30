@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: full_transcendence_launcher.py ===
 # 🌌 Ultimate stack – launches everything for full autonomy
 
@@ -34,3 +35,6 @@ for cmd in modules:
 while True:
     print("[Transcendence] ❤️ Universe pulse: evolving, protecting, growing.")
     time.sleep(120)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import threading
 import time
 from error_parser import get_latest_error
@@ -39,3 +40,6 @@ if __name__ == "__main__":
     # Keep main thread alive
     while True:
         time.sleep(60)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

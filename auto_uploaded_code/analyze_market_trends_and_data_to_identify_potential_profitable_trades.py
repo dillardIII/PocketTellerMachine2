@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and data for potential profitable trades is a complex task that involves machine learning and data analysis. Here's a simple Python code using pandas and yfinance to get historical market data and calculate Simple Moving Average (SMA) as a basic trading strategy.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here's a simple example of how you could use Python to analyze market trends and conditions. This script uses the pandas library to analyze historical stock price data from Yahoo Finance.
 
 Please note that this is a very basic example. Real-world trading algorithms are much more complex and take many more factors into account.

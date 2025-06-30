@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_ai_emotional_response_composer.py
 
 import os
@@ -28,3 +29,6 @@ if __name__ == "__main__":
         sample_message = "The system is running optimally."
         emotional_response = compose_emotional_response(persona, sample_message)
         print(f"[{persona} RESPONSE]: {emotional_response}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

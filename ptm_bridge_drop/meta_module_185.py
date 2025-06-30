@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module for expanding an autonomy stack that leverages self-evolving and recursive strategies involves integrating machine learning, adaptive algorithms, and system architecture that allows for continuous self-improvement. Below is a conceptual design outline and a code snippet to illustrate the core components of this module:
 
 ### Conceptual Design Outline:

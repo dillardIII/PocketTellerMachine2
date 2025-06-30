@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to conduct market research to identify potential trading opportunities, we would need access to a financial market data API. Here is an example of how you might use the Alpha Vantage API to fetch stock data and analyze it for potential trading opportunities.
 
 First, you would need to install the necessary Python library by running the following command:

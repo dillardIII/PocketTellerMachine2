@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code using the `yfinance` library to download historical market data for a specific stock. This doesn't initiate a trade, but it's a starting point to gain insights on market trends. Please note that initiating a trade requires a brokerage account and API which is beyond the scope of this platform.
 
 First, you need to install the `yfinance` library. You can do it using pip:

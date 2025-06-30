@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and patterns, we need historical data of the market. We can use libraries like pandas to handle data, matplotlib to plot data, and sklearn to create prediction models. Here is a simple example of how you can do it:
 
 ```python

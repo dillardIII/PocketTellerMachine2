@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python script to analyze market trends and opportunities for potential trades is a complex task. It requires knowledge of financial markets, financial data analysis, and machine learning. Here is a simple example of how you might start to analyze market trends using Python. 
 
 This script will use the `yfinance` library to download stock price data, and `pandas` to analyze it. 

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_sync_commander.py ===
 # Logs sync events and routes bridge status signals to assigned handlers
 
@@ -80,3 +81,6 @@ def check_bridge_and_dispatch():
 # === Manual Entry ===
 if __name__ == "__main__":
     check_bridge_and_dispatch()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

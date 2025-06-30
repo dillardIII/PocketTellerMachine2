@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: voice_trigger_listener.py ===
 
 # 🎙️ Voice Trigger Listener – Listens in loop and writes to command queue
@@ -13,3 +14,6 @@ def start_voice_listener():
             time.sleep(1)
         except Exception as e:
             print(f"[VoiceListener] ❌ Error: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

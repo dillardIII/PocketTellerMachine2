@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_dynamic_persona_scheduler_daemon.py
 
 import os
@@ -39,7 +40,7 @@ def decide_best_persona(mood_state):
         return "Mentor"
     
     # Example logic based on mood data across personas
-    frustrated_personas = [p for p, m in mood_state.items() if m == "frustrated"]
+    frustrated_personas = [p for p, m in mood_state.items() if m == "frustrated"]:
     if frustrated_personas:
         return "ChillTrader"
     if all(m == "happy" for m in mood_state.values()):
@@ -75,3 +76,6 @@ def persona_scheduler_loop():
 # === Run the Daemon ===
 if __name__ == "__main__":
     persona_scheduler_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

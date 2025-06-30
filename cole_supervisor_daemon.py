@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 import time
@@ -49,10 +50,10 @@ def start_service(name, command):
     print(f"[SUPERVISOR]: Starting {name}...")
     processes[name] = subprocess.Popen(command)
 
-# === Restart services if they stop ===
+# === Restart services if they stop ===:
 def check_and_restart_services():
     for name, process in processes.items():
-        if process.poll() is not None:  # Process died
+        if process.poll() is not None:  # Process died:
             print(f"[SUPERVISOR]: {name} stopped! Restarting...")
             log_supervisor_event(f"[SERVICE RESTART]: {name} stopped unexpectedly. Restarting...")
             start_service(name, SERVICES[name])
@@ -63,7 +64,7 @@ def check_daemon_status():
     running_daemons = []
     for proc in psutil.process_iter(['pid', 'name', 'cmdline']):
         try:
-            cmdline = " ".join(proc.info['cmdline']) if proc.info['cmdline'] else ""
+            cmdline = " ".join(proc.info['cmdline']) if proc.info['cmdline'] else "":
             for daemon in CRITICAL_DAEMONS:
                 if daemon in cmdline:
                     running_daemons.append(daemon)
@@ -102,3 +103,6 @@ def supervisor_loop():
 # === CLI Trigger ===
 if __name__ == "__main__":
     supervisor_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

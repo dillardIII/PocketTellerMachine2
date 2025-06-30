@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # sync_engine.py
 
 import json
@@ -30,3 +31,6 @@ def log_sync_event(sender, action_type, command, status="queued"):
         json.dump(data, f, indent=2)
 
     return entry
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

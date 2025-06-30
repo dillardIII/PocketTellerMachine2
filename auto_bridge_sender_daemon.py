@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # auto_bridge_sender_daemon.py
 
 import requests
@@ -5,8 +6,8 @@ import time
 from datetime import datetime
 
 # === Webhook URL to Cole's listener ===
-WEBHOOK_URL = "http://localhost:5050/cole_webhook"  # Change if your system uses a remote IP or different port
-
+WEBHOOK_URL = "http://localhost:5050/cole_webhook"  # Change if your system uses a remote IP or different port:
+:
 def send_auto_code():
     # === Example auto-generated code ===
     auto_code = """
@@ -40,3 +41,6 @@ def auto_bridge_loop(interval_seconds=300):
 
 if __name__ == "__main__":
     auto_bridge_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

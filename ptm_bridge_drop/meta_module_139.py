@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To design a new Python module that expands the PTM (Presumably a technology or concept within a hypothetical empire) empire's self-evolving autonomy stack, we need to consider several key components that enable recursive strategies and self-improvement. This will include machine learning, decision-making processes, autonomous updating, and monitoring mechanisms. Below is a conceptual outline and some code snippets for such a module, which I will call `recursive_autonomy`.
 
 ### Module Overview

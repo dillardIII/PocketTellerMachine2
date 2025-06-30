@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: whisper_to_mission.py ===
 
 # 🎤 Whisper Mission – Converts voice transcriptions into .py mission files
@@ -13,3 +14,6 @@ def process_voice_command(transcript):
 # Example use:
 if __name__ == "__main__":
     process_voice_command("run diagnostics on system")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to develop and implement new trading strategies, we would need to have access to market data and a trading platform. However, I can provide you with a simple example of a Python code that implements a basic moving average crossover strategy using pandas library. This strategy is one of the most common systematic trading strategies that uses two moving averages, one short and one long. When the short moving average crosses above the long moving average, it means that recent prices are getting higher than older ones, which might be an indication of an uptrend, thus a buy signal is generated. Conversely, when the short moving average crosses below the long moving average, a sell signal is generated.
 
 ```python

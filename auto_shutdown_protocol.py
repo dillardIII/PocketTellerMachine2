@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # auto_shutdown_protocol.py
 # Purpose: Autonomous shutdown system for PTM when critical conditions are hit
 
@@ -34,7 +35,7 @@ class AutoShutdownProtocol:
         return {}
 
     def should_shutdown(self):
-        """Determine if shutdown should be triggered."""
+        """Determine if shutdown should be triggered.""":
         loss = self.stats.get("daily_loss", 0)
         drawdown = self.stats.get("drawdown_pct", 0)
         streak = self.stats.get("consecutive_losses", 0)

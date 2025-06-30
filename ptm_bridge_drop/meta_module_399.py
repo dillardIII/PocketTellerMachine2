@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to enhance the PTM (Presumably the "PTM" refers to a hypothetical or fictional entity) empire's self-evolving autonomy stack can be an exciting endeavor. The goal here will be to create a system capable of recursively improving itself by learning from its environment and its own past states. The module will focus on recursive strategies involving self-optimization, autonomous learning, and environmental interaction.
 
 Below is a high-level design description for such a Python module:

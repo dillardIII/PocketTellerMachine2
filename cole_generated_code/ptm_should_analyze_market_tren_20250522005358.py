@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python program to analyze market trends and opportunities for potential profitable trades is a complex task. It requires knowledge of financial markets, machine learning, and data analysis. Here's a simplified example of how you might start building such a program using Python's pandas and yfinance libraries to fetch and analyze stock data.
 
 ```python

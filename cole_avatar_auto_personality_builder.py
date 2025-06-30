@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_avatar_auto_personality_builder.py
 
 import os
@@ -44,7 +45,7 @@ def build_new_personality():
         "nickname": f"AutoPersona_{datetime.now().strftime('%H%M%S')}",
         "style": random.choice(["Optimistic", "Pessimistic", "Calm", "Aggressive"]),
         "speech_tone": random.choice(["Friendly", "Direct", "Playful", "Serious"]),
-        "default_mood": random.choice(list(mood_state.values()) if mood_state else ["calm"]),
+        "default_mood": random.choice(list(mood_state.values()) if mood_state else ["calm"]),:
         "trading_focus": random.choice(["Risk Management", "Momentum", "Pattern Recognition", "Trend Following"])
     }
 

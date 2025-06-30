@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_avatar_emotion_display_engine_daemon.py
 
 import os

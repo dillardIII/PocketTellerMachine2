@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_code_gen.py ===
 # 👻 Ghost Code Generator – AI Fixer for malformed or broken files
 
@@ -42,3 +43,6 @@ def fix_code(broken_code):
     except Exception as e:
         print(f"[GHOST FIXER] ❌ Failed to generate fix: {e}")
         return None
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

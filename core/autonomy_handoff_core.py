@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: core/autonomy_handoff_core.py ===
 """
 Autonomy Handoff Core

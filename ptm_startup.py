@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ptm_startup.py ===
 # 🚀 PTM Startup – Initializes and launches the full Autonomy Core from one control file
 
@@ -8,3 +9,6 @@ if __name__ == "__main__":
     core = AutonomyCore()
     core.start_all_systems()
     core.loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module to expand the PTM (Presumably, Personalized Transportation Mechanism) empire's self-evolving autonomy stack requires careful consideration of several factors including flexibility, adaptability, efficient learning, and decision-making capabilities. Below is a conceptual design outline for such a module with innovative recursive strategies:
 
 ### Module Overview

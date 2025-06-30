@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase13_avatar_mood_engine.py
 
 import json
@@ -34,3 +35,6 @@ def determine_mood_based_on_events(events):
         return "calm"
     else:
         return "idle"
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

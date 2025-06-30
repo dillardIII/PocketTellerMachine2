@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to develop a trading strategy, we need to consider various factors such as historical prices, trading volume, moving averages, etc. We can use Python libraries such as pandas for data manipulation, numpy for numerical computations, and matplotlib for data visualization. Here's a simple Python code for a trading strategy based on moving averages.
 
 ```python

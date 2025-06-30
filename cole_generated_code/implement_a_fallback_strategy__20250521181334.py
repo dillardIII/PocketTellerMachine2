@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple way to implement that in Python. You could do this with an `if` clause to check if backtest results exist or not. If they don't exist, it should trigger the fallback strategy.
 
 Assuming `backtest_results` is the variable storing the backtest results.

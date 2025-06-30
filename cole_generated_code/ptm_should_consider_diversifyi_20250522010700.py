@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to diversify the portfolio, we need to have some data about the current portfolio and the potential assets to invest in. However, I can provide a simple example of how you might diversify a portfolio using Python. 
 
 In this example, let's assume that PTM currently has all its investments in a single stock. We'll use the `yfinance` library to download historical market data from Yahoo finance.

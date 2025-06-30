@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: shadow_voice_engine.py ===
 
 from elevenlabs import generate, play
@@ -15,3 +16,6 @@ def shadow_speak(text, mood="ominous"):
     message = mood_preface + text
     audio = generate(text=message, voice=SHADOW_VOICE_ID, model="eleven_monolingual_v1")
     play(audio)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

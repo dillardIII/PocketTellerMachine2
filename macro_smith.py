@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: macro_smith.py ===
 # 🔨 MacroSmith – Learns user behavior and generates macros for future execution
 

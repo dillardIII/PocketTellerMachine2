@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and identify potential winning trades, we can use Python libraries such as pandas for data manipulation, yfinance to download the stock price data, and ta to calculate technical indicators which are commonly used to analyze market trends.
 
 Here is a simple Python script that uses the Moving Average Convergence Divergence (MACD) indicator to identify potential winning trades. The MACD is a trend-following momentum indicator that shows the relationship between two moving averages of a security’s price.

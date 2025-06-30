@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a simple example of a Python script that uses the Alpaca API to initiate a trade. This script will buy one share of Apple (AAPL) stock. Please note that you'll need to replace `APCA-API-KEY-ID` and `APCA-API-SECRET-KEY` with your actual Alpaca API key and secret.
 
 ```python

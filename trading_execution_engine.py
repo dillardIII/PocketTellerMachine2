@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # trading_execution_engine.py – Executes Validated Trades
 
 import random
@@ -13,3 +14,6 @@ def execute_trade(symbol, action, price, quantity):
     else:
         print(f"[Execution Engine] ❌ Trade execution failed for {symbol}")
         return False
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

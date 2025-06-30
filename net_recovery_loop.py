@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🛠️ Net Recovery Loop – Repairs broken dirs & links for PTM
 
 import os
@@ -19,3 +20,6 @@ if __name__ == "__main__":
     while True:
         recovery_sweep()
         time.sleep(60)  # sweep every 60 seconds
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

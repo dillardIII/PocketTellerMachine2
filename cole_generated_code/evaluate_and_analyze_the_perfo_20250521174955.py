@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze the performance of a trading strategy, you might consider factors such as the profit and loss, Sharpe ratio, and maximum drawdown. Below is a basic python code using `pandas`, `numpy`, `yfinance` (Yahoo Finance) and `pyfolio` libraries. Please note that you will need actual trading signals to perform a real analysis.
 
 First, you need to install these libraries if you haven't done so before.

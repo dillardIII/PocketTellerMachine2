@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Below is a Python trading strategy script. This strategy uses a combination of moving averages and the Relative Strength Index (RSI) for trading signals. The script assumes that you have historical price data available and that you are using the pandas library for data manipulation and analysis.
 
 ```python

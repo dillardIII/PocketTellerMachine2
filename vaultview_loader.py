@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: vaultview_loader.py ===
 # 💰 Loads and displays wallet data inside VaultView for visual sync
 
@@ -11,3 +12,6 @@ def load_vault_view():
         print("[VaultView] Wallet data not found.")
 
 load_vault_view()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

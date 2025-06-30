@@ -1,1 +1,2 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 generated/Investigate_and_assess_potential_market_opportunities_to_identify_profitable_trades_for_the_next_trading_day_20250520_042903.py

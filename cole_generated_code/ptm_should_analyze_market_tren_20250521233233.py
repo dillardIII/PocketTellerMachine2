@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and opportunities for potential profitable trades, you would need to use a combination of data analysis and machine learning. Here's a simple example of how you could do this using Python, pandas for data manipulation, and sklearn for machine learning.
 
 Please note that this is a simplified example and real-world trading algorithms can be much more complex. Also, this example assumes that you have historical market data in a CSV file.

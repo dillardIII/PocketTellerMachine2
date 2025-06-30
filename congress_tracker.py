@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import requests
 import json
@@ -20,7 +21,7 @@ def get_congress_trades(symbol=None):
     data = response.json()
     
     if symbol:
-        data = [trade for trade in data if trade['Ticker'].lower() == symbol.lower()]
+        data = [trade for trade in data if trade['Ticker'].lower() == symbol.lower()]:
     
     return data
 
@@ -33,7 +34,7 @@ def analyze_congress_sentiment(trades):
         action = trade.get('Transaction', '')
         sentiment_score += sentiment_map.get(action, 0)
     
-    avg_sentiment = sentiment_score / len(trades) if trades else 0
+    avg_sentiment = sentiment_score / len(trades) if trades else 0:
     return avg_sentiment
 
 # === Get Recent Sentiment for Symbol ===
@@ -41,7 +42,7 @@ def get_recent_congress_sentiment(symbol):
     trades = get_congress_trades(symbol)
     recent_trades = [
         trade for trade in trades
-        if datetime.strptime(trade['TransactionDate'], "%Y-%m-%d") >= datetime.now() - timedelta(days=90)
+        if datetime.strptime(trade['TransactionDate'], "%Y-%m-%d") >= datetime.now() - timedelta(days=90):
     ]
     return analyze_congress_sentiment(recent_trades)
 
@@ -62,7 +63,7 @@ def get_congress_influence(symbol):
     sentiment = get_recent_congress_sentiment(symbol)
     whale_data = get_whale_holdings(symbol)
     
-    big_whales = len(whale_data) if whale_data else 0
+    big_whales = len(whale_data) if whale_data else 0:
     
     influence_score = (sentiment * 10) + big_whales
     influence_score = round(influence_score, 2)
@@ -75,3 +76,6 @@ if __name__ == "__main__":
     symbol = "AAPL"
     score = get_congress_influence(symbol)
     print(f"Final Influence Score for {symbol}: {score}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

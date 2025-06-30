@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # AI Command Router
 def route_command(command):
     if "cole" in command.lower():
@@ -8,3 +9,6 @@ def route_command(command):
         return malik_handler(command)
     else:
         return "[Router] No matching agent found for command."
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

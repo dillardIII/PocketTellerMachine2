@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: utils/json_loader.py ===
 # 📂 JSON Loader – Safely loads and saves JSON files with error fallback
 

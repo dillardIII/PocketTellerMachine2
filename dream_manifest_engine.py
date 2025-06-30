@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Dream Manifest Engine:
 Responsible for interpreting dream patterns, symbolic inputs, and subconscious cues to generate actionable tasks or ideas for PTM.
@@ -40,3 +41,6 @@ def manifest_dreams():
         })
 
     save_manifested_ideas(ideas)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

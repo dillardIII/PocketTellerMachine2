@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🔄 Vault Sync Trigger – Automatically syncs and saves vault assets to local snapshot
 
 import os
@@ -24,11 +25,11 @@ def scan_vault_assets():
     return assets
 
 def classify(ext):
-    if ext in [".jpg", ".jpeg", ".png", ".gif"]: return "Image"
-    if ext in [".mp3", ".wav", ".ogg"]: return "Audio"
-    if ext in [".mp4", ".mov"]: return "Video"
-    if ext in [".txt", ".json", ".pdf"]: return "Document"
-    if ext in [".eth", ".btc", ".key"]: return "Key/Coin"
+    if ext in [".jpg", ".jpeg", ".png", ".gif"]: return "Image":
+    if ext in [".mp3", ".wav", ".ogg"]: return "Audio":
+    if ext in [".mp4", ".mov"]: return "Video":
+    if ext in [".txt", ".json", ".pdf"]: return "Document":
+    if ext in [".eth", ".btc", ".key"]: return "Key/Coin":
     return "Unknown"
 
 def save_snapshot(data):

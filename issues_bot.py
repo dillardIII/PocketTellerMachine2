@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🐛 IssuesBot – opens GitHub issues by hitting API
 # PTM files its own tickets for anomalies, upgrades, ideas
 
@@ -38,3 +39,6 @@ def issues_loop():
 
 if __name__ == "__main__":
     issues_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

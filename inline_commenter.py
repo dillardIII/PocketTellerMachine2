@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: inline_commenter.py ===
 """
 Inline Commenter:
@@ -74,3 +75,6 @@ def inject_inline_comments(file_path, reviewer="PTM"):
     except Exception as e:
         print(f"[Inline Commenter] ❌ Write error: {e}")
         return None
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

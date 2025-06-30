@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate a trade and gather data on wins or losses, you would first need to have a trading algorithm or strategy in place. However, I can give you a simple example of how you might structure your Python code to initiate a trade and record the outcome.
 
 Please note that this is a very simplified example and does not take into account many factors that you would need to consider in a real trading scenario, such as fees, slippage, and market impact.

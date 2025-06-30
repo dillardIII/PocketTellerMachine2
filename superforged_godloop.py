@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: superforged_godloop.py ===
 # ⚡ SUPERFORGED GODLOOP – ultimate PTM autonomous empire runner
 
@@ -65,7 +66,7 @@ def mutate_strategy_file(filepath):
 
 def hyperforge_cycle():
     if os.path.exists(STRATEGY_DIR):
-        files = [f for f in os.listdir(STRATEGY_DIR) if f.endswith(".py")]
+        files = [f for f in os.listdir(STRATEGY_DIR) if f.endswith(".py")]:
         for _ in range(5):  # do multiple mutations each cycle
             if files:
                 target = random.choice(files)
@@ -126,3 +127,6 @@ def godloop():
 
 if __name__ == "__main__":
     godloop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

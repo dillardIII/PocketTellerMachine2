@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate a trade, we need to interact with a trading API. Here's a simple example of how you can do this with the Alpaca API, a popular choice for algorithmic trading. 
 
 Please note that you will need to sign up for Alpaca and get your API keys (API_KEY and SECRET_KEY) to use this code.

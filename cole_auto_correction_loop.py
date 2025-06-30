@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_auto_correction_loop.py ===
 
 import os
@@ -60,3 +61,6 @@ def run_auto_correction_failsafe():
 # === CLI Test ===
 if __name__ == "__main__":
     run_auto_correction_failsafe()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

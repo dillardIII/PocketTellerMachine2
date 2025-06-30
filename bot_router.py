@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # bot_router.py
 # Routes AI bot commands to appropriate modules
 
@@ -23,3 +24,6 @@ def route_bot_command():
         "status": "success",
         "message": f"Command '{command}' received and logged"
     })
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

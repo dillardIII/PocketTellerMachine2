@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To increase trading volume in Python, you would typically adjust the number of shares you are buying or selling in your trading algorithm. Here's a simple example of how you might do this:
 
 ```python

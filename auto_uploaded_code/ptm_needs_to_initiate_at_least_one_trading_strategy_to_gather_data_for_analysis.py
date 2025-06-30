@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, to accomplish that, we could define a very simple trading strategy based on moving average. For this, we will use `pandas` for handling data, and `yfinance` to download stock price data from Yahoo Finance.
 
 Below is an example of a Python code implementing a simple trading strategy called Moving Average Crossover Strategy:

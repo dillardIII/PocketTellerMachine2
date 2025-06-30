@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide you with a basic example of how you might use Python to analyze a market. This script will use the pandas library to analyze data from a CSV file. Please note that this is a simplified example and real-world market analysis would require a more complex approach.
 
 ```python

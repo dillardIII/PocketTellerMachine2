@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and make informed trading decisions, we would need a lot of data and a complex model. Here is a simplified example of how you might start to approach this problem using Python. This example uses the pandas library to analyze stock data and make trading decisions based on simple moving average (SMA).
 
 ```python

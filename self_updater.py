@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # self_updater.py
 # Purpose: Allow PTM to create or overwrite files across its own codebase
 
@@ -17,3 +18,6 @@ def bulk_write(file_dict):
     for path, content in file_dict.items():
         results.append(write_file(path, content))
     return results
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

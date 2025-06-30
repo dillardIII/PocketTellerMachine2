@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: autonomy_loop_controller.py ===
 # 🔁 Autonomy Loop Controller – Oversees long-term PTM runtime and loop safety
 

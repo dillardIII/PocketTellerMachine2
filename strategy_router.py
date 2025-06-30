@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: strategy_router.py ===
 # 📊 Strategy Router – Dynamically routes strategies by name
 
@@ -22,3 +23,6 @@ def run(strategy_name):
         print(f"[StrategyRouter] ❌ Strategy module '{strategy_name}' not found.")
     except Exception as e:
         print(f"[StrategyRouter] 💥 Error while running strategy '{strategy_name}': {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to analyze market trends and adjust trading strategies, we would need historical market data and a way to predict future trends. Here is a very simple example of how you might start to approach this problem using Python, pandas for data manipulation, and sklearn for simple linear regression.
 
 Please note that this is a simplified example and actual market prediction would require a much more complex model, possibly involving machine learning algorithms, time series analysis, and a lot more data preprocessing.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, to complete this task we need historical trade data including features like trade time, trade pair, trade type (buy/sell), volume, price etc. For simplification, let's assume we have such data in a CSV file named `trade_data.csv`. 
 
 Below is a very basic approach in analyzing the data using Python's pandas and matplotlib libraries:

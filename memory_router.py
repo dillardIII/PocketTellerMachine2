@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Memory Router:
 Coordinates memory access between assistant modules, ensuring they can retrieve, store, and react to shared PTM memory.
@@ -25,3 +26,6 @@ def recall_shared_memory(key):
 if __name__ == "__main__":
     route_memory_event("latest_market_trigger", {"symbol": "AAPL", "signal": "bullish breakout"}, source="Strategist")
     print("Recalled:", recall_shared_memory("latest_market_trigger"))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

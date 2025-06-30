@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code snippet that uses the `pandas` library to calculate the Exponential Moving Average (EMA) and analyze EMA crossover for a given stock price data. This code assumes that you have a pandas DataFrame `df` with 'Close' prices.
 
 ```python

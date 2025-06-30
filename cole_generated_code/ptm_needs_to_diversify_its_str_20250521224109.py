@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To diversify trading strategies, we can use different financial indicators and algorithms. Here is a simple example of how to diversify strategies using Python.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here's a basic example of how one might implement a simple trading strategy using Python. This code will not interact with real world markets, but it should serve as a good starting point for developing more complex strategies. 
 
 This snippet uses a very basic strategy: if the 20 day moving average is greater than the 50 day moving average, we will buy the stock because it is assumed to be in an uptrend. If the 20 day average falls below the 50 day average, it will sell because the stock is assumed to be in a downtrend.

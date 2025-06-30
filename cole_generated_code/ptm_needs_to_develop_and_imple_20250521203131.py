@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop a trading strategy, we need to define a set of rules to guide our trading decisions. Here is a very simple Python code for a trading strategy using moving averages. 
 
 This strategy will buy when the short-term moving average crosses above the long-term moving average, and sell when the short-term moving average crosses below the long-term moving average. 

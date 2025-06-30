@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: file_lock_checker.py ===
 
 import os
@@ -24,3 +25,6 @@ def is_file_locked(file_name):
         return False
     current_hash = hash_file(full_path)
     return locked.get(file_name) == current_hash
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python module to enhance the PTM (Presumably "Precision Time Module" or another contextual meaning in your environment) empire's self-evolving autonomy stack involves incorporating recursive strategies and innovative algorithms. Here's an outline and a basic draft for such a module:
 
 ### Module Name

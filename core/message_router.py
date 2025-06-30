@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 #=== FILE: core/message_router.py ===
 
 """ Message Router: Central dispatch system that lets bots send messages, files, or tasks to each other. """ import os import json from datetime import datetime from cole_logger import log_event

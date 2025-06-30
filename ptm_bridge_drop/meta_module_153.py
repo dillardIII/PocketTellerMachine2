@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module for the PTM (Presumably a hypothetical organization focused on emerging technologies) empire's self-evolving autonomy stack requires a blend of advanced machine learning, control theory, and systems design. The emphasis on "self-evolving" suggests that the system should leverage recursive strategies to adapt and optimize over time.
 
 Here's a conceptual outline and code example for such a module:

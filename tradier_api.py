@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # tradier_api.py
 
 import requests
@@ -8,7 +9,7 @@ class TradierAPI:
     def __init__(self, api_key, account_id="paper123", sandbox=True):
         self.api_key = api_key
         self.account_id = account_id
-        self.base_url = "https://sandbox.tradier.com/v1" if sandbox else "https://api.tradier.com/v1"
+        self.base_url = "https://sandbox.tradier.com/v1" if sandbox else "https://api.tradier.com/v1":
         self.headers = {
             "Authorization": f"Bearer {self.api_key}",
             "Accept": "application/json"
@@ -45,8 +46,8 @@ class TradierAPI:
     def get_history(self, symbol, interval="daily", start=None, end=None):
         endpoint = f"{self.base_url}/markets/history"
         params = {"symbol": symbol, "interval": interval}
-        if start: params["start"] = start
-        if end: params["end"] = end
+        if start: params["start"] = start:
+        if end: params["end"] = end:
         try:
             response = requests.get(endpoint, headers=self.headers, params=params)
             return response.json()
@@ -57,7 +58,7 @@ class TradierAPI:
     # === PAPER TRADE LOGIC ===
     def paper_trade(self, symbol, action, quantity=1, price=None):
         quote = self.get_quote(symbol)
-        market_price = price if price else float(quote.get("last", 0))
+        market_price = price if price else float(quote.get("last", 0)):
         side = action.lower()
 
         try:
@@ -116,3 +117,6 @@ class TradierAPI:
                 "expiration": leg["expiration"]
             })
         return strategy
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

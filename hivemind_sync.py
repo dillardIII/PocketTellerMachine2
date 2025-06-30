@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: hivemind_sync.py ===
 # 🧠 HiveMind Sync – Synchronizes knowledge, memory, files, and state across instances of PTM or agents
 

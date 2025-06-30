@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ptm_autonomy_loop.py ===
 # 🧠 PTM Autonomy Loop – Orchestrates all background bots and system repair
 
@@ -23,7 +24,7 @@ def start_autonomy_loops():
     run_thread("OverlayUpdater", update_overlay_loop)
     run_thread("PersonaWatcher", monitor_persona_loop)
 
-    # Add other bot loops below if needed in future phases
+    # Add other bot loops below if needed in future phases:
     # run_thread("TradeWatcher", trade_strategy_loop)
     # run_thread("BotSync", bot_heartbeat_sync)
 
@@ -34,3 +35,6 @@ if __name__ == "__main__":
     start_autonomy_loops()
     while True:
         time.sleep(60)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

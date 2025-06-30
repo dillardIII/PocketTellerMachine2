@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: wallet_ui_display.py ===
 # 💼 Wallet UI Display – Displays synced wallet data in a clean web table
 
@@ -59,3 +60,6 @@ def wallet_table():
     </html>
     """
     return render_template_string(table_html, wallet_data=wallet_data)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presume it stands for Potential Task Management or something relevant) empire's self-evolving autonomy stack involves a combination of advanced algorithms for decision-making, learning, and process optimization. Below is an outline and sample code that includes innovative recursive strategies and self-adapting features.
 
 ### Module Overview: PyPTM

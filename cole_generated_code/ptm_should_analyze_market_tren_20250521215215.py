@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and opportunities, we need to use some sort of data analysis. In this case, we will use Python with pandas and yfinance libraries. Pandas is a library used for data manipulation and analysis. It is used to extract data and store it in the desired format. yfinance is a popular open source library to access the financial data available on Yahoo Finance.
 
 Here is a simple Python script that fetches the historical data of a specific stock symbol, calculates its moving average and suggests to buy if the latest closing price is higher than the moving average.

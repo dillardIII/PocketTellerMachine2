@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code snippet implementing a fallback strategy for when no backtest results are found. This code assumes that you have a function `run_backtest()` that runs a backtest and returns the results, or `None` if no results are found.
 
 ```python

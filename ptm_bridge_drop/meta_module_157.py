@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module to expand the PTM (Presumably a technology enterprise) empire's self-evolving autonomy stack involves integrating cutting-edge technologies, ensuring scalability, maintainability, and incorporating recursive learning strategies. Here's an abstract proposal for such a module, focusing on autonomous systems using recursive machine learning and distributed architecture. The design will be high-level, emphasizing flexibility and future adaptability.
 
 ### Module Overview

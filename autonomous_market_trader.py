@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: autonomous_market_trader.py ===
 # 💰 Fully Autonomous Market Trader – scans, decides, trades.
 
@@ -25,3 +26,6 @@ if __name__ == "__main__":
         p = scan_market()
         decide_and_trade(p)
         time.sleep(60)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

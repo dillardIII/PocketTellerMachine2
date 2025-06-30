@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct market analysis, we need to have data first. We can get stock market data from various sources. For this example, I will use Yahoo Finance data which can be accessed using `yfinance` library in Python. 
 
 Here is a simple Python code to get the data and perform basic analysis:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To increase trading volume and activity levels, you will need to implement some trading strategies. Here is an example of breakout strategy implemented in Python. Also, the potential win-loss ratios can be calculated by dividing the number of winning trades by the number of losing trades. Please note the following code is a simple illustration and may need to be further adjusted based on specific trading rules.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI language model, I can provide you with a basic structure of Python code that can be used to analyze market trends. However, please note that you'll need to have access to a market data API or a dataset to actually fetch the data. Here's an example using pandas, numpy, and matplotlib libraries:
 
 ```python

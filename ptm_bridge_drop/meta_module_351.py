@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module for PTM (Presumably a conceptual entity for this task) that focuses on expanding its self-evolving autonomy stack using innovative recursive strategies requires a clear understanding of the system's objectives, architecture, and the domain it's applied to. Here's a broad outline and design suggestion for such a module:
 
 ### Module: `self_evolver.py`

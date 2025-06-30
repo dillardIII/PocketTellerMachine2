@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: backup_restorer.py ===
 # 🔄 PTM Backup + Restore Utility – Keeps file snapshots before patching
 
@@ -42,7 +43,7 @@ def restore_latest_backup(file_name):
         file_name (str): Name of the file (e.g., main.py)
 
     Returns:
-        str: Path of restored file, or None if not found
+        str: Path of restored file, or None if not found:
     """
     if not os.path.exists(BACKUP_DIR):
         print("[RESTORE] ❌ No backup directory found.")
@@ -50,7 +51,7 @@ def restore_latest_backup(file_name):
 
     matching_backups = [
         f for f in os.listdir(BACKUP_DIR)
-        if f.startswith(file_name + ".") and f.endswith(".bak")
+        if f.startswith(file_name + ".") and f.endswith(".bak"):
     ]
 
     if not matching_backups:
@@ -68,3 +69,6 @@ def restore_latest_backup(file_name):
     except Exception as e:
         print(f"[RESTORE] ❌ Failed to restore: {e}")
         return None
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_command_engine.py ===
 
 import json
@@ -33,3 +34,6 @@ def submit_command(command):
             }
     except Exception as e:
         return {"error": f"Failed to parse command: {str(e)}"}
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

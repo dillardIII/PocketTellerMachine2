@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Let's create a Python utility for a strategy or empire game that focuses on resource management, which is often a crucial aspect of such games. This utility will include functions to manage resources, simulate resource production, and handle upgrades for buildings that improve production efficiency.
 
 Suppose your empire manages three primary resources: Gold, Wood, and Stone. You also have different levels of production buildings that can be upgraded over time. Here's a basic version of such a utility:
@@ -98,3 +99,6 @@ This is a basic utility that can be extended with functionalities such as:
 - More complex interactions and features commonly found in strategy games.
 
 This code forms the foundation of a resource management system for a strategy or empire game, providing players with necessary tools to manage their empires efficiently.
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

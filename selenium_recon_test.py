@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import time
 
 # === TRY SELENIUM-WIRE FIRST ===
@@ -49,7 +50,7 @@ except Exception as e:
 
         print(">> Starting undetected Chrome with binary path override...")
         opts = ChromeOptions()
-        opts.binary_location = "/usr/bin/chromium-browser"  # or "/usr/bin/chromium" if needed
+        opts.binary_location = "/usr/bin/chromium-browser"  # or "/usr/bin/chromium" if needed:
         opts.add_argument("--headless")
         opts.add_argument("--no-sandbox")
         opts.add_argument("--disable-gpu")
@@ -72,3 +73,6 @@ except Exception as e:
         print("✅ UC recon complete. Browser closed.")
     except Exception as uc_error:
         print(f"❌ Fallback also failed. Error: {uc_error}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

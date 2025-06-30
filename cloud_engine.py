@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cloud_engine.py
 # Initializes Skypia cloud system core and command interface
 
@@ -66,3 +67,6 @@ if __name__ == "__main__":
     result = engine.run_command("echo Skypia online.")
     print(result)
     engine.export_log()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

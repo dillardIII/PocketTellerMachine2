@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a python code for trading strategies involves numerous steps, this can get quite complex as you need more specifics, like what kind of strategies will be used etc. However, I'll provide you with a simple illustrative example of a Mean Reversion strategy which uses the concept that the price will revert to its mean over time. Here it is:
 
 ```python

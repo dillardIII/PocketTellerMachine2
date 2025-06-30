@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a creative Python utility designed for managing and simulating an empire's resource allocation and expansion strategy in a hypothetical game setting. This utility will allow an empire to allocate resources to various sectors (e.g., agriculture, military, research) and simulate the outcomes of these allocations over a series of turns to measure growth, military strength, and technological advancement.
 
 ```python
@@ -87,3 +88,6 @@ if __name__ == "__main__":
 5. **History and Summary**: Results of each turn are stored, and at the end, a summary provides insights into how well the empire fared across all turns.
 
 This utility is a basic simulation, but it can be expanded with more complexity, like diplomatic actions, trade, events, or AI opponents for a richer game experience.
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

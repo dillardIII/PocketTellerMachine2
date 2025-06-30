@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To monitor market trends and identify potential trading opportunities, we can use APIs provided by financial data providers such as Alpha Vantage, Yahoo Finance, etc. Here is a simple Python script that uses the Alpha Vantage API to monitor market trends. 
 
 Please note that this is a basic script and real-world trading algorithms are much more complex and take many more factors into consideration. Also, you need to replace 'YOUR_ALPHA_VANTAGE_API_KEY' with your actual API key.

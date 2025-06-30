@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends can involve a variety of techniques, such as analyzing moving averages, volume and momentum, MACD, and other indicators. For simplicity, here is a basic example of how to fetch market data and calculate moving averages using the Python Pandas library and yfinance, a package that allows downloading historical market data from Yahoo Finance:
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # chatgpt_autonomous_code_sender_daemon.py
 
 import time
@@ -40,3 +41,6 @@ def autonomous_loop(interval_seconds=300):
 
 if __name__ == "__main__":
     autonomous_loop(300)  # Every 5 minutes (adjustable)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

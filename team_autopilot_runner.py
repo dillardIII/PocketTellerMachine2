@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: team_autopilot_runner.py ===
 # This file controls the Replit team's autonomous build cycle.
 # It listens for incoming packets from other teams, executes the build tasks,
@@ -22,8 +23,11 @@ while True:
             execute_build_payload(packet)
         except Exception as e:
             print(f"[ERROR] Build failed: {e}")
-            # Step 3: Attempt auto-repair if the build process failed
+            # Step 3: Attempt auto-repair if the build process failed:
             auto_repair_if_failed(packet)
 
     # Step 4: Sleep briefly to avoid hammering the CPU
     time.sleep(2)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

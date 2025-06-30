@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple implementation using the Flask framework in Python to create an API that returns "Hello World" when the endpoint "/hello" is called.
 
 ```python

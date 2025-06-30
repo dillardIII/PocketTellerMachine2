@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and adjusting trading strategies is a complex task that involves a lot of data analysis and potentially machine learning algorithms. Here is a basic example of how you might start to approach this task using Python, pandas for data manipulation, and yfinance to download stock price data.
 
 ```python

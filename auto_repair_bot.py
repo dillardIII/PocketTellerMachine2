@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # auto_repair_bot.py
 
 import os
@@ -20,7 +21,7 @@ DEFAULT_TEMPLATES = {
 
 def check_and_repair(file_path):
     """
-    Checks if a file exists and is valid JSON.
+    Checks if a file exists and is valid JSON.:
     If not, restores from DEFAULT_TEMPLATES or creates a blank file.
     """
     if not os.path.exists(file_path):
@@ -76,3 +77,6 @@ def log_repair(file_path):
         print(f"[REPAIR LOGGED] {file_path}")
     except Exception as e:
         print(f"[REPAIR LOG ERROR] {str(e)}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: dimensional_scanner.py ===
 # 🧬 Dimensional Scanner – Proto-sensor for signals, emotional tones, layered analysis
 

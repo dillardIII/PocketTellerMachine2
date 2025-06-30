@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ptm_brain_sync.py ===
 
 import json, os, time
@@ -113,3 +114,6 @@ def sync_recon_result(agent_name, result_data):
 # === Entry Point ===
 if __name__ == "__main__":
     run_brain_sync()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

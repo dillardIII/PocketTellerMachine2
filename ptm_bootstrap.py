@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ptm_bootstrap.py ===
 # 🚀 PTM Bootstrap – Runs full startup chain including folder init, bridge, and file engine
 
@@ -20,3 +21,6 @@ bridge_thread = threading.Thread(target=start_bridge_team, daemon=True) bridge_t
 # === Begin Execution Loop ===
 
 while True: exec_engine.execute_all() time.sleep(10)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

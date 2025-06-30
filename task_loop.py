@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: task_loop.py ===
 # 🔁 Task Loop – Keeps PTM's brain active, scanning, generating, and improving
 
@@ -46,7 +47,7 @@ class TaskLoop:
         self.running = False
         log_event("🛑 TaskLoop stopped.")
 
-# Optional trigger if standalone run
+# Optional trigger if standalone run:
 if __name__ == "__main__":
     loop = TaskLoop()
     loop.start()

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_assistant_mood_aware_response_engine.py
 
 import os

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ptm_file_saver.py ===
 
 import os
@@ -25,3 +26,6 @@ def load_from_json(file_path):
     except Exception as e:
         print(f"[PTM FileSaver] Error loading JSON: {e}")
         return None
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 from datetime import datetime
 from cole_code_writer import cole_write_code, generate_api_endpoint
@@ -32,3 +33,6 @@ if __name__ == "__main__":
     missing = scan_for_missing_modules(REQUIRED_MODULES)
     if missing:
         auto_correct_missing_modules(missing)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

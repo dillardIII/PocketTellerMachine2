@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze recent market trends, you'll likely want to use a combination of data gathering, processing, and visualizing. For this, we can use popular libraries in Python, such as pandas for data manipulation, yfinance to download historical market data, and matplotlib for data visualization. Here is a simple code snippet that shows a basic way to analyze the market trend of a particular stock, in this case, let's use the Apple Inc stock.
 
 NOTE: This is a very basic example, market trends analyzing includes several complex tasks which is not shown in this example.

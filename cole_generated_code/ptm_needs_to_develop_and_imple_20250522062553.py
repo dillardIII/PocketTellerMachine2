@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help you to write a basic Python code for a simple trading strategy. However, please note that in real-world scenarios, trading strategies can be very complex and require a deep understanding of financial markets and data analysis. 
 
 Here's a simple moving average crossover strategy using Python:

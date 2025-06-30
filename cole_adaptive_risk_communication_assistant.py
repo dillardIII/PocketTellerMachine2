@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_adaptive_risk_communication_assistant.py
 
 import os
@@ -63,3 +64,6 @@ def risk_communication_loop():
 
 if __name__ == "__main__":
     risk_communication_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

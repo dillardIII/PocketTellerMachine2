@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from openai import OpenAI
 client = OpenAI()
 
@@ -15,3 +16,6 @@ def generate_ai_code(prompt):
     except Exception as e:
         print(f"[GPT] ❌ Failed: {e}")
         return "# Failed to generate new code"
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: meta_superforge.py ===
 import threading, time
 from hyperforge_pipeline import hyperforge_loop
@@ -26,3 +27,6 @@ try:
         time.sleep(60)
 except KeyboardInterrupt:
     print("[MetaSuperForge] ⛔ Shutdown.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

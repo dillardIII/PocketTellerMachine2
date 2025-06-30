@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code for a trading strategy using Moving Average Crossover. This strategy is used to identify potential buy and sell signals. 
 
 ```python

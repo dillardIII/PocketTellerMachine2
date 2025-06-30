@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: reflex_mutation_core.py ===
 # 🧬 Reflex Mutation Core – Modifies file logic based on past behavior
 
@@ -41,3 +42,6 @@ def mutate_manifest():
 
 if __name__ == "__main__":
     mutate_manifest()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

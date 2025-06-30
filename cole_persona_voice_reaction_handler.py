@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_persona_voice_reaction_handler.py
 
 import os
@@ -75,3 +76,6 @@ def trigger_voice_reactions():
 # === Example direct usage ===
 if __name__ == "__main__":
     trigger_voice_reactions()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: utils/file_logger.py ===
 
 # 📓 File Logger – Logs file creation events to vault or console

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🗣️ Voice Synth + Whisper Listener – Speak to it, it responds, learns context.
 
 import speech_recognition as sr
@@ -26,3 +27,6 @@ def respond_with_voice(text):
 
 if __name__ == "__main__":
     listen_and_respond()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

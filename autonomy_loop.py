@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: autonomy_loop.py ===
 """
 Autonomy Loop:
@@ -52,3 +53,6 @@ def autonomy_loop():
         print(f"[Cycle {cycle}] ✅ Cycle complete. Sleeping for {LOOP_INTERVAL}s...\n")
         cycle += 1
         time.sleep(LOOP_INTERVAL)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

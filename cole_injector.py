@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_injector.py – Dynamic command injector for Cole Bot
 
 import json
@@ -29,3 +30,6 @@ if __name__ == "__main__":
         "quantity": 10
     }
     inject_command("trade_order", test_command)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

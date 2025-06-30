@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ptm/inter_bot_router.py ===
 # Purpose: Routes tasks between PTM bots using the shared repo_queue
 # This handles:

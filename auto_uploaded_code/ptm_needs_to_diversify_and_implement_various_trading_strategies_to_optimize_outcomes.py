@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a simple example of how you might implement different trading strategies in Python. For this example, I'll use the `yfinance` library to fetch stock data, and `pandas` to handle the data. 
 
 Please note that this is a very simplified example and actual trading strategies would require much more complex algorithms and risk management techniques.

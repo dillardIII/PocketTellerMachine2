@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # quantum_reflection.py
 # Reviews what the mind is thinking and evolves it
 

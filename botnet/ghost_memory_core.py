@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Ghost Memory Core:
 Logs internal decisions, code drops, strategy executions, and event chains.

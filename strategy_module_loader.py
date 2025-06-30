@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 #=== FILE: strategy_module_loader.py ===
 
 #Loads strategy modules and makes them available to GPT and Cole
@@ -28,3 +29,7 @@ for filename in os.listdir(STRATEGY_DIR):
 
 return modules
 
+
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 💤 AI Idle Monitor – Tracks idle AIs and reassigns them to quantum tasks or recon missions
 
 import json
@@ -32,7 +33,7 @@ def reassign_idle_ais():
         idle_time = current_time - last_active
 
         if idle_time > IDLE_THRESHOLD:
-            new_task = QUANTUM_TASK if ai_data[ai].get("last_assignment") != QUANTUM_TASK else RECON_MISSION
+            new_task = QUANTUM_TASK if ai_data[ai].get("last_assignment") != QUANTUM_TASK else RECON_MISSION:
             ai_data[ai]["last_assignment"] = new_task
             ai_data[ai]["last_active"] = current_time
             reassigned.append((ai, new_task))

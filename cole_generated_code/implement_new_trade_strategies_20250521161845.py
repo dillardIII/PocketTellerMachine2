@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Without more specific requirements, it's quite hard to suggest one specific trading strategy. However, I will propose a simple implementation of a Moving Average Crossover Strategy. This strategy involves the use of two moving averages: a fast-moving average (e.g., 15-day MA) and a slow-moving average (e.g., 50-day MA). When the fast MA crosses above the slow MA, it signals a good time to buy, and when the fast MA crosses below the slow MA, it signals a good time to sell.
 
 Here is a very simplified example illustrating the concept using the Pandas library in python:

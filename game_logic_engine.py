@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: game_logic_engine.py ===
 
 import time
@@ -55,3 +56,6 @@ class GameSession:
     def stop(self):
         self.active = False
         speak_from_persona(self.persona, f"{self.game_name} session terminated.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

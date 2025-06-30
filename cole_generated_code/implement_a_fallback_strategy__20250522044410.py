@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help with that. Here's a simple implementation of a fallback strategy:
 
 ```python

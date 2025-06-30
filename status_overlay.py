@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: status_overlay.py ===
 # 🛰 PTM Status Overlay – Updates a visible UI or dashboard overlay in real-time
 
@@ -24,3 +25,6 @@ def update_overlay_loop():
             print(f"[OVERLAY ERROR] ❌ {e}")
 
         time.sleep(30)  # Update every 30 seconds
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

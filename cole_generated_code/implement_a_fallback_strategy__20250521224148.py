@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple implementation of a fallback strategy in Python. In this case, the fallback strategy is to return a message that no backtest results were found.
 
 ```python

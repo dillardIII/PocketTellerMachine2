@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a basic Python code to simulate a trading system. Please note that this is a simplified version and real-world trading systems are much more complex and require careful handling of financial data.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # mentor.py — Defines the "Mentor" assistant persona for PTM
 
 class Mentor:

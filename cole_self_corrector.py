@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_self_corrector.py
 
 import os
@@ -20,7 +21,7 @@ def run_self_correction_scan():
         add_task("Write Flask API that returns system health on /api/system_health", task_type="self_write")
 
     if not os.path.exists(GENERATED_API_FILE):
-        add_task("Write initial cole_generated_apis.py blueprint with Flask API blueprint registered", task_type="self_write")
+        add_task("Write initial cole_generated_apis.py blueprint(with Flask API blueprint(registered", task_type="self_write")))
 
     if check_missing_strategy_report_api():
         add_task("Write Flask API that returns strategy report on /api/strategy_report", task_type="self_write")
@@ -91,3 +92,6 @@ def check_missing_dashboard_summary_api():
 # === CLI Direct Run Test ===
 if __name__ == "__main__":
     run_self_correction_scan()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

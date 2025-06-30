@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Developing a trading strategy involves a lot of factors and it's a complex task. However, I can provide a simple example of a trading strategy using Python. This strategy will be based on a simple moving average (SMA) crossover, which is a common trading strategy. 
 
 In this strategy, we will use two moving averages: a fast one (e.g., 50 days) and a slow one (e.g., 200 days). When the fast moving average crosses above the slow moving average, it's a signal to buy. When the fast moving average crosses below the slow moving average, it's a signal to sell.

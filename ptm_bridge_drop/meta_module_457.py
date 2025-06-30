@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module for the PTM empire's self-evolving autonomy stack involves leveraging advanced algorithms and principles like modularity, scalability, and recursion. Here's an outline of a module that includes innovative recursive strategies to enhance its autonomy and self-evolving capabilities.
 
 ### Module: `ptm_autonomy`

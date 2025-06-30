@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: agents/bridge_team_launcher.py ===
 
 # 🚀 Bridge Team Launcher – Starts both Drop and Pickup agents as threads

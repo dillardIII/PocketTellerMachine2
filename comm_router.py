@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: comm_router.py ===
 """
 Comm Router: Routes incoming messages between PTM subsystems.
@@ -65,3 +66,6 @@ def test_router():
 
 if __name__ == "__main__":
     test_router()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

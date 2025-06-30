@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Reaction Summary Builder:
 Analyzes emotional reactions to produce mood summaries or assistant reflections.
@@ -24,7 +25,7 @@ def build_summary(persona):
         except json.JSONDecodeError:
             return f"{persona} reaction data is corrupted."
 
-    recent = [entry["emotion"] for entry in data if entry["persona"] == persona][-10:]
+    recent = [entry["emotion"] for entry in data if entry["persona"] == persona][-10:]:
     
     if not recent:
         return f"{persona} has no recent reactions logged."
@@ -39,3 +40,6 @@ def build_summary(persona):
 # === Manual test
 if __name__ == "__main__":
     print(build_summary("MoCash"))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

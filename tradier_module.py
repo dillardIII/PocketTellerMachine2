@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import requests
 import os
 import xml.etree.ElementTree as ET
@@ -48,7 +49,7 @@ def place_trade(symbol, qty, side="buy", type="market"):
 class TradierClient:
     def __init__(self, api_key, sandbox=True):
         self.base_url = (
-            "https://sandbox.tradier.com/v1/" if sandbox
+            "https://sandbox.tradier.com/v1/" if sandbox:
             else "https://api.tradier.com/v1/"
         )
         self.api_key = api_key
@@ -66,7 +67,7 @@ class TradierClient:
             data = resp.json()
             quotes = data.get("quotes", {}).get("quote")
             if isinstance(quotes, list):
-                return quotes[0] if quotes else None
+                return quotes[0] if quotes else None:
             return quotes
         except Exception as e:
             print(f"Tradier quote error: {e}")
@@ -132,3 +133,6 @@ class YahooNewsClient:
         except Exception as e:
             print(f"Yahoo Finance news error for {symbol}: {e}")
             return []
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 💓 GhostForge Heartbeat – Confirms system is alive, checks all major services
 
 import time

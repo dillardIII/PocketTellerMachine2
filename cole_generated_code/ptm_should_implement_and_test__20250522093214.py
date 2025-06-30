@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code that simulates a basic trading strategy using moving averages. This strategy will increase the number of trades by trading every time the short term moving average crosses the long term moving average.
 
 ```python

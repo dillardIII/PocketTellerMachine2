@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🧬 Hyper Mutator – continuously rewrites & evolves empire modules past Jarvis level
 
 import os
@@ -22,3 +23,6 @@ while True:
     mutate_file(target)
     log_mutation(target)
     time.sleep(45)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, to implement a fallback strategy when no backtest results are found, we can use exception handling in Python. Here is a simple example:
 
 ```python

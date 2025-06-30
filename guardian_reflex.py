@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: guardian_reflex.py ===
 # 🛡️ Guardian Reflex – PTM's shield system to protect against internal instability or external threats
 

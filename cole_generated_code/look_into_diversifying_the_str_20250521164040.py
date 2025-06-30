@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure! To diversify trading strategies, we could look into different strategies such as Mean Reversion, Momentum, and Pair Trading. I'm going to provide simple examples for each of these strategies. All of these examples are based on historical data and should not be treated as an investment advice.
 
 1. Mean Reversion:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: file_exec_engine.py ===
 import os
 import time
@@ -20,3 +21,6 @@ def start_exec_engine():
                 except Exception as e:
                     print(f"[FileExecEngine] ❌ Error running {f}: {e}")
         time.sleep(5)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

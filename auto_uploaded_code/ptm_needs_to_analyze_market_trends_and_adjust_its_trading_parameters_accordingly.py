@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and adjust trading parameters, we can use Python's Pandas library to handle data and Matplotlib for data visualization. We also need to fetch market data. For this, we can use yfinance library which allows us to access Yahoo Finance data. Here's a simple example:
 
 ```python

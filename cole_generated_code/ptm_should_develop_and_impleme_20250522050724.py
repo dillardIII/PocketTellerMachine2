@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and implement new trading strategies, we need to use a combination of data analysis, machine learning, and algorithmic trading. Here is a simple example of how we could do this in Python. Please note that this is a simplified example and real-world trading strategies would be much more complex and would require a deep understanding of financial markets.
 
 ```python

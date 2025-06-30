@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghostrade_option_card_route.py ===
 
 from flask import Blueprint, jsonify
@@ -32,3 +33,6 @@ def save_option_cards():
         json.dump(data, f, indent=2)
 
     return jsonify({"status": "saved", "count": len(data)})
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

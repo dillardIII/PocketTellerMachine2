@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_agent_cycle.py ===
 
 import os
@@ -20,7 +21,7 @@ def log_agent(message):
 def ask_gpt(prompt):
     log_agent(f"Sending to GPT: {prompt}")
     # Placeholder logic — this will be where real GPT API or ChatGPT plugin goes
-    return f"# Code generated for prompt:\n# {prompt}\n\ndef example_function():\n    print('This came from GPT')\n"
+    return f"# Code generated for prompt:\n# {prompt}\n\ndef example_function():n"
 
 # === Process Pending Tasks ===
 def run_agent_cycle():
@@ -60,3 +61,6 @@ def run_agent_cycle():
 # === Manual Run ===
 if __name__ == "__main__":
     run_agent_cycle()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

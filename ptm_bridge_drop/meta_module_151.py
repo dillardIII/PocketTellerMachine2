@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Potentially Transformative Model) empire's self-evolving autonomy stack involves various innovative recursive strategies to facilitate adaptability, learning, and optimization. Below is a conceptual outline and basic implementation to demonstrate how such a module could be designed. The focus here is on recursive learning and decision-making processes.
 
 ### Conceptual Design

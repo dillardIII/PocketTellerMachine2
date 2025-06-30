@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 class TradeLogger:
     def __init__(self, tradier_api, sentiment_func, risk_grader):
         self.tradier = tradier_api                  # API client to get quotes
@@ -15,11 +16,11 @@ class TradeLogger:
             "ticker": ticker,
             "action": action,
             "quantity": quantity,
-            "price": price if price is not None else 0.0,
-            "open": quote.get("open", 0) if quote else 0,
-            "high": quote.get("high", 0) if quote else 0,
-            "low": quote.get("low", 0) if quote else 0,
-            "volume": quote.get("volume", 0) if quote else 0,
+            "price": price if price is not None else 0.0,:
+            "open": quote.get("open", 0) if quote else 0,:
+            "high": quote.get("high", 0) if quote else 0,:
+            "low": quote.get("low", 0) if quote else 0,:
+            "volume": quote.get("volume", 0) if quote else 0,:
             "sentiment": sentiment,
             "risk_grade": risk_grade,
             "result": "pending",
@@ -29,3 +30,6 @@ class TradeLogger:
         self.trade_history.append(trade)
         self.total_trades += 1
         print(f"[TradeLogger] Logged trade for {ticker} | Action: {action}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

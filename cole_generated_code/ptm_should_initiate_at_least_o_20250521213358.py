@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here's a simple Python code that uses the Alpaca API to initiate a trade. Alpaca provides commission-free stock trading API for individual investors and developers. Please replace 'APCA-API-KEY-ID' and 'APCA-API-SECRET-KEY' with your actual Alpaca API keys.
 
 ```python

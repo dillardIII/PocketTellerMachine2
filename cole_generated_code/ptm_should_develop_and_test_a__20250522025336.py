@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a simple example of a Python code that could be used to develop and test a trading strategy. In this example, we will use a simple moving average crossover strategy. 
 
 Please note that this is a very basic strategy and should not be used for actual trading without further research and testing. 

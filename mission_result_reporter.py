@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: mission_result_reporter.py ===
 # 📣 Mission Result Reporter – Logs and announces mission completion events.
 
@@ -20,3 +21,6 @@ def report_result(mission_name, status):
         print(f"[ResultReporter] ✅ {mission_name} completed: {status}")
     except Exception as e:
         print(f"[ResultReporter] ❌ Logging error: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

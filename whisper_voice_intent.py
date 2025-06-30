@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: whisper_voice_intent.py ===
 # 🎙️ Whisper Voice Intent Parser – listens, transcribes, and injects commands into your empire queue
 
@@ -45,3 +46,6 @@ def listen_forever():
 
 if __name__ == "__main__":
     listen_forever()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 from datetime import datetime
@@ -42,3 +43,6 @@ def run_self_healing_autofix():
 # === CLI Test ===
 if __name__ == "__main__":
     run_self_healing_autofix()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

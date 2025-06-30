@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: file_integrity_checker.py ===
 # 🔒 File Integrity Checker – Validates each incoming file’s SHA-256 before install.
 
@@ -40,3 +41,6 @@ def check_integrity():
 
     except Exception as e:
         print(f"[IntegrityChecker] ❌ Error during check: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Implementing different trading strategies can be complex and time-consuming. Here, we present simple python code to illustrate two commonly used trading strategies: Moving Average Crossover and Bollinger Bands. To put these strategies into existing trading system that adapts and learns could involve advanced machine learning techniques, which is out of this scope.
 
 Libraries needed: pandas, pandas_datareader, matplotlib, numpy.

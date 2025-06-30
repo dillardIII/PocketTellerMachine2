@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🧬 Loads and executes new empire modules dynamically
 import os
 import time
@@ -15,3 +16,6 @@ while True:
             subprocess.Popen(["python3", filepath])
             os.remove(filepath)
     time.sleep(10)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

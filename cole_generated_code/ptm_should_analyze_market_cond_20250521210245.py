@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market conditions and identify potential trading opportunities, we can use libraries like pandas for data manipulation, yfinance to download the stock price data, and sklearn to create a predictive model. Here is a simple example of how you can do it:
 
 ```python

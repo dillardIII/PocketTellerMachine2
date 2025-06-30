@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: reflex_mutator.py ===
 # 🧬 Reflex Mutator – Watches files and rewrites broken code autonomously
 
@@ -46,5 +47,8 @@ class ReflexMutator:
         print(f"[ReflexMutator] 🛠️ Rewritten and saved: {os.path.basename(path)}")
 
     def _ai_fix(self, content):
-        # Simulated AI fix for now – insert your GPT call here if connected.
+        # Simulated AI fix for now – insert your GPT call here if connected.:
         return "# 🔁 Auto-fixed version:\n" + content.replace("unexpected indent", "    ")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

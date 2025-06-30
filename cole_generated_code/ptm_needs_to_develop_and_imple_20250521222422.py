@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and implement trading strategies, we need to consider several factors such as technical analysis, fundamental analysis, and sentiment analysis. Here is a simple Python code implementing a moving average crossover strategy using pandas library. This strategy is a part of technical analysis.
 
 Please note that this is a simple example and real-world trading strategies can be much more complex and require a more sophisticated approach.

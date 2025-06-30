@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bot_mission_runner.py ===
 # 🚀 Bot Mission Runner – Executes any strategy file dropped into /missions.
 
@@ -28,3 +29,6 @@ def run_missions():
 
 if __name__ == "__main__":
     run_missions()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

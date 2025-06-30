@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Performing a thorough market analysis requires access to various data sources and might involve complex algorithms. Below is a simple example using Python for a basic stock market analysis:
 
 First off, you need the `yfinance` library, which needs to be installed via pip.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import requests
 from flask import Blueprint, request, jsonify
@@ -50,3 +51,6 @@ def create_did_video():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

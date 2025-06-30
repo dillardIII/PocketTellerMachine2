@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of how you might initiate a trade using a hypothetical trading API. This example uses the requests library to send a POST request to the API, which initiates a trade. Please note that this is a very simplified example and real-world trading involves much more complexity.
 
 ```python

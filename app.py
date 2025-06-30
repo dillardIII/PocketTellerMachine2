@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: app.py ===
 
 # 🌐 PTM Web Server – Flask app to serve vault dashboard and bridge HUD
@@ -27,17 +28,17 @@ def bridge_hud():
 # === Bridge HUD Data Endpoints
 @app.route("/hud/inbox")
 def hud_inbox():
-    files = os.listdir("ptm_inbox") if os.path.exists("ptm_inbox") else []
+    files = os.listdir("ptm_inbox") if os.path.exists("ptm_inbox") else []:
     return jsonify({"files": files})
 
 @app.route("/hud/bridge")
 def hud_bridge():
-    files = os.listdir("ptm_bridge") if os.path.exists("ptm_bridge") else []
+    files = os.listdir("ptm_bridge") if os.path.exists("ptm_bridge") else []:
     return jsonify({"files": files})
 
 @app.route("/hud/outbox")
 def hud_outbox():
-    files = os.listdir("ptm_outbox") if os.path.exists("ptm_outbox") else []
+    files = os.listdir("ptm_outbox") if os.path.exists("ptm_outbox") else []:
     return jsonify({"files": files})
 
 # === Root Redirect
@@ -54,3 +55,6 @@ def index():
 # === Run Flask App
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

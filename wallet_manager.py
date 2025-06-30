@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: wallet_manager.py ===
 # 🛠️ Wallet Manager – Reads, writes, and logs wallet data for PTM
 
@@ -72,3 +73,6 @@ def log_wallet_event(event_type, data):
         json.dump(logs, f, indent=4)
 
     print(f"[WalletManager] 📝 Logged wallet event: {event_type}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

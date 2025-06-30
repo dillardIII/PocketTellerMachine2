@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bot_status.py ===
 # 🛰️ Bot Status Tracker – Provides live status updates for UI and logs
 
@@ -38,3 +39,6 @@ def get_bot_status():
 
     with open(STATUS_FILE, "r", encoding="utf-8") as f:
         return json.load(f)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

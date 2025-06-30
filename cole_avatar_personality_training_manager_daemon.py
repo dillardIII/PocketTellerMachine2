@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_avatar_personality_training_manager_daemon.py
 
 import os

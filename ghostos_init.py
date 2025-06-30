@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🧬 GhostOS Init – Initializes core settings, state memory, and boot sequences
 
 import os

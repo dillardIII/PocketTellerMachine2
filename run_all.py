@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: run_all.py ===
 
 # 🧠 PTM Phase 9 Boot – Boots InspectorBot and all Godmode features in one go
@@ -27,3 +28,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

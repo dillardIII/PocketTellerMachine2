@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code to simulate a trade using a fictional stock market API. This code will buy 10 shares of a stock, then sell it after its price increases by 10%.
 
 ```python

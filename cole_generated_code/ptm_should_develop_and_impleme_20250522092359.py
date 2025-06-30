@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple example of a Python code implementing a basic Mean Reversion trading strategy. This strategy is based on the idea that the high and low prices of an asset are a temporary phenomenon that revert to their mean value periodically.
 
 ```python

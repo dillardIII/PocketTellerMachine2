@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_avatar_persona_builder_daemon.py
 
 import os
@@ -40,7 +41,7 @@ def load_avatar_state():
 def build_avatar_personas():
     avatar_state = load_avatar_state()
 
-    # Example: define core personas if missing
+    # Example: define core personas if missing:
     core_personas = {
         "Mo Cash": {"mood": "neutral", "style": "hustler", "voice": "male, urban, confident"},
         "Mentor": {"mood": "calm", "style": "wise", "voice": "male, calm, deep"},
@@ -70,3 +71,6 @@ def avatar_persona_builder_loop():
 # === Run Daemon ===
 if __name__ == "__main__":
     avatar_persona_builder_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

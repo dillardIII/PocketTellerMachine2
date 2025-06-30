@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To integrate risk management and diversification into a trading strategy would be a complex task. You could create a Python program that verifies diversification and quantifies risk, but without a detailed understanding of Cole's trading strategy and the specific metrics he uses to evaluate trades, it wouldn't be meaningful. The strategy applied will heavily depend on the type of assets being traded.
 
 A simple example I can provide below is for a stock portfolio. This Python code runs a basic risk management program that diversifies the portfolio across five assets and calculates the overall portfolio risk.

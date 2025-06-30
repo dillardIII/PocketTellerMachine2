@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Risk management in trading involves several strategies which include setting stop losses, diversifying portfolio, position sizing, etc. Here's a simple Python code that demonstrates a risk management strategy by setting a stop loss limit.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # Analyze market trends and anticipate opportunities: PTM should take a proactive approach to identifying potential wins
 # 
 

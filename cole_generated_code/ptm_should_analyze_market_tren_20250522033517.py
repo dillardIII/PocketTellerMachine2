@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Unfortunately, writing a Python code for a Pattern Trend Machine (PTM) that analyzes market trends and patterns to identify potential trading opportunities is a complex task that requires extensive knowledge and experience in both finance and machine learning. However, I can provide you with a simple example of how you can start building such a system using Python and pandas library. 
 
 Please note that this is a very basic example and real-world financial systems are much more complex and require a lot of data preprocessing, feature engineering, and sophisticated algorithms.

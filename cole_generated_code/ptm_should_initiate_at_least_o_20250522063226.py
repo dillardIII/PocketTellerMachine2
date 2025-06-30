@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code snippet that simulates trading for PTM (Portfolio Trading Model). This code assumes that we have a function `get_potential_trades()` that returns a list of potential trades, and a function `initiate_trade()` that takes a trade as an argument and initiates it.
 
 ```python

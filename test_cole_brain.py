@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: test_cole_brain.py ===
 """
 Test Script for cole_brain.py:
@@ -52,3 +53,6 @@ def run_memory_test():
 
 if __name__ == "__main__":
     run_memory_test()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

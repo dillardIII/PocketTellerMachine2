@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghostworld_simulation_core.py ===
 # 🌐 GhostWorld Core – Fully simulated environment for AI strategies and inter-persona learning
 
@@ -23,7 +24,7 @@ class GhostWorld:
                 "scenario": scenario,
                 "strategy": strategy_name,
                 "return": return_val,
-                "result": "WIN" if win else "LOSS",
+                "result": "WIN" if win else "LOSS",:
                 "persona": persona_influence,
                 "timestamp": str(datetime.now())
             }

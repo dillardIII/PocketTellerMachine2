@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a basic example of how you might set up a Python program to set daily trading goals. This example will use a simple dictionary to store the goals, and will allow you to add, view and check if you have reached your goals.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and implement trading strategies, we need to consider several factors such as historical data, technical indicators, and market trends. Here is a simple Python code using pandas and yfinance libraries to fetch historical data and calculate the moving average, which is a common technical indicator used in trading strategies.
 
 Please note that this is a very basic example and real trading strategies can be very complex and involve many other factors.

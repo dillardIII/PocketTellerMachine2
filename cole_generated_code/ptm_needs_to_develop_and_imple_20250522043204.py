@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code that uses a basic trading strategy called Moving Average Crossover. This strategy is widely used in trading and it's a good starting point for PTM. 
 
 This strategy uses two moving averages, a fast moving average and a slow moving average. A buy signal is generated when the fast moving average crosses above the slow moving average, and a sell signal is generated when the fast moving average crosses below the slow moving average.

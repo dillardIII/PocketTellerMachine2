@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # trade_logic.py
 """
 This module contains the logic to analyze trades for insights,

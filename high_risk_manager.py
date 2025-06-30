@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: high_risk_manager.py ===
 import json
 import os
@@ -16,3 +17,6 @@ def run_high_risk_loop():
         risk_multiplier = max(1.0, min(3.0, 1 + risk_multiplier))
         print(f"[HighRisk] ⚔️ Adjusted scale: {risk_multiplier:.2f}x | Emotion: {emotion}")
         time.sleep(60)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

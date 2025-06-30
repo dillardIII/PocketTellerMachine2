@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 👁️ Ghost Intel Officer – Malik runs live market & anomaly research
 
 import time
@@ -18,3 +19,6 @@ def run_intel_ops():
 
 if __name__ == "__main__":
     run_intel_ops()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

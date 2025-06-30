@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I am happy to help you. However, I need a bit more information to write accurate Python code as I need to know what sort of fallback strategy you're interested in, and what sort of data or structures you're already using.
 
 Here is a simple and general example of a fallback strategy when no backtest results are found, but once again, it might not be what you are looking for due to lack of context.

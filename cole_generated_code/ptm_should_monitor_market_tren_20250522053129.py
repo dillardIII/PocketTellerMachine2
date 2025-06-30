@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To monitor market trends and identify potential trading opportunities, we can use Python libraries like pandas, yfinance, and matplotlib. Here's a simple script that fetches the latest stock data from Yahoo Finance, calculates the moving averages, and plots the data to visualize market trends.
 
 Please note that this is a basic script and real-world trading systems are much more complex and take into account many other factors.

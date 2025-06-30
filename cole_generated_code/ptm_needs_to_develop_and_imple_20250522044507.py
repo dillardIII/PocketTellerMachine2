@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide you with a simple example of a Python code for a basic trading strategy. This strategy is based on Moving Average Crossover, which is a popular strategy used in algorithmic trading.
 
 Please note that this is a very basic strategy and might not be profitable in real-world trading. Also, this code assumes that you have historical stock price data in a pandas DataFrame.

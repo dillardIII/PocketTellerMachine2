@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: multi_vps_replication.py ===
 # 🌐 Multi-VPS Replicator – pushes empire files to additional remote VPS hosts
 # 🔒 Keeps your empire synced across multiple servers for redundancy and power
@@ -26,3 +27,6 @@ while True:
             print(f"[Replicator] 🚨 Unexpected error syncing to {vps}: {e}")
     # Wait 10 minutes before next replication cycle
     time.sleep(600)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

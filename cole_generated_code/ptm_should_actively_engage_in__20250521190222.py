@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to engage in trading, we would need to use an API that allows us to buy and sell stocks. One such API is Alpaca, which is a commission-free trading platform that allows for algorithmic trading.
 
 Here is a simple example of how you might use the Alpaca API to engage in trading. This example will buy a stock when its price is low and sell it when its price is high.

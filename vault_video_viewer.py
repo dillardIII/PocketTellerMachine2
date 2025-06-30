@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 📹 Vault Video Viewer – Auto-plays new video files added to the vault
 
 import os

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help you with that. However, please note that in order to initiate a trade, we need to connect to a trading API. Here's a simple example using the Alpaca API, which is a commission-free trading platform. 
 
 Firstly, you need to install the Alpaca API. You can do this using pip:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_persona_mood_to_voice_bridge_daemon.py
 
 import os

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: file_auto_committer.py ===
 # 📦 PTM File Auto-Committer – Handles post-repair Git versioning
 
@@ -37,3 +38,6 @@ def auto_commit_file(file_path):
 def console_auto_commit(file_path):
     print(f"[AutoCommitter] 💾 Auto-committed (console only) {file_path}")
     return {"status": "committed", "file": file_path}
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_drop_bot.py ===
 # 📝 Bridge Drop Bot – writes new files to the bridge for pickup
 
@@ -29,3 +30,6 @@ print("[AutoStrategy] Running strategy {counter}")
 
 if __name__ == "__main__":
     run_bridge_drop_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

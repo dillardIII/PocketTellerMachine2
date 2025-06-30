@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_dynamic_emotion_trigger_responder.py
 
 import os

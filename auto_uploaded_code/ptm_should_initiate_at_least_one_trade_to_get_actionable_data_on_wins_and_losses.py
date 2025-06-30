@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate a trade and get actionable data on wins and losses, we can use a simple Python script. However, please note that this is a simplified version and real trading involves more complexities.
 
 ```python

@@ -1,8 +1,9 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 from flask import Blueprint, jsonify, render_template, request
 from congress_tracker import get_congress_influence
 
-# === Create Flask Blueprint ===
+# === Create Flask Blueprint(===)
 congress_overlay_bp = Blueprint('congress_overlay', __name__)
 
 # === Route: Congress Influence API ===
@@ -23,3 +24,6 @@ def congress_overlay_page():
     influence_score = get_congress_influence(default_symbol)
     
     return render_template('congress_overlay.html', symbol=default_symbol, influence_score=influence_score)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

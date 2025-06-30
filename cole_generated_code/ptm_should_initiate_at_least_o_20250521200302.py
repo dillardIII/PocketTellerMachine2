@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple example of a Python code that uses the `yfinance` library to download stock data and then initiate a trade based on a simple strategy. Please note that this is a very basic example and real trading involves a lot more complexity including risk management, transaction costs, and regulatory compliance.
 
 ```python

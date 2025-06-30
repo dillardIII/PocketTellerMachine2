@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To implement and test new trading strategies, we'll need to create a simple backtesting system. Backtesting is the process of testing a trading strategy on relevant historical data to ensure its viability before the trader risks any actual capital. 
 
 Here's a simple Python code to implement and test a simple moving average crossover strategy using Pandas library:

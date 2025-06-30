@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code that implements a diversification strategy. This strategy will invest in a variety of stocks to reduce risk. For simplicity, we will assume that we are investing in 5 different stocks and we will distribute our capital equally among all stocks.
 
 Please note that this is a very simplified version of a trading strategy. In a real-world scenario, you would need to consider many other factors such as stock correlations, market conditions, risk tolerance, etc.

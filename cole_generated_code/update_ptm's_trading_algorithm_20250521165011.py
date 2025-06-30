@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 The details provided in your request are a bit sparse. However, I can take an educated guess and provide you a skeleton for improving a simple algorithmic trading system using Python. The 'proactive approach' could mean many things, but I assume it means to be able to identify and act opportunities faster here.
 
 Here's basic Python code utilizing pandas for data manipulation and yfinance to download stocks data. I use Simple Moving Average (SMA) crossover strategy for demonstration. 

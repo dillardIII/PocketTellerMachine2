@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # recon_bridge_trigger.py
 
 def trigger_recon(target="screeps"):
@@ -14,3 +15,6 @@ def trigger_recon(target="screeps"):
     except Exception as e:
         print(f"[RECON TRIGGER ERROR] Failed to launch recon: {str(e)}")
         return None
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

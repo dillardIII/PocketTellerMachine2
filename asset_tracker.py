@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # Asset Tracker
 assets = []
 
@@ -10,3 +11,6 @@ def get_total_assets():
 
 def list_assets():
     return assets
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

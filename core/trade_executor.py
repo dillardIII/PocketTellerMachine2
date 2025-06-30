@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Trade Executor:
 This module simulates or executes trades based on a given strategy.

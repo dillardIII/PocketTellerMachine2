@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple implementation of an EMA Crossover Analyzer using Python and pandas library. This code will analyze the EMA crossover for a given stock data.
 
 ```python

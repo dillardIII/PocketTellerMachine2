@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to analyze market trends and adjust the trading approach accordingly, we would need historical market data. We can use libraries like pandas for data manipulation, numpy for numerical calculations, matplotlib for plotting data, and sklearn for machine learning. However, creating a full-fledged trading bot is a complex task and requires deep understanding of both programming and financial markets. 
 
 Here is a simple example of how you might start to analyze market trends using Python:

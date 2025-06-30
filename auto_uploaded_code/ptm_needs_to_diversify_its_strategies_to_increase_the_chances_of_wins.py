@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To diversify the strategies, we can create a Python code that implements different trading strategies. Here is a simple example of how this can be done:
 
 ```python

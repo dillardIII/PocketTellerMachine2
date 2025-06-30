@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Assistant Council Engine
 Allows multiple assistant personas to vote, debate, and act on complex tasks.
@@ -34,8 +35,8 @@ def run_council_vote(topic: str, directive: str):
     return decision_log
 
 def save_council_log(entry):
-    if not isinstance(entry, dict): return
-
+    if not isinstance(entry, dict): return:
+:
     log = []
     if os.path.exists(COUNCIL_LOG):
         with open(COUNCIL_LOG, "r") as f:
@@ -58,3 +59,6 @@ if __name__ == "__main__":
     test = run_council_vote("enable_trade", "Activate real trading mode")
     print("🧠 Council Decision Summary:")
     print(json.dumps(summarize_vote(test), indent=2))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

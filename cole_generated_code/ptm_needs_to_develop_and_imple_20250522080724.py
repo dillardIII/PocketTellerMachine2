@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of a Python code that implements a basic trading strategy using Moving Average Crossover. This strategy is used to identify buying and selling points based on the crossover of short-term and long-term moving averages.
 
 Please note that this is a very basic strategy and in real-world trading, you'd need to consider many other factors like transaction costs, risk management, etc. Also, you'd need to use APIs provided by your broker to fetch real-time data and execute trades.

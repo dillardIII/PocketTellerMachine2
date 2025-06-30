@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and making predictions involves complex machine learning algorithms. Here's a simplified example using Python and a machine learning library called `sklearn`. This example uses a linear regression model to predict future stock prices based on past prices.
 
 Please note that this is a simplified model and actual market predictions would require a more complex model and more data.

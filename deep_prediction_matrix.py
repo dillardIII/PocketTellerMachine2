@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🔮 DeepPredictionMatrix – forecasts markets, risks, and PTM evolution
 # Each matrix cell represents a probabilistic future scenario
 
@@ -33,3 +34,6 @@ def prediction_loop():
 
 if __name__ == "__main__":
     prediction_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

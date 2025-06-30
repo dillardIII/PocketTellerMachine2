@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🔁 Wallet Sync Trigger – Auto-syncs wallet data and stores updated snapshots
 
 import os

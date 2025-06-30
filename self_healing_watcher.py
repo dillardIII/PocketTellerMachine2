@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # self_healing_watcher.py – Watches all critical services and auto-recovers failures
 
 import subprocess
@@ -54,3 +55,6 @@ if __name__ == "__main__":
     watcher.start()
     while True:
         time.sleep(300)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

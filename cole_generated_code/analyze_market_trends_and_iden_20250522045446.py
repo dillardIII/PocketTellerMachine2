@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and identify potential profitable trades, we need to use some sort of financial data. Here, we will use Yahoo Finance data with the help of the `yfinance` library in Python. 
 
 Please note that this is a simple example and real trading systems are much more complex and take into account many more factors.

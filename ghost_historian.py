@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_historian.py ===
 # 🏺 GhostHistorian – reads ghost_memory archive, analyzes past to advise future councils
 
@@ -46,3 +47,6 @@ def historian_loop():
 
 if __name__ == "__main__":
     historian_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

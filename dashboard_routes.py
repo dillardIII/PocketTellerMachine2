@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from flask import Blueprint, render_template
 
 dashboard_routes = Blueprint('dashboard_routes', __name__)
@@ -16,3 +17,6 @@ def run_diagnostics():
 @dashboard_routes.route('/diagnostics_alt')
 def run_diagnostics_alt():
     return "Diagnostics page is working!"
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

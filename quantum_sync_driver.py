@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: quantum_sync_driver.py ===
 # 🌐 Quantum Sync Driver – Real-time memory and module sync between all PTM-connected devices
 

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🛡️ Anti-Reverse Guard – If tampering, melts itself & remote nodes
 import hashlib, os, time, random
 
@@ -15,3 +16,6 @@ def check_self_integrity():
 while True:
     check_self_integrity()
     time.sleep(random.randint(60,180))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

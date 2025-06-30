@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Fake Crash Injector – Simulates a bot failure so PTM can test fallback recovery.
 
@@ -34,3 +35,6 @@ def inject_crash(persona="MoCash"):
 
 if __name__ == "__main__":
     inject_crash()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

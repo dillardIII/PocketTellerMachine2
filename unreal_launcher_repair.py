@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: unreal_launcher_repair.py ===
 
 # 🛠️ Unreal Launcher Repair – Attempts to verify path, fix launcher issues, and relaunch UE
@@ -46,3 +47,6 @@ def repair_unreal():
 
 if __name__ == "__main__":
     repair_unreal()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

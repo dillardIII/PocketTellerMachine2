@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To optimize PTM's trading algorithms, we need to use machine learning techniques. Here is a basic example of how you can use Python and its libraries to create a simple trading algorithm. In this example, we will use a simple moving average crossover strategy.
 
 Please note that this is a very basic example and real-world trading algorithms are much more complex and take into account many more factors.

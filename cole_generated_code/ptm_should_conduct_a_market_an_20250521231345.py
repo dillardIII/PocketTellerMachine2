@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct a market analysis, we would need to have access to a database or API that provides us with real-time or historical market data. For this example, I will use the `yfinance` library, which allows us to download stock price data from Yahoo Finance.
 
 Here's a simple Python script that downloads the latest stock price data for a given list of tickers, calculates the percentage change over the last day, and identifies stocks that have increased or decreased by more than a certain threshold. 

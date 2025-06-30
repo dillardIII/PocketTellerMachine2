@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python script that uses the pandas library to calculate the Exponential Moving Average (EMA) and analyze the crossover points. This script assumes that you have a pandas DataFrame `df` with a 'Close' column representing the closing prices of a stock.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code that uses pandas and yfinance libraries to analyze a specific stock (in this case, Apple Inc.) and identify potential profitable trades based on the Moving Average Crossover Strategy. This is a very basic form of market analysis and should not be used as the sole decision-making tool for real-world trading.
 
 ```python

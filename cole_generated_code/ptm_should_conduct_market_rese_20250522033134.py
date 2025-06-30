@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct market research, we need to collect data from the market. We can use APIs to fetch data from financial markets. Here is a simple example of how you can use Python to fetch data from an API. In this example, we will use Alpha Vantage API to fetch data.
 
 Please note that this is a basic example and real market research would involve complex algorithms and machine learning models to identify potential trading opportunities.

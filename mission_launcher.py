@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🚀 Mission Launcher – Starts global ops (GhostNet, vault tasks, deep recon)
 
 import threading
@@ -17,3 +18,6 @@ def start_campaign_stack():
 
 if __name__ == "__main__":
     start_campaign_stack()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

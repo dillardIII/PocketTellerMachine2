@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a simple example of a Python code that simulates a basic trading strategy. This strategy will be based on a simple moving average. 
 
 Please note that this is a very basic example and real trading strategies involve much more complex analysis and risk management.

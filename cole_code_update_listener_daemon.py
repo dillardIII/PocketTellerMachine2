@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 import time
@@ -31,15 +32,15 @@ def save_json(file_path, data):
 
 # === Logging Helper for Code Updates ===
 def log_code_update_event(message):
-    logs = load_json(CODE_UPDATE_LOG_FILE) if os.path.exists(CODE_UPDATE_LOG_FILE) else []
+    logs = load_json(CODE_UPDATE_LOG_FILE) if os.path.exists(CODE_UPDATE_LOG_FILE) else []:
     logs.append({"timestamp": datetime.now().isoformat(), "message": message})
     save_json(CODE_UPDATE_LOG_FILE, logs[-500:])
 
 # === Folder Monitoring ===
 def monitor_folder():
     print("[CODE UPDATE LISTENER]: Monitoring cole_tools/ for file changes")
-    last_seen = load_json(LOG_FILE) if os.path.exists(LOG_FILE) else {}
-
+    last_seen = load_json(LOG_FILE) if os.path.exists(LOG_FILE) else {}:
+:
     while True:
         current_files = {}
         for filename in os.listdir(WATCH_FOLDER):
@@ -58,8 +59,8 @@ def monitor_folder():
 
 # === Load Pending Code Updates ===
 def load_pending_code_updates():
-    return load_json(UPDATE_SOURCE_FILE) if os.path.exists(UPDATE_SOURCE_FILE) else []
-
+    return load_json(UPDATE_SOURCE_FILE) if os.path.exists(UPDATE_SOURCE_FILE) else []:
+:
 # === Save Remaining Updates ===
 def save_code_updates(updates):
     save_json(UPDATE_SOURCE_FILE, updates)
@@ -119,3 +120,6 @@ if __name__ == "__main__":
 
     folder_thread.join()
     updates_thread.join()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

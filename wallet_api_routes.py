@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: wallet_api_routes.py ===
 # 📡 PTM Wallet API Routes – JSON access to live wallet and token data
 
@@ -52,3 +53,6 @@ def delete_wallet_asset():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

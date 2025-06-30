@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, in order to implement this, we're going to use the `pandas` library for data manipulation and the `yfinance` library to fetch historical stock price data from Yahoo Finance. We'll write a program to calculate the Exponential Moving Average (EMA) for two different periods and then find the points at which these averages cross over.
 
 Please install the libraries if they aren't installed yet, you can do it using pip:

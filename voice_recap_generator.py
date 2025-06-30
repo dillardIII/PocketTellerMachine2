@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # voice_recap_generator.py
 # Purpose: Generate personalized voice recaps for trades
 # Uses persona identity, mood, and trade outcome to generate dynamic voice messages
@@ -24,7 +25,7 @@ class VoiceRecapGenerator:
         if not trades:
             raise Exception("No trades found to generate recap.")
 
-        trade = trades[-1] if not trade_id else self._find_trade_by_id(trades, trade_id)
+        trade = trades[-1] if not trade_id else self._find_trade_by_id(trades, trade_id):
         if not trade:
             raise Exception(f"Trade not found: {trade_id}")
 

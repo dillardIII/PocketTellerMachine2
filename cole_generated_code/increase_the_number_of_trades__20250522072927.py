@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To increase the number of trades, you can create a loop that will execute trades more frequently. Here is a simple example of how you might do this with a hypothetical trading API:
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ptm_gpt_agent.py ===
 
 import openai
@@ -45,3 +46,6 @@ def run_ptm_gpt_agent(prompt):
     except Exception as e:
         print(f"[GPT Agent] Failed to parse GPT response: {e}")
         return None
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

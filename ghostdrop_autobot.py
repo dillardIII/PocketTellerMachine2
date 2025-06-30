@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghostdrop_autobot.py ===
 # 👻 GhostDrop AutoBot – Final file to trigger the bots and prove bridge autonomy
 
@@ -28,3 +29,6 @@ def ghostdrop_autobot():
         f.write(content)
 
     print(f"[GhostDrop AutoBot] ✅ Dropped file: {filename}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

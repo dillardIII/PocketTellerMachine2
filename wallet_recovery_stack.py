@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: wallet_recovery_stack.py ===
 # 🪙 Wallet Recovery Stack - hunts, recombines, and tests key fragments from vault
 # Runs as a persistent process to constantly attempt key recovery.
@@ -33,7 +34,7 @@ def recombine_keys(partials):
     for i in range(len(partials)):
         for j in range(i+1, len(partials)):
             combined = partials[i] + partials[j]
-            if len(combined) == 64:  # pretend valid private key length
+            if len(combined) == 64:  # pretend valid private key length:
                 found.append(combined)
                 append_log(f"Recovered key from {partials[i]} + {partials[j]}")
     return found
@@ -53,3 +54,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

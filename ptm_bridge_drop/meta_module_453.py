@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module for the PTM (Presumably, Personalized Transportation Machine) empire's self-evolving autonomy stack is an ambitious task. We'll focus on constructing a framework that leverages recursive strategies and machine learning to enable self-adaptation and continuous learning. The primary goal is to ensure that the vehicle can safely, efficiently, and autonomously navigate diverse environments.
 
 ### Python Module: PTM_SelfEvolver

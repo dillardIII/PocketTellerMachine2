@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 from datetime import datetime
@@ -58,3 +59,6 @@ if __name__ == "__main__":
 from cole_autopilot_loop import cole_autopilot_cycle
 
 __all__ = ["cole_autopilot_cycle"]
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

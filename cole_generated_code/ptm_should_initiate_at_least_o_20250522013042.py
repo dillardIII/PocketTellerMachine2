@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help you with that. However, please note that the actual trading part involves real money and should be done with caution. Here is a simple Python code using a hypothetical trading API:
 
 ```python

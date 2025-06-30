@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: godcore.py ===
 # 🧠 GodCore – Centralized orchestrator for all major PTM intelligence systems
 # Manages mission control, module activation, AI harmony, and bridge coordination

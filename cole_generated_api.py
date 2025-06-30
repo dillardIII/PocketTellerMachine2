@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from flask import Flask, jsonify, request
 from test_fusion_predictor import predict_stock_bias
 from test_fusion_ai_executor import ai_fusion_execute
@@ -35,3 +36,6 @@ def memory_snapshot():
 # === Run API ===
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5001, debug=True)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

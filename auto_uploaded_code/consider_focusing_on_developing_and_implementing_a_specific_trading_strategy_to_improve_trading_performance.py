@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, one common algorithmic trading strategy is a Moving Average Crossover, which can be implemented in Python. Here's an example with some dummy data. This strategy involves trading when a short-term moving average crosses a long-term moving average.
 
 ```python

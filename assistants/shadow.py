@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # shadow.py — Defines The Shadow assistant persona
 
 class Shadow:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To give a good solution, I'll make some assumptions:
 - Coles uses a function `run_backtest()` which returns backtest results or `None` in case no backtest results are found. 
 - As a fallback strategy, there will be an attempt to run a basic, default backtest which won't be complex as your normal backtest.

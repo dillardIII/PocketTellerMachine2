@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and adjusting trading tactics accordingly is a complex task that involves a lot of data analysis and possibly machine learning. Here is a simple example of how you can analyze market trends using Python with the help of pandas and yfinance libraries. 
 
 ```python

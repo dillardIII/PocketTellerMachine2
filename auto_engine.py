@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # auto_bridge_linker.py
 # Establishes and maintains bridges between systems for full autonomous link handling
 
@@ -55,3 +56,6 @@ if __name__ == "__main__":
     linker.create_link("127.0.0.1", 8080)
     print(linker.list_links())
     linker.save_log()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

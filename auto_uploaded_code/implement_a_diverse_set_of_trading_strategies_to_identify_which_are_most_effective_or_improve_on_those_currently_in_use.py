@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To implement different trading strategies, we first need to install the backtrading module via pip.
 
 In the Python environment:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module for PTM (Presumably a large tech entity like a fictional empire) to expand its self-evolving autonomy stack necessitates a focus on recursive strategies, adaptability, and intelligence amplification. Here’s a conceptual design and rudimentary implementation for such a module, which might be dubbed the "AutoRecursive" module. This module will focus on recursive strategies, allowing systems to adaptively optimize their operations over time.
 
 ### Key Features:

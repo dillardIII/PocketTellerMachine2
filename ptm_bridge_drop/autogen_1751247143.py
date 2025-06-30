@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Below is a Python script that outlines a basic trading strategy. This strategy uses moving averages and a simple risk management system. For demonstration purposes, this script uses random data; you can replace it with real market data.
 
 ```python

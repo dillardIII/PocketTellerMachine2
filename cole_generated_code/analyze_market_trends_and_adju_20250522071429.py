@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and adjusting trading parameters is a complex task that involves machine learning and data analysis. Here is a simplified example of how you might approach this task using Python. This code uses the pandas library to analyze data and the sklearn library to create a simple linear regression model.
 
 ```python

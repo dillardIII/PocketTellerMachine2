@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_intel_hub.py ===
 # 🕶️ Ghost Intel Hub – Feeds Malik intel for persona reports
 
@@ -43,3 +44,6 @@ def save_ghost_intel(report):
         print("[GHOST INTEL] ✅ Saved and logged.")
     except Exception as e:
         print(f"[GHOST INTEL SAVE ERROR] ❌ {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

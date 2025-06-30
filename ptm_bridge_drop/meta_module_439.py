@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new Python module to expand the PTM (Presumably something like 'Perceptron Transition Model' although the acronym might stand for something different in your context) empire's self-evolving autonomy stack with innovative recursive strategies is quite an ambitious task. Below I'll outline a conceptual design for the module and provide some snippets of Python code to illustrate how it could be implemented.
 
 For the self-evolving autonomy stack, we might focus on mechanisms such as:

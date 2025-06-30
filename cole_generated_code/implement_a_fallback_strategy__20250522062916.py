@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple implementation of a fallback strategy in Python. In this case, if no backtest results are found, the fallback strategy will simply return a message saying "No backtest results found. Using fallback strategy." and then proceed to execute the fallback strategy.
 
 ```python

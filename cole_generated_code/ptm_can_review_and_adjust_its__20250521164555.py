@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To write a Python code that can review and adjust strategies for potential trades, the most logical step would be to create a model that could analyze past performance of different investment strategies and then make adjustments based on their success rate. This could imply the use of a Machine Learning algorithm.
 
 Please note that implementation of such a system is complex and requires significant financial knowledge and a robust dataset.

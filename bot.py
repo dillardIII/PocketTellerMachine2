@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bot.py ===
 # 🤖 PTM Master Bot – Oversees execution, coordination, and persona flow
 
@@ -46,3 +47,6 @@ def launch_bot():
     print("[BOT] 🚀 Launching PTM Bot in a separate thread...")
     bot_thread = threading.Thread(target=master_bot_loop, daemon=True)
     bot_thread.start()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

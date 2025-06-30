@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To increase the number of trades made by PTM (Presumed to be a trading bot or algorithm), we would need to modify the trading logic in the Python code. However, without the original code, it's impossible to provide an accurate modification. 
 
 But here is a simple example of how a trading bot might decide to make trades. In this example, the bot makes a trade if the current price is higher than the average price over the last 10 periods. To make the bot trade more often, we could decrease the number of periods used to calculate the average price. 

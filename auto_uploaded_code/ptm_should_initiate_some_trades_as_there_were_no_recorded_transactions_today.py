@@ -1,1 +1,2 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 generated/PTM_should_initiate_some_trades_as_there_were_no_recorded_transactions_today_20250520_042859.py

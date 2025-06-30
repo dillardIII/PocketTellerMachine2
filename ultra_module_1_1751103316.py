@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a module that evolves ghost memory weights based on the last 10 trades involves designing a system where the significance or "weight" of each past trade adapts dynamically as new information becomes available. This concept can be useful in trading algorithms where recent trades should influence decision-making to different extents based on their relevance.
 
 Here's a Python module that demonstrates a simple implementation of such a system. This example uses a weighted moving average (WMA) strategy, where the weights are adjusted based on the trades' outcomes and timespan.
@@ -88,3 +89,6 @@ if __name__ == "__main__":
 - **Processing Trades**: The `process_trade()` function processes new trades and returns the updated weighted average.
 
 This framework is adaptable and can be modified with more sophisticated logic for evolving weights based on additional trading indicators or metrics.
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

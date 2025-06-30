@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import speech_recognition as sr
 from cole_command_interpreter import cole_interpret_command
 
@@ -23,3 +24,6 @@ def listen_and_execute():
 if __name__ == "__main__":
     while True:
         listen_and_execute()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # quantum_core.py
 # Central nexus of the simulated quantum mind
 

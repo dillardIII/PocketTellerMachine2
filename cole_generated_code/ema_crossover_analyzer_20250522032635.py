@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we'll need to use the pandas library in Python to calculate the Exponential Moving Average (EMA) and then analyze the crossover points.
 
 ```python

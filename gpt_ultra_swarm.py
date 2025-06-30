@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🐙 GPTUltraSwarm – generates only valid Python .py modules, infinitely
 import os, time
 from datetime import datetime
@@ -13,7 +14,7 @@ def ultra_swarm_loop():
     while True:
         prompt = (
             "Write a complete standalone Python script with valid syntax, "
-            "including imports, functions, and an if __name__=='__main__' block. "
+            "including imports, functions, and an if __name__=='__main__' block. ":
             "No markdown or explanations. Only output raw Python."
         )
         response = client.chat.completions.create(
@@ -28,3 +29,6 @@ def ultra_swarm_loop():
         print(f"[GPTUltraSwarm] 🧬 Dropped: {path}")
         counter += 1
         time.sleep(90)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

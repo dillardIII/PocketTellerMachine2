@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To implement a fallback strategy while using the Python programming language, you could set up a simple if-else statement. This code checks if backtest results exist. If they do, it continues with the program. If not, it follows a fallback procedure. 
 
 We don't know the details of your program, but in a generic sense, it could be implemented as follows:

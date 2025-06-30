@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from flask import Blueprint, jsonify
 import json
 import os
@@ -13,3 +14,6 @@ def get_backtest_logs():
             data = json.load(f)
         return jsonify(data)
     return jsonify({"logs": [], "status": "No log file found."}), 404
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

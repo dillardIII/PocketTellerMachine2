@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To actively monitor the market trends for profitable trading opportunities, you may utilize a popular Python library called yfinance. yfinance is a useful tool that lets you access real-time Yahoo Finance data. However, please note that this might not be a sophisticated solution for large scale algorithmic trading, just a simple interactive script for small scale monitoring.
 
 Here's an example of how you could use it for market analysis:

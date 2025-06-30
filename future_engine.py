@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === future_engine.py ===
 """
 Future Engine – Predictive Simulation Core

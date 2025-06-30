@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to develop and implement trading strategies, we need to have some data to work with. For this example, let's assume we have historical stock price data. We will use Python's pandas library to handle the data and matplotlib to visualize it. We will implement a simple moving average crossover strategy.
 
 ```python

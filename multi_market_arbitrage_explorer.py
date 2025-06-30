@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: multi_market_arbitrage_explorer.py ===
 # 🌍 Multi-Market Arbitrage Explorer – finds cross-market mispricings
 
@@ -27,3 +28,6 @@ def main_loop():
 if __name__ == "__main__":
     print("[ArbExplorer] 🌐 Running arbitrage explorer...")
     main_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # chatgpt_feedback_listener.py
 
 from flask import Flask, request, jsonify
@@ -100,7 +101,7 @@ def receive_feedback():
 
             return jsonify({"status": "received", "message": "Code generated and sent to Cole."})
         else:
-            # Fallback if just logging extended data
+            # Fallback if just logging extended data:
             data["received_at"] = datetime.now().isoformat()
             log_feedback_entry(data)
             print(f"[FEEDBACK RECEIVED]: {json.dumps(data, indent=2)}")
@@ -132,3 +133,6 @@ if __name__ == "__main__":
     app.run(host='0.0.0.0', port=6000, debug=True)
     # Uncomment to enable simulation when running standalone:
     # feedback_listener_daemon_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can give a basic Python script, however please note few points:
 - Actual trading requires interfacing with a brokerage or an exchange, which is more complex and often uses proprietary APIs, which I cannot provide.
 - These sample might only be useful for educational purposes.

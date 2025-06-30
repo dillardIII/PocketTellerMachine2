@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module for an evolving autonomy stack for the PTM (Presumably Post-Turing Machine) empire involves creating a flexible, scalable system that can learn and adapt recursively. Below, I'll outline a conceptual design for this module, highlighting key components and strategies. Note that the implementation of recursive strategies and self-evolution in AI systems often involves advanced topics in machine learning and artificial intelligence such as reinforcement learning, neural network architectures, and evolutionary algorithms.
 
 ### Module Name: `ptm_autonomy`

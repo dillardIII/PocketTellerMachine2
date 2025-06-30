@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_self_upgrade_loop.py ===
 
 import os
@@ -18,8 +19,8 @@ def load_strategy_grades():
 
 # === Check for Weak Strategies ===
 def get_weak_strategies(grades):
-    return [name for name, grade in grades.items() if grade in ["C", "D", "F"]]
-
+    return [name for name, grade in grades.items() if grade in ["C", "D", "F"]]:
+:
 # === Upgrade Loop ===
 def run_self_upgrade_cycle():
     print("[UPGRADE LOOP] Checking for weak strategies...")
@@ -47,3 +48,6 @@ def run_self_upgrade_cycle():
         log_ghost_upgrade(prompt, improved_code, filename, persona="StrategistGPT")
 
         print(f"[UPGRADE] New version saved as: {filename}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to implement and test new trading strategies, we first need to define what kind of strategies we want to test. For simplicity, let's assume we want to test a simple moving average crossover strategy. This strategy buys when the short-term moving average crosses above the long-term moving average, and sells when the short-term moving average crosses below the long-term moving average.
 
 Here's a simple Python code using pandas library to implement this strategy:

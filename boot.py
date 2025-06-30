@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: boot.py ===
 
 # 🚀 PTM Boot – Launches core system auditors, repair agents, and monitors.
@@ -48,3 +49,6 @@ if __name__ == "__main__":
     print("[PTM] 💻 System booting up...")
     start_all_systems()
     print("[PTM] 🚀 System is live.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

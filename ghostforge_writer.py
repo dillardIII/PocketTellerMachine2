@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 💀 GhostForge Writer – mutates Spectre protocols every sweep
 # Keeps a log and evolves stealth ops to stay unpredictable
 
@@ -19,3 +20,6 @@ def ghostforge_main_loop():
 
 if __name__ == "__main__":
     ghostforge_main_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_persona_voice_selection_handler.py
 
 import os
@@ -49,7 +50,7 @@ def log_event(message):
 # === Select Persona Handler ===
 def select_persona_by_name(name):
     personas = load_available_personas()
-    found = next((p for p in personas if p["name"].lower() == name.lower()), None)
+    found = next((p for p in personas if p["name"].lower() == name.lower()), None):
     if found:
         save_current_persona(found["name"])
         print(f"[PERSONA HANDLER]: Persona switched to {found['name']}")

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: superforged_immortal_with_simwhisper.py ===
 # 💀 PTM Empire – Superforged Immortal Combined with Simulated Whisper Voice Commands
 
@@ -164,3 +165,6 @@ try:
         print("[PTM] 💓 Immortal Empire heartbeat...")
 except KeyboardInterrupt:
     print("\n[PTM] ⛔ Shutting down Immortal Empire Stack...")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

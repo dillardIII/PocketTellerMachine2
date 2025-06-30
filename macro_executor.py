@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: macro_executor.py ===
 # ⚙️ Macro Executor – Executes stored macros by interpreting triggers and action lists
 

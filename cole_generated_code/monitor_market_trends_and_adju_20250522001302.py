@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To monitor market trends and adjust trading strategies, we need to use some kind of financial data. In this example, we will use Yahoo Finance data with the help of `yfinance` library. We will also use `pandas` for data manipulation and `matplotlib` for data visualization.
 
 Please note that this is a simplified example and real trading strategies involve more complex analysis and risk management.

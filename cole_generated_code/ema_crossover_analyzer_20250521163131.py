@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Below is a Python code using Pandas and yfinance libraries for Exponential Moving Average (EMA) crossover analysis:
 
 ```python

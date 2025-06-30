@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I'll provide you with a simple Python trading strategy script that utilizes a moving average crossover strategy. The script will simulate a trading strategy that uses both a short-term and a long-term moving average to generate buy and sell signals.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # auto_architect.py
 # Purpose: Code refactoring and architecture generator for PTM
 # Allows PTM to analyze its codebase and write upgrade proposals or new structures
@@ -39,8 +40,8 @@ class AutoArchitect:
         try:
             code = read_file(filepath)
             tree = ast.parse(code)
-            functions = [node.name for node in ast.walk(tree) if isinstance(node, ast.FunctionDef)]
-            classes = [node.name for node in ast.walk(tree) if isinstance(node, ast.ClassDef)]
+            functions = [node.name for node in ast.walk(tree) if isinstance(node, ast.FunctionDef)]:
+            classes = [node.name for node in ast.walk(tree) if isinstance(node, ast.ClassDef)]:
             return {
                 "functions": functions,
                 "classes": classes,

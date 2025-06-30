@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code for a trading strategy using Moving Average Crossover. This strategy is one of the most commonly used strategies in trading. It's a strategy where two moving averages of different lengths are calculated, and a trade is made when these two averages cross.
 
 Please note that this is a very basic strategy and in real trading scenarios, strategies can get very complex. Also, this code assumes that you have a pandas DataFrame 'df' that contains 'Close' prices of a stock.

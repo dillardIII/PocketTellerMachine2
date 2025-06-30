@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct a market analysis, we can use Python libraries like pandas, yfinance, and matplotlib. Here's a simple example of how we could analyze stock data to identify potential profitable trades. In this example, we'll use the Moving Average Crossover Strategy, which is a common strategy used in stock trading.
 
 ```python

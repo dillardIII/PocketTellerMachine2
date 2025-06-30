@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code that uses the `yfinance` library to download stock data and initiate a trade based on a simple strategy. This code is for demonstration purposes only and does not guarantee any profits. It's always recommended to use a well-tested strategy for real trading.
 
 ```python

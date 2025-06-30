@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module to expand the PTM (Potentially Teleological Machine) empire's self-evolving autonomy stack involves creating an architecture that can learn and adapt recursively. Here's a high-level outline of how such a module might look, combined with a few ideas for innovative recursive strategies:
 
 ### Module: SelfEvolvingAutonomy

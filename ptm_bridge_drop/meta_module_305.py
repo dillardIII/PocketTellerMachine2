@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module for enhancing the self-evolving autonomy stack of a PTM (Presumably Pre-trained Model) empire is an exciting challenge. This involves creating a system capable of recursive self-improvement, learning autonomously from data, and potentially redesigning parts of itself for optimal performance. Here's how you can approach this:
 
 ### Module Overview

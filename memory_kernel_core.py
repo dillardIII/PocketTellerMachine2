@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # memory_kernel_core.py – Core persistent memory system for autonomous logic retention
 
 import json
@@ -41,3 +42,6 @@ if __name__ == "__main__":
     kernel = MemoryKernel()
     kernel.remember("last_directive", "deploy_vps_bridge")
     print("Recalled memory:", kernel.recall("last_directive"))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

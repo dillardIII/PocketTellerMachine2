@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we would need to use a combination of data analysis and machine learning techniques. Here is a simplified version of how you might approach this problem using Python. Note that this is a very basic example and real-world trading algorithms are much more complex and take into account many more factors.
 
 ```python

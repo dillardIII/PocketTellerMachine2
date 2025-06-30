@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In trading, the Exponential Moving Average (EMA) indicates the sum of a particular share over a period of time. It's usually used by traders to identify market trends.
 
 Here's a simple Python code for an EMA Crossover analyzer using the pandas_ datareader to fetch stock data and pandas to calculate the EMA.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of how you might implement this in Python. I'll assume that you have a function `run_backtest()` that runs the backtest and returns the results if they exist, and `None` otherwise. 
 
 ```python

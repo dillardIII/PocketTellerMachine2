@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To implement and test new trading strategies, we can create a simple Python program using Pandas library to analyze financial data. Here's a simple example of a mean reversion strategy:
 
 ```python

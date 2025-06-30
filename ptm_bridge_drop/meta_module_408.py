@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new Python module to expand the PTM (Presumably a hypothetical empire) self-evolving autonomy stack is an interesting task. To craft an innovative module with recursive strategies, let's outline a system that incorporates elements of artificial intelligence, machine learning, and recursive algorithms to enhance autonomy. We will call this module `AutoExpand`.
 
 ### Overview

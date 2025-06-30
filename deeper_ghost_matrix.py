@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: deeper_ghost_matrix.py ===
 import os, json, time
 from datetime import datetime
@@ -16,3 +17,6 @@ def deeper_ghost_loop():
         else:
             print("[DeeperGhost] ⚠️ No ghost log yet.")
         time.sleep(50)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

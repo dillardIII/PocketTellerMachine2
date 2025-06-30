@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of how you might use Python to initiate a trade using an API like Alpaca (a commission-free trading platform). This is a very basic example and doesn't include any kind of market trend analysis, which would require a more complex algorithm.
 
 First, you need to install the Alpaca API. You can do this using pip:

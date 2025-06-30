@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: error_parser.py ===
 # 🔍 Error Parser – Extracts latest traceback from log files for the self-rebuilder to act on.
 
@@ -34,3 +35,6 @@ def get_latest_error():
         "file": file_path or "unknown",
         "traceback": "".join(traceback_lines)
     }
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

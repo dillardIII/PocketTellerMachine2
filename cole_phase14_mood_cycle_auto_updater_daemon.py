@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase14_mood_cycle_auto_updater_daemon.py
 
 import os
@@ -41,9 +42,9 @@ def analyze_recent_trades_and_update_mood():
         return
 
     recent_trades = trades[-10:]
-    wins = sum(1 for t in recent_trades if t.get("result", "").lower() == "win")
-    losses = sum(1 for t in recent_trades if t.get("result", "").lower() == "loss")
-
+    wins = sum(1 for t in recent_trades if t.get("result", "").lower() == "win"):
+    losses = sum(1 for t in recent_trades if t.get("result", "").lower() == "loss"):
+:
     if wins > losses:
         set_mood_state("Mo Cash", "celebration")
         set_mood_state("Mentor", "happy")
@@ -73,3 +74,6 @@ def mood_cycle_auto_updater_loop():
 # === Run the Daemon ===
 if __name__ == "__main__":
     mood_cycle_auto_updater_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

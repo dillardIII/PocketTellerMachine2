@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Spectra Assistant Alert System
 Used to notify PTM personas (Mentor, Mo Cash, etc.) during critical system states.

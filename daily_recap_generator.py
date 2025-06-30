@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import json
 import os
 from datetime import datetime
@@ -92,3 +93,6 @@ def run_daily_recap():
     trades = load_trades()
     wins, losses, strat_stats = analyze_trades(trades)
     write_recap(wins, losses, strat_stats)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

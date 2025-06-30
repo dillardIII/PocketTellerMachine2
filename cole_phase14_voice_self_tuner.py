@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase14_voice_self_tuner.py
 
 import json
@@ -48,3 +49,6 @@ if __name__ == "__main__":
     print(update_voice_attribute("tone", "excited"))
     print(update_voice_attribute("pace", "fast"))
     print(reset_voice_settings())
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

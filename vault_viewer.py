@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 💎 Vault Viewer – Shows everything in your PTM vault directory
 
 import os
@@ -19,3 +20,6 @@ def show_vault_contents():
 
 if __name__ == "__main__":
     show_vault_contents()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

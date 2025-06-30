@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a basic example of a simple trading strategy using Python. However, please note that this is a simplified example and actual trading strategies can be very complex and involve many factors.
 
 We'll use the pandas library to handle our data and we'll implement a simple moving average crossover strategy. This strategy is based on the idea that if the short term moving average of a stock price crosses above the long term moving average, it's a buy signal and vice versa.

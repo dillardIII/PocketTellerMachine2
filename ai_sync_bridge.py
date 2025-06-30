@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ai_sync_bridge.py ===
 # 🔗 AI Sync Bridge – Connects ChatGPT, Replit, Claude, Phind, and PTM Crew
 
@@ -47,3 +48,6 @@ def get_bridge_status():
 
 def is_fully_synced():
     return all(bot["connected"] for bot in AIs.values())
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

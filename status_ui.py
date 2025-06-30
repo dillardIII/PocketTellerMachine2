@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: status_ui.py ===
 # 📊 PTM Status UI Bridge – Exposes rebuild system health for frontends
 
@@ -19,3 +20,6 @@ def get_status():
         "status": "ok",
         "data": status
     })
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

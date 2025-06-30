@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from brain import calculate_grade, execute_trade
 
 # Example trade results to grade
@@ -11,3 +12,6 @@ for r in results:
 # Simulate a trade and grade
 trade = execute_trade("MSFT", "covered_call", 55)
 print("[TRADE EXECUTION AND GRADING]:", trade)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

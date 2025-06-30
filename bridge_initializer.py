@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_initializer.py ===
 # 🚀 Bridge Initializer – Sets up folders and triggers initial bridge sync check.
 
@@ -25,3 +26,6 @@ def initialize_bridge():
 
 if __name__ == "__main__":
     initialize_bridge()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

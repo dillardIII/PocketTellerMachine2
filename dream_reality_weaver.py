@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🌌 Dream Reality Weaver – hybridizes dreams with real projects for next-level expansion
 
 import os
@@ -31,3 +32,6 @@ os.makedirs("hybrids", exist_ok=True)
 while True:
     weave_future()
     time.sleep(180)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

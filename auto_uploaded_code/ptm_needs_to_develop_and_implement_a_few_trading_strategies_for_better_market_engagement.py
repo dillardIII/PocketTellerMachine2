@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple example of a Python code for a trading strategy. This strategy is based on moving averages crossover. When the short-term average crosses the long-term average, it may signal a good time to buy or sell.
 
 ```python

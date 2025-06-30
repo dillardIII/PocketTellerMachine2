@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: macro_handler.py ===
 
 # 🧠 Macro Handler – Executes predefined macro logic sequences
@@ -35,3 +36,6 @@ class MacroHandler:
     def _log(self, fname):
         with open(VAULT_LOG, "a") as f:
             f.write(f"Dropped (macro): {fname}\n")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

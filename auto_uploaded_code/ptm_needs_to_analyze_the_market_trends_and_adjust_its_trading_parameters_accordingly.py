@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and adjust trading parameters, we need to have access to market data. Here's a simple example of how you can do this using Python, pandas and yfinance libraries. 
 
 Please note that this is a basic example and real-world trading systems are much more complex and take into account many more factors.

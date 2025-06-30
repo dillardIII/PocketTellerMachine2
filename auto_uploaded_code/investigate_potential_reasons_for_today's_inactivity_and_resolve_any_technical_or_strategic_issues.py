@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI model developed by OpenAI, I can provide you with a Python code template for investigating potential reasons for inactivity. However, without specific details about your trading system, it's challenging to provide a precise solution. Here's a general approach:
 
 ```python

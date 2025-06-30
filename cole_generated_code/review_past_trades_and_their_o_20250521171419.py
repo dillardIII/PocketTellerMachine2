@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete the task, we need a dataset containing data about past trades. As the dataset is not specified here, we'll assume that we have a dataset with the fields: 'TradeID', 'Asset', 'BuyPrice', 'SellPrice', 'TradeDate'.
 
 A simplified version of Python code could be written as this:

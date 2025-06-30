@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # deploy_trigger.py – Deployment relay trigger logic
 
 import time
@@ -19,3 +20,6 @@ def deploy_to_bridge(target):
 if __name__ == "__main__":
     deploy_to_bridge("Render")
     deploy_to_bridge("Skypiea")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

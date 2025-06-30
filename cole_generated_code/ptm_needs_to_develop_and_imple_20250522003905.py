@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code for a trading strategy using moving averages. This strategy is based on the idea that if the short term moving average is above the long term moving average, it's a good time to buy. Conversely, if the short term moving average is below the long term moving average, it's a good time to sell.
 
 Please note that this is a very basic strategy and real-world trading strategies can be much more complex and require more sophisticated algorithms and risk management techniques.

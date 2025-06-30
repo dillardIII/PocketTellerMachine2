@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and identify potential profitable trades, we would need historical market data. This data could be obtained from various sources like Yahoo Finance, Google Finance, etc. Here is a simple Python code using pandas, yfinance, and sklearn libraries to analyze market trends:
 
 ```python

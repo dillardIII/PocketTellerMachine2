@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To achieve the task, we needs some libraries like pandas, numpy, matplotlib, and yfinance (to fetch stock price data) to be installed. For modeling, we use statsmodels and pyfolio for performance analysis.
 
 The following demonstrates two simple strategies: Moving Average Crossover and Mean Reversion.

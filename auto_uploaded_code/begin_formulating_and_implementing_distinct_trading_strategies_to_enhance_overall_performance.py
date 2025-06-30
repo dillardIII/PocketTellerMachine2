@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 There are many different types of trading strategies and it would certainly not be practical, or even possible, to implement all of them in a single piece of code. However, I will provide a simple example of a common type of trading strategy: a moving average crossover strategy implemented with the use of the `pandas` library for time series analysis.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 First, we'll need to install necessary libraries. We'll be using `yfinance` to download historical market data, `pandas` for data manipulation, and `matplotlib` for graphing:
 
 ```python

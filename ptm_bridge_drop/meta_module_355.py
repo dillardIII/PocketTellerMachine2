@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM empire's self-evolving autonomy stack involves creating a system that can learn, adapt, and evolve over time through the use of recursive strategies and advanced machine learning techniques. Below is a high-level design concept for such a module, making use of some advanced AI methodologies.
 
 ### Module Name: `EvoStack`

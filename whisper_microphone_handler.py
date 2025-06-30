@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Whisper Microphone Handler – Real-time voice-to-text input using Whisper API
 Captures audio from mic, transcribes, and injects into command dispatcher.
@@ -45,3 +46,6 @@ def capture_and_transcribe():
 
 if __name__ == "__main__":
     capture_and_transcribe()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

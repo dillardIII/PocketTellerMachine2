@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_uploader.py ===
 import subprocess
 import time
@@ -7,8 +8,8 @@ WATCH_DIR = "ptm_modules"
 LAST_SEEN = set()
 
 def current_files():
-    return set(f for f in os.listdir(WATCH_DIR) if f.endswith(".py"))
-
+    return set(f for f in os.listdir(WATCH_DIR) if f.endswith(".py")):
+:
 while True:
     now = current_files()
     new_files = now - LAST_SEEN
@@ -20,3 +21,6 @@ while True:
         print("[BridgeUploader] ✅ Changes pushed to GitHub.")
     LAST_SEEN = now
     time.sleep(15)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

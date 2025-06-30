@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 ```python
 import random
 
@@ -10,7 +11,7 @@ def add_numbers(a, b):
     return a + b
 
 def is_even(number):
-    """Check if the number is even."""
+    """Check if the number is even.""":
     return number % 2 == 0
 
 def main():
@@ -31,3 +32,6 @@ def main():
 if __name__ == '__main__':
     main()
 ```
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

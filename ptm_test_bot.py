@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ptm_test_bot.py ===
 # Verifies PTM bot payload detection and logging systems
 
@@ -38,3 +39,6 @@ def test_payload_scan():
 
 if __name__ == "__main__":
     test_payload_scan()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

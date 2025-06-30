@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: guardian_file_checker.py ===
 # 🛡️ Guardian File Checker – Auto-fixes missing files with GhostForge
 
@@ -56,3 +57,6 @@ if __name__ == "__main__":
     while True:
         guardian_status_check()
         time.sleep(60 * 5)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to analyze market trends and patterns, we would need access to historical market data. This data can be obtained from various sources. For this example, I'll use the `yfinance` library to download historical stock data from Yahoo Finance.
 
 Please note that this is a simple example and real-world trading algorithms can be very complex and involve many more factors.

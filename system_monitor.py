@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # system_monitor.py
 # Monitors system health, file changes, and AI status
 
@@ -40,7 +41,7 @@ def monitor_loop(delay=10):
         log(f"Memory: {mem}% | CPU: {cpu}%")
 
         current_snapshot = scan_directory_changes()
-        changes = [f for f in current_snapshot if f not in baseline or current_snapshot[f] != baseline[f]]
+        changes = [f for f in current_snapshot if f not in baseline or current_snapshot[f] != baseline[f]]:
         if changes:
             log(f"File Changes Detected: {changes}")
             baseline = current_snapshot
@@ -49,3 +50,6 @@ def monitor_loop(delay=10):
 
 if __name__ == "__main__":
     monitor_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

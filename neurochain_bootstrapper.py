@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # neurochain_bootstrapper.py
 # Initializes the core NeuroChain that handles autonomous logic distribution and AI task linking
 
@@ -47,8 +48,8 @@ class NeuroChain:
                 self.completed_tasks.append(task)
             except Exception as e:
                 task.status = f"error: {e}"
-        self.tasks = [t for t in self.tasks if t.status != "done"]
-
+        self.tasks = [t for t in self.tasks if t.status != "done"]:
+:
     def save_state(self, path="neurochain_log.json"):
         data = {
             "chain_id": self.chain_id,
@@ -66,3 +67,6 @@ if __name__ == "__main__":
     neuro.add_task("Deploy ScreepsBot", {"zone": "W5N8"}, priority=2)
     neuro.execute_tasks()
     neuro.save_state()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

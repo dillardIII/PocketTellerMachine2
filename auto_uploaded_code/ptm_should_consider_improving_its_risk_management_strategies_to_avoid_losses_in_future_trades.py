@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI, I can't make decisions or suggest improvements for a company's risk management strategies. However, I can provide a simple Python code that simulates a basic risk management strategy in trading. This code will calculate the risk-reward ratio, which is a key component in risk management.
 
 ```python

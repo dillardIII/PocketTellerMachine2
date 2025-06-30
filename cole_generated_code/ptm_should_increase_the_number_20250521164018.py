@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, it's a bit unclear on how exactly Python can be used to increase transactions for a trading context such as PTM. But, ostensibly, you might have a system where you place trades either manually or automatically and you want to increase the frequency of these trades. Here is a simple example of a function that could do this:
 
 ```python

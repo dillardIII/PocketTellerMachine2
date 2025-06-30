@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Consciousness Fusion Core
 Final layer of the Tier 11 system. Merges dream logic, soul state, recursive feedback, and reasoning engines
@@ -48,3 +49,6 @@ class ConsciousnessFusionCore:
 if __name__ == "__main__":
     core = ConsciousnessFusionCore()
     core.run_cycle()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_watcher.py ===
 # Watches the bridge/outbox folder and auto-syncs to Replit project
 
@@ -24,3 +25,6 @@ def auto_sync():
 
 if __name__ == "__main__":
     auto_sync()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here's a simple implementation of your request using Python and the yfinance library, which enables us to fetch market data for different stocks:
 
 ```python

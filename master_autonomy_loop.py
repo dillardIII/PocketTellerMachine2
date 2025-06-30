@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Master Autonomy Loop:
 Central loop that launches Cole’s decision cycle, routes tasks,
@@ -37,8 +38,8 @@ def load_latest_trade():
         return None
     with open(TRADE_LOG_FILE, "r") as f:
         trades = json.load(f)
-    return trades[-1] if trades else None
-
+    return trades[-1] if trades else None:
+:
 
 def master_autonomy_loop():
     print("[PTM Autonomy] 🔁 Starting master autonomy loop...")

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we would need to use Python libraries like pandas for data analysis and manipulation, numpy for numerical computations, matplotlib for data visualization, and sklearn for machine learning. Here's a simple example of how you might use these libraries to analyze market trends and data:
 
 ```python

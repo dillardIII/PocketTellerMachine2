@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ptm_message_relay.py ===
 import json, os, time
 
@@ -27,9 +28,12 @@ def receive_messages(bot_name):
     init_message_bus()
     with open(MSG_FILE, "r") as f:
         data = json.load(f)
-    received = [m for m in data["messages"] if m["to"] == bot_name]
+    received = [m for m in data["messages"] if m["to"] == bot_name]:
     # Optional: clear messages once received
-    data["messages"] = [m for m in data["messages"] if m["to"] != bot_name]
+    data["messages"] = [m for m in data["messages"] if m["to"] != bot_name]:
     with open(MSG_FILE, "w") as f:
         json.dump(data, f, indent=2)
     return received
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

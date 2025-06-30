@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 from flask import Flask, request, jsonify
@@ -57,3 +58,6 @@ def status():
 if __name__ == "__main__":
     print("[Voice API] Listening on port 7070...")
     app.run(host="0.0.0.0", port=7070, debug=True)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

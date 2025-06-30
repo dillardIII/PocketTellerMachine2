@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code snippet that simulates a trade. For this example, I'll use a fictional stock trading API.
 
 ```python

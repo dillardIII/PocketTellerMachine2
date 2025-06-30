@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: canon_mode_lock.py ===
 
 # 🔐 Canon Mode – Locks current working files as "known good" state
@@ -37,3 +38,6 @@ if __name__ == "__main__":
         "mission_generator.py", "ghostmind_core.py"
     ]
     lock_canon(files_to_lock)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

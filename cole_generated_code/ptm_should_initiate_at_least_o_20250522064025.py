@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code snippet that could be used to initiate a trade. This code assumes that you have a function called `evaluate_strategy` which determines the effectiveness of the current strategy.
 
 ```python

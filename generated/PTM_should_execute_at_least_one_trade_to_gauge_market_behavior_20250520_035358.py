@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # PTM should execute at least one trade to gauge market behavior
 # 
 

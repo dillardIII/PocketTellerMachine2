@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: wallet_sync_engine.py ===
 
 import json
@@ -25,3 +26,6 @@ class WalletSyncEngine:
             print("[WalletSyncEngine] ✅ Wallets synced and saved to snapshot.")
         except Exception as e:
             print(f"[WalletSyncEngine] ❌ Failed to save snapshot: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

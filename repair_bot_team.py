@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: repair_bot_team.py ===
 # Autonomous repair team for AI-driven file diagnostics
 
@@ -47,3 +48,6 @@ def auto_patch(file_path, error_list):
     else:
         print(f"[RepairBot] ⚠️ No fixes applied for {file_path}")
         return {"status": "unchanged", "reason": "no_applicable_fixes"}
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

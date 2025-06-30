@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # auto_fixer_bot.py
 # This bot auto-detects broken code, suggests corrections, and applies fixes.
 
@@ -42,11 +43,14 @@ class AutoFixerBot:
         return f"FIX PATCH GENERATED:\n{fix_patch}"
 
     def last_error(self):
-        return self.error_log[-1] if self.error_log else "No errors recorded."
-
+        return self.error_log[-1] if self.error_log else "No errors recorded.":
+:
 # Example use
 if __name__ == "__main__":
     bot = AutoFixerBot()
     print(bot.set_language("python"))
-    broken = "def test()\n  print('hi')"
+    broken = "def test():
     print(bot.diagnose(broken))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

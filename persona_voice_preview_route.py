@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: persona_voice_preview_route.py ===
 
 from flask import Blueprint, request, jsonify, send_from_directory
@@ -18,5 +19,8 @@ def list_voice_previews():
     if not os.path.exists(VOICE_FOLDER):
         return jsonify([])
 
-    files = [f for f in os.listdir(VOICE_FOLDER) if f.endswith(".mp3")]
+    files = [f for f in os.listdir(VOICE_FOLDER) if f.endswith(".mp3")]:
     return jsonify(files)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

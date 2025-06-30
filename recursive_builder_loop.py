@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # recursive_builder_loop.py
 # Continuously evolves PTM by triggering recursive GhostForge module generation
 
@@ -26,3 +27,6 @@ if __name__ == "__main__":
     while True:
         evolve_cycle()
         time.sleep(LOOP_INTERVAL)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

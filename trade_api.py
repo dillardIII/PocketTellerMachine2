@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: trade_api.py ===
 # 💰 Trade API – Endpoint to simulate or execute trades
 
@@ -25,3 +26,6 @@ def execute_trade():
     }
 
     return jsonify(result), 200
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

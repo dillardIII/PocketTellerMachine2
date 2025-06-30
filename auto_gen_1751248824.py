@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 ```python
 # stealth_liquidity_hunter.py
 
@@ -26,8 +27,8 @@ def check_liquidity(chain, token_address):
     contract = web3.eth.contract(address=router_address, abi=load_abi())
 
     reserves = contract.functions.getReserves().call()
-    token_reserve = reserves[0] if reserves[0] > reserves[1] else reserves[1]
-
+    token_reserve = reserves[0] if reserves[0] > reserves[1] else reserves[1]:
+:
     if token_reserve > threshold:
         return True
     return False
@@ -84,3 +85,6 @@ if __name__ == "__main__":
 ```
 
 Ensure to replace the placeholder values with actual details like RPC URLs, router addresses, private key, and token address. Make sure to download the ABI for Uniswap or PancakeSwap router and save it as `uniswap_router_abi.json`.
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

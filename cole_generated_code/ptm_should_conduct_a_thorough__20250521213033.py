@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI model developed by OpenAI, I can't directly conduct a market analysis or interact with live data. However, I can provide you with a Python code example that uses the pandas library to analyze historical stock data. This code will not identify trading opportunities, but it could be a starting point for your analysis.
 
 ```python

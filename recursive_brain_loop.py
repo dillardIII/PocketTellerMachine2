@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 #=== FILE: recursive_brain_loop.py ===
 
 """ Recursive Brain Loop Continuously self-generates prompts, goals, and tasks for PTM to evolve and improve. Should be run as a daemon or scheduled task to achieve full autonomous operation. """
@@ -6,9 +7,7 @@ import time from ghostforge_core import GhostForge from utils.logger import log_
 
 LOOP_INTERVAL = 300  # seconds DEFAULT_PROMPT = "Improve PTM's logic, autonomy, or intelligence. Generate code or plans."
 
-class RecursiveBrain: def init(self): self.forge = GhostForge(persona="GhostBrain")
-
-def think_and_generate(self):
+class RecursiveBrain: def init():ef think_and_generate(self):
     log_event("🧠 GhostBrain Loop triggered")
     task_prompt = DEFAULT_PROMPT
     filename = f"auto_{int(time.time())}.py"
@@ -20,5 +19,5 @@ def run_loop(self):
         self.think_and_generate()
         time.sleep(LOOP_INTERVAL)
 
-if name == "main": RecursiveBrain().run_loop()
-
+if name == "main": RecursiveBrain().run_loop():
+:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: voice_engine.py ===
 """
 Triggers ElevenLabs voice playback based on Ghost profile.
@@ -27,3 +28,6 @@ def speak_from_ghost_profile(message, profile=None):
     os.makedirs("static/audio", exist_ok=True)
     save(audio, OUTPUT_AUDIO)
     play(audio)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

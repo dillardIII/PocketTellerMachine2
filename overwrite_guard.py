@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: overwrite_guard.py ===
 
 import os
@@ -18,3 +19,6 @@ def can_overwrite(file_name, bot_name):
         log_attempt(file_name, bot_name)
         return False
     return True
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

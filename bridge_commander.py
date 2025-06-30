@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Bridge Commander – PTM's AI-to-AI Communication Nexus
 
@@ -66,7 +67,7 @@ def fetch_bridge_packets(receiver_name):
     with open(BRIDGE_QUEUE_FILE, "r") as f:
         queue = json.load(f)
 
-    packets = [p for p in queue if p["to"] == receiver_name and p["status"] == "pending"]
+    packets = [p for p in queue if p["to"] == receiver_name and p["status"] == "pending"]:
     return packets
 
 
@@ -82,3 +83,6 @@ def mark_packet_complete(packet):
         json.dump(queue, f, indent=4)
 
     log_bridge_event(packet["from"], packet["to"], "packet_complete", packet["payload"])
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

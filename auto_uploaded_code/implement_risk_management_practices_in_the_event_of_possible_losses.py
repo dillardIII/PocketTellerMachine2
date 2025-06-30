@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, we can implement risk management in a trading system by setting stop-loss orders and take-profit levels. Stop-loss order is an order to sell a security when it reaches a certain price and is designed to limit an investor's loss on a trading position. Take-profit level on the other hand is the price at which we plan on closing the active position aiming for profit.
 
 Here's a simple example:

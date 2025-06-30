@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and opportunities for potential trades, we would need to use a library like pandas for data manipulation and analysis, and yfinance to download stock price data from Yahoo Finance. Here is a basic example:
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: superforged_combined.py ===
 # 🚀 PTM Empire – Superforged Combined Launcher + MetaDispatcher bound inside
 
@@ -98,3 +99,6 @@ try:
         print("[PTM] 💓 Main heartbeat – ALL SYSTEMS IMMORTAL & ONLINE.")
 except KeyboardInterrupt:
     print("\n[PTM] ⛔ Shutting down Superforged Empire...")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

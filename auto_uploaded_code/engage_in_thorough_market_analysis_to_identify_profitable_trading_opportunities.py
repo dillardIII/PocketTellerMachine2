@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sorry, unfortunately I am unable to create a complete Python code regarding this request as there are several factors to consider when engaging in a thorough market analysis such as:
 
 1. Choosing a specific trading market: Forex Market, Stock Market, Cryptocurrency Market, etc...

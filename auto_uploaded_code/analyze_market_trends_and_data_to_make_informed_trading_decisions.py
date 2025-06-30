@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and data, we can use libraries like pandas for data manipulation and matplotlib for data visualization. 
 
 Here's a simple example of how you might analyze stock data:

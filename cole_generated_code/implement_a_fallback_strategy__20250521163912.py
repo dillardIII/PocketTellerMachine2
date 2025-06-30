@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure. Here's a simple Python code using a function to simulate backtest results. Here we are assuming that the variable `backtest_results` is a dictionary which would contain results if backtest was successful:
 
 ```python

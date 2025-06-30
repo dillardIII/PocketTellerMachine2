@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To design a new Python module for the PTM (Perpetually Transforming Module) empire's self-evolving autonomy stack, we need to consider the core functionalities that enable recursive strategy deployment. Below is an outline and basic implementation of a Python module to serve this purpose. This module will focus on recursive problem-solving and self-improvement.
 
 ### Key Components

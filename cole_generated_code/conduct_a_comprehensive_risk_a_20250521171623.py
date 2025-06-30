@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Completing a comprehensive risk assessment in trading involves various steps. We need to examine different types of risks such as market risk, credit risk, and operational risk, and they can be assessed using various metrics such as Value at Risk (VaR), Conditional Value at Risk (CVaR), and stress testing.
 
 However, here I am giving you a simple example of how to calculate VaR (Value at Risk) using Python. VaR gives a measure of how much we can expect to lose for a given level of confidence:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code that uses the Modern Portfolio Theory (MPT) to diversify a portfolio. This code uses the pandas and yfinance libraries to get historical data, numpy to perform numerical calculations, and matplotlib to plot the efficient frontier.
 
 Please note that this is a simple example and real portfolio diversification involves more complex analysis and considerations.

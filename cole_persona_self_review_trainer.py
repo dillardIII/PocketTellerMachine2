@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_persona_self_review_trainer.py
 
 import os
@@ -53,7 +54,7 @@ def persona_self_review(trades):
 
     # Logging each persona self-review
     for persona, stats in reviews.items():
-        win_rate = (stats["wins"] / stats["total"]) * 100 if stats["total"] > 0 else 0
+        win_rate = (stats["wins"] / stats["total"]) * 100 if stats["total"] > 0 else 0:
         log_self_review(f"[SELF REVIEW]: {persona} - Total Trades: {stats['total']} | Wins: {stats['wins']} | Losses: {stats['losses']} | Win Rate: {win_rate:.2f}%")
 
 # === Main Daemon Loop ===
@@ -72,3 +73,6 @@ def persona_self_review_loop():
 
 if __name__ == "__main__":
     persona_self_review_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

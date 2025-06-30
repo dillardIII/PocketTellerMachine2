@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: whisper_voice_trigger.py ===
 
 # 🎤 Whisper Voice Trigger – Listens for trigger phrases to execute commands
@@ -21,3 +22,6 @@ def listen_for_trigger(trigger_phrase="run strategy"):
                 f.write("run_strategy: RSI_Bounce")
     except Exception as e:
         print(f"[WhisperTrigger] ❌ Recognition failed: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

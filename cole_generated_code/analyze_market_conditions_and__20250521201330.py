@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI, I can't analyze real-time market conditions. However, I can provide you with a Python code that simulates the process of analyzing market conditions and adjusting trading parameters. 
 
 In a real-life scenario, you would need to use APIs provided by your trading platform to get market data, and machine learning algorithms to analyze that data and adjust trading parameters.

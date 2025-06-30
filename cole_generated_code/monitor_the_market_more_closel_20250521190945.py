@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide you with a simple Python script that uses the yfinance library to monitor the market. This script will fetch the latest data for a specific stock and print it out. Please note that this is a very basic example and real trading algorithms are much more complex and take into account many more factors.
 
 ```python

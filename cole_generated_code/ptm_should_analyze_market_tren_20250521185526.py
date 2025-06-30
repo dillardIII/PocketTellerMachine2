@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python program that can analyze market trends and patterns is a complex task that involves a lot of data analysis and potentially machine learning. Here is a very basic example of how you might start to approach this problem using Python and pandas, a popular data analysis library.
 
 This example assumes that you have historical market data in a CSV file with columns for 'Date', 'Open', 'High', 'Low', 'Close', and 'Volume'.

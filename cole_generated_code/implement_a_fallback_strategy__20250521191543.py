@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help with that. However, I need to know what you want to do when no backtest results are found. Do you want to return a default value, raise an exception, or something else? Here's a simple example of how you might structure your code to handle this situation:
 
 ```python

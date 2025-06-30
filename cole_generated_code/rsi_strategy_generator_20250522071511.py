@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code to generate a RSI (Relative Strength Index) strategy. This strategy is used in technical analysis in trading to measure the speed and change of price movements.
 
 ```python

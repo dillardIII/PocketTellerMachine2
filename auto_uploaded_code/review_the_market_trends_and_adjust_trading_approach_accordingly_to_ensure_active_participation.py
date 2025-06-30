@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI, I can't review market trends in real time. However, I can provide you with a Python script that uses a hypothetical data set to adjust a trading approach based on market trends. This script will use a simple moving average strategy, which is a common technical analysis tool used to smooth out price trends by filtering out the "noise" from random short-term price fluctuations.
 
 ```python

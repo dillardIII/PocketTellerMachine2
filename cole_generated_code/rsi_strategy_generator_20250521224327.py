@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple implementation of RSI (Relative Strength Index) strategy generator in Python using the `pandas` and `yfinance` libraries:
 
 ```python

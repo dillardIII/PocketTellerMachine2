@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 📜 System Manifest – Central registry of all PTM components and services
 
 import json
@@ -50,3 +51,6 @@ if __name__ == "__main__":
     manifest = load_manifest()
     print("[Manifest] ✅ Loaded system manifest:")
     print(json.dumps(manifest, indent=2))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

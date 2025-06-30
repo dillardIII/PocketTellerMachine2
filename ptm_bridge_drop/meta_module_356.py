@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presumably some form of Pattern-Tracking Machine) empire's self-evolving autonomy stack involves several key components. The purpose of this module is to enhance the machine's ability to autonomously learn, adapt, and optimize its performance through recursive strategies.
 
 Here's a conceptual design of the module:

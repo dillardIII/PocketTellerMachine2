@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: vault_autosync.py ===
 
 # 🔐 Vault AutoSync – Keeps vault data synced across devices or cloud
@@ -14,3 +15,6 @@ def sync_vault(destination_folder="vault_backup"):
         print(f"[VaultAutoSync] 🔄 Vault snapshot saved: vault_{timestamp}")
     except Exception as e:
         print(f"[VaultAutoSync] ❌ Sync failed: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

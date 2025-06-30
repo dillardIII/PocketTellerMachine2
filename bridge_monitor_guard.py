@@ -1,7 +1,8 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_monitor_guard.py ===
 
-# 🛡️ Bridge Monitor Guard – Ensures the syncer and drop agent stay running, restarts if needed
-
+# 🛡️ Bridge Monitor Guard – Ensures the syncer and drop agent stay running, restarts if needed:
+:
 import threading
 import time
 import traceback
@@ -46,3 +47,6 @@ class BridgeMonitorGuard:
                 self.drop_thread = threading.Thread(target=self._run_dropper, daemon=True)
                 self.drop_thread.start()
             time.sleep(10)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

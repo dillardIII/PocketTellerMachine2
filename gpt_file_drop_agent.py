@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: gpt_file_drop_agent.py ===
 
 # 🚀 GPT File Drop Agent – Automatically moves files from GPT-gen folder to bridge
@@ -37,3 +38,6 @@ class GPTFileDropAgent:
             except Exception as e:
                 print(f"[GPT Drop Agent] ❌ Error during drop: {e}")
             time.sleep(self.check_interval)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

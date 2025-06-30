@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a basic example of how you could implement a Python trading bot that analyzes market trends and adjusts its trading approach accordingly. This example uses the `yfinance` library to get stock data, `pandas` to analyze the data, and `numpy` for calculations. 
 
 Please note that this is a very basic example and real-world trading bots are much more complex. This bot only considers the moving average of the stock price to make decisions, but you could add more indicators like RSI, MACD, etc.

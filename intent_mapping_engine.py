@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # intent_mapping_engine.py
 # Maps AI assistant intents to specific system modules or actions
 
@@ -24,3 +25,6 @@ class IntentMapper:
         Returns a list of all supported intents for routing/debugging.
         """
         return list(self.intent_routes.keys())
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

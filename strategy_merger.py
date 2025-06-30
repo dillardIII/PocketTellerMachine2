@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: strategy_merger.py ===
 import os
 import re
@@ -53,7 +54,7 @@ def run_strategy_merger(thread_file):
         code = load_strategy_code(tag, thread["thread_id"])
         if not code:
             continue
-        body = [line for line in code if "def run_strategy" not in line and "import" not in line]
+        body = [line for line in code if "def run_strategy" not in line and "import" not in line]:
         code_blocks.append(body)
 
     if not code_blocks:
@@ -69,3 +70,6 @@ def run_strategy_merger(thread_file):
 
     print(f"[MERGER] Created hybrid strategy: {new_name}")
     return new_path
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

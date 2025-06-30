@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code to implement a trading strategy. In this example, we'll use a basic strategy of diversifying the portfolio by investing in different sectors. We'll use the `yfinance` library to get the stock data. Please note that this is a very basic example and real-world trading strategies can be much more complex.
 
 ```python

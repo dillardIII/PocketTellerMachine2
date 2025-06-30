@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and apply a trading strategy, we need to use some financial libraries in Python such as pandas, numpy, and yfinance. Here is a simple example of a trading strategy using Moving Average Crossover, which is a common trading strategy.
 
 ```python

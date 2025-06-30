@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to develop and implement a variety of trading strategies, we need to have a clear understanding of the financial market and the data we are dealing with. Here's a simple Python code that uses the pandas library to handle financial data and implement simple trading strategies.
 
 ```python

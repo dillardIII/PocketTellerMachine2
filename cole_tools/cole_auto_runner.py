@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_tools/cole_auto_runner.py ===
 
 # === Main Version Used by Autopilot System ===

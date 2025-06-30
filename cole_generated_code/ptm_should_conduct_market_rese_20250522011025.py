@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of how you might use Python to conduct market research. This example uses the yfinance library to download stock data and pandas to analyze it. 
 
 Please note that identifying potential winning trades involves complex algorithms and deep understanding of the market. This is a very basic example and should not be used for actual trading.

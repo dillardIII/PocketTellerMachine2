@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python program to analyze market trends and identify potential trading opportunities is a complex task that requires knowledge of financial markets, data analysis, and machine learning. Here's a simplified example of how you might start building such a program using pandas for data manipulation and analysis, yfinance to download historical market data from Yahoo Finance, and sklearn to create a simple predictive model.
 
 Please note that this is a very basic example and real-world financial market prediction is a much more complex task that requires advanced machine learning models, consideration of many more factors, and careful risk management.

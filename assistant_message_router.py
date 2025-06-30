@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: assistant_message_router.py ===
 """
 Assistant Message Router:
@@ -47,3 +48,6 @@ if __name__ == "__main__":
     route_bot_tasks("Mentor")
     route_bot_tasks("MoCash")
     route_bot_tasks("Strategist")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

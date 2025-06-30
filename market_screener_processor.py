@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 
@@ -40,8 +41,8 @@ def apply_filters(stocks, filters):
 
         return True
 
-    return [stock for stock in stocks if passes_filters(stock)]
-
+    return [stock for stock in stocks if passes_filters(stock)]:
+:
 def process_market_screener():
     print("[Market Screener] Processing screener data...")
 
@@ -55,3 +56,6 @@ def process_market_screener():
         json.dump(output, f, indent=2)
 
     print(f"[Market Screener] Screener processed. {len(filtered_stocks)} results saved.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: alliance_task_weaver.py ===
 # 🧵 Alliance Task Weaver – Enables joint code authoring and macro generation across AIs and PTM bots
 

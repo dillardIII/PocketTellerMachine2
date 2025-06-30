@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and patterns to identify potential trading opportunities involves complex data analysis and machine learning algorithms. Here's a simple Python code using pandas and yfinance to download historical data, calculate simple moving averages and identify potential trading opportunities based on crossover strategy.
 
 Please note that this is a very basic strategy and real-world trading involves more complex strategies and risk management.

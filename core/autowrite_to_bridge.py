@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # autowrite_to_bridge.py
 # Writes interpreted code into the bridge inbox
 

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple example of how you might adjust trading parameters based on market conditions. This code assumes you have a way to measure market volatility and that you adjust your trading volume based on this volatility. 
 
 Please note that this is a simplified example and real trading algorithms can be very complex and take into account many different factors.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I will provide a simple example of a trading strategy using Python. We will use the Moving Average Crossover strategy. This strategy is one of the most commonly used strategies in the trading world. It's based on the principle of buying a security when its short-term moving average crosses above its long-term moving average, and selling the security when its short-term moving average crosses below its long-term moving average.
 
 Firstly, we need to install the necessary libraries. You can do this by running the following commands in your terminal:

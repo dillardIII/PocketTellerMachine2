@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: reflex_feedback_loop.py ===
 
 # 🧠 Reflex Feedback Loop – Monitors trade results and evolves decision weights accordingly
@@ -18,12 +19,12 @@ def monitor_and_adapt(log_path="vault/trade_log.json", strategy_path="strategies
         with open(log_path, "r") as f:
             trade_data = json.load(f)
 
-        wins = [t for t in trade_data if t.get("outcome") == "win"]
-        losses = [t for t in trade_data if t.get("outcome") == "loss"]
-
+        wins = [t for t in trade_data if t.get("outcome") == "win"]:
+        losses = [t for t in trade_data if t.get("outcome") == "loss"]:
+:
         print(f"[ReflexFeedback] ✅ Wins: {len(wins)} | ❌ Losses: {len(losses)}")
 
-        # Trigger strategy evolution if too many losses
+        # Trigger strategy evolution if too many losses:
         if len(losses) > len(wins):
             print("[ReflexFeedback] ⚠️ More losses than wins – evolving strategy...")
             with open(strategy_path, "r") as s:
@@ -42,3 +43,6 @@ def monitor_and_adapt(log_path="vault/trade_log.json", strategy_path="strategies
 
     except Exception as e:
         print(f"[ReflexFeedback] ❌ Feedback loop failed: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

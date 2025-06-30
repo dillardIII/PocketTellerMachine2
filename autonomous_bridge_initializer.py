@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # autonomous_bridge_initializer.py – Creates missing cloud, device, and AI mesh bridges
 
 import time
@@ -34,3 +35,6 @@ class AutonomousBridgeInitializer:
 if __name__ == "__main__":
     initializer = AutonomousBridgeInitializer()
     initializer.initialize_all()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

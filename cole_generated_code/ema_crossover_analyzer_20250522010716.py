@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help you with that. Here's a simple implementation of an EMA crossover analyzer in Python using the `pandas` library. 
 
 ```python

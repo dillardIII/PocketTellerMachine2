@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🛡️ Ghost Safety Net – Emergency fallback and safe state handler for PTM
 
 import os

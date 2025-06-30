@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and identify potential trading opportunities, we can use Python libraries such as pandas for data manipulation, yfinance to download the stock data, and matplotlib for data visualization. Here is a simple Python script that uses Moving Average Convergence Divergence (MACD) to identify potential trading opportunities. 
 
 Please note that this is a very basic form of analysis and real-world trading systems are much more complex and take into account many more factors.

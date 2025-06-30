@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_config.py ===
 
 # 🧠 Bridge Configuration – Shared constants for bridge file sync system
@@ -31,3 +32,6 @@ BRIDGE_CONFIG = {
     "sync_interval_sec": REPLIT_SCAN_INTERVAL_SECONDS,
     "allow_overwrite": True
 }
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

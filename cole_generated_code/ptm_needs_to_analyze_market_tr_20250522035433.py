@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, to analyze market trends, we can use Python's pandas library to handle data and matplotlib to visualize it. Here's a simple example of how you might do this:
 
 ```python

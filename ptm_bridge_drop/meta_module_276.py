@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (we'll call it "Path to Mastery") empire's self-evolving autonomy stack involves creating a sophisticated architecture. Here’s a high-level outline and some examples of how you might achieve this with innovative recursive strategies.
 
 ### Module Name

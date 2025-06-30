@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to evaluate the risk management strategies for trading, we might need several functions and data such as the historical data, volatility, Value at Risk (VaR), etc. Following is the basic example of Python code to calculate some risk indicators.
 
 Please replace `df` with your actual dataset:

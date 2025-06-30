@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: voice_repair_reporter.py ===
 # 🎤 PTM Voice Repair Reporter – Narrates repair actions
 
@@ -5,7 +6,7 @@ import os
 import datetime
 from datetime import datetime as dt
 
-# Optional: GPT voice system if present
+# Optional: GPT voice system if present:
 try:
     from gpt_voice_bridge import speak_gpt_response
 except ImportError:
@@ -66,3 +67,6 @@ def fallback_generate_voice_report(file_path, context, deploy_result):
 # === 🗣️ LIGHTWEIGHT CONSOLE-ONLY FOR BASIC RUNS ===
 def simple_console_voice_report(file_path, context, deploy_status):
     print(f"[VoiceReport] 🎙️ {context} on {file_path} – Status: {deploy_status}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

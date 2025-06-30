@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To increase the number of trades PTM engages in, we can create a Python script that uses a simple trading strategy. This strategy will buy when the price is low and sell when the price is high.
 
 Here's a simple Python code that uses a hypothetical trading API to implement this strategy:

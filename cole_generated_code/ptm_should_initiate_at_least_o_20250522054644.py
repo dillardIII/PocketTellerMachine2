@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to initiate a trade, we first need to have a trading platform or a broker. Here, I'll use a python library called `alpaca-trade-api` which is a REST API provided by the Alpaca platform for trading. Please make sure to replace `APCA-API-KEY-ID` and `APCA-API-SECRET-KEY` with your actual API keys.
 
 ```python

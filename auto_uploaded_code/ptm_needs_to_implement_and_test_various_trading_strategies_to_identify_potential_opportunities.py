@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a basic structure for a trading strategy using Python. However, please note that this is a simplified version and actual trading strategies can be very complex and require a deep understanding of financial markets.
 
 ```python

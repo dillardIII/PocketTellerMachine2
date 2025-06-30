@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import openai
 import json
@@ -214,3 +215,6 @@ def write_module(task_description):
         "assistant_feedback": cole_message,
         "voice_file": voice_path
     }
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

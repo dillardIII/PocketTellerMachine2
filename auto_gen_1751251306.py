@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 ```python
 # propaganda_generator.py
 
@@ -52,3 +53,7 @@ if __name__ == "__main__":
     print("Vault Propaganda: ", vault_propaganda)
     print("Trade Propaganda: ", trade_propaganda)
 ```
+
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

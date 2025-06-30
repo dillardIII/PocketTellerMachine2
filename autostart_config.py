@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: autostart_config.py ===
 
 # 🚀 AutoStart Config – Initializes core modules when PTM boots
@@ -29,3 +30,6 @@ def boot_all_systems():
     start_exec_engine()
 
     monitor_and_adapt()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

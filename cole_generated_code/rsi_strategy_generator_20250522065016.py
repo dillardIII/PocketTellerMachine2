@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple implementation of a Relative Strength Index (RSI) strategy generator in Python. This code will calculate the RSI for a given stock price data and generate a trading strategy based on it.
 
 ```python

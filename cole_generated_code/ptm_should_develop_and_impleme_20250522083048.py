@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI model, I can provide you with a few basic examples of trading strategies implemented in Python. However, please note that these are simplified examples and real-world trading strategies would require a more comprehensive approach, including data analysis, risk management, and possibly machine learning algorithms.
 
 1. Simple Moving Average Crossover Strategy:

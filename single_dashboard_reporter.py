@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: single_dashboard_reporter.py ===
 # 🧭 PTM Single Dashboard Reporter
 # Prints thread status to console and writes to PTMHealth.json simultaneously.
@@ -41,3 +42,6 @@ def dashboard_reporter():
 
 if __name__ == "__main__":
     dashboard_reporter()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

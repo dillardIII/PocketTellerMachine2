@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: autostart_launcher.py ===
 
 # 🚀 AutoStart Launcher – Boots all PTM systems: bots, reflex, filegen, autowriter
@@ -74,3 +75,6 @@ while True:
     except KeyboardInterrupt:
         print("\n[AutoStart] ⛔ Exiting PTM bots.")
         break
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

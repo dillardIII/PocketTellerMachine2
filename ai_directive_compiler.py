@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # ai_directive_compiler.py – Interprets high-level mission instructions and turns them into AI commands and task scripts
 
 import json
@@ -39,5 +40,8 @@ class AIDirectiveCompiler:
 
 if __name__ == "__main__":
     compiler = AIDirectiveCompiler()
-    compiler.interpret_directive("Scan system, deploy bots, and repair bridge if needed. Then connect_vps.")
+    compiler.interpret_directive("Scan system, deploy bots, and repair bridge if needed. Then connect_vps."):
     compiler.execute_tasks()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

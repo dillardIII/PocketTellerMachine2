@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from flask import Flask, request, jsonify
 from datetime import datetime
 import os
@@ -98,3 +99,6 @@ def cole_loop():
 # === Run API Bridge ===
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=6060, debug=True)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

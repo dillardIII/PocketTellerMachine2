@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we would need access to a database or a file containing the past trades data. However, I can give you a simple example of how you could analyze a CSV file containing past trades data using Python and Pandas library.
 
 ```python

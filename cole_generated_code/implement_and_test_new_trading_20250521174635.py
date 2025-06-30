@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Below, I will be considering a very simple trading strategy named "Moving Average Crossover", which is commonly used in algorithmic trading. Please note that this strategy operates on the basis of historical data and does not guarantee future performance. It's recommended to use it in conjunction with other strategies and tools to determine optimal trading decisions.
 
 Assumptions:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🚀 Business Autopilot – Builds, iterates, funds, launches businesses automatically.
 
 import os
@@ -45,3 +46,6 @@ def evolve_business():
 if __name__ == "__main__":
     create_business("WalletRecoveryCo")
     evolve_business()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

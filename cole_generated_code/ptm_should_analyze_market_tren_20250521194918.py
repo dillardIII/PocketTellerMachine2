@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and opportunities, we would need historical data of the market. This data can be obtained from various sources like Yahoo Finance, Google Finance, etc. Here is a simple Python code using pandas, yfinance (to download stock price data from Yahoo Finance), and matplotlib (for visualization). 
 
 This code calculates the moving averages for a particular stock, which is a common indicator used in trend analysis. Please note that this is a very basic form of analysis and real-world trading algorithms are much more complex and take many more factors into account.

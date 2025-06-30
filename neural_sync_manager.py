@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: neural_sync_manager.py ===
 # 🧠 Neural Sync Manager – Device and sensory fusion across your ecosystem
 

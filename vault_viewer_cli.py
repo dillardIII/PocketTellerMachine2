@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: vault_viewer_cli.py ===
 
 # 📘 Vault Logbook Viewer (CLI only) – Reads vault log activity
@@ -18,3 +19,6 @@ def show_vault_logbook():
 
 if __name__ == "__main__":
     show_vault_logbook()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

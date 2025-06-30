@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import time
 import json
@@ -85,7 +86,7 @@ if __name__ == "__main__":
     # Real Daemon Loop
     trade_review_daemon_loop()
 
-    # Simulated fallback loop (uncomment if you want to run in test mode)
+    # Simulated fallback loop (uncomment if you want to run in test mode):
     # while True:
     #     print("[Daemon]: Trade Review Generator running... (simulated)")
     #     # Evaluate and generate trade reviews

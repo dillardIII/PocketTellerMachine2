@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python module to enhance the PTM (Presumably "Part-Time Manager" or some other entity) empire's self-evolving autonomy stack involves leveraging advanced algorithms, recursive strategies, and potentially the use of AI and ML components to ensure seamless growth and adaptation. Here's a conceptual outline, along with a simple implementation:
 
 ### Module: `autonomy`

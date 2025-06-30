@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module for PTM (which stands for a hypothetical entity, "Predict, Transform, and Manage") that focuses on expanding a self-evolving autonomy stack is an exciting and ambitious task. The goal is to create a module that allows the system to self-improve using recursive strategies.
 
 Let's break down the components and features we might include:

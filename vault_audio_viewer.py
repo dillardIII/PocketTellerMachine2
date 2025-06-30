@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🎧 Vault Audio Viewer – Auto-plays new audio files added to the vault
 
 import os

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to enhance the self-evolving autonomy stack for the PTM empire involves incorporating cutting-edge recursive strategies. Let's construct a high-level design incorporating various advanced concepts such as machine learning algorithms, artificial intelligence, and recursive optimization. This module will focus on adaptability, efficiency, and continuous improvement.
 
 ### Key Components of the Module

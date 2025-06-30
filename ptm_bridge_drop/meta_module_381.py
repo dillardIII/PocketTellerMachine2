@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to enhance the PTM (Presumably, "Potential Theoretical Model" or similar) empire's self-evolving autonomy stack involves leveraging advanced algorithms and techniques that facilitate self-improvement, decision-making, and adaptability. The focus will be on recursive strategies, which are essential for implementing self-evolving capabilities. Below is a conceptual outline and a simple example to guide you in building such a module:
 
 ### Key Objectives:

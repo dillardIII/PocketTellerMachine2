@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To diversify PTM's strategies, we could introduce a few different trading strategies such as Mean Reversion, Momentum Trading, and Breakout Trading. Here's a simple Python code for these strategies:
 
 ```python

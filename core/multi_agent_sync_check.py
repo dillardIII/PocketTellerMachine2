@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Multi-Agent Sync Checker:
 This module verifies that each assistant bot has synced properly

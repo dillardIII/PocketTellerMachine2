@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is some illustrative Python code that represents our goal of active participation in the market and avoiding zero trades. This code creates a simple trading bot using an API of a fictional trading platform for the sake of this example.
 
 ```python

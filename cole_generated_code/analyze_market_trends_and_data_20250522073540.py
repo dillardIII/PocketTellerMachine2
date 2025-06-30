@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and data, we would typically use libraries like pandas for data manipulation, numpy for numerical computation, matplotlib for data visualization, and sklearn for machine learning. However, it's important to note that identifying potential trading opportunities involves complex algorithms and significant domain knowledge. Here is a simple example of how you might start to analyze a stock's closing prices using Python:
 
 ```python

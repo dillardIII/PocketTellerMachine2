@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: neural_layer_map.py ===
 # 🧠 Neural Layer Map – Tracks layers of PTM AI cognition for recursive evolution simulation
 
@@ -17,3 +18,6 @@ class NeuralLayerMap:
 
     def all_layers(self):
         return self.layers
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

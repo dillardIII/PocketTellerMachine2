@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and adjusting trading parameters is a complex task that involves machine learning, statistical analysis, and financial knowledge. Here is a simplified example of how you might approach this in Python using pandas for data manipulation and sklearn for machine learning.
 
 ```python

@@ -1,9 +1,10 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: diff_viewer.py ===
 # Code Diff Viewer – Highlights changes between old and new code
 
 import difflib
 
-def generate_diff_html(before_code: str, after_code: str, file_name="file.py") -> str:
+def generate_diff_html():> str:
     differ = difflib.HtmlDiff(wrapcolumn=80)
     diff_html = differ.make_file(
         before_code.splitlines(), 
@@ -13,7 +14,7 @@ def generate_diff_html(before_code: str, after_code: str, file_name="file.py") -
     )
     return diff_html
 
-def save_diff_report(before_code: str, after_code: str, file_name: str) -> str:
+def save_diff_report():> str:
     html = generate_diff_html(before_code, after_code, file_name)
     output_path = f"logs/diffs/{file_name.replace('/', '_')}_diff.html"
 
@@ -21,3 +22,6 @@ def save_diff_report(before_code: str, after_code: str, file_name: str) -> str:
         f.write(html)
 
     return output_path
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

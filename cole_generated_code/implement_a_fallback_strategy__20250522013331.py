@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I'll write a Python function that simulates a trading backtest and implements a fallback strategy when no backtest results are found. In this case, the fallback strategy will be a simple print statement, but in a real-world scenario, it could be any action you want to take when no backtest results are found.
 
 ```python

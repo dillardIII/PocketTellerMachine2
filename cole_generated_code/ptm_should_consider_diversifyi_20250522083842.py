@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To diversify a portfolio, you would need to spread your investments across different asset classes such as stocks, bonds, commodities, real estate, etc. However, writing Python code for this task would require specific data about the current portfolio, the risk tolerance, the investment goals, and the market conditions. 
 
 Here is a simple example of how you might start to diversify a portfolio using Python. This code uses the pandas library to create a DataFrame representing a portfolio, and then calculates the percentage of the portfolio's total value that each asset represents. 

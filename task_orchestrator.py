@@ -1,69 +1,42 @@
-# task_orchestrator.py
-# Purpose: Orchestrate recursive tasks across AI subsystems (GhostForge, Architect, Schedulers)
-# Triggered by personas, macro commands, moods, or risk states
+# === task_orchestrator.py ===
+# 🎯 Task Orchestrator
+# Generates advanced JSON build orders that create full Python modules.
+# Drops them into ./bridge_ready for bridge_pickup_agent to scoop up.
 
 import json
-from datetime import datetime
-from persona_scheduler import PersonaScheduler
-from macro_processor import MacroProcessor
-from ghostforge_core import GhostForge
-from utils.logger import log_event
+import os
+import time
+import random
 
-class TaskOrchestrator:
-    def __init__(self):
-        self.scheduler_personas = ["Mentor", "MoCash", "Strategist", "DrillInstructor"]
-        self.macro_engine = MacroProcessor()
-        self.ghostforge = GhostForge()
-        self.cycle_log_path = "memory/task_orchestration_log.json"
-        self.history = self.load_history()
+BRIDGE_DIR = "./bridge_ready"
 
-    def load_history(self):
-        try:
-            with open(self.cycle_log_path, "r") as f:
-                return json.load(f)
-        except:
-            return []
+def create_task(module_num):
+    new_filename = f"./generated_module_{module_num}.py"
+    new_content = f"# 🎯 Auto-created module {module_num}\n"
+    new_content += f"print('🔥 Module {module_num} online')\n"
+    new_content += f"result = {random.randint(100, 999)}\n"
+    new_content += "print(f'Computed result: {result}')"
 
-    def save_history(self):
-        with open(self.cycle_log_path, "w") as f:
-            json.dump(self.history[-50:], f, indent=2)
+    task_data = {
+        "filename": new_filename,
+        "content": new_content
+    }
 
-    def run_all_personas(self):
-        results = []
-        for name in self.scheduler_personas:
-            scheduler = PersonaScheduler(persona_name=name)
-            result = scheduler.execute_cycle()
-            results.append(result)
-        return results
+    task_file = f"module_task_{module_num}.json"
+    with open(os.path.join(BRIDGE_DIR, task_file), 'w') as f:
+        json.dump(task_data, f)
 
-    def process_macro_commands(self, commands):
-        output = []
-        for command in commands:
-            result = self.macro_engine.process(command)
-            output.append((command, result))
-        return output
+    print(f"[TaskOrchestrator] 🚀 Dropped task: {task_file}")
 
-    def perform_recursive_pass(self, trigger_reason="manual"):
-        log_event("Recursive Pass Initiated", {"trigger": trigger_reason})
-        timestamp = str(datetime.now())
+def main():
+    i = 1
+    while True:
+        create_task(i)
+        i += 1
+        time.sleep(15)  # generate a new module task every 15 seconds
 
-        persona_results = self.run_all_personas()
-        macro_results = self.process_macro_commands(["build risk guardian", "spawn ghost telemetry"])
-
-        cycle = {
-            "timestamp": timestamp,
-            "trigger": trigger_reason,
-            "personas": persona_results,
-            "macros": macro_results
-        }
-
-        self.history.append(cycle)
-        self.save_history()
-
-        return cycle
-
-# === Manual Trigger ===
 if __name__ == "__main__":
-    orchestrator = TaskOrchestrator()
-    results = orchestrator.perform_recursive_pass()
-    print(json.dumps(results, indent=2))
+    main()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

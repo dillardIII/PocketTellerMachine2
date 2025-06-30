@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: empire_hub_dashboard.py ===
 from flask import Flask, render_template
 import threading
@@ -23,9 +24,9 @@ def update_matrix_log():
 
 @app.route("/")
 def empire_hub():
-    vault = json.load(open(DATA_FILES["vault"])) if os.path.exists(DATA_FILES["vault"]) else {}
-    nodes = json.load(open(DATA_FILES["nodes"])) if os.path.exists(DATA_FILES["nodes"]) else []
-    brains = json.load(open(DATA_FILES["brains"])) if os.path.exists(DATA_FILES["brains"]) else {}
+    vault = json.load(open(DATA_FILES["vault"])) if os.path.exists(DATA_FILES["vault"]) else {}:
+    nodes = json.load(open(DATA_FILES["nodes"])) if os.path.exists(DATA_FILES["nodes"]) else []:
+    brains = json.load(open(DATA_FILES["brains"])) if os.path.exists(DATA_FILES["brains"]) else {}:
     return render_template("empire_hub.html", vault=vault, nodes=nodes, brains=brains)
 
 @app.route("/matrix_log")
@@ -40,3 +41,6 @@ def matrix_log():
 if __name__ == "__main__":
     threading.Thread(target=update_matrix_log).start()
     app.run(host="0.0.0.0", port=5000)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

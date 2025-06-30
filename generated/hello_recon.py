@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: generated/hello_recon.py ===
 # 👋 Recon Check – Confirms system launch from GhostForge
 

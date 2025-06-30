@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🚀 HyperInspector.5 – Ultimate Empire State & Integrity Auditor
 # 📜 Scans all modules, logs, vaults, processes, bridge states and prints a massive empire health report.
 
@@ -33,12 +34,12 @@ def scan_files():
     report = {"time": datetime.utcnow().isoformat(), "modules": {}}
     for module in EMPIRE_MODULES:
         exists = os.path.exists(module)
-        checksum = compute_sha256(module) if exists else None
+        checksum = compute_sha256(module) if exists else None:
         report["modules"][module] = {
             "exists": exists,
             "sha256": checksum
         }
-        print(f"{'✅' if exists else '❌'} {module} - {checksum[:10]+'...' if checksum else 'MISSING'}")
+        print(f"{'✅' if exists else '❌'} {module} - {checksum[:10]+'...' if checksum else 'MISSING'}"):
     return report
 
 def scan_logs_and_vault():
@@ -47,7 +48,7 @@ def scan_logs_and_vault():
         for file in files:
             if file.endswith(".log") or file.endswith(".json"):
                 path = os.path.join(root, file)
-                report["logs" if file.endswith(".log") else "vaults"].append(path)
+                report["logs" if file.endswith(".log") else "vaults"].append(path):
     print("\n[HyperInspector.5] 🗄️ Found Logs & Vault files:")
     for l in report["logs"] + report["vaults"]:
         print(f"   - {l}")
@@ -65,3 +66,6 @@ if __name__ == "__main__":
     combined_report = {"status": empire_status, "files": extra_data}
     write_report(combined_report)
     print("\n[HyperInspector.5] ✅ Empire inspection complete.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

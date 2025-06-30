@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, to analyze market trends and adjust trading parameters, we typically need historical market data. We can use libraries like pandas for data manipulation, numpy for numerical computation, matplotlib for data visualization and sklearn for machine learning. Here is a simple example of how you might start:
 
 ```python

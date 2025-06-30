@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help you with that. Here's a simple example of a trading strategy using Python. This strategy is based on a simple moving average (SMA) crossover, which is a common trading strategy.
 
 Please note that this is a very basic strategy and it doesn't take into account transaction costs, slippage, and other factors that could affect the performance of the strategy in live trading.

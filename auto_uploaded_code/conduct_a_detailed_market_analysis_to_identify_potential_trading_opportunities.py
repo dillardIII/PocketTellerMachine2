@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to perform a detailed market analysis, we need to have access to a financial data source. In this case, we will use the `yfinance` library, which allows us to download historical market data from Yahoo Finance.
 
 Here is a simple Python code that uses `yfinance` to download the last 5 years of daily data for the S&P 500 Index and calculates the simple moving average for the last 50 and 200 days. These are common technical indicators used to identify potential trading opportunities.

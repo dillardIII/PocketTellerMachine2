@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: superforged_selfrepair.py ===
 # 🚀 PTM Empire – Superforged Self-Repair Edition (IMMORTAL)
 
@@ -125,3 +126,6 @@ try:
         print("[PTM] 💓 Superforged Self-Repair heartbeat – your empire is IMMORTAL.")
 except KeyboardInterrupt:
     print("\n[PTM] ⛔ Shutting down Superforged Empire...")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

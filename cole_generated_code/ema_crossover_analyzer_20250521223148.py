@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a simple example of an EMA Crossover Analyzer in Python. This script will use pandas to calculate the EMA and matplotlib to plot the data. Please note that you need to have a dataset with historical prices for a specific stock. 
 
 ```python

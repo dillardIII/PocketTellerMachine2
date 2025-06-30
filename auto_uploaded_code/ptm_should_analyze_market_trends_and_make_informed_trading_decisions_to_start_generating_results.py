@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we would need to use a Python library like pandas for data analysis, and another library like yfinance to fetch the market data. We would also need to implement some form of algorithm to analyze the trends and make trading decisions. Here is a basic example of how this could be done:
 
 ```python

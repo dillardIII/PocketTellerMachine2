@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and implement a variety of trading strategies, we need to use a backtesting framework. Backtesting is the process of testing a trading strategy on relevant historical data to ensure its viability before the trader risks any actual capital. A good backtesting framework provides the trader with confidence that the strategy will work in the future.
 
 In Python, there are several libraries available for backtesting such as PyAlgoTrade, bt, Backtrader, Zipline etc. Here, I'll provide a simple example using Backtrader library.

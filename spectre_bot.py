@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 💀 Spectre Bot – PTM's stealth infiltration & asset siphon operative
 # Runs specialized ops like asset scans, quantum traces, and veil deployments.
 
@@ -54,3 +55,6 @@ if __name__ == "__main__":
     while True:
         spectre_random_mission()
         time.sleep(3)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

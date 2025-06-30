@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase14_emotional_spectrum_trainer.py
 
 import json
@@ -50,3 +51,6 @@ if __name__ == "__main__":
     print(adjust_emotion("happy", 10))
     print(adjust_emotion("angry", -20))
     print(reset_emotional_spectrum())
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

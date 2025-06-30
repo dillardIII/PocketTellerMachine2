@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code that simulates a basic trading strategy. This strategy is based on moving averages, a common indicator in technical analysis. The strategy is to buy when the short-term average crosses above the long-term average, and sell when the short-term average crosses below the long-term average.
 
 Please note that this is a very basic strategy and may not necessarily increase the number of trades. More advanced strategies would require complex algorithms and possibly machine learning models.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: autonomy_core.py ===
 # 🧠 Autonomy Core – Activates bridges, agents, monitors, reflex engine, listener, and logs full system self-control
 

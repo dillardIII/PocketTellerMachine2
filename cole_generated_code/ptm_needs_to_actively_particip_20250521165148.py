@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Your task requires a lot of detailed specifications that you haven't provided yet. Trading involves various strategies and approaches which can be quite complex when it comes to coding them. A simple Python code for active trading involves sending buy/sell orders to an exchange, using an algorithmic trading library such as Backtrader.
 
 Here's a simple example of a Python code which uses Backtrader to create a trading bot. In this sample, we'll just make a bot that buys/sells on simple Moving Average Crossover strategy:

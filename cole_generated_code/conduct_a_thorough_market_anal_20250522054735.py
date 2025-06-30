@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Conducting a thorough market analysis involves complex data analysis and machine learning algorithms. Here is a simple example of how you can use Python to analyze stock prices and identify potential trading opportunities. This code uses the `pandas` library to handle data and `yfinance` to download stock price data from Yahoo Finance.
 
 Please note that this is a very basic example and real trading algorithms are much more complex and take into account many more factors.

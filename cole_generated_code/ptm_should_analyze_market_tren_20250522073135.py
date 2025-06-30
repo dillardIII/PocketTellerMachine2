@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple example of how you might use Python to analyze market trends. This code uses the pandas library to analyze historical stock data and calculate the moving average, which is a common indicator used in trend analysis.
 
 Please note that this is a very basic example and real-world trading algorithms are much more complex and take many more factors into account.

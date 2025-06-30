@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To implement and test new trading strategies, we can create a Python class named `TradingStrategy`. This class will have methods to implement and test strategies. Here's a simple example:
 
 ```python

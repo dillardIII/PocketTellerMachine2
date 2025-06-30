@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # og.py — Defines The OG assistant persona
 
 class OG:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate a trade, we need to interact with a trading platform. There are several trading platforms available, each with its own API, such as ETrade, Alpaca, Interactive Brokers, etc. Here is an example of how to initiate a trade using the Alpaca API:
 
 ```python

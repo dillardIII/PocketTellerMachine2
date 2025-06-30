@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: web_control/selenium_navigator.py ===
 
 from selenium import webdriver

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python script to analyze market trends and patterns is a complex task that involves several steps. Here's a simplified example using Python's pandas library to analyze historical stock data. We'll use Yahoo Finance to get the data and matplotlib to visualize the data.
 
 Please note that this is a very basic example and real-world trading algorithms are much more complex and also consider many other factors.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_voice_argument_controller.py ===
 # 👻 GhostVoiceArgumentController – makes ghost voice strategists argue live & obey your volume
 
@@ -44,3 +45,6 @@ def ghost_argument_loop():
 
 if __name__ == "__main__":
     ghost_argument_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

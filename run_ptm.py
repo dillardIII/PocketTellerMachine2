@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: run_ptm.py ===
 # 🚀 PTM Trigger & Execution Loop
 
@@ -15,3 +16,6 @@ def run_ptm_loop():
 
 if __name__ == "__main__":
     run_ptm_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

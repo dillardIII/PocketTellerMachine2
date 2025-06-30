@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Since we cannot directly write Python code to analyze market trends (as it requires APIs and huge databases to get the data and analyze it), here we are providing a general structure of how the code should be. Also, the analysis of market trends is subjective and might require knowledge of Machine Learning and Data Analysis.
 
 Here, we use Pandas library for data handling and manipulation, yfinance library to fetch historical market data, and matplotlib library for chart plotting.

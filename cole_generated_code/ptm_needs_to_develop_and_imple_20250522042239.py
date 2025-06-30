@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of a Python code that implements a basic trading strategy. This strategy is based on a simple moving average (SMA) crossover, which is a common trading strategy. Please note that this is a very basic example and real trading strategies can be much more complex and require thorough backtesting.
 
 ```python

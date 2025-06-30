@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to enhance the PTM (let's assume it stands for "Processing and Task Management") empire's self-evolving autonomy stack involves integrating advanced recursive strategies and innovative machine learning methods. Below is a high-level design of such a module, which we'll call `AutonomyEnhancer`. This module emphasizes scalability, adaptability, and self-improvement over time.
 
 ### AutonomyEnhancer Module Design

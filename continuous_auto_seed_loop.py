@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os, time
 from datetime import datetime
 from openai import OpenAI
@@ -31,3 +32,7 @@ def auto_seed_loop():
 
 if __name__ == "__main__":
     auto_seed_loop()
+
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

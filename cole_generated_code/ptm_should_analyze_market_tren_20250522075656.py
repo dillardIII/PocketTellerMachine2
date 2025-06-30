@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and patterns, we can use various Python libraries such as pandas for data manipulation, numpy for numerical computations, matplotlib for data visualization, and sklearn for machine learning. 
 
 In this task, we'll use a simple moving average strategy, where if the short-term average is above the long-term average, it's a signal to buy, and if it's below, it's a signal to sell.

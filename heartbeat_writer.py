@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: heartbeat_writer.py ===
 # ❤️ Heartbeat Writer – Keeps heartbeat.txt alive for watchdog
 
@@ -17,3 +18,6 @@ def write_heartbeat():
         except Exception as e:
             print(f"[HeartbeatWriter] ❌ Failed to write heartbeat: {e}")
         time.sleep(INTERVAL)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

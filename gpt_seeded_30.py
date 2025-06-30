@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Certainly! Here's a creative Python script that could serve as a utility for managing resources in a strategy game set within an empire. This script will simulate a simplified resource management system where the player can gather resources, allocate them to different sectors, and upgrade their empire's infrastructures. The game will include basic components like population management, resource production, and infrastructure upgrading.
 
 ```python
@@ -97,3 +98,6 @@ if __name__ == "__main__":
 - **Turn Simulation**: The game runs in a loop, allowing players to simulate turns, allocate resources, and manage their empire.
 
 This utility offers a basic framework for a turn-based empire management game. You can expand this script by adding more complexities, such as trading, events, enemy invasions, or diplomatic relations.
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

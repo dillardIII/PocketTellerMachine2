@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a basic Python code that uses the `pandas` library to analyze market trends. This code assumes that you have historical market data in a CSV file. The code reads the data, calculates the moving average and plots it. 
 
 ```python

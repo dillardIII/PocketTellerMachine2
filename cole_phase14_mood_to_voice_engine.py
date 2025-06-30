@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase14_mood_to_voice_engine.py
 
 import json
@@ -44,3 +45,6 @@ if __name__ == "__main__":
     react_to_mood("Mo Cash", "happy_win")
     react_to_mood("Drill Instructor", "frustrated_loss")
     react_to_mood("Mentor", "teaching_moment")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

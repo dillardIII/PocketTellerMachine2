@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate a trade, we can use a Python library called `yfinance` which allows us to interact with the Yahoo Finance API. Here's a simple example of how you might use it to initiate a trade. 
 
 Please note that this is a simulated trade. In reality, you would need to use a broker's API (like Interactive Brokers, Alpaca, etc.) to actually execute trades.

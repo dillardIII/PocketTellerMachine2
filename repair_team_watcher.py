@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: repair_team_watcher.py ===
 # Actively watches for incoming REPO needs and dispatches PTM repairs
 
@@ -71,3 +72,6 @@ def log_repair_action(requests):
 # Optional manual trigger
 if __name__ == "__main__":
     handle_repo_requests()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # ghost_os_autoboot.py
 # Auto-boot manager for Ghost OS and autonomous AI system startup
 
@@ -51,3 +52,6 @@ class GhostOSAutoBoot:
 if __name__ == "__main__":
     ghost = GhostOSAutoBoot()
     ghost.boot_sequence()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

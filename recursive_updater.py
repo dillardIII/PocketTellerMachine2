@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # recursive_updater.py
 # Purpose: Allow PTM to update, replicate, and evolve modules based on internal logic
 
@@ -66,6 +67,6 @@ class RecursiveUpdater:
 if __name__ == "__main__":
     updater = RecursiveUpdater()
     def transform(code):
-        return code.replace("print(", "log_event('print intercepted',");  # silly test
+        return code.replace("print(", "log_event('print(intercepted',");  # silly test)
 
     updater.refactor_module("example_module.py", transform, "Sample refactor injection")

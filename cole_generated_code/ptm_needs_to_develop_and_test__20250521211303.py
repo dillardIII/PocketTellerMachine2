@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can give you a basic example of a trading strategy using Python. This strategy will be a simple moving average crossover strategy. This strategy is used to identify points in time when you might want to buy or sell stocks based on the crossing of two moving averages of different periods.
 
 Here's the Python code:

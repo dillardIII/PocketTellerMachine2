@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_self_committer.py ===
 # 💾 Auto commits & pushes all mutations to GitHub
 
@@ -16,3 +17,6 @@ def auto_commit():
 
 if __name__ == "__main__":
     auto_commit()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a simple example of a Python code that could be used to develop and implement trading strategies. However, please note that this is a very basic example and actual trading strategies can be very complex, involving advanced algorithms and machine learning techniques.
 
 ```python

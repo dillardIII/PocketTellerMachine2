@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🧭 Vault Asset Viewer – Visual UI for assets found in the vault
 
 from flask import Blueprint, render_template_string

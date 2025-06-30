@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_persona_mood_voice_style_adjuster.py
 
 import os
@@ -36,3 +37,6 @@ if __name__ == "__main__":
     for persona in personas:
         voice_style = get_voice_style_for_persona(persona)
         print(f"[VOICE STYLE]: {persona} → {voice_style} style based on mood.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

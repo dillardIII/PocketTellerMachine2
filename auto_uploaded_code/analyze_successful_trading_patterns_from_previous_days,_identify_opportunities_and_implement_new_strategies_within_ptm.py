@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Your task is quite broad and complex, therefore information like the type of data, the strategy you want to implement, etc. are not available.
 
 Here is a simplified example of how you could start using Python to analyze a hypothetical trading dataset from previous days. 

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new Python module to expand the PTM (Presumably referring to Parametric Technology Module, the acronym could vary) empire's self-evolving autonomy stack requires careful planning. We'll incorporate innovative recursive strategies to ensure adaptability and resilience. Below is a high-level design for such a module. Note that the specifics can be modified based on exact project requirements and the existing architecture of the PTM's autonomy stack.
 
 ### Module: `self_evolver`

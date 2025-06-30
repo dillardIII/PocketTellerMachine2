@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: master_watcher.py ===
 # 🧠 Optimized Master Watcher
 # Checks build_queue.json, loads GhostVoids.ctrl.json, executes tasks, logs outcomes, and runs forever.
@@ -51,8 +52,8 @@ def execute_task(task, voices_on, intensity):
     try:
         result = subprocess.run(task, shell=True, capture_output=True, text=True)
         output = result.stdout.strip() or result.stderr.strip()
-        outcome = output if output else "Completed without output."
-
+        outcome = output if output else "Completed without output.":
+:
         if voices_on:
             speak(f"Executed: {task}", intensity)
 
@@ -78,3 +79,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

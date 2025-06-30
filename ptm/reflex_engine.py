@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: reflex_engine.py ===
 # 🧬 Reflex Engine – Handles real-time response triggers, conditions, and autonomous reactions
 

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 from datetime import datetime
@@ -53,9 +54,9 @@ def process_voice_command(spoken_phrase):
         print(f"[Voice Processor] Mapped to: {matched_command}")
         result = cole_interpret_command(matched_command)
 
-    log_voice_command(spoken_phrase, matched_command if matched_command else "No Match", result)
-    malik_report(f"Voice command executed: {spoken_phrase} -> {matched_command if matched_command else 'No Match'}")
-
+    log_voice_command(spoken_phrase, matched_command if matched_command else "No Match", result):
+    malik_report(f"Voice command executed: {spoken_phrase} -> {matched_command if matched_command else 'No Match'}"):
+:
     return result
 
 # === CLI Test Mode ===
@@ -67,3 +68,6 @@ if __name__ == "__main__":
             break
         response = process_voice_command(user_input)
         print(f"Cole: {response}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

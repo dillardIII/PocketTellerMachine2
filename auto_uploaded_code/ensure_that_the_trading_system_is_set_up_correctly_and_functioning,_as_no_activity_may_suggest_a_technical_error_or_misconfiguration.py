@@ -1,1 +1,2 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 generated/Ensure_that_the_trading_system_is_set_up_correctly_and_functioning,_as_no_activity_may_suggest_a_technical_error_or_misconfiguration_20250520_045144.py

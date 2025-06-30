@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code that implements a basic moving average crossover strategy. This strategy is based on the concept that if the short-term average is above the long-term average, it may be a good time to buy, and vice versa.
 
 ```python

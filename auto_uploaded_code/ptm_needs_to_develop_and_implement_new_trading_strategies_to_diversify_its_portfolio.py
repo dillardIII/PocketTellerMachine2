@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and implement new trading strategies, we would need to use various Python libraries such as pandas, numpy, matplotlib, and sklearn. Here is a simple example of a trading strategy using moving average crossover. 
 
 Please note that this is a very basic strategy and real-world trading strategies involve much more complex analysis and risk management.

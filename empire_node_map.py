@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: empire_node_map.py ===
 # 🌐 Empire Node Map + AI Tasks Printout
 
@@ -40,3 +41,6 @@ if __name__ == "__main__":
         print_nodes()
         print_ai_tasks()
         time.sleep(20)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

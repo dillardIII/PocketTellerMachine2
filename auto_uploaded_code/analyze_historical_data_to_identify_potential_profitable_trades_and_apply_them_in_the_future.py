@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 This task requires a lot of steps and a lot of code, but here is a simplified example of how you could approach it using Python and the pandas library. This example uses a simple moving average crossover strategy, which is a common strategy for stock trading.
 
 ```python

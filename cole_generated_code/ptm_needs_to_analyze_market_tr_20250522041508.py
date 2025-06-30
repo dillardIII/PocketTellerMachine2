@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and adjust trading algorithms, we would need to have access to market data. This data could be obtained from various sources such as APIs provided by financial institutions or financial data providers. 
 
 Here is a simple example of how you might analyze market trends using Python. In this example, we'll use the pandas library to analyze stock data from Yahoo Finance.

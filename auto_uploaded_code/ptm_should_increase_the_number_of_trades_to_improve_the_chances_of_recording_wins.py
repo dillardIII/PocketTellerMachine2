@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To increase the number of trades, you could modify the trading algorithm to reduce the threshold for making a trade. However, it's important to note that increasing the number of trades doesn't necessarily improve the chances of recording wins. It could also increase the chances of recording losses. Here's a simple example of how you might modify a hypothetical trading algorithm:
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and patterns, we need historical data of the market. We can use libraries like `pandas` for data manipulation, `numpy` for numerical computation, `matplotlib` and `seaborn` for visualization, and `yfinance` to download the historical market data from Yahoo finance.
 
 Here is a simple Python code snippet that uses moving average strategy to identify potential trading opportunities. Please note that this is a very basic strategy and real-world trading involves more complex strategies and risk management.

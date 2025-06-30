@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple example of a Python code that uses the Alpaca API to initiate a trade. Please note that this is a simulated trade and you need to replace 'APCA-API-KEY-ID' and 'APCA-API-SECRET-KEY' with your actual API keys to execute real trades.
 
 ```python

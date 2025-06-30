@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and making informed decisions involves a lot of data analysis and machine learning. Here's a simple example of how you might use Python to analyze stock prices using a linear regression model. This is a very basic example and real-world trading algorithms are much more complex.
 
 ```python

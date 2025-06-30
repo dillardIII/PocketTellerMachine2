@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🏰 Unstoppable Empire Superstack – launches full recursive empire
 import threading
 import time
@@ -36,3 +37,6 @@ try:
         time.sleep(60)
 except KeyboardInterrupt:
     print("[UnstoppableEmpire] ⛔ Shutdown triggered.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

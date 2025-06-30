@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here's a Python utility called `EmpireBuilder`. This utility aims to simulate empire management, where you can expand territories, manage resources, and engage in diplomacy. It includes basic classes and methods to get you started, but you can expand it with more complex functionalities as desired.
 
 ```python
@@ -76,3 +77,6 @@ if __name__ == "__main__":
 - **Simulation Function**: Simulates a turn-based sequence of events between two empires.
 
 This code provides a foundation for a simple empire management game that can progressively be expanded with additional mechanics, balancing, and strategy elements.
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

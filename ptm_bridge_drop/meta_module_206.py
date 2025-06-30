@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Certainly! Designing a new Python module to enhance the PTM (Presumably "Planetary Transport Module" or similar) empire's self-evolving autonomy stack with innovative recursive strategies is quite an exciting challenge. Here is a conceptual outline and code sketch that focuses on recursive strategies for decision-making, optimization, and self-improvement.
 
 ### Module Overview

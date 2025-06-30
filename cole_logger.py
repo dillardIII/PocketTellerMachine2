@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Cole Logger:
 Unified logging utility for PTM botnet systems.
@@ -52,5 +53,5 @@ def log_event(source, message, level="info"):
     except Exception as e:
         print(f"[Logger] ❌ Failed to write log: {e}")
 
-    # Optional: also print to console
+    # Optional: also print(to console)
     print(f"[{level.upper()}] {source}: {message}")

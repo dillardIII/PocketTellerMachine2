@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: node_heartbeat.py ===
 # 💓 Node Heartbeat – Sends periodic updates to GhostNet Core
 

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # train_stocks.py
 
 import json
@@ -45,3 +46,6 @@ def run_full_stock_training():
 
 if __name__ == "__main__":
     run_full_stock_training()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🚀 AutoBoot – Launches full PTM stack and sync bridge system
 
 import threading
@@ -42,3 +43,6 @@ if __name__ == "__main__":
             time.sleep(10)
     except KeyboardInterrupt:
         print("[AutoBoot] 🛑 Shutdown signal received.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To enhance risk management protocols, we can implement a few strategies such as setting stop loss and take profit levels, diversifying the portfolio, and constantly monitoring the market conditions. Here's a basic example of how you might implement some of these strategies in Python:
 
 ```python

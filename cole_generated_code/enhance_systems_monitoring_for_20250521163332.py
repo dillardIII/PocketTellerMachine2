@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Certainly, here's a basic diagram of how you could arrange your Python code.
 
 This task requires a sizeable amount of development work; therefore, note that the implementation provided isn't a full and complete solution, but it does show you the way to construct a monitoring system for your trade adjustments. The main focus is on creating classes to monitor the system, check if certain conditions are met (like a threshold), and signal when to make trade adjustments.

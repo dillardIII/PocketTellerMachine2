@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI, I can provide you with a basic example of how you might use Python to conduct market analysis. However, please note that real-world trading involves many factors that can't be fully captured in a simple script. This script uses the `yfinance` library to download stock data, `pandas` to manipulate the data, and `matplotlib` to plot the data:
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: meta_meta_builder.py ===
 import time
 import os
@@ -24,3 +25,6 @@ def meta_meta_loop():
         print(f"[MetaMetaBuilder] ✍️ Dropped: {path}")
         build_counter += 1
         time.sleep(90)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

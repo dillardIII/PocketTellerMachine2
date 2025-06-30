@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to implement trading strategies, we need to have some data to work with. Here is a simple example of how you might implement a basic moving average crossover strategy using Python and the pandas library. This strategy will buy when the short term moving average crosses above the long term moving average, and sell when the short term moving average crosses below the long term moving average.
 
 Please note that this is a very basic strategy and should not be used for actual trading without further refinement and testing. 

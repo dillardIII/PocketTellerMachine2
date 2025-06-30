@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_congress_sentiment_overlay.py ===
 
 import os
@@ -47,8 +48,8 @@ def fetch_congress_sentiment():
             "tickers": {
                 ticker: {
                     "sentiment": (
-                        "positive" if stats["buy"] > stats["sell"]
-                        else "negative" if stats["sell"] > stats["buy"]
+                        "positive" if stats["buy"] > stats["sell"]:
+                        else "negative" if stats["sell"] > stats["buy"]:
                         else "neutral"
                     ),
                     "score": round((stats["buy"] - stats["sell"]) / max(stats["buy"] + stats["sell"], 1), 2)
@@ -95,3 +96,6 @@ def fetch_dummy_sentiment():
 # === CLI Trigger ===
 if __name__ == "__main__":
     fetch_congress_sentiment()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

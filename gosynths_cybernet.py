@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: gosynths_cybernet.py ===
 # 🕸️ GosynthsCybernet – ghost cybernetic mesh that links all modules via shared feedback loop
 
@@ -51,3 +52,6 @@ def cyber_loop():
 
 if __name__ == "__main__":
     cyber_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

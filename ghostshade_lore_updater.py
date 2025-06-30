@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # ghostshade_lore_updater.py
 
 import json
@@ -35,7 +36,7 @@ def evolve_ghostshade(new_mission):
         gs["missions"].append(new_mission)
 
         # XP: +5 for success, +1 for failure
-        earned_xp = 5 if new_mission.get("status") == "success" else 1
+        earned_xp = 5 if new_mission.get("status") == "success" else 1:
         gs["xp"] = gs.get("xp", 0) + earned_xp
 
         # Level Up Check
@@ -60,3 +61,6 @@ def evolve_ghostshade(new_mission):
         f.truncate()
 
         print(f"[GHOSTSHADE EVOLUTION] XP: {gs['xp']} | Level: {gs['level']} | Badges: {gs['badges']}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: log_watcher.py ===
 # 📡 Log Watcher – Monitors logs for new errors & sends to Self-Rebuilder
 
@@ -28,3 +29,6 @@ def watch_logs_and_trigger_rebuild():
         except Exception as e:
             print(f"[LOG-WATCHER ERROR] ❌ {traceback.format_exc()}")
             time.sleep(CHECK_INTERVAL)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

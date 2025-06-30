@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_sensory.py ===
 # 👻 GHOST SENSORY NERVES
 # Uses CPU, RAM, I/O as pseudo-biological nerve signals to steer your AI empire.
@@ -48,7 +49,7 @@ def decide_next_mutations(signal):
     modules = ["VaultViewer", "GhostFilter", "GhostTrader", "GhostGamer", "AutoFarmer", "EntropyHunter"]
     weighted = []
     for mod in modules:
-        if random.random() < (signal % 1):  # pseudo nerve spike
+        if random.random() < (signal % 1):  # pseudo nerve spike:
             weighted.append(mod)
     if not weighted:
         weighted.append(random.choice(modules))
@@ -79,3 +80,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

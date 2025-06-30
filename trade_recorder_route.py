@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: trade_recorder_route.py ===
 
 from flask import Blueprint, request, jsonify
@@ -34,3 +35,6 @@ def api_record_trade():
 
     record_trade(trade)
     return jsonify({"status": "success", "message": "Trade recorded."})
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

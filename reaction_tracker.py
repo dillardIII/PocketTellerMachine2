@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Reaction Tracker:
 Records assistant emotional reactions, moods, and behavioral responses to trades or events.
@@ -52,12 +53,15 @@ def get_reactions(persona=None, emotion_filter=None):
             return []
 
     if persona:
-        data = [entry for entry in data if entry["persona"] == persona]
+        data = [entry for entry in data if entry["persona"] == persona]:
     if emotion_filter:
-        data = [entry for entry in data if entry["emotion"] == emotion_filter]
+        data = [entry for entry in data if entry["emotion"] == emotion_filter]:
     return data
 
 # === Manual test mode
 if __name__ == "__main__":
     log_reaction("MoCash", "win", "We just crushed that trade!")
     print("Recent Reactions:", get_reactions("MoCash"))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

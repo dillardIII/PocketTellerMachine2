@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: command_router.py ===
 # 🧭 PTM Command Router – Routes manual commands to appropriate systems
 
@@ -34,3 +35,6 @@ def run_command(command):
 
     else:
         return {"status": "unknown_command", "command": command}
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

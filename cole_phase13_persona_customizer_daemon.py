@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase13_persona_customizer_daemon.py
 
 import os
@@ -13,7 +14,7 @@ CUSTOMIZER_LOG_FILE = "data/cole_persona_customizer_log.json"
 # === Ensure data directory exists ===
 os.makedirs("data", exist_ok=True)
 
-# === Initialize if missing ===
+# === Initialize if missing ===:
 if not os.path.exists(CUSTOM_PERSONAS_FILE):
     with open(CUSTOM_PERSONAS_FILE, "w") as f:
         json.dump([], f, indent=2)
@@ -82,8 +83,8 @@ def remove_persona():
         with open(CUSTOM_PERSONAS_FILE, "r") as f:
             personas = json.load(f)
 
-        updated_personas = [p for p in personas if p["name"].lower() != name.lower()]
-
+        updated_personas = [p for p in personas if p["name"].lower() != name.lower()]:
+:
         with open(CUSTOM_PERSONAS_FILE, "w") as f:
             json.dump(updated_personas, f, indent=2)
 
@@ -98,3 +99,6 @@ def remove_persona():
 if __name__ == '__main__':
     print("[PERSONA CUSTOMIZER DAEMON]: Running on port 6060...")
     app.run(host='0.0.0.0', port=6060, debug=True)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

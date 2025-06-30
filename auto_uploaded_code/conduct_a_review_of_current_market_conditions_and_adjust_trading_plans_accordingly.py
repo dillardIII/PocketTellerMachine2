@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI, I can't conduct a real-time review of current market conditions or adjust trading plans. However, I can provide you with a Python code template that you can use to fetch market data and adjust your trading plan accordingly. You can use APIs like Alpha Vantage, Yahoo Finance, etc., to get the market data.
 
 Here's a simple Python code using Alpha Vantage API:

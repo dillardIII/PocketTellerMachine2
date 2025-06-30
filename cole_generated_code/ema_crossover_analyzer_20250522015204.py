@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code for EMA Crossover Analyzer using Pandas library. This code calculates the EMA for two different periods and then finds the points where these two EMAs cross each other.
 
 ```python

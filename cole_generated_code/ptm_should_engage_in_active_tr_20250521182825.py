@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To engage in active trading, we need to create a trading strategy. Here's a simple example of a Python code using a moving average crossover strategy. This strategy is one of the most commonly used strategies in trading. It involves two moving averages, one short and one long. When the short moving average crosses above the long moving average, it's a signal to buy. When it crosses below, it's a signal to sell.
 
 This code uses the `yfinance` package to download stock price data, and `pandas` to calculate moving averages and generate trading signals. 

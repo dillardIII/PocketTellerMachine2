@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_tester.py ===
 # 🧪 PTM Auto Tester – Runs test cases to verify stability after code patch
 
@@ -6,8 +7,8 @@ import os
 
 def run_basic_tests(target_path):
     """
-    Runs basic syntax check and test suite (if available) on the file.
-
+    Runs basic syntax check and test suite (if available) on the file.:
+:
     Args:
         target_path (str): File path of the patched code
 
@@ -68,3 +69,6 @@ def run_basic_tests(target_path):
     else:
         print("[AUTO TESTER] ⚠️ No test file found. Assuming success.")
         return {"status": "passed", "file": target_path, "stdout": "No tests run."}
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

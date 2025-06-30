@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_persona_self_awareness_logger_daemon.py
 
 import os
@@ -56,3 +57,6 @@ def persona_self_awareness_loop():
 
 if __name__ == "__main__":
     persona_self_awareness_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

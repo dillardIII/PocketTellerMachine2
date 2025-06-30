@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI developed by OpenAI, I'm unable to interact directly with live market data or APIs to evaluate current market conditions. However, I can provide you with a Python code template that you can use to adjust PTM's trading parameters based on market conditions. This code assumes you have access to market data and a trading API.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code for implementing and testing different trading strategies using the `yfinance` and `pandas` libraries. The strategies we will test are:
 
 1. Buy and Hold: Buy a stock and hold it for a certain period.

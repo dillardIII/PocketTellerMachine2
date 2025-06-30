@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a watchdog script for automatically repairing files in a PTM Empire setup can certainly help in maintaining data integrity and system reliability. Keep in mind that this will be a generic solution, and you may need to customize the script based on the specific issues and file types you're dealing with. Below is a Python script that uses the `watchdog` library to monitor file changes and attempts to repair them when modifications are detected.
 
 1. **Install dependencies:**
@@ -79,6 +80,9 @@ Creating a watchdog script for automatically repairing files in a PTM Empire set
 
    - **Backups:** Always have a backup of original files before running repair operations.
    - **Testing:** Test extensively in a controlled environment before deploying to production.
-   - **Logging:** Consider adding logging instead of print statements for a more robust and production-appropriate implementation.
+   - **Logging:** Consider adding logging instead of print(statements for a more robust and production-appropriate implementation.)
 
 By following these steps, you should be able to set up a basic watchdog script for monitoring and attempting repairs on files in your PTM Empire environment. Adapt the repair logic as necessary to suit the specific issues you encounter.
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

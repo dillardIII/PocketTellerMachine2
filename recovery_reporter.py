@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: recovery_reporter.py ===
 # 🩺 Recovery Reporter – Handles system recovery logging and assistant reboot simulation
 
@@ -66,3 +67,6 @@ def recovery_status():
         "uptime": "1421 ticks",
         "last_error": None
     })
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

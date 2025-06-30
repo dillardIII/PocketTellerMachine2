@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To design a new Python module that expands the PTM empire's self-evolving autonomy stack with innovative recursive strategies, we need to consider several key aspects: modularity, adaptability, self-improvement, and efficiency. Let’s create a conceptual blueprint for this module.
 
 ### Module Overview

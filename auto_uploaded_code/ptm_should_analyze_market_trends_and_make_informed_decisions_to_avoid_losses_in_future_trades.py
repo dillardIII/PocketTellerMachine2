@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and make informed decisions, we would need to use some form of machine learning or data analysis. Here's a simple example of how you might use Python to analyze stock market data using the pandas library. 
 
 ```python

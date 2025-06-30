@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code that uses a basic trading strategy called Moving Average Crossover. This strategy is used to identify when to buy and sell stocks based on the moving averages of the stock prices.
 
 ```python

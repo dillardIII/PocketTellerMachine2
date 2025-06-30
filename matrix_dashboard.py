@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: matrix_dashboard.py ===
 # 🟢 PTM Matrix Console Dashboard – shows modules, nodes, vault activity in cyber style
 
@@ -43,7 +44,7 @@ def get_vault_logs():
         return []
 
 def render_dashboard():
-    os.system('clear' if os.name == 'posix' else 'cls')
+    os.system('clear' if os.name == 'posix' else 'cls'):
     print("=" * 80)
     print("🧬 PTM MATRIX CONSOLE DASHBOARD".center(80))
     print("=" * 80)
@@ -76,3 +77,6 @@ if __name__ == "__main__":
     while True:
         render_dashboard()
         time.sleep(10)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

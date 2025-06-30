@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: strategy_pack_handler.py ===
 
 # 📦 Strategy Pack Handler – Drops full strategy packs via the trigger handler
@@ -43,3 +44,6 @@ class StrategyPackHandler:
     def _log(self, filename):
         with open(VAULT_LOG, "a") as log:
             log.write(f"Dropped (via pack): {filename}\n")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

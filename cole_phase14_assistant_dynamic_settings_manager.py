@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase14_assistant_dynamic_settings_manager.py
 
 import os
@@ -40,3 +41,6 @@ if __name__ == "__main__":
 
     # View settings
     print(load_assistant_settings())
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To increase trading opportunities, we'll use a combination of strategies such as Trend Following, Mean Reversion, Slippage, and MarketMaking. However, please note that this is a simplistic approach and might need further tweaking based on the specific market, frequency of data, and risk appetite you have. Here's a basic version of implementation for these strategies for a given Stock. 
 
 Let's assume that necessary libraries such as pandas, numpy, yfinance and others are already installed and imported.

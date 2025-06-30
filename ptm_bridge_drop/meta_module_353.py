@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new Python module to expand a self-evolving autonomy stack for the PTM (Presumably something like a Process, Task, and Management) empire involves several key components. These components must leverage recursive strategies to allow the system to self-improve and adapt over time. Below is a high-level outline of how we might design such a module, including innovative recursive strategies.
 
 ### Module Name: `ptm_autonomy_expansion`

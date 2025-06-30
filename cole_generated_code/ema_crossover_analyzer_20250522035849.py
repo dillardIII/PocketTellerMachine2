@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To create an EMA (Exponential Moving Average) Crossover Analyzer, we'll need to use a library like pandas for data manipulation and yfinance to download the stock data. Here's a simple implementation:
 
 ```python

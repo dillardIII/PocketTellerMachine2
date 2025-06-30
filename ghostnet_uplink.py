@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghostnet_uplink.py ===
 
 # 🌐 GhostNet Uplink – Syncs with external bots or GhostForge devices
@@ -11,3 +12,6 @@ def broadcast_command(command):
     nodes = ghostnet_ping()
     for node in nodes:
         print(f"[GhostNet] 📡 Sending command to {node}: {command}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

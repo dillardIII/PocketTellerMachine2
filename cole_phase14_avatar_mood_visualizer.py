@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase14_avatar_mood_visualizer.py
 
 import os
@@ -56,3 +57,6 @@ if __name__ == "__main__":
     for persona in personas:
         visual = get_avatar_visual_for_persona(persona)
         print(f"{persona} → Avatar: {visual['avatar']} | Style: {visual['style']}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

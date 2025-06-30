@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: wallet_api_mesh.py ===
 # 🔄 PTM Wallet API Mesh – Merges wallet sources and feeds them into PTM systems
 
@@ -29,3 +30,7 @@ def fetch_all_balances():
             balances[wallet_name] = "Error"
 
     return balances
+
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

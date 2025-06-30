@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bot_sync_watchdog.py ===
 # 🐶 Bot Sync Watchdog – Monitors bot loops, restarts any that crash or stop.
 
@@ -26,3 +27,6 @@ if __name__ == "__main__":
     start_watchdog()
     while True:
         time.sleep(10)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

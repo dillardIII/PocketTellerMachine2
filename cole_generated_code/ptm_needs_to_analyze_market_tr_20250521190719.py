@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends, we can use Python's libraries like pandas for data manipulation and matplotlib for data visualization. We can fetch the data from various sources like Yahoo Finance using pandas_datareader library.
 
 Here is a simple Python code that fetches the historical data of a specific stock, calculates its moving averages and visualizes the data.

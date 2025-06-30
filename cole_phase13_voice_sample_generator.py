@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase13_voice_sample_generator.py
 
 import os
@@ -45,3 +46,6 @@ if __name__ == "__main__":
     generate_voice_sample("Sensei")
     generate_voice_sample("Mo Cash", style="hustler")
     generate_voice_sample("Sunny", style="optimistic")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

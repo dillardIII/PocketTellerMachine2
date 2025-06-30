@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: vault_transfer_engine.py ===
 from flask import Blueprint, request, jsonify
 from web3 import Web3
@@ -50,3 +51,6 @@ def send_eth():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

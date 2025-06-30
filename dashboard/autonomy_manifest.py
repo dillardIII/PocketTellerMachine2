@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Autonomy Manifest Console
 Visual + programmatic interface for checking active autonomy layers.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python module for a self-evolving autonomy stack involves several steps. The module should be designed to promote self-improvement, adaptability, and robustness. Below is a conceptual outline and sample implementation that incorporates recursive strategies, allowing for continuous evolution and optimization of algorithms.
 
 ### Conceptual Design

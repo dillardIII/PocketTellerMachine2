@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Bridge Relay:
 Main message router between bots in the PTM botnet.

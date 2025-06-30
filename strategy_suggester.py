@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: strategy_suggester.py ===
 # 🔁 Strategy Suggester – Proposes new strategy versions based on feedback thread history
 
@@ -13,7 +14,7 @@ SUGGESTIONS_DIR = "team_files/suggestions"
 Path(SUGGESTIONS_DIR).mkdir(parents=True, exist_ok=True)
 
 def smart_fallback_logic(last_notes):
-    """Simple rule-based suggestion if AI module unavailable."""
+    """Simple rule-based suggestion if AI module unavailable.""":
     if "price <" in last_notes and "volatility" not in last_notes:
         return "price < 175 and RSI < 40"
     elif "MACD" in last_notes or "confirmation" in last_notes:
@@ -38,7 +39,7 @@ def suggest_next_version(thread_log_path, bot_name="Mentor", use_fallback=False)
         return None
 
     base_name = thread.get("file", "unknown").replace(".py", "")
-    last_entry = thread.get("log", [])[-1] if thread.get("log") else {}
+    last_entry = thread.get("log", [])[-1] if thread.get("log") else {}:
     last_notes = last_entry.get("notes", "").lower()
 
     new_file_name = f"{base_name}_{bot_name}_suggested.py"
@@ -59,8 +60,7 @@ def suggest_next_version(thread_log_path, bot_name="Mentor", use_fallback=False)
     new_logic = smart_fallback_logic(last_notes)
     with open(full_path, "w", encoding="utf-8") as f:
         f.write(f"# Auto-suggested by {bot_name} on {datetime.utcnow().isoformat()}\n")
-        f.write("def run_strategy(data):\n")
-        f.write(f"    if {new_logic}:\n")
+        f.write("def run_strategy():.write(f"    if {new_logic}:\n"):
         f.write(f"        return 'Buy AAPL'\n")
         f.write("    return 'Hold'\n")
     print(f"[🧠 SUGGESTER] Rule-based version written to: {full_path}")
@@ -70,3 +70,6 @@ def suggest_next_version(thread_log_path, bot_name="Mentor", use_fallback=False)
 if __name__ == "__main__":
     example_thread = os.path.join(THREADS_DIR, "mentor_review_aapl.json")
     suggest_next_version(example_thread, bot_name="Mentor", use_fallback=False)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

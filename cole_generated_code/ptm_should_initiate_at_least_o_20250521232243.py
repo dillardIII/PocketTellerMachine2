@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a basic Python script that simulates a trade using a simple strategy. For simplicity, let's assume we're trading a stock and we'll use a simple moving average crossover strategy for our trade. 
 
 Please note that this is a simplified example and doesn't include real trading elements like trading fees, slippage, etc. Also, you need to have pandas_datareader and pandas libraries installed in your Python environment.

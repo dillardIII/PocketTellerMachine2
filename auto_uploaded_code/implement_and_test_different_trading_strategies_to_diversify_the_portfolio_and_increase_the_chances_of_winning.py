@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I'll provide a simple example of two trading strategies in Python: Moving Average Crossover and Mean Reversion. Please note that this is a simplified version and real-world trading strategies are much more complex and require a deep understanding of financial markets.
 
 ```python

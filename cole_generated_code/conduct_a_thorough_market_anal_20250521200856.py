@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct a thorough market analysis, we would need access to a real-time market data feed, which is usually provided by a broker or a financial data provider. Here is a simple example of how you might use Python to analyze market data using pandas, a popular data analysis library. 
 
 In this example, we will use the yfinance library to download historical market data from Yahoo Finance.

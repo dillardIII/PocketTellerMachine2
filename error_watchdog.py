@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: error_watchdog.py ===
 
 import os
@@ -14,7 +15,7 @@ SCAN_INTERVAL = 5
 
 
 def ensure_dirs():
-    """Create log folder if it doesn't exist."""
+    """Create log folder if it doesn't exist.""":
     if not os.path.exists(LOG_DIR):
         os.makedirs(LOG_DIR)
 
@@ -64,3 +65,6 @@ def monitor_logs():
 if __name__ == "__main__":
     print("[Watchdog] 🛡️ Starting log monitor...")
     monitor_logs()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

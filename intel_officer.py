@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 import requests
@@ -48,3 +49,6 @@ def query_intel(prompt):
         "response": response,
         "timestamp": datetime.now().isoformat()
     }
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

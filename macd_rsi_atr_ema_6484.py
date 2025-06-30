@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 
 # === FILE: macd_rsi_atr_ema_6484.py ===
 # Auto-generated multi-strategy using MACD, RSI, ATR, EMA
@@ -16,3 +17,7 @@ def run():
 
 if __name__ == "__main__":
     run()
+
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

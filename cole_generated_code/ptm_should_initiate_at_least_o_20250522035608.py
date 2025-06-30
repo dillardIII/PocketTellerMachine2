@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate a trade and gather data to assess market conditions, we would need to interact with a trading API. Here is a simple example of how you might do this using the Alpaca API, which allows for commission-free trading and has a Python SDK.
 
 Please note that you need to install the alpaca-trade-api package and replace 'APCA-API-KEY-ID' and 'APCA-API-SECRET-KEY' with your own API keys.

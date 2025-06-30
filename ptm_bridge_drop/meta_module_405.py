@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new Python module for the PTM empire's self-evolving autonomy stack involves developing a system that can learn, adapt, and optimize itself over time using recursive strategies. Below is a high-level design of such a module, incorporating innovative recursive strategies:
 
 ### Module: self_evolver

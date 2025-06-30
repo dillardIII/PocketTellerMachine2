@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # voice_synthesizer.py
 # Purpose: Convert AI persona responses into voice using ElevenLabs (or other voice AI API)
 # Supports mood-based voice styling and persona-specific voices

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: roadmap_updater.py ===
 
 import json
@@ -36,7 +37,7 @@ def promote_low_priority_if_needed():
     roadmap = load_roadmap()
     features = roadmap.get("features", [])
 
-    pending = [f for f in features if f.get("status") == "pending"]
+    pending = [f for f in features if f.get("status") == "pending"]:
     if len(pending) >= 5:
         return  # Plenty of tasks already
 
@@ -52,3 +53,6 @@ def run_roadmap_update_cycle():
     print("[Updater] Updating roadmap...")
     clean_roadmap()
     promote_low_priority_if_needed()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

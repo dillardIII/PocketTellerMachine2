@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module that expands the PTM (Presumed Technological Marvel?) empire's self-evolving autonomy stack with innovative recursive strategies involves numerous complex steps. Below is an outline of the architecture and a sample implementation to guide the development of such a module. This example focuses on creating a modular, recursive approach to evolving a set of autonomous agents' behavior via machine learning and self-improvement.
 
 ### Module Architecture

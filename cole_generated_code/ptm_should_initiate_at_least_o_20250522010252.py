@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide you with a simple example of how you might initiate a trade using an API like Alpaca (a stock brokerage service that provides an API for trading). 
 
 Please note that this is a very basic example and real trading algorithms require a lot more considerations such as risk management, portfolio optimization, etc.

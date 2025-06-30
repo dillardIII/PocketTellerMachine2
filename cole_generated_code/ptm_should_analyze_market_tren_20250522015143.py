@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we will need to use Python libraries such as pandas for data manipulation and analysis, yfinance to download historical market data from Yahoo finance, and sklearn for machine learning.
 
 Here is a simple example of how you might use these libraries to analyze market trends and make trading decisions. In this example, we will use a simple moving average strategy.

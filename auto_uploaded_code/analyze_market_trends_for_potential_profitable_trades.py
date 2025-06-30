@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends for potential profitable trades involves a number of factors such as data collection, processing, and implementing trading strategies. For the purpose of this task, let's use Python `pandas` library for data manipulation and `yfinance` to download the stock data from Yahoo finance. 
 
 Please note that actual trading based on this simple script can be risky, for real trading you will need to implement many additional features such as handling transaction costs, managing position sizes, and many more.

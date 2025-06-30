@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct a market analysis, we need to gather data from the market, analyze it, and identify potential trading opportunities. Here is a simple Python code using pandas library to analyze stock market data. Please note that this is a very basic example and real-world trading algorithms are much more complex and involve many other factors.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: strategy_runner.py ===
 
 import time
@@ -50,3 +51,6 @@ def run_strategy(strategy_bundle):
 
     except Exception as e:
         log_info(f"[Strategy Runner] ❌ Error during execution: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

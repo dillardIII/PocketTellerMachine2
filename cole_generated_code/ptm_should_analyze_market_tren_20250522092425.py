@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and patterns, we can use libraries like pandas for data manipulation, numpy for numerical operations, matplotlib for plotting graphs, and sklearn for machine learning tasks.
 
 Here is a simple example of how you might start to build a Python Trading Model (PTM). This example uses historical data to calculate simple moving averages, which are often used to identify market trends.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI model, I can't actually connect to real-time market data or execute trades. However, I can provide you with a basic Python code that uses historical data to analyze and identify potential profitable trades. This code uses a simple moving average strategy, which is a common technique in stock trading.
 
 ```python

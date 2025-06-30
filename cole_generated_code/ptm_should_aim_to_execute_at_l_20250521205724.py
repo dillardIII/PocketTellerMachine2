@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI model, I can't execute trades, but I can help you write a Python code that simulates a trading activity. Here's a simple example of how you might do this using a hypothetical trading API:
 
 ```python

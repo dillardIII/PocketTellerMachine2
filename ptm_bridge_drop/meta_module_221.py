@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module for the PTM empire’s self-evolving autonomy stack involves creating a robust and flexible framework capable of adjusting its functionality, learning from environment, and optimizing its operations through innovative recursive strategies. This may include components like adaptive learning algorithms, recursive neural networks, and feedback systems that enable self-evolution. Below is a conceptual design and sample implementation for such a module:
 
 ### Module Design

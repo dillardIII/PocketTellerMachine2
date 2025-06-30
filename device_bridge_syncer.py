@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: device_bridge_syncer.py ===
 # 🌉 Device Bridge Syncer – Syncs files between devices using the shared bridge folder
 

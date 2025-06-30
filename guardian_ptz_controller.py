@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🎮 PTZ Controller – moves cameras for better views when critical event spotted
 
 def move_ptz(cam_url, direction="left"):
@@ -20,3 +21,6 @@ def auto_respond_to_events():
 
 while True:
     auto_respond_to_events()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

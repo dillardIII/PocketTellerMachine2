@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple example of a fallback strategy that checks for backtest results. If none are found, it prints a message and returns a default result:
 
 ```python

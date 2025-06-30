@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to initiate a trade, we need to have some information about the market, like the prices of different stocks, their historical data, etc. However, since we don't have any specific data, I'll write a simple Python code that simulates a trade initiation.
 
 ```python

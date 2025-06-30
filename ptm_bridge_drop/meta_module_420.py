@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presumably referring to a hypothetic organization) empire's self-evolving autonomy stack with innovative recursive strategies is an ambitious task. The goal here is to establish a system that can autonomously improve its decision-making algorithms through self-reflection and recursive optimization techniques. Below is an outline and a basic implementation plan for a Python module that could potentially fit such requirements.
 
 ### Overview:

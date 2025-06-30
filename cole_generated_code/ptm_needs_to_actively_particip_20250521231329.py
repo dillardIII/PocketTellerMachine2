@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Your task is a bit vague, but I'll assume that you want to simulate some trading activity for PTM. Here's a simple Python script that uses a random number generator to simulate buying and selling stocks.
 
 ```python

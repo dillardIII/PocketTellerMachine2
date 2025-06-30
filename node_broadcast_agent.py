@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: node_broadcast_agent.py ===
 
 # 🕸️ Node Broadcast Agent – Shares mission or system state with other PTM nodes
@@ -26,3 +27,6 @@ def broadcast_status():
 
 if __name__ == "__main__":
     broadcast_status()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

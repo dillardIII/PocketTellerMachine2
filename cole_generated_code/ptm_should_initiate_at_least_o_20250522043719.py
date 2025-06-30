@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code that simulates a trade initiation. In this example, we will use the `yfinance` library to get stock data and `pandas` library to handle the data. We will initiate a trade if the latest closing price is lower than the average closing price in the past 5 days.
 
 Please note that this is a very basic trading strategy and should not be used in real trading without further enhancements.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code to simulate trading activity for PTM (Python Trading Model). This code will randomly generate wins or losses for each trading day and record them.
 
 ```python

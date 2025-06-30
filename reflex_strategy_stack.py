@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: reflex_strategy_stack.py ===
 
 # 🧠 Reflex Strategy Stack – AI picks next best move based on situation
@@ -23,3 +24,6 @@ def run_strategy():
 
 if __name__ == "__main__":
     run_strategy()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

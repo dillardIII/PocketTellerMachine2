@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and patterns for potential trading opportunities, we can use Python libraries such as pandas for data manipulation, numpy for numerical computation, matplotlib for visualization, and sklearn for machine learning.
 
 Here is a simple example of how you could implement this. This example uses a simple moving average crossover strategy to determine when to buy and sell stock.

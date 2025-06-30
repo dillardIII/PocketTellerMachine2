@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 def adjust_strategy_based_on_bias(strategy_key, bias):
     if bias == "Bullish Bias":
         return f"{strategy_key}_Aggressive"
@@ -9,3 +10,6 @@ def adjust_strategy_based_on_bias(strategy_key, bias):
 # Example usage
 adjusted_strategy = adjust_strategy_based_on_bias("RSI_Reversal", "Bullish Bias")
 print("[ADJUSTED STRATEGY]:", adjusted_strategy)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

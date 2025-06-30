@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module for expanding the PTM (Presumably a company or project) empire's self-evolving autonomy stack involves integrating advanced AI methodologies with recursive strategies to enable continuous improvement and adaptation. Below is a conceptual design outline for building such a module:
 
 ### Module Overview

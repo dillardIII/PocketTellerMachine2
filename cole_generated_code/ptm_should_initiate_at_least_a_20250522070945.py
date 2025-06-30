@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a simple example of how you might initiate trades using a Python library called `yfinance` to fetch stock data from Yahoo Finance. However, please note that this is a simplified example and actual trading involves a lot more considerations and complexities.
 
 ```python

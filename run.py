@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: run.py ===
 # 🚀 Master Launcher – Starts the eternal loop and system brain
 
@@ -15,3 +16,6 @@ try:
         pass
 except KeyboardInterrupt:
     print("\n[Launcher] ⛔ Shutdown triggered.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

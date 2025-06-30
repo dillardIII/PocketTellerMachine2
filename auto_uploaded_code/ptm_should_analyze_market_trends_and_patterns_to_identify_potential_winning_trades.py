@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, you would need to use machine learning and data analysis libraries in Python such as pandas, numpy, and sklearn. However, please note that this is a simplified version of a trading bot and it may not work in a real-world scenario as it is. 
 
 Here is a basic example:

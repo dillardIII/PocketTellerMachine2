@@ -1,66 +1,34 @@
-# === FILE: bridge_pickup_agent.py ===
-
-# 📥 Bridge Pickup Agent – Pulls files from ptm_bridge into ptm_inbox
+#!/usr/bin/env python3
+# bridge_pickup_agent.py
+# 🔗 Picks up files from bridge and executes them
 
 import os
 import shutil
-import threading
 import time
+import subprocess
 
-BRIDGE_DIR = "ptm_bridge"
-INBOX_DIR = "ptm_inbox"
+BRIDGE_DIR = "bridge_drop"
 
-# === Threaded Agent Starter ===
-def run_pickup_agent():
-    print("[BridgePickup] 📥 Pickup agent starting...")
+def drop_files_to_bridge():
+    print("[bridge_pickup_agent] ➡️ Dummy drop to bridge called.")
 
-    def pickup_loop():
-        while True:
-            try:
-                if not os.path.exists(BRIDGE_DIR):
-                    os.makedirs(BRIDGE_DIR)
-                    print(f"[BridgePickup] 📁 Created bridge directory: {BRIDGE_DIR}")
-                if not os.path.exists(INBOX_DIR):
-                    os.makedirs(INBOX_DIR)
-                    print(f"[BridgePickup] 📁 Created inbox directory: {INBOX_DIR}")
+def log_event(data):
+    print(f"[bridge_pickup_agent] LOG: {data}")
 
-                for filename in os.listdir(BRIDGE_DIR):
-                    src_path = os.path.join(BRIDGE_DIR, filename)
-                    dst_path = os.path.join(INBOX_DIR, filename)
-                    shutil.move(src_path, dst_path)
-                    print(f"[BridgePickup] 🚚 Moved file: {filename} → inbox")
+def run_file(file_path):
+    print(f"[bridge_pickup_agent] 🚀 Running {file_path}")
+    subprocess.call(["python3", file_path])
 
-                time.sleep(2)
-            except Exception as e:
-                print(f"[BridgePickup] ❌ Error in pickup loop: {e}")
-                time.sleep(5)
-
-    thread = threading.Thread(target=pickup_loop, daemon=True)
-    thread.start()
-
-# === Direct Loop Runner (non-threaded) ===
-def pick_up_from_bridge():
-    print("[PickupAgent] 📥 Starting pickup loop...")
+def main():
     while True:
-        try:
-            if not os.path.exists(BRIDGE_DIR):
-                os.makedirs(BRIDGE_DIR)
-                print(f"[PickupAgent] 📁 Created bridge: {BRIDGE_DIR}")
-            if not os.path.exists(INBOX_DIR):
-                os.makedirs(INBOX_DIR)
-                print(f"[PickupAgent] 📁 Created inbox: {INBOX_DIR}")
+        files = [f for f in os.listdir(BRIDGE_DIR) if f.endswith(".py")]
+        for f in files:
+            src = os.path.join(BRIDGE_DIR, f)
+            dst = os.path.join(".", f)
+            shutil.move(src, dst)
+            log_event(f"Moved {f} from bridge to execution zone")
+            run_file(dst)
+        time.sleep(3)
 
-            for filename in os.listdir(BRIDGE_DIR):
-                src = os.path.join(BRIDGE_DIR, filename)
-                dst = os.path.join(INBOX_DIR, filename)
-                shutil.move(src, dst)
-                print(f"[PickupAgent] 📦 Moved {filename} → inbox")
-
-            time.sleep(2)
-        except Exception as e:
-            print(f"[PickupAgent] ❌ Pickup loop error: {e}")
-            time.sleep(5)
-
-# === Standalone Test ===
 if __name__ == "__main__":
-    pick_up_from_bridge()
+    main()

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: backtester.py ===
 
 import os
@@ -38,9 +39,9 @@ def rsi_strategy(data, window=14):
     loss = np.where(delta < 0, -delta, 0)
     avg_gain = np.mean(gain[-window:])
     avg_loss = np.mean(loss[-window:])
-    rs = avg_gain / avg_loss if avg_loss != 0 else 0
-    rsi = 100 - (100 / (1 + rs)) if avg_loss != 0 else 100
-
+    rs = avg_gain / avg_loss if avg_loss != 0 else 0:
+    rsi = 100 - (100 / (1 + rs)) if avg_loss != 0 else 100:
+:
     if rsi < 30:
         return "buy"
     elif rsi > 70:
@@ -133,7 +134,7 @@ def backtest_strategy(strategy_name, symbol="AAPL", prices=None):
                 trades.append(current_price - entry_price)
                 position = None
 
-    wins = [t for t in trades if t > 0]
+    wins = [t for t in trades if t > 0]:
     total_pnl = sum(trades)
 
     return {
@@ -142,7 +143,7 @@ def backtest_strategy(strategy_name, symbol="AAPL", prices=None):
         "trades": len(trades),
         "wins": len(wins),
         "losses": len(trades) - len(wins),
-        "win_rate": round(len(wins) / len(trades) * 100, 2) if trades else 0,
+        "win_rate": round(len(wins) / len(trades) * 100, 2) if trades else 0,:
         "total_pnl": round(total_pnl, 2)
     }
 
@@ -200,10 +201,13 @@ def run_all_backtests():
 
     print(f"[Backtester] ✅ All results saved to {BACKTEST_RESULTS_FILE}")
 
-# === Run if executed directly ===
+# === Run if executed directly ===:
 if __name__ == "__main__":
     run_all_backtests()
     # Optional: Visualize trade results
     result = backtest_strategy_yahoo("AAPL", rsi_strategy)
     if result:
         plot_trade_signals(result["trades"], ticker="AAPL")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

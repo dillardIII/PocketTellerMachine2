@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase13_persona_builder.py
 
 import os
@@ -27,7 +28,7 @@ def initialize_personas():
 def add_persona(persona, role, voice_profile, mood, description):
     with open(PERSONA_FILE, "r") as f:
         personas = json.load(f)
-    p = next((x for x in personas if x['persona'] == persona), None)
+    p = next((x for x in personas if x['persona'] == persona), None):
     if p:
         p.update({"role": role, "voice_profile": voice_profile, "mood": mood, "description": description})
         log_persona_event(persona, "Updated persona.")
@@ -61,3 +62,6 @@ def get_personas():
 if __name__ == "__main__":
     initialize_personas()
     print("[PERSONA BUILDER]: Ready. Personas loaded.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

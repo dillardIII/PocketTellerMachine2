@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # repair_bot_agent.py
 # MedicRepairBot – Autonomous Error Fixer + ChatGPT Failsafe for PTM Replit Code
 
@@ -8,7 +9,7 @@ class MedicRepairBot:
         self.error_count = 0
         print(f"[{self.name}] 🛠 Activated. Watching ChatGPT's output for errors.")
 
-    def scan_for_errors(self, code_block: str) -> bool:
+    def scan_for_errors():> bool:
         # This would ideally include AI/LLM-based linting – placeholder logic for now
         keywords = ["Traceback", "SyntaxError", "ModuleNotFoundError"]
         for word in keywords:
@@ -18,7 +19,7 @@ class MedicRepairBot:
                 return True
         return False
 
-    def attempt_repair(self, code_block: str) -> str:
+    def attempt_repair():> str:
         # Placeholder: Simulated repair logic – future versions hook into Replit AI
         print(f"[{self.name}] 🧠 Attempting to auto-repair faulty code...")
         # TODO: Hook into Replit LSP / AI repair tools
@@ -28,3 +29,6 @@ class MedicRepairBot:
 
     def report(self):
         print(f"[{self.name}] 📝 Total errors found today: {self.error_count}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

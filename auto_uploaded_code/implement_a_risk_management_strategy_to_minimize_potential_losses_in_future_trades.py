@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code that implements a risk management strategy using stop loss and take profit levels. This strategy is commonly used in trading to minimize potential losses and secure profits.
 
 ```python

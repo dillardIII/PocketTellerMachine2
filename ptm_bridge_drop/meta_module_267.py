@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new Python module for an organization like PTM's self-evolving autonomy stack involves several innovative components. The goal is to incorporate recursive strategies to enhance adaptability and self-improvement over time. Below, I'll outline the key components and a basic implementation strategy for this module.
 
 ### Key Components

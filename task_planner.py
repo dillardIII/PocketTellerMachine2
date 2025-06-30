@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: task_planner.py ===
 
 import random
@@ -32,7 +33,7 @@ def generate_project_plan(phase="Phase One"):
     """
     plan = {}
     for team, options in TASK_POOL.items():
-        num = 1 if phase == "Phase One" else 2
+        num = 1 if phase == "Phase One" else 2:
         plan[team] = random.sample(options, min(num, len(options)))
     return plan
 
@@ -45,3 +46,6 @@ def generate_task(team, project="PTM"):
     task = random.choice(TASK_POOL[team])
     task["project"] = project
     return task
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

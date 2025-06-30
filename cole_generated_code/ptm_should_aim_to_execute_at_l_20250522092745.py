@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code to simulate a trade execution. 
 
 This code does not involve real money or real stocks, it's just a simulation for educational purposes. We will use a random choice from a list of stocks for the simulation.

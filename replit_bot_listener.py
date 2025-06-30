@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: replit_bot_listener.py ===
 # Listens for GPT commands via WebSocket and triggers AutoFix on demand.
 
@@ -5,8 +6,8 @@ import asyncio
 import websockets
 import subprocess
 
-PORT = 8765  # You can change this if needed
-
+PORT = 8765  # You can change this if needed:
+:
 TRIGGER_COMMAND = "run_autofix"
 RESPONSE_OK = "✅ AutoFix triggered."
 RESPONSE_ERR = "❌ AutoFix failed."
@@ -36,3 +37,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

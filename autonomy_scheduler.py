@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: autonomy_scheduler.py ===
 # ⏱️ Autonomy Scheduler – Monitors conditions and executes macros at the right time
 

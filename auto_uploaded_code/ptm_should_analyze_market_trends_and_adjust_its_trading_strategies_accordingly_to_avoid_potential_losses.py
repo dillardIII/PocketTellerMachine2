@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and adjust trading strategies, we can use machine learning models. Below is a simple Python code using the pandas library for data manipulation, numpy for numerical computations, and sklearn's RandomForestRegressor for predicting future trends.
 
 Please note that this is a simplified version and real-world trading models can be much more complex. Also, this code assumes that you have a dataset (CSV file) with historical market data.

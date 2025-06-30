@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # strategy_generator.py – Generates Basic Trade Strategies
 
 import random
@@ -17,3 +18,6 @@ def generate_strategy():
 
     print(f"[Strategy Generator] 🎯 Strategy created: {strategy}")
     return strategy
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

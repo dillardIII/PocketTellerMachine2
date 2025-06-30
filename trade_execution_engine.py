@@ -1,8 +1,9 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from ptm_config import PAPER_TRADING_MODE
 
 def execute_trade(strategy, ticker, side, qty, entry_price):
-    print(f"[Execution] {('PAPER' if PAPER_TRADING_MODE else 'LIVE')} TRADE: {side} {qty} {ticker} at {entry_price}")
-
+    print(f"[Execution] {('PAPER' if PAPER_TRADING_MODE else 'LIVE')} TRADE: {side} {qty} {ticker} at {entry_price}"):
+:
     # === Paper Trading Simulation ===
     if PAPER_TRADING_MODE:
         return {
@@ -37,3 +38,6 @@ def execute_trade(strategy, ticker, side, qty, entry_price):
             "status": "error",
             "error": str(e)
         }
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: voice_transfer_engine.py ===
 # 🎙️ Voice Transfer Engine – Accepts voice-triggered ETH transfers from Vault Wallet
 
@@ -31,7 +32,7 @@ def voice_send_eth():
         if not all([to_address, amount_eth, pin]):
             return jsonify({"error": "Missing required fields"}), 400
 
-        if pin != "1234":  # 🔐 Replace this PIN check with secure vault auth in future
+        if pin != "1234":  # 🔐 Replace this PIN check with secure vault auth in future:
             return jsonify({"error": "Invalid transfer PIN"}), 403
 
         amount_wei = w3.to_wei(float(amount_eth), "ether")
@@ -59,3 +60,6 @@ def voice_send_eth():
             "status": "error",
             "message": str(e)
         }), 500
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

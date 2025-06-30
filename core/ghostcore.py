@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: core/ghostcore.py ===
 
 # 👻 GhostCore – Core flag logic for PTM's AI systems, phase toggles, and takeover verification

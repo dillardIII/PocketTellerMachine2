@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Your request is a bit nebulous as there are numerous trading strategies that can be applied depending on various factors such as the financial instrument being traded, the market conditions and the risk profile of the investor. An engineering team can help you choose the best strategies. Here, I’m implementing a simple moving average crossover strategy using Python using the yfinance and pandas libraries.
 
 This code assumes the use of daily timeframes, the instrument being traded is 'AAPL' and uses a short/long moving average window of 40/100 days. 

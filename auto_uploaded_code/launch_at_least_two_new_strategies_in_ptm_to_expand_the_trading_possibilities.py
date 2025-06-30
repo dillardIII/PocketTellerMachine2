@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI text-based model, I don't have the ability to create real-world trading strategies for a live system as these require a thorough understanding of the trading system mechanics, coding structures, and financial theory. Detailed specific code will highly depend on the actual APIs, libraries, and trading strategies Cole's trading system incorporates. 
 
 However, I can provide the generalized conceptual Python code snippets for two simple trading strategies, assuming that PTM is a trading engine object:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # trade_logic.py
 import random
 from datetime import datetime
@@ -30,5 +31,8 @@ def generate_trade():
         "entry_price": entry_price,
         "exit_price": exit_price,
         "profit_loss": profit_loss,
-        "result": "win" if profit_loss > 0 else "loss"
+        "result": "win" if profit_loss > 0 else "loss":
     }
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

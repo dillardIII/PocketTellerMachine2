@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import requests
 
@@ -26,3 +27,6 @@ if __name__ == "__main__":
     trades = get_congress_trades()
     for trade in trades:
         print(f"{trade['Politician']} bought {trade['Ticker']} on {trade['TransactionDate']}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

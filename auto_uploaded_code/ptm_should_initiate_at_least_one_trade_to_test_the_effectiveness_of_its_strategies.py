@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code that simulates a trade. This code uses a hypothetical trading API, so it's not functional. It's just an example to show how such a system might be structured.
 
 ```python

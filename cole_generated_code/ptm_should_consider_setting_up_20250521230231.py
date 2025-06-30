@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of how you could set up a basic automated trading system using Python. This example uses the `yfinance` library to get stock data and the `pandas` library to handle the data. The trading strategy is a simple moving average crossover strategy.
 
 Please note that this is a very basic example and real-world trading systems are much more complex and need to handle a lot more scenarios.

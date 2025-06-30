@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new Python module to expand the PTM (Presumably "Post-Turing Machines" or a similar conceptual empire) self-evolving autonomy stack involves integrating advanced AI strategies, recursive functionalities, and innovative automation. Here’s a conceptual outline and initial code ideation for such a module incorporating recursive strategies such as recursive neural networks, transformers, and automated self-improvement.
 
 ### Design Outline for the Module: `ptm_autonomy`

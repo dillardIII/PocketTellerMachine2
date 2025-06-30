@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and adjust trading parameters, you would likely need to use some form of machine learning or data analysis. Here's a simple example of how you might start doing this using Python and the pandas library. This example assumes you have a CSV file with market data that includes a 'Close' column for the closing price.
 
 ```python

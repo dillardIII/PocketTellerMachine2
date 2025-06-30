@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 👻 GhostReplitSpectre – wires Spectre ops into Reflex sweeps, triggers GhostForge mutations
 
 import time
@@ -31,3 +32,6 @@ def spectre_mission_cycle():
     selected_mission = random.choice(missions)
     selected_mission()
     time.sleep(1)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

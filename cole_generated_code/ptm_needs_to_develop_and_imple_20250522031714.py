@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and implement trading strategies, we can use Python's pandas library for data manipulation and analysis, and yfinance library to download historical market data from Yahoo finance. Here's a simple example of a moving average crossover strategy:
 
 ```python

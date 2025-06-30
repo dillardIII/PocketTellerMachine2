@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 ElevenLabs Output Player – Converts text to speech and plays it back
 Used by PTM assistants to speak aloud their thoughts or decisions.
@@ -42,3 +43,6 @@ def _play_audio(file_path):
 
 if __name__ == "__main__":
     speak_text("System online. Welcome back, Boo.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

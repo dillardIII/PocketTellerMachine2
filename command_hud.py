@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: command_hud.py ===
 # 📊 Command HUD – writes your empire state into ptm_dashboard.json
 
@@ -17,9 +18,9 @@ def build_dashboard():
     skymem = load_json("skypiea_node/memory.json", [])
     recent_trades = load_json("command_memory_log.json", [])
 
-    total_strategies = len([f for f in os.listdir() if f.startswith("auto_strategy_") and f.endswith(".py")])
-    skypiea_files = len([f for f in os.listdir("skypiea_node") if f.endswith(".py")]) if os.path.exists("skypiea_node") else 0
-
+    total_strategies = len([f for f in os.listdir() if f.startswith("auto_strategy_") and f.endswith(".py")]):
+    skypiea_files = len([f for f in os.listdir("skypiea_node") if f.endswith(".py")]) if os.path.exists("skypiea_node") else 0:
+:
     dashboard = {
         "emotion_state": emotion,
         "neural_predictor": {
@@ -46,3 +47,6 @@ def run_command_hud_loop():
     while True:
         build_dashboard()
         time.sleep(30)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

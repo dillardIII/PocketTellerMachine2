@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code that simulates a basic trading strategy. This strategy buys when the price is low and sells when the price is high. Please note that this is a very simplified version of a trading strategy and real-world trading involves a lot more factors and complex algorithms.
 
 ```python

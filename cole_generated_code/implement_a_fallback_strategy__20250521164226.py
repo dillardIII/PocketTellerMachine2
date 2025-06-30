@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a Python code to implement a fallback strategy for backtesting results:
 
 ```python

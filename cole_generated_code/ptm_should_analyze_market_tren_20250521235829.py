@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and patterns, we can use Python libraries such as pandas for data manipulation, numpy for numerical computation, and matplotlib for visualization. We can also use yfinance to download historical market data from Yahoo Finance.
 
 Here is a simple example of how you might use these libraries to analyze market trends and patterns:

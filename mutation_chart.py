@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: mutation_chart.py ===
 import matplotlib.pyplot as plt
 import os
@@ -37,3 +38,6 @@ def plot_mutation_history(history, title="Mutation Evolution", output_file="muta
     plt.savefig(full_path)
     print(f"[CHART] Evolution chart saved to {full_path}")
     return full_path
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

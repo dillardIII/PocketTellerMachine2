@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To refine your current trading algorithms, you may want to consider various approaches such as adjusting existing parameters, introducing new parameters, or applying machine learning techniques to better predict market movements.
 
 Please note that following is a simplistic representation of a trading algorithm using Python, adjustments according to specifics of your trading strategy would be needed. Also, implement real trading actions and algorithms using real money needs a professional knowledge and thorough understanding of the market.

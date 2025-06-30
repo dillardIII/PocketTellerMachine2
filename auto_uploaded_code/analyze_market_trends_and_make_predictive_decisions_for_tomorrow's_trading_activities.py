@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we need to implement a predictive model using machine learning techniques based on historical data. Specifically, this type of task can be classified as a time-series prediction. A commonly used method is the autoregressive integrated moving average (ARIMA) model.
 
 Here is a simplified example of how this could be done using Python with the pandas and statsmodels libraries. Please note that for real market prediction tasks, the analysis process is much more complex and sometimes even involves financial engineering and machine learning techniques.

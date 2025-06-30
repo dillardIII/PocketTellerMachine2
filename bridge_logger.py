@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_logger.py ===
 
 # 🧾 Bridge Logger – Central logging utility for bridge actions and sync events
@@ -21,3 +22,6 @@ def log_bridge_event(event_type, message):
             log_file.write(log_message + "\n")
     except Exception as e:
         print(f"[Bridge Logger] ❌ Failed to write log: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

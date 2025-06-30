@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate a trade, we need to have a trading system in place. Python doesn't have a built-in trading function, but we can use libraries like `yfinance` to fetch data from Yahoo Finance and `alpaca_trade_api` to make trades. Here is a simple example of how to initiate a trade using `alpaca_trade_api`.
 
 Please note that you need to have an Alpaca account and API keys to use this.

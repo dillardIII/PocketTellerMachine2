@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Pretend Technological Monolith) empire’s self-evolving autonomy stack is an ambitious and challenging task. Below is a conceptual architecture and a sample Python module that incorporates innovative recursive strategies to support self-evolution.
 
 ### Conceptual Architecture

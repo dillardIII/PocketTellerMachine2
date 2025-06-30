@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_controller.py ===
 # 🔗 Bridge Controller – Activates drop and pickup agents for file transfers between devices (ChatGPT, Replit, Local)
 

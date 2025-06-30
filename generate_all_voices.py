@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 import requests
@@ -52,3 +53,6 @@ for persona, genders in voice_map.items():
                 print(f"✓ Saved: {filename}")
             else:
                 print(f"✗ Failed: {filename} | Status: {response.status_code} | {response.text}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

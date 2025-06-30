@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_import_exec.py ===
 import importlib.util
 import os
@@ -18,3 +19,6 @@ while True:
             full_path = os.path.join(MODULE_DIR, file)
             load_and_run(full_path)
     time.sleep(60)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

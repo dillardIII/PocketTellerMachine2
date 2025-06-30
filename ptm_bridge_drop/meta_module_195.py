@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module to expand the PTM empire's self-evolving autonomy stack is an exciting challenge. Below is an outline of a module named `autoevolve`, which includes innovative recursive strategies to enhance self-evolving capabilities.
 
 ### Module: `autoevolve`

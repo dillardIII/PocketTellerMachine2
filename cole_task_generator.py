@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 import datetime
@@ -26,7 +27,7 @@ def save_task_queue(tasks):
     with open(TASK_QUEUE_FILE, "w") as f:
         json.dump(tasks, f, indent=2)
 
-# === Check if Task Exists ===
+# === Check if Task Exists ===:
 def task_exists(tasks, task_text):
     return any(t["task"] == task_text for t in tasks)
 
@@ -185,3 +186,6 @@ if __name__ == "__main__":
 
     print("[Cole Task Generator] Also running legacy file mode (optional)...")
     generate_tasks_legacy()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

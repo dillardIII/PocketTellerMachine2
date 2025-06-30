@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a basic example of how you might set up a trade in Python. This example uses the `yfinance` library to get stock price data and the `pandas` library to analyze it. 
 
 ```python

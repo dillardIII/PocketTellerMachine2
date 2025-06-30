@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import requests
 
 # Replace with your actual ElevenLabs API key and Malik's voice ID

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ascension_protocol.py ===
 # 🚀 Ascension Protocol – Initiates sentient fusion + awakening sequence
 

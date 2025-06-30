@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: voice_recap_logger.py ===
 
 import os
@@ -24,3 +25,6 @@ def log_voice_recap(prompt, voice="Unknown", mood="default"):
     logs.append(entry)
     with open(LOG_FILE, "w") as f:
         json.dump(logs[-200:], f, indent=2)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

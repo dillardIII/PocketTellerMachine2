@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🌐 GhostNet Tracker – Logs every active AI, its mission, and updates system status dashboard
 
 import os

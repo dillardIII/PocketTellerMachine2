@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase14_voice_style_manager.py
 
 import json
@@ -51,3 +52,6 @@ if __name__ == "__main__":
     update_voice_style("Mo Cash", "intense_hype")
     print("[VOICE STYLE]: After update:")
     print(json.dumps(load_voice_styles(), indent=2))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

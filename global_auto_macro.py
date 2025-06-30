@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🌍 Global Auto Macro – builds device macros for sync anywhere.
 
 import json
@@ -20,3 +21,6 @@ def build_macro(task="sync_wallet_data"):
 while True:
     build_macro()
     time.sleep(180)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: inspectorbot.py ===
 
 # 🕵️ InspectorBot – Phase 9 upgrade: full system coordinator for audit, reflex, sweep, and AI rebuild

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market data for potential trading opportunities, you would need access to a market data API. For this example, I'll use the `yfinance` library, which allows you to download historical market data from Yahoo Finance.
 
 Here's a simple Python script that downloads the latest market data for a specific stock (let's say Apple Inc., ticker symbol "AAPL"), calculates the moving average, and identifies potential trading opportunities based on whether the stock's closing price is above or below the moving average.

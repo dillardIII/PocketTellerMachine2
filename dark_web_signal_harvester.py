@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: dark_web_signal_harvester.py ===
 # 🕷️ DarkWebSignalHarvester – mines dark layers for rumors & hidden alpha
 
@@ -23,3 +24,6 @@ def harvester_loop():
 
 if __name__ == "__main__":
     harvester_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

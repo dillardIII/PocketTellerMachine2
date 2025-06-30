@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To diversify a trading portfolio, we can use Python with the help of pandas, numpy and yfinance libraries. Here's a simple example of how you can do it:
 
 ```python

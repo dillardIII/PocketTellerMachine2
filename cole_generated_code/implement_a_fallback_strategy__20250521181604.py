@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I'll write a Python function to implement a fallback strategy. However, please keep in mind that without knowing the exact specifics of your trading system and backtest results, this example may not fully meet your needs. You may need to adjust it to fit your particular context.
 
 Here is a basic example:

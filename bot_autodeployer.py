@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bot_autodeployer.py ===
 # 🚀 Bot Auto-Deployer – Watches for file changes and auto-restarts broken bots
 
@@ -48,3 +49,6 @@ class AutoDeployer:
                 print(f"[AutoDeployer] ✨ Detected change in {self.bot_path}")
                 self._last_hash = current_hash
                 self._restart_bot()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

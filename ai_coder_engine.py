@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ai_coder_engine.py ===
 # 🧠 AI Coder Engine – Generates full Python files based on task input
 
@@ -31,3 +32,6 @@ Output only clean, commented Python code. No explanations.
         code = response["choices"][0]["message"]["content"]
         save_file(filename, code)
         print(f"[AICoder] ✅ File generated: {filename}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

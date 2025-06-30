@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # chill_trader.py — Defines the Chill Trader assistant persona
 
 class ChillTrader:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop a trading strategy, we will use Python and a few libraries such as pandas and yfinance to fetch the stock data. We will implement a simple moving average crossover strategy for this task.
 
 ```python

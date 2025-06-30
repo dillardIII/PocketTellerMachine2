@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and test new trading strategies, we need to consider a few things:
 
 1. Data: We need historical stock price data. We can use Python's `pandas_datareader` to fetch data from various Internet sources into a pandas DataFrame.

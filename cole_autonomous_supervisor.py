@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import subprocess
 import time
 import os
@@ -58,3 +59,6 @@ if __name__ == "__main__":
     # while True:
     #     print("[SUPERVISOR]: Monitoring in simulated mode...")
     #     time.sleep(60)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

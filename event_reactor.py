@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # event_reactor.py
 # Purpose: React to system events and route them to proper routines or modules
 
@@ -39,15 +40,11 @@ class EventReactor:
         module = "mood_reactor"
         self.registry.call_tool(module)
         self.orchestrator.run_full_diagnostic_sequence()
-        return self.orchestrator.trigger_new_module("loss_response", reason, "def run(): print('Handling loss.')", "event:trade_loss")
-
-    def route_trade_win(self, payload):
+        return self.orchestrator.trigger_new_module("loss_response", reason, "def run():ef route_trade_win(self, payload):
         reason = "Triggered by trade win"
         module = "celebration_reactor"
         self.registry.call_tool(module)
-        return self.orchestrator.trigger_new_module("win_response", reason, "def run(): print('Victory!')", "event:trade_win")
-
-    def route_idle_check(self, payload):
+        return self.orchestrator.trigger_new_module("win_response", reason, "def run():ef route_idle_check(self, payload):
         return self.orchestrator.run_full_diagnostic_sequence()
 
     def route_new_command(self, payload):

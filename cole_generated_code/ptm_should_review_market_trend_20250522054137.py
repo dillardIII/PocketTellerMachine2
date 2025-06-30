@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI model, I can provide you with a basic Python code that uses the pandas library to analyze market trends. However, this is a simplified version and real-world trading algorithms are far more complex and require a lot more data and advanced methods to be effective. Also, it's important to note that this code doesn't make any actual trades, it just analyzes data.
 
 ```python

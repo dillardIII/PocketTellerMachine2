@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a very basic example of how a Python trading bot might initiate a trade using the Alpaca API. Please note that this is a simplified example and real-world trading involves much more complexity.
 
 ```python

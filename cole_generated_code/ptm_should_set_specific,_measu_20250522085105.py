@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help you write a Python code to track the progress of PTM's wins and losses. However, I need more specific details about the data structure and what exactly you want to track. Here's a simple example of how you might set up a class to track wins and losses:
 
 ```python

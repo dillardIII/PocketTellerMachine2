@@ -1,5 +1,6 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: soul_of_trade.py ===
-# 💎 Soul of Trade – Stores the emotional + memory imprint of each trade for future reflection
+# 💎 Soul of Trade – Stores the emotional + memory imprint(of each trade for future reflection)
 
 import json
 from datetime import datetime

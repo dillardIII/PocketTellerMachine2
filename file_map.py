@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: file_map.py ===
 
 # 🧠 File Map – Stores file names and their contents for GPT auto-drop
@@ -43,3 +44,6 @@ def system_check():
 system_check()
 '''
 })
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Depending on the Trading API you are using the actual steps and functions could be different. However, provided that no specific trading platform or API is mentioned, this is a basic example that you could adapt to your specific needs:
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: gpt_drop_agent.py ===
 # 🚚 Drop Agent – ChatGPT side drops files into the bridge
 
@@ -29,3 +30,6 @@ def drop_files_to_bridge():
             print(f"[Drop Agent] ❌ Error: {e}")
 
         time.sleep(5)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

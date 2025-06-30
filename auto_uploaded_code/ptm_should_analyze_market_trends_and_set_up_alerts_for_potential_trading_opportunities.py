@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we would need to use a library like pandas for data analysis and manipulation, yfinance to download historical market data from Yahoo finance, and matplotlib for data visualization. 
 
 Here's a simple example of how you might set up a system to analyze market trends and set up alerts for potential trading opportunities. This example only considers simple moving averages as a trading signal, but you could incorporate more complex algorithms or machine learning models to make more accurate predictions.

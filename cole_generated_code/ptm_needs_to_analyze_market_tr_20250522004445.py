@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code that uses the yfinance library to get the stock data and pandas to analyze it. This code will identify the stocks with the highest percentage increase for the day.
 
 Please note that this is a very basic example and real-world trading algorithms are much more complex and take into account many other factors.

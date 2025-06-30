@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: replit_ai_orchestrator.py ===
 # 🤖 Replit AI Orchestrator – auto-writes empire modules from voice or console and queues them
 # 🚀 Integrates with GPT Task Queue to achieve autonomous empire expansion
@@ -49,3 +50,6 @@ def interactive_orchestration_loop():
 
 if __name__ == "__main__":
     interactive_orchestration_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide you with a simple Python code example of a basic trading strategy. However, please note that this is a very simplified example and real-world trading strategies are much more complex and involve various factors such as risk management, market analysis, and more.
 
 Let's implement a simple moving average crossover strategy. This strategy is based on the idea that if the short-term moving average crosses the long-term moving average, it may be a signal of future price trends.

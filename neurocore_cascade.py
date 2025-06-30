@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 NeuroCore Cascade Engine
 Simulates recursive thought processes, idea propagation, and layered reasoning cycles.
@@ -38,3 +39,6 @@ def generate_variation(text):
 # Example Usage:
 if __name__ == "__main__":
     cascade_thought("should PTM auto-evolve?", depth=4)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

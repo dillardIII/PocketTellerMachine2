@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and data, we can use Python libraries like pandas for data manipulation and matplotlib for data visualization. However, identifying potential trading opportunities is a complex task that requires machine learning and data analysis skills. Here is a simple example of how you can analyze market trends using Python:
 
 ```python

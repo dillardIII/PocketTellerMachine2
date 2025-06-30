@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: strategy_vote_engine.py ===
 import os
 import json
@@ -19,7 +20,7 @@ def cast_vote(bot_name, thread):
         "conservative": "v1",
         "aggressive": "vX-suggested",
         "balanced": random.choice(["v1", "v2", "vX-suggested"]),
-        "risk-averse": "v1" if "exit" in thread["history"][-1]["notes"].lower() else "hold"
+        "risk-averse": "v1" if "exit" in thread["history"][-1]["notes"].lower() else "hold":
     }
 
     logic = VOTERS.get(bot_name, "balanced")
@@ -52,3 +53,6 @@ def run_strategy_vote(thread_file):
     winner = max(vote_results.items(), key=lambda x: len(x[1]))[0]
     print(f"[VOTE] Winning version: {winner}")
     return winner, vote_results
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

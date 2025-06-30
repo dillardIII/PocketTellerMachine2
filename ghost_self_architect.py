@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_self_architect.py ===
 # 👻 GHOST SELF ARCHITECT
 # Builds brand new multi-strategy indicator modules, queues them, evolves by wallet deltas.
@@ -77,3 +78,6 @@ def main():
         time.sleep(60)  # every minute builds a new multi-strategy
 if __name__ == "__main__":
     main()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

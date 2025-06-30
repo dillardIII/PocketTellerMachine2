@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: wallet_env_fetch.py ===
 from flask import Blueprint, jsonify
 from web3 import Web3
@@ -30,3 +31,6 @@ def get_balance_from_env():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

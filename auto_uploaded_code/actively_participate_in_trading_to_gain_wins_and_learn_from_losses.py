@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here's a simple implementation that uses Python to simulate trading, decide whether to buy or sell based on the simulated returns, and stores the outcomes of each trade for learning:
 
 ```python

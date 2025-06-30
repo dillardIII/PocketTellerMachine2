@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To set and track specific, measurable goals for wins and losses, we can create a Python class named `PTM` (Presume it stands for Profit Trade Management). This class will have methods to set goals, record wins and losses, and track progress. Here's a simple implementation:
 
 ```python

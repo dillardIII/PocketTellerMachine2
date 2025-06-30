@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghostmind_layer_4.py ===
 # 🧠 GhostMind Layer 4 – Pattern recognition and self-analysis layer
 

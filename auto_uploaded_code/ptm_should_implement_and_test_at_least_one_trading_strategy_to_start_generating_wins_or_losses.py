@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code that implements a basic moving average crossover strategy using pandas. Please note that this is a very basic strategy and might not generate profits in real trading. You should always backtest and refine your strategies before using them in live trading.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_healing.py ===
 # 🛠 Auto Healing Script – Repairs broken JSON logs in PTM
 
@@ -58,3 +59,6 @@ if __name__ == "__main__":
     print("[AUTO HEALING] 🔍 Starting JSON log healer...")
     healed, skipped = heal_all_json_logs()
     print(f"[AUTO HEALING] ✅ {len(healed)} healed, ❌ {len(skipped)} failed.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

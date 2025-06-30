@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to analyze market trends and opportunities for potential trades, we need to fetch market data first. We can use the `yfinance` library in Python to fetch the stock market data. Then we can use `pandas` for data manipulation and `matplotlib` for data visualization.
 
 Here is a simple example of how you can analyze market trends for a particular stock (e.g., 'AAPL'):

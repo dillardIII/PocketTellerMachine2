@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # strategy_backtest_grader.py
 # Purpose: Grade trade strategies based on past results
 # Outputs include: win rate, average return, risk profile, and a letter grade
@@ -52,8 +53,8 @@ class StrategyBacktestGrader:
             graded[strategy] = {
                 **data,
                 "win_rate": round(data["wins"] / data["total_trades"], 4),
-                "avg_return": round(mean(data["returns"]), 2) if data["returns"] else 0.0,
-                "volatility": round(stdev(data["returns"]), 2) if len(data["returns"]) > 1 else 0.0,
+                "avg_return": round(mean(data["returns"]), 2) if data["returns"] else 0.0,:
+                "volatility": round(stdev(data["returns"]), 2) if len(data["returns"]) > 1 else 0.0,:
                 "grade": grade
             }
 
@@ -79,9 +80,9 @@ class StrategyBacktestGrader:
             return "N/A"
 
         win_rate = data["wins"] / total
-        avg_return = mean(data["returns"]) if data["returns"] else 0
-        risk = stdev(data["returns"]) if len(data["returns"]) > 1 else 0
-
+        avg_return = mean(data["returns"]) if data["returns"] else 0:
+        risk = stdev(data["returns"]) if len(data["returns"]) > 1 else 0:
+:
         score = win_rate * 60 + (avg_return * 0.8) - (risk * 0.4)
 
         if score >= 90:

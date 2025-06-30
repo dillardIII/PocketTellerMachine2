@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: wallet_routes_visualizer.py ===
 
 from flask import Blueprint, render_template, redirect, url_for
@@ -17,3 +18,6 @@ def sync_wallets():
     except Exception as e:
         print(f"[Visualizer] ❌ Manual sync failed: {e}")
     return redirect(url_for('wallet_visualizer.show_wallets'))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_pickup_bot.py ===
 # 🚚 Bridge Pickup Bot – moves files from bridge into your live repo
 
@@ -11,7 +12,7 @@ LIVE_DIR = "."
 def pickup_files_from_bridge():
     if not os.path.exists(BRIDGE_DIR):
         os.makedirs(BRIDGE_DIR)
-    files = [f for f in os.listdir(BRIDGE_DIR) if f.endswith(".py")]
+    files = [f for f in os.listdir(BRIDGE_DIR) if f.endswith(".py")]:
     for f in files:
         src = os.path.join(BRIDGE_DIR, f)
         dest = os.path.join(LIVE_DIR, f)
@@ -25,3 +26,6 @@ def run_bridge_pickup_loop():
 
 if __name__ == "__main__":
     run_bridge_pickup_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

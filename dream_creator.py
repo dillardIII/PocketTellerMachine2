@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🌌 Dream Creator – builds wild new business or channel ideas in downtime.
 
 import os
@@ -26,3 +27,6 @@ def generate_dream():
 
 if __name__ == "__main__":
     generate_dream()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

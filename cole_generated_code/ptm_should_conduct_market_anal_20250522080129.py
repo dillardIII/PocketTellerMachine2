@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct market analysis, we would need access to market data. For this task, we will use the `yfinance` library in Python which allows us to download stock data from Yahoo Finance. We will analyze the data using the `pandas` library.
 
 Here is a simple Python script that downloads the historical market data for a specific stock, calculates its moving averages, and identifies potential trading opportunities based on the crossover strategy.

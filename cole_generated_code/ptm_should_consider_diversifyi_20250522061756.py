@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To diversify a portfolio, you need to select different types of investments. This can be done by using different strategies such as investing in different sectors, different regions, etc. Here is a simple Python code that simulates diversifying a portfolio by investing in different sectors.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: tamper_guard.py ===
 # 🛡️ Tamper Guard – Protects your AI from reverse engineering or unauthorized tampering.
 # 💀 If violated, will shred itself immediately.
@@ -65,3 +66,6 @@ while True:
     check_integrity()
     verify_self_integrity()
     time.sleep(30)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and implement a variety of trading strategies, we can use Python libraries such as pandas for data manipulation, yfinance to download stock price data, and numpy for numerical computations. Here's an example of two simple trading strategies: Moving Average Crossover and Mean Reversion.
 
 Please note that this is a simplified example and real trading strategies would require much more complex algorithms, risk management, and careful consideration of transaction costs.

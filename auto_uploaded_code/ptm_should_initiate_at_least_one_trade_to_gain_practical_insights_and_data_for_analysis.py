@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a simple example of a Python code that uses an API to make a trade. In this example, I'll use the Alpaca API, which is a popular choice for algorithmic trading. Please replace the placeholders with your actual API key and secret.
 
 ```python

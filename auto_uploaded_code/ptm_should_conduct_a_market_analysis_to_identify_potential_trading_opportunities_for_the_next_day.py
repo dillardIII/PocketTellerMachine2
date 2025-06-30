@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct a market analysis, we would need to fetch data from a market data source. For this example, let's use Yahoo Finance data and the `yfinance` library in Python. We'll also use `pandas` for data manipulation and `matplotlib` for data visualization.
 
 Please note that this is a very basic analysis and does not take into account many factors that could influence trading decisions.

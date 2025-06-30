@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate trades, we will need to create a simple trading bot using Python. Here's a basic example of how it can be done using a fictional trading API:
 
 ```python

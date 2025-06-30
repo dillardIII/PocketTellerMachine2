@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # dream_infusion_hub.py
 """
 Module: Dream Infusion Hub
@@ -48,3 +49,6 @@ def initiate_dream_cycle(persona="Spectra", mood="neutral"):
         print(f"[DreamCycle] 🌌 {persona} dreamed about: {dream['topic']}")
     except Exception as e:
         print(f"[DreamCycle] ❌ Logging failed: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

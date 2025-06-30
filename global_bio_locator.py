@@ -1,4 +1,5 @@
-# 🌍 Global Biometric Locator – Always finds you by typing pattern or minor facial cues if connected
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
+# 🌍 Global Biometric Locator – Always finds you by typing pattern or minor facial cues if connected:
 import random, time
 
 def detect_signature():
@@ -11,3 +12,6 @@ def detect_signature():
 while True:
     detect_signature()
     time.sleep(180)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

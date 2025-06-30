@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_transfer_daemon.py ===
 # 📡 Bridge Transfer Daemon – Transfers files between GPT-side and Replit-side bridges in real time
 

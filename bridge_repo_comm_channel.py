@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_repo_comm_channel.py ===
 """
 Bridge Repo Communication Channel
@@ -63,7 +64,7 @@ def read_comm_status():
     except:
         return {}
 
-# === NEW: Send a message as if pushing code or sync to repo ===
+# === NEW: Send a message as if pushing code or sync to repo ===:
 def send_to_repo(commit_msg="Auto sync commit", bot_id="replit_bot"):
     print(f"[Repo] 📤 Sending to repo... ({bot_id})")
     update_comm_status(bot_id, "online", commit_msg)
@@ -80,3 +81,6 @@ def get_repo_status():
     github = status.get("github_bot", {})
     print(f"[Repo] 📥 GitHub bot status: {github.get('status', 'unknown')} | Last: {github.get('last_ping', 'n/a')}")
     return github
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Dream Network Syncer:
 Synchronizes dream-originated concepts and symbolic memory across devices in GhostBridge.
@@ -44,3 +45,6 @@ def sync_dream_network():
     merged = merge_dreams(dream_pools)
     save_merged_dreams(merged)
     print(f"[DreamNetworkSyncer] Synced {len(merged)} dream-symbol entries across {len(DEVICES)} devices.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Certainly! Let's create an empire utility in Python. This utility will simulate the management of a fictional medieval kingdom. It will help the user manage resources, expand territories, and keep the population satisfied.
 
 ### Kingdom Management Utility
@@ -99,3 +100,6 @@ if __name__ == "__main__":
 4. **Menu System**: Users interact with the utility through a menu-driven interface.
 
 This utility can serve as a simple starting point for more complex simulation games, allowing for expansion with more features such as trade, wars, and alliances.
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

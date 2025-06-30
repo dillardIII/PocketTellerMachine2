@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To implement and test different trading strategies, you would need to use a backtesting framework. Backtesting is the process of testing a trading strategy on relevant historical data to ensure its viability before the trader risks any actual capital. 
 
 Here is a simple Python code using the `bt` library, which is a flexible backtesting framework for Python used to test quantitative trading strategies.

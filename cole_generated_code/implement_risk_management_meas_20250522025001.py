@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code to implement risk management measures. This code calculates the risk of a trade and only allows the trade to proceed if the risk is within a certain limit.
 
 ```python

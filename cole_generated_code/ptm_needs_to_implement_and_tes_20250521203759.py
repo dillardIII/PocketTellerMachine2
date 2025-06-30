@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code to implement and test two different trading strategies. The strategies are Moving Average Crossover and Buy and Hold. We will use the `yfinance` library to download stock data and `pandas` to manipulate the data.
 
 ```python

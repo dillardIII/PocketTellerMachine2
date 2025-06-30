@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate trades and gather data on wins and losses, we would need to interact with a trading API. Here is a simple example of how you might do this using the Alpaca API, a popular choice for algorithmic trading. 
 
 Please note that this is a simplified example and a real trading bot would need to be much more complex to be effective. Also, remember that trading involves risk and should only be done with a thorough understanding of the process.

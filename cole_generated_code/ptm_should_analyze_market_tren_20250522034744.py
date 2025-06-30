@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and data to identify potential winning trades, you would typically use a combination of data analysis libraries in Python such as pandas, numpy, and matplotlib for visualization. You would also need to use a financial data source, such as Yahoo Finance, which can be accessed using the yfinance library.
 
 Here is a simple example of how you might implement this:

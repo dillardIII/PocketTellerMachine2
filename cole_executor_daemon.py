@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_executor_daemon.py
 
 import time
@@ -26,3 +27,6 @@ def run_daemon_loop(interval=300):
 
 if __name__ == "__main__":
     run_daemon_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

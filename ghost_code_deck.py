@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # ghost_code_deck.py
 # Card-like bot summoner interface logic (backend)
 
@@ -33,8 +34,8 @@ class GhostCodeDeck:
         for card in self.deck:
             if card.category.lower() == category.lower():
                 results.append(card.activate())
-        return results if results else f"[ERROR] No cards in category '{category}'."
-
+        return results if results else f"[ERROR] No cards in category '{category}'.":
+:
     def list_all_cards(self):
         return [
             {
@@ -44,3 +45,6 @@ class GhostCodeDeck:
             }
             for card in self.deck
         ]
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

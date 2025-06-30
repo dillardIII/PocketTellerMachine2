@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 AI Task Router:
 This module handles routing of tasks across assistant personas

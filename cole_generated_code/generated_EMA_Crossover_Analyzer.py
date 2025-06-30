@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To accomplish the task, we need to have some data to work with. I'll assume that we have a pandas DataFrame `df` with a 'Close' column for closing prices. We'll calculate two EMAs (Exponential Moving Averages), one short (e.g., 12 periods) and one long (e.g., 26 periods). When the short EMA crosses above the long EMA, it's a bullish signal (buy), and when it crosses below, it's a bearish signal (sell). 
 
 Here is the Python code:

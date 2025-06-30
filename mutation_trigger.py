@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: mutation_trigger.py ===
 from strategy_mutator import mutate_strategy
 from mutation_lineage import log_mutation
@@ -8,3 +9,6 @@ def evolve_after_loss(original_path, bot_name="GeneLab", loss_reason="3 losses")
         log_mutation(original_path, new_path, reason=loss_reason)
         return new_path
     return None
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

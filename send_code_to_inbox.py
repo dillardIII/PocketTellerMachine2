@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import json
 import os
 from datetime import datetime
@@ -41,3 +42,6 @@ if __name__ == "__main__":
 """
 send_code_command("cole_auto_generated_strategy_phase5.py", example_code)
 print("[CHATGPT SIMULATION]: Code command sent to inbox.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code snippet that simulates a trading bot. It uses random numbers to simulate wins and losses. Please note that this is a very basic example and real trading bots use complex algorithms and real-time data to make decisions.
 
 ```python

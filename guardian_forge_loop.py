@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: guardian_forge_loop.py ===
 # 🛡️ Guardian Forge Loop – monitors all PTM directories & heals by invoking self-forge
 
@@ -43,3 +44,6 @@ def guardian_loop():
         time.sleep(45)  # Check every 45 seconds
 if __name__ == "__main__":
     guardian_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

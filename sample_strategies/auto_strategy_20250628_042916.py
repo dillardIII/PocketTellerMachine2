@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 
 def run_strategy():
     print("[auto_strategy_20250628_042916.py] Executing strategy with threshold 53.25")

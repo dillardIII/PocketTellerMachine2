@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: utils/logger.py ===
 # 🧾 Logger Utility – Tracks PTM activities, repairs, scans, transfers, and events
 

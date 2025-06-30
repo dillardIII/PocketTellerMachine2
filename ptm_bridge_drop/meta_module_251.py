@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presumably "Partially Trustworthy Machine") empire's self-evolving autonomy stack involves creating a system that can adapt and improve over time. To do this, we can leverage recursive strategies, where the system not only performs tasks but also continuously refines its processes and decision-making abilities. Here’s a conceptual outline of how you can structure such a module:
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: build_voting_station.py ===
 import os
 import json
@@ -37,3 +38,6 @@ def promote_champion(build_name):
     with open(CHAMPION_FILE, "w") as f:
         f.write(build_name)
     print(f"[🏆] Promoted champion: {build_name}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

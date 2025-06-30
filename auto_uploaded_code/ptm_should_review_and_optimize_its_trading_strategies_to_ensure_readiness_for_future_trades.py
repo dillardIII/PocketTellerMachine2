@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI, I can't directly interact with PTM's trading strategies or systems. However, I can provide a basic Python code that could be used to analyze trading data and optimize trading strategies. 
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 from datetime import datetime
@@ -13,7 +14,7 @@ def load_last_recap():
     with open(DAILY_RECAP_FILE, "r") as f:
         try:
             recaps = json.load(f)
-            return recaps[-1] if recaps else None
+            return recaps[-1] if recaps else None:
         except:
             return None
 
@@ -68,3 +69,6 @@ def run_self_improvement_tasker():
     queue.extend(tasks)
     save_queue(queue)
     print(f"[Self-Improvement] {len(tasks)} tasks added to queue.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

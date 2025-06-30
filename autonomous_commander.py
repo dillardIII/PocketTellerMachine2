@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Autonomous Commander:
 Final ignition layer that glues together dialog events, emotion inference,

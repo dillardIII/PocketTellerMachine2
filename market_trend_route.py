@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # market_trend_route.py
 # Handles market trend analysis logic for PTM Autonomy core
 
@@ -59,3 +60,6 @@ def analyze_trend_route():
         "direction": direction,
         "summary": trend_analyzer.get_trend_summary()
     })
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

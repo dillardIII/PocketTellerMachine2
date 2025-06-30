@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI assistant, I need more specific details to provide an accurate solution. However, I can give you a basic example of a screener bot using Python. This bot will use the `yfinance` library to download stock data and calculate momentum. Please adjust the code according to your needs.
 
 ```python

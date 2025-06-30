@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ptm_autoboot.py ===
 
 # 🧠 PTM Autoboot – Unified startup sequence that launches all bots, bridge agents, UI routes, vault, and repair engine
@@ -84,3 +85,6 @@ def home():
 if __name__ == "__main__":
     start_everything()
     app.run(host="0.0.0.0", port=8080, debug=True)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

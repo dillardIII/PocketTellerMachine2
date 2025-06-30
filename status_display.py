@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: status_display.py ===
 # 📊 Status Display – Gathers live bot status for UI and JSON calls
 
@@ -27,3 +28,6 @@ def update_bot_status(name, state):
 
 if __name__ == "__main__":
     print(get_bot_status())
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

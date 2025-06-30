@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # Perform a system diagnostic to ensure trading operations are running smoothly, today's lack of trading activity may be due to technical issues
 # 
 

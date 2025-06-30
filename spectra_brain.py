@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 #=== FILE: spectra_brain.py ===
 
 """ SpectraBrain – Autonomous Strategic Intelligence for PTM Spectra reads system data, logs, commands, and forecasts to:
@@ -15,9 +16,7 @@ import os import json import time from datetime import datetime from utils.logge
 
 BRIDGE_OUTBOX = "bridge/outbox" SPECTRA_LOG = "logs/spectra_activity.json" os.makedirs(BRIDGE_OUTBOX, exist_ok=True)
 
-class SpectraBrain: def init(self): self.forge = GhostForge(persona="Spectra") self.thought_log = [] self.load_log()
-
-def load_log(self):
+class SpectraBrain: def init():ef load_log(self):
     if os.path.exists(SPECTRA_LOG):
         try:
             with open(SPECTRA_LOG, "r") as f:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_performance_tracker.py ===
 # Tracks Cole’s decision results AND activates REPL AI to inspect all autonomy files
 
@@ -62,8 +63,8 @@ def initiate_repl_file_integrity_audit():
             "✅ Check all code written by lead dev",
             "✅ Audit all autonomy-related logic",
             "✅ Detect and flag bad imports, broken calls, or unfinished logic",
-            "✅ Determine if system can self-govern without user input",
-            "✅ Report if autonomy is possible: TRUE or FALSE"
+            "✅ Determine if system can self-govern without user input",:
+            "✅ Report if autonomy is possible: TRUE or FALSE":
         ]
     }
 
@@ -82,3 +83,6 @@ def get_recent_results(limit=10):
     with open(PERFORMANCE_LOG_PATH, "r") as f:
         data = json.load(f)
         return data[-limit:]
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

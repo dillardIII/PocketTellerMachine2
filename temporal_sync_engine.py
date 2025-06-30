@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Temporal Sync Engine
 Adds time-based awareness, event threading, and predictive continuity to PTM.

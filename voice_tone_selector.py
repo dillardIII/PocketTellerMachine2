@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: voice_tone_selector.py ===
 # 🎙️ Voice Tone Selector – Picks voice style by mood, situation, or user preference
 
@@ -20,3 +21,6 @@ class VoiceToneSelector:
 if __name__ == "__main__":
     selector = VoiceToneSelector()
     print(selector.get_tone("Focused"))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

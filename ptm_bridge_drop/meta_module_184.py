@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module for the PTM (Presumably a hypothetical entity) empire’s self-evolving autonomy stack involves creating a system that can adapt and improve itself over time. To achieve this, we can implement recursive strategies that allow reflective learning, self-optimization, and dynamic adaptation.
 
 Here's a high-level design outline for such a module:

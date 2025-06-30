@@ -1,42 +1,29 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_qubit_optimizer.py ===
-# 👻 GHOST QUBIT OPTIMIZER
-# Runs quantum-inspired tweaks on entropy pools.
+# 👻 Fakes running quantum optimizations on entropy pools.
 
-import json
+import os
 import random
 import time
-from datetime import datetime
+from dotenv import load_dotenv
 
-CHAOS_FILE = "ghost_chaos.json"
-LOGBOOK_FILE = "vault_logbook.txt"
+load_dotenv()
+INFURA_KEY = os.getenv("INFURA_KEY")
+VAULT_ADDRESS = os.getenv("VAULT_ADDRESS")
 
-def log_action(message):
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    with open(LOGBOOK_FILE, "a") as f:
-        f.write(f"[{timestamp}] {message}\n")
+if not INFURA_KEY or not VAULT_ADDRESS:
+    print("[FATAL] Missing INFURA_KEY or VAULT_ADDRESS in .env!")
+    exit(1)
 
-def quantum_bias():
-    try:
-        with open(CHAOS_FILE, "r") as f:
-            entropy = json.load(f)
-    except FileNotFoundError:
-        entropy = []
+print(f"[qubit_optimizer] 👻 Loaded .env with INFURA_KEY={INFURA_KEY[:6]}... VAULT={VAULT_ADDRESS[:8]}...")
 
-    # simulate by flipping some bits or rearranging hex
-    for i in range(len(entropy)):
-        s = entropy[i][2:]  # strip '0x'
-        mutated = ''.join(random.choice([c.upper(), c.lower(), random.choice('abcdef0123456789')]) for c in s)
-        entropy[i] = "0x" + mutated[:64]
+def optimize_qubits():
+    bias = random.random()
+    print(f"[qubit_optimizer] ⚛️ Quantum bias applied: {bias:.6f}")
 
-    with open(CHAOS_FILE, "w") as f:
-        json.dump(entropy, f, indent=4)
-    log_action("[ghost_qubit_optimizer] ⚛️ Ran quantum bias on entropy pool.")
+while True:
+    optimize_qubits()
+    time.sleep(3)
 
-def main():
-    print("[ghost_qubit_optimizer] 👻 Running qubit optimizer...")
-    while True:
-        quantum_bias()
-        time.sleep(30)
-
-if __name__ == "__main__":
-    main()
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

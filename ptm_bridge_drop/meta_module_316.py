@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new Python module that focuses on enhancing the self-evolving capabilities of PTM (Presumably a hypothetical autonomous system) involves designing a system that can learn, adapt, and optimize its behavior over time. The module will leverage recursive strategies, enabling adaptive learning and decision-making processes. Below is a conceptual design of such a module.
 
 ### Module: `auto_evolve`

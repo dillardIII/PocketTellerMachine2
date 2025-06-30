@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to develop a trading strategy, we need to define some rules or conditions under which we will buy or sell the stocks. Here is a simple Python code for a trading strategy using moving average crossover. This strategy is based on two moving averages, a "fast" moving average (short term) and a "slow" moving average (long term). When the fast moving average crosses above the slow moving average, it's a signal to buy. When the fast moving average crosses below the slow moving average, it's a signal to sell.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module to expand the PTM (Presumably an abbreviation such as "Path to Mastery") empire's self-evolving autonomy stack requires integrating recursive strategies, machine learning algorithms, and self-improvement mechanics. Here’s a conceptual outline for such a Python module:
 
 ### Module Overview: `ptm_autonomy`

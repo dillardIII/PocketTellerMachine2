@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code for Risk Management. In this example, we calculate Value at Risk (VaR) for a portfolio. VaR is a financial metric that estimates the risk of investment. 
 
 Please note that risk assessment and management for trading are very complex topics and involve several methods and techniques. This code only provides the most basic risk assessment.

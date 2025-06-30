@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we'll need to use Python libraries like pandas for data manipulation, matplotlib for data visualization, and yfinance to download the stock data. Here's a simple example of how you might start to analyze market trends and patterns using Python:
 
 ```python

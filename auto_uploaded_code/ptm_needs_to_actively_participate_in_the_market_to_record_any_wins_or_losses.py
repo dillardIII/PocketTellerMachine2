@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to actively participate in the market and record any wins or losses, PTM would need to keep track of its trades. Here is a simple Python code that could simulate this process:
 
 ```python

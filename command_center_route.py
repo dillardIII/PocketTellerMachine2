@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: command_center_route.py ===
 # 🧭 Command Center Route – Central routing commands for PTM mission control and AI ops
 
@@ -46,3 +47,6 @@ def command_center_status():
             "Drill Instructor"
         ]
     })
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

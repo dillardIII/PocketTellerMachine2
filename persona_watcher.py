@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: persona_watcher.py ===
 # 👁️ Persona Watcher – Monitors each AI assistant's operational status
 
@@ -11,8 +12,8 @@ LOG_FILE = "logs/persona_watch.log"
 STATUS_FILE = "ui/persona_status.json"
 
 def get_persona_files():
-    return [f for f in os.listdir(WATCH_PATH) if f.endswith(".json")]
-
+    return [f for f in os.listdir(WATCH_PATH) if f.endswith(".json")]:
+:
 def check_persona(file):
     try:
         with open(os.path.join(WATCH_PATH, file), "r", encoding="utf-8") as f:
@@ -50,3 +51,6 @@ def persona_watch_loop():
         write_persona_status(statuses)
         log_status_update(statuses)
         time.sleep(60)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

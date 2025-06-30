@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we would need to use a combination of data analysis and machine learning techniques. Here's a simple example of how we might approach this using Python. We'll use the `pandas` library for data analysis and `yfinance` to download stock data.
 
 Please note that this is a very basic example and real-world trading algorithms can be extremely complex. Also, this script doesn't actually predict anything, it just analyzes the data.

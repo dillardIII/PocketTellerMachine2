@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: hotloader.py ===
 # ♻️ Hotloader – Dynamically imports or reloads modules dropped into the system without restarting PTM
 
@@ -34,3 +35,6 @@ def watch_and_load(interval=5):
             time.sleep(interval)
         except Exception as e:
             print(f"[Hotloader] ⚠️ Error loading module: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

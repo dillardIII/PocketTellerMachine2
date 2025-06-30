@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 ghostcore_autonomy_boot.py
 
 """ GhostCore Autonomy Boot Module This is the root runner for initializing full autonomous bot logic. This script establishes core signal loops, memory sync, runtime chains, and AI persona channel assignments. """
@@ -6,9 +7,7 @@ import asyncio import json import os from modules.signal_router import SignalRou
 
 logger = Logger("ghostcore")
 
-class GhostCore: def init(self): self.signal_router = SignalRouter() self.persona_loader = PersonaLoader() self.memory_bridge = MemoryBridge() self.runtime_chain = RuntimeChain() self.autonomous_loop = AutonomousLoop( router=self.signal_router, memory=self.memory_bridge, personas=self.persona_loader, chain=self.runtime_chain )
-
-async def boot(self):
+class GhostCore: def init():sync def boot(self):
     logger.info("🔁 GhostCore Booting...")
 
     await self.memory_bridge.load()
@@ -18,5 +17,9 @@ async def boot(self):
     logger.info("🧠 All systems ready. Starting Autonomous Loop...")
     await self.autonomous_loop.run()
 
-if name == "main": core = GhostCore() try: asyncio.run(core.boot()) except KeyboardInterrupt: logger.warn("👋 Shutdown command received. Exiting GhostCore...")
+if name == "main": core = GhostCore() try: asyncio.run(core.boot()) except KeyboardInterrupt: logger.warn("👋 Shutdown command received. Exiting GhostCore..."):
+:
 
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

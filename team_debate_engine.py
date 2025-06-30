@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: team_debate_engine.py ===
 import json
 from datetime import datetime
@@ -41,3 +42,6 @@ def resolve_debate(debate):
 
     print(f"[DEBATE] Winner: {debate['winner']} on topic '{debate['topic']}'")
     return debate["winner"]
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

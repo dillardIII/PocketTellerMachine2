@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To create an EMA (Exponential Moving Average) Crossover Analyzer, we'll need to use a library like pandas for data manipulation and matplotlib for data visualization. Here's a simple example of how you might do this:
 
 ```python

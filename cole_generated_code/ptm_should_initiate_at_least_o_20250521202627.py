@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate a trade and gain insights into market trends, we can use the yfinance library in Python. This library allows us to download historical market data from Yahoo finance, which we can then analyze to gain insights.
 
 Here is a simple example of how you might use yfinance to initiate a trade:

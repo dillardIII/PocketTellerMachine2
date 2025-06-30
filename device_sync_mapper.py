@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🌐 Device Sync Mapper – Tracks active PTM-connected devices and assigns scan zones
 
 import json

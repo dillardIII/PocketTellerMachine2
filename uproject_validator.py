@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: uproject_validator.py ===
 
 # 🧾 UProject Validator – Detects missing or corrupted Unreal project files
@@ -41,3 +42,6 @@ def validate_uproject():
 
 if __name__ == "__main__":
     validate_uproject()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

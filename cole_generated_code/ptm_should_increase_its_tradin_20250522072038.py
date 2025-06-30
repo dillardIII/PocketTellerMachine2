@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To increase PTM's trading activity, we would need to automate the trading process. Here is a simple Python code that uses a random trading strategy to increase trading activity. This code uses the `yfinance` library to download stock data and `pandas` to handle the data.
 
 Please note that this is a very basic example and in a real scenario, you would need a much more sophisticated trading strategy and risk management.

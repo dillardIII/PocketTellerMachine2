@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python script that sets trading goals for the day. This script assumes that you have a `Trader` class with methods for setting and getting trading goals.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ai_hub_conference.py ===
 # 🤖 AI Hub Conference – Strategy and operations meeting between PTM core AI personas
 

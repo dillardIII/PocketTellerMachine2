@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_data_gatherer.py ===
 
 import yfinance as yf
@@ -58,3 +59,6 @@ if __name__ == "__main__":
     enriched_data = gather_and_enrich("AAPL")
     if enriched_data is not None:
         print(enriched_data.tail(5))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

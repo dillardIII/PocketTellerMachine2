@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 It sounds like you're asking for a Python script that could be used to analyze financial data and identify potential investment opportunities. Python is often used for this kind of work, but it's important to note that financial analysis is a complex task that requires significant expertise in both finance and, to some degree, data analysis.
 
 Here's a very simple example of how you might begin to approach this. In this example, we will utilize the `yfinance` library (which connects to the Yahoo Finance API) to download historical data for a given stock, compute its daily return, and plot it.

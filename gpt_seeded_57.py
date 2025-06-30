@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a utility for strategy or empire games can involve a wide range of functionalities, from resource management to AI decision-making aids, or even map generation. Below, I'll describe a simple Python utility function that could be part of a larger strategy game. This utility generates a map with different terrain types, which could be used for various purposes like determining movement costs, resource availability, or combat effectiveness.
 
 We'll use a basic noise generation method to create diverse terrain patterns, leveraging the Perlin noise algorithm for natural-looking terrain.
@@ -93,3 +94,6 @@ if __name__ == "__main__":
 - **Expanded Terrain Types**: Introduce additional terrain types like desert, tundra, etc.
 
 This map generator can serve as a core component of a larger game system, establishing the foundational terrain over which strategic decisions will be made.
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

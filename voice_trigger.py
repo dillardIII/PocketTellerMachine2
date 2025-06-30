@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: voice_trigger.py ===
 # 🎙️ Voice Trigger – Uses OpenAI Whisper API to transcribe uploaded voice file and pass it to PTM
 
@@ -24,3 +25,6 @@ class VoiceTrigger:
 
         except Exception as e:
             print(f"[VoiceTrigger] ❌ Transcription failed: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

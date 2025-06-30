@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # ai_tool_extractor.py – Extracts AI tool mentions from scraped content
 
 import re
@@ -19,3 +20,6 @@ def extract_ai_tools(text):
             found.append(tool)
     print(f"[AI Extractor] ✅ Found {len(found)} tools: {found}")
     return found
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

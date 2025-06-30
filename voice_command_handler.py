@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: voice_command_handler.py ===
 # 🗣️ VoiceCommandHandler – Routes spoken commands to PTM systems like GhostForge, Sweep, Recon, etc.
 

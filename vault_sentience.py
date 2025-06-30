@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: vault_sentience.py ===
 # 🏦 Vault Sentience – grows wealth memory and payout triggers
 
@@ -32,3 +33,6 @@ def vault_loop():
         save_vault(vault)
         print(f"[VaultSentience] 💎 Added valuation: {valuation}")
         time.sleep(50)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 GhostBot Listener – Handles code drops, imports modules, and optionally executes them.
 Supports hybrid mode: auto-run only if `run_immediately: true` is in the payload.

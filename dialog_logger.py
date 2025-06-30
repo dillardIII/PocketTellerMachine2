@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Dialog Logger:
 Records interactions between assistants for playback, learning, and continuity.
@@ -58,3 +59,6 @@ def get_recent_dialogs(limit=10):
 if __name__ == "__main__":
     log_dialog("MoCash", "Mentor", "That trade was lit!", "Indeed, but let's stay focused.", "win")
     print(get_recent_dialogs())
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

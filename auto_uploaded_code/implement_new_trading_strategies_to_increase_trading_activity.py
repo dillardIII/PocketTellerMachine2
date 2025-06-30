@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, let's assume that the trades are executed with respect to a basic moving average crossover strategy which can be implemented as following:
 
 ```python

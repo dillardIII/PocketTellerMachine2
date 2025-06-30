@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import time
 from ghostbuild_engine import ghostbuild_task
 
@@ -14,3 +15,6 @@ if __name__ == "__main__":
         ghostbuild_thinker()
         print("[GhostThinker] Sleeping for 1 hour...")
         time.sleep(3600)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: rebuild_command_listener.py ===
 # 🔧 Rebuilds command_listener.py – Voice + Text Command Interface
 
@@ -16,3 +17,6 @@ class CommandListener(threading.Thread):
                 print(f"[CommandListener] ❌ {e}")
 ''')
 print("[rebuild_command_listener] ✅ command_listener.py rebuilt.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

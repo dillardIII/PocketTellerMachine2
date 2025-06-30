@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🚀 GhostOS Launcher – Boots up GhostOS modules, starts error handling and monitoring
 
 import subprocess

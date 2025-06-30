@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To implement and test new trading strategies, we can create a simple Python script that uses a basic trading strategy as an example. Here, we will use the Moving Average Crossover strategy. This strategy is one of the most commonly used strategies in trading. It involves two moving averages, one short-term and one long-term. When the short-term average crosses above the long-term average, it signals a buy opportunity, and when it crosses below, it signals a sell opportunity.
 
 Please note that you need to install pandas, numpy, matplotlib and yfinance libraries to run this script. You can install them using pip:

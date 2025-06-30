@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to analyze market trends and identify potential trading opportunities, we can use Python libraries such as pandas for data manipulation, yfinance to download the stock data, and matplotlib for visualization. Here is a simple example:
 
 ```python

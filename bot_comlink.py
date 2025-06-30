@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bot_comlink.py ===
 
 import json
@@ -57,8 +58,8 @@ def fetch_messages(bot_id):
         if msg["to"] == bot_id or msg["to"] == "broadcast":
             inbox.append(msg)
         else:
-            active.append(msg)  # keep if not for this bot
-
+            active.append(msg)  # keep if not for this bot:
+:
     save_messages(active)
     return inbox
 
@@ -70,3 +71,6 @@ if __name__ == "__main__":
     msgs = fetch_messages("Mentor")
     for msg in msgs:
         print(f"[Inbox] {msg['from']} says: {msg['content']}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

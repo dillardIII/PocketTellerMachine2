@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_mind_unified.py ===
 # 👻 GHOST MIND UNIFIED CREATURE
 # Fuses GhostSensory + GhostChaos + GhostDNA into one living system.
@@ -153,3 +154,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

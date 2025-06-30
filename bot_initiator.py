@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bot_initiator.py ===
 from team_comm_router import build_packet, send_packet
 from team_listener import listen_for_packets
@@ -20,3 +21,6 @@ def example_listen():
 if __name__ == "__main__":
     example_send()
     example_listen()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

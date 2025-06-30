@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # generate_intel_voice.py
 
 import requests
@@ -46,3 +47,6 @@ def generate_malik_intel_mp3(ticker="TSLA"):
 
 if __name__ == "__main__":
     generate_malik_intel_mp3("TSLA")  # Change "TSLA" to test other tickers
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

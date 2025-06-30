@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple example of how you might implement and test a few basic trading strategies in Python. We'll use pandas for data manipulation and backtrader for backtesting.
 
 ```python

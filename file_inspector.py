@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: file_inspector.py ===
 # 🧐 Empire File Inspector – checks for duplicate files & content
 
@@ -50,3 +51,6 @@ def inspect_files():
 
 if __name__ == "__main__":
     inspect_files()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

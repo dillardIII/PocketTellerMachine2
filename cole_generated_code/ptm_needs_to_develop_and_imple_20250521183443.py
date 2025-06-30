@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide you with a simple example of a pair trading strategy using Python. This strategy is a type of statistical arbitrage that is based on the idea that if two stocks are historically correlated, then the relative price movement of one stock can be used to forecast the price movement of the other.
 
 Here is a simple implementation of a pair trading strategy:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # replit_sync.py
 # BridgeBot Protocol: Handshake + Watchdog with Replit AI
 
@@ -25,3 +26,6 @@ def ptm_replit_sync(message: str = ""):
     print("[BridgeBot] ✅ Replit AI is now watching my output. Any failures get flagged.")
 
     return True
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

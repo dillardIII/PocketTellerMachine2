@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI, I can't analyze real-time data, but I can provide you with a Python code that uses pandas, numpy, and yfinance libraries to analyze stock data. This code will download the historical data for a specific stock, calculate its moving averages, and based on that, it will suggest whether it's a good opportunity to buy or sell.
 
 Please note that this is a very basic form of analysis and should not be used for real trading without further improvements and considerations.

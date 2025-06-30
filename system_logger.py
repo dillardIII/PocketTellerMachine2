@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: system_logger.py ===
 # Centralized logger used by all PTM bots for system events
 
@@ -45,3 +46,6 @@ def log_patch_event(file_name, status, notes=""):
     }
     print(f"[PatchLog] 🛠️ {file_name} => {status}")
     _write_log(PATCH_LOG, entry)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

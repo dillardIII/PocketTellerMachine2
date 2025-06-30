@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from assistants.malik import malik_report
 import random
 from cole_agent_competition import record_trade_result, agent_brag_or_panic
@@ -30,7 +31,7 @@ def mentor_validate(proposal):
     print(f"[MENTOR]: Approved.")
     return True
 
-# === Shadow Oversees and Forces Decision if Conflict ===
+# === Shadow Oversees and Forces Decision if Conflict ===:
 def shadow_monitor(actions):
     print(f"[SHADOW]: Overseeing team debate...")
     strategies = [a["strategy"] for a in actions]
@@ -78,3 +79,6 @@ if __name__ == "__main__":
 
     print("\n[COMPETITION MODE]:")
     ai_team_competition("TSLA")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

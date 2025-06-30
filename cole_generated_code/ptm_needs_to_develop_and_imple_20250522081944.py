@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and implement new trading strategies, we first need to have some data to work with. For that, we can use the pandas_datareader library to fetch some stock data. Then we can implement a simple moving average crossover strategy as an example.
 
 Here is a simple Python code for that:

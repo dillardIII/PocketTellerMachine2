@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI model, I can provide you with Python code that simulates trading activity for 'PTM'. However, it's essential to know that actual trading requires connecting to trading platforms via specific APIs and is subject to various regulations and permissions.
 
 Here's a simple way of simulating an increase in trading interactions using a random function in Python:

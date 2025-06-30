@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a Python module to expand the PTM (Potentially Theoretical Model) empire's self-evolving autonomy stack involves creating a framework that allows for continuous learning and adaptation. The module should focus on recursive strategies that enable the system to optimize itself through iterative feedback loops. Below is a high-level design outline and a sample implementation concept:
 
 ### Design Outline

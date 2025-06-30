@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # ai_recon_route.py
 # Defines the recon deployment logic for PTM AI scouting units
 
@@ -33,3 +34,6 @@ def recon_status():
         "intel_report": "All clear. No threats detected.",
         "units_deployed": 3
     })
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

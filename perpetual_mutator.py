@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import random
 import time
@@ -17,3 +18,6 @@ def mutate_module():
 while True:
     mutate_module()
     time.sleep(random.randint(30,90))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating an advanced and autonomous system for the PTM (Presumably a hypothetical organization) empire involves designing a Python module that leverages recursion to enhance self-evolving capabilities. We'll develop a conceptual framework for this module, named `ptm_autonomy`, focusing on recursive strategies that drive self-improvement and decision-making.
 
 Below is a conceptual design for the `ptm_autonomy` module:

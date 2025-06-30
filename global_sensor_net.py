@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🌍 Global Sensor Net – hooks into all reachable sensors & speculative telemetry
 
 import time
@@ -20,3 +21,6 @@ def sense_world():
 while True:
     sense_world()
     time.sleep(60)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

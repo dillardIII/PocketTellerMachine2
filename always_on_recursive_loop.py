@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Always-On Recursive Loop
 Keeps PTM's brain modules running on a continuous loop.

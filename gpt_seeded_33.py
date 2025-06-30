@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new "Empire Utility" in Python can be an exciting project. Let's design a simple resource management utility for a fictional empire-building game. This utility will help players track their resources, manage growth, and make strategic decisions.
 
 ### Empire Resource Management Utility
@@ -88,3 +89,6 @@ my_empire.generate_resources()
 4. **Strategic Hints**: The utility warns players about potential shortages and advises on where to focus next.
 
 This script offers a simple framework that can be expanded with more features such as trading, military actions, or technological advancements. Players can run simulations by calling different methods and making strategic decisions based on their resource status and hints.
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

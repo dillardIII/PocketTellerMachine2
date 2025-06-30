@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we would need to use a machine learning model or a complex algorithm to analyze the market conditions. However, here is a simple Python code that simulates how PTM (Program Trading Model) could adjust its trading approach based on market conditions. 
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🛰️ MetaDispatcher – registers AIs and assigns tasks
 
 import threading
@@ -48,3 +49,6 @@ class MetaDispatcher:
     def stop_task_monitor(self):
         self.loop_running = False
         print("[MetaDispatcher] 🛑 Monitor stopped.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

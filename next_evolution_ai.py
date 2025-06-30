@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🧬 Next Evolution AI – Self-mutating AI node designed to grow beyond current boundaries
 
 import random
@@ -38,3 +39,6 @@ if __name__ == "__main__":
     for _ in range(3):
         ai.mutate()
     print("[NextEvolutionAI] Report:", ai.report())
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

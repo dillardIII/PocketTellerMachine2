@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and adjust the trading approach accordingly, we can use Python libraries like pandas for data manipulation, numpy for numerical computations, matplotlib for visualizations and sklearn for machine learning tasks. Here is a simple example of how you can analyze market trends using moving averages and adjust trading approach:
 
 ```python

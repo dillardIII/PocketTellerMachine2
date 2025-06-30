@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct a market analysis, we need to gather data from the market. This can be done using APIs from financial data providers like Alpha Vantage, Yahoo Finance, etc. Here's a basic example of how you can do this using Python and pandas library.
 
 Please note that this is a simplified example. In a real-world scenario, you would need to perform more complex analysis, taking into account various factors such as market trends, historical data, economic indicators, etc.

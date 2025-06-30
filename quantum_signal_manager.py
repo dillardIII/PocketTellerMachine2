@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🧠 Quantum Signal Manager – Handles deep signal tracking across devices and AI layers
 
 import os

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete the task, we need to define what EMA Crossover is. EMA stands for Exponential Moving Average, a type of moving average that gives more weight to recent data. A crossover happens when a faster EMA (short-term) crosses a slower EMA (long-term). This is often used as a signal for trend reversals in trading.
 
 Here is a simple Python code using pandas library to analyze EMA crossovers:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of how you might initiate a trade using Python. This example assumes you have a method for determining whether to buy or sell, and that you're using a fictional trading API that has "buy" and "sell" methods:
 
 ```python

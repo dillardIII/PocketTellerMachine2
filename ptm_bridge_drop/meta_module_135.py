@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new Python module to expand the PTM (Presumably meaning Personal Transportation Module, but you might have a different context) empire's self-evolving autonomy stack involves building upon machine learning, artificial intelligence, and recursive algorithm strategies. Below is a conceptual layout for such a module, including a hypothetical design and some example code snippets to demonstrate how such a module might be structured.
 
 ### Module Name: AutoEvo

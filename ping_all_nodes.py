@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ping_all_nodes.py ===
 # 🛰️ Node Pinger – Announces device status and registers presence in the HiveMind network
 

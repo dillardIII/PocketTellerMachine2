@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand PTM (Presumably an acronym related to your project or organization) empire’s self-evolving autonomy stack requires a strategic and innovative approach. Below, I outline a conceptual design for such a module, focusing on innovative recursive strategies and self-improving mechanisms.
 
 ### Module: AutonomyExpansion

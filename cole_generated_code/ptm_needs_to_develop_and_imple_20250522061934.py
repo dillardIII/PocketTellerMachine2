@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and implement trading strategies, we would need to consider various factors like historical data, current market trends, risk tolerance, etc. Here's a simple Python code that uses a basic moving average crossover strategy for trading. This strategy is used to identify potential buy and sell signals.
 
 Please note that this is a very basic strategy and real-world trading involves much more complex strategies and risk management.

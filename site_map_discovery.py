@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # site_map_discovery.py – Discovers all available links on a target webpage for deep crawling
 
 import requests
@@ -26,3 +27,6 @@ def discover_links(url):
     except Exception as e:
         print(f"[SiteMap] ❌ Error during link discovery: {e}")
         return []
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

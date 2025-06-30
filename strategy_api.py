@@ -1,5 +1,6 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: strategy_api.py ===
-# 📊 Strategy API – Flask Blueprint with strategy generation route
+# 📊 Strategy API – Flask Blueprint(with strategy generation route)
 
 from flask import Blueprint, request, jsonify
 
@@ -22,3 +23,6 @@ def generate_strategy():
     }
 
     return jsonify(response)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 While your request is clear, Python code for trading requires detailed information such as trading signal, algorithm being used, etc. Also, increasing trading frequency might not always boost chances of winning since it can also increase the risk. 
 
 However, here is a simple example of how you could increase trading frequency in a dummy trading bot by decreasing the time between each trade. In this example, I'm using the time library.

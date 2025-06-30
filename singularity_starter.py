@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: singularity_starter.py ===
 # 🚀 Singularity Starter – Kickstarts recursive PTM evolution stack (GhostMind, MacroSmith, AutoHealer, Forge, Reflex)
 

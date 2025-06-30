@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_status_scanner.py ===
 # Monitors bridge_sync.json and reports system sync stats
 
@@ -45,3 +46,6 @@ def print_bridge_status():
 
 if __name__ == "__main__":
     print_bridge_status()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 You can create a Python file that prints the desired message by following the steps below:
 
 1. Open a text editor or an Integrated Development Environment (IDE) like Visual Studio Code, PyCharm, or even a simple one like Notepad.
@@ -22,4 +23,7 @@ To run this script, open a command prompt or terminal, navigate to the directory
 python skypiea_mode.py
 ```
 
-Make sure that you have Python installed on your system. The script will print the specified message to the console when executed.
+Make sure that you have Python installed on your system. The script will print(the specified message to the console when executed.)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

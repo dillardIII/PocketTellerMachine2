@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct a thorough market analysis, we need to use a combination of data analysis and machine learning. Here is a simple example using Python, pandas and yfinance to get the stock data, and then calculate the moving average to identify potential trading opportunities.
 
 This code does not include machine learning part, but it's a start for basic market analysis.

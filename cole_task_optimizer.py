@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 from datetime import datetime
@@ -51,8 +52,8 @@ def cole_optimize_tasks():
     tasks = load_tasks()
 
     # Filter out any tasks missing 'priority'
-    valid_tasks = [t for t in tasks if isinstance(t, dict) and "priority" in t]
-
+    valid_tasks = [t for t in tasks if isinstance(t, dict) and "priority" in t]:
+:
     # Sort by priority (lower is more important)
     sorted_tasks = sorted(valid_tasks, key=lambda x: x["priority"])
 
@@ -67,3 +68,6 @@ def cole_optimize_tasks():
 # === CLI Test ===
 if __name__ == "__main__":
     cole_optimize_tasks()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

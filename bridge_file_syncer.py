@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🔁 Syncs files from bridge/outbox to working dir and vice versa
 
 import os
@@ -18,3 +19,6 @@ def sync_bridge_to_ptm():
                 shutil.move(src, dst)
                 print(f"[BridgeSync] 📦 Synced file: {filename}")
         time.sleep(SYNC_INTERVAL)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

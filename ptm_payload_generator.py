@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 
 def list_current_modules():
@@ -16,3 +17,6 @@ def list_current_modules():
 if __name__ == "__main__":
     for m in list_current_modules():
         print(f"[Payload] ✅ Found module: {m}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

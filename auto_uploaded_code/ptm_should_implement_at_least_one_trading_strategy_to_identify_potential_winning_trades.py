@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple example of a Python code of a trading strategy using moving averages. Please note that this is a simplified version and a real trading strategy would require more sophisticated and rigorous methods. 
 
 ```python

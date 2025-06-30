@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code that simulates two different trading strategies: Buy and Hold, and Simple Moving Average Crossover. We will use the `yfinance` library to download stock data and `pandas` for data manipulation.
 
 Please note that this is a very basic implementation and real trading strategies are much more complex and involve more factors.

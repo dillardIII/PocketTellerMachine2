@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: strategies/rsi_bounce.py ===
 # 📈 RSI Bounce Strategy – Sample trade logic (placeholder)
 

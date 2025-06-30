@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_thinker.py ===
 
 import os
@@ -60,3 +61,6 @@ def cole_think():
 # === Run Test Mode ===
 if __name__ == "__main__":
     cole_think()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

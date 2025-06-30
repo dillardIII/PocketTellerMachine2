@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import json
 from datetime import datetime
 
@@ -61,7 +62,7 @@ def clean_trades(input_file, output_file):
                     print(f"[WARNING]: Invalid data type for '{field}' in trade: {trade.get('id', '')}. Applying default.")
                     clean_trade[field] = DEFAULTS.get(field, "")
 
-        # Always keep id and timestamp if present
+        # Always keep id and timestamp if present:
         clean_trade["id"] = trade.get("id", f"auto_{datetime.now().isoformat()}")
         clean_trade["timestamp"] = trade.get("timestamp", datetime.now().isoformat())
 
@@ -76,3 +77,6 @@ def clean_trades(input_file, output_file):
 # === Run Cleaner ===
 if __name__ == "__main__":
     clean_trades(INPUT_FILE, OUTPUT_FILE)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

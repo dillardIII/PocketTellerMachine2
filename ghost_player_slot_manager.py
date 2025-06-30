@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_player_slot_manager.py ===
 """
 Reads the Ghost Lobby Config and spawns AI players logically into the game.
@@ -23,3 +24,6 @@ def deploy_ghost_players():
 
 if __name__ == "__main__":
     deploy_ghost_players()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

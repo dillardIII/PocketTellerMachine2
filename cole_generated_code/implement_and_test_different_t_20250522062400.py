@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide you with a basic example of how you might implement and test different trading strategies in Python. However, please note that this is a simplified example and real-world trading strategies can be much more complex and require a deep understanding of financial markets. Also, this code won't run as it is, you need to have the appropriate data and libraries installed.
 
 ```python

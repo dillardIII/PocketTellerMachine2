@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, below is a simple Python code using `pandas_datareader` to fetch stock data from Yahoo Finance and analyze it for potential trading opportunities. For simplicity, we're using a simple moving average (SMA) strategy. If the short-term SMA (10 days) crosses above the long-term SMA (50 days), it's a buy signal. If the short-term SMA crosses below the long-term SMA, it's a sell signal.
 
 ```python

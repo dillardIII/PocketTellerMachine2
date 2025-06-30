@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, let's create a Python utility for a strategy game designed to manage an empire's resource allocation efficiently. This utility will focus on optimizing resource distribution to three critical sectors: Military, Research, and Infrastructure. The goal is to ensure that resources are balanced to maintain a strong defense, innovate for future technologies, and develop infrastructure to support the growing needs of the empire.
 
 We'll create a function `optimize_resources` that takes in current resource levels and sector priorities, then distributes resources accordingly. This example assumes the resources are in the form of some quantifiable unit like "points" or "credits".
@@ -65,3 +66,6 @@ if __name__ == "__main__":
 - **Main Function**: Demonstrates how to use the `EmpireManager` class. It initializes resources and priorities, performs resource allocation, and prints the result. It also shows how to adjust priorities and see the updated allocation.
 
 This utility can be integrated into a larger strategy game to help manage resources effectively and ensure balanced empire growth. Feel free to customize the logic based on your game's specific mechanics!
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

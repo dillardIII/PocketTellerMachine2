@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple implementation of an RSI (Relative Strength Index) strategy generator in Python using the `pandas` and `yfinance` libraries. This code will generate a trading strategy based on the RSI indicator for a given stock.
 
 ```python

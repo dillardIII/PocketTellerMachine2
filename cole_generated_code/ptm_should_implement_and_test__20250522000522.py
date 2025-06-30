@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To implement and test new trading strategies, we first need to define what those strategies are. For simplicity, let's consider two simple strategies: 
 
 1. Buy Low, Sell High: This strategy involves buying a stock when its price is low and selling it when its price is high.

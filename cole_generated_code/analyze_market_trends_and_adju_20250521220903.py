@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and adjusting trading strategies is a complex task that involves a lot of data analysis and possibly machine learning. Here is a simplified example of how you might use Python to analyze stock market data and make trading decisions based on simple moving average (SMA) strategy.
 
 ```python

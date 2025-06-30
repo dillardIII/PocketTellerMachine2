@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Cole Brain:
 Core memory and state management system for PTM assistant.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to develop and implement new trading strategies, we first need to understand the data we're working with. We'll use Python's pandas library to handle our data and matplotlib to visualize it. 
 
 Here's a simple example of a trading strategy called "Moving Average Crossover". This strategy is used to identify changes in market trends and make buy/sell decisions based on these changes.

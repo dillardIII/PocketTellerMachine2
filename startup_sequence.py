@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: startup_sequence.py ===
 # ⚡ Startup Sequence – Phase 0 warm-up before autonomy fully triggers
 

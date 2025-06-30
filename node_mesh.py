@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === node_mesh.py ===
 """
 Node Mesh – Multinode Awareness System

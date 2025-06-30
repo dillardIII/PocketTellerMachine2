@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 📺 YouTube Autopilot – Makes videos from templates & posts to your channel.
 
 import os
@@ -32,3 +33,6 @@ def produce_and_upload():
 if __name__ == "__main__":
     create_video_script()
     produce_and_upload()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

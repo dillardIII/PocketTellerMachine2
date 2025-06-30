@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a simple example of a Python code for a basic trading strategy. This strategy is based on moving averages. When the short-term average crosses the long-term average, it could be a signal to buy or sell.
 
 Please note that this is a very basic strategy and real-world trading strategies can be much more complex and need to take into account many other factors.

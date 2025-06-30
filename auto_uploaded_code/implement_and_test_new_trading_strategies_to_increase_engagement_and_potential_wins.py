@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Please note that writing a full trading algorithm needs a deep understanding of stocks, trading and also fintech and this would require a lot of complex code that includes a variety of algorithms to predict the stock prices. However, I can give you a simple example of a trading strategy implemented in Python. This strategy is called the Moving Average Crossover Strategy.
 
 The strategy will have two moving averages, a fast moving average(10 days) and a slow moving average(20 days). Here, when the fast moving average crosses above the slow moving average, it means the stock price is increasing and it's time to buy. Conversely, when the fast moving average falls below the slow moving average, it's time to sell.

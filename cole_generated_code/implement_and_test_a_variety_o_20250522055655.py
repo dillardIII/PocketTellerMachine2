@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to implement and test a variety of trading strategies, we will need to use a backtesting library such as `bt` or `backtrader`. Here, we will use `backtrader` for its flexibility and features.
 
 Here is a simple example of a moving average crossover strategy:

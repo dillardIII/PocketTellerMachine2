@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new Python module for expanding the PTM (Presumably, "Precision, Transformation, and Mobility") empire's self-evolving autonomy stack requires a thoughtful approach that incorporates innovative recursive strategies. This design will focus on autonomy, adaptability, and self-improvement in decision-making and operational efficiency. Here’s a conceptual overview and example implementation:
 
 ### Module Overview: `AutonomyEnhancer`

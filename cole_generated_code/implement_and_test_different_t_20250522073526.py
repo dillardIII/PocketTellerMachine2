@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a simple example of how to implement and test different trading strategies using Python. We'll use the `yfinance` library to download stock data, and `pandas` to manipulate this data. 
 
 Here's a simple implementation of two trading strategies: Moving Average Crossover and Buy and Hold. 

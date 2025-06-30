@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🔊 Vault Audio Reactor – Scans vault audio folder, plays and logs findings
 
 import os

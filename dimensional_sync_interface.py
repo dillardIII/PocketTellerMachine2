@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Dimensional Sync Interface:
 Connects PTM with abstract AI layers and alternate logic dimensions via the Dream Engine.
@@ -43,3 +44,6 @@ def sync_dimensional_interface():
     knowledge = aggregate_dimensional_knowledge()
     save_dimensional_sync(knowledge)
     print(f"[DimensionalSyncInterface] Synced {len(knowledge)} abstract constructs.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # risk_guardian.py
 # Purpose: Block unsafe trades based on configured thresholds and loss behavior
 
@@ -83,7 +84,7 @@ class RiskGuardian:
         if os.path.exists(TRADE_LOG):
             with open(TRADE_LOG, "r") as f:
                 trades = json.load(f)
-            open_trades = [t for t in trades if t.get("status") != "closed"]
+            open_trades = [t for t in trades if t.get("status") != "closed"]:
             if len(open_trades) >= max_open_trades:
                 return False, "Too many open trades."
 
@@ -98,3 +99,6 @@ class RiskGuardian:
             return False, "Too many consecutive losses."
 
         return True, "Trade approved."
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

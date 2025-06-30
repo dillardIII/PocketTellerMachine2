@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To implement and test new trading strategies, we can use the Python libraries like pandas for data manipulation, numpy for numerical computation and matplotlib for visualization. We will also use the yfinance library to download the historical market data from Yahoo finance.
 
 Here is a simple implementation of a Moving Average Crossover strategy. This strategy is one of the most commonly used strategies in the trading world. It's based on the principle that the short-term moving average crossing the long-term moving average can be an indicator of the market direction.

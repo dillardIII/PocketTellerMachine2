@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # ai_persona_registry.py
 # Central registry of all AI personas, their personalities, roles, and capabilities.
 
@@ -54,3 +55,6 @@ AI_PERSONAS = {
 
 def get_persona(name):
     return AI_PERSONAS.get(name, None)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

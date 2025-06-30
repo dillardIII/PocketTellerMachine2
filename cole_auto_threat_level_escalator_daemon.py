@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_auto_threat_level_escalator_daemon.py
 
 import os

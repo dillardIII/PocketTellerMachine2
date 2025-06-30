@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code using `pandas` and `yfinance` to analyze EMA crossover for a specific stock. This code calculates the 50-day and 200-day EMA for a stock and identifies the crossover points. 
 
 ```python

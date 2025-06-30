@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase14_unified_mood_reactor.py
 
 import os
@@ -69,3 +70,6 @@ if __name__ == "__main__":
 
     print(load_mood_state())
     print(get_reaction_tone_from_mood("angry"))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

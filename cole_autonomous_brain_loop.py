@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import time
 import random
 from datetime import datetime
@@ -86,3 +87,6 @@ if __name__ == "__main__":
 
     print("\n[MODE]: Emotional AI Team Debate Loop Starting...")
     autonomous_ai_emotional_team_loop(["TSLA", "AAPL", "NVDA"])
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

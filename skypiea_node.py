@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: skypiea_node.py ===
 import os
 import random
@@ -43,3 +44,6 @@ def run_skypiea_loop():
     while True:
         evolve_node()
         time.sleep(30)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

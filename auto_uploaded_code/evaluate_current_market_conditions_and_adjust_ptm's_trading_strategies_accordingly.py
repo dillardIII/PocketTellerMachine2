@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI text-based model, I can't directly interact with real-time data or APIs. However, I can provide you with a sample Python code that simulates this task. In a real-world scenario, you would need to connect to a live market data feed and a trading platform's API. Here's a simple example of how you might structure such a program:
 
 ```python

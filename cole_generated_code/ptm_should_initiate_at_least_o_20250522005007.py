@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple example of how you could implement a trading bot in Python. This bot will use a very basic trading strategy of buying when the price is low and selling when the price is high. 
 
 Please note that this is a very simplified example and real trading bots use complex algorithms and have many more features. Also, this bot will not actually execute any trades as it is just a simulation.

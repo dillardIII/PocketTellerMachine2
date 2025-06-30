@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: paper_trade_loop.py ===
 
 import os
@@ -20,9 +21,9 @@ def calc_rsi(prices, period=14):
     gains, losses = [], []
     for i in range(1, period + 1):
         diff = prices[-i] - prices[-i - 1]
-        (gains if diff > 0 else losses).append(abs(diff))
-    avg_gain = sum(gains) / period if gains else 0.01
-    avg_loss = sum(losses) / period if losses else 0.01
+        (gains if diff > 0 else losses).append(abs(diff)):
+    avg_gain = sum(gains) / period if gains else 0.01:
+    avg_loss = sum(losses) / period if losses else 0.01:
     rs = avg_gain / avg_loss
     return 100 - (100 / (1 + rs))
 
@@ -45,8 +46,8 @@ def calc_stochastic(prices, k_period=14):
     high = max(prices[-k_period:])
     low = min(prices[-k_period:])
     current = prices[-1]
-    return 100 * ((current - low) / (high - low)) if high != low else 0
-
+    return 100 * ((current - low) / (high - low)) if high != low else 0:
+:
 def detect_support_resistance(prices):
     support = min(prices[-10:])
     resistance = max(prices[-10:])
@@ -104,8 +105,8 @@ def log_trade(trade):
 
 # === LOCAL VOICE FILE VERSION ===
 def trigger_trade_recap(trade):
-    persona = "Mo Cash" if trade["action"] == "BUY" else "Mentor"
-
+    persona = "Mo Cash" if trade["action"] == "BUY" else "Mentor":
+:
     voice_paths = {
         "Mo Cash": "static/audio/male/mo_cash_preview.mp3",
         "Mentor": "static/audio/male/mentor_preview.mp3"
@@ -155,3 +156,6 @@ def start_paper_trade_thread():
     thread = Thread(target=run_trade_loop)
     thread.daemon = True
     thread.start()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

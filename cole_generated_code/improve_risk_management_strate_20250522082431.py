@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to improve risk management strategies, we can implement a few techniques such as stop-loss orders, diversification, position sizing, etc. Here is a simple Python code that uses the concept of stop-loss orders. A stop-loss order is designed to limit an investor's loss on a security position.
 
 ```python

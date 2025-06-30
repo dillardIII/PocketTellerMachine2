@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """ 
 Self-Directive Core
 Generates next build actions based on voice input, memory state, or council consensus.
@@ -43,3 +44,6 @@ def run_directive_engine():
 
 if __name__ == "__main__":
     run_directive_engine()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

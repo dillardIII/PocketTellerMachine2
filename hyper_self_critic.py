@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🧬 HyperSelfCritic – brains critique each other’s mutations & kill weak ideas
 # Multi-threaded module that decides which AI branches live or get reaped.
 
@@ -34,3 +35,6 @@ def launch_self_critics(count=8):
 
 if __name__ == "__main__":
     launch_self_critics()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

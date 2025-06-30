@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: mood_engine.py ===
 # 😶‍🌫️ PTM Mood Engine – Tracks emotional tone, reacts to events, and feeds voice/persona logic
 
@@ -68,3 +69,6 @@ if __name__ == "__main__":
     print("🧪 Setting mood to 'win'...")
     set_mood("win", intensity=0.8, source="cli_test")
     print("✅ Updated:", mood_summary())
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

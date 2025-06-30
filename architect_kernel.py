@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: architect_kernel.py ===
 # 🧠 Architect Kernel – Fusion point of all AI subsystems
 

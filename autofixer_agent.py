@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: autofixer_agent.py ===
 # 🛠️ AutoFixer Agent – Self-healing bot for code, syntax, and logic errors
 # Detects simulated system issues and repairs faulty Python files
@@ -81,3 +82,6 @@ def run_fixer():
 # === Local test runner ===
 if __name__ == "__main__":
     run_fixer()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

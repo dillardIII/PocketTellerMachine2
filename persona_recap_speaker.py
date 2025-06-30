@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: persona_recap_speaker.py ===
 """
 Persona Recap Speaker:
@@ -40,7 +41,7 @@ def load_latest_trade():
     with open(TRADE_LOG_FILE, "r") as f:
         try:
             trades = json.load(f)
-            return trades[-1] if trades else None
+            return trades[-1] if trades else None:
         except json.JSONDecodeError:
             print("[Recap Speaker] ⚠️ Failed to decode trade log.")
             return None
@@ -105,3 +106,6 @@ if __name__ == "__main__":
         speak_recap(latest_trade)
     else:
         print("[Recap Speaker] No trade found to recap.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

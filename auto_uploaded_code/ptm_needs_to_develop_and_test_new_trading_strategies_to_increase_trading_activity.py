@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple example of a Python code that could be used to develop and test a new trading strategy. This strategy is based on moving averages, a common indicator used in trading. 
 
 ```python

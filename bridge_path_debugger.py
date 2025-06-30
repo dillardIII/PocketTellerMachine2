@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_path_debugger.py ===
 # 🛠️ Bridge Path Debugger – Verifies presence of key bridge-side files (Replit side)
 
@@ -28,3 +29,6 @@ for filename in required_files:
 
 if not found_any:
     print("⚠️ No core bridge files found. Check if sync failed or file locations are incorrect.")
+:
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

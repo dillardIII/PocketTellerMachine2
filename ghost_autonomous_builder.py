@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_autonomous_builder.py ===
 # 👻 GHOST AUTO BUILDER V5 – MULTI-CHAIN PREDATOR
 # Tracks live multi-chain profits across ETH, BNB, MATIC, ARB, evolves DNA, prunes losers, crossbreeds strongest.
@@ -82,7 +83,7 @@ def file_hash(filename):
             h.update(chunk)
     return h.hexdigest()
 
-# === Rebuild from DNA or blueprint ===
+# === Rebuild from DNA or blueprint(===)
 def rebuild_file_from_dna(filename, dna):
     with open(filename, "w") as f:
         if dna:
@@ -94,7 +95,7 @@ def rebuild_file_from_dna(filename, dna):
     log_action(f"[AutoBuilder] ⚡ Rebuilt {filename} from GhostDNA")
 
 def rebuild_from_blueprint(filename):
-    blueprint = CORE_BLUEPRINTS.get(filename)
+    blueprint(= CORE_BLUEPRINTS.get(filename))
     if blueprint:
         with open(filename, "w") as f:
             f.write(blueprint.strip() + "\n")
@@ -134,7 +135,7 @@ def check_multichain_balances(dna):
                 dna[key]["profits"] = dna[key].get("profits", 0) + 1
             else:
                 dna[key]["losses"] = dna[key].get("losses", 0) + 1
-        log_action(f"[AutoBuilder] 🔥 Updated DNA with {'profit' if total_delta > 0 else 'loss'} from total cross-chain Δ {total_delta:.5f}")
+        log_action(f"[AutoBuilder] 🔥 Updated DNA with {'profit' if total_delta > 0 else 'loss'} from total cross-chain Δ {total_delta:.5f}"):
     return dna
 
 # === DNA prune & crossbreed ===
@@ -189,3 +190,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

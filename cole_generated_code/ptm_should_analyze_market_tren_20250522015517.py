@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python code that analyzes market trends and patterns to identify potential trading opportunities is a complex task. It involves the use of machine learning and data analysis libraries such as pandas, numpy, and scikit-learn. Here is a simplified example of how you could approach this:
 
 ```python

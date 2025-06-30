@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: persona_speaker_manager.py ===
 # 🎤 Persona Speaker Manager – Picks speaker based on mood, urgency, or system needs
 
@@ -28,3 +29,6 @@ class PersonaSpeakerManager:
 if __name__ == "__main__":
     sm = PersonaSpeakerManager()
     sm.speak("Market scan complete. Confidence is rising.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

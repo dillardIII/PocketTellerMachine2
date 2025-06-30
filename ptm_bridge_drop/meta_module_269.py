@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module for expanding the PTM (Presumably Partially True Model) empire's self-evolving autonomy stack with recursive strategies involves several key components. Below is a high-level design, along with some Python code snippets to illustrate concepts.
 
 ### Key Components:

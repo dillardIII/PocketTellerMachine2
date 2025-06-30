@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 
@@ -37,3 +38,6 @@ def load_json_safe(path, fallback=None):
         except Exception as inner_error:
             print(f"[JSON Loader] Recovery failed: {inner_error}")
             return fallback or {}
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To generate a Relative Strength Index (RSI) strategy, we will first require data on which we will calculate the RSI, and then we will decide a strategy based on this RSI. 
 
 To calculate RSI, we will use the `pandas` library which is great for time series analysis, and for data we will use the `yfinance` library to download the stock data.

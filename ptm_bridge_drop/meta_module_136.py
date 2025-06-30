@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presumably, "Potential Tactical Maneuvering") empire's self-evolving autonomy stack involves creating a system that can continuously learn and adapt. Here’s an outline of such a module, which includes innovative recursive strategies:
 
 ### Overview

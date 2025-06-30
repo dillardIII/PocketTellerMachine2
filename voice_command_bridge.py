@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: voice_command_bridge.py ===
 """
 Voice Command Bridge
@@ -98,3 +99,6 @@ if __name__ == "__main__":
     while True:
         cmd = listen_for_voice_command()
         handle_bridge_command(cmd)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

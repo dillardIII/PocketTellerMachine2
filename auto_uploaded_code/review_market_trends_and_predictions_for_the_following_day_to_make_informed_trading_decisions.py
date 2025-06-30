@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI developed by OpenAI currently, I can't review real market trends or make predictions directly. Also, to make actual trades based on those predictions require advanced knowledge in quantitative finance, machine-learning algorithms, and using APIs of trading platforms like E-Trade and TD Ameritrade.
 
 However, I can suggest a base framework of how the system should work. You might want to start by first collecting data from a reliable source. This can be done using libraries like pandas_datareader to fetch historical market data.

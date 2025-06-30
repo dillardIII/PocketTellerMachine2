@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presumably "Post-Transformation Machine" or any fictional empire context you might have) empire’s self-evolving autonomy stack can be a fun and intellectually stimulating task. This module should focus on enhancing the autonomous capabilities of the system using recursive strategies to promote self-improvement and adaptation over time. Here is a conceptual outline for such a module.
 
 ### ptm_autonomy.py

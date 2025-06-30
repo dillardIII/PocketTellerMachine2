@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_persona_strategy_adjuster_with_mood_awareness.py
 
 import os
@@ -48,7 +49,7 @@ def adjust_strategy(persona, mood):
     adjustment = MOOD_STRATEGY_MODIFIERS.get(mood, "balanced")
     log_adjustment(f"[STRATEGY ADJUSTER]: {persona} is currently '{mood}' → Adjusting to '{adjustment}' mode.")
     print(f"[STRATEGY ADJUSTER]: {persona} is now using '{adjustment}' mode.")
-    # Here you would inject this into the persona's live strategy if integrated
+    # Here you would inject this into the persona's live strategy if integrated:
     return adjustment
 
 # === Main Adjustment Loop ===
@@ -68,3 +69,6 @@ def persona_strategy_adjustment_loop():
 
 if __name__ == "__main__":
     persona_strategy_adjustment_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

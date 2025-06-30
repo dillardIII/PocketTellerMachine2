@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # ghostmind_layer.py
 # Handles distributed AI thought memory and recursion
 

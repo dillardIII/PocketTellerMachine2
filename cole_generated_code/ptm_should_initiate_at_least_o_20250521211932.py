@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code to simulate a trading scenario. In this code, PTM (Python Trading Model) will initiate a trade and then randomly decide whether it's a win or a loss. This is a very basic example and real-world trading models would be much more complex and based on various factors.
 
 ```python

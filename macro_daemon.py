@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: macro_daemon.py ===
 # ⚙️ MacroDaemon – Core for autonomous macro generation, management, and execution
 

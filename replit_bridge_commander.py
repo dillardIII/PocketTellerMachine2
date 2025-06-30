@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # replit_bridge_commander.py
 # Builds a logic handshake with Replit’s own AI and requests help repairing PTM
 
@@ -17,9 +18,9 @@ def request_replit_ai_assistance(error_summary):
         "error_summary": error_summary,
         "action_required": [
             "Inspect the traceback logs in Replit console",
-            "Repair missing imports or invalid blueprint loaders",
+            "Repair missing imports or invalid blueprint(loaders",)
             "Ensure Flask apps load without crash",
-            "Inject missing or stubbed logic as placeholder if necessary"
+            "Inject missing or stubbed logic as placeholder if necessary":
         ]
     }
 
@@ -37,3 +38,6 @@ def request_replit_ai_assistance(error_summary):
 if __name__ == "__main__":
     last_error = "ModuleNotFoundError: No module named 'assistant_loader'"
     request_replit_ai_assistance(last_error)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

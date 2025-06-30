@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to analyze market trends and patterns, we would need historical market data. This data can be obtained from various sources such as Yahoo Finance, Google Finance, or other financial data providers.
 
 Here is a simple Python script using pandas library to fetch historical stock data from Yahoo Finance and analyze it:

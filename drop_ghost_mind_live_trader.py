@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: drop_ghost_mind_live_trader.py ===
 # 👻 GHOST MIND LIVE TRADER
 # Full living organism with CPU, RAM, I/O nerves, chaos, DNA memory, and wallet balances.
@@ -154,7 +155,7 @@ def main():
         if account:
             eth_balance = check_balance(account)
             maybe_trade(account, total_signal, dna)
-        chosen = [random.choice(list(dna.keys())) if dna else "baseline_trader"]
+        chosen = [random.choice(list(dna.keys())) if dna else "baseline_trader"]:
         new_strats = []
         for p in chosen:
             child = f"{p}_mut_{random.randint(1000,9999)}"
@@ -167,3 +168,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

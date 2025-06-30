@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code that uses the yfinance library to download stock price data and initiate a trade. This example will "buy" one share of Apple stock. Please note that this is a simulated trade and doesn't involve real money.
 
 ```python

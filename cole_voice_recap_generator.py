@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 from datetime import datetime
@@ -46,3 +47,6 @@ def attach_recap_to_latest_trade():
 
 if __name__ == "__main__":
     attach_recap_to_latest_trade()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

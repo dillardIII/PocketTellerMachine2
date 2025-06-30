@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghostmesh_net.py ===
 # 🌐 GhostMesh Net – Tracks all known servers, endpoints, bridges, and access channels across PTM AI infrastructure
 
@@ -26,8 +27,8 @@ class GhostMeshNet:
         return self.nodes
 
     def filter_by_tag(self, tag):
-        return {ip: data for ip, data in self.nodes.items() if tag in data["tags"]}
-
+        return {ip: data for ip, data in self.nodes.items() if tag in data["tags"]}:
+:
 
 # === Instantiate GhostMesh ===
 ghostmesh = GhostMeshNet()
@@ -51,3 +52,6 @@ for ip in open_services:
     ghostmesh.tag_node(ip, "ftp_open")
     ghostmesh.tag_node(ip, "ssh_open")
     ghostmesh.tag_node(ip, "priority_recon")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

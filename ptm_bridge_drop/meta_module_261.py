@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python module to expand the PTM empire's self-evolving autonomy stack involves designing a system that allows for recursive learning and adaptive evolution in a dynamic environment. This module can leverage concepts from machine learning, evolutionary algorithms, and autonomous systems. Below is an outline and some sample code demonstrating an innovative approach using these concepts.
 
 ### Module Outline

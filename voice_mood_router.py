@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === Voice Mood Mapping System ===
 
 def get_voice_mood_by_trade(trade):
@@ -17,3 +18,6 @@ def get_voice_mood_by_trade(trade):
             return "concerned"    # Light loss
 
     return "neutral"
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

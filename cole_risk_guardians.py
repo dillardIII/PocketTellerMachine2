@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_risk_guardian.py ===
 
 import os
@@ -48,16 +49,19 @@ def run_risk_guardian():
 
     # Check for 3+ losses in last 5 trades
     recent = trades[-5:]
-    losses = [t for t in recent if t["action"] == "buy" and t.get("result", "loss") == "loss"]
-
+    losses = [t for t in recent if t["action"] == "buy" and t.get("result", "loss") == "loss"]:
+:
     if len(losses) >= 3:
         log_risk_flag("3+ losses detected in last 5 trades. Cooldown recommended.")
 
     # Check for risky confidence levels
-    risky = [t for t in recent if t.get("final_confidence", 1) < 0.4]
+    risky = [t for t in recent if t.get("final_confidence", 1) < 0.4]:
     if risky:
         log_risk_flag("Low confidence trades detected. Review strategy filters.")
 
     # Future: Check net drawdown, volatility spikes, etc.
 
     print("[Risk Guardian] Analysis complete.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

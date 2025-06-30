@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: voice_whisper_controller.py ===
 # 🎤 Voice Whisper Controller – listens, transcribes, and executes empire commands
 # 🚀 Includes integration with Replit AI Orchestrator to generate new modules by voice.
@@ -41,3 +42,6 @@ def voice_whisper_loop():
 
 if __name__ == "__main__":
     voice_whisper_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

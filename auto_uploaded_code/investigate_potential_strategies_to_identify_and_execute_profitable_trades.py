@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here are a few ways to implement profitable trades with Python:
 
 1. Moving average crossover strategy

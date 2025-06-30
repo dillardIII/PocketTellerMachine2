@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To monitor market trends and opportunities, you would need to use APIs provided by financial institutions or trading platforms. Here is a simple example of how you can use the Alpha Vantage API to monitor market trends in Python. 
 
 Please note that this is a very basic example and real-world applications would require more complex analysis and more data.

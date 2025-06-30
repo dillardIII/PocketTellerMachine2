@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Shared Brain Sync
 Keeps PTM’s memory, modules, and states synchronized across all connected devices.
@@ -13,7 +14,7 @@ LOCAL_STATE_PATH = "memory/local_state.json"
 DEVICE_ID = os.getenv("PTM_DEVICE_ID", "unknown_device")
 
 def load_json(path):
-    if not os.path.exists(path): return {}
+    if not os.path.exists(path): return {}:
     with open(path, "r") as f:
         return json.load(f)
 
@@ -53,3 +54,6 @@ if __name__ == "__main__":
     push_to_shared_brain()
     pull_from_shared_brain()
     print("🔍 Synced devices:", list_synced_devices())
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

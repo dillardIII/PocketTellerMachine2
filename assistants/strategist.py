@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # strategist.py — Defines The Strategist assistant persona
 
 class Strategist:

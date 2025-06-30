@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🗣️ Whisper Auto Listener – Turns voice to commands for PTM
 
 import sounddevice as sd
@@ -26,3 +27,6 @@ def start_voice_listener():
 
 if __name__ == "__main__":
     start_voice_listener()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

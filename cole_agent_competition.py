@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import random
 from datetime import datetime
 
@@ -34,3 +35,6 @@ def show_leaderboard():
     for agent, score in sorted_agents:
         print(f"{agent}: Wins {score.get('wins', 0)}, Losses {score.get('losses', 0)}, Profit {round(score.get('profit', 0), 2)}")
     print("=========================\n")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, in order to diversify the portfolio, we can create a Python script that selects a variety of stocks from different sectors. Here's a simple example of how you might do this:
 
 ```python

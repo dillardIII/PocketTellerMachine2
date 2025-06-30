@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help you with that. Here is a simple example of a Python code that implements two basic trading strategies: Mean Reversion and Momentum. These strategies are just for illustrative purposes and should not be used for real trading without proper backtesting and risk management.
 
 ```python

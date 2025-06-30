@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Council Alert Reflex
 Watches for repeated instability or unresolved drift in ghost_status.json.

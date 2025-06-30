@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: quantum_brain_spawner.py ===
 # 🧬 Quantum Brain Spawner – Keeps deploying cognitive nodes for parallel work
 
@@ -26,3 +27,6 @@ if __name__ == "__main__":
     spin_up_quantum_brains(20)
     while True:
         time.sleep(30)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

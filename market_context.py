@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: market_context.py ===
 
 def detect_market_context(rsi, sma, price):
@@ -13,3 +14,6 @@ def detect_market_context(rsi, sma, price):
         return "bearish"
     else:
         return "sideways"
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

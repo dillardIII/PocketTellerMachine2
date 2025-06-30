@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 The Relative Strength Index (RSI) is a momentum oscillator that can help us to identify the general market trend. Below is a Python code to generate RSI and make trading decisions based on it.
 
 You will require `pandas` and `yfinance` to fetch historical stock data, and `matplotlib` library to visualize the output.

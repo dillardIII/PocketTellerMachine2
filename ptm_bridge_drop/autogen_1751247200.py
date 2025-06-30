@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Below is a Python file (as requested) containing a simple trading strategy function. This strategy uses a momentum-based approach by analyzing moving averages to generate buy and sell signals. The code uses the `pandas` and `numpy` libraries for handling data and calculations. The strategy assumes you have historical stock data as a pandas DataFrame with columns: 'Date', 'Open', 'High', 'Low', 'Close', 'Volume'.
 
 ```python

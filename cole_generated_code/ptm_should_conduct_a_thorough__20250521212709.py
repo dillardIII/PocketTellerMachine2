@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI, I can't conduct real-time market analysis, but I can provide you with a sample Python code that uses the pandas library to analyze historical market data. This code will analyze the data from a CSV file.
 
 ```python

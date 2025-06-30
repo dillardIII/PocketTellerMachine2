@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # muse_listener.py
 # Simulated listener for Muse S brainwave signals
 
@@ -20,3 +21,6 @@ def start_muse_listener():
 
 if __name__ == "__main__":
     start_muse_listener()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

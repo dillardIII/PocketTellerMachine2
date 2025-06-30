@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ptm_state_sync.py ===
 
 # 🧠 PTM State Sync – Tracks active state for AI bots and writes sync files
@@ -17,3 +18,6 @@ def write_state(name, state_data):
         json.dump(data, f, indent=4)
 
     print(f"[PTM State] 💾 Synced: {name}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

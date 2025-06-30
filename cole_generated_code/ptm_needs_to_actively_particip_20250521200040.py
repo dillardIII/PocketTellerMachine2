@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we need to create a simple trading system. This system will keep track of our trades and calculate our wins and losses. Here is a simple Python code to do this:
 
 ```python

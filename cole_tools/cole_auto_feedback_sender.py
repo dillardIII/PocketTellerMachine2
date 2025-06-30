@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_tools/cole_auto_feedback_sender.py
 
 import requests

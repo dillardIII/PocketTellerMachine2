@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os, random, time
 from datetime import datetime
 
@@ -19,7 +20,7 @@ def hyperforge_loop():
     print("[HyperForge] 🚀 HyperForge pipeline live...")
     while True:
         if os.path.exists(STRATEGY_DIR):
-            files = [f for f in os.listdir(STRATEGY_DIR) if f.endswith(".py")]
+            files = [f for f in os.listdir(STRATEGY_DIR) if f.endswith(".py")]:
             if files:
                 target = random.choice(files)
                 mutate_strategy_file(os.path.join(STRATEGY_DIR, target))
@@ -29,3 +30,6 @@ def hyperforge_loop():
 
 if __name__ == "__main__":
     hyperforge_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

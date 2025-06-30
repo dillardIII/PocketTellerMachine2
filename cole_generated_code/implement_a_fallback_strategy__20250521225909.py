@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here's a simple Python function that implements a fallback strategy when no backtest results are found. The function `backtest_strategy` takes a trading strategy as input, backtests it, and returns the results. If no results are found, it falls back to a default strategy.
 
 ```python

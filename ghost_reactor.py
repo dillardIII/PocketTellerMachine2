@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Ghost Reactor:
 Listens for memory, trade, or event triggers and dispatches appropriate persona reactions.

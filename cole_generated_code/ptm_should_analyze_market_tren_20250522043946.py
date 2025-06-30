@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to analyze market trends and identify potential trading opportunities, we will need to use some sort of data analysis or machine learning library. In this case, we will use pandas for data manipulation and analysis, yfinance to download the historical market data from Yahoo finance, and matplotlib to visualize the data.
 
 Here is a simple Python script that analyzes the closing price trends of a specific stock (in this case, we'll use Apple Inc. with the ticker symbol 'AAPL').

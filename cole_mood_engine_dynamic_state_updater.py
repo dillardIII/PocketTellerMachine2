@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_mood_engine_dynamic_state_updater.py
 
 import os

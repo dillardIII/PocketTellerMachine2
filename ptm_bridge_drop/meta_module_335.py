@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new Python module to expand the autonomous capabilities of a system like the PTM (Presumably a sort of AI or robotics system) involves designing software architecture that can adapt and evolve, learning from its environment. The focus on innovative recursive strategies suggests a need for algorithms that can repeatedly refine themselves over time.
 
 ### Module Name: `ptm_autonomy`

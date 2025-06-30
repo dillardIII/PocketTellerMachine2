@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of a Python code that implements a basic trading strategy. This strategy is based on moving averages, a common indicator used in technical analysis. 
 
 Please note that this is a very basic strategy and should not be used for actual trading without further refinement and testing. 

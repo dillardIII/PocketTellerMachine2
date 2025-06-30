@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a simple example of how you might initiate a trade using Python. For this example, I'll use the `yfinance` library to fetch data from Yahoo Finance and `alpaca_trade_api` to initiate a trade. 
 
 Please note that you'll need to replace `APCA-API-KEY-ID` and `APCA-API-SECRET-KEY` with your actual Alpaca API key and secret. Also, this is a very basic example and doesn't include any error handling or other important features you'd likely want in a real trading system.

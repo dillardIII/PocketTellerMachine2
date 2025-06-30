@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct market research, we can use Python libraries such as pandas, yfinance, and matplotlib. The following code will fetch the historical market data for a specific stock (e.g., Apple Inc.) and plot its closing price. It's a simple example of market research, but in reality, you would need to analyze many more factors.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we would need to use a machine learning model to analyze market trends and patterns. Here is a simplified example of how you can do this using Python, pandas for data manipulation, and sklearn for machine learning.
 
 Please note that this is a simplified example and real-world trading models are much more complex and take many more factors into account.

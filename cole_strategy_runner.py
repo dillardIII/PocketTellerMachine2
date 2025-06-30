@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_strategy_runner.py ===
 
 import datetime
@@ -6,8 +7,8 @@ import os
 from strategy_scorer import recommend_best_strategy
 from cole_executor import run_trade_with_strategy, analyze_trade_result, log_trade_outcome
 from cole_brain import log_strategy_reason
-from voice_recap_engine import recap_trade  # Optional voice recap (if enabled)
-
+from voice_recap_engine import recap_trade  # Optional voice recap (if enabled):
+:
 TRADE_LOG_FILE = "data/trade_history.json"
 
 def execute_best_strategy():
@@ -58,3 +59,6 @@ def _save_to_history(entry):
 
     with open(TRADE_LOG_FILE, "w") as f:
         json.dump(history[-500:], f, indent=2)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

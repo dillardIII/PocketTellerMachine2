@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 from datetime import datetime
@@ -16,3 +17,6 @@ def update_cycle_summary(phase, tasks_run, next_cycle_in_sec):
         json.dump(summary_data, f, indent=2)
 
     print(f"[Cycle Summary] Updated summary: {summary_data}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

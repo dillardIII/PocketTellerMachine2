@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase14_emotion_reaction_sound_trigger.py
 
 import random
@@ -31,3 +32,6 @@ if __name__ == "__main__":
     for emotion in test_emotions:
         sound = trigger_sound_for_emotion(emotion)
         print(f"[{emotion}]: {sound}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

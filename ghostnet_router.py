@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghostnet_router.py ===
 # 🧭 GhostNet Router – Routes events or commands between AI nodes/personas
 

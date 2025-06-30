@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Developing and implementing varied strategies require a lot of understanding of the market and various other factors. However, I can show you a very basic idea of how one could isolate various strategies in Python code.
 
 Two simple strategies could be:

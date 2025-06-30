@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: uplinks/whisper_transcriber.py ===
 # 🎤 Whisper Transcriber – Converts voice to commands using OpenAI Whisper
 

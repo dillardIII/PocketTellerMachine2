@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # PTM Autonomy Initializer - Phase Bridge Core
 # Purpose: Launch persistent link checkers, token grabbers, and bridge authority bots.
 # Status: Phase: Boot - Greenlit ✅
@@ -56,7 +57,7 @@ def run_link_checker():
                 devices = json.load(f)
         for device in devices:
             status = ping_device(device['ip'])
-            status_text = "UP" if status else "DOWN"
+            status_text = "UP" if status else "DOWN":
             log(f"Device {device['name']} [{device['ip']}] is {status_text}")
         time.sleep(CHECK_INTERVAL)
 
@@ -109,3 +110,6 @@ if __name__ == "__main__":
 
     while True:
         time.sleep(10)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: file_probe.py ===
 # 🔍 File Probe – Lists files in Replit workspace to debug missing modules
 
@@ -12,3 +13,6 @@ def probe_workspace():
 
 if __name__ == "__main__":
     probe_workspace()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help you write a simple Python code to calculate the risk of a trade. However, please note that risk management in trading is a complex topic that involves many factors such as the market volatility, the trader's risk tolerance, the size of the trade, etc. This simple code will only calculate the risk based on the stop loss level and the amount of capital at risk.
 
 ```python

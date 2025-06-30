@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and implement trading strategies, we can use Python's libraries like pandas for data manipulation and analysis, numpy for numerical computation, matplotlib for data visualization, and yfinance to download historical market data from Yahoo finance. 
 
 Here is a simple example of a trading strategy called "Moving Average Crossover Strategy". This strategy is one of the most commonly used strategies in the stock market. It involves two moving averages, one short-term (fast) and one long-term (slow). When the fast moving average crosses above the slow moving average, it's a signal to buy. When the fast moving average crosses below the slow moving average, it's a signal to sell.

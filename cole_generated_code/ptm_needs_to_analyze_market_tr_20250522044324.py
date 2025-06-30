@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and opportunities, we would need to have access to some kind of market data. This could be stock prices, trading volumes, or any other kind of financial data. Here is a simple example of how you might analyze stock prices using Python.
 
 We will use the pandas library to handle our data, and the yfinance library to download stock price data from Yahoo Finance.

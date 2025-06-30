@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: core/autonomy_status_report.py ===
 """
 Autonomy Status Report

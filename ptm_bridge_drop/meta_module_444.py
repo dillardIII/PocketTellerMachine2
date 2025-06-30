@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to enhance the PTM (Presumably for Performance and Task Management) empire's self-evolving autonomy stack involves creating a flexible, adaptive, and intelligent system that leverages the latest advancements in machine learning, artificial intelligence, and complex systems. Below is a conceptual design for such a module, focusing on recursive strategies, adaptability, and self-evolution.
 
 ### Module: `ptm_autonomy`

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To increase trading activity, we could create a Python script that uses an algorithm to make trades. Here's a simple example using a random trading strategy. This is a very simplified example and real trading algorithms would be much more complex and take into account many more factors.
 
 ```python

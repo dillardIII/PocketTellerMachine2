@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: autonomy_trigger_stack.py ===
 
 # 🧠 Autonomy Trigger Stack – Launches the full autonomy system, including Whisper and assistant stack
@@ -52,3 +53,6 @@ if __name__ == "__main__":
             time.sleep(1)
     except KeyboardInterrupt:
         print("\n[AutonomyStack] ⛔ Autonomy system shutdown.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

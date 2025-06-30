@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import subprocess
 import time
 import webbrowser
@@ -74,3 +75,6 @@ except KeyboardInterrupt:
     assistant_logger_daemon.terminate()
     self_awareness_daemon.terminate()
     print("[SHUTDOWN]: All services stopped.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

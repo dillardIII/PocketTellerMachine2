@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: replit_team_commander.py ===
 # Launches RepairBotSquad inside Replit to check and fix files
 
@@ -22,3 +23,6 @@ def start_repair_squad():
         except Exception as e:
             print("[Commander] ⚠️ Repair cycle failed:", e)
             time.sleep(60)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

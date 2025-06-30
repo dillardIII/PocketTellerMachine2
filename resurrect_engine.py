@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: resurrect_engine.py ===
 import os
 import json
@@ -33,7 +34,7 @@ def log_resurrection(original_file, new_file, reason="experimental revival"):
     print(f"[RESURRECTED] {original_file} -> {new_file} | Reason: {reason}")
 
 def revive_random_strategy():
-    candidates = [f for f in os.listdir(CEMETERY_DIR) if f.endswith(".py")]
+    candidates = [f for f in os.listdir(CEMETERY_DIR) if f.endswith(".py")]:
     if not candidates:
         print("🪦 No bodies in the cemetery to revive.")
         return None
@@ -50,3 +51,6 @@ def revive_random_strategy():
 
 if __name__ == "__main__":
     revive_random_strategy()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

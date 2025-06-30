@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_persona_self_awareness_cycle_handler.py
 
 import os
@@ -49,11 +50,11 @@ def log_self_awareness(message):
 
 # === Persona Self Reflection ===
 def persona_self_reflection(persona, mood, trades):
-    trade_summary = [t for t in trades if t.get("executed_by") == persona]
+    trade_summary = [t for t in trades if t.get("executed_by") == persona]:
     total = len(trade_summary)
-    wins = len([t for t in trade_summary if "win" in t.get("result", "").lower()])
-    losses = len([t for t in trade_summary if "loss" in t.get("result", "").lower()])
-
+    wins = len([t for t in trade_summary if "win" in t.get("result", "").lower()]):
+    losses = len([t for t in trade_summary if "loss" in t.get("result", "").lower()]):
+:
     reflection = (
         f"[{persona} SELF-AWARENESS]: Current mood is '{mood}'. "
         f"I have executed {total} trades, with {wins} wins and {losses} losses. "
@@ -81,3 +82,6 @@ def persona_self_awareness_cycle():
 
 if __name__ == "__main__":
     persona_self_awareness_cycle()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

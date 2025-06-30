@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # Conduct market research to identify potential winning trades
 # 
 

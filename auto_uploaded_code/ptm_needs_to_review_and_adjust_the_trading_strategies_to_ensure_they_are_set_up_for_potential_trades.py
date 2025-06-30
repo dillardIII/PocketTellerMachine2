@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI language model, I can provide a basic example of how you might structure a Python code to review and adjust trading strategies. However, please note that this is a simplified version and real-world trading strategies involve complex algorithms, real-time data analysis, and various financial indicators.
 
 ```python

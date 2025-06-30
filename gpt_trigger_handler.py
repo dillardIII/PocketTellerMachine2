@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: gpt_trigger_handler.py ===
 
 # 🎯 GPT Trigger Handler – Listens for drop commands and writes file to gpt_generated
@@ -15,7 +16,7 @@ class GPTTriggerHandler:
         if "drop" in parts and "file:" in parts:
             try:
                 file_key_raw = parts[parts.index("file:") + 1].lower()
-                match_key = next((k for k in self.file_map if k.lower() == file_key_raw), None)
+                match_key = next((k for k in self.file_map if k.lower() == file_key_raw), None):
                 if match_key:
                     file_data = self.file_map[match_key]
                     self._write_file(match_key, file_data)
@@ -34,3 +35,6 @@ class GPTTriggerHandler:
     def _log_to_vault(self, filename):
         with open("vault/vault_logbook.txt", "a") as log:
             log.write(f"Dropped: {filename}\n")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

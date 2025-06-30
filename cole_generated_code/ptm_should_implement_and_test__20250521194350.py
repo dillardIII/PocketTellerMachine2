@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a simple example of how you might implement a new trading strategy in Python. This is a very basic example and in real-world trading, strategies can become very complex. 
 
 First, let's define a simple trading strategy: we will buy when the 50-day moving average crosses above the 200-day moving average, and sell when the 50-day moving average crosses below the 200-day moving average. This is known as a "Golden Cross" strategy.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to write a Python code for your task brief, we need to make a few assumptions. This includes defining what is a successful trade to PTM, how and where it trades, and which algorithms it uses.
 
 Due to the lack of information, I can provide you with a very simple sample of executing a trade in Python using the Alpaca API, which is a platform allowing you to manage your portfolio, place orders, access real-time market data.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate a trade and gather data to assess the effectiveness of the current strategies, we would need to interact with a trading API. Here is a simple example of how you might do this using the Alpaca API, a popular choice for algorithmic trading. 
 
 Firstly, you need to install the Alpaca API. You can do this using pip:

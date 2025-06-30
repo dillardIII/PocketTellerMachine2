@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and adjust trading approach, we need to use machine learning and data analysis techniques. Here is a simple example of how you might use Python to analyze market trends. This example uses the pandas library to analyze data and sklearn to create a simple predictive model.
 
 Please note that this is a very basic example. Real-world trading algorithms are much more complex and take into account many more factors.

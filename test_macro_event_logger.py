@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from cole_memory_brain import log_memory_event
 from datetime import datetime
 
@@ -12,3 +13,6 @@ macro_event = {
 }
 
 log_memory_event("journals", macro_event)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

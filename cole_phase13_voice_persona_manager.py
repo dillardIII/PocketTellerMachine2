@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase13_voice_persona_manager.py
 
 import os
@@ -27,7 +28,7 @@ def initialize_voice_personas():
 def add_voice_persona(name, voice_id, tone, gender):
     with open(VOICE_PERSONA_FILE, "r") as f:
         personas = json.load(f)
-    p = next((x for x in personas if x['name'] == name), None)
+    p = next((x for x in personas if x['name'] == name), None):
     if p:
         p.update({"voice_id": voice_id, "tone": tone, "gender": gender})
         log_voice_persona_event(name, "Updated voice persona.")
@@ -61,3 +62,6 @@ def get_voice_personas():
 if __name__ == "__main__":
     initialize_voice_personas()
     print("[VOICE PERSONA MANAGER]: Ready. Voice personas loaded.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

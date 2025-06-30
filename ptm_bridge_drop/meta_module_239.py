@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presumably a Placeholder Technology Moniker) empire's self-evolving autonomy stack involves creating components that enhance the system's ability to autonomously improve and adapt over time. This design will heavily leverage concepts of machine learning, artificial intelligence, and recursive strategies to ensure continuous self-improvement and adaptation.
 
 To achieve this, we can break down the module into several key components:

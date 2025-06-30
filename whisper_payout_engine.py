@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: whisper_payout_engine.py ===
 # 🎤 Whisper + Vault Payout Engine for PTM
 
@@ -81,3 +82,6 @@ if __name__ == "__main__":
             print("[PTM] 💓 Whisper & Payout Engine alive...")
     except KeyboardInterrupt:
         print("\n[PTM] ⛔ Shutting down Whisper & Payout Engine...")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

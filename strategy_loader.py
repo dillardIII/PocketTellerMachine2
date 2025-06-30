@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: strategy_loader.py ===
 
 import os
@@ -54,13 +55,13 @@ def load_strategy_index():
 
 def get_strategy_by_id(strategy_id):
     index = load_strategy_index()
-    return next((s for s in index if s["id"] == strategy_id), None)
-
+    return next((s for s in index if s["id"] == strategy_id), None):
+:
 
 def list_strategies_by_tag(tag):
     index = load_strategy_index()
-    return [s for s in index if tag in s["tags"]]
-
+    return [s for s in index if tag in s["tags"]]:
+:
 
 def list_all_strategy_names():
     index = load_strategy_index()
@@ -75,3 +76,6 @@ if __name__ == "__main__":
     print("\nMomentum strategies:")
     for strat in list_strategies_by_tag("momentum"):
         print(f"  {strat['name']} — {strat['description']}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

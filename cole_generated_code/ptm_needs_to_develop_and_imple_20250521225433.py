@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop a trading strategy, we can use a simple moving average (SMA) crossover strategy. This strategy is based on two moving averages, a "fast" moving average and a "slow" moving average. When the fast moving average crosses above the slow moving average, it generates a buy signal. When the fast moving average crosses below the slow moving average, it generates a sell signal.
 
 Here is a simple Python code using pandas library to implement this strategy:

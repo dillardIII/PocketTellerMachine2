@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presumably a theoretical concept here) empire's self-evolving autonomy stack involves creating a system that can learn, adapt, and evolve over time. The focus here is on building a recursive, self-improving framework that leverages modern AI/ML techniques and recursive strategies. Here's a conceptual outline for the module:
 
 ### Module Overview

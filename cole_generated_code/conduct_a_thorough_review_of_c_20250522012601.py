@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we would need to use a Python library like pandas_datareader to fetch data from a financial market data provider like Yahoo Finance. We would also use pandas for data manipulation and matplotlib for data visualization. However, please note that this is a simplified version of a very complex process and in real-world trading, more sophisticated models and algorithms are used.
 
 Here is a simple Python code to fetch the last 60 days' data for a specific stock (for example, Apple Inc.) and calculate its moving average:

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here's a basic example of how you might initiate a trade using Python. This example uses the Alpaca Trade API, which is a popular choice for algorithmic trading. 
 
 Please note that you'll need to replace `'APCA-API-KEY-ID'` and `'APCA-API-SECRET-KEY'` with your actual API keys from Alpaca. Also, this is a very basic example and real trading algorithms can get quite complex.

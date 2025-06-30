@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_self_limitation_handler.py
 
 import os
@@ -34,7 +35,7 @@ def load_critical_errors():
         try:
             with open(ERROR_LOG_FILE, "r") as f:
                 logs = json.load(f)
-            return [log for log in logs if "CRITICAL ERROR" in log.get("message", "")]
+            return [log for log in logs if "CRITICAL ERROR" in log.get("message", "")]:
         except:
             return []
     return []
@@ -66,3 +67,6 @@ def self_limitation_loop():
 
 if __name__ == "__main__":
     self_limitation_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

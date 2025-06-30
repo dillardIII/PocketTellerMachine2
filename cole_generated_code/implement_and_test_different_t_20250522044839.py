@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code that uses the `yfinance` library to download stock data and `pyfolio` library to analyze trading strategies. In this example, we will implement and test two simple trading strategies: 
 
 1. Buy and Hold: This strategy involves buying a stock and holding it for a long period.

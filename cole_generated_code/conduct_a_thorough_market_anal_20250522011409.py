@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct a thorough market analysis, we would need to use APIs from financial data providers like Alpha Vantage, Yahoo Finance, or Google Finance. Here is a simple example of how you can get data from Yahoo Finance and analyze it using Python. We'll use pandas for data manipulation and matplotlib for data visualization.
 
 Please note that this is a very basic example and real-world trading involves more complex analysis and risk management.

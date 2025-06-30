@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🤖 Ghost Self-Coder – evolves PTM’s codebase with recursive improvements
 
 import os
@@ -27,3 +28,6 @@ print("[GhostSelfCoder] 🤯 Evolving new capabilities at {time.ctime()}...")
 while True:
     generate_new_code()
     time.sleep(random.randint(60, 120))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

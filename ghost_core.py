@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Ghost Core – PTM's Central Thinking Engine
 
@@ -103,3 +104,6 @@ class GhostCore:
 if __name__ == "__main__":
     core = GhostCore()
     core.run()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

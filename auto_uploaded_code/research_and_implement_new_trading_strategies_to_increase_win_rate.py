@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating trading strategies is a complex task that involves vast knowledge in trading and finance. A common method involves using Python libraries like pandas and yfinance for data manipulation and Technical Analysis Library (TA-Lib) for generating technical indicators, such as Moving Average Convergence Divergence (MACD) and Relative Strength Index (RSI).
 
 Here's a basic strategy using the Crossing Moving Averages implemented in Python:

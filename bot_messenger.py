@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Bot Messenger:
 Lets bots send messages, alerts, or comments to each other.
@@ -59,3 +60,6 @@ def clear_inbox(bot_name):
     if os.path.exists(path):
         os.remove(path)
         print(f"[🧹 Bot Messenger] Cleared inbox for {bot_name}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

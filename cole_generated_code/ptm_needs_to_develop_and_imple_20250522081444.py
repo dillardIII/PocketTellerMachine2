@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Your request is quite broad, but I'll provide a simple example of a Python code that implements a basic trading strategy using Moving Average Crossover. This strategy is often used in algorithmic trading. 
 
 In this strategy, we will use two moving averages: a fast moving average (shorter period) and a slow moving average (longer period). A buy signal is generated when the fast moving average crosses above the slow moving average, and a sell signal is generated when the fast moving average crosses below the slow moving average.

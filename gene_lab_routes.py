@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Gene Lab Routes – Evolve AI Personas and Trading Strategies
 
@@ -71,3 +72,6 @@ def gene_status():
 @gene_lab.route("/gene_lab_dashboard")
 def gene_lab_ui_page():
     return render_template("gene_lab.html")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

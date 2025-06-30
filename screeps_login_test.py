@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: screeps_login_test.py ===
 
 import requests
@@ -67,3 +68,6 @@ if __name__ == "__main__":
         print(f"[Screeps Login] Received Token: {token[:10]}... [Truncated]")
     else:
         print("[Screeps Login] No token received.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

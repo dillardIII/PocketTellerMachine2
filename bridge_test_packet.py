@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bridge_test_packet.py ===
 # 🧪 Bridge Test Packet – Writes a test file to inbox for pickup verification.
 
@@ -20,3 +21,6 @@ def drop_test_packet():
 
 if __name__ == "__main__":
     drop_test_packet()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

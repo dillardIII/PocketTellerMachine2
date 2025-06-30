@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: voice_intent_executor.py ===
 # 🎙️ Voice Intent Executor – links recognized intents to direct module execution
 
@@ -38,3 +39,6 @@ def handle_intent(intent_text):
 
 if __name__ == "__main__":
     watch_and_execute()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

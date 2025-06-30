@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghostbacktester_ai.py ===
 # 📉 GhostBacktester – AI-powered trade simulator with grading and memory logging
 

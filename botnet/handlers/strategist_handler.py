@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: botnet/handlers/strategist_handler.py ===
 """
 Strategist Handler:

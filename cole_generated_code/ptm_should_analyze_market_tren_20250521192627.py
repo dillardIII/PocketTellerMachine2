@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, you would need to use a Python library like pandas for data analysis and manipulation, and yfinance to download the historical market data from Yahoo Finance. For simplicity, let's assume we're analyzing the market trends and patterns for a single stock.
 
 Here's a simple Python script that downloads the historical data for a specific stock symbol, calculates its moving averages, and identifies potential trading opportunities based on these averages:

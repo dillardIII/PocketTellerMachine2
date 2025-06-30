@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help you write a simple Python code using the Alpaca API, which is a platform that allows for algorithmic trading. This code will initiate a trade by buying one share of Apple Inc. (AAPL). Please replace 'YOUR_API_KEY_ID' and 'YOUR_SECRET_KEY' with your actual Alpaca API key and secret key.
 
 ```python

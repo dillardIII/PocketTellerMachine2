@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of a trading bot using Python. This bot will buy when the price is low and sell when the price is high. 
 
 Please note that this is a very basic example and real-world trading bots are much more complex and require careful consideration of many factors. 

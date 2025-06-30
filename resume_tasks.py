@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # resume_tasks.py
 
 import os
@@ -48,3 +49,6 @@ def resume_unfinished_tasks():
 # === Test Run ===
 if __name__ == "__main__":
     resume_unfinished_tasks()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

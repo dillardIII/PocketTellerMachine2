@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Assuming the historical trade data is stored in a file called "trade_data.csv", here's a simple Python code to load and analyze this data using pandas library.
 
 ```python

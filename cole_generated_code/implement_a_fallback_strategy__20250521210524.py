@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I'll write a Python function named `fallback_strategy` that will be called when no backtest results are found. This function will simply print a message to the console and return an empty dictionary. 
 
 ```python

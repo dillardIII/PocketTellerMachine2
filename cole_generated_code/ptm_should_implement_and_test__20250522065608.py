@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To implement and test new trading strategies, we need to have a clear understanding of the financial market and the data we are working with. Here is a simple Python code using pandas and yfinance libraries to fetch stock data, calculate simple moving average (SMA) and implement a basic trading strategy.
 
 Please note that this is a very basic strategy and in real life, trading strategies can be very complex involving multiple factors and sophisticated algorithms.

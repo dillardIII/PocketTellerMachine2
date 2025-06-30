@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct a market analysis, we can use Python libraries such as pandas for data manipulation, yfinance to download the historical market data, and matplotlib for data visualization. Here is a simple example of how you can do this:
 
 ```python

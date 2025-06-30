@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presumably a company or project) empire's self-evolving autonomy stack with innovative recursive strategies involves creating a modular, scalable architecture that supports continual learning and adaptation. Below, I outline a conceptual framework and provide a sample implementation for a Python module that could serve as a foundational component in this autonomy stack.
 
 ### Conceptual Framework

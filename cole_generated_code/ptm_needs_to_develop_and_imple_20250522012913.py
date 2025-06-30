@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To implement a variety of trading strategies, we need to define what those strategies are. For simplicity, let's consider three basic strategies: 
 
 1. Momentum Trading: This strategy involves buying stocks that are trending in one direction with volume.

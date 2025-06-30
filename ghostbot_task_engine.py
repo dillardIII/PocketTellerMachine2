@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # ghostbot_task_engine.py
 # Purpose: Self-Updating Task Engine for GhostBot (PTM AI Core)
 # Powers recursive task assignment, autonomous scheduling, learning, and background optimization

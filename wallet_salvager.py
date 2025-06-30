@@ -1,10 +1,11 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === wallet_salvager.py ===
 """
 Wallet Salvager – Attempts to extract:
 - Seed phrases from plaintext files
 - Private keys from wallet files
 - Metadata from corrupted or partial wallet backups
-- Memory snapshots (if permitted)
+- Memory snapshots (if permitted):
 """
 
 import os

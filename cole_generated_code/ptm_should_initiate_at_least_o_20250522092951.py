@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code to simulate a trade. This code uses the yfinance library to fetch real-time stock data from Yahoo Finance:
 
 ```python

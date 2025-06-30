@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: persona_sync_hub.py ===
 
 import time
@@ -64,3 +65,6 @@ if __name__ == "__main__":
     update_persona("MoCash", mood="pumped", task="reviewing AAPL call spread")
     update_persona("Mentor", mood="focused", memory="Reviewing last week's trades")
     print(get_persona_state("Mentor"))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

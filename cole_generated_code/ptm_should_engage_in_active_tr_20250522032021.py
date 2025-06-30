@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To generate wins and losses data for PTM's active trading, we would need to simulate a trading strategy. Here's a simple example using Python and pandas library. This example assumes that we have historical price data for a certain stock in a CSV file.
 
 Please note that this is a simulation and should not be used for actual trading. Real-world trading involves many more factors and requires careful analysis and risk management.

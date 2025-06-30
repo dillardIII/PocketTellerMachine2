@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we need to define what an EMA Crossover is. An EMA Crossover is a point on the trading chart where the short-term Exponential Moving Average (EMA) crosses the long-term EMA. It's a popular tool among traders as it may indicate a potential change in the trend, either upwards (bullish) or downwards (bearish).
 
 Here is a simple Python code using pandas library to calculate EMA crossover:

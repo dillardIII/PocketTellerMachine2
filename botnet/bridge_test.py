@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Bridge Test:
 Simulates multi-bot interaction using the bridge_relay router.

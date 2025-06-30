@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To implement a fallback strategy when no backtest results are found, you can use a try-except catch block or if-else conditions in Python. Here, I'll provide an example using a try-except block:
 
 ```python

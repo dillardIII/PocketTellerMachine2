@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # strategy_lib.py
 """
 Module to evaluate a trading strategy using basic logic.

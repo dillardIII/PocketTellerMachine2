@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code that simulates a trading bot. This bot will initiate at least one trade, which can be used to gain experience and potentially increase wins.
 
 ```python

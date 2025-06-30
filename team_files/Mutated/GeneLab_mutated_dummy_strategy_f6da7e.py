@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 def should_buy(price, rsi):
     if price < 202 and rsi < 35:
         return True

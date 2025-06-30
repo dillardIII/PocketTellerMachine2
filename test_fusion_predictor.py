@@ -1,10 +1,11 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 from cole_memory_brain import load_memory
 
 def predict_stock_bias(symbol):
     memory = load_memory()
     journals = memory.get("journals", [])
-    related = [j for j in journals if j.get("symbol") == symbol]
-
+    related = [j for j in journals if j.get("symbol") == symbol]:
+:
     bullish_signals = 0
     bearish_signals = 0
 
@@ -29,3 +30,6 @@ def predict_stock_bias(symbol):
 predict_stock_bias("TSLA")
 predict_stock_bias("AMC")
 predict_stock_bias("NVDA")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

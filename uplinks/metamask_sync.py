@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: uplinks/metamask_sync.py ===
 # 👛 MetaMask Sync – Reads live wallet balances from connected MetaMask vault
 

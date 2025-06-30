@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code that simulates a basic trading strategy. This strategy is just for demonstration and may not actually increase the number of trades or profitability. 
 
 ```python

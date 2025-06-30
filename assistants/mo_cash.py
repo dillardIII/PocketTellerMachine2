@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # mo_cash.py — Defines the "Mo Cash" assistant persona (Hustler voice)
 
 class MoCash:

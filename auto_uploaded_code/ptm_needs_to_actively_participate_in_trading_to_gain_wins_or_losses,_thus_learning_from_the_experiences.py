@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help you write a simple Python code for a basic trading algorithm. Please note that this is a very basic example and real-world trading algorithms are much more complex and involve advanced statistical and machine learning techniques.
 
 ```python

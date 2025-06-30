@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we would need a lot more information and resources than provided. However, I can give you a simple example of how you might start to structure such a program using Python. This example uses the pandas library to analyze market trends.
 
 ```python

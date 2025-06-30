@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Strategy Scorer – PTM AI Module
 
@@ -60,8 +61,8 @@ def recommend_best_strategy():
     # Sort by highest confidence
     scored.sort(key=lambda s: s["confidence"], reverse=True)
 
-    best = scored[0] if scored else None
-
+    best = scored[0] if scored else None:
+:
     if best:
         log_event("Strategy Scorer", f"📊 Strategy chosen: {best['name']} ({best['confidence']})", "success")
         return {

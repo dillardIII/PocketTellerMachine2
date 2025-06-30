@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple example of how you can initiate a trade using Python. This code uses the `requests` library to send a POST request to a hypothetical trading API:
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: hyper_planner_ai.py ===
 # 🧠 Hyper Planner – generates empire upgrades using GPT and feeds the task queue
 
@@ -35,3 +36,6 @@ def main_loop():
 
 if __name__ == "__main__":
     main_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase13_voice_profile_manager.py
 
 import os
@@ -28,7 +29,7 @@ def initialize_voice_profiles():
 def add_voice_profile(name, style, voice_id, description):
     with open(VOICE_PROFILE_FILE, "r") as f:
         profiles = json.load(f)
-    profile = next((p for p in profiles if p['name'] == name), None)
+    profile = next((p for p in profiles if p['name'] == name), None):
     if profile:
         profile.update({"style": style, "voice_id": voice_id, "description": description})
         log_voice_event(name, "Updated voice profile.")
@@ -62,3 +63,6 @@ def get_voice_profiles():
 if __name__ == "__main__":
     initialize_voice_profiles()
     print("[VOICE PROFILE MANAGER]: Ready. Voice profiles loaded.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: rebuild_trigger_stack.py ===
 # 🔧 Rebuilds autonomy_trigger_stack.py – Initiates voice + guardian triggers
 
@@ -11,3 +12,6 @@ def launch_autonomy():
     start_voice_listener()
 ''')
 print("[rebuild_trigger_stack] ✅ autonomy_trigger_stack.py rebuilt.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

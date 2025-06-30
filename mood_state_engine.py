@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: mood_state_engine.py ===
 # 🌦️ Mood Engine – Dynamic emotional state system
 

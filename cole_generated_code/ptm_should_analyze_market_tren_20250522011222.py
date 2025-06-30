@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Writing a Python code to analyze market trends and opportunities for potential trades would require access to a financial data source. Here's a simple example of how you might use the pandas library to analyze stock data from Yahoo Finance.
 
 Please note that this is a very basic example and real-world trading algorithms are much more complex and take many more factors into consideration.

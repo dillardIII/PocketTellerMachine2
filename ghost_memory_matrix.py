@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_memory_matrix.py ===
 # 👻 Ghost Memory Matrix – remembers past trades to shape probabilities
 
@@ -29,7 +30,7 @@ def ghost_matrix_loop():
         # Always show spectral memory baseline
         print("[GhostMatrix] 👻 Syncing spectral memory layers...")
 
-        # Echo last few trades if they exist
+        # Echo last few trades if they exist:
         if os.path.exists(GHOST_FILE):
             with open(GHOST_FILE, "r") as f:
                 log = json.load(f)
@@ -42,3 +43,6 @@ def ghost_matrix_loop():
 
 if __name__ == "__main__":
     ghost_matrix_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

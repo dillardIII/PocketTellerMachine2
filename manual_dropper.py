@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: manual_dropper.py ===
 # 🔽 Drops a live test file into ptm_inbox
 
@@ -28,3 +29,6 @@ if __name__ == "__main__":
 
 if __name__ == "__main__":
     drop_test_file()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To evaluate market conditions and opportunities to assist Cole in targeting more potential wins, we'll want to analyze market data. That might involve Python code to fetch and visualize financial data, calculate technical indicators (like Moving Average Convergence Divergence (MACD), Relative Strength Index (RSI), etc.), and test various trading strategies.
 
 Due to limitations, providing comprehensive code here to fetch live market data is not feasible but I can show you general foundations for this kind of task.

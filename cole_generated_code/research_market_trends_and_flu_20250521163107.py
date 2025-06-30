@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI model, I design python codes, but I can't execute or run them. Data from stock markets or financial markets is typically required to investigate market trends and changes. Here's an example of how you'd do it using the 'yfinance' free library to download the stock data, 'pandas' for data manipulation, and 'matplotlib' for data visualization.
 
 ```python

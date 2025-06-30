@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: mic_voice_trigger.py ===
 # 🎙️ Mic Voice Trigger – Uses microphone input to trigger PTM commands live
 
@@ -25,3 +26,6 @@ class MicVoiceTrigger:
 
 if __name__ == "__main__":
     MicVoiceTrigger().listen_and_execute()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To gather and analyze market data, we can use the `pandas` library for data manipulation and analysis, and `yfinance` library to download stock market data from Yahoo Finance. Here is a simple example:
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 def grade_trade(trade, result):
     if result >= 200:
         return "A"
@@ -9,3 +10,6 @@ def grade_trade(trade, result):
         return "D"
     else:
         return "F"
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

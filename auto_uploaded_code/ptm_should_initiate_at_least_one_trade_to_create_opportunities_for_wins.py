@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here's a simple Python code to simulate a trading bot. This bot will initiate at least one trade when the price of a stock reaches a certain threshold. Please note that this is a very basic example and real-world trading bots are much more complex and involve more sophisticated algorithms.
 
 ```python

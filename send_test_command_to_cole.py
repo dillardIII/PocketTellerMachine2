@@ -1,6 +1,7 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import requests
 
-url = "http://localhost:5050/cole_webhook"  # Change 'localhost' to your actual server IP if remote
+url = "http://localhost:5050/cole_webhook"  # Change 'localhost' to your actual server IP if remote:
 payload = {
     "command": "status check"
 }
@@ -8,3 +9,6 @@ payload = {
 response = requests.post(url, json=payload)
 print("[RESPONSE]:", response.status_code)
 print(response.json())
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

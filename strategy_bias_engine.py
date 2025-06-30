@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: strategy_bias_engine.py ===
 # 🧠 Strategy Bias Engine – Learns what styles PTM wins or loses with & adjusts
 
@@ -28,7 +29,7 @@ class StrategyBiasEngine:
         recommendations = []
         for name, record in self.biases.items():
             total = record["wins"] + record["losses"]
-            win_rate = record["wins"] / total if total > 0 else 0
+            win_rate = record["wins"] / total if total > 0 else 0:
             recommendations.append((name, round(win_rate, 2)))
         
         recommendations.sort(key=lambda x: x[1], reverse=True)

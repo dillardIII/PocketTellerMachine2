@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To create a Python program that analyzes market trends and adjusts its strategies accordingly for potential trades, we would need to use a combination of data analysis libraries like pandas for handling data, numpy for numerical computations, and matplotlib for visualizations. We would also need to use an API to fetch market data.
 
 Please note that this is a simplified version of what you're asking for. In reality, trading algorithms are much more complex and require a deep understanding of both programming and financial markets.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code using the `yfinance` library to download stock data, which can be used to initiate a trade and gain insights on market trends.
 
 ```python

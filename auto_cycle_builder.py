@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_cycle_builder.py ===
 
 import json
@@ -22,9 +23,9 @@ def update_roadmap_status(feature_id, passed):
     updated = False
     for feature in roadmap.get("features", []):
         if feature["id"] == feature_id:
-            feature["status"] = "complete" if passed else "failed"
+            feature["status"] = "complete" if passed else "failed":
             updated = True
-            print(f"[Cycle] Marked {feature_id} as {'complete' if passed else 'failed'}.")
+            print(f"[Cycle] Marked {feature_id} as {'complete' if passed else 'failed'}."):
             break
 
     if updated:
@@ -58,3 +59,6 @@ def run_build_autonomy_cycle():
             update_roadmap_status(task["feature_id"], test_result["passed"])
 
         time.sleep(5)  # Optional: delay between task batches
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

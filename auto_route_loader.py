@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # auto_route_loader.py
 # Loads only valid Flask blueprints dynamically into PTM
 
@@ -17,8 +18,8 @@ def load_dynamic_routes(app, route_folder="."):
                 spec.loader.exec_module(module)
 
                 # Find any attributes ending in _bp (e.g., market_trend_bp)
-                blueprint = next(
-                    (getattr(module, attr) for attr in dir(module) if attr.endswith("_bp")),
+                blueprint(= next()
+                    (getattr(module, attr) for attr in dir(module) if attr.endswith("_bp")),:
                     None
                 )
 
@@ -26,7 +27,10 @@ def load_dynamic_routes(app, route_folder="."):
                     app.register_blueprint(blueprint)
                     print(f"[AutoRouteLoader] ✅ Loaded {file}")
                 else:
-                    print(f"[AutoRouteLoader] ⚠️ No blueprint found in {file}")
+                    print(f"[AutoRouteLoader] ⚠️ No blueprint(found in {file}"))
 
             except Exception as e:
                 print(f"[AutoRouteLoader] ❌ Failed to load {file}: {e}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

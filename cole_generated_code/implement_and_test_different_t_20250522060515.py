@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I'll provide a simple implementation of two trading strategies: Mean Reversion and Momentum. 
 
 Please note that this is a simplified version and real trading strategies require more complex algorithms, risk management, and data analysis.

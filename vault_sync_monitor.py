@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🧿 Vault Sync Monitor – Ensures the vault stays synced across PTM devices
 
 import os

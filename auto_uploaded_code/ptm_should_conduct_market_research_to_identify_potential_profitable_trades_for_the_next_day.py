@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI model developed by OpenAI, I can't execute real-time Python code or interact with live databases or APIs. However, I can provide you with a basic example of how you might structure your Python code to conduct market research. 
 
 In this example, I'll use the `yfinance` library to download stock data, and `pandas` to analyze it. Please note that this is a very basic example and real-world trading involves much more complex analysis and considerations.

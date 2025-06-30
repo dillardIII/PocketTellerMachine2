@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Persona Router
 Directs commands and alerts to the appropriate assistant based on:

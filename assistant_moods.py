@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: assistant_moods.py ===
 # 🎭 Assistant Moods – Stores and updates current AI emotional states
 
@@ -29,3 +30,6 @@ def set_mood(name, mood):
 
 if __name__ == "__main__":
     print(get_moods())
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

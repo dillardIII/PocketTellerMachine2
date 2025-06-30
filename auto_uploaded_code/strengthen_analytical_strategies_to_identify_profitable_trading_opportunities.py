@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To strengthen analytical strategies to identify profitable trading opportunities, aspects such as moving averages, momentum indicators, Bollinger Bands, and others can be used. Below is a simplistic example of a moving average crossover strategy implemented in Python using the `pandas` and `yfinance` libraries.
 
 Before proceeding, make sure you have the necessary packages installed. If not, you can install them with:

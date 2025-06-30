@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python utility for a strategy or empire game involves crafting functions that can help manage resources, optimize strategies, or simulate scenarios. Let's design a utility that helps players manage resources efficiently in a hypothetical empire-building game. This game features various resources such as food, gold, wood, and stone, and players must allocate workers to gather these resources while maintaining a balance that supports both development and expansion.
 
 Here is a Python utility that helps players optimize their resource allocation:
@@ -97,3 +98,6 @@ empire.print_status()
 5. **Resource Gathering**: Accumulates resources based on allocated workers' efficiency.
 
 This utility could be integrated into a larger game to help manage resource allocation dynamically, adapting to changing priorities and conditions in the empire-building scenario.
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

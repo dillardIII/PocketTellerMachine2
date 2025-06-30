@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python script that could be used to diversify a portfolio. This script uses the yfinance library to download stock data and the pandas library to manipulate the data.
 
 Please note that this is a very basic example and real portfolio diversification involves much more complex analysis and decision making.

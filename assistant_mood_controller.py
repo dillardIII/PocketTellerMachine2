@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Assistant Mood Controller:
 Applies mood-based filters to assistant behavior, tone, and response logic.
@@ -45,3 +46,6 @@ def get_mood_settings(persona):
 if __name__ == "__main__":
     for p in ["MoCash", "Mentor", "Strategist"]:
         print(f"{p} mood settings ➤", get_mood_settings(p))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

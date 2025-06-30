@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ptm_autonomy_manager.py ===
 # 🧠 PTM Autonomy Manager – Ensures all autonomous modules are always running
 
@@ -34,3 +35,6 @@ def is_running(filename):
 
 if __name__ == "__main__":
     monitor_and_run()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

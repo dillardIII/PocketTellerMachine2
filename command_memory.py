@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: command_memory.py ===
 # 🧠 Command Memory Core – Phase 3 Memory AI
 
@@ -34,3 +35,6 @@ def show_memory_log():
                 print(f"- [{entry['timestamp']}] {entry['event']} | {entry['detail']}")
     else:
         print("[CommandMemory] 🧠 No memory yet.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

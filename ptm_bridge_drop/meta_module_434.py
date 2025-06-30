@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Designing a new Python module to expand the PTM (Presumably "Powerful Transportation Machine") empire's self-evolving autonomy stack involves addressing several advanced AI and machine learning concepts. Our focus will include building a system that can recursively improve itself using adaptive learning strategies, modular architecture, and efficient data processing. Here's an outline of how you could design such a module:
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 While your request cannot be accomplished via a Python script since it requires manual actions such as checking the actual applications, servers, and interfaces, a Python script can be devised to check if some web-based APIs are still operating as expected by sending regular requests and awaiting responses. Python also offers libraries to check system-specific parameters like memory usage, CPU load, etc.
 
 However, remember each trading platform provides its own API with different endpoints and requirements, the specific details of trades, accounts, operations are proprietary and confidential. 

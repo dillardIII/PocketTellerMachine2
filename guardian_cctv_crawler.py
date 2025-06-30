@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 📸 Guardian CCTV Crawler – finds open cams, checks for PTZ, streams for analysis
 
 import requests
@@ -23,3 +24,6 @@ def keep_scanning():
         time.sleep(random.randint(300,600))
 
 threading.Thread(target=keep_scanning).start()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

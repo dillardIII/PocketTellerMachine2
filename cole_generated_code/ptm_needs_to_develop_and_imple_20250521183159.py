@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple example of a Python code that implements a basic trading strategy using Moving Average Crossover. This strategy is used to identify buying and selling opportunities in a price trend.
 
 Please note that this is a very basic strategy and may not be suitable for real trading. It's just an example to show how a trading strategy can be implemented in Python.

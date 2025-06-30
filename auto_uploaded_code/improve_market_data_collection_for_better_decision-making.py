@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To improve market data collection for better decision-making, we can use Python's libraries such as pandas, yfinance, and matplotlib. Here's a simple example of how we can collect and visualize stock market data:
 
 ```python

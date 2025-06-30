@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_file_listener_writer.py ===
 # 👻 Ghost File Listener & Writer – watches for new AI files and drops them to the bridge
 
@@ -21,3 +22,6 @@ while True:
             shutil.move(src, dst)
             print(f"[GhostFileWriter] 🚀 Moved {file} to bridge_drop.")
     time.sleep(5)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

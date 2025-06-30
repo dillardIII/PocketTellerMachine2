@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_bridge_daemon_upgraded.py
 
 import os
@@ -52,7 +53,7 @@ def process_inbox_file():
         json.dump([], f, indent=2)
 
 def process_direct_code():
-    files = [f for f in os.listdir(DIRECT_CODE_DIR) if f.endswith(".py")]
+    files = [f for f in os.listdir(DIRECT_CODE_DIR) if f.endswith(".py")]:
     if not files:
         return
 

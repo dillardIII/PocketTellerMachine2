@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct a market analysis, we need to fetch and analyze market data. Here's a simple Python code using `pandas_datareader` to fetch stock data and `matplotlib` to visualize it. This code fetches data for a specific stock (e.g., Google) and plots its closing price over time.
 
 ```python

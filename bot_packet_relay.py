@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Bot Packet Relay:
 Supports structured data handoffs between bots (strategies, plans, alerts, trade info).
@@ -58,3 +59,6 @@ def clear_packets(receiver):
     if os.path.exists(path):
         os.remove(path)
         print(f"[🧽 Packet Relay] Cleared packets for {receiver}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

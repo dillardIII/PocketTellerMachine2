@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: wallet_data_syncer.py ===
 # 🛠️ PTM Wallet Data Syncer – Fetches live native & ERC‑20 balances
 

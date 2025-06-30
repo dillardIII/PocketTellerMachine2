@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of a Python code that implements a basic mean reversion trading strategy using pandas. This strategy assumes that the price of a stock will revert to its mean price over time. If the price is below the mean, it buys the stock, if it's above the mean, it sells the stock.
 
 Please note that this is a very simplified example and real-world trading strategies are much more complex and involve many other factors.

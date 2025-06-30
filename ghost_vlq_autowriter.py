@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_vlq_autowriter_recursive.py ===
 # 👻 GhostVLQAutoWriterRecursive – spawns specialized strategists that evolve dedicated VLQs forever
 
@@ -27,24 +28,24 @@ def wallet_cracking_strategy(past_modules):
         "Write ghost_entropy_cross_mutator.py that combines entropy pools across devices.",
         "Write ghost_private_key_shard_reconstructor.py that rebuilds partial keys from distributed nodes."
     ]
-    return [opt for opt in options if opt not in past_modules]
-
+    return [opt for opt in options if opt not in past_modules]:
+:
 def propaganda_strategy(past_modules):
     options = [
         "Write ghost_propaganda_story_crafter.py that builds multi-layer brand narratives.",
         "Write ghost_market_psych_profile.py to generate competitor fear campaigns.",
         "Write ghost_social_echo_mutator.py that pushes dark stories across market channels."
     ]
-    return [opt for opt in options if opt not in past_modules]
-
+    return [opt for opt in options if opt not in past_modules]:
+:
 def quantum_strategy(past_modules):
     options = [
         "Write ghost_superposition_amplifier.py to expand quantum circuit depth dynamically.",
         "Write ghost_noise_optimizer.py that tunes circuits for low decoherence attacks.",
         "Write ghost_cross_qkd_fusion.py to blend QKD entropy into cracking modules."
     ]
-    return [opt for opt in options if opt not in past_modules]
-
+    return [opt for opt in options if opt not in past_modules]:
+:
 def add_new_vlq_line(buildq, new_line):
     if new_line and new_line not in buildq:
         buildq.append(new_line)
@@ -58,14 +59,14 @@ def recursive_autowriter_loop():
         historian = load_json_file(HISTORIAN_FILE, {})
         buildq = load_json_file(BUILDQ_FILE, [])
 
-        past_modules = [e.get("name") for e in memory if e.get("type") == "module_build"]
-
+        past_modules = [e.get("name") for e in memory if e.get("type") == "module_build"]:
+:
         # Separate ghost councils by specialization
         wallet_focus = wallet_cracking_strategy(past_modules)
         propaganda_focus = propaganda_strategy(past_modules)
         quantum_focus = quantum_strategy(past_modules)
 
-        # Each ghost council decides if it wants to add something based on mood
+        # Each ghost council decides if it wants to add something based on mood:
         if cyber_state.get("greed", 0.5) > 0.6 and wallet_focus:
             add_new_vlq_line(buildq, random.choice(wallet_focus))
         if cyber_state.get("stealth", 0.5) > 0.6 and propaganda_focus:
@@ -80,3 +81,6 @@ def recursive_autowriter_loop():
 
 if __name__ == "__main__":
     recursive_autowriter_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

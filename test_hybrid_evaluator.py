@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import json
 from test_hybrid_backtest import test_hybrid_performance
 
@@ -19,3 +20,6 @@ def evaluate_and_promote_hybrids():
 
 # Run evaluator
 evaluate_and_promote_hybrids()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

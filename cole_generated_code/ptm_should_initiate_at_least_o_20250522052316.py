@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we need to know what kind of trading system we are working with and what kind of data we have access to. However, I can provide a simple example of a Python function that might be used to initiate a trade in a hypothetical trading system.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of how you might implement and test a few basic trading strategies in Python. This example uses the `pandas` library for data manipulation and the `yfinance` library to download stock price data from Yahoo Finance.
 
 ```python

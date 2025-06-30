@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code to simulate a trading activity. This code uses a random number generator to simulate the price of a stock and then decides whether to buy or sell based on the price.
 
 ```python

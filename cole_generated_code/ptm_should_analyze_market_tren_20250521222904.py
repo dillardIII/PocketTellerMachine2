@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python code that analyzes market trends and adjusts strategies accordingly is a complex task that involves multiple steps and requires a deep understanding of both Python programming and financial markets. Here's a very basic example of how you might start building such a system using Python's pandas library for data analysis and yfinance to download stock price data.
 
 Please note that this is a simplified example and real trading algorithms can be much more complex.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🖥️ Guardian Console – matrix view of cams + alerts
 
 import json
@@ -16,3 +17,6 @@ def display_matrix():
         time.sleep(20)
 
 display_matrix()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

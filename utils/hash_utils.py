@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: utils/hash_utils.py ===
 
 # 🔐 Hash Utils – Provides SHA-256 file hashing

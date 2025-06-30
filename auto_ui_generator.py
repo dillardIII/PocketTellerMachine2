@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_ui_generator.py ===
 # 🧱 Auto UI Generator – Builds UI views from bot data and strategies
 
@@ -39,3 +40,6 @@ def generate_ui_cards(strategy_file="strategy_registry.json", output="templates/
 
 if __name__ == "__main__":
     generate_ui_cards()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

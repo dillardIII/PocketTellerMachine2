@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple example of how you might start to analyze past trades using Python. This example assumes you have a CSV file of past trades with columns for 'Date', 'Symbol', 'Buy/Sell', 'Quantity', and 'Price'. We'll use pandas for data manipulation and matplotlib for visualization.
 
 ```python

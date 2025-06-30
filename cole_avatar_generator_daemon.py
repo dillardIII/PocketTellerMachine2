@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_avatar_generator_daemon.py
 
 import os
@@ -60,3 +61,6 @@ def avatar_generator_loop():
 
 if __name__ == "__main__":
     avatar_generator_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

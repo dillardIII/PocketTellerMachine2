@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple Python code that implements two basic trading strategies: Moving Average Crossover and Mean Reversion. 
 
 ```python

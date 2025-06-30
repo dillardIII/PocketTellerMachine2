@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I will provide a simple Python code to implement and test a few trading strategies using the pandas library. However, please note that this is a simplified example and real-world trading involves more complex factors.
 
 ```python

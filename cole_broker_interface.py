@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 from datetime import datetime
@@ -55,7 +56,7 @@ def execute_trade_order(ticker, action, quantity=1, order_type="market"):
             "quantity": quantity,
             "order_type": order_type,
             "status": "executed",
-            "price": round(100 + (5 * (1 if action == 'buy' else -1)), 2)  # mock price impact
+            "price": round(100 + (5 * (1 if action == 'buy' else -1)), 2)  # mock price impact:
         }
         log_trade_execution(trade_result)
         return trade_result
@@ -103,3 +104,6 @@ def execute_trade_order(ticker, action, quantity=1, order_type="market"):
 if __name__ == "__main__":
     result = execute_trade_order("AAPL", "buy", quantity=2)
     print(f"Trade Result: {result}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

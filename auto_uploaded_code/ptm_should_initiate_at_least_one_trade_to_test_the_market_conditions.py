@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code using the alpaca_trade_api which is a popular API for trading stocks. Please replace 'APCA-API-KEY-ID' and 'APCA-API-SECRET-KEY' with your own API keys.
 
 ```python

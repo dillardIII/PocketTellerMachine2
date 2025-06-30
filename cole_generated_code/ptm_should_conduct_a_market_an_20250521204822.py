@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we would need access to a financial market data API like Alpha Vantage, Yahoo Finance, or similar. Here is a simple example of how you might use the Alpha Vantage API to analyze stock data and identify potential trading opportunities. This example will identify stocks whose closing price was higher than the opening price by a certain percentage.
 
 Please note that this is a very basic example and real-world trading algorithms are much more complex and take many more factors into account.

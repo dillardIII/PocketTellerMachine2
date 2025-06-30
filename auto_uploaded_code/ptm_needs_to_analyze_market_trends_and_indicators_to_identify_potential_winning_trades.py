@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and indicators, we can use the pandas library for data manipulation and analysis, yfinance to download stock price data, and matplotlib for data visualization. Here's a simple Python script that downloads the historical data for a specific stock, calculates its moving averages, and plots the data:
 
 ```python

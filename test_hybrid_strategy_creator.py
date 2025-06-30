@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import uuid
 import json
 from datetime import datetime
@@ -30,3 +31,6 @@ sma = {"key": "sma_cross", "description": "SMA Crossover Strategy"}
 rsi = {"key": "rsi_reversal", "description": "RSI Reversal Strategy"}
 
 create_hybrid_strategy(sma, rsi)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Final Singularity Key
 This module finalizes recursive autonomy, allowing PTM to:

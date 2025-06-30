@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: module_auto_launcher.py ===
 # 🚀 Module Auto-Launcher – finds and runs all modules in a directory
 
@@ -23,3 +24,6 @@ def auto_launch_modules():
 
 if __name__ == "__main__":
     auto_launch_modules()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

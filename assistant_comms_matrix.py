@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: assistant_comms_matrix.py ===
 """
 Assistant Communication Matrix:
@@ -31,7 +32,7 @@ COMMS_RULES = {
 
 def can_send(sender, receiver, task):
     """
-    Returns True if sender is allowed to message receiver with that task type.
+    Returns True if sender is allowed to message receiver with that task type.:
     """
     sender_rules = COMMS_RULES.get(sender)
     if not sender_rules:
@@ -42,3 +43,6 @@ def can_send(sender, receiver, task):
 if __name__ == "__main__":
     print("Can MoCash review Mentor?", can_send("MoCash", "Mentor", "review"))     # ✅
     print("Can ChillTrader escalate to MoCash?", can_send("ChillTrader", "MoCash", "escalate"))  # ❌
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

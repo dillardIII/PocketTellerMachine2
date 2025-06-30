@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_assistant_mood_dialogue_enhancer.py
 
 import os
@@ -76,3 +77,6 @@ def dialogue_enhancer_loop():
 
 if __name__ == "__main__":
     dialogue_enhancer_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

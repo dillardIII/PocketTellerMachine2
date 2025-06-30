@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code that uses a dictionary to track wins and losses over time. This code assumes that the results of each trade (win or loss) are entered manually.
 
 ```python

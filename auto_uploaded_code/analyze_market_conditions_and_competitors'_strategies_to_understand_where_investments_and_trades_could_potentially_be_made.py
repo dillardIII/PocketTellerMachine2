@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI, I am unable to directly analyze the market conditions or competitors' strategies due to lack of real-time data. However, I'm able to provide you with a general Python script that shows how to fetch stock market data and perform simple analysis. You could use libraries such as `yfinance`, `pandas`, and `numpy` for the same.
  
 This example specifically fetches data for Microsoft (MSFT), but you can replace "MSFT" with the ticker of any other company you wish to analyze:

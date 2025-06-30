@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Voice to Directive Core
 Converts voice commands into PTM instructions.

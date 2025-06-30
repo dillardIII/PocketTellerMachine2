@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 def get_strategy_metadata():
     return [
         {
@@ -51,3 +52,6 @@ def get_strategy_metadata():
             "description": "Betting on a reversal when RSI is oversold or overbought."
         }
     ]
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

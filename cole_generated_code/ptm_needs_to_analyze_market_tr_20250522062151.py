@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends, we would need historical data of the market. This data can be obtained from various sources like Yahoo Finance, Google Finance, etc. Here is a simple Python code using `pandas_datareader` library to fetch historical market data from Yahoo Finance and analyze it using moving averages.
 
 ```python

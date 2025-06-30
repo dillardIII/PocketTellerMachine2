@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To diversify trading strategies, we can use different financial indicators and machine learning algorithms to predict the stock prices. Here is a simple Python code using pandas, numpy, and sklearn to illustrate how we can use moving average and linear regression for this purpose.
 
 ```python

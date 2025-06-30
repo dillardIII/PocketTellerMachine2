@@ -1,1 +1,2 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 generated/Implement_testing_of_different_strategies_to_find_out_potential_wins_20250520_041248.py

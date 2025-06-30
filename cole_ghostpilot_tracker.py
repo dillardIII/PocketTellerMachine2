@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: cole_ghostpilot_tracker.py ===
 
 import os
@@ -31,3 +32,6 @@ def log_ghost_upgrade(prompt, response, filename, persona="default"):
         json.dump(logs[-500:], f, indent=2)
 
     print(f"[GhostPilot Log] Strategy '{filename}' logged.")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

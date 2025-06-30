@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help you with that. Here's a simple example of how you might implement multiple trading strategies in Python using the `yfinance` library to get stock data. In this example, we'll implement two strategies: a moving average crossover strategy and a mean reversion strategy.
 
 ```python

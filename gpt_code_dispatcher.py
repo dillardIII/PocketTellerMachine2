@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: gpt_code_dispatcher.py ===
 # 🚀 GPT Code Dispatcher – Writes generated code into gpt_outbox for bridge pickup
 
@@ -21,3 +22,6 @@ if __name__ == "__main__":
     # Replace this with dynamically generated code from GPT
     sample_code = "# Example: Hello World Script\nprint('Hello from GPT Dispatcher')"
     dispatch_code("hello_gpt.py", sample_code)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

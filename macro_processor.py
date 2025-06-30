@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # macro_processor.py
 # Purpose: Translate voice or text commands into code triggers and module actions
 

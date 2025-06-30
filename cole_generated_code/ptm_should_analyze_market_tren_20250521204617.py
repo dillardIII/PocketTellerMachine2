@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and opportunities for potential trades, we need to use some sort of data analysis. Python has a library called pandas which is very useful for this kind of task. We also need data, which we can get from Yahoo Finance using the yfinance library. For simplicity, let's analyze the trend of a single stock.
 
 Here is a simple Python script that analyzes the trend of a stock:

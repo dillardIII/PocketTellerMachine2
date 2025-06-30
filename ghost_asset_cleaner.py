@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🧹 Ghost Asset Cleaner – Removes outdated or corrupted files from PTM data folders
 
 import os

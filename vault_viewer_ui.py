@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: vault_viewer_ui.py ===
 # 🗃️ Vault Viewer UI – Displays vault contents in a browser view
 
@@ -36,3 +37,6 @@ def view_vault():
     except Exception:
         contents = ["[Vault Error] Could not access vault."]
     return render_template_string(TEMPLATE, contents=contents)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

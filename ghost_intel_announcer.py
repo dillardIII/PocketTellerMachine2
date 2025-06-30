@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_intel_announcer.py ===
 # 📢 Ghost Intel Announcer – Narrates the Ghost Intel Feed updates
 
@@ -75,3 +76,6 @@ def log_intel_announcement(text, audio_path):
         log.write(f"[{timestamp} UTC] GHOST INTEL REPORT\n{text}\nMP3: {audio_path}\n")
     
     return log_file
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

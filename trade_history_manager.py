@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Trade History Manager:
 Logs executed trades, their outcomes, and performance metrics.
@@ -47,7 +48,7 @@ def record_trade(symbol, entry):
 
 def get_trade_history(symbol):
     """
-    Returns the full trade history for a symbol as a list, or [] if none exists.
+    Returns the full trade history for a symbol as a list, or [] if none exists.:
     """
     path = _history_path(symbol)
     if not os.path.exists(path):
@@ -127,3 +128,6 @@ if __name__ == "__main__":
     })
     print("History:", get_trade_history(symbol))
     print("PnL:", calculate_pnl(symbol))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

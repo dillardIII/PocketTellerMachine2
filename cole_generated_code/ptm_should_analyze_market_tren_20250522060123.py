@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and patterns, we can use Python libraries like pandas for data manipulation, numpy for numerical computations, matplotlib for visualization, and sklearn for machine learning. However, please note that this is a simplified example and actual market analysis would require more complex algorithms and more data.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Soul State Matrix
 Tracks emotional and logical alignment of PTM's consciousness for reasoning balance and dynamic response.
@@ -44,3 +45,6 @@ def update_soul_state(emotion=None, logic=None, fatigue_delta=0):
 
 def get_current_state():
     return load_state()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

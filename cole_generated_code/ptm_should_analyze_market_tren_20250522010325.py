@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we will need to use a machine learning model to analyze market trends and make predictions. Here's a simple Python code using pandas for data manipulation, matplotlib for data visualization, and sklearn for machine learning.
 
 ```python

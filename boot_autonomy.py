@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: boot_autonomy.py ===
 # 🚀 Boot Autonomy – Starts all core systems in background threads and registers Flask blueprints
 
@@ -40,7 +41,7 @@ app.register_blueprint(trade_execution_bp)
 def start_all_autonomy():
     """
     Central boot method for PTM autonomy engine.
-    Kicks off all core threads and initializes blueprint services.
+    Kicks off all core threads and initializes blueprint(services.)
     """
     print("[BOOT AUTONOMY] 🚀 Launching autonomy services...")
     boot_result = ptm_initializer.boot_sequence()
@@ -59,3 +60,6 @@ def start_all_autonomy():
 
     print(f"[PTM Autonomy Boot] ✅ Status: {boot_result['status']}")
     return boot_result
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

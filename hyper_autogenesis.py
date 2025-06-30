@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🔥 Hyper Autogenesis – Creates new bots, scripts, mutations recursively with no end
 import os, time, json, random
 from datetime import datetime
@@ -26,3 +27,6 @@ def generate_hyper_module():
 while True:
     generate_hyper_module()
     time.sleep(30)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

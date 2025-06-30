@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_requester_bot.py ===
 # 🧠 AutoRequester Bot – uses live OpenAI to create new modules forever
 
@@ -49,3 +50,6 @@ if __name__ == "__main__":
     while True:
         generate_new_module()
         time.sleep(180)  # Wait 3 mins before next evolution
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Dialog Event Trigger:
 Kicks off voice interactions, reactions, and responses between PTM assistants.

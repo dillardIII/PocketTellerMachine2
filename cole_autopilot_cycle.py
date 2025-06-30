@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Cole Autopilot Cycle:
 This module defines the core cycle for PTM's autonomous assistant loop.

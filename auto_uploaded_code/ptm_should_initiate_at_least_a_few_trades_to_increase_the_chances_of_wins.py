@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I will provide a simple example of a Python code that could be used to initiate trades. Please note that this is a very basic example and doesn't include any real trading strategies or risk management. You should use a proper trading library or platform for real trading.
 
 ```python

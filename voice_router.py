@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: voice_router.py ===
 # 🧠 PTM Voice Router – Handles assistant voice selection, mood routing, playback targeting
 # 🎙️ Personalized for black female, classy, sophisticated, street smart

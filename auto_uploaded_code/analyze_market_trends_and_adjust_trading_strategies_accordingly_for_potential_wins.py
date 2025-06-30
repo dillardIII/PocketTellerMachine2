@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and adjusting trading strategies is a complex task that involves a lot of data analysis and machine learning. Here is a simple example of how you might start to approach this problem using Python. This code uses the pandas library to analyze stock data and the sklearn library to create a simple predictive model.
 
 ```python

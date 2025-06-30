@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 
 import os
 import json
@@ -103,3 +104,7 @@ with open(file_path, "w") as f:
 
 print(f"Successfully wrote tasks to {file_path}") 
 }
+
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

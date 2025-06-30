@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To design a new Python module for expanding the PTM (Presumably a hypothetical organization or system for this context) empire's self-evolving autonomy stack, we would aim to create a system that leverages recursive strategies, multi-agent learning, and continuous adaptation. This would involve utilizing cutting-edge techniques in AI and machine learning, such as reinforcement learning, federated learning, and adaptive neural network architectures.
 
 Below is an outline and sample code for such a Python module:

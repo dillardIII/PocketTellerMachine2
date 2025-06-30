@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: whisper_command_listener.py ===
 
 # 🎤 Whisper Command Listener – Listens for voice, generates mission files
@@ -27,3 +28,6 @@ def listen_and_convert():
 if __name__ == "__main__":
     while True:
         listen_and_convert()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

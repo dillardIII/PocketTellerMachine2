@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Autonomy Initializer
 Launches the full autonomous system loop, including:

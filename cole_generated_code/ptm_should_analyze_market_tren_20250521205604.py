@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and data to identify potential profitable trades, we can use Python libraries like pandas for data manipulation, numpy for numerical computations, and sklearn for machine learning. Here's a simple example of how you might start building a predictive model. This example uses a linear regression model to predict future prices based on past data.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To develop and implement trading strategies, we can use Python with the help of libraries like pandas for data manipulation, numpy for numerical computations, and matplotlib for visualizations. We can also use the yfinance library to download historical market data from Yahoo finance.
 
 Here is a simple Python code that implements a moving average crossover strategy, which is one of the most common systematic trading strategies.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a viable trading strategy involves using financial analysis techniques to analyze market behavior such as price directions and volume. Some of the most common strategies include technical analysis, quantitative trading, and algorithmic trading. Given that creating such a strategy requires domain knowledge and can be very complex, here's a simplified version using a moving average crossover strategy.
 
 ```python

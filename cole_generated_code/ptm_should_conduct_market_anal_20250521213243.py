@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct market analysis, we will need to use some financial libraries in Python such as pandas, yfinance, and matplotlib. Here is a simple example of how to conduct market analysis for a specific stock. In this case, we will use Apple Inc. (AAPL) as an example.
 
 ```python

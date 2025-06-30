@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple Python code to initiate a trade using a hypothetical trading API. Please note that this is a basic example and doesn't include any specific trading strategies. You would need to replace 'api_key' and 'api_secret' with your actual API credentials.
 
 ```python

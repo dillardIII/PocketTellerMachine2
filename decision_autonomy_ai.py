@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # decision_autonomy_ai.py
 # Part of PTM Full Autonomy Stack
 # Purpose: Enable autonomous trade decisions based on confidence level, strategy rules, and persona feedback.
@@ -27,7 +28,7 @@ class DecisionAutonomyAI:
         return round(total_score, 4)
 
     def check_trade_conditions(self, ticker_data):
-        """Decide if trade should proceed."""
+        """Decide if trade should proceed.""":
         confidence = self.evaluate_market_conditions(ticker_data)
         trade_type = self.ghostbrain.recommend_strategy(ticker_data)
 

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 📄 Vault Document Viewer – Displays PDF and TXT documents stored in the vault
 
 import os
@@ -13,7 +14,7 @@ def display_text_file(file_path):
         with open(file_path, "r", encoding="utf-8") as f:
             content = f.read()
             print(f"\n📄 [Document: {os.path.basename(file_path)}]\n")
-            print(content[:500] + "\n...\n" if len(content) > 500 else content)
+            print(content[:500] + "\n...\n" if len(content) > 500 else content):
         log_event("DocViewer", {"displayed": file_path})
     except Exception as e:
         log_event("DocViewer", {"error": f"Text read failed: {str(e)}"})
@@ -24,7 +25,7 @@ def display_pdf(file_path):
         print(f"\n📘 [PDF: {os.path.basename(file_path)}]\n")
         for page in doc:
             text = page.get_text()
-            print(text[:500] + "\n...\n" if len(text) > 500 else text)
+            print(text[:500] + "\n...\n" if len(text) > 500 else text):
             break  # Display only the first page
         doc.close()
         log_event("DocViewer", {"displayed": file_path})

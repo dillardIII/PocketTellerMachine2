@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python module for expanding the PTM (Presumably "Perception, Thinking, Movement") empire's self-evolving autonomy stack involves designing systems that can self-optimize and improve over time through recursive strategies. Below is a high-level design for such a module, incorporating components like recursive neural networks, reinforcement learning, and continuous learning systems.
 
 ```python

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here is a simple example of how you could analyze market trends and data using Python. This example uses the pandas library to analyze data and the yfinance library to get stock market data. 
 
 Please note that identifying potential winning trades involves complex algorithms and deep understanding of the stock market. This is a very basic example and should not be used for actual trading.

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: wallet_voice_generator.py ===
 # 🗣️ PTM Wallet Voice Generator – Live TTS summary with ElevenLabs integration
 

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To complete this task, we would need to use a combination of data analysis and machine learning libraries in Python. Here's a simplified example of how you might start to approach this problem using pandas for data manipulation and analysis, yfinance to download historical market data from Yahoo Finance, and sklearn to create a simple predictive model.
 
 Please note that this is a very simplified example and actual trading algorithms can be extremely complex and require a deep understanding of both programming and financial markets.

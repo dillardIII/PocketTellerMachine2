@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os, shutil, time
 
 SRC_DIR = "ptm_bridge_drop"
@@ -16,3 +17,6 @@ def drop_loop():
 
 if __name__ == "__main__":
     drop_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

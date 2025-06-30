@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_dapp_live_cyber.py ===
 import json
 import time
@@ -20,3 +21,6 @@ def dapp_loop():
 
 if __name__ == "__main__":
     dapp_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

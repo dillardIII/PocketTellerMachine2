@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: auto_git_committer.py ===
 # 🔥 Auto Git Committer – commits & pushes empire modules to GitHub
 
@@ -20,3 +21,6 @@ def auto_git_committer_loop():
 
 if __name__ == "__main__":
     auto_git_committer_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

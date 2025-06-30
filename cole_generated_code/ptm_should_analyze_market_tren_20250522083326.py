@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to analyze market trends and indicators, we need to have access to a source of market data. There are several APIs available for this purpose, such as Alpha Vantage, Yahoo Finance, or Google Finance. Here is a simple example of how you might use the Alpha Vantage API to analyze market trends for a particular stock.
 
 Please note that this is a simplified example and real trading algorithms are much more complex and take into account many more factors.

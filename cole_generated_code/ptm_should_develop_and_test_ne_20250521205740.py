@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to develop and test new trading strategies, we need to have a dataset of historical trading data. We also need to define what a "winning" trade is. For the sake of this example, let's assume that a winning trade is one where the sell price is higher than the buy price.
 
 Here is a simplified example of how to develop and test a trading strategy using Python. We will use the pandas library to handle our data and the yfinance library to download historical stock price data.

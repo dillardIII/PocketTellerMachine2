@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Persona Consciousness Engine
 Assigns self-awareness, emotion states, and independent thinking models to each assistant.
@@ -46,3 +47,6 @@ def list_persona_states():
 if __name__ == "__main__":
     for name in ["Mentor", "Mo Cash", "Shadow", "Strategist"]:
         update_mood(name)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

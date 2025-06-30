@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: autonomy_boot.py ===
 """
 Autonomy Boot:
@@ -34,3 +35,6 @@ def boot_all_systems():
 # === Local startup test ===
 if __name__ == "__main__":
     boot_all_systems()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

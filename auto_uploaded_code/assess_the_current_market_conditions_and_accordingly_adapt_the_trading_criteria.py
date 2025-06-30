@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As an AI language model I cannot fetch or retrieve real-time information and hence, cannot fetch current market conditions. But I can certainly help you in writing a python program that fetch the market data using various APIs and based on that set the trading criteria.
 
 Below is an example of how we can adjust trading criteria based on fetched market data using API:

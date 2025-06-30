@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Ghostcode Linker – External AI + API Connection Handler
 
@@ -66,3 +67,6 @@ def call_external(name, prompt=None, audio=None):
 if __name__ == "__main__":
     reply = call_external("chatgpt", prompt="Summarize the S&P 500 today.")
     print("GPT Response:", reply)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

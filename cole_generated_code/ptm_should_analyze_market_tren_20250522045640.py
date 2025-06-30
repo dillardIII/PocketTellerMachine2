@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a Python program that can analyze market trends and patterns is a complex task that requires a deep understanding of both financial markets and data analysis. Here's a simple example of how you might start to approach this problem using the pandas and yfinance libraries to analyze stock data:
 
 ```python

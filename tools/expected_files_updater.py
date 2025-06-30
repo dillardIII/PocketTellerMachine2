@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: tools/expected_files_updater.py ===
 
 # 🔄 Expected Files Updater – Recalculates SHA-256 hashes and updates expected_files.json

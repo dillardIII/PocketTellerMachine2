@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct market research and analysis, we would need to gather data from various sources, analyze it and identify potential trading opportunities. Here's a simple Python code that uses the `yfinance` library to download stock data and `pandas` to analyze it. 
 
 Please note that this is a very basic example and real-world market research and analysis would require a much more complex approach.

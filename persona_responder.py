@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 """
 Persona Responder:
 Generates contextual and emotional responses for PTM assistants.
@@ -81,3 +82,6 @@ def generate_response(persona_name="Default"):
 if __name__ == "__main__":
     for name in ["MoCash", "Mentor", "Strategist"]:
         generate_response(name)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here's one way to do it:
 
 First, you would typically have a function to conduct the backtest and return the results.

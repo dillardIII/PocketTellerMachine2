@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and data to identify potential profitable trades involves complex algorithms and requires a lot of data. Here is a simple example of how you might start to do this using Python and the pandas library to analyze stock prices. 
 
 This script will fetch historical stock data using the `yfinance` library, calculate the moving average, and plot the data. The moving average is a common indicator used in technical analysis to identify trends.

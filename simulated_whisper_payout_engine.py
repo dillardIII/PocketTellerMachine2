@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: simulated_whisper_payout_engine.py ===
 # 🤖 Simulated Whisper Voice Command Fallback for PTM Empire
 
@@ -63,3 +64,6 @@ if __name__ == "__main__":
             print("[PTM] 💓 SimWhisper & Payout heartbeat...")
     except KeyboardInterrupt:
         print("\n[PTM] ⛔ Shutting down SimWhisper & Payout Engine...")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

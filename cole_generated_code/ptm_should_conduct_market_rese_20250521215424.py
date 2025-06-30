@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to conduct market research to identify potential trading opportunities, we can use Python libraries like `pandas` for data manipulation, `yfinance` to download the stock price data, and `matplotlib` for data visualization.
 
 Here is a simple Python code to download the historical data of a specific stock and visualize its closing price:

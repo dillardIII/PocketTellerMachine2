@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: sync_bridge_routes.py ===
 from flask import Blueprint, jsonify
 import os
@@ -13,3 +14,6 @@ def get_bridge_updates(team_name):
         return jsonify([])
     with open(file_path, "r") as f:
         return jsonify(json.load(f))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

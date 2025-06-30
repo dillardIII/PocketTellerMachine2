@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and making informed decisions to increase the chances of winning trades involves complex algorithms and requires historical market data. Here is a simple example of how you can analyze market trends using Python. We will use pandas for data manipulation and matplotlib for data visualization.
 
 ```python

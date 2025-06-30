@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Building a Profitable Trade Model (PTM) that analyzes market trends and opportunities is a complex task that involves multiple steps and requires a deep understanding of both programming and financial markets. Here's a simplified example of how you might start building such a system using Python. 
 
 This example uses the pandas library to analyze historical stock price data and the yfinance library to download the data from Yahoo Finance. The system calculates the Simple Moving Average (SMA) and uses it as a basic indicator for trading signals.

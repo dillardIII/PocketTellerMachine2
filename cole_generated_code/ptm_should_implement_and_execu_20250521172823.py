@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I'll outline a basic version of a pair trading strategy implemented in Python. This strategy involves finding two stocks that move together and trading on the rare occasions when they diverge. It's an example of statistical arbitrage.
 
 Assumptions:

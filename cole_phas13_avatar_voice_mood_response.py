@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # cole_phase13_avatar_voice_mood_response.py
 
 import os
@@ -49,3 +50,6 @@ def log_voice_response_event(mood, avatar_name):
         logs.append(log_entry)
         with open("data/avatar_voice_response_log.json", "w") as f:
             json.dump(logs[-100:], f, indent=2)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

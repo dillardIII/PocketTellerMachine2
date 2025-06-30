@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: transdim_signal_handler.py ===
 # 🌐 Transdim Signal Handler – Signal router for macro calls, device actions, and assistant relays
 

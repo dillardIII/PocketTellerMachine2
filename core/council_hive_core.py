@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: core/council_hive_core.py ===
 """
 Council Hive Core:

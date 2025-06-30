@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct a thorough market analysis, we need to use various data analysis libraries in Python such as pandas, numpy, and matplotlib. We also need to fetch financial data from a reliable source. For this, we can use yfinance library which allows us to download historical market data from Yahoo finance.
 
 This is a simple example of how you can analyze a stock (Apple Inc. in this case) and plot its Close price, Volume and calculate its 20 days Moving Average.

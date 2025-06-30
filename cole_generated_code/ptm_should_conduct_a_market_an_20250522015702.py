@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To conduct a market analysis, we need data. Python has several libraries that can be used to fetch and analyze market data. Here's a simple example of how you might use the `yfinance` library to fetch data for a specific stock (e.g., Apple Inc.), calculate its moving average, and identify potential trading opportunities.
 
 Please note that this is a very basic example. Real-world trading algorithms are much more complex and take many more factors into account.

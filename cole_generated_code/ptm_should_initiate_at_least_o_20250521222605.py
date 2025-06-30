@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To initiate a trade, we would need to use an API provided by a trading platform. For this example, I'll use the Alpaca API, which is a platform for stock trading. 
 
 First, you need to install the Alpaca API. You can do this by running the following command in your terminal:

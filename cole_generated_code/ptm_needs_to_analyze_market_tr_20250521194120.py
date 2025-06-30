@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To analyze market trends and identify potential profitable trades, we could use the pandas library to manipulate data and matplotlib to visualize it. We could also use yfinance to download historical market data from Yahoo Finance. Here's a simple example of how you might do this for a single stock. This example calculates the simple moving average (SMA) of the closing prices and identifies potential buy/sell opportunities when the price crosses the SMA.
 
 ```python

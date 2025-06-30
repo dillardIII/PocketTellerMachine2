@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can help you with that. However, I need to clarify that trading in the stock market or any other financial market involves risks and there's no guaranteed way to always win. But we can increase the chances of winning by using some strategies.
 
 Here's a simple Python code to initiate a trade using a hypothetical trading API:

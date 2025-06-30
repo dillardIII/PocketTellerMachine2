@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 In order to accomplish this task, we need to create a PTM (Portfolio Trading Model) and apply a strategy that actively increases trading volume. Here is a simple example considering only buying of stocks. It doesn't consider other factors such as market trends or company fundamentals which should be considered in a real trading strategy.
 
 ```python

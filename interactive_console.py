@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🧭 Interactive Console – lets you adjust moral slider, dream mode & see live introspections
 
 import time
@@ -10,7 +11,7 @@ def main_console():
     while True:
         print("\n[Console] === Empire AI Console ===")
         print(f"-> Moral Alignment: {moral_alignment}")
-        print(f"-> Dream Mode: {'ON' if dream_mode else 'OFF'}")
+        print(f"-> Dream Mode: {'ON' if dream_mode else 'OFF'}"):
         cmd = input("[Console] > ").strip().lower()
 
         if cmd.startswith("moral"):
@@ -34,3 +35,6 @@ def main_console():
         time.sleep(1)
 
 main_console()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

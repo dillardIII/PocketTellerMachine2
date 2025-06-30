@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and patterns to identify potential trading opportunities involves complex data analysis and machine learning techniques. Here is a simple example of how you could use Python to analyze stock data using Pandas and Matplotlib libraries. 
 
 This script will download historical data for a specific stock, calculate its moving average, and plot the data. A moving average is a common indicator used in technical analysis to identify trends.

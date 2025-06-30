@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 As a language model AI developed by OpenAI, I can generate an example Python code using libraries like pandas, numpy and matplotlib to analyze historical financial data. However, it's important to note that this a significant simplification of what's required. Running an actual trading strategy would need real-time data, rigorous backtesting, and additional measures.
 
 Here's a sample Python code to analyze market data using pandas:

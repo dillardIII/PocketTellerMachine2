@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import random
 import requests
 import os
@@ -83,3 +84,6 @@ def speak_with_elevenlabs(text, style="neutral", voice_id=DEFAULT_VOICE_ID):
 # === Basic Fallback Voice Print ===
 def speak_text(text, speaker="Malik"):
     print(f"[Voice Recap - {speaker}] {text}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

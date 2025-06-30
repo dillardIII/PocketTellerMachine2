@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🔁 PTM Self-Rebuilder – Hardened
 import os
 import time
@@ -34,7 +35,7 @@ DEFAULT_BACKUP_DIR = "recovery_backups"
 def log_status(result, file=None, exception=None):
     rebuilder_status["last_run"] = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
     rebuilder_status["last_result"] = result
-    rebuilder_status["last_exception"] = str(exception) if exception else None
+    rebuilder_status["last_exception"] = str(exception) if exception else None:
     rebuilder_status["last_file"] = file
     rebuilder_status["mode"] = "idle"
 
@@ -89,3 +90,6 @@ def self_rebuilder_loop():
         except Exception as e:
             log_status("Rebuild failed", exception=traceback.format_exc())
         time.sleep(600)
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

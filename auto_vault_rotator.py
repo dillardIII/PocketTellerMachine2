@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🔄 Vault Rotator – stores snapshots across rotating logs
 
 import json
@@ -23,3 +24,6 @@ def rotate_vault():
 
 if __name__ == "__main__":
     rotate_vault()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

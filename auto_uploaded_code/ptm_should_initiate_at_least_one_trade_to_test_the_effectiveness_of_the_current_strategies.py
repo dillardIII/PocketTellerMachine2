@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, I can provide a basic example of how you might initiate a trade using a Python library like `alpaca-trade-api` which is a REST API for stock trading. Please replace `APCA-API-KEY-ID` and `APCA-API-SECRET-KEY` with your actual API keys.
 
 ```python

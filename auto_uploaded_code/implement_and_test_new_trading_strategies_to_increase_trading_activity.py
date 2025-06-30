@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here is a simple Python code that implements a basic mean reversion trading strategy. This strategy assumes that the price of a stock will revert to its average over time. If the price is below the average, it buys the stock, and if it's above the average, it sells the stock.
 
 Please note that this is a very simple strategy and may not be profitable in real trading. It's always important to thoroughly backtest any new strategy before using it in live trading.

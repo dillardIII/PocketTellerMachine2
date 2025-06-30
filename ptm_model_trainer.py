@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ptm_model_trainer.py ===
 # 🧠 Loads and adapts AI model (pt) files for trade cognition enhancement
 
@@ -13,3 +14,6 @@ class PTMTrainer:
         with torch.no_grad():
             output = self.model(dummy_input)
             print(f"[Trainer] Model Output: {output}")
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

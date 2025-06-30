@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Analyzing market trends and identifying potential profitable trades involves complex algorithms and requires real-time data. Here is a simple example of how you can analyze historical data using Python with the help of pandas, yfinance and matplotlib libraries.
 
 ```python

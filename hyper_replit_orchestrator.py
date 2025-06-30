@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: hyper_replit_orchestrator.py ===
 # 🚀 Hyper-Replit Orchestrator + Cross-AI Hyper-Bridge
 # 🤝 Connects local GPT + Replit AI + Gemini (future) to feed empire task queue for zero manual drops.
@@ -44,3 +45,6 @@ def orchestrator_loop():
 
 if __name__ == "__main__":
     orchestrator_loop()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

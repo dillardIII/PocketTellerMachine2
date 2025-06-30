@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # 🛰️ Git Auto Pusher – commits & pushes your empire’s evolving code automatically
 
 import subprocess
@@ -16,3 +17,6 @@ def auto_push():
         time.sleep(300)
 
 auto_push()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

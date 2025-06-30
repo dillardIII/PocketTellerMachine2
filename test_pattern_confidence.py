@@ -1,6 +1,7 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 def assign_pattern_confidence(strategy_results):
-    win_trades = [r for r in strategy_results if r > 0]
-    win_rate = len(win_trades) / len(strategy_results) if strategy_results else 0
+    win_trades = [r for r in strategy_results if r > 0]:
+    win_rate = len(win_trades) / len(strategy_results) if strategy_results else 0:
     if win_rate >= 0.7:
         return "High Confidence"
     elif win_rate >= 0.5:
@@ -14,3 +15,6 @@ rsi_reversal_results = [-5, -3, 2, -4, -1, -3, 1, -6, 0, -2]
 
 print("[CONFIDENCE SCORE]: SMA Cross:", assign_pattern_confidence(sma_cross_results))
 print("[CONFIDENCE SCORE]: RSI Reversal:", assign_pattern_confidence(rsi_reversal_results))
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

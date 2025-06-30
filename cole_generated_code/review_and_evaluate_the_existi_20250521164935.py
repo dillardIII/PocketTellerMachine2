@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 To identify why no trades were placed today, one could potentially check few things:
 
 1. The live market data feed.

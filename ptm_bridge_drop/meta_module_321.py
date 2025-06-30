@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Creating a new Python module to expand the PTM (Presumably Short for a particular entity, which we'll interpret as "Predictive Task Management" for this context) empire's self-evolving autonomy stack involves implementing a sophisticated system architecture that leverages recursive strategies. This can include elements such as machine learning, self-optimization routines, and recursive problem-solving algorithms. Below, let's design a high-level concept of such a Python module:
 
 ### Module: Recursive Autonomy Engine (RAE)

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Without knowing the specific trading field you are referring to, it's hard to create accurate Python code for testing different strategies. However, I can provide an example how you would set up a backtesting framework to test different stock trading strategies with Python:
 
 For testing strategies, we will use a library called `bt`. This library is very effective for backtesting trading strategies. 

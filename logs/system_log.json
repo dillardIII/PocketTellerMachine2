@@ -67,5 +67,12 @@
     "data": {
       "status": "Logging works!"
     }
+  },
+  {
+    "timestamp": "2025-06-30T09:07:41.942416",
+    "event": "MemoryCore",
+    "data": {
+      "status": "\ud83c\udd95 Initialized memory core"
+    }
   }
 ]

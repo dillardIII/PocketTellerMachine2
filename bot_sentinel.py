@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: bot_sentinel.py ===
 # 🛡️ Bot Sentinel – Monitors bot health, status, and self-recovery
 
@@ -55,3 +56,6 @@ class BotSentinel:
         # You should replace this with actual dynamic import or subprocess run logic.
         print(f"[Sentinel] ⏳ Checking {self.bot_name}...")
         exec(open(self.file_path).read(), {})
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

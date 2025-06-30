@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghostmind_clone_engine.py ===
 # 🧬 Clone Engine – Create synthetic twins of PTM with memory + mood + strategy settings
 

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Sure, here's a simple implementation of a Relative Strength Index (RSI) strategy generator using Python and the pandas library. This code assumes that you have a pandas DataFrame `df` with a 'Close' column representing the closing prices of a stock.
 
 ```python

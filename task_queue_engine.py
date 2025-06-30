@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # Task Queue Engine
 task_queue = []
 
@@ -10,3 +11,6 @@ def add_task(task):
 
 def get_tasks():
     return task_queue
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

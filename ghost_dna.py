@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: ghost_dna.py ===
 # 👻 GHOST DNA WITH SURVIVAL MEMORY
 # Learns from past trades, wallet hunts, builds smarter future mutations.
@@ -81,10 +82,13 @@ def main():
         strategy = mutate_new_strategy(dna)
         cmd = f"python {strategy}.py"
         push_to_queue(cmd)
-        # Simulate running it, decide if it found money / succeeded
+        # Simulate running it, decide if it found money / succeeded:
         outcome = simulate_outcome()
         update_dna(dna, strategy, outcome)
         time.sleep(10)
 
 if __name__ == "__main__":
     main()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 # === FILE: asset_scanner.py ===
 # 💼 Asset Scanner – Scans PTM memory, vaults, and wallet snapshots for assets
 
@@ -39,3 +40,6 @@ class AssetScanner:
 
         print(f"[AssetScanner] ✅ Report saved to {ASSET_REPORT}")
         return self.assets
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

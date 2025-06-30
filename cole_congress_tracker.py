@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 import os
 import json
 import requests
@@ -91,3 +92,6 @@ def run_congress_ai_tracker():
 # === CLI Trigger ===
 if __name__ == "__main__":
     run_congress_ai_tracker()
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():

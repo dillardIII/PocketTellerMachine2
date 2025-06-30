@@ -1,3 +1,4 @@
+from ghost_env import INFURA_KEY, VAULT_ADDRESS
 Here's a creative utility script for managing a virtual empire or game that needs resource allocation and strategy implementation. This utility will focus on managing resources, expanding territories, and upgrading units based on strategic priorities.
 
 ```python
@@ -117,3 +118,6 @@ def empire_simulation():
 
 ### Note:
 Uncomment the `empire_simulation()` call to start the program when testing it in an actual Python environment.
+
+def log_event():ef mutate(*args, **kwargs): print('[ghost_empire] dummy mutate called')
+def drop_files_to_bridge():
