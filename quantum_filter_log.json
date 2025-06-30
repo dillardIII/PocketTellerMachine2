@@ -3,5 +3,25 @@
     "timestamp": "2025-06-30T00:15:09.097368",
     "outcome": "neutral",
     "weight": 0.014661106170911875
+  },
+  {
+    "timestamp": "2025-06-30T00:15:54.098256",
+    "outcome": "negative",
+    "weight": 0.49904524679845463
+  },
+  {
+    "timestamp": "2025-06-30T00:16:39.098875",
+    "outcome": "positive",
+    "weight": 0.20218512811352618
+  },
+  {
+    "timestamp": "2025-06-30T00:17:24.099430",
+    "outcome": "negative",
+    "weight": 0.22275755607311232
+  },
+  {
+    "timestamp": "2025-06-30T00:18:09.100337",
+    "outcome": "negative",
+    "weight": 0.9264407005875614
   }
 ]
