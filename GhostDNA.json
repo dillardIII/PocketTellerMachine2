@@ -190,5 +190,25 @@
     "ema_mo_bollin_x_6638": {
         "profits": 0,
         "losses": 0
+    },
+    "ema_mo_bollin_x_1114": {
+        "profits": 0,
+        "losses": 0
+    },
+    "ema_mo_bollin_x_2504": {
+        "profits": 0,
+        "losses": 0
+    },
+    "ema_mo_bollin_x_9759": {
+        "profits": 0,
+        "losses": 0
+    },
+    "macd_rsi_atr_ema_6484.py": {
+        "profits": 0,
+        "losses": 0
+    },
+    "atr_mod_6092.py": {
+        "profits": 0,
+        "losses": 0
     }
 }
