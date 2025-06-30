@@ -6,5 +6,9 @@
     "python macd_mod_1581.py",
     "python ema_mod_4035.py",
     "python rsi_mod_5180.py",
-    "python macd_ema_5283.py"
+    "python macd_ema_5283.py",
+    "python macd_mod_8526.py",
+    "python bollingerbands_mod_4211.py",
+    "python ema_atr_6493.py",
+    "python atr_mod_7725.py"
 ]

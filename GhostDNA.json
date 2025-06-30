@@ -2,39 +2,59 @@
     "ema_mod_5759.py": {
         "profits": 0,
         "losses": 0,
-        "xp": 2
+        "xp": 3
     },
     "bollingerbands_macd_8448.py": {
         "profits": 0,
         "losses": 0,
-        "xp": 2
+        "xp": 3
     },
     "macd_mod_7052.py": {
         "profits": 0,
         "losses": 0,
-        "xp": 2
+        "xp": 3
     },
     "ema_mod_7921.py": {
         "profits": 0,
         "losses": 0,
-        "xp": 1
+        "xp": 2
     },
     "macd_mod_1581.py": {
         "profits": 0,
         "losses": 0,
-        "xp": 1
+        "xp": 2
     },
     "ema_mod_4035.py": {
         "profits": 0,
         "losses": 0,
-        "xp": 1
+        "xp": 2
     },
     "rsi_mod_5180.py": {
         "profits": 0,
         "losses": 0,
-        "xp": 1
+        "xp": 2
     },
     "macd_ema_5283.py": {
+        "profits": 0,
+        "losses": 0,
+        "xp": 2
+    },
+    "macd_mod_8526.py": {
+        "profits": 0,
+        "losses": 0,
+        "xp": 1
+    },
+    "bollingerbands_mod_4211.py": {
+        "profits": 0,
+        "losses": 0,
+        "xp": 1
+    },
+    "ema_atr_6493.py": {
+        "profits": 0,
+        "losses": 0,
+        "xp": 1
+    },
+    "atr_mod_7725.py": {
         "profits": 0,
         "losses": 0,
         "xp": 1
