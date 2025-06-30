@@ -1,0 +1,14 @@
+[
+    {
+        "task": "Write ghost_trade_fusion.py to use ghost AI personality traits to adjust trade risk and sizing.",
+        "time": "2025-06-30 01:56:56"
+    },
+    {
+        "task": "Write dark_arb_hunter.py to scan ETH, BSC, MATIC for cross-exchange arbitrage and place trades.",
+        "time": "2025-06-30 01:58:05"
+    },
+    {
+        "task": "Write ai_propaganda_orchestrator.py to broadcast hype stories and signals to Discord/Telegram.",
+        "time": "2025-06-30 01:59:13"
+    }
+]

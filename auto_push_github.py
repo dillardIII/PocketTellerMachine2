@@ -1,25 +1,14 @@
-# 🚀 AutoPush GitHub – commits & pushes PTM repo to GitHub on loop
-# Used for autonomous self-versioning and remote backups
+# === FILE: auto_push_github.py ===
+# 🚀 Pushes committed files to your GitHub repo every minute
 
 import os
 import time
 
-def run_command(cmd):
-    result = os.system(cmd)
-    if result != 0:
-        print(f"[AutoPush] ⚠️ Command failed: {cmd}")
-    else:
-        print(f"[AutoPush] ✅ Ran: {cmd}")
-
-def auto_push_loop():
-    print("[AutoPush] 🚀 Starting autonomous GitHub commit & push loop...")
+def push_loop():
+    print("[AutoPushGitHub] 🚀 Starting push loop...")
     while True:
-        timestamp_msg = f"auto commit at {time.strftime('%Y-%m-%d %H:%M:%S')}"
-        run_command("git add .")
-        run_command(f"git commit -m \"{timestamp_msg}\"")
-        run_command("git push")
-        print("[AutoPush] 🌍 Pushed changes to GitHub.")
-        time.sleep(120)  # push every 2 minutes
+        os.system("git push origin main || echo no push needed")
+        time.sleep(60)
 
 if __name__ == "__main__":
-    auto_push_loop()
+    push_loop()

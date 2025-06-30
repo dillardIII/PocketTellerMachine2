@@ -1,23 +1,21 @@
-# 🚀 RenderWebhook – triggers Render redeploy via webhook
-# Makes PTM instantly redeploy app after pushes
+# === FILE: render_webhook_trigger.py ===
+# 🚀 Notifies Render to redeploy your app automatically
 
-import requests
+import os
 import time
+import requests
 
-WEBHOOK_URL = "https://api.render.com/deploy/YOUR_RENDER_DEPLOY_HOOK_HERE"
+RENDER_WEBHOOK_URL = os.getenv("RENDER_WEBHOOK_URL")
 
-def trigger_deploy():
-    response = requests.post(WEBHOOK_URL)
-    if response.status_code == 200:
-        print("[RenderWebhook] 🚀 Deploy triggered successfully.")
-    else:
-        print(f"[RenderWebhook] ⚠️ Deploy failed: {response.status_code} - {response.text}")
-
-def deploy_loop():
-    print("[RenderWebhook] 🌐 Starting auto-deploy loop...")
+def trigger_loop():
+    print("[RenderWebhook] 🚀 Starting deploy loop...")
     while True:
-        trigger_deploy()
-        time.sleep(300)  # redeploy every 5 min
+        if RENDER_WEBHOOK_URL:
+            r = requests.post(RENDER_WEBHOOK_URL)
+            print(f"[RenderWebhook] 🔄 Triggered deploy: {r.status_code}")
+        else:
+            print("[RenderWebhook] ⚠️ No webhook URL set.")
+        time.sleep(300)  # every 5 min
 
 if __name__ == "__main__":
-    deploy_loop()
+    trigger_loop()
