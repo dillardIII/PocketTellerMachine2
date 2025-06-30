@@ -10,5 +10,8 @@
     "python macd_mod_8526.py",
     "python bollingerbands_mod_4211.py",
     "python ema_atr_6493.py",
-    "python atr_mod_7725.py"
+    "python atr_mod_7725.py",
+    "python atr_mod_1382.py",
+    "python ema_macd_rsi_3010.py",
+    "python macd_mod_8821.py"
 ]
