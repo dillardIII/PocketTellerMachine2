@@ -13,5 +13,17 @@
         "profits": 0,
         "losses": 0,
         "xp": 1
+    },
+    "ema_mod_7921.py": {
+        "profits": 0,
+        "losses": 0
+    },
+    "macd_mod_1581.py": {
+        "profits": 0,
+        "losses": 0
+    },
+    "ema_mod_4035.py": {
+        "profits": 0,
+        "losses": 0
     }
 }
