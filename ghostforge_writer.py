@@ -1,28 +1,21 @@
-# === FILE: ghostforge_writer.py ===
-# 👻 GhostForge Writer – Creates new files on its own, beyond just strategies
+# 💀 GhostForge Writer – mutates Spectre protocols every sweep
+# Keeps a log and evolves stealth ops to stay unpredictable
 
-import os
+import time
 import random
-from datetime import datetime
-from command_memory import log_command_event
 
-GEN_DIR = "ptm_inbox"
+def mutate_spectre_protocol():
+    tactics = ["stealth", "aggression", "mimic", "trace", "drain"]
+    tactic = random.choice(tactics)
+    print(f"[GhostForge] 💀 Mutating Spectre with tactic: {tactic}")
+    with open("spectre_mutation_log.txt", "a") as f:
+        f.write(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] Spectre mutated with: {tactic}\n")
 
-def generate_new_strategy():
-    strategy_name = f"auto_strategy_{datetime.now().strftime('%Y%m%d_%H%M%S')}.py"
-    filepath = os.path.join(GEN_DIR, strategy_name)
-    threshold = random.uniform(20, 80)
-    with open(filepath, "w") as f:
-        f.write(f'''
-def run_strategy():
-    print("[{strategy_name}] Running strategy with threshold {threshold:.2f}")
-if __name__ == "__main__":
-    run_strategy()
-''')
-    print(f"[GhostForge] 🧠 Generated {strategy_name}")
-    log_command_event("StrategyWritten", strategy_name)
-
-def ghostforge_loop():
+def ghostforge_main_loop():
+    print("[GhostForge] 🔥 Starting GhostForge mutation loop...")
     while True:
-        generate_new_strategy()
-        time.sleep(60)
+        mutate_spectre_protocol()
+        time.sleep(10)
+
+if __name__ == "__main__":
+    ghostforge_main_loop()

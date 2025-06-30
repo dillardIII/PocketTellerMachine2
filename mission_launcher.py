@@ -1,29 +1,19 @@
-# === FILE: mission_launcher.py ===
+# 🚀 Mission Launcher – Starts global ops (GhostNet, vault tasks, deep recon)
 
-# 🚀 Mission Launcher – Drops predefined code or logic files into PTM for execution
-
-import json
-from ghostforge_core import ghostforge_write
-
-MISSIONS = {
-    "build_greeter": {
-        "filename": "greeter.py",
-        "code": "print('Hello Boo, this is your PTM speaking.')"
-    },
-    "trigger_log_dump": {
-        "filename": "log_dump.py",
-        "code": "print('Dumping log files...')"
-    }
-}
+import threading
+import time
 
 def launch_mission(name):
-    mission = MISSIONS.get(name)
-    if not mission:
-        print(f"[MissionLauncher] ❌ Unknown mission: {name}")
-        return
+    print(f"[MissionLauncher] 🚀 Launching mission: {name}")
+    time.sleep(2)
+    print(f"[MissionLauncher] ✅ Mission '{name}' now active.")
 
-    ghostforge_write(mission['filename'], mission['code'])
-    print(f"[MissionLauncher] 🚀 Mission '{name}' launched.")
+def start_campaign_stack():
+    campaigns = ["GhostNet Deep Dive", "Vault Scan", "QuantumMind Uplink"]
+    for campaign in campaigns:
+        t = threading.Thread(target=launch_mission, args=(campaign,))
+        t.start()
+        time.sleep(1)
 
 if __name__ == "__main__":
-    launch_mission("build_greeter")
+    start_campaign_stack()

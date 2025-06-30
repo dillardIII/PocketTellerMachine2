@@ -1,88 +1,24 @@
-# === FILE: vault_manager.py ===
-# 💼 Vault Manager – Handles all vault operations, logging, snapshots, and partial key recombining
+# 💰 Vault Manager – Handles MetaMask vault triggers & payouts
 
-import os
 import json
-from datetime import datetime
+import os
 
-# === FILE LOCATIONS ===
-VAULT_LOG = "vault/vault_log.json"
-VAULT_FILE = "vault.json"
+WALLET_FILE = "vault/wallet_state.json"
 
-# === LOG A NEW VAULT EVENT ===
-def log_vault_entry(event_type, data):
-    os.makedirs("vault", exist_ok=True)
-    entry = {
-        "timestamp": datetime.utcnow().isoformat(),
-        "type": event_type,
-        "data": data
-    }
+def load_wallet():
+    if not os.path.exists(WALLET_FILE):
+        print("[VaultManager] 🚫 No wallet state found.")
+        return {}
+    with open(WALLET_FILE, "r") as f:
+        return json.load(f)
 
-    if os.path.exists(VAULT_LOG):
-        try:
-            with open(VAULT_LOG, "r") as f:
-                vault = json.load(f)
-        except json.JSONDecodeError:
-            print("[VaultManager] ⚠️ Corrupt log file, resetting.")
-            vault = []
-    else:
-        vault = []
+def payout(amount, to_address):
+    print(f"[VaultManager] 💸 Payout of {amount} ETH initiated to {to_address}")
+    # Normally you'd trigger Web3 call here
+    # Example: web3.eth.send_transaction({...})
+    print("[VaultManager] ✅ Payout completed.")
 
-    vault.append(entry)
-
-    with open(VAULT_LOG, "w") as f:
-        json.dump(vault, f, indent=4)
-
-    print(f"[VaultManager] 🧾 Logged event: {event_type}")
-
-# === LOAD FULL VAULT STRUCTURE SAFELY ===
-def load_vault():
-    try:
-        if not os.path.exists(VAULT_FILE):
-            print("[VaultManager] 🗃️ No vault found, creating new.")
-            with open(VAULT_FILE, "w") as f:
-                json.dump({"assets": [], "partial_keys": []}, f)
-        with open(VAULT_FILE) as f:
-            return json.load(f)
-    except json.JSONDecodeError:
-        print("[VaultManager] ❌ Corrupt vault file detected, resetting.")
-        with open(VAULT_FILE, "w") as f:
-            json.dump({"assets": [], "partial_keys": []}, f)
-        return {"assets": [], "partial_keys": []}
-
-# === SAVE ENTIRE VAULT STRUCTURE ===
-def save_vault(data):
-    try:
-        with open(VAULT_FILE, "w") as f:
-            json.dump(data, f, indent=2)
-        print("[VaultManager] 💾 Vault saved.")
-    except Exception as e:
-        print(f"[VaultManager] ❌ Failed to save vault: {e}")
-
-# === FORCE RECOMBINE PARTIAL KEYS LOGGED & SAVE ===
-def force_recombine_partials():
-    vault = load_vault()
-    if vault.get("partial_keys"):
-        print("[VaultManager] 🔑 Attempting recombine of partial keys...")
-        vault["partial_keys"] = []
-        new_asset = {
-            "type": "key",
-            "status": "recombined",
-            "timestamp": datetime.utcnow().isoformat()
-        }
-        vault["assets"].append(new_asset)
-        save_vault(vault)
-        log_vault_entry("recombine", {"status": "success", "new_asset": new_asset})
-    else:
-        print("[VaultManager] 💤 No partial keys to recombine.")
-
-# === SIMPLE FORCE RECOMBINE WITHOUT LOGGING FOR INLINE CALLS ===
-def simple_force_recombine():
-    vault = load_vault()
-    if vault.get("partial_keys"):
-        print("[VaultManager] 🔑 Combining partial keys...")
-        vault["partial_keys"] = []
-        vault["assets"].append({"type": "key", "status": "recombined"})
-        save_vault(vault)
-    else:
-        print("[VaultManager] 💤 Nothing to combine.")
+if __name__ == "__main__":
+    wallet = load_wallet()
+    print("[VaultManager] 📝 Current wallet state:", wallet)
+    payout(0.01, "0xExampleETHAddress123")
