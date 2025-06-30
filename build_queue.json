@@ -28,5 +28,8 @@
     "python atr_mod_6092.py",
     "python bollingerbands_mod_1466.py",
     "python ema_macd_4076.py",
-    "python atr_mod_1570.py"
+    "python atr_mod_1570.py",
+    "python ema_mod_6492.py",
+    "python ema_atr_bollingerbands_1357.py",
+    "python bollingerbands_mod_4149.py"
 ]

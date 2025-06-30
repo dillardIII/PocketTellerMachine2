@@ -342,3 +342,56 @@
 [2025-06-30 06:29:08] [SelfArchitect] ➕ Queued execution: python ema_macd_4076.py
 [2025-06-30 06:29:08] [AutoCoder] 🧬 Created new module: atr_mod_1570.py with ATR
 [2025-06-30 06:29:08] [AutoCoder] ➕ Queued execution: python atr_mod_1570.py
+[2025-06-30 06:29:11] [ghost_bridge_watcher] 🔗 Synced all platforms.
+[2025-06-30 06:29:13] [AutoBuilder] ⚠️ Failed to check ETH balance: 401 Client Error: Unauthorized for url: https://mainnet.infura.io/v3/YOUR_INFURA_KEY
+[2025-06-30 06:29:13] [AutoBuilder] BNB balance: 0.00000
+[2025-06-30 06:29:13] [AutoBuilder] Δ BNB: 0.00000
+[2025-06-30 06:29:13] [AutoBuilder] MATIC balance: 0.00000
+[2025-06-30 06:29:13] [AutoBuilder] ⚠️ Failed to check MATIC balance: unsupported operand type(s) for +=: 'float' and 'decimal.Decimal'
+[2025-06-30 06:29:13] [AutoBuilder] ARB balance: 0.00000
+[2025-06-30 06:29:13] [AutoBuilder] Δ ARB: 0.00000
+[2025-06-30 06:29:13] [AutoBuilder] 🧬 Crossbred ema_mod_5759.py + bollingerbands_macd_8448.py -> ema_mo_bollin_x_7379
+[2025-06-30 06:29:23] [ghost_entropy_mutator] 🔥 Generated new entropy pool.
+[2025-06-30 06:29:25] [AutoBuilder] ⚠️ Failed to check ETH balance: 401 Client Error: Unauthorized for url: https://mainnet.infura.io/v3/YOUR_INFURA_KEY
+[2025-06-30 06:29:25] [AutoBuilder] BNB balance: 0.00000
+[2025-06-30 06:29:25] [AutoBuilder] Δ BNB: 0.00000
+[2025-06-30 06:29:25] [AutoBuilder] MATIC balance: 0.00000
+[2025-06-30 06:29:25] [AutoBuilder] ⚠️ Failed to check MATIC balance: unsupported operand type(s) for +=: 'float' and 'decimal.Decimal'
+[2025-06-30 06:29:25] [AutoBuilder] ARB balance: 0.00000
+[2025-06-30 06:29:25] [AutoBuilder] Δ ARB: 0.00000
+[2025-06-30 06:29:25] [AutoBuilder] 🧬 Crossbred ema_mod_5759.py + bollingerbands_macd_8448.py -> ema_mo_bollin_x_8717
+[2025-06-30 06:29:37] [AutoBuilder] ⚠️ Failed to check ETH balance: 401 Client Error: Unauthorized for url: https://mainnet.infura.io/v3/YOUR_INFURA_KEY
+[2025-06-30 06:29:37] [AutoBuilder] BNB balance: 0.00000
+[2025-06-30 06:29:37] [AutoBuilder] Δ BNB: 0.00000
+[2025-06-30 06:29:37] [AutoBuilder] MATIC balance: 0.00000
+[2025-06-30 06:29:37] [AutoBuilder] ⚠️ Failed to check MATIC balance: unsupported operand type(s) for +=: 'float' and 'decimal.Decimal'
+[2025-06-30 06:29:37] [AutoBuilder] ARB balance: 0.00000
+[2025-06-30 06:29:37] [AutoBuilder] Δ ARB: 0.00000
+[2025-06-30 06:29:37] [AutoBuilder] 🧬 Crossbred ema_mod_5759.py + bollingerbands_macd_8448.py -> ema_mo_bollin_x_7995
+[2025-06-30 06:29:38] [ghost_entropy_mutator] 🔥 Generated new entropy pool.
+[2025-06-30 06:29:38] [ghost_qubit_optimizer] ⚛️ Ran quantum bias on entropy pool.
+[2025-06-30 06:29:38] [AutoCoder] 🧬 Created new module: ema_mod_6492.py with EMA
+[2025-06-30 06:29:38] [AutoCoder] ➕ Queued execution: python ema_mod_6492.py
+[2025-06-30 06:29:49] [AutoBuilder] ⚠️ Failed to check ETH balance: 401 Client Error: Unauthorized for url: https://mainnet.infura.io/v3/YOUR_INFURA_KEY
+[2025-06-30 06:29:49] [AutoBuilder] BNB balance: 0.00000
+[2025-06-30 06:29:49] [AutoBuilder] Δ BNB: 0.00000
+[2025-06-30 06:29:49] [AutoBuilder] MATIC balance: 0.00000
+[2025-06-30 06:29:49] [AutoBuilder] ⚠️ Failed to check MATIC balance: unsupported operand type(s) for +=: 'float' and 'decimal.Decimal'
+[2025-06-30 06:29:49] [AutoBuilder] ARB balance: 0.00000
+[2025-06-30 06:29:49] [AutoBuilder] Δ ARB: 0.00000
+[2025-06-30 06:29:49] [AutoBuilder] 🧬 Crossbred ema_mod_5759.py + bollingerbands_macd_8448.py -> ema_mo_bollin_x_3755
+[2025-06-30 06:29:53] [ghost_entropy_mutator] 🔥 Generated new entropy pool.
+[2025-06-30 06:30:01] [AutoBuilder] ⚠️ Failed to check ETH balance: 401 Client Error: Unauthorized for url: https://mainnet.infura.io/v3/YOUR_INFURA_KEY
+[2025-06-30 06:30:01] [AutoBuilder] BNB balance: 0.00000
+[2025-06-30 06:30:01] [AutoBuilder] Δ BNB: 0.00000
+[2025-06-30 06:30:01] [AutoBuilder] MATIC balance: 0.00000
+[2025-06-30 06:30:01] [AutoBuilder] ⚠️ Failed to check MATIC balance: unsupported operand type(s) for +=: 'float' and 'decimal.Decimal'
+[2025-06-30 06:30:01] [AutoBuilder] ARB balance: 0.00000
+[2025-06-30 06:30:01] [AutoBuilder] Δ ARB: 0.00000
+[2025-06-30 06:30:01] [AutoBuilder] 🧬 Crossbred ema_mod_5759.py + bollingerbands_macd_8448.py -> ema_mo_bollin_x_8641
+[2025-06-30 06:30:08] [ghost_entropy_mutator] 🔥 Generated new entropy pool.
+[2025-06-30 06:30:08] [SelfArchitect] 🏗️ Created multi-strategy module: ema_atr_bollingerbands_1357.py
+[2025-06-30 06:30:08] [SelfArchitect] ➕ Queued execution: python ema_atr_bollingerbands_1357.py
+[2025-06-30 06:30:08] [AutoCoder] 🧬 Created new module: bollingerbands_mod_4149.py with BollingerBands
+[2025-06-30 06:30:08] [AutoCoder] ➕ Queued execution: python bollingerbands_mod_4149.py
+[2025-06-30 06:30:08] [ghost_qubit_optimizer] ⚛️ Ran quantum bias on entropy pool.
