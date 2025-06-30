@@ -4,5 +4,7 @@
     "python macd_mod_7052.py",
     "python ema_mod_7921.py",
     "python macd_mod_1581.py",
-    "python ema_mod_4035.py"
+    "python ema_mod_4035.py",
+    "python rsi_mod_5180.py",
+    "python macd_ema_5283.py"
 ]
